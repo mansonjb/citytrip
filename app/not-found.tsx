@@ -1,8 +1,12 @@
 import Link from "next/link";
 import { cities } from "@/data";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
 
 export default function NotFound() {
   return (
+    <>
+    <SiteHeader />
     <div className="mx-auto max-w-3xl px-4 py-24 text-center">
       <p className="stamp mx-auto text-coral">Gate closed</p>
       <h1 className="font-display mt-6 text-6xl font-bold tracking-tight">
@@ -12,7 +16,7 @@ export default function NotFound() {
         This page missed its connection. The cities below are still boarding.
       </p>
       <div className="mt-8 flex flex-wrap justify-center gap-3">
-        {cities.map((c) => (
+        {cities("en").map((c) => (
           <Link
             key={c.slug}
             href={`/${c.slug}`}
@@ -23,5 +27,7 @@ export default function NotFound() {
         ))}
       </div>
     </div>
+    <SiteFooter />
+    </>
   );
 }

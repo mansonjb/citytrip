@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { cities } from "@/data";
-import { SITE_NAME } from "@/lib/site";
+import { STR, localePath, type Locale } from "@/lib/i18n";
 
-export function SiteFooter() {
+export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
+  const t = STR[locale].footer;
   return (
     <footer className="mt-20 border-t-2 border-ink bg-ink text-cream">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:grid-cols-3">
@@ -11,17 +12,18 @@ export function SiteFooter() {
             Perfect<span className="text-coral">City</span>Break
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/70">
-            The right number of days, the right neighborhood, the right month.
-            City break guides built from structured data and real opening
-            hours, not filler.
+            {t.tagline}
           </p>
         </div>
         <div>
-          <p className="label-mono mb-4 text-cream/50">Cities</p>
+          <p className="label-mono mb-4 text-cream/50">{t.cities}</p>
           <ul className="space-y-2 text-sm">
-            {cities.map((c) => (
+            {cities(locale).map((c) => (
               <li key={c.slug}>
-                <Link href={`/${c.slug}`} className="hover:underline">
+                <Link
+                  href={localePath(locale, `/${c.slug}`)}
+                  className="hover:underline"
+                >
                   {c.name}, {c.country}
                 </Link>
               </li>
@@ -29,26 +31,29 @@ export function SiteFooter() {
           </ul>
         </div>
         <div>
-          <p className="label-mono mb-4 text-cream/50">Site</p>
+          <p className="label-mono mb-4 text-cream/50">{t.site}</p>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="/destinations" className="hover:underline">
-                All destinations
+              <Link
+                href={localePath(locale, "/destinations")}
+                className="hover:underline"
+              >
+                {t.allDestinations}
               </Link>
             </li>
             <li>
               <Link href="/guides" className="hover:underline">
-                Travel guides
+                {t.travelGuides}
               </Link>
             </li>
             <li>
               <Link href="/about" className="hover:underline">
-                About and methodology
+                {t.aboutMethod}
               </Link>
             </li>
             <li>
               <Link href="/privacy" className="hover:underline">
-                Privacy policy
+                {t.privacy}
               </Link>
             </li>
           </ul>
@@ -56,9 +61,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-cream/15">
         <p className="mx-auto max-w-6xl px-4 py-4 text-xs text-cream/50">
-          {SITE_NAME} earns commissions from booking links (Stay22 and ticket
-          partners). This never changes the price you pay and never changes our
-          recommendations.
+          {t.disclosure}
         </p>
       </div>
     </footer>

@@ -1,10 +1,5 @@
 import type { DayPlan, Poi, Step } from "@/data/types";
-
-const SLOTS: { key: "morning" | "afternoon" | "evening"; label: string }[] = [
-  { key: "morning", label: "Morning" },
-  { key: "afternoon", label: "Afternoon" },
-  { key: "evening", label: "Evening" },
-];
+import { STR, type Locale } from "@/lib/i18n";
 
 function formatDuration(min?: number) {
   if (!min) return null;
@@ -14,7 +9,15 @@ function formatDuration(min?: number) {
   return m ? `${h}h${m.toString().padStart(2, "0")}` : `${h}h`;
 }
 
-function StepItem({ step, pois }: { step: Step; pois: Map<string, Poi> }) {
+function StepItem({
+  step,
+  pois,
+  locale,
+}: {
+  step: Step;
+  pois: Map<string, Poi>;
+  locale: Locale;
+}) {
   const poi = step.poiSlug ? pois.get(step.poiSlug) : undefined;
   const duration = formatDuration(step.durationMin);
   return (
@@ -32,11 +35,8 @@ function StepItem({ step, pois }: { step: Step; pois: Map<string, Poi> }) {
       <p className="mt-1 leading-relaxed text-ink/85">{step.text}</p>
       {poi?.tip ? (
         <p className="mt-2 rounded-lg border border-ink/15 bg-cream px-3 py-2 text-sm leading-relaxed">
-          <span
-            className="label-mono mr-2"
-            style={{ color: "var(--city)" }}
-          >
-            Tip
+          <span className="label-mono mr-2" style={{ color: "var(--city)" }}>
+            {STR[locale].common.tip}
           </span>
           {poi.tip}
         </p>
@@ -50,11 +50,19 @@ function StepItem({ step, pois }: { step: Step; pois: Map<string, Poi> }) {
 export function DayTimeline({
   dayPlans,
   pois,
+  locale = "en",
 }: {
   dayPlans: DayPlan[];
   pois: Poi[];
+  locale?: Locale;
 }) {
   const poiMap = new Map(pois.map((p) => [p.slug, p]));
+  const t = STR[locale].common;
+  const slots: { key: "morning" | "afternoon" | "evening"; label: string }[] = [
+    { key: "morning", label: t.morning },
+    { key: "afternoon", label: t.afternoon },
+    { key: "evening", label: t.evening },
+  ];
   return (
     <div className="space-y-12">
       {dayPlans.map((day) => (
@@ -71,14 +79,16 @@ export function DayTimeline({
               D{day.dayNumber}
             </span>
             <div>
-              <p className="label-mono text-ink/50">Day {day.dayNumber}</p>
+              <p className="label-mono text-ink/50">
+                {t.day} {day.dayNumber}
+              </p>
               <h3 className="font-display text-2xl font-semibold tracking-tight">
                 {day.theme}
               </h3>
             </div>
           </div>
           <div className="metro-line space-y-8 pb-2">
-            {SLOTS.map(({ key, label }) =>
+            {slots.map(({ key, label }) =>
               day[key].length ? (
                 <div key={key}>
                   <p className="label-mono relative mb-3 pl-10">
@@ -91,7 +101,7 @@ export function DayTimeline({
                   </p>
                   <ul className="space-y-5">
                     {day[key].map((step, i) => (
-                      <StepItem key={i} step={step} pois={poiMap} />
+                      <StepItem key={i} step={step} pois={poiMap} locale={locale} />
                     ))}
                   </ul>
                 </div>

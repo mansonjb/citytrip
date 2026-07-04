@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { AffiliateLink, stay22SearchUrl } from "./AffiliateLink";
+import { STR, type Locale } from "@/lib/i18n";
 
 // Lazy-loaded Stay22 embed: the iframe only mounts once the block scrolls
 // near the viewport, so it never competes with the LCP.
@@ -10,15 +11,18 @@ export function Stay22Map({
   lng,
   title,
   accent,
+  locale = "en",
 }: {
   lat: number;
   lng: number;
   title: string;
   accent?: string;
+  locale?: Locale;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
   const aid = process.env.NEXT_PUBLIC_STAY22_AID ?? "";
+  const t = STR[locale].stay22;
 
   useEffect(() => {
     const el = ref.current;
@@ -59,18 +63,18 @@ export function Stay22Map({
         />
       ) : (
         <div className="flex h-[420px] items-center justify-center bg-cream">
-          <span className="label-mono text-ink/50">Loading hotel map…</span>
+          <span className="label-mono text-ink/50">{t.loading}</span>
         </div>
       )}
       <div className="border-t border-ink/10 px-4 py-2 text-xs text-ink/60">
-        Map shows live hotel prices.{" "}
+        {t.mapNote}{" "}
         <AffiliateLink
           href={stay22SearchUrl({ lat, lng, aid })}
           className="underline underline-offset-2"
         >
-          Open the full hotel search
+          {t.openSearch}
         </AffiliateLink>
-        . Booking through it supports the site at no extra cost.
+        {t.supportNote}
       </div>
     </div>
   );

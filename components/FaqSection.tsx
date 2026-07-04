@@ -1,10 +1,17 @@
 import type { Faq } from "@/lib/seo";
+import { STR, type Locale } from "@/lib/i18n";
 
-export function FaqSection({ faqs }: { faqs: Faq[] }) {
+export function FaqSection({
+  faqs,
+  locale = "en",
+}: {
+  faqs: Faq[];
+  locale?: Locale;
+}) {
   return (
     <section id="faq" className="scroll-mt-28">
       <h2 className="font-display mb-6 text-3xl font-semibold tracking-tight">
-        Quick questions, straight answers
+        {STR[locale].common.faqTitle}
       </h2>
       <div className="space-y-3">
         {faqs.map((f) => (

@@ -2,6 +2,9 @@ export const SITE_NAME = "Perfect City Break";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 export const STAY22_AID = process.env.NEXT_PUBLIC_STAY22_AID ?? "";
+// Stay22 "Let Me Allez" campaign id: auto-monetizes outbound booking links.
+export const STAY22_LMA_ID =
+  process.env.NEXT_PUBLIC_STAY22_LMA_ID ?? "6a48d53e72afe45e1b3300b0";
 export const PLAUSIBLE_DOMAIN = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN ?? "";
 
 export const SITE_DESCRIPTION =

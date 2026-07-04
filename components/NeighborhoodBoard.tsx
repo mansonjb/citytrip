@@ -1,32 +1,33 @@
 import type { Neighborhood } from "@/data/types";
+import { STR, type Locale } from "@/lib/i18n";
 import { AffiliateLink, stay22SearchUrl } from "./AffiliateLink";
-
-const BEST_FOR_LABEL: Record<Neighborhood["bestFor"][number], string> = {
-  "first-time": "First visit",
-  nightlife: "Nightlife",
-  family: "Family",
-  budget: "Budget",
-  romantic: "Romantic",
-  local: "Local life",
-};
 
 // Departure-board style decision table: trip type -> neighborhood -> CTA.
 export function NeighborhoodBoard({
   neighborhoods,
+  locale = "en",
 }: {
   neighborhoods: Neighborhood[];
+  locale?: Locale;
 }) {
   const aid = process.env.NEXT_PUBLIC_STAY22_AID ?? "";
+  const t = STR[locale];
   return (
     <div className="overflow-x-auto rounded-2xl bg-paper hard-shadow">
       <table className="w-full min-w-[560px] border-collapse text-sm">
         <thead>
           <tr className="bg-ink text-left">
-            <th className="label-mono px-4 py-3 text-cream">Neighborhood</th>
-            <th className="label-mono px-4 py-3 text-cream">Book if you want</th>
-            <th className="label-mono px-4 py-3 text-cream">Watch out</th>
+            <th className="label-mono px-4 py-3 text-cream">
+              {t.wts.boardNeighborhood}
+            </th>
+            <th className="label-mono px-4 py-3 text-cream">
+              {t.wts.boardBookIf}
+            </th>
+            <th className="label-mono px-4 py-3 text-cream">
+              {t.wts.boardWatchOut}
+            </th>
             <th className="label-mono px-4 py-3 text-right text-cream">
-              Hotels
+              {t.wts.boardHotels}
             </th>
           </tr>
         </thead>
@@ -46,7 +47,7 @@ export function NeighborhoodBoard({
                       key={b}
                       className="label-mono rounded-full border border-ink/25 px-2 py-0.5 text-[0.6rem] text-ink/60"
                     >
-                      {BEST_FOR_LABEL[b]}
+                      {t.bestFor[b]}
                     </span>
                   ))}
                 </p>
@@ -58,7 +59,7 @@ export function NeighborhoodBoard({
                   href={stay22SearchUrl({ lat: n.lat, lng: n.lng, aid })}
                   className="label-mono inline-block whitespace-nowrap rounded-full border-2 border-ink bg-ink px-3 py-1.5 font-semibold text-white"
                 >
-                  Check prices
+                  {t.common.checkPrices}
                 </AffiliateLink>
               </td>
             </tr>

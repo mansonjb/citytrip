@@ -1,19 +1,25 @@
 import Link from "next/link";
 import type { City } from "@/data/types";
-import { MONTHS } from "@/lib/months";
+import { STR, localePath, monthShort, type Locale } from "@/lib/i18n";
 
 const BUDGET_LABEL = { low: "€", mid: "€€", high: "€€€" } as const;
 
 // Editorial destination card: gradient identity block + mono facts strip.
-export function CityCard({ city }: { city: City }) {
+export function CityCard({
+  city,
+  locale = "en",
+}: {
+  city: City;
+  locale?: Locale;
+}) {
+  const t = STR[locale].cityCard;
   const best = city.bestMonths
     .slice(0, 3)
-    .map((m) => MONTHS.find((x) => x.num === m)?.short)
-    .filter(Boolean)
+    .map((m) => monthShort(locale, m))
     .join(" · ");
   return (
     <Link
-      href={`/${city.slug}`}
+      href={localePath(locale, `/${city.slug}`)}
       className="group block overflow-hidden rounded-2xl bg-paper hard-shadow transition-transform hover:-translate-y-1"
       style={{
         ["--city" as string]: city.accent.from,
@@ -30,15 +36,15 @@ export function CityCard({ city }: { city: City }) {
       </div>
       <div className="grid grid-cols-3 divide-x-2 divide-ink border-t-2 border-ink text-center">
         <div className="px-2 py-3">
-          <p className="label-mono text-ink/45">Days</p>
+          <p className="label-mono text-ink/45">{t.days}</p>
           <p className="font-mono text-sm font-bold">{city.idealDays}</p>
         </div>
         <div className="px-2 py-3">
-          <p className="label-mono text-ink/45">Best</p>
+          <p className="label-mono text-ink/45">{t.best}</p>
           <p className="font-mono text-sm font-bold">{best}</p>
         </div>
         <div className="px-2 py-3">
-          <p className="label-mono text-ink/45">Budget</p>
+          <p className="label-mono text-ink/45">{t.budget}</p>
           <p className="font-mono text-sm font-bold">
             {BUDGET_LABEL[city.budgetLevel]}
           </p>

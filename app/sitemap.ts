@@ -3,54 +3,48 @@ import { cityBundles, countries } from "@/data";
 import { MONTHS } from "@/lib/months";
 import { listGuides } from "@/lib/guides";
 import { absoluteUrl } from "@/lib/site";
+import { LOCALES, localePath } from "@/lib/i18n";
+
+// One entry per locale per page, with hreflang alternates linking siblings.
+function localized(
+  path: string,
+  priority: number,
+  now: Date
+): MetadataRoute.Sitemap {
+  const languages: Record<string, string> = {};
+  for (const l of LOCALES) languages[l] = absoluteUrl(localePath(l, path));
+  return LOCALES.map((l) => ({
+    url: absoluteUrl(localePath(l, path)),
+    lastModified: now,
+    priority: l === "en" ? priority : Math.max(0.1, priority - 0.1),
+    alternates: { languages },
+  }));
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const entries: MetadataRoute.Sitemap = [
-    { url: absoluteUrl("/"), lastModified: now, priority: 1 },
-    { url: absoluteUrl("/destinations"), lastModified: now, priority: 0.8 },
+    ...localized("/", 1, now),
+    ...localized("/destinations", 0.8, now),
+    // EN-only editorial section
     { url: absoluteUrl("/guides"), lastModified: now, priority: 0.7 },
     { url: absoluteUrl("/guides/how-many-days"), lastModified: now, priority: 0.8 },
     { url: absoluteUrl("/about"), lastModified: now, priority: 0.3 },
   ];
 
-  for (const g of countries()) {
-    entries.push({
-      url: absoluteUrl(`/destinations/${g.slug}`),
-      lastModified: now,
-      priority: 0.6,
-    });
+  for (const g of countries("en")) {
+    entries.push(...localized(`/destinations/${g.slug}`, 0.6, now));
   }
 
-  for (const { city } of cityBundles) {
-    entries.push({
-      url: absoluteUrl(`/${city.slug}`),
-      lastModified: now,
-      priority: 0.9,
-    });
-    entries.push({
-      url: absoluteUrl(`/${city.slug}/where-to-stay`),
-      lastModified: now,
-      priority: 0.9,
-    });
-    entries.push({
-      url: absoluteUrl(`/${city.slug}/on-a-budget`),
-      lastModified: now,
-      priority: 0.7,
-    });
+  for (const { city } of cityBundles("en")) {
+    entries.push(...localized(`/${city.slug}`, 0.9, now));
+    entries.push(...localized(`/${city.slug}/where-to-stay`, 0.9, now));
+    entries.push(...localized(`/${city.slug}/on-a-budget`, 0.7, now));
     for (const d of city.durations) {
-      entries.push({
-        url: absoluteUrl(`/${city.slug}/${d}-days`),
-        lastModified: now,
-        priority: 0.9,
-      });
+      entries.push(...localized(`/${city.slug}/${d}-days`, 0.9, now));
     }
     for (const m of MONTHS) {
-      entries.push({
-        url: absoluteUrl(`/${city.slug}/${m.slug}`),
-        lastModified: now,
-        priority: 0.6,
-      });
+      entries.push(...localized(`/${city.slug}/${m.slug}`, 0.6, now));
     }
   }
 

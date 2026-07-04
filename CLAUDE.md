@@ -12,11 +12,26 @@ par ville (City.accent, injecté via cityVars() -> variables CSS --city).
 Composants signature : BoardingPass (quick answer), DayTimeline (ligne de
 métro), NeighborhoodBoard (tableau départ), Stamp, hard-shadow.
 
+## i18n (5 locales : en racine, /fr /pt /it /de)
+- UI : dictionnaires lib/i18n/{en,fr,pt,it,de}.ts (en.ts = shape canonique,
+  les autres typés `typeof en`). Interpolation via fmt() et {placeholders}.
+- Contenu : un fichier de données PAR locale (data/cities/<slug>.<locale>.ts,
+  data/hotels.<locale>.ts), même structure, seuls les champs rédigés traduits
+  (slugs/nombres/coords/enums/URLs identiques). Registres : data/index.ts
+  (bundlesByLocale) et data/hotels.ts (byLocale).
+- Routes : templates partagés dans app/_shared/*.tsx (factories make*(locale)),
+  wrappers minces dans app/(en)/ et app/{fr,pt,it,de}/. Slugs d'URL identiques
+  dans toutes les langues ("3-days", "in-february"). hreflang + canonical via
+  lib/i18n (hreflangs, localePath). Guides MDX + about/privacy : EN uniquement.
+- Italien : préposition mois = "in {month}" (jamais "a {month}", problème
+  euphonique "a aprile").
+
 ## Règles
 - Données programmatiques : uniquement dans /data, typées (voir data/types.ts).
   Pour ajouter une ville : créer data/cities/<slug>.ts (City + Neighborhoods +
   Pois + Itineraries, une par durée) en suivant exactement le pattern de
-  lisbon.ts, puis l'enregistrer dans data/index.ts (import + cityBundles).
+  lisbon.ts, PUIS ses 4 traductions <slug>.{fr,pt,it,de}.ts, puis l'enregistrer
+  dans data/index.ts (bundlesByLocale, les 5 tableaux).
 - Contenu éditorial : MDX dans /content (frontmatter title, description,
   date, tag: Comparison|Seasonal|Planning|Guide).
 - Hôtels (pattern HotelsWithPets) : 4 picks par ville dans data/hotels.ts
