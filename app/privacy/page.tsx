@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy policy",
-  description: "How CityTrip Guides handles data: no cookies, no tracking pixels, privacy-friendly analytics.",
+  description: "How Perfect City Break handles data: no cookies, no tracking pixels, privacy-friendly analytics.",
   alternates: { canonical: "/privacy" },
   robots: { index: false },
 };

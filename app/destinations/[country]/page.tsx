@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!group) return {};
   return {
     title: `City breaks in ${group.name}: where to go and for how long`,
-    description: `Every ${group.name} city break on CityTrip: ideal trip length, best months and honest budgets for each city.`,
+    description: `Every ${group.name} city break on Perfect City Break: ideal trip length, best months and honest budgets for each city.`,
     alternates: { canonical: `/destinations/${group.slug}` },
   };
 }

@@ -1,4 +1,4 @@
-export const SITE_NAME = "CityTrip Guides";
+export const SITE_NAME = "Perfect City Break";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 export const STAY22_AID = process.env.NEXT_PUBLIC_STAY22_AID ?? "";

@@ -44,7 +44,7 @@ export default async function OgImage({
             color: "#ffffff",
           }}
         >
-          <span>CITYTRIP GUIDES</span>
+          <span>PERFECTCITYBREAK.COM</span>
           <span>
             {city?.airportCode ?? ""} · {city?.country.toUpperCase() ?? ""}
           </span>

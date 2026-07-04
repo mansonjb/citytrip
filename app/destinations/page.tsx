@@ -8,7 +8,7 @@ import { breadcrumbSchema, itemListSchema } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "City break destinations: every city, compared honestly",
   description:
-    "All CityTrip destinations with the number of days each one really needs, the best months and honest budgets. Europe first, the world next.",
+    "All Perfect City Break destinations with the number of days each one really needs, the best months and honest budgets. Europe first, the world next.",
   alternates: { canonical: "/destinations" },
 };
 

@@ -30,7 +30,7 @@ export function stay22HotelUrl(opts: {
   aid: string;
 }): string {
   const params = new URLSearchParams({
-    aid: opts.aid || "citytrip",
+    aid: opts.aid || "perfectcitybreak",
     address: `${opts.hotelName}, ${opts.cityName}`,
   });
   return `https://www.stay22.com/allez/booking?${params.toString()}`;
@@ -43,7 +43,7 @@ export function stay22SearchUrl(opts: {
   checkin?: string;
 }): string {
   const params = new URLSearchParams({
-    aid: opts.aid || "citytrip",
+    aid: opts.aid || "perfectcitybreak",
     lat: String(opts.lat),
     lng: String(opts.lng),
   });

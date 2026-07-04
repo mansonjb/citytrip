@@ -5,9 +5,9 @@ import { breadcrumbSchema } from "@/lib/seo";
 import { Stamp } from "@/components/Stamp";
 
 export const metadata: Metadata = {
-  title: "About CityTrip: how these guides are built",
+  title: "About Perfect City Break: how these guides are built",
   description:
-    "The methodology behind CityTrip Guides: how we decide how many days a city needs, how neighborhoods are compared, and how the site makes money.",
+    "The methodology behind Perfect City Break: how we decide how many days a city needs, how neighborhoods are compared, and how the site makes money.",
   alternates: { canonical: "/about" },
 };
 

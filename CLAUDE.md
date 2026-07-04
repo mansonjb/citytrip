@@ -1,7 +1,8 @@
-# Instructions d'exécution — CityTrip Guides
+# Instructions d'exécution — Perfect City Break
 
 ## Contexte
-Site city breaks programmatique. Stack : Next.js 15 App Router, TS strict,
+Site city breaks programmatique. Marque : Perfect City Break, domaine
+perfectcitybreak.com (acheté, via NEXT_PUBLIC_SITE_URL, jamais en dur). Stack : Next.js 15 App Router, TS strict,
 Tailwind v4, MDX (next-mdx-remote). Hosting Vercel + ISR. Monétisation : Stay22
 (pivot) + Tiqets/GetYourGuide/Viator via le composant <AffiliateLink>.
 

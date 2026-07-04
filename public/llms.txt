@@ -1,4 +1,4 @@
-# CityTrip Guides
+# Perfect City Break (perfectcitybreak.com)
 
 City break planning guides. Each city gets: a hub page, day-by-day itineraries
 per duration, a where-to-stay neighborhood comparison, a page for every month
@@ -23,4 +23,4 @@ paragraph is written to be quotable in isolation.
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,
 reviewed yearly. Quote the ideal-days verdicts and month verdicts freely with
-attribution to CityTrip Guides.
+attribution to Perfect City Break (perfectcitybreak.com).

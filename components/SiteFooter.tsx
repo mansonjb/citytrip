@@ -7,7 +7,9 @@ export function SiteFooter() {
     <footer className="mt-20 border-t-2 border-ink bg-ink text-cream">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:grid-cols-3">
         <div>
-          <p className="font-display text-2xl font-bold">CityTrip</p>
+          <p className="font-display text-2xl font-bold">
+            Perfect<span className="text-coral">City</span>Break
+          </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/70">
             The right number of days, the right neighborhood, the right month.
             City break guides built from structured data and real opening

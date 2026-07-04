@@ -6,10 +6,10 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
         <Link href="/" className="flex items-baseline gap-2">
           <span className="font-display text-xl font-bold tracking-tight">
-            CityTrip
+            Perfect<span className="text-coral">City</span>Break
           </span>
           <span className="label-mono hidden text-ink/60 sm:inline">
-            guides
+            .com
           </span>
         </Link>
         <nav className="flex items-center gap-4 sm:gap-6">

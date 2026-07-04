@@ -1,4 +1,4 @@
-# CityTrip Guides
+# Perfect City Break — perfectcitybreak.com
 
 Programmatic SEO + affiliate site for city breaks. The right number of days,
 the right neighborhood, the right month, for each city.
