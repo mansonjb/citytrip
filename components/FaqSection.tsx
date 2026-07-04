@@ -4,14 +4,16 @@ import { STR, type Locale } from "@/lib/i18n";
 export function FaqSection({
   faqs,
   locale = "en",
+  heading,
 }: {
   faqs: Faq[];
   locale?: Locale;
+  heading?: string;
 }) {
   return (
     <section id="faq" className="scroll-mt-28">
       <h2 className="font-display mb-6 text-3xl font-semibold tracking-tight">
-        {STR[locale].common.faqTitle}
+        {heading ?? STR[locale].common.faqTitle}
       </h2>
       <div className="space-y-3">
         {faqs.map((f) => (

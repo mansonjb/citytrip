@@ -177,6 +177,122 @@ const hotelsPt: Hotel[] = [
     image: px(271624),
     imageAlt: "Quarto de hotel simples e luminoso com secretária e cama de casal",
   },
+
+  // ---- Porto ----
+  {
+    slug: "the-yeatman",
+    citySlug: "porto",
+    name: "The Yeatman",
+    neighborhoodSlug: "vila-nova-de-gaia",
+    band: "€€€",
+    priceFrom: 260,
+    style: "Hotel de vinho com vista",
+    bestFor: "Vistas",
+    blurb:
+      "Um hotel de luxo com tema de vinho em socalcos pela encosta de Gaia, com piscina infinita e quartos que olham a direito, do outro lado do Douro, para a cidade velha do Porto. É um sítio íngreme, mas o funicular e a vista do pequeno-almoço compensam.",
+    image: px(261102),
+    imageAlt: "Piscina infinita de hotel ao entardecer sobre um rio e uma cidade velha",
+  },
+  {
+    slug: "pestana-vintage-porto",
+    citySlug: "porto",
+    name: "Pestana Vintage Porto",
+    neighborhoodSlug: "ribeira",
+    band: "€€",
+    priceFrom: 140,
+    style: "Casas mercantis à beira-rio",
+    bestFor: "Primeira visita",
+    blurb:
+      "Uma fila de casas mercantis restauradas mesmo no cais da Ribeira, por isso sai porta fora para dentro do postal. Peça um quarto com vista para o rio; os das traseiras dão para as vielas e perdem o Douro por completo.",
+    image: px(1001965),
+    imageAlt: "Lobby histórico ornamentado com arcos e vegetação",
+  },
+  {
+    slug: "grande-hotel-do-porto",
+    citySlug: "porto",
+    name: "Grande Hotel do Porto",
+    neighborhoodSlug: "baixa",
+    band: "€€",
+    priceFrom: 100,
+    style: "Clássico desde 1880",
+    bestFor: "Central e acessível a pé",
+    blurb:
+      "O mais antigo grande hotel do Porto fica na pedonal Rua de Santa Catarina, a cinco minutos da estação de São Bento e do mercado do Bolhão. O edifício é do século XIX; os quartos são tradicionais e sossegados, uma troca justa pela localização.",
+    image: px(164595),
+    imageAlt: "Quarto de hotel tradicional com madeira escura e roupa de cama impecável",
+  },
+  {
+    slug: "gallery-hostel-porto",
+    citySlug: "porto",
+    name: "Gallery Hostel",
+    neighborhoodSlug: "cedofeita",
+    band: "€",
+    priceFrom: 40,
+    style: "Hostel de design",
+    bestFor: "Orçamento apertado",
+    blurb:
+      "Um hostel cheio de arte na rua das galerias de Cedofeita, com quartos privados além dos dormitórios e um pequeno jardim nas traseiras. Fica entre as lojas independentes e as tascas baratas, a dez minutos de subida das multidões do rio.",
+    image: px(279805),
+    imageAlt: "Candeeiro de cabeceira e detalhe da cama num quarto de guesthouse",
+  },
+
+  // ---- Budapeste ----
+  {
+    slug: "four-seasons-gresham-palace",
+    citySlug: "budapest",
+    name: "Four Seasons Gresham Palace",
+    neighborhoodSlug: "belvaros",
+    band: "€€€",
+    priceFrom: 320,
+    style: "Palácio Arte Nova",
+    bestFor: "Estadia num marco",
+    blurb:
+      "Um palácio Arte Nova de 1906 restaurado, na ponta de Pest da Ponte das Correntes, com quartos virados para o Danúbio que olham para o Castelo de Buda. A localização é a mais central que Budapeste dá, a dois passos do elétrico ribeirinho e da Basílica de Santo Estêvão.",
+    image: px(338504),
+    imageAlt: "Quarto de hotel grandioso com lustre e teto abobadado",
+  },
+  {
+    slug: "aria-hotel-budapest",
+    citySlug: "budapest",
+    name: "Aria Hotel Budapest",
+    neighborhoodSlug: "belvaros",
+    band: "€€€",
+    priceFrom: 230,
+    style: "Rooftop bar",
+    bestFor: "Copos ao pôr do sol",
+    blurb:
+      "Um cinco estrelas com tema musical ao lado da Basílica de Santo Estêvão, conhecido sobretudo pelo seu rooftop bar High Note sobre as cúpulas. Até quem não fica hospedado faz fila para o terraço ao pôr do sol, por isso reserve o quarto e salte a fila.",
+    image: px(2290753),
+    imageAlt: "Terraço de hotel no rooftop ao entardecer com mesas e vista da cidade",
+  },
+  {
+    slug: "hotel-rum-budapest",
+    citySlug: "budapest",
+    name: "Hotel Rum Budapest",
+    neighborhoodSlug: "belvaros",
+    band: "€€",
+    priceFrom: 120,
+    style: "Hotel de design",
+    bestFor: "Amantes de design",
+    blurb:
+      "Um hotel de design moderno e apurado numa rua lateral sossegada da baixa, a dois minutos a pé do Mercado Central e do Danúbio. O terraço no rooftop e a localização entre os pontos turísticos de Pest e o rio são a atração.",
+    image: px(1267438),
+    imageAlt: "Quarto de hotel de design minimalista em tons escuros com luz baixa",
+  },
+  {
+    slug: "maverick-city-lodge",
+    citySlug: "budapest",
+    name: "Maverick City Lodge",
+    neighborhoodSlug: "belvaros",
+    band: "€",
+    priceFrom: 55,
+    style: "Hostel boutique",
+    bestFor: "Orçamento apertado",
+    blurb:
+      "Um hostel boutique dentro de um edifício histórico da baixa, com quartos privados que parecem um hotel barato e uma localização a minutos da Rua Váci e dos ruin bars. Uma das camas com melhor relação qualidade-preço dentro do pequeno anel viário.",
+    image: px(271624),
+    imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
+  },
 ];
 
 export default hotelsPt;

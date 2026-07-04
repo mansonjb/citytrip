@@ -132,6 +132,17 @@ const pt: typeof en = {
     monthsIntro:
       "Os meses a cores são a altura ideal. Os meses rasurados vêm com um aviso. Cada página cobre meteorologia, multidões, preços e o que levar na mala.",
     mapTitle: "Preços de hotéis neste momento",
+    historyTitle: "Um pouco de história",
+    knownForTitle: "{city} é conhecida por",
+    faqAroundQ: "É fácil deslocar-se em {city}?",
+    faqAroundAWalk:
+      "Sim. {city} tem um centro que se percorre a pé, por isso a maior parte de uma viagem curta faz-se a pé. {airport}",
+    faqAroundASpread:
+      "{city} é uma cidade espalhada, por isso conte com transportes públicos entre as zonas. {airport}",
+    faqAirportQ: "Como vou do aeroporto ao centro de {city}?",
+    faqAirportA: "{airport} É a opção mais barata e, normalmente, a mais rápida.",
+    faqKnownQ: "Pelo que é conhecida {city}?",
+    faqKnownA: "{city} é sobretudo conhecida por {list}. {history}",
     tightBudget: "Orçamento apertado?",
     budgetCard: "{city} com pouco dinheiro: a mesma viagem por cerca de {price} EUR por dia",
     readBudget: "Ler o guia de orçamento →",
@@ -298,6 +309,33 @@ const pt: typeof en = {
     boarding: "embarque →",
     whereNext: "Para onde a seguir?",
     allDest: "Todos os destinos",
+    searchPlaceholder: "Procure uma cidade, ex. Lisboa",
+    searchNoResult: "Ainda não há nenhuma cidade para essa pesquisa. São adicionadas mais todos os meses.",
+    browseAll: "Ver todas",
+    knownForLead: "Conhecida por",
+    faqTitle: "Perguntas sobre city breaks, respondidas",
+    faqs: [
+      {
+        q: "O que é exatamente um city break?",
+        a: "Um city break é uma viagem curta, geralmente de 2 a 4 dias, construída à volta de uma cidade em vez de uma região ou de uma praia. O objetivo é a profundidade em vez da distância: escolhe um lugar, conhece os seus bairros e volta descansado em vez de esgotado.",
+      },
+      {
+        q: "De quantos dias precisa um city break?",
+        a: "A maioria das cidades europeias resolve-se em 2 a 3 dias. Cidades compactas como Sevilha ou Bruges dão um fim de semana confortável; capitais como Praga ou Budapeste compensam 3 dias, e só as maiores, como Roma ou Paris, justificam 4 ou mais. Cada página de cidade aqui indica o número ideal honesto.",
+      },
+      {
+        q: "Qual é a altura mais barata para um city break na Europa?",
+        a: "De janeiro a março, fora dos mercados de Natal e das férias escolares, é a janela mais barata em quase todo o lado. Novembro é o momento ideal para as cidades amenas do sul, a preços de época baixa. As nossas páginas mês a mês mostram o nível de preços de cada cidade, o ano inteiro.",
+      },
+      {
+        q: "Qual é a melhor cidade europeia para um primeiro city break?",
+        a: "Para uma primeira viagem, escolha uma cidade compacta que se percorra a pé, onde as atrações fiquem juntas: Lisboa, Praga e Sevilha servem todas. Passa menos tempo em transportes e mais tempo a ver de facto o lugar, que é para isso que serve uma viagem curta.",
+      },
+      {
+        q: "Preciso de reservar as atrações com antecedência?",
+        a: "Para as atrações principais, sim. Lugares como o Alcázar de Sevilha ou o Parlamento de Budapeste esgotam os horários marcados dias antes na época alta. Cada roteiro aqui assinala exatamente que atrações precisam de reserva e com quanta antecedência.",
+      },
+    ],
     methodKicker: "O nosso método",
     methodTitle:
       "Sem «joias escondidas». Sem listas de 40 itens. Uma decisão por página.",

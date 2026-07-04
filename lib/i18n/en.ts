@@ -133,6 +133,17 @@ const en = {
     monthsIntro:
       "Colored months are the sweet spot. Struck-through months come with a warning. Each page covers weather, crowds, prices and what to pack.",
     mapTitle: "Hotel prices right now",
+    historyTitle: "A little history",
+    knownForTitle: "{city} is known for",
+    faqAroundQ: "Is {city} easy to get around?",
+    faqAroundAWalk:
+      "Yes. {city} has a walkable center, so most of a short trip is done on foot. {airport}",
+    faqAroundASpread:
+      "{city} is spread out, so plan on public transport between areas. {airport}",
+    faqAirportQ: "How do I get from the airport to the center of {city}?",
+    faqAirportA: "{airport} It is the cheapest and usually the fastest option.",
+    faqKnownQ: "What is {city} known for?",
+    faqKnownA: "{city} is best known for {list}. {history}",
     tightBudget: "Tight budget?",
     budgetCard: "{city} on a budget: same trip, around {price} EUR a day",
     readBudget: "Read the budget guide →",
@@ -299,6 +310,33 @@ const en = {
     boarding: "boarding →",
     whereNext: "Where next?",
     allDest: "All destinations",
+    searchPlaceholder: "Search a city, e.g. Lisbon",
+    searchNoResult: "No city yet for that search. More are added every month.",
+    browseAll: "Browse all",
+    knownForLead: "Known for",
+    faqTitle: "City break questions, answered",
+    faqs: [
+      {
+        q: "What exactly is a city break?",
+        a: "A city break is a short trip, usually 2 to 4 days, built around one city rather than a region or a beach. The whole point is depth over distance: you pick one place, learn its neighborhoods, and come home rested instead of exhausted.",
+      },
+      {
+        q: "How many days do you need for a city break?",
+        a: "Most European cities work in 2 to 3 days. Compact cities like Seville or Bruges are a comfortable weekend; capitals like Prague or Budapest reward 3, and only the biggest, like Rome or Paris, justify 4 or more. Every city page here gives the honest ideal number.",
+      },
+      {
+        q: "When is the cheapest time for a European city break?",
+        a: "January to March, outside Christmas markets and school holidays, is the cheapest window almost everywhere. November is the sweet spot for mild southern cities at low-season prices. Our month-by-month pages show the price level for each city, all year.",
+      },
+      {
+        q: "Which European city is best for a first city break?",
+        a: "For a first trip, pick a walkable, compact city where the sights cluster together: Lisbon, Prague and Seville all qualify. You spend less time on transport and more time actually seeing the place, which is what a short trip is for.",
+      },
+      {
+        q: "Do I need to book attractions in advance?",
+        a: "For the headline sights, yes. Places like the Alcazar in Seville or the Parliament in Budapest sell out timed slots days ahead in season. Each itinerary here flags exactly which sights need booking and how far ahead.",
+      },
+    ],
     methodKicker: "Our method",
     methodTitle:
       'No "hidden gems". No 40-item listicles. A decision per page.',

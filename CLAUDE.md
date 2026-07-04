@@ -34,6 +34,12 @@ métro), NeighborhoodBoard (tableau départ), Stamp, hard-shadow.
   dans data/index.ts (bundlesByLocale, les 5 tableaux).
 - Contenu éditorial : MDX dans /content (frontmatter title, description,
   date, tag: Comparison|Seasonal|Planning|Guide).
+- Contenu enrichi par ville (photo héros, histoire, "connu pour") : dans
+  data/extras.<locale>.ts (type CityExtras), 1 record par ville par locale,
+  accessible via getCityExtras(slug, locale). Photos héros = Pexels libre,
+  URL + contrôle visuel obligatoires. NE PAS utiliser mix-blend-multiply pour
+  teinter les photos (casse certaines couleurs, ex. Prague) : calque dégradé
+  normal faible opacité + scrim ink en bas pour la lisibilité.
 - Hôtels (pattern HotelsWithPets) : 4 picks par ville dans data/hotels.ts
   (1 splurge, 2 mid, 1 budget, vrais établissements), affichés avec photo via
   <HotelsRail> dans le PREMIER TIERS de chaque page destination (hub,

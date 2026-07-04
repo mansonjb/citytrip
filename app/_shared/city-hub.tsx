@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { cities, getCityData, getPublishedCity } from "@/data";
+import { getCityExtras } from "@/data/extras";
 import { getHotels } from "@/data/hotels";
 import { cityVars } from "@/lib/style";
 import {
@@ -61,6 +63,7 @@ export function makeCityHubPage(locale: Locale) {
     const { city, neighborhoods, itineraries } = data;
     const t = STR[locale];
     const lp = (p: string) => localePath(locale, p);
+    const extras = getCityExtras(city.slug, locale);
 
     const bestMonthNames = city.bestMonths.map((m) => monthName(locale, m));
 
@@ -116,6 +119,29 @@ export function makeCityHubPage(locale: Locale) {
             : t.hub.faqFirstFallback;
         })(),
       },
+      {
+        q: fmt(t.hub.faqAroundQ, { city: city.name }),
+        a: fmt(
+          city.centerWalkable ? t.hub.faqAroundAWalk : t.hub.faqAroundASpread,
+          { city: city.name, airport: city.airportToCenter }
+        ),
+      },
+      {
+        q: fmt(t.hub.faqAirportQ, { city: city.name }),
+        a: fmt(t.hub.faqAirportA, { airport: city.airportToCenter }),
+      },
+      ...(extras
+        ? [
+            {
+              q: fmt(t.hub.faqKnownQ, { city: city.name }),
+              a: fmt(t.hub.faqKnownA, {
+                city: city.name,
+                list: extras.knownFor.join(", "),
+                history: extras.history.split(". ")[0] + ".",
+              }),
+            },
+          ]
+        : []),
     ];
 
     const answer = fmt(t.hub.answer, {
@@ -141,8 +167,30 @@ export function makeCityHubPage(locale: Locale) {
           ]}
         />
 
-        <section className="city-gradient border-b-2 border-ink">
-          <div className="mx-auto max-w-6xl px-4 pb-14 pt-10">
+        <section className="relative overflow-hidden border-b-2 border-ink">
+          {extras?.image ? (
+            <>
+              <Image
+                src={extras.image}
+                alt={extras.imageAlt}
+                fill
+                priority
+                sizes="100vw"
+                className="object-cover"
+              />
+              <div
+                className="absolute inset-0 opacity-45"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(150deg, var(--city), var(--city-to) 85%)",
+                }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink/55 via-ink/10 to-ink/25" />
+            </>
+          ) : (
+            <div className="city-gradient absolute inset-0" />
+          )}
+          <div className="relative mx-auto max-w-6xl px-4 pb-14 pt-10">
             <Breadcrumbs
               locale={locale}
               items={[
@@ -156,10 +204,10 @@ export function makeCityHubPage(locale: Locale) {
                 {fmt(t.stamp.daysIdeal, { days: city.idealDays })}
               </Stamp>
             </div>
-            <h1 className="font-display mt-4 text-6xl font-bold tracking-tight text-white drop-shadow-[3px_3px_0_rgba(26,26,46,0.35)] sm:text-8xl">
+            <h1 className="font-display mt-4 text-6xl font-bold tracking-tight text-white drop-shadow-[3px_3px_0_rgba(26,26,46,0.5)] sm:text-8xl">
               {city.name}
             </h1>
-            <p className="mt-3 max-w-xl text-lg font-medium text-white/95">
+            <p className="mt-3 max-w-xl text-lg font-medium text-white drop-shadow-[1px_1px_0_rgba(26,26,46,0.5)]">
               {city.tagline}
             </p>
           </div>
@@ -207,6 +255,47 @@ export function makeCityHubPage(locale: Locale) {
             hotels={getHotels(city.slug, locale)}
             locale={locale}
           />
+
+          {/* Hotel map, kept high so it is visible fast */}
+          <section id="map" className="scroll-mt-28">
+            <h2 className="font-display mb-6 text-3xl font-semibold tracking-tight sm:text-4xl">
+              {t.hub.mapTitle}
+            </h2>
+            <Stay22Map
+              lat={city.lat}
+              lng={city.lng}
+              title={fmt(t.stay22.hotelsIn, { name: city.name })}
+              accent={city.accent.from}
+              locale={locale}
+            />
+          </section>
+
+          {/* A little history + known-for chips */}
+          {extras ? (
+            <section className="grid gap-8 rounded-2xl bg-paper p-7 hard-shadow sm:p-9 md:grid-cols-[1.4fr_1fr]">
+              <div>
+                <p className="label-mono mb-3" style={{ color: "var(--city)" }}>
+                  {t.hub.historyTitle}
+                </p>
+                <p className="leading-relaxed text-ink/85">{extras.history}</p>
+              </div>
+              <div>
+                <p className="label-mono mb-3 text-ink/50">
+                  {fmt(t.hub.knownForTitle, { city: city.name })}
+                </p>
+                <ul className="flex flex-wrap gap-2">
+                  {extras.knownFor.map((k) => (
+                    <li
+                      key={k}
+                      className="rounded-full border-2 border-ink bg-cream px-3 py-1 text-sm font-medium"
+                    >
+                      {k}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+          ) : null}
 
           <section id="days" className="scroll-mt-28">
             <h2 className="font-display mb-2 text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -293,19 +382,6 @@ export function makeCityHubPage(locale: Locale) {
             </h2>
             <p className="mb-6 max-w-2xl text-ink/75">{t.hub.monthsIntro}</p>
             <MonthGrid city={city} locale={locale} />
-          </section>
-
-          <section id="map" className="scroll-mt-28">
-            <h2 className="font-display mb-6 text-3xl font-semibold tracking-tight sm:text-4xl">
-              {t.hub.mapTitle}
-            </h2>
-            <Stay22Map
-              lat={city.lat}
-              lng={city.lng}
-              title={fmt(t.stay22.hotelsIn, { name: city.name })}
-              accent={city.accent.from}
-              locale={locale}
-            />
           </section>
 
           <section className="grid gap-5 md:grid-cols-2">

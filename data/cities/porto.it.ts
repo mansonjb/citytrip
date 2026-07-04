@@ -1,0 +1,515 @@
+import type { CityData } from "../types";
+
+const portoIt: CityData = {
+  city: {
+    slug: "porto",
+    name: "Porto",
+    country: "Portogallo",
+    countrySlug: "portugal",
+    lat: 41.1496,
+    lng: -8.6109,
+    tier: 3,
+    idealDays: 2,
+    durations: [2, 3],
+    airportCode: "OPO",
+    airportToCenter: "Metro linea E (viola) diretta dall'aeroporto, circa 35 min fino a Trindade in centro, 2,60 EUR inclusa la carta ricaricabile Andante",
+    centerWalkable: true,
+    bestMonths: [5, 6, 9, 10],
+    avoidMonths: [1],
+    monthlyNotes: {
+      1: "Il mese più piovoso dell'anno, con giornate a 13C, fronti atlantici grigi e poche ore di luce. Il lato positivo: le cantine di porto a Gaia sono quasi vuote, le degustazioni sono senza fretta e le tariffe degli hotel toccano il minimo annuale.",
+      2: "Ancora fresco e umido a 14C, ma tra una pioggia e l'altra si aprono finestre limpide e il Carnevale porta una scarica di vita locale a fine mese. Folle e prezzi restano bassi, quindi è un mese economico per la città al chiuso, la Lello e le cantine.",
+      3: "Le massime si avvicinano ai 16C e la pioggia allenta lentamente la presa. Le folle sono ridotte fino all'avvicinarsi della Pasqua, quando le tariffe degli hotel nei weekend iniziano a salire.",
+      4: "Primavera vera, 17-18C con serate che si allungano e code gestibili alla Lello e alla torre dos Clerigos. La settimana di Pasqua è l'eccezione: prenota quella finestra in anticipo e aspettati prezzi da festivi in tutto il centro.",
+      5: "Uno dei mesi migliori, intorno ai 20C, periodi asciutti che si allungano e le terrazze sul fiume che prendono vita. Le folle crescono in modo costante ma i biglietti a orario risolvono ancora le code ai luoghi più gettonati.",
+      6: "Il mese culmina con Sao Joao, l'enorme festa di strada nella notte del 23 giugno, quando l'intera città griglia sardine, batte martelletti di plastica sulle teste e lancia fuochi d'artificio sul Douro. Prenota con settimane di anticipo e aspettati prezzi quasi al picco intorno a quella data.",
+      7: "Caldo e affollato a 25C, con ondate di gruppi turistici a mezzogiorno lungo la Ribeira e sopra il ponte Dom Luis I. Visita i luoghi prima delle 11, poi segui l'ombra e il fiume giù verso Gaia o fuori a Foz.",
+      8: "Massimo delle folle e massimo dei prezzi a 25-26C, anche se Porto resta più mite dell'entroterra iberico grazie all'oceano. Molti piccoli ristoranti familiari chiudono per ferie, quindi prenota l'aria condizionata e la prima fascia d'ingresso ovunque.",
+      9: "Il caldo dell'estate senza la calca di agosto, 24C a inizio mese, l'Atlantico ancora balneabile a Foz e la luce fatta apposta per la Ribeira al crepuscolo. I prezzi calano dal picco dopo la prima settimana.",
+      10: "Giornate calde intorno ai 20C con le prime vere piogge autunnali che tornano a fine mese. Le folle si diradano visibilmente dopo metà ottobre, il che rende questa la migliore finestra di bassa stagione per rapporto qualità-prezzo su cantine e hotel.",
+      11: "Più fresco e piovoso a 16C, con rovesci regolari, ma la luce bassa sulle facciate piastrellate è splendida tra un fronte e l'altro. Scattano i prezzi di bassa stagione e puoi presentarti ai tour delle cantine di porto senza prenotare.",
+      12: "Mite per l'inverno a 14C ma spesso piovoso, con le luci festive lungo l'Avenida dos Aliados e un grande spettacolo pirotecnico gratuito di Capodanno sul fiume. Tranquillo tranne la settimana tra Natale e Capodanno, quando le tariffe salgono.",
+    },
+    climate: {
+      1: { highC: 13, lowC: 5, rainyDays: 14 },
+      2: { highC: 14, lowC: 6, rainyDays: 12 },
+      3: { highC: 16, lowC: 7, rainyDays: 11 },
+      4: { highC: 17, lowC: 8, rainyDays: 11 },
+      5: { highC: 20, lowC: 11, rainyDays: 9 },
+      6: { highC: 23, lowC: 14, rainyDays: 5 },
+      7: { highC: 25, lowC: 15, rainyDays: 3 },
+      8: { highC: 25, lowC: 15, rainyDays: 3 },
+      9: { highC: 24, lowC: 14, rainyDays: 6 },
+      10: { highC: 20, lowC: 11, rainyDays: 10 },
+      11: { highC: 16, lowC: 8, rainyDays: 13 },
+      12: { highC: 14, lowC: 6, rainyDays: 14 },
+    },
+    budgetLevel: "low",
+    budgetPerDay: { budget: 60, mid: 110, high: 220 },
+    tagline: "Un fiume operoso, colline di granito e un bicchiere di porto alla fine di ognuna.",
+    heroIntro:
+      "Porto impila le sue case piastrellate su ripidi pendii di granito sopra il Douro, e ricompensa chiunque abbia voglia di scalarli con le migliori viste sul fiume di tutto il paese. Due giorni bastano per la città vecchia, il ponte e una degustazione in cantina di là a Gaia senza correre, e il cibo e il vino valgono molto più dei prezzi bassi. Vieni a fine primavera o inizio autunno e questa è una delle city break dal miglior rapporto qualità-prezzo d'Europa.",
+    accent: { from: "#3AA6A0", to: "#1E6E8C", ink: "#124A5E" },
+    neighborhoodSlugs: [
+      "ribeira",
+      "baixa",
+      "cedofeita",
+      "bonfim",
+      "vila-nova-de-gaia",
+    ],
+    nearbyCitySlugs: ["lisbon"],
+  },
+
+  neighborhoods: [
+    {
+      slug: "ribeira",
+      citySlug: "porto",
+      name: "Ribeira",
+      lat: 41.1403,
+      lng: -8.6115,
+      bestFor: ["romantic", "first-time"],
+      vibe: "La cartolina di Porto: un intrico serrato di vicoli medievali e banchine porticate che scendono dritte sul Douro sotto il ponte Dom Luis I. Le case colorate si sporgono sull'acqua, le barche dondolano al muro e l'insieme si accende al tramonto. È il posto più suggestivo dove dormire in città, e il più turistico.",
+      pros: [
+        "Le migliori viste sul fiume e sul ponte di Porto, proprio sulla soglia di casa",
+        "A distanza pedonale da Sao Bento, dalla cattedrale e dall'attraversamento verso Gaia",
+        "Viva dal mattino a tarda notte, caffè e ristoranti lungo la banchina",
+      ],
+      cons: [
+        "I ristoranti sul lungofiume sono cari e pensati apposta per i visitatori",
+        "Salite ripide e acciottolate per raggiungere la città alta e la metro",
+        "Può diventare rumorosa e affollata nelle sere d'estate lungo l'acqua",
+      ],
+    },
+    {
+      slug: "baixa",
+      citySlug: "porto",
+      name: "Baixa & Aliados",
+      lat: 41.1479,
+      lng: -8.6109,
+      bestFor: ["first-time", "family", "budget"],
+      vibe: "Il cuore commerciale intorno alla grande Avenida dos Aliados e alla stazione di Sao Bento, dove si incontrano i negozi principali, il mercato del Bolhao e la maggior parte delle linee della metro. È più pianeggiante del lungofiume e la base singola meglio collegata della città. Turistica a livello strada ma imbattibile per spostarsi.",
+      pros: [
+        "Il miglior snodo dei trasporti della città, la metro dall'aeroporto arriva a una fermata di distanza",
+        "Camminata più pianeggiante che alla Ribeira, più facile con i bagagli",
+        "Ampia scelta di hotel e ristoranti per ogni fascia di prezzo",
+      ],
+      cons: [
+        "Meno fascino del fiume, più negozi di catena e traffico",
+        "Trafficata e rumorosa di giorno intorno al viale principale e alla stazione",
+      ],
+    },
+    {
+      slug: "cedofeita",
+      citySlug: "porto",
+      name: "Cedofeita",
+      lat: 41.1531,
+      lng: -8.6187,
+      bestFor: ["local", "nightlife", "romantic"],
+      vibe: "Il quartiere artistico appena a nord-ovest del centro, costruito intorno alla striscia di gallerie di Rua de Miguel Bombarda e ai suoi negozi indipendenti, wine bar e caffè specialty. Attira un pubblico più giovane e più locale del fiume e resta vivace fino a sera. È qui che Porto esce davvero.",
+      pros: [
+        "La migliore scena indipendente di cibo, caffè e drink, con molti meno turisti",
+        "Gallerie, concept store e lo shopping pedonale di Rua de Cedofeita",
+        "Centrale ma tranquillo, dieci minuti a piedi da Aliados",
+      ],
+      cons: [
+        "Nessun lungofiume e nessuna attrazione di richiamo all'interno del quartiere stesso",
+        "L'offerta ricettiva tende ad appartamenti e boutique stay più che ai grandi hotel",
+      ],
+    },
+    {
+      slug: "bonfim",
+      citySlug: "porto",
+      name: "Bonfim",
+      lat: 41.1487,
+      lng: -8.5942,
+      bestFor: ["local", "budget"],
+      vibe: "Un quartiere residenziale in rapido cambiamento a est del centro, dove le vecchie botteghe ora convivono con wine bar naturali e studi creativi. I prezzi sono più bassi, le strade sono la Porto quotidiana e mangi dove mangiano i locali. Premia chi vuole la città vera più della cartolina.",
+      pros: [
+        "L'alloggio centrale più economico e ristoranti genuinamente locali",
+        "Scena gastronomica e di bar in rapido miglioramento con quasi nessuna folla di turisti",
+        "Ben collegato dalla metro e a 20 minuti di camminata pianeggiante dal fiume",
+      ],
+      cons: [
+        "Più lontano dalle attrazioni principali, ci si sposta verso la Ribeira",
+        "Disomogeneo di strada in strada, alcuni isolati ancora un po' ruvidi",
+        "Pochi hotel di grande nome, per lo più guesthouse e appartamenti",
+      ],
+    },
+    {
+      slug: "vila-nova-de-gaia",
+      citySlug: "porto",
+      name: "Vila Nova de Gaia",
+      lat: 41.1379,
+      lng: -8.6109,
+      bestFor: ["romantic", "family"],
+      vibe: "La riva sud dall'altra parte del fiume, tecnicamente una città a sé, dove ogni grande casa di porto allinea le sue cantine lungo la banchina. La passeggiata sul lungofiume guarda dritto verso la città vecchia impilata di Porto, che è la vista migliore della Ribeira che potrai avere. Più tranquilla e verde della riva nord, con le cantine e la funivia come richiamo.",
+      pros: [
+        "Ogni cantina di porto e ogni degustazione sono qui, raggiungibili a piedi lungo la banchina",
+        "La vista più nitida e più fotografata verso Porto",
+        "Passeggiata sul fiume e funivia, serate più tranquille che alla Ribeira",
+      ],
+      cons: [
+        "A un attraversamento di ponte dalle attrazioni della città vecchia e dal cuore della metro",
+        "La ristorazione sulla banchina ha prezzi da turisti, come alla Ribeira di fronte",
+      ],
+    },
+  ],
+
+  pois: [
+    {
+      slug: "livraria-lello",
+      citySlug: "porto",
+      name: "Livraria Lello",
+      lat: 41.1469,
+      lng: -8.6148,
+      kind: "sight",
+      needsBooking: true,
+      tip: "Devi acquistare un biglietto a orario online in anticipo (circa 8 EUR), ed è detraibile da qualsiasi libro che compri dentro, quindi metti in conto di portarne uno a casa e la visita è di fatto gratuita. Prenota la primissima fascia del giorno, verso le 9:30, la scala cremisi è spalla a spalla già a metà mattina.",
+    },
+    {
+      slug: "sao-bento-station",
+      citySlug: "porto",
+      name: "Stazione di Sao Bento",
+      lat: 41.1456,
+      lng: -8.6104,
+      kind: "sight",
+      needsBooking: false,
+      tip: "I 20.000 azulejos bianchi e blu dell'atrio sono visibili gratuitamente a qualsiasi ora la stazione sia aperta, quindi vieni prima delle 9 per fotografarli senza pendolari o gruppi turistici nell'inquadratura. È una stazione in funzione e una fermata della metro, quindi puoi inserirla nell'arrivo o nella partenza invece di fare un viaggio apposta.",
+    },
+    {
+      slug: "ribeira-waterfront",
+      citySlug: "porto",
+      name: "Lungofiume della Ribeira",
+      lat: 41.1403,
+      lng: -8.6115,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Evita i ristoranti cari sulla banchina con i menu illustrati e mangia una strada più indietro nei vicoli, poi porta il tuo drink al muro per la vista. La luce del tardo pomeriggio colpisce meglio le case colorate, e il ripiano inferiore del ponte è a due minuti a piedi per la foto classica.",
+    },
+    {
+      slug: "dom-luis-bridge",
+      citySlug: "porto",
+      name: "Ponte Dom Luis I",
+      lat: 41.1399,
+      lng: -8.6094,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Percorri il ripiano superiore, non quello inferiore: porta la metro e un percorso pedonale con la vista più alta e più ampia sul fiume, ed è gratuito. Attraversa dal lato di Serra do Pilar al tramonto per la luce sulla città vecchia, e tieniti al corrimano, il vuoto e i treni di passaggio mettono a disagio qualcuno.",
+    },
+    {
+      slug: "cais-de-gaia",
+      citySlug: "porto",
+      name: "Cantine di porto del Cais de Gaia",
+      lat: 41.1372,
+      lng: -8.6118,
+      kind: "experience",
+      needsBooking: true,
+      tip: "I nomi famosi come Graham's e Taylor's costano di più e vanno esauriti; per la degustazione più economica, cammina cinque minuti indietro dalla banchina fino a una cantina più piccola come Calem o Ramos Pinto, dove un tour standard e una degustazione di due porti costano circa 15-18 EUR. Prenota l'ultimo tour del pomeriggio così puoi poi passare in terrazza con un bicchiere.",
+    },
+    {
+      slug: "clerigos-tower",
+      citySlug: "porto",
+      name: "Torre dos Clerigos",
+      lat: 41.1456,
+      lng: -8.6144,
+      kind: "viewpoint",
+      needsBooking: true,
+      tip: "Prenota il biglietto a orario online (circa 8,50 EUR, chiesa e museo inclusi) e scegli una fascia prima delle 10 o nell'ultima ora, la spirale di 240 gradini è a fila unica e si intasa del tutto a mezzogiorno. La salita è davvero stretta e a doppio senso, quindi chi soffre di claustrofobia dovrebbe pensarci due volte, anche se la vista a 360 gradi in cima è la migliore a pagamento del centro.",
+    },
+    {
+      slug: "palacio-da-bolsa",
+      citySlug: "porto",
+      name: "Palacio da Bolsa",
+      lat: 41.1414,
+      lng: -8.6152,
+      kind: "sight",
+      needsBooking: true,
+      tip: "L'interno, compresa la dorata Sala Araba, è accessibile solo con una visita guidata (circa 12 EUR), quindi prenota online e controlla gli orari per lingua del tour, perché le fasce in inglese si riempiono per prime. I tour partono all'incirca ogni 30 minuti e durano mezz'ora, facili da incastrare tra la vicina chiesa di Sao Francisco e il fiume.",
+    },
+    {
+      slug: "se-cathedral",
+      citySlug: "porto",
+      name: "Se do Porto (Cattedrale)",
+      lat: 41.1430,
+      lng: -8.6110,
+      kind: "sight",
+      needsBooking: false,
+      tip: "La cattedrale in sé è gratuita; solo il chiostro piastrellato ha un piccolo costo (circa 3 EUR), ed è la parte che vale davvero la pena pagare. La terrazza esterna è un belvedere gratuito sui tetti della città vecchia e sul fiume, e si trova in cima alla Ribeira così puoi partire da qui e scendere a piedi verso l'acqua.",
+    },
+    {
+      slug: "mercado-do-bolhao",
+      citySlug: "porto",
+      name: "Mercado do Bolhao",
+      lat: 41.1497,
+      lng: -8.6071,
+      kind: "food",
+      needsBooking: false,
+      tip: "Vieni a metà mattina in un giorno feriale quando i banchi di pesce, frutta, verdura e formaggio sono ben forniti e i commercianti hanno tempo per chiacchierare; si spegne nel primo pomeriggio ed è chiuso la domenica. Compra qui una scatola di sardine o una fetta di formaggio Serra da Estrela invece che in un negozio di souvenir, costa meno ed è migliore.",
+    },
+    {
+      slug: "serralves",
+      citySlug: "porto",
+      name: "Museo e Giardini di Serralves",
+      lat: 41.1591,
+      lng: -8.6591,
+      kind: "museum",
+      needsBooking: true,
+      tip: "Prenota il biglietto combinato online (circa 20 EUR per museo, villa e parco di 18 ettari) e vacci per i giardini tanto quanto per l'arte contemporanea, la villa rosa in stile Art Deco e i terreni sono il vero richiamo. È a 20 minuti di autobus a ovest del centro, quindi abbinalo a Foz nella stessa mezza giornata invece di fare avanti e indietro due volte.",
+    },
+    {
+      slug: "foz-do-douro",
+      citySlug: "porto",
+      name: "Foz do Douro",
+      lat: 41.1497,
+      lng: -8.6704,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Prendi lo storico tram 1 lungo il fiume dalla Ribeira a Foz per circa 3,50 EUR, un tragitto panoramico di per sé, poi percorri la passeggiata sull'oceano fino al faro. Calcolalo per il tardo pomeriggio così cogli il tramonto sull'Atlantico dalle terrazze del lungomare, uno spettacolo gratuito che le guide sottovalutano.",
+    },
+    {
+      slug: "majestic-cafe",
+      citySlug: "porto",
+      name: "Cafe Majestic",
+      lat: 41.1476,
+      lng: -8.6060,
+      kind: "food",
+      needsBooking: false,
+      tip: "Questo caffè Belle Epoque è bellissimo e caro, con una coda nelle ore di punta e un caffè che costa diverse volte la tariffa corrente; vieni all'apertura alle 9 in un giorno feriale per riuscire davvero a prendere un tavolo e vedere la sala vuota. Se vuoi solo l'interno, ordina un semplice caffè al banco invece di un brunch completo seduto.",
+    },
+    {
+      slug: "miradouro-da-vitoria",
+      citySlug: "porto",
+      name: "Miradouro da Vitoria",
+      lat: 41.1441,
+      lng: -8.6147,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Questa terrazza gratuita offre la classica vista frontale sulla città vecchia impilata che precipita verso il fiume, ed è molto più tranquilla della terrazza della cattedrale lì vicino. Non c'è alcun chiosco, quindi prendi prima un drink nei vicoli intorno, poi vieni all'ora d'oro quando le facciate piastrellate si accendono.",
+    },
+    {
+      slug: "igreja-do-carmo",
+      citySlug: "porto",
+      name: "Igreja do Carmo",
+      lat: 41.1476,
+      lng: -8.6155,
+      kind: "sight",
+      needsBooking: false,
+      tip: "L'intera parete laterale è un unico enorme pannello di azulejos blu, gratuito da fotografare dalla strada, e si trova proprio accanto alla Lello così puoi abbinare le due cose in una sola tappa. Cerca la casa nascosta larga un metro incastrata tra le chiese del Carmo e delle Carmelitas, una stranezza che i locali amano indicare.",
+    },
+  ],
+
+  itineraries: [
+    {
+      citySlug: "porto",
+      days: 2,
+      summary:
+        "Due giorni bastano per Porto, e per la maggior parte delle persone sono la misura giusta, dato che la città è compatta e le sue attrazioni principali si raggruppano fitte su entrambe le rive del Douro. In 48 ore puoi vedere gli azulejos a Sao Bento, prenotare presto alla Livraria Lello, salire sulla torre dos Clerigos, percorrere la Ribeira e attraversare il ripiano superiore del ponte Dom Luis I, poi passare un pomeriggio a degustare nelle cantine di porto a Gaia. Ci starai dentro anche due buone cene e un tramonto sul fiume. Ciò che non ci starà: il museo e i giardini di Serralves, le spiagge di Foz o qualsiasi gita in giornata nella Valle del Douro, quindi accetta questo compromesso prima di prenotare. Questa durata è adatta a un weekend, a una tappa lungo un itinerario in Portogallo o a chi combina Porto con Lisbona in un solo viaggio. Sistemati nella Baixa intorno ad Aliados: è più pianeggiante del fiume, la metro dall'aeroporto arriva a una fermata di distanza ed entrambi i giorni iniziano a dieci minuti dalla tua porta.",
+      stayNeighborhoodSlug: "baixa",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "Città vecchia, torri e piastrelle",
+          morning: [
+            {
+              poiSlug: "sao-bento-station",
+              text: "Comincia alla stazione di Sao Bento prima delle 9 per fotografare i 20.000 azulejos bianchi e blu dell'atrio senza la calca dei pendolari. Da lì è una breve salita a piedi fino alla parte alta della città vecchia.",
+              durationMin: 30,
+            },
+            {
+              poiSlug: "livraria-lello",
+              text: "Prendi la prima fascia alla Livraria Lello verso le 9:30 con il tuo biglietto prenotato in anticipo, prima che la scala cremisi si riempia. Compra un libro per recuperare il prezzo del biglietto, poi passa accanto alla parete laterale piastrellata dell'Igreja do Carmo.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "clerigos-tower",
+              text: "Sali i 240 gradini della torre dos Clerigos con un biglietto a orario mattutino per la migliore vista a pagamento sul centro. La scala è a fila unica, quindi arrivare prima dell'ingorgo di mezzogiorno conta più dell'orario esatto.",
+              durationMin: 60,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "se-cathedral",
+              text: "Cammina fino alla terrazza della cattedrale Se per uno sguardo gratuito sui tetti e sul fiume, pagando il piccolo costo solo per il chiostro piastrellato. Questa è la cima della Ribeira, quindi da qui puoi scendere lentamente verso l'acqua.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "ribeira-waterfront",
+              text: "Scendi tra i vicoli medievali fino alla banchina della Ribeira, pranzando in ritardo una strada più indietro rispetto ai cari ristoranti sul lungofiume. Porta il tuo caffè al muro sul fiume per la vista verso il ponte.",
+              durationMin: 90,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "dom-luis-bridge",
+              text: "Attraversa a piedi il ripiano superiore del ponte Dom Luis I al tramonto, quando la luce colpisce la città vecchia impilata alle tue spalle. Il percorso pedonale condivide il ripiano con la metro, quindi tieniti al corrimano.",
+              durationMin: 45,
+            },
+            {
+              text: "Cena nella città vecchia, ordinando una francesinha, il feroce panino a strati della città in salsa di birra e pomodoro, almeno una volta. Le porzioni sono pesanti, quindi una in due con un'insalata è più che sufficiente.",
+              durationMin: 90,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "Fiume, palazzo e cantine di porto",
+          morning: [
+            {
+              poiSlug: "palacio-da-bolsa",
+              text: "Prenota una visita guidata mattutina del Palacio da Bolsa per la dorata Sala Araba, controllando in anticipo gli orari della fascia in inglese. Il tour dura circa 30 minuti e si trova proprio accanto al fiume per ciò che segue.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "mercado-do-bolhao",
+              text: "Fai una deviazione fino al Mercado do Bolhao a metà mattina mentre i banchi di frutta, verdura, pesce e formaggio sono ben forniti. Prendi una scatola di sardine o una fetta di formaggio di montagna da portare a casa, più economica di qualsiasi negozio di souvenir.",
+              durationMin: 45,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "cais-de-gaia",
+              text: "Attraversa verso la riva di Gaia e fai un tour di cantina con degustazione, scegliendo una casa più piccola come Calem o Ramos Pinto per la degustazione standard più economica invece dei grandi nomi. Prenota l'ultimo tour del pomeriggio così puoi indugiare poi in terrazza con un bicchiere.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "miradouro-da-vitoria",
+              text: "Tornato sul lato di Porto, sali al Miradouro da Vitoria per la classica vista frontale sulla città vecchia che precipita verso il fiume. È gratuito e molto più tranquillo della terrazza della cattedrale, quindi prendi prima un drink nei vicoli e mettiti comodo.",
+              durationMin: 45,
+            },
+          ],
+          evening: [
+            {
+              text: "Passa l'ultima serata a Cedofeita, dieci minuti a nord-ovest, dove i wine bar e le piccole cucine attirano un pubblico locale. Questo è l'antidoto alle banchine turistiche, e la cena costa notevolmente meno.",
+              durationMin: 120,
+            },
+            {
+              text: "Concludi con un bicchiere di tawny invecchiato in un bar dalle parti di Aliados, un finale azzeccato e una comoda passeggiata fino al letto. Un buon tawny al bicchiere qui raramente supera i 5 EUR.",
+              durationMin: 45,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      citySlug: "porto",
+      days: 3,
+      summary:
+        "Sì, tre giorni sono la durata ideale per Porto, e ti danno la città vecchia compatta a ritmo rilassato più una giornata intera fuori alla foce del fiume e al miglior museo della città. I giorni uno e due coprono il nucleo: le piastrelle di Sao Bento, la Lello, la torre dos Clerigos, la Ribeira, il ponte Dom Luis I, il Palacio da Bolsa e un pomeriggio di degustazioni di porto di là a Gaia. Il terzo giorno è la valvola di sfogo, con lo storico tram fino alle spiagge e ai frutti di mare di Foz do Douro e una passata al museo di Serralves con la sua villa Art Deco e i giardini. Con tre giorni mangi bene ogni sera senza ripetere i quartieri e non ti senti mai di fretta a nessuna attrazione. Ciò che resta comunque tagliato è una gita intera in giornata nella Valle del Douro, che richiede un quarto giorno o una partenza mattutina. Questa durata è adatta a chi viene per la prima volta, alle coppie e a chiunque stia costruendo un itinerario in Portogallo con Lisbona dopo. Alloggia a Cedofeita per la scena gastronomica locale e le serate tranquille, con il centro a dieci minuti a piedi.",
+      stayNeighborhoodSlug: "cedofeita",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "Città vecchia, torri e piastrelle",
+          morning: [
+            {
+              poiSlug: "sao-bento-station",
+              text: "Comincia a Sao Bento prima delle 9 per l'atrio di azulejos senza i pendolari, poi sali nella città vecchia. È una fermata di metro in funzione, quindi fa anche da via d'accesso.",
+              durationMin: 30,
+            },
+            {
+              poiSlug: "livraria-lello",
+              text: "Prendi la prima fascia alla Lello verso le 9:30 con un biglietto prenotato in anticipo, prima che la scala si riempia, e compra un libro per recuperare il costo d'ingresso. Passa accanto alla parete piastrellata dell'Igreja do Carmo all'uscita.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "clerigos-tower",
+              text: "Sali sulla torre dos Clerigos con un biglietto a orario mattutino per il miglior panorama a pagamento sul centro. La spirale di 240 gradini è a fila unica, quindi anticipare l'ingorgo di mezzogiorno è la priorità.",
+              durationMin: 60,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "se-cathedral",
+              text: "Dirigiti alla terrazza della cattedrale Se per una vista gratuita sui tetti, pagando solo per il chiostro piastrellato se lo vuoi. Da qui l'intera Ribeira scende in discesa verso l'acqua.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "ribeira-waterfront",
+              text: "Scendi tra i vicoli fino alla banchina della Ribeira per un pranzo tardivo una strada più indietro rispetto al lungofiume dai prezzi turistici. Porta un caffè al muro sul fiume e guarda le barche sotto il ponte.",
+              durationMin: 90,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "dom-luis-bridge",
+              text: "Percorri il ripiano superiore del ponte Dom Luis I al tramonto per la luce sulla città vecchia impilata. Tieniti al corrimano, il ripiano è condiviso con la metro.",
+              durationMin: 45,
+            },
+            {
+              text: "Cena di nuovo in centro, con una francesinha spuntata dalla lista almeno una volta, una condivisa in due viste le dimensioni. Falla scendere con una Super Bock fredda come tutti gli altri.",
+              durationMin: 90,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "Fiume, palazzo e cantine di porto",
+          morning: [
+            {
+              poiSlug: "palacio-da-bolsa",
+              text: "Prenota un tour mattutino del Palacio da Bolsa per la dorata Sala Araba, controllando in anticipo gli orari della fascia in inglese. Dura circa mezz'ora e sorge proprio accanto al fiume.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "mercado-do-bolhao",
+              text: "Fai un giro fino al Mercado do Bolhao a metà mattina mentre i banchi sono pieni e i commercianti hanno tempo per chiacchierare. Chiude la domenica e si spegne nel primo pomeriggio, quindi vacci ora.",
+              durationMin: 45,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "cais-de-gaia",
+              text: "Attraversa verso Gaia e fai una degustazione in cantina, scegliendo una casa più piccola come Calem o Ramos Pinto per il tour standard più economico rispetto ai nomi di richiamo. Prenota l'ultima fascia del pomeriggio così puoi indugiare in terrazza con un bicchiere.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "miradouro-da-vitoria",
+              text: "Tornato dall'altra parte del fiume, sali al Miradouro da Vitoria per la vista frontale gratuita sulla città vecchia sopra i tetti. Prendi prima un drink nei vicoli, quassù non c'è alcun chiosco.",
+              durationMin: 45,
+            },
+          ],
+          evening: [
+            {
+              text: "Mangia a Cedofeita, la tua base, dove i wine bar naturali e le piccole cucine attirano i locali e i prezzi stanno sotto quelli delle banchine. Questa è la migliore striscia gastronomica del momento a Porto.",
+              durationMin: 120,
+            },
+            {
+              text: "Concludi con un tawny invecchiato al bicchiere in un bar vicino, raramente più di 5 EUR. Il tuo letto è a una breve camminata pianeggiante, quindi non c'è alcuna collina da scalare per tornare.",
+              durationMin: 45,
+            },
+          ],
+        },
+        {
+          dayNumber: 3,
+          theme: "Spiagge di Foz e giardini di Serralves",
+          morning: [
+            {
+              poiSlug: "serralves",
+              text: "Prendi l'autobus per 20 minuti a ovest fino a Serralves e prenota il biglietto combinato per il museo, la villa rosa Art Deco e il parco di 18 ettari. Dedica ai giardini tanto tempo quanto all'arte contemporanea, sono la vera ragione per venire.",
+              durationMin: 150,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "foz-do-douro",
+              text: "Prosegui giù fino a Foz do Douro, dove il fiume incontra l'Atlantico, e percorri la passeggiata sull'oceano fino al faro. Pranza con pesce alla griglia in un locale sul lungomare, poi accomodati su una terrazza mentre il pomeriggio si ammorbidisce.",
+              durationMin: 150,
+            },
+          ],
+          evening: [
+            {
+              text: "Prendi lo storico tram 1 di ritorno lungo il fiume da Foz alla Ribeira per circa 3,50 EUR, un tragitto panoramico che batte l'autobus. Calcolalo per l'ora d'oro così cogli il tramonto sull'acqua all'andata verso il centro.",
+              durationMin: 45,
+            },
+            {
+              text: "Per l'ultima cena, prenota un locale ben recensito dalle parti di Cedofeita o del centro e ordina un pesce intero alla griglia o un arroz de marisco. Le porzioni portoghesi sono abbondanti, quindi ordina meno di quanto pensi di aver bisogno.",
+              durationMin: 120,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export default portoIt;

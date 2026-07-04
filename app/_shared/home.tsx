@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { cities } from "@/data";
-import { CityCard } from "@/components/CityCard";
+import { getCityExtras } from "@/data/extras";
+import { CityFinder, type CityCardData } from "@/components/CityFinder";
+import { FaqSection } from "@/components/FaqSection";
 import { JsonLd } from "@/components/JsonLd";
-import { itemListSchema } from "@/lib/seo";
+import { faqSchema, itemListSchema } from "@/lib/seo";
 import {
   STR,
   fmt,
@@ -14,6 +17,7 @@ import {
 } from "@/lib/i18n";
 
 const ACCENTS = ["#2743d8", "#0e9b76", "#ff5a5f"];
+const BUDGET_LABEL = { low: "€", mid: "€€", high: "€€€" } as const;
 
 export function makeHomeMetadata(locale: Locale): Metadata {
   const t = STR[locale].home;
@@ -32,16 +36,46 @@ export function makeHomePage(locale: Locale) {
     const t = STR[locale];
     const lp = (p: string) => localePath(locale, p);
     const list = cities(locale);
+
+    const cardData: CityCardData[] = list.map((c) => {
+      const extras = getCityExtras(c.slug, locale);
+      return {
+        slug: c.slug,
+        href: lp(`/${c.slug}`),
+        name: c.name,
+        country: c.country,
+        image: extras?.image ?? "",
+        imageAlt: extras?.imageAlt ?? c.name,
+        idealDays: c.idealDays,
+        bestShort: c.bestMonths
+          .slice(0, 3)
+          .map((m) => monthShort(locale, m))
+          .join(" · "),
+        budget: BUDGET_LABEL[c.budgetLevel],
+        tagline: c.tagline,
+        accentFrom: c.accent.from,
+        accentTo: c.accent.to,
+        keywords: `${c.name} ${c.country}`.toLowerCase(),
+      };
+    });
+
+    // Hero photo strip: first four cities' heroes.
+    const strip = cardData.slice(0, 4);
+
     return (
       <>
         <JsonLd
-          data={itemListSchema(
-            list.map((c) => ({ name: c.name, path: lp(`/${c.slug}`) }))
-          )}
+          data={[
+            itemListSchema(
+              list.map((c) => ({ name: c.name, path: lp(`/${c.slug}`) }))
+            ),
+            faqSchema(t.home.faqs),
+          ]}
         />
-        {/* Text-first hero: the promise, oversized */}
+
+        {/* Hero: text-first, with a photo strip underneath */}
         <section className="border-b-2 border-ink">
-          <div className="mx-auto max-w-6xl px-4 py-16 sm:py-24">
+          <div className="mx-auto max-w-6xl px-4 pb-10 pt-16 sm:pt-20">
             <p className="stamp mb-6 text-coral">{t.home.stamp}</p>
             <h1 className="font-display max-w-4xl text-5xl font-bold leading-[1.05] tracking-tight sm:text-7xl">
               {t.home.heroParts.map((part, i) => (
@@ -55,25 +89,72 @@ export function makeHomePage(locale: Locale) {
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/80">
               {t.home.heroSub}
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+          </div>
+          {/* Photo strip */}
+          <div className="grid grid-cols-2 gap-0 border-t-2 border-ink md:grid-cols-4">
+            {strip.map((c, i) => (
               <Link
-                href={lp("/destinations")}
-                className="rounded-full border-2 border-ink bg-ink px-6 py-3 font-semibold text-cream transition-transform hover:-translate-y-0.5"
+                key={c.slug}
+                href={c.href}
+                className={`group relative h-40 overflow-hidden sm:h-52 ${
+                  i > 0 ? "border-l-2 border-ink" : ""
+                } ${i === 2 ? "border-l-0 md:border-l-2" : ""}`}
+                style={{
+                  ["--city" as string]: c.accentFrom,
+                  ["--city-to" as string]: c.accentTo,
+                }}
               >
-                {t.home.pickCity}
+                <Image
+                  src={c.image}
+                  alt={c.imageAlt}
+                  fill
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  priority={i < 2}
+                />
+                <div
+                  className="absolute inset-0 opacity-25 transition-opacity group-hover:opacity-10"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(160deg, var(--city), transparent 65%)",
+                  }}
+                />
+                <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-ink/70 to-transparent" />
+                <span className="absolute bottom-3 left-3 font-display text-2xl font-bold text-white drop-shadow-[2px_2px_0_rgba(26,26,46,0.5)]">
+                  {c.name}
+                </span>
               </Link>
-              <Link
-                href="/guides/how-many-days"
-                className="rounded-full border-2 border-ink bg-paper px-6 py-3 font-semibold transition-transform hover:-translate-y-0.5"
-              >
-                {t.home.howManyBtn}
-              </Link>
-            </div>
+            ))}
           </div>
         </section>
 
+        {/* Search + city grid */}
+        <section className="mx-auto max-w-6xl px-4 py-14">
+          <div className="mb-8 flex flex-wrap items-end justify-between gap-3">
+            <h2 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">
+              {t.home.whereNext}
+            </h2>
+            <Link
+              href={lp("/destinations")}
+              className="label-mono underline underline-offset-4"
+            >
+              {t.home.allDest}
+            </Link>
+          </div>
+          <CityFinder
+            cities={cardData}
+            labels={{
+              placeholder: t.home.searchPlaceholder,
+              noResult: t.home.searchNoResult,
+              days: t.cityCard.days,
+              best: t.cityCard.best,
+              budget: t.cityCard.budget,
+            }}
+          />
+        </section>
+
         {/* Departure board */}
-        <section className="border-b-2 border-ink bg-ink text-cream">
+        <section className="border-y-2 border-ink bg-ink text-cream">
           <div className="mx-auto max-w-6xl px-4 py-10">
             <p className="label-mono mb-5 text-cream/50">
               {t.home.departures}
@@ -114,28 +195,8 @@ export function makeHomePage(locale: Locale) {
           </div>
         </section>
 
-        {/* City cards */}
-        <section className="mx-auto max-w-6xl px-4 py-16">
-          <div className="mb-8 flex items-end justify-between">
-            <h2 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">
-              {t.home.whereNext}
-            </h2>
-            <Link
-              href={lp("/destinations")}
-              className="label-mono underline underline-offset-4"
-            >
-              {t.home.allDest}
-            </Link>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {list.map((c) => (
-              <CityCard key={c.slug} city={c} locale={locale} />
-            ))}
-          </div>
-        </section>
-
         {/* Method */}
-        <section className="mx-auto max-w-6xl px-4 pb-16">
+        <section className="mx-auto max-w-6xl px-4 py-16">
           <div className="rounded-2xl bg-paper p-8 hard-shadow sm:p-10">
             <p className="label-mono mb-3 text-viridian">
               {t.home.methodKicker}
@@ -151,6 +212,11 @@ export function makeHomePage(locale: Locale) {
               .
             </p>
           </div>
+        </section>
+
+        {/* Home FAQ */}
+        <section className="mx-auto max-w-3xl px-4 pb-20">
+          <FaqSection faqs={t.home.faqs} locale={locale} heading={t.home.faqTitle} />
         </section>
       </>
     );

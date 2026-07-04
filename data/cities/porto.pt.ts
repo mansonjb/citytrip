@@ -1,0 +1,515 @@
+import type { CityData } from "../types";
+
+const portoPt: CityData = {
+  city: {
+    slug: "porto",
+    name: "Porto",
+    country: "Portugal",
+    countrySlug: "portugal",
+    lat: 41.1496,
+    lng: -8.6109,
+    tier: 3,
+    idealDays: 2,
+    durations: [2, 3],
+    airportCode: "OPO",
+    airportToCenter: "Metro linha E (roxa) direto do aeroporto, cerca de 35 min até à Trindade no centro, 2,60 EUR já com o cartão Andante reutilizável",
+    centerWalkable: true,
+    bestMonths: [5, 6, 9, 10],
+    avoidMonths: [1],
+    monthlyNotes: {
+      1: "O mês mais chuvoso do ano, com dias a 13C, frentes atlânticas cinzentas e pouca luz. A vantagem: as caves do Porto em Gaia estão quase vazias, as provas são sem pressa e as tarifas de hotel tocam o mínimo anual.",
+      2: "Ainda fresco e húmido a 14C, mas há janelas de céu limpo entre a chuva e o Carnaval traz um rebuliço de vida local no final do mês. As multidões e os preços mantêm-se baixos, por isso é um mês barato para a cidade indoor, a Lello e as caves.",
+      3: "As máximas aproximam-se dos 16C e a chuva vai afrouxando aos poucos. Há poucos visitantes até à aproximação da Páscoa, altura em que as tarifas de hotel de fim de semana começam a subir.",
+      4: "Primavera a sério, 17-18C com tardes a esticarem-se e filas controláveis na Lello e na torre dos Clérigos. A semana da Páscoa é a exceção: reserve essa janela cedo e conte com preços de feriado por todo o centro.",
+      5: "Um dos melhores meses, à volta dos 20C, os períodos secos a alongarem-se e as esplanadas à beira-rio a ganharem vida. As multidões crescem de forma constante, mas os bilhetes com hora marcada ainda resolvem as filas nos pontos mais concorridos.",
+      6: "O mês atinge o auge no São João, a enorme festa de rua na noite de 23 de junho, quando a cidade inteira grelha sardinhas, dá marteladas de plástico nas cabeças e lança fogo de artifício sobre o Douro. Reserve com semanas de antecedência e conte com preços quase de época alta à volta dessa data.",
+      7: "Quente e movimentado a 25C, com picos ao meio-dia de grupos de excursão ao longo da Ribeira e sobre a ponte Dom Luís I. Faça os pontos turísticos antes das 11h e depois siga a sombra e o rio até Gaia ou até à Foz.",
+      8: "Multidões e preços no auge, a 25-26C, embora o Porto se mantenha mais ameno do que o interior da Península graças ao oceano. Muitos pequenos restaurantes de família fecham para férias, por isso reserve ar condicionado e a primeira entrada em todo o lado.",
+      9: "Calor de verão sem a apertadela de agosto, 24C no início do mês, o Atlântico ainda dá para nadar na Foz e a luz feita à medida da Ribeira ao anoitecer. Os preços aliviam do pico depois da primeira semana.",
+      10: "Dias amenos à volta dos 20C com a primeira chuva de outono a regressar no final do mês. As multidões diminuem de forma notória depois de meados de outubro, o que faz desta a melhor janela de época intermédia em termos de valor para caves e hotéis.",
+      11: "Mais fresco e chuvoso a 16C, com aguaceiros frequentes, mas a luz baixa sobre as fachadas de azulejo é soberba entre frentes. Entram os preços de época baixa e pode entrar em visitas às caves sem reserva.",
+      12: "Ameno para o inverno a 14C mas com chuva frequente, com as luzes festivas ao longo da Avenida dos Aliados e um grande espetáculo gratuito de fogo de artifício de fim de ano sobre o rio. Sossegado, exceto na semana do Natal ao Ano Novo, quando as tarifas disparam.",
+    },
+    climate: {
+      1: { highC: 13, lowC: 5, rainyDays: 14 },
+      2: { highC: 14, lowC: 6, rainyDays: 12 },
+      3: { highC: 16, lowC: 7, rainyDays: 11 },
+      4: { highC: 17, lowC: 8, rainyDays: 11 },
+      5: { highC: 20, lowC: 11, rainyDays: 9 },
+      6: { highC: 23, lowC: 14, rainyDays: 5 },
+      7: { highC: 25, lowC: 15, rainyDays: 3 },
+      8: { highC: 25, lowC: 15, rainyDays: 3 },
+      9: { highC: 24, lowC: 14, rainyDays: 6 },
+      10: { highC: 20, lowC: 11, rainyDays: 10 },
+      11: { highC: 16, lowC: 8, rainyDays: 13 },
+      12: { highC: 14, lowC: 6, rainyDays: 14 },
+    },
+    budgetLevel: "low",
+    budgetPerDay: { budget: 60, mid: 110, high: 220 },
+    tagline: "Um rio de trabalho, colinas de granito e um copo de vinho do Porto no fim de cada uma.",
+    heroIntro:
+      "O Porto empilha as suas casas de azulejo por encostas íngremes de granito acima do Douro e recompensa quem estiver disposto a subi-las com as melhores vistas de rio do país. Dois dias cobrem a Baixa, a ponte e uma prova numa cave do outro lado, em Gaia, sem pressas, e a comida e o vinho jogam muito acima dos preços baixos. Venha no fim da primavera ou no início do outono e este é um dos city breaks com melhor relação qualidade-preço da Europa.",
+    accent: { from: "#3AA6A0", to: "#1E6E8C", ink: "#124A5E" },
+    neighborhoodSlugs: [
+      "ribeira",
+      "baixa",
+      "cedofeita",
+      "bonfim",
+      "vila-nova-de-gaia",
+    ],
+    nearbyCitySlugs: ["lisbon"],
+  },
+
+  neighborhoods: [
+    {
+      slug: "ribeira",
+      citySlug: "porto",
+      name: "Ribeira",
+      lat: 41.1403,
+      lng: -8.6115,
+      bestFor: ["romantic", "first-time"],
+      vibe: "O postal do Porto: um emaranhado apertado de vielas medievais e cais com arcadas a cair a pique sobre o Douro, sob a ponte Dom Luís I. Casas coloridas debruçam-se sobre a água, os barcos baloiçam junto ao muro e tudo brilha ao pôr do sol. É o sítio com mais atmosfera para dormir na cidade, e o mais turístico.",
+      pros: [
+        "As melhores vistas para o rio e para a ponte do Porto, mesmo à sua porta",
+        "A pé até São Bento, à Sé e à travessia da ponte para Gaia",
+        "Vivo de manhã à noite, com cafés e restaurantes ao longo do cais",
+      ],
+      cons: [
+        "Os restaurantes do cais são caros e virados de propósito para os visitantes",
+        "Subidas íngremes e de calçada para chegar à cidade alta e ao metro",
+        "Pode ficar barulhento e cheio nas noites de verão junto à água",
+      ],
+    },
+    {
+      slug: "baixa",
+      citySlug: "porto",
+      name: "Baixa e Aliados",
+      lat: 41.1479,
+      lng: -8.6109,
+      bestFor: ["first-time", "family", "budget"],
+      vibe: "O coração comercial em torno da grandiosa Avenida dos Aliados e da estação de São Bento, onde se encontram as lojas principais, o mercado do Bolhão e a maior parte das linhas de metro. É mais plano do que a beira-rio e a base mais bem ligada da cidade. Turístico ao nível da rua, mas imbatível para andar de um lado para o outro.",
+      pros: [
+        "O melhor centro de transportes da cidade, o metro do aeroporto deixa-o a uma paragem",
+        "Caminho mais plano do que a Ribeira, mais fácil com bagagem",
+        "Grande escolha de hotéis e restaurantes de todos os preços",
+      ],
+      cons: [
+        "Menos encanto do que o rio, mais lojas de cadeia e trânsito",
+        "Movimentado e barulhento de dia à volta da avenida principal e da estação",
+      ],
+    },
+    {
+      slug: "cedofeita",
+      citySlug: "porto",
+      name: "Cedofeita",
+      lat: 41.1531,
+      lng: -8.6187,
+      bestFor: ["local", "nightlife", "romantic"],
+      vibe: "O bairro artístico logo a noroeste do centro, construído em torno do eixo de galerias da Rua de Miguel Bombarda e das suas lojas independentes, wine bars e cafés de especialidade. Atrai um público mais jovem e mais local do que o rio e mantém-se animado até à noite. É aqui que o Porto sai à noite de verdade.",
+      pros: [
+        "A melhor cena independente de comida, café e copos, com muito menos turistas",
+        "Galerias, concept stores e o comércio pedonal da Rua de Cedofeita",
+        "Central mas calmo, a dez minutos a pé dos Aliados",
+      ],
+      cons: [
+        "Sem beira-rio e sem grandes pontos turísticos dentro do próprio bairro",
+        "O alojamento inclina-se mais para apartamentos e estadias boutique do que para grandes hotéis",
+      ],
+    },
+    {
+      slug: "bonfim",
+      citySlug: "porto",
+      name: "Bonfim",
+      lat: 41.1487,
+      lng: -8.5942,
+      bestFor: ["local", "budget"],
+      vibe: "Um bairro residencial e em rápida mudança a leste do centro, onde antigas oficinas ficam agora ao lado de bares de vinho natural e ateliês criativos. Os preços são mais baixos, as ruas são o Porto do dia a dia e come-se onde os locais comem. Recompensa quem quer a cidade a sério em vez do postal.",
+      pros: [
+        "O alojamento central mais barato e restaurantes genuinamente locais",
+        "Cena de comida e bares a melhorar depressa e quase sem grupos de excursão",
+        "Bem ligado por metro e a 20 minutos a pé, planos, do rio",
+      ],
+      cons: [
+        "Mais longe dos pontos turísticos de destaque, tem de se deslocar até à Ribeira",
+        "Irregular de rua para rua, alguns quarteirões ainda estão em bruto",
+        "Poucos hotéis de nome, sobretudo guesthouses e apartamentos",
+      ],
+    },
+    {
+      slug: "vila-nova-de-gaia",
+      citySlug: "porto",
+      name: "Vila Nova de Gaia",
+      lat: 41.1379,
+      lng: -8.6109,
+      bestFor: ["romantic", "family"],
+      vibe: "A margem sul do rio, tecnicamente uma cidade à parte, onde todas as grandes casas de vinho do Porto têm as caves alinhadas ao longo do cais. O passeio à beira-rio olha diretamente para a cidade velha empilhada do Porto, que é a melhor vista da Ribeira que vai conseguir. Mais calma e mais verde do que a margem norte, com as caves e o teleférico como atração.",
+      pros: [
+        "Todas as caves e provas de vinho do Porto estão aqui, a pé ao longo do cais",
+        "A vista mais nítida e mais fotografada de regresso ao Porto",
+        "Passeio ribeirinho e teleférico, noites mais calmas do que a Ribeira",
+      ],
+      cons: [
+        "A uma travessia de ponte dos pontos turísticos da cidade velha e do núcleo do metro",
+        "As refeições no cais têm preços de turista, tal como na Ribeira em frente",
+      ],
+    },
+  ],
+
+  pois: [
+    {
+      slug: "livraria-lello",
+      citySlug: "porto",
+      name: "Livraria Lello",
+      lat: 41.1469,
+      lng: -8.6148,
+      kind: "sight",
+      needsBooking: true,
+      tip: "Tem de comprar um bilhete com hora marcada online com antecedência (cerca de 8 EUR), e é descontado em qualquer livro que compre lá dentro, por isso conte levar um para casa e a visita fica praticamente grátis. Reserve a primeira hora do dia, por volta das 9h30, a escadaria carmesim fica ombro com ombro já a meio da manhã.",
+    },
+    {
+      slug: "sao-bento-station",
+      citySlug: "porto",
+      name: "Estação de São Bento",
+      lat: 41.1456,
+      lng: -8.6104,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Os 20.000 azulejos azuis e brancos do átrio podem ver-se de graça sempre que a estação está aberta, por isso venha antes das 9h para os fotografar sem gente a caminho do trabalho ou grupos de excursão no enquadramento. É uma estação em funcionamento e uma paragem de metro, por isso pode encaixá-la na chegada ou na partida em vez de fazer uma viagem só para isso.",
+    },
+    {
+      slug: "ribeira-waterfront",
+      citySlug: "porto",
+      name: "Cais da Ribeira",
+      lat: 41.1403,
+      lng: -8.6115,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Fuja aos restaurantes caros do cais com as ementas ilustradas e coma uma rua atrás, nas vielas, depois leve a sua bebida para o muro pela vista. A luz do fim de tarde apanha melhor as casas coloridas, e o tabuleiro de baixo da ponte fica a dois minutos a pé para a fotografia clássica.",
+    },
+    {
+      slug: "dom-luis-bridge",
+      citySlug: "porto",
+      name: "Ponte Dom Luís I",
+      lat: 41.1399,
+      lng: -8.6094,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Percorra o tabuleiro de cima, não o de baixo: leva o metro e um caminho pedonal com a vista mais alta e mais ampla sobre o rio, e é grátis. Atravesse do lado da Serra do Pilar ao pôr do sol pela luz sobre a cidade velha, e agarre-se ao corrimão, a altura e os comboios a passar deixam algumas pessoas incomodadas.",
+    },
+    {
+      slug: "cais-de-gaia",
+      citySlug: "porto",
+      name: "Caves do Cais de Gaia",
+      lat: 41.1372,
+      lng: -8.6118,
+      kind: "experience",
+      needsBooking: true,
+      tip: "Os nomes famosos como a Graham's e a Taylor's cobram mais e esgotam; para a prova mais barata, ande cinco minutos para trás a partir do cais até uma cave mais pequena como a Cálem ou a Ramos Pinto, onde uma visita padrão com prova de dois vinhos fica por cerca de 15-18 EUR. Reserve a última visita da tarde para poder ficar depois na esplanada com um copo.",
+    },
+    {
+      slug: "clerigos-tower",
+      citySlug: "porto",
+      name: "Torre dos Clérigos",
+      lat: 41.1456,
+      lng: -8.6144,
+      kind: "viewpoint",
+      needsBooking: true,
+      tip: "Reserve o bilhete com hora marcada online (cerca de 8,50 EUR, igreja e museu incluídos) e escolha uma hora antes das 10h ou na última hora, a espiral de 240 degraus é de fila única e encrava por completo ao meio-dia. A subida é genuinamente estreita e de dois sentidos, por isso quem for claustrofóbico deve pensar duas vezes, embora a vista de 360 graus lá em cima seja a melhor paga do centro.",
+    },
+    {
+      slug: "palacio-da-bolsa",
+      citySlug: "porto",
+      name: "Palácio da Bolsa",
+      lat: 41.1414,
+      lng: -8.6152,
+      kind: "sight",
+      needsBooking: true,
+      tip: "O interior, incluindo o dourado Salão Árabe, só é acessível em visita guiada (cerca de 12 EUR), por isso reserve online e confira os horários por idioma, já que as sessões em inglês enchem primeiro. As visitas são mais ou menos de 30 em 30 minutos e duram meia hora, fáceis de encaixar entre a vizinha igreja de São Francisco e o rio.",
+    },
+    {
+      slug: "se-cathedral",
+      citySlug: "porto",
+      name: "Sé do Porto",
+      lat: 41.1430,
+      lng: -8.6110,
+      kind: "sight",
+      needsBooking: false,
+      tip: "A Sé em si é grátis; só o claustro de azulejo tem uma pequena entrada (cerca de 3 EUR), que é a parte que vale mesmo a pena pagar. O terraço lá fora é um miradouro gratuito sobre os telhados da cidade velha e o rio, e fica no topo da Ribeira, por isso pode começar aqui e descer a pé até à água.",
+    },
+    {
+      slug: "mercado-do-bolhao",
+      citySlug: "porto",
+      name: "Mercado do Bolhão",
+      lat: 41.1497,
+      lng: -8.6071,
+      kind: "food",
+      needsBooking: false,
+      tip: "Venha a meio da manhã num dia de semana, quando as bancas de peixe, hortaliça e queijo estão bem abastecidas e os comerciantes têm tempo para conversar; começa a acalmar ao início da tarde e fecha ao domingo. Compre aqui uma lata de sardinhas ou uma fatia de queijo da Serra da Estrela em vez de numa loja de recordações, é mais barato e melhor.",
+    },
+    {
+      slug: "serralves",
+      citySlug: "porto",
+      name: "Museu e Jardins de Serralves",
+      lat: 41.1591,
+      lng: -8.6591,
+      kind: "museum",
+      needsBooking: true,
+      tip: "Reserve o bilhete combinado online (cerca de 20 EUR para museu, casa e parque de 18 hectares) e vá pelos jardins tanto como pela arte contemporânea, a casa Art Déco cor-de-rosa e o terreno são a verdadeira atração. Fica a 20 minutos de autocarro a oeste do centro, por isso junte-o à Foz na mesma meia tarde em vez de fazer o caminho duas vezes.",
+    },
+    {
+      slug: "foz-do-douro",
+      citySlug: "porto",
+      name: "Foz do Douro",
+      lat: 41.1497,
+      lng: -8.6704,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Apanhe o elétrico histórico 1 ao longo do rio, da Ribeira até à Foz, por cerca de 3,50 EUR, um passeio bonito por si só, e depois percorra a marginal a pé até ao farol. Marque-o para o fim de tarde para apanhar o pôr do sol sobre o Atlântico a partir das esplanadas da frente-mar, um espetáculo gratuito que os guias subestimam.",
+    },
+    {
+      slug: "majestic-cafe",
+      citySlug: "porto",
+      name: "Café Majestic",
+      lat: 41.1476,
+      lng: -8.6060,
+      kind: "food",
+      needsBooking: false,
+      tip: "Este café Belle Époque é lindo e caro, com fila nas horas de ponta e um café que custa várias vezes o preço normal; venha à abertura, às 9h num dia de semana, para conseguir mesmo mesa e ver a sala vazia. Se só quer o interior, peça um único café ao balcão em vez de um brunch sentado completo.",
+    },
+    {
+      slug: "miradouro-da-vitoria",
+      citySlug: "porto",
+      name: "Miradouro da Vitória",
+      lat: 41.1441,
+      lng: -8.6147,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Este terraço gratuito dá a vista clássica de frente sobre a cidade velha a tombar até ao rio, e é muito mais sossegado do que o terraço da Sé ali perto. Não há quiosque, por isso arranje primeiro uma bebida nas vielas em redor e depois venha à hora dourada, quando as fachadas de azulejo se iluminam.",
+    },
+    {
+      slug: "igreja-do-carmo",
+      citySlug: "porto",
+      name: "Igreja do Carmo",
+      lat: 41.1476,
+      lng: -8.6155,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Toda a parede lateral é um único e vasto painel de azulejo azul, grátis para fotografar da rua, e fica mesmo ao lado da Lello para poder juntar as duas numa só paragem. Procure a casa escondida com um metro de largura, espremida entre as igrejas do Carmo e dos Carmelitas, uma curiosidade que os locais adoram apontar.",
+    },
+  ],
+
+  itineraries: [
+    {
+      citySlug: "porto",
+      days: 2,
+      summary:
+        "Dois dias chegam para o Porto, e para a maioria das pessoas é a medida certa, já que a cidade é compacta e os seus pontos turísticos principais concentram-se bem juntos nas duas margens do Douro. Em 48 horas dá para ver os azulejos de São Bento, entrar cedo na Livraria Lello, subir a torre dos Clérigos, percorrer a Ribeira e atravessar o tabuleiro de cima da ponte Dom Luís I, e depois passar uma tarde a provar nas caves de Gaia. Também encaixa dois bons jantares e um pôr do sol à beira-rio. O que não encaixa: o museu e os jardins de Serralves, as praias da Foz ou qualquer excursão de um dia ao Vale do Douro, por isso aceite essa troca antes de reservar. Esta duração serve para um fim de semana, uma paragem numa rota por Portugal ou para quem combina o Porto com Lisboa na mesma viagem. Fique na Baixa, à volta dos Aliados: é mais plana do que o rio, o metro do aeroporto deixa-o a uma paragem e os dois dias começam a menos de dez minutos da sua porta.",
+      stayNeighborhoodSlug: "baixa",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "Cidade velha, torres e azulejos",
+          morning: [
+            {
+              poiSlug: "sao-bento-station",
+              text: "Comece na estação de São Bento antes das 9h para fotografar os 20.000 azulejos azuis e brancos do átrio sem a azáfama dos que vão para o trabalho. Dali é uma curta subida a pé até ao topo da cidade velha.",
+              durationMin: 30,
+            },
+            {
+              poiSlug: "livraria-lello",
+              text: "Apanhe a primeira hora da Livraria Lello por volta das 9h30 com o bilhete comprado antes, antes de a escadaria carmesim encher. Compre um livro para reaver o preço do bilhete e depois entre ao lado, na parede lateral de azulejo da Igreja do Carmo.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "clerigos-tower",
+              text: "Suba os 240 degraus da torre dos Clérigos com um bilhete de hora marcada cedo pela melhor vista paga sobre o centro. A escada é de fila única, por isso ir antes do engarrafamento do meio-dia importa mais do que a hora exata.",
+              durationMin: 60,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "se-cathedral",
+              text: "Vá a pé até ao terraço da Sé para uma vista gratuita sobre os telhados e o rio, pagando a pequena entrada só pelo claustro de azulejo. Este é o topo da Ribeira, por isso pode ir descendo daqui em direção à água.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "ribeira-waterfront",
+              text: "Desça pelas vielas medievais até ao cais da Ribeira, almoçando tarde uma rua atrás dos restaurantes caros da beira-rio. Leve o seu café para o muro do rio pela vista até à ponte.",
+              durationMin: 90,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "dom-luis-bridge",
+              text: "Atravesse a pé o tabuleiro de cima da ponte Dom Luís I ao pôr do sol, quando a luz apanha a cidade velha empilhada atrás de si. O caminho pedonal partilha o tabuleiro com o metro, por isso mantenha-se junto ao corrimão.",
+              durationMin: 45,
+            },
+            {
+              text: "Jante de volta à cidade velha, pedindo uma francesinha, a feroz sandes em camadas da cidade em molho de cerveja e tomate, pelo menos uma vez. As doses são pesadas, por isso uma para dois com uma salada é mais do que suficiente.",
+              durationMin: 90,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "Rio, palácio e caves do vinho do Porto",
+          morning: [
+            {
+              poiSlug: "palacio-da-bolsa",
+              text: "Reserve uma visita guiada de manhã ao Palácio da Bolsa pelo dourado Salão Árabe, conferindo antes os horários da sessão em inglês. A visita dura cerca de 30 minutos e fica mesmo junto ao rio para o que vem a seguir.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "mercado-do-bolhao",
+              text: "Faça um desvio até ao Mercado do Bolhão a meio da manhã, enquanto as bancas de hortaliça, peixe e queijo estão bem abastecidas. Leve uma lata de sardinhas ou uma fatia de queijo da serra para casa, mais barato do que qualquer loja de recordações.",
+              durationMin: 45,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "cais-de-gaia",
+              text: "Atravesse para a margem de Gaia e faça uma visita a uma cave com prova, escolhendo uma casa mais pequena como a Cálem ou a Ramos Pinto para a prova padrão mais barata em vez dos grandes nomes. Reserve a última visita da tarde para poder demorar-se na esplanada com um copo depois.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "miradouro-da-vitoria",
+              text: "De volta ao lado do Porto, suba ao Miradouro da Vitória pela vista clássica de frente sobre a cidade velha a tombar até ao rio. É grátis e muito mais sossegado do que o terraço da Sé, por isso arranje primeiro uma bebida nas vielas e instale-se.",
+              durationMin: 45,
+            },
+          ],
+          evening: [
+            {
+              text: "Passe a última noite em Cedofeita, a dez minutos a noroeste, onde os wine bars e as pequenas cozinhas atraem um público local. Este é o antídoto para os cais turísticos, e o jantar custa bastante menos.",
+              durationMin: 120,
+            },
+            {
+              text: "Termine com um copo de tawny envelhecido num bar ali perto dos Aliados, um final à altura e um passeio fácil até à cama. Um bom tawny a copo raramente passa dos 5 EUR por aqui.",
+              durationMin: 45,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      citySlug: "porto",
+      days: 3,
+      summary:
+        "Sim, três dias é a duração ideal para o Porto, dando-lhe a compacta cidade velha a um ritmo sem pressas mais um dia inteiro na foz do rio e o melhor museu da cidade. Os dias um e dois cobrem o essencial: os azulejos de São Bento, a Lello, a torre dos Clérigos, a Ribeira, a ponte Dom Luís I, o Palácio da Bolsa e uma tarde de provas de vinho do Porto do outro lado, em Gaia. O terceiro dia é a válvula de escape, apanhando o elétrico histórico até às praias e ao marisco da Foz do Douro e incluindo o museu de Serralves com a sua casa Art Déco e jardins. Com três dias come-se bem todas as noites sem repetir bairros e nunca se sente à pressa num único ponto turístico. O que ainda fica de fora é uma excursão de um dia inteiro ao Vale do Douro, que precisa de um quarto dia ou de uma partida cedo. Esta duração serve para quem vai pela primeira vez, casais e quem monta uma rota por Portugal com Lisboa a seguir. Fique em Cedofeita pela cena de comida local e pelas noites calmas, com o centro a dez minutos a pé.",
+      stayNeighborhoodSlug: "cedofeita",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "Cidade velha, torres e azulejos",
+          morning: [
+            {
+              poiSlug: "sao-bento-station",
+              text: "Comece em São Bento antes das 9h pelo átrio de azulejos sem os que vão para o trabalho, e depois suba a pé até à cidade velha. É uma paragem de metro em funcionamento, por isso serve também de caminho de entrada.",
+              durationMin: 30,
+            },
+            {
+              poiSlug: "livraria-lello",
+              text: "Apanhe a primeira hora da Lello por volta das 9h30 com um bilhete comprado antes, antes de a escadaria encher, e compre um livro para reaver a entrada. Passe ao lado, à parede de azulejo da Igreja do Carmo, à saída.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "clerigos-tower",
+              text: "Suba a torre dos Clérigos com um bilhete de hora marcada cedo pela melhor panorâmica paga sobre o centro. A espiral de 240 degraus é de fila única, por isso ganhar ao engarrafamento do meio-dia é a prioridade.",
+              durationMin: 60,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "se-cathedral",
+              text: "Vá até ao terraço da Sé para uma vista gratuita sobre os telhados, pagando só pelo claustro de azulejo se o quiser. Daqui toda a Ribeira cai a pique em descida até à água.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "ribeira-waterfront",
+              text: "Desça pelas vielas até ao cais da Ribeira para um almoço tardio uma rua atrás da beira-rio com preços de turista. Leve um café para o muro do rio e veja os barcos por baixo da ponte.",
+              durationMin: 90,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "dom-luis-bridge",
+              text: "Percorra o tabuleiro de cima da ponte Dom Luís I ao pôr do sol pela luz sobre a cidade velha empilhada. Mantenha-se junto ao corrimão, o tabuleiro é partilhado com o metro.",
+              durationMin: 45,
+            },
+            {
+              text: "Jante de volta ao centro, com uma francesinha riscada da lista pelo menos uma vez, partilhada entre dois dado o tamanho. Acompanhe com uma Super Bock fresca como toda a gente.",
+              durationMin: 90,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "Rio, palácio e caves do vinho do Porto",
+          morning: [
+            {
+              poiSlug: "palacio-da-bolsa",
+              text: "Reserve uma visita de manhã ao Palácio da Bolsa pelo dourado Salão Árabe, conferindo antes os horários da sessão em inglês. Dura cerca de meia hora e fica mesmo junto ao rio.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "mercado-do-bolhao",
+              text: "Dê uma volta até ao Mercado do Bolhão a meio da manhã, enquanto as bancas estão cheias e os comerciantes têm tempo para conversar. Fecha ao domingo e começa a acalmar ao início da tarde, por isso vá agora.",
+              durationMin: 45,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "cais-de-gaia",
+              text: "Atravesse para Gaia e faça uma prova numa cave, escolhendo uma casa mais pequena como a Cálem ou a Ramos Pinto para a visita padrão mais barata em vez dos grandes nomes. Reserve a última hora da tarde para poder demorar-se na esplanada com um copo.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "miradouro-da-vitoria",
+              text: "De volta ao outro lado do rio, suba ao Miradouro da Vitória pela vista gratuita de frente sobre a cidade velha por cima dos telhados. Arranje primeiro uma bebida nas vielas, não há quiosque aqui em cima.",
+              durationMin: 45,
+            },
+          ],
+          evening: [
+            {
+              text: "Coma em Cedofeita, a sua base, onde os bares de vinho natural e as pequenas cozinhas atraem locais e os preços ficam abaixo dos cais. Este é o melhor eixo de restaurantes do Porto de momento.",
+              durationMin: 120,
+            },
+            {
+              text: "Termine com um tawny envelhecido a copo num bar ali perto, raramente mais de 5 EUR. A sua cama fica a um curto passeio plano, por isso não há colina para subir a caminho de casa.",
+              durationMin: 45,
+            },
+          ],
+        },
+        {
+          dayNumber: 3,
+          theme: "Praias da Foz e jardins de Serralves",
+          morning: [
+            {
+              poiSlug: "serralves",
+              text: "Apanhe o autocarro 20 minutos para oeste até Serralves e reserve o bilhete combinado para o museu, a casa Art Déco cor-de-rosa e o parque de 18 hectares. Dê aos jardins tanto tempo como à arte contemporânea, são a verdadeira razão para vir.",
+              durationMin: 150,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "foz-do-douro",
+              text: "Continue até à Foz do Douro, onde o rio encontra o Atlântico, e percorra a marginal a pé até ao farol. Almoce peixe grelhado num sítio da frente-mar e depois instale-se numa esplanada à medida que a tarde acalma.",
+              durationMin: 150,
+            },
+          ],
+          evening: [
+            {
+              text: "Apanhe o elétrico histórico 1 de volta ao longo do rio, da Foz até à Ribeira, por cerca de 3,50 EUR, um passeio bonito que ganha ao autocarro. Marque-o para a hora dourada para apanhar o pôr do sol sobre a água à entrada.",
+              durationMin: 45,
+            },
+            {
+              text: "Para o último jantar, reserve um sítio bem avaliado de volta perto de Cedofeita ou do centro e peça um peixe grelhado inteiro ou um arroz de marisco. As doses portuguesas são grandes, por isso peça menos do que acha que precisa.",
+              durationMin: 120,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export default portoPt;

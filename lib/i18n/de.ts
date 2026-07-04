@@ -132,6 +132,17 @@ const de: typeof en = {
     monthsIntro:
       "Farbige Monate sind die beste Zeit. Durchgestrichene Monate kommen mit einer Warnung. Jede Seite behandelt Wetter, Andrang, Preise und Packliste.",
     mapTitle: "Hotelpreise gerade jetzt",
+    historyTitle: "Ein wenig Geschichte",
+    knownForTitle: "{city} ist bekannt für",
+    faqAroundQ: "Kommt man in {city} leicht herum?",
+    faqAroundAWalk:
+      "Ja. {city} hat ein fußläufiges Zentrum, sodass Sie den Großteil einer kurzen Reise zu Fuß erledigen. {airport}",
+    faqAroundASpread:
+      "{city} ist weitläufig, planen Sie also öffentliche Verkehrsmittel zwischen den Vierteln ein. {airport}",
+    faqAirportQ: "Wie komme ich vom Flughafen ins Zentrum von {city}?",
+    faqAirportA: "{airport} Das ist die günstigste und meist auch die schnellste Option.",
+    faqKnownQ: "Wofür ist {city} bekannt?",
+    faqKnownA: "{city} ist vor allem bekannt für {list}. {history}",
     tightBudget: "Knappes Budget?",
     budgetCard: "{city} günstig: dieselbe Reise für rund {price} EUR pro Tag",
     readBudget: "Zum Budget-Guide →",
@@ -298,6 +309,33 @@ const de: typeof en = {
     boarding: "Boarding →",
     whereNext: "Wohin als Nächstes?",
     allDest: "Alle Reiseziele",
+    searchPlaceholder: "Stadt suchen, z. B. Lissabon",
+    searchNoResult: "Für diese Suche gibt es noch keine Stadt. Jeden Monat kommen neue dazu.",
+    browseAll: "Alle durchsuchen",
+    knownForLead: "Bekannt für",
+    faqTitle: "Fragen zum Citytrip, beantwortet",
+    faqs: [
+      {
+        q: "Was genau ist ein Citytrip?",
+        a: "Ein Citytrip ist eine kurze Reise, meist 2 bis 4 Tage, die sich um eine Stadt statt um eine Region oder einen Strand dreht. Es geht um Tiefe statt Distanz: Sie wählen einen Ort, lernen seine Viertel kennen und kommen erholt statt erschöpft zurück.",
+      },
+      {
+        q: "Wie viele Tage braucht man für einen Citytrip?",
+        a: "Die meisten europäischen Städte funktionieren in 2 bis 3 Tagen. Kompakte Städte wie Sevilla oder Brügge sind ein bequemes Wochenende; Hauptstädte wie Prag oder Budapest lohnen 3 Tage, und nur die größten wie Rom oder Paris rechtfertigen 4 oder mehr. Jede Städteseite hier nennt die ehrliche ideale Zahl.",
+      },
+      {
+        q: "Wann ist die günstigste Zeit für einen Citytrip in Europa?",
+        a: "Januar bis März, außerhalb der Weihnachtsmärkte und Schulferien, ist fast überall das günstigste Zeitfenster. Der November ist der ideale Moment für milde Städte im Süden zu Nebensaison-Preisen. Unsere Seiten Monat für Monat zeigen das Preisniveau jeder Stadt, das ganze Jahr über.",
+      },
+      {
+        q: "Welche europäische Stadt eignet sich am besten für den ersten Citytrip?",
+        a: "Wählen Sie für die erste Reise eine kompakte, fußläufige Stadt, in der die Sehenswürdigkeiten nah beieinander liegen: Lissabon, Prag und Sevilla passen alle. Sie verbringen weniger Zeit im Nahverkehr und mehr Zeit damit, den Ort wirklich zu sehen, und genau darum geht es bei einer kurzen Reise.",
+      },
+      {
+        q: "Muss ich Attraktionen im Voraus buchen?",
+        a: "Für die wichtigsten Sehenswürdigkeiten ja. Orte wie der Alcázar in Sevilla oder das Parlament in Budapest sind in der Hochsaison für ihre Zeitfenster Tage im Voraus ausgebucht. Jeder Plan hier zeigt genau an, welche Sehenswürdigkeiten eine Buchung brauchen und wie weit im Voraus.",
+      },
+    ],
     methodKicker: "Unsere Methode",
     methodTitle:
       "Keine „Geheimtipps“. Keine Listen mit 40 Punkten. Eine Entscheidung pro Seite.",

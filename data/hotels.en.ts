@@ -179,6 +179,122 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright hotel room with a desk and double bed",
   },
+
+  // ---- Porto ----
+  {
+    slug: "the-yeatman",
+    citySlug: "porto",
+    name: "The Yeatman",
+    neighborhoodSlug: "vila-nova-de-gaia",
+    band: "€€€",
+    priceFrom: 260,
+    style: "Wine hotel with a view",
+    bestFor: "Views",
+    blurb:
+      "A wine-themed luxury hotel terraced up the Gaia hillside, with an infinity pool and rooms that stare straight across the Douro at Porto's old town. It is a steep spot, but the funicular and the view from breakfast make up for it.",
+    image: px(261102),
+    imageAlt: "Hotel infinity pool at dusk overlooking a river and old town",
+  },
+  {
+    slug: "pestana-vintage-porto",
+    citySlug: "porto",
+    name: "Pestana Vintage Porto",
+    neighborhoodSlug: "ribeira",
+    band: "€€",
+    priceFrom: 140,
+    style: "Riverfront townhouses",
+    bestFor: "First visit",
+    blurb:
+      "A row of restored merchant houses right on the Ribeira quay, so you step out of the door into the postcard. Ask for a river-view room; the ones at the back face the lanes and lose the Douro entirely.",
+    image: px(1001965),
+    imageAlt: "Ornate historic hotel lobby with arches and greenery",
+  },
+  {
+    slug: "grande-hotel-do-porto",
+    citySlug: "porto",
+    name: "Grande Hotel do Porto",
+    neighborhoodSlug: "baixa",
+    band: "€€",
+    priceFrom: 100,
+    style: "Classic since 1880",
+    bestFor: "Central and walkable",
+    blurb:
+      "Porto's oldest grand hotel sits on the pedestrian Rua de Santa Catarina, five minutes from Sao Bento station and the Bolhao market. The building is 19th-century; rooms are traditional and quiet, a fair trade for the location.",
+    image: px(164595),
+    imageAlt: "Traditional hotel bedroom with dark wood and crisp bedding",
+  },
+  {
+    slug: "gallery-hostel-porto",
+    citySlug: "porto",
+    name: "Gallery Hostel",
+    neighborhoodSlug: "cedofeita",
+    band: "€",
+    priceFrom: 40,
+    style: "Design hostel",
+    bestFor: "Budget",
+    blurb:
+      "An art-filled hostel on Cedofeita's gallery street, with private rooms as well as dorms and a small back garden. You are among the independent shops and cheap tascas, ten minutes uphill from the river crowds.",
+    image: px(279805),
+    imageAlt: "Warm bedside lamp and headboard detail in a guesthouse room",
+  },
+
+  // ---- Budapest ----
+  {
+    slug: "four-seasons-gresham-palace",
+    citySlug: "budapest",
+    name: "Four Seasons Gresham Palace",
+    neighborhoodSlug: "belvaros",
+    band: "€€€",
+    priceFrom: 320,
+    style: "Art Nouveau palace",
+    bestFor: "Landmark stay",
+    blurb:
+      "A restored 1906 Art Nouveau palace at the Pest end of the Chain Bridge, with Danube-facing rooms that look across to Buda Castle. The location is as central as Budapest gets, steps from the river tram and St Stephen's.",
+    image: px(338504),
+    imageAlt: "Grand hotel bedroom with chandelier and vaulted ceiling",
+  },
+  {
+    slug: "aria-hotel-budapest",
+    citySlug: "budapest",
+    name: "Aria Hotel Budapest",
+    neighborhoodSlug: "belvaros",
+    band: "€€€",
+    priceFrom: 230,
+    style: "Rooftop bar",
+    bestFor: "Sunset drinks",
+    blurb:
+      "A music-themed five-star next to St Stephen's Basilica, best known for its High Note rooftop bar over the domes. Even non-guests queue for the roof at sunset, so book the room and skip the line.",
+    image: px(2290753),
+    imageAlt: "Rooftop hotel terrace at dusk with tables and city view",
+  },
+  {
+    slug: "hotel-rum-budapest",
+    citySlug: "budapest",
+    name: "Hotel Rum Budapest",
+    neighborhoodSlug: "belvaros",
+    band: "€€",
+    priceFrom: 120,
+    style: "Design hotel",
+    bestFor: "Design lovers",
+    blurb:
+      "A sharp modern design hotel on a quiet downtown side street, a two-minute walk from the Central Market Hall and the Danube. The rooftop terrace and the location between Pest's sights and the river are the draw.",
+    image: px(1267438),
+    imageAlt: "Minimalist design hotel room in dark tones with low lighting",
+  },
+  {
+    slug: "maverick-city-lodge",
+    citySlug: "budapest",
+    name: "Maverick City Lodge",
+    neighborhoodSlug: "belvaros",
+    band: "€",
+    priceFrom: 55,
+    style: "Boutique hostel",
+    bestFor: "Budget",
+    blurb:
+      "A boutique hostel inside a historic downtown building, with private rooms that feel like a cheap hotel and a location minutes from Vaci Street and the ruin bars. One of the best value beds inside the small ring road.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;

@@ -29,6 +29,16 @@ export type City = {
   nearbyCitySlugs: string[]; // internal linking "combine with" / "or rather X?"
 };
 
+// Enriched editorial content kept out of the City bundle so it can be added
+// per locale without touching every city file. One record per city per locale.
+export type CityExtras = {
+  citySlug: string;
+  image: string; // validated free-license hero photo URL (landmark)
+  imageAlt: string; // honest descriptive alt
+  history: string; // 3-4 sentences of concrete historical context, own words
+  knownFor: string[]; // 4-6 short "known for" chips
+};
+
 // Per-city color identity used across all of that city's pages.
 export type CityAccent = {
   from: string; // gradient start (hex)

@@ -133,6 +133,17 @@ const fr: typeof en = {
     monthsIntro:
       "Les mois en couleur sont le créneau idéal. Les mois barrés viennent avec un avertissement. Chaque page couvre météo, affluence, prix et valise.",
     mapTitle: "Les prix des hôtels en ce moment",
+    historyTitle: "Un peu d'histoire",
+    knownForTitle: "{city} est connue pour",
+    faqAroundQ: "Se déplace-t-on facilement à {city} ?",
+    faqAroundAWalk:
+      "Oui. {city} a un centre qui se parcourt à pied, donc l'essentiel d'un court séjour se fait à pied. {airport}",
+    faqAroundASpread:
+      "{city} est étendue : prévoyez les transports en commun entre les quartiers. {airport}",
+    faqAirportQ: "Comment aller de l'aéroport au centre de {city} ?",
+    faqAirportA: "{airport} C'est l'option la moins chère et souvent la plus rapide.",
+    faqKnownQ: "Pour quoi {city} est-elle connue ?",
+    faqKnownA: "{city} est surtout connue pour {list}. {history}",
     tightBudget: "Budget serré ?",
     budgetCard: "{city} à petit budget : le même voyage, environ {price} EUR par jour",
     readBudget: "Lire le guide budget →",
@@ -304,6 +315,33 @@ const fr: typeof en = {
     boarding: "embarquement →",
     whereNext: "On va où ?",
     allDest: "Toutes les destinations",
+    searchPlaceholder: "Cherchez une ville, ex. Lisbonne",
+    searchNoResult: "Aucune ville pour cette recherche pour l'instant. De nouvelles arrivent chaque mois.",
+    browseAll: "Tout parcourir",
+    knownForLead: "Connue pour",
+    faqTitle: "Les questions city break, avec des réponses",
+    faqs: [
+      {
+        q: "C'est quoi exactement un city break ?",
+        a: "Un city break est un court séjour, en général de 2 à 4 jours, construit autour d'une seule ville plutôt que d'une région ou d'une plage. Tout l'intérêt est de privilégier la profondeur à la distance : vous choisissez un endroit, vous apprenez ses quartiers, et vous rentrez reposé au lieu d'épuisé.",
+      },
+      {
+        q: "Combien de jours faut-il pour un city break ?",
+        a: "La plupart des villes européennes se font en 2 à 3 jours. Les villes compactes comme Séville ou Bruges sont un week-end confortable ; des capitales comme Prague ou Budapest méritent 3 jours, et seules les plus grandes, comme Rome ou Paris, justifient 4 jours ou plus. Chaque page de ville ici donne le nombre idéal honnête.",
+      },
+      {
+        q: "Quelle est la période la moins chère pour un city break en Europe ?",
+        a: "De janvier à mars, hors marchés de Noël et vacances scolaires, c'est la fenêtre la moins chère presque partout. Novembre est le moment idéal pour les villes du sud, douces et à prix de basse saison. Nos pages mois par mois montrent le niveau de prix de chaque ville, toute l'année.",
+      },
+      {
+        q: "Quelle ville européenne choisir pour un premier city break ?",
+        a: "Pour un premier voyage, choisissez une ville compacte qui se parcourt à pied, où les sites sont regroupés : Lisbonne, Prague et Séville font l'affaire. Vous passez moins de temps dans les transports et plus de temps à voir réellement l'endroit, ce qui est tout l'objet d'un court séjour.",
+      },
+      {
+        q: "Faut-il réserver les attractions à l'avance ?",
+        a: "Pour les sites phares, oui. Des lieux comme l'Alcazar de Séville ou le Parlement de Budapest écoulent leurs créneaux horaires plusieurs jours à l'avance en saison. Chaque itinéraire ici signale exactement quels sites nécessitent une réservation et combien de temps à l'avance.",
+      },
+    ],
     methodKicker: "Notre méthode",
     methodTitle:
       "Pas de « pépites cachées ». Pas de listes de 40 choses. Une décision par page.",

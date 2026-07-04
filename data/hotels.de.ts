@@ -179,6 +179,122 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes, helles Hotelzimmer mit Schreibtisch und Doppelbett",
   },
+
+  // ---- Porto ----
+  {
+    slug: "the-yeatman",
+    citySlug: "porto",
+    name: "The Yeatman",
+    neighborhoodSlug: "vila-nova-de-gaia",
+    band: "€€€",
+    priceFrom: 260,
+    style: "Weinhotel mit Aussicht",
+    bestFor: "Aussicht",
+    blurb:
+      "Ein dem Wein gewidmetes Luxushotel, terrassiert den Hang von Gaia hinauf, mit einem Infinity-Pool und Zimmern, die direkt über den Douro auf Portos Altstadt blicken. Es ist eine steile Lage, aber die Standseilbahn und die Aussicht beim Frühstück machen das wett.",
+    image: px(261102),
+    imageAlt: "Infinity-Pool eines Hotels in der Abenddämmerung mit Blick auf einen Fluss und eine Altstadt",
+  },
+  {
+    slug: "pestana-vintage-porto",
+    citySlug: "porto",
+    name: "Pestana Vintage Porto",
+    neighborhoodSlug: "ribeira",
+    band: "€€",
+    priceFrom: 140,
+    style: "Kaufmannshäuser am Fluss",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Eine Reihe restaurierter Kaufmannshäuser direkt am Kai der Ribeira, sodass Sie vor der Tür mitten in die Postkarte treten. Fragen Sie nach einem Zimmer mit Flussblick; die zur Rückseite gehen zu den Gassen und verlieren den Douro völlig.",
+    image: px(1001965),
+    imageAlt: "Prunkvolle historische Hotellobby mit Bögen und Grün",
+  },
+  {
+    slug: "grande-hotel-do-porto",
+    citySlug: "porto",
+    name: "Grande Hotel do Porto",
+    neighborhoodSlug: "baixa",
+    band: "€€",
+    priceFrom: 100,
+    style: "Klassiker seit 1880",
+    bestFor: "Zentral und zu Fuß erreichbar",
+    blurb:
+      "Portos ältestes Grandhotel liegt an der Fußgängerstraße Rua de Santa Catarina, fünf Minuten vom Bahnhof Sao Bento und dem Bolhao-Markt. Das Gebäude stammt aus dem 19. Jahrhundert; die Zimmer sind traditionell und ruhig, ein fairer Tausch für die Lage.",
+    image: px(164595),
+    imageAlt: "Traditionelles Hotelschlafzimmer mit dunklem Holz und frischer Bettwäsche",
+  },
+  {
+    slug: "gallery-hostel-porto",
+    citySlug: "porto",
+    name: "Gallery Hostel",
+    neighborhoodSlug: "cedofeita",
+    band: "€",
+    priceFrom: 40,
+    style: "Design-Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein kunstvolles Hostel in der Galerienstraße von Cedofeita, mit Privatzimmern ebenso wie Schlafsälen und einem kleinen Hintergarten. Sie sind mitten unter den unabhängigen Läden und günstigen Tascas, zehn Minuten bergauf vom Trubel am Fluss.",
+    image: px(279805),
+    imageAlt: "Warme Nachttischlampe und Kopfteil-Detail in einem Pensionszimmer",
+  },
+
+  // ---- Budapest ----
+  {
+    slug: "four-seasons-gresham-palace",
+    citySlug: "budapest",
+    name: "Four Seasons Gresham Palace",
+    neighborhoodSlug: "belvaros",
+    band: "€€€",
+    priceFrom: 320,
+    style: "Jugendstilpalast",
+    bestFor: "Wahrzeichen-Aufenthalt",
+    blurb:
+      "Ein restaurierter Jugendstilpalast von 1906 am Pester Ende der Kettenbrücke, mit zur Donau gerichteten Zimmern, die hinüber zur Budaer Burg blicken. Die Lage ist so zentral, wie es Budapest zulässt, wenige Schritte von der Uferstraßenbahn und der St.-Stephans-Basilika.",
+    image: px(338504),
+    imageAlt: "Prächtiges Hotelschlafzimmer mit Kronleuchter und Gewölbedecke",
+  },
+  {
+    slug: "aria-hotel-budapest",
+    citySlug: "budapest",
+    name: "Aria Hotel Budapest",
+    neighborhoodSlug: "belvaros",
+    band: "€€€",
+    priceFrom: 230,
+    style: "Rooftop-Bar",
+    bestFor: "Sundowner",
+    blurb:
+      "Ein musikalisch geprägtes Fünf-Sterne-Haus neben der St.-Stephans-Basilika, am bekanntesten für seine High-Note-Dachbar über den Kuppeln. Selbst Nichtgäste stehen bei Sonnenuntergang für das Dach an, buchen Sie also das Zimmer und umgehen Sie die Schlange.",
+    image: px(2290753),
+    imageAlt: "Hotel-Dachterrasse in der Abenddämmerung mit Tischen und Stadtblick",
+  },
+  {
+    slug: "hotel-rum-budapest",
+    citySlug: "budapest",
+    name: "Hotel Rum Budapest",
+    neighborhoodSlug: "belvaros",
+    band: "€€",
+    priceFrom: 120,
+    style: "Designhotel",
+    bestFor: "Designliebhaber",
+    blurb:
+      "Ein prägnantes modernes Designhotel in einer ruhigen Seitenstraße der Innenstadt, zwei Gehminuten von der Markthalle und der Donau. Die Dachterrasse und die Lage zwischen den Pester Sehenswürdigkeiten und dem Fluss sind der Reiz.",
+    image: px(1267438),
+    imageAlt: "Minimalistisches Designhotelzimmer in dunklen Tönen mit gedämpftem Licht",
+  },
+  {
+    slug: "maverick-city-lodge",
+    citySlug: "budapest",
+    name: "Maverick City Lodge",
+    neighborhoodSlug: "belvaros",
+    band: "€",
+    priceFrom: 55,
+    style: "Boutique-Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein Boutique-Hostel in einem historischen Gebäude der Innenstadt, mit Privatzimmern, die sich wie ein günstiges Hotel anfühlen, und einer Lage nur Minuten von der Vaci utca und den Ruinenkneipen. Eines der besten Preis-Leistungs-Betten innerhalb des kleinen Rings.",
+    image: px(271624),
+    imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
+  },
 ];
 
 export default hotelsDe;

@@ -179,6 +179,122 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Chambre d'hôtel simple et lumineuse avec bureau et lit double",
   },
+
+  // ---- Porto ----
+  {
+    slug: "the-yeatman",
+    citySlug: "porto",
+    name: "The Yeatman",
+    neighborhoodSlug: "vila-nova-de-gaia",
+    band: "€€€",
+    priceFrom: 260,
+    style: "Hôtel du vin avec vue",
+    bestFor: "Vues",
+    blurb:
+      "Un hôtel de luxe sur le thème du vin, étagé sur le versant de Gaia, avec une piscine à débordement et des chambres qui regardent droit vers la vieille ville de Porto par-dessus le Douro. C'est un endroit escarpé, mais le funiculaire et la vue depuis le petit-déjeuner rachètent la montée.",
+    image: px(261102),
+    imageAlt: "Piscine à débordement d'hôtel au crépuscule dominant un fleuve et une vieille ville",
+  },
+  {
+    slug: "pestana-vintage-porto",
+    citySlug: "porto",
+    name: "Pestana Vintage Porto",
+    neighborhoodSlug: "ribeira",
+    band: "€€",
+    priceFrom: 140,
+    style: "Maisons de ville au bord du fleuve",
+    bestFor: "Première visite",
+    blurb:
+      "Une rangée de maisons de marchands restaurées juste sur le quai de la Ribeira, si bien qu'en franchissant la porte vous entrez dans la carte postale. Demandez une chambre avec vue sur le fleuve ; celles à l'arrière donnent sur les ruelles et perdent le Douro entièrement.",
+    image: px(1001965),
+    imageAlt: "Hall d'hôtel historique orné d'arches et de verdure",
+  },
+  {
+    slug: "grande-hotel-do-porto",
+    citySlug: "porto",
+    name: "Grande Hotel do Porto",
+    neighborhoodSlug: "baixa",
+    band: "€€",
+    priceFrom: 100,
+    style: "Un classique depuis 1880",
+    bestFor: "Central et accessible à pied",
+    blurb:
+      "Le plus ancien grand hôtel de Porto se trouve sur la rue piétonne Rua de Santa Catarina, à cinq minutes de la gare Sao Bento et du marché du Bolhao. Le bâtiment est du XIXe siècle ; les chambres sont traditionnelles et calmes, un compromis équitable pour l'emplacement.",
+    image: px(164595),
+    imageAlt: "Chambre d'hôtel traditionnelle avec bois sombre et literie impeccable",
+  },
+  {
+    slug: "gallery-hostel-porto",
+    citySlug: "porto",
+    name: "Gallery Hostel",
+    neighborhoodSlug: "cedofeita",
+    band: "€",
+    priceFrom: 40,
+    style: "Auberge design",
+    bestFor: "Petit budget",
+    blurb:
+      "Une auberge remplie d'art sur la rue des galeries de Cedofeita, avec des chambres privées en plus des dortoirs et un petit jardin à l'arrière. Vous êtes parmi les boutiques indépendantes et les tascas bon marché, à dix minutes de montée depuis la foule du fleuve.",
+    image: px(279805),
+    imageAlt: "Lampe de chevet chaleureuse et détail de tête de lit dans une chambre de pension",
+  },
+
+  // ---- Budapest ----
+  {
+    slug: "four-seasons-gresham-palace",
+    citySlug: "budapest",
+    name: "Four Seasons Gresham Palace",
+    neighborhoodSlug: "belvaros",
+    band: "€€€",
+    priceFrom: 320,
+    style: "Palais Art nouveau",
+    bestFor: "Séjour dans un monument",
+    blurb:
+      "Un palais Art nouveau de 1906 restauré, au bout du pont des Chaînes côté Pest, avec des chambres face au Danube qui regardent vers le château de Buda. L'emplacement est aussi central que Budapest peut l'offrir, à deux pas du tram du bord du fleuve et de la basilique Saint-Étienne.",
+    image: px(338504),
+    imageAlt: "Chambre d'hôtel grandiose avec lustre et plafond voûté",
+  },
+  {
+    slug: "aria-hotel-budapest",
+    citySlug: "budapest",
+    name: "Aria Hotel Budapest",
+    neighborhoodSlug: "belvaros",
+    band: "€€€",
+    priceFrom: 230,
+    style: "Bar sur le toit",
+    bestFor: "Verres au coucher du soleil",
+    blurb:
+      "Un cinq étoiles sur le thème de la musique à côté de la basilique Saint-Étienne, surtout connu pour son bar sur le toit High Note au-dessus des dômes. Même les non-résidents font la queue pour le toit au coucher du soleil, alors réservez la chambre et sautez la file.",
+    image: px(2290753),
+    imageAlt: "Terrasse d'hôtel sur le toit au crépuscule avec tables et vue sur la ville",
+  },
+  {
+    slug: "hotel-rum-budapest",
+    citySlug: "budapest",
+    name: "Hotel Rum Budapest",
+    neighborhoodSlug: "belvaros",
+    band: "€€",
+    priceFrom: 120,
+    style: "Hôtel design",
+    bestFor: "Amateurs de design",
+    blurb:
+      "Un hôtel design moderne et tranché dans une rue latérale calme du centre, à deux minutes à pied du Grand Marché couvert et du Danube. Le toit-terrasse et l'emplacement entre les sites de Pest et le fleuve sont l'attrait.",
+    image: px(1267438),
+    imageAlt: "Chambre d'hôtel design minimaliste aux tons sombres et à l'éclairage tamisé",
+  },
+  {
+    slug: "maverick-city-lodge",
+    citySlug: "budapest",
+    name: "Maverick City Lodge",
+    neighborhoodSlug: "belvaros",
+    band: "€",
+    priceFrom: 55,
+    style: "Auberge de charme",
+    bestFor: "Petit budget",
+    blurb:
+      "Une auberge de charme dans un bâtiment historique du centre, avec des chambres privées qui ressemblent à un hôtel bon marché et un emplacement à quelques minutes de Vaci utca et des ruin bars. L'un des meilleurs rapports qualité-prix à l'intérieur du petit boulevard circulaire.",
+    image: px(271624),
+    imageAlt: "Chambre simple et lumineuse avec bureau et lit double",
+  },
 ];
 
 export default hotelsFr;
