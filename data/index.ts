@@ -25,15 +25,25 @@ import budapestFr from "./cities/budapest.fr";
 import budapestPt from "./cities/budapest.pt";
 import budapestIt from "./cities/budapest.it";
 import budapestDe from "./cities/budapest.de";
+import vienna from "./cities/vienna";
+import viennaFr from "./cities/vienna.fr";
+import viennaPt from "./cities/vienna.pt";
+import viennaIt from "./cities/vienna.it";
+import viennaDe from "./cities/vienna.de";
+import granada from "./cities/granada";
+import granadaFr from "./cities/granada.fr";
+import granadaPt from "./cities/granada.pt";
+import granadaIt from "./cities/granada.it";
+import granadaDe from "./cities/granada.de";
 
 // Register every city bundle per locale. Adding a city = one file per locale
 // + one entry per array below (same order everywhere).
 const bundlesByLocale: Record<Locale, CityData[]> = {
-  en: [lisbon, prague, seville, porto, budapest],
-  fr: [lisbonFr, pragueFr, sevilleFr, portoFr, budapestFr],
-  pt: [lisbonPt, praguePt, sevillePt, portoPt, budapestPt],
-  it: [lisbonIt, pragueIt, sevilleIt, portoIt, budapestIt],
-  de: [lisbonDe, pragueDe, sevilleDe, portoDe, budapestDe],
+  en: [lisbon, prague, seville, porto, budapest, vienna, granada],
+  fr: [lisbonFr, pragueFr, sevilleFr, portoFr, budapestFr, viennaFr, granadaFr],
+  pt: [lisbonPt, praguePt, sevillePt, portoPt, budapestPt, viennaPt, granadaPt],
+  it: [lisbonIt, pragueIt, sevilleIt, portoIt, budapestIt, viennaIt, granadaIt],
+  de: [lisbonDe, pragueDe, sevilleDe, portoDe, budapestDe, viennaDe, granadaDe],
 };
 
 export function cityBundles(locale: Locale = "en"): CityData[] {

@@ -84,6 +84,38 @@ const extrasEn: Record<string, CityExtras> = {
       "Buda Castle",
     ],
   },
+  vienna: {
+    citySlug: "vienna",
+    image: hero(18110534),
+    imageAlt:
+      "The Belvedere palace and its reflecting pond in Vienna under a blue sky",
+    history:
+      "Vienna was the capital of the Habsburgs for more than six centuries, and the seat of the Holy Roman and then Austro-Hungarian empire until it collapsed in 1918, which is why a city of under two million has palaces built for a continent. When the medieval walls came down in 1857, Emperor Franz Joseph replaced them with the Ringstrasse, the grand boulevard of museums, opera and parliament you still circle today. Around 1900 the city was a crucible of the modern world: Freud invented psychoanalysis here, Klimt and Schiele broke with tradition, and Mahler ran the opera. Vienna has been the capital of a small, neutral Austria since 1955, and it still runs on the coffee-house culture UNESCO now protects.",
+    knownFor: [
+      "Schonbrunn Palace",
+      "Coffee houses",
+      "Klimt's The Kiss",
+      "Imperial palaces",
+      "Sachertorte",
+      "Opera and balls",
+    ],
+  },
+  granada: {
+    citySlug: "granada",
+    image: hero(38100344),
+    imageAlt:
+      "The Alhambra palace above Granada with the snow-capped Sierra Nevada behind",
+    history:
+      "Granada was the last Muslim kingdom in Western Europe, the capital of the Nasrid emirate that held out for 250 years after the rest of Spain had fallen. Its rulers built the Alhambra, the finest surviving Islamic palace complex in the West, on the hill above the city. On 2 January 1492 the Catholic Monarchs Isabella and Ferdinand took the city, ending nearly 800 years of Moorish rule in Spain; the same year, from Granada, Isabella agreed to fund Christopher Columbus. The Alhambra was half-forgotten until the writer Washington Irving lived in it and published Tales of the Alhambra in 1832, which sparked the Romantic craze that saved it. Granada is now a university city where the Moorish and Spanish layers sit side by side.",
+    knownFor: [
+      "The Alhambra",
+      "Free tapas",
+      "Albaicin views",
+      "Moorish heritage",
+      "Sierra Nevada",
+      "Sacromonte flamenco",
+    ],
+  },
 };
 
 export default extrasEn;

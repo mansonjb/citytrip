@@ -295,6 +295,122 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
   },
+
+  // ---- Vienna ----
+  {
+    slug: "hotel-sacher-wien",
+    citySlug: "vienna",
+    name: "Hotel Sacher Wien",
+    neighborhoodSlug: "innere-stadt",
+    band: "€€€",
+    priceFrom: 400,
+    style: "Grande Dame seit 1876",
+    bestFor: "Wahrzeichen-Aufenthalt",
+    blurb:
+      "Die Adresse hinter der originalen Sachertorte, direkt hinter der Staatsoper im ganz zentralen Zentrum. Es ist altweltlich förmlich und entsprechend bepreist; das Café im Erdgeschoss lässt Sie die Legende kosten, ohne ein Zimmer zu buchen.",
+    image: px(338504),
+    imageAlt: "Prächtiges Hotelschlafzimmer mit Kronleuchter und verzierter Decke",
+  },
+  {
+    slug: "altstadt-vienna",
+    citySlug: "vienna",
+    name: "Altstadt Vienna",
+    neighborhoodSlug: "neubau",
+    band: "€€",
+    priceFrom: 150,
+    style: "Kunstvolles Stadthaus",
+    bestFor: "Designliebhaber",
+    blurb:
+      "Ein Designer-Boutiquehotel in einem Neubauer Stadthaus, jedes Zimmer anders gestaltet und mit echter zeitgenössischer Kunst behängt. Sie sind im Galerie-und-Café-siebten-Bezirk, eine Straßenbahnstation vom MuseumsQuartier.",
+    image: px(262048),
+    imageAlt: "Helle, elegante Hotelsuite mit Kronleuchter und großem Bett",
+  },
+  {
+    slug: "25hours-vienna",
+    citySlug: "vienna",
+    name: "25hours Hotel beim MuseumsQuartier",
+    neighborhoodSlug: "neubau",
+    band: "€€",
+    priceFrom: 130,
+    style: "Rooftop-Bar",
+    bestFor: "Sundowner",
+    blurb:
+      "Ein verspieltes, zirkusthematisches Hotel mit einer Dachbar, die direkt über die kaiserlichen Dächer blickt. Es liegt zwischen dem MuseumsQuartier und den Neubauer Bars, sodass Sie am Abend überallhin laufen können.",
+    image: px(2290753),
+    imageAlt: "Hotel-Dachterrasse in der Abenddämmerung mit Tischen und Stadtblick",
+  },
+  {
+    slug: "wombats-vienna-naschmarkt",
+    citySlug: "vienna",
+    name: "Wombat's City Hostel Naschmarkt",
+    neighborhoodSlug: "mariahilf",
+    band: "€",
+    priceFrom: 40,
+    style: "Modernes Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein gut geführtes Hostel wenige Schritte von den Naschmarkt-Essensständen, mit Privatzimmern ebenso wie Schlafsälen und einer echten Bar. Wien ist teuer, und dies ist eines der wenigen zentralen Betten, das es nicht ist.",
+    image: px(271624),
+    imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
+  },
+
+  // ---- Granada ----
+  {
+    slug: "parador-de-granada",
+    citySlug: "granada",
+    name: "Parador de Granada",
+    neighborhoodSlug: "realejo",
+    band: "€€€",
+    priceFrom: 300,
+    style: "Innerhalb der Alhambra",
+    bestFor: "Einmal im Leben",
+    blurb:
+      "Ein ehemaliges Kloster, das im Gelände der Alhambra selbst liegt, sodass Sie hinter den Mauern sind, nachdem die Tagesmassen gegangen sind. Es ist Monate im Voraus ausgebucht und kostet entsprechend, aber kein anderes Hotel in Spanien hat diese Adresse.",
+    image: px(1001965),
+    imageAlt: "Prunkvolle historische Hotellobby mit Bögen und Grün",
+  },
+  {
+    slug: "palacio-de-santa-ines",
+    citySlug: "granada",
+    name: "Palacio de Santa Ines",
+    neighborhoodSlug: "albaicin",
+    band: "€€",
+    priceFrom: 110,
+    style: "Albaicin-Carmen",
+    bestFor: "Romantik",
+    blurb:
+      "Ein Herrenhaus aus dem 16. Jahrhundert rund um einen freskengeschmückten Innenhof im Albaicin, einige Zimmer blicken direkt hinüber zur angestrahlten Alhambra. Die Gassen hier sind steil und autofrei, packen Sie also leicht und tragen Sie richtige Schuhe.",
+    image: px(279746),
+    imageAlt: "Traditionelles Pensionsschlafzimmer mit Holzmöbeln",
+  },
+  {
+    slug: "hotel-casa-morisca",
+    citySlug: "granada",
+    name: "Hotel Casa Morisca",
+    neighborhoodSlug: "albaicin",
+    band: "€€",
+    priceFrom: 120,
+    style: "Maurisches Haus",
+    bestFor: "Atmosphäre",
+    blurb:
+      "Ein restauriertes maurisches Haus aus dem 15. Jahrhundert am Fuß des Albaicin an der Carrera del Darro, mit intakten Backsteinbögen und einem Brunnenhof. Es ist ein kurzer ebener Weg zum Alhambra-Ticket-Tor, was wenige Albaicin-Hotels von sich behaupten können.",
+    image: px(164595),
+    imageAlt: "Hotelschlafzimmer mit dunklen Holzbalken und frischer Bettwäsche",
+  },
+  {
+    slug: "hotel-los-tilos",
+    citySlug: "granada",
+    name: "Hotel Los Tilos",
+    neighborhoodSlug: "centro",
+    band: "€",
+    priceFrom: 60,
+    style: "Zentral und schlicht",
+    bestFor: "Budget",
+    blurb:
+      "Ein schlichtes, aber freundliches Hotel direkt am Blumenmarktplatz der Plaza Bib-Rambla, im flachen Zentrum zwischen der Kathedrale und den Tapas-Straßen. Die Dachterrasse ist für Gäste kostenlos und blickt über die Altstadt.",
+    image: px(279805),
+    imageAlt: "Warme Nachttischlampe und Kopfteil-Detail in einem Pensionszimmer",
+  },
 ];
 
 export default hotelsDe;

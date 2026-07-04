@@ -83,6 +83,38 @@ const extrasPt: Record<string, CityExtras> = {
       "Castelo de Buda",
     ],
   },
+  vienna: {
+    citySlug: "vienna",
+    image: hero(18110534),
+    imageAlt:
+      "O palácio Belvedere e o seu espelho de água em Viena sob um céu azul",
+    history:
+      "Viena foi a capital dos Habsburgo durante mais de seis séculos, e a sede do Sacro Império Romano-Germânico e depois do império Austro-Húngaro, até este ruir em 1918, e é por isso que uma cidade com menos de dois milhões de habitantes tem palácios construídos para um continente. Quando as muralhas medievais foram deitadas abaixo em 1857, o imperador Francisco José substituiu-as pela Ringstrasse, a grande avenida de museus, ópera e parlamento que ainda hoje se contorna. Por volta de 1900 a cidade era um cadinho do mundo moderno: Freud inventou aqui a psicanálise, Klimt e Schiele romperam com a tradição, e Mahler dirigia a ópera. Viena é a capital de uma Áustria pequena e neutra desde 1955, e ainda funciona à volta da cultura de café que a UNESCO agora protege.",
+    knownFor: [
+      "Palácio de Schonbrunn",
+      "Cafés",
+      "O Beijo de Klimt",
+      "Palácios imperiais",
+      "Sachertorte",
+      "Ópera e bailes",
+    ],
+  },
+  granada: {
+    citySlug: "granada",
+    image: hero(38100344),
+    imageAlt:
+      "O palácio da Alhambra acima de Granada com a Sierra Nevada coberta de neve ao fundo",
+    history:
+      "Granada foi o último reino muçulmano da Europa Ocidental, a capital do emirado nasrida que resistiu 250 anos depois de o resto de Espanha ter caído. Os seus governantes construíram a Alhambra, o mais fino complexo de palácios islâmicos que sobrevive no Ocidente, na colina acima da cidade. A 2 de janeiro de 1492, os Reis Católicos Isabel e Fernando tomaram a cidade, pondo fim a quase 800 anos de domínio mouro em Espanha; nesse mesmo ano, a partir de Granada, Isabel concordou em financiar Cristóvão Colombo. A Alhambra ficou meio esquecida até o escritor Washington Irving lá viver e publicar os Contos da Alhambra em 1832, o que despoletou a febre romântica que a salvou. Granada é hoje uma cidade universitária onde as camadas moura e espanhola coexistem lado a lado.",
+    knownFor: [
+      "A Alhambra",
+      "Tapas gratuitas",
+      "Vistas do Albaicin",
+      "Herança moura",
+      "Sierra Nevada",
+      "Flamenco do Sacromonte",
+    ],
+  },
 };
 
 export default extrasPt;

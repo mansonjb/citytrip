@@ -85,6 +85,38 @@ const extrasFr: Record<string, CityExtras> = {
       "Le château de Buda",
     ],
   },
+  vienna: {
+    citySlug: "vienna",
+    image: hero(18110534),
+    imageAlt:
+      "Le palais du Belvédère et son bassin réfléchissant à Vienne sous un ciel bleu",
+    history:
+      "Vienne fut la capitale des Habsbourg pendant plus de six siècles, et le siège du Saint-Empire puis de l'empire austro-hongrois jusqu'à son effondrement en 1918, ce qui explique pourquoi une ville de moins de deux millions d'habitants possède des palais bâtis pour un continent. Quand les remparts médiévaux tombèrent en 1857, l'empereur François-Joseph les remplaça par la Ringstrasse, le grand boulevard des musées, de l'opéra et du parlement que vous longez encore aujourd'hui. Vers 1900, la ville était un creuset du monde moderne : Freud y inventa la psychanalyse, Klimt et Schiele rompirent avec la tradition, et Mahler dirigeait l'opéra. Vienne est la capitale d'une petite Autriche neutre depuis 1955, et elle vit toujours au rythme de la culture des cafés que l'UNESCO protège désormais.",
+    knownFor: [
+      "Le château de Schonbrunn",
+      "Les cafés viennois",
+      "Le Baiser de Klimt",
+      "Les palais impériaux",
+      "La Sachertorte",
+      "Opéra et bals",
+    ],
+  },
+  granada: {
+    citySlug: "granada",
+    image: hero(38100344),
+    imageAlt:
+      "Le palais de l'Alhambra au-dessus de Grenade avec la Sierra Nevada enneigée derrière",
+    history:
+      "Grenade fut le dernier royaume musulman d'Europe occidentale, la capitale de l'émirat nasride qui tint 250 ans après la chute du reste de l'Espagne. Ses souverains bâtirent l'Alhambra, le plus beau palais islamique subsistant en Occident, sur la colline au-dessus de la ville. Le 2 janvier 1492, les Rois catholiques Isabelle et Ferdinand prirent la ville, mettant fin à près de 800 ans de domination mauresque en Espagne ; la même année, depuis Grenade, Isabelle accepta de financer Christophe Colomb. L'Alhambra fut à demi oubliée jusqu'à ce que l'écrivain Washington Irving y séjourne et publie Contes de l'Alhambra en 1832, ce qui déclencha l'engouement romantique qui la sauva. Grenade est aujourd'hui une ville universitaire où les strates mauresque et espagnole cohabitent côte à côte.",
+    knownFor: [
+      "L'Alhambra",
+      "Les tapas gratuites",
+      "Les vues de l'Albaicin",
+      "L'héritage mauresque",
+      "La Sierra Nevada",
+      "Le flamenco du Sacromonte",
+    ],
+  },
 };
 
 export default extrasFr;

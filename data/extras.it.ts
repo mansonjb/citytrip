@@ -83,6 +83,38 @@ const extrasIt: Record<string, CityExtras> = {
       "Castello di Buda",
     ],
   },
+  vienna: {
+    citySlug: "vienna",
+    image: hero(18110534),
+    imageAlt:
+      "Il Palazzo del Belvedere e il suo specchio d'acqua a Vienna sotto un cielo azzurro",
+    history:
+      "Vienna fu la capitale degli Asburgo per oltre sei secoli, e la sede del Sacro Romano Impero e poi dell'impero austro-ungarico fino al suo crollo nel 1918, ed è per questo che una città di meno di due milioni di abitanti ha palazzi costruiti per un continente. Quando le mura medievali caddero nel 1857, l'imperatore Francesco Giuseppe le sostituì con la Ringstrasse, il grande viale di musei, opera e parlamento che ancora oggi si percorre in cerchio. Attorno al 1900 la città fu un crogiolo del mondo moderno: Freud inventò qui la psicoanalisi, Klimt e Schiele ruppero con la tradizione, e Mahler dirigeva l'opera. Vienna è la capitale di una piccola Austria neutrale dal 1955, e vive ancora sulla cultura del caffè viennese che l'UNESCO oggi tutela.",
+    knownFor: [
+      "Castello di Schonbrunn",
+      "Caffè viennesi",
+      "Il Bacio di Klimt",
+      "Palazzi imperiali",
+      "Sachertorte",
+      "Opera e balli",
+    ],
+  },
+  granada: {
+    citySlug: "granada",
+    image: hero(38100344),
+    imageAlt:
+      "Il palazzo dell'Alhambra sopra Granada con dietro la Sierra Nevada innevata",
+    history:
+      "Granada fu l'ultimo regno musulmano dell'Europa occidentale, la capitale dell'emirato nasride che resistette per 250 anni dopo che il resto della Spagna era caduto. I suoi sovrani costruirono l'Alhambra, il più bel complesso di palazzi islamici sopravvissuto in Occidente, sulla collina sopra la città. Il 2 gennaio 1492 i Re Cattolici Isabella e Ferdinando presero la città, ponendo fine a quasi 800 anni di dominio moresco in Spagna; lo stesso anno, da Granada, Isabella accettò di finanziare Cristoforo Colombo. L'Alhambra fu semidimenticata finché lo scrittore Washington Irving non vi abitò e pubblicò i Racconti dell'Alhambra nel 1832, il che accese la febbre romantica che la salvò. Granada è oggi una città universitaria dove gli strati moresco e spagnolo convivono fianco a fianco.",
+    knownFor: [
+      "L'Alhambra",
+      "Tapas gratuite",
+      "Vedute dell'Albaicin",
+      "Eredità moresca",
+      "Sierra Nevada",
+      "Flamenco del Sacromonte",
+    ],
+  },
 };
 
 export default extrasIt;

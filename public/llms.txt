@@ -24,6 +24,8 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /seville (Seville, Spain): ideal 2 days
 - /porto (Porto, Portugal): ideal 2 days
 - /budapest (Budapest, Hungary): ideal 3 days
+- /vienna (Vienna, Austria): ideal 3 days
+- /granada (Granada, Spain): ideal 2 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,

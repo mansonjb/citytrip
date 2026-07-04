@@ -85,6 +85,38 @@ const extrasDe: Record<string, CityExtras> = {
       "Budaer Burg",
     ],
   },
+  vienna: {
+    citySlug: "vienna",
+    image: hero(18110534),
+    imageAlt:
+      "Das Schloss Belvedere und sein Spiegelteich in Wien unter blauem Himmel",
+    history:
+      "Wien war über sechs Jahrhunderte die Hauptstadt der Habsburger und der Sitz des Heiligen Römischen und dann des Österreichisch-Ungarischen Reiches, bis es 1918 zusammenbrach, weshalb eine Stadt von unter zwei Millionen Menschen Paläste besitzt, die für einen Kontinent gebaut wurden. Als die mittelalterlichen Mauern 1857 fielen, ersetzte Kaiser Franz Joseph sie durch die Ringstraße, den prächtigen Boulevard aus Museen, Oper und Parlament, den Sie heute noch umrunden. Um 1900 war die Stadt ein Schmelztiegel der modernen Welt: Freud erfand hier die Psychoanalyse, Klimt und Schiele brachen mit der Tradition, und Mahler leitete die Oper. Wien ist seit 1955 die Hauptstadt eines kleinen, neutralen Österreichs, und es lebt noch immer von der Kaffeehauskultur, die die UNESCO nun schützt.",
+    knownFor: [
+      "Schloss Schönbrunn",
+      "Kaffeehäuser",
+      "Klimts Der Kuss",
+      "Kaiserliche Paläste",
+      "Sachertorte",
+      "Oper und Bälle",
+    ],
+  },
+  granada: {
+    citySlug: "granada",
+    image: hero(38100344),
+    imageAlt:
+      "Der Alhambra-Palast über Granada mit der schneebedeckten Sierra Nevada dahinter",
+    history:
+      "Granada war das letzte muslimische Königreich Westeuropas, die Hauptstadt des Nasridenemirats, das sich 250 Jahre lang hielt, nachdem der Rest Spaniens gefallen war. Seine Herrscher errichteten die Alhambra, den schönsten erhaltenen islamischen Palastkomplex des Westens, auf dem Hügel über der Stadt. Am 2. Januar 1492 nahmen die Katholischen Könige Isabella und Ferdinand die Stadt ein und beendeten damit fast 800 Jahre maurischer Herrschaft in Spanien; im selben Jahr stimmte Isabella von Granada aus zu, Christoph Kolumbus zu finanzieren. Die Alhambra war halb vergessen, bis der Schriftsteller Washington Irving in ihr lebte und 1832 die Erzählungen von der Alhambra veröffentlichte, was die romantische Begeisterung auslöste, die sie rettete. Granada ist heute eine Universitätsstadt, in der die maurischen und spanischen Schichten Seite an Seite liegen.",
+    knownFor: [
+      "Die Alhambra",
+      "Kostenlose Tapas",
+      "Albaicin-Ausblicke",
+      "Maurisches Erbe",
+      "Sierra Nevada",
+      "Sacromonte-Flamenco",
+    ],
+  },
 };
 
 export default extrasDe;
