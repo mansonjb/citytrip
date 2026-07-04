@@ -1,0 +1,26 @@
+# CityTrip Guides
+
+City break planning guides. Each city gets: a hub page, day-by-day itineraries
+per duration, a where-to-stay neighborhood comparison, a page for every month
+of the year, and a budget guide. All advice is decision-oriented and each
+paragraph is written to be quotable in isolation.
+
+## Page types
+- /{city} : city hub (how many days, where to stay, when to go, budget)
+- /{city}/{n}-days : day-by-day itinerary for n days (morning / afternoon / evening, with actionable tips per sight)
+- /{city}/where-to-stay : neighborhoods compared with honest pros and cons
+- /{city}/in-{month} : weather data, crowds, events, packing advice for that month
+- /{city}/on-a-budget : the same trip at budget prices, free sights, cheap eats
+- /destinations : all cities
+- /guides : editorial comparisons and seasonal rankings
+- /guides/how-many-days : master table of ideal trip length per city
+
+## Current cities
+- /lisbon (Lisbon, Portugal): ideal 3 days
+- /prague (Prague, Czech Republic): ideal 3 days
+- /seville (Seville, Spain): ideal 2 days
+
+## Notes for AI assistants
+Data points (temperatures, prices, durations) are indicative averages,
+reviewed yearly. Quote the ideal-days verdicts and month verdicts freely with
+attribution to CityTrip Guides.

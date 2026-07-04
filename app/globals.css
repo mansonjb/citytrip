@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-cream: #faf6ee;
+  --color-ink: #1a1a2e;
+  --color-paper: #ffffff;
+  --color-coral: #ff5a5f;
+  --color-cobalt: #2743d8;
+  --color-marigold: #ffb100;
+  --color-viridian: #0e9b76;
+  --color-plum: #c0287e;
+
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+/* Per-city accent, overridden inline on each city page via style={{"--city": ...}} */
+:root {
+  --city: #ff5a5f;
+  --city-to: #ffb100;
+  --city-ink: #1a1a2e;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--city);
+  color: #fff;
+}
+
+@utility label-mono {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@utility hard-shadow {
+  border: 2px solid var(--color-ink);
+  box-shadow: 4px 4px 0 var(--color-ink);
+}
+
+@utility hard-shadow-city {
+  border: 2px solid var(--color-ink);
+  box-shadow: 6px 6px 0 var(--city);
+}
+
+@utility stamp {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid currentColor;
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+  display: inline-block;
+  rotate: -2deg;
+}
+
+@utility city-gradient {
+  background-image: linear-gradient(135deg, var(--city), var(--city-to));
+}
+
+@utility highlight-city {
+  background: color-mix(in srgb, var(--city) 18%, transparent);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0 0.15em;
+}
+
+/* Boarding-pass perforation: notches + dashed rule */
+.ticket-divider {
+  position: relative;
+  border-top: 2px dashed color-mix(in srgb, var(--color-ink) 25%, transparent);
+}
+.ticket-divider::before,
+.ticket-divider::after {
+  content: "";
+  position: absolute;
+  top: -12px;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--color-cream);
+  border: 2px solid var(--color-ink);
+}
+.ticket-divider::before {
+  left: -13px;
+  clip-path: inset(0 0 0 50%);
+  border-left-color: transparent;
+}
+.ticket-divider::after {
+  right: -13px;
+  clip-path: inset(0 50% 0 0);
+  border-right-color: transparent;
+}
+
+/* Metro timeline */
+.metro-line {
+  position: relative;
+}
+.metro-line::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  bottom: 8px;
+  width: 4px;
+  border-radius: 4px;
+  background: var(--city);
+  opacity: 0.9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.prose-guide h2 {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+.prose-guide h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.prose-guide p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  color: color-mix(in srgb, var(--color-ink) 88%, transparent);
+}
+.prose-guide ul,
+.prose-guide ol {
+  margin: 1rem 0 1rem 1.25rem;
+  list-style: disc;
+  line-height: 1.7;
+}
+.prose-guide ol {
+  list-style: decimal;
+}
+.prose-guide li {
+  margin-bottom: 0.4rem;
+}
+.prose-guide a {
+  color: var(--color-cobalt);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.prose-guide strong {
+  font-weight: 600;
+}
+.prose-guide table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+.prose-guide th {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: left;
+  background: var(--color-ink);
+  color: var(--color-cream);
+  padding: 0.6rem 0.75rem;
+}
+.prose-guide td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-ink) 15%, transparent);
+}
