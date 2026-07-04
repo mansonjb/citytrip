@@ -23,6 +23,19 @@ export function AffiliateLink({
   );
 }
 
+// Deep link to the hotel search centered on a named property.
+export function stay22HotelUrl(opts: {
+  hotelName: string;
+  cityName: string;
+  aid: string;
+}): string {
+  const params = new URLSearchParams({
+    aid: opts.aid || "citytrip",
+    address: `${opts.hotelName}, ${opts.cityName}`,
+  });
+  return `https://www.stay22.com/allez/booking?${params.toString()}`;
+}
+
 export function stay22SearchUrl(opts: {
   lat: number;
   lng: number;

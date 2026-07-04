@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cities, getCityData } from "@/data";
+import { getHotels } from "@/data/hotels";
+import { HotelsRail } from "@/components/HotelsRail";
 import { cityVars } from "@/lib/style";
 import { articleSchema, breadcrumbSchema, faqSchema, type Faq } from "@/lib/seo";
 import { BoardingPass } from "@/components/BoardingPass";
@@ -115,6 +117,14 @@ export default async function BudgetPage({ params }: Props) {
             { label: "Airport", value: city.airportToCenter.split(",")[0] },
             { label: "Free sights", value: `${freePois.length}+` },
           ]}
+        />
+
+        <HotelsRail
+          city={city}
+          hotels={getHotels(city.slug).filter((h) => h.band !== "€€€")}
+          columns={2}
+          title="Sleep cheap, sleep well"
+          intro={`The picks under ${city.budgetPerDay.mid} EUR that do not feel like a compromise.`}
         />
 
         <section>

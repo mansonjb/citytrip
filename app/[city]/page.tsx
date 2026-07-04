@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cities, getCityData, getPublishedCity } from "@/data";
+import { getHotels } from "@/data/hotels";
+import { HotelsRail } from "@/components/HotelsRail";
 import { cityVars } from "@/lib/style";
 import { MONTHS } from "@/lib/months";
 import { articleSchema, breadcrumbSchema, faqSchema, type Faq } from "@/lib/seo";
@@ -128,13 +130,14 @@ export default async function CityHubPage({ params }: Props) {
 
       <TripToolbar
         items={[
+          { href: "#hotels", label: "Hotels" },
           { href: "#days", label: "How many days" },
           { href: "#stay", label: "Where to stay" },
           { href: "#months", label: "When to go" },
           { href: "#map", label: "Hotel map" },
           { href: "#faq", label: "FAQ" },
         ]}
-        cta={{ href: `/${city.slug}/where-to-stay`, label: "Find hotels" }}
+        cta={{ href: "#hotels", label: "Find hotels" }}
       />
 
       <div className="mx-auto max-w-6xl space-y-16 px-4 py-12">
@@ -155,6 +158,8 @@ export default async function CityHubPage({ params }: Props) {
             { label: "Airport", value: city.airportToCenter.split(",")[0] },
           ]}
         />
+
+        <HotelsRail city={city} hotels={getHotels(city.slug)} />
 
         {/* Durations */}
         <section id="days" className="scroll-mt-28">

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cityBundles, getCityData, getNeighborhood } from "@/data";
+import { getHotels } from "@/data/hotels";
+import { HotelsRail } from "@/components/HotelsRail";
 import type { CityData, Month } from "@/data/types";
 import { cityVars } from "@/lib/style";
 import { MONTHS, monthByNum, parseSub } from "@/lib/months";
@@ -136,6 +138,7 @@ function ItineraryPage({ data, days }: { data: CityData; days: number }) {
 
       <TripToolbar
         items={[
+          { href: "#hotels", label: "Hotels" },
           ...itinerary.dayPlans.map((d) => ({
             href: `#day-${d.dayNumber}`,
             label: `Day ${d.dayNumber}`,
@@ -143,7 +146,7 @@ function ItineraryPage({ data, days }: { data: CityData; days: number }) {
           { href: "#stay", label: "Where to sleep" },
           { href: "#faq", label: "FAQ" },
         ]}
-        cta={{ href: "#stay", label: "Find hotels" }}
+        cta={{ href: "#hotels", label: "Find hotels" }}
       />
 
       <div className="mx-auto max-w-3xl space-y-14 px-4 py-12">
@@ -163,6 +166,21 @@ function ItineraryPage({ data, days }: { data: CityData; days: number }) {
                 .join(" · "),
             },
           ]}
+        />
+
+        <HotelsRail
+          city={city}
+          hotels={[...getHotels(city.slug)].sort((a, b) =>
+            (b.neighborhoodSlug === itinerary.stayNeighborhoodSlug ? 1 : 0) -
+            (a.neighborhoodSlug === itinerary.stayNeighborhoodSlug ? 1 : 0)
+          )}
+          columns={2}
+          title={`Sleep well for these ${days} days`}
+          intro={
+            stay
+              ? `Picks sorted with our recommended base, ${stay.name}, first. Book early: the good-value rooms go weeks ahead.`
+              : undefined
+          }
         />
 
         <DayTimeline dayPlans={itinerary.dayPlans} pois={pois} />
@@ -318,6 +336,18 @@ function MonthPage({ data, month }: { data: CityData; month: Month }) {
               value: isBest ? "Go" : isAvoid ? "Avoid" : "Fair",
             },
           ]}
+        />
+
+        <HotelsRail
+          city={city}
+          hotels={getHotels(city.slug)}
+          columns={2}
+          title={`Where to sleep in ${city.name} in ${m.name}`}
+          intro={
+            isBest
+              ? `${m.name} is high demand: book 4 to 6 weeks out to keep these prices realistic.`
+              : `${m.name} is quieter, which makes it the right month to afford the splurge picks.`
+          }
         />
 
         <section>

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cities, getCityData } from "@/data";
+import { getHotels } from "@/data/hotels";
+import { HotelsRail } from "@/components/HotelsRail";
 import { cityVars } from "@/lib/style";
 import { articleSchema, breadcrumbSchema, faqSchema, type Faq } from "@/lib/seo";
 import { BoardingPass } from "@/components/BoardingPass";
@@ -118,6 +120,7 @@ export default async function WhereToStayPage({ params }: Props) {
 
       <TripToolbar
         items={[
+          { href: "#hotels", label: "Our picks" },
           { href: "#board", label: "Compare" },
           ...neighborhoods.map((n) => ({ href: `#${n.slug}`, label: n.name })),
         ]}
@@ -134,6 +137,14 @@ export default async function WhereToStayPage({ params }: Props) {
             { label: "Nightlife", value: nightlife?.name ?? "See below" },
             { label: "Mid hotel", value: `~${Math.round(city.budgetPerDay.mid * 0.45)} EUR/night` },
           ]}
+        />
+
+        <HotelsRail
+          city={city}
+          hotels={getHotels(city.slug)}
+          columns={2}
+          title="The shortlist"
+          intro={`If you just want the answer: four vetted ${city.name} picks, from splurge to budget, each in a neighborhood compared below.`}
         />
 
         <section id="board" className="scroll-mt-28">

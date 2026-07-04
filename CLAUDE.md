@@ -18,6 +18,12 @@ métro), NeighborhoodBoard (tableau départ), Stamp, hard-shadow.
   lisbon.ts, puis l'enregistrer dans data/index.ts (import + cityBundles).
 - Contenu éditorial : MDX dans /content (frontmatter title, description,
   date, tag: Comparison|Seasonal|Planning|Guide).
+- Hôtels (pattern HotelsWithPets) : 4 picks par ville dans data/hotels.ts
+  (1 splurge, 2 mid, 1 budget, vrais établissements), affichés avec photo via
+  <HotelsRail> dans le PREMIER TIERS de chaque page destination (hub,
+  itinéraires, mois, where-to-stay, budget). Images libres Pexels/Unsplash
+  uniquement, URL vérifiée (curl 200 + contrôle visuel), alt honnête,
+  mention "Photos are illustrative". Liens via stay22HotelUrl (param address).
 - JAMAIS d'image sous copyright. Photos libres (Unsplash/Pexels) + alt
   descriptif. Pas d'API Google Places.
 - Tout texte rédigé en propres mots. Chaque paragraphe autonome (GEO).

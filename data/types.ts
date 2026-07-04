@@ -88,7 +88,24 @@ export type Poi = {
   tip: string; // the concrete tip (opening time, queue hack, free day)
 };
 
-// One file per city exports this bundle.
+// Curated hotel pick, shown with a photo in the first third of every
+// destination page (HotelsWithPets pattern). Photos: free license only
+// (Pexels/Unsplash), validated URLs, honest descriptive alt.
+export type Hotel = {
+  slug: string;
+  citySlug: string;
+  name: string; // real hotel name
+  neighborhoodSlug: string;
+  band: "€" | "€€" | "€€€";
+  priceFrom: number; // indicative EUR per night, low season
+  style: string; // "Design", "Historic palace", "Rooftop views"...
+  bestFor: string; // "First visit", "Couples", "Budget"...
+  blurb: string; // 2 sentences, own words, one concrete fact minimum
+  image: string; // validated free-license image URL
+  imageAlt: string;
+};
+
+// One file per city exports this bundle (hotels live in data/hotels.ts).
 export type CityData = {
   city: City;
   neighborhoods: Neighborhood[];
