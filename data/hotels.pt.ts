@@ -248,7 +248,7 @@ const hotelsPt: Hotel[] = [
     bestFor: "Estadia num marco",
     blurb:
       "Um palácio Arte Nova de 1906 restaurado, na ponta de Pest da Ponte das Correntes, com quartos virados para o Danúbio que olham para o Castelo de Buda. A localização é a mais central que Budapeste dá, a dois passos do elétrico ribeirinho e da Basílica de Santo Estêvão.",
-    image: px(338504),
+    image: px(262048),
     imageAlt: "Quarto de hotel grandioso com lustre e teto abobadado",
   },
   {
@@ -306,8 +306,8 @@ const hotelsPt: Hotel[] = [
     bestFor: "Estadia de referência",
     blurb:
       "A morada por trás da Sachertorte original, mesmo atrás da Ópera Estatal, em pleno centro. É formal ao estilo antigo e tem preço à altura; o café lá em baixo deixa-o provar a lenda sem reservar quarto.",
-    image: px(338504),
-    imageAlt: "Quarto de hotel grandioso com candelabro e teto ornamentado",
+    image: px(1001965),
+    imageAlt: "Lobby histórico ornamentado com arcos e plantas",
   },
   {
     slug: "altstadt-vienna",
@@ -422,8 +422,8 @@ const hotelsPt: Hotel[] = [
     bestFor: "Estadia emblemática",
     blurb:
       "Uma grande dame de gestão familiar mesmo no cimo da Escadaria de Espanha, com um restaurante na cobertura sobre todo o centro. É uma das moradas mais caras de Roma; a localização e a vista são a razão por que as pessoas pagam.",
-    image: px(338504),
-    imageAlt: "Quarto de hotel grandioso com candelabro e teto ornamentado",
+    image: px(2290753),
+    imageAlt: "Terraço de hotel ao entardecer com mesas postas para jantar",
   },
   {
     slug: "hotel-artemide",

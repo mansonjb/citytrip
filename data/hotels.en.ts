@@ -250,7 +250,7 @@ const hotelsEn: Hotel[] = [
     bestFor: "Landmark stay",
     blurb:
       "A restored 1906 Art Nouveau palace at the Pest end of the Chain Bridge, with Danube-facing rooms that look across to Buda Castle. The location is as central as Budapest gets, steps from the river tram and St Stephen's.",
-    image: px(338504),
+    image: px(262048),
     imageAlt: "Grand hotel bedroom with chandelier and vaulted ceiling",
   },
   {
@@ -308,8 +308,8 @@ const hotelsEn: Hotel[] = [
     bestFor: "Landmark stay",
     blurb:
       "The address behind the original Sachertorte, right behind the State Opera in the very center. It is old-world formal and priced for it; the cafe downstairs lets you taste the legend without booking a room.",
-    image: px(338504),
-    imageAlt: "Grand hotel bedroom with chandelier and ornate ceiling",
+    image: px(1001965),
+    imageAlt: "Ornate historic hotel lobby with arches and plants",
   },
   {
     slug: "altstadt-vienna",
@@ -424,8 +424,8 @@ const hotelsEn: Hotel[] = [
     bestFor: "Landmark stay",
     blurb:
       "A family-run grande dame sitting right at the head of the Spanish Steps, with a rooftop restaurant over the whole centro. It is one of the most expensive addresses in Rome; the location and the view are the reason people pay it.",
-    image: px(338504),
-    imageAlt: "Grand hotel bedroom with chandelier and ornate ceiling",
+    image: px(2290753),
+    imageAlt: "Rooftop terrace of a hotel at dusk with tables set for dinner",
   },
   {
     slug: "hotel-artemide",

@@ -250,7 +250,7 @@ const hotelsIt: Hotel[] = [
     bestFor: "Soggiorno in un monumento",
     blurb:
       "Un palazzo Art Nouveau del 1906 restaurato all'estremità di Pest del Ponte delle Catene, con camere affacciate sul Danubio che guardano verso il Castello di Buda. La posizione è centrale quanto Budapest può offrire, a due passi dal tram sul fiume e da Santo Stefano.",
-    image: px(338504),
+    image: px(262048),
     imageAlt: "Camera d'albergo maestosa con lampadario e soffitto a volta",
   },
   {
@@ -308,8 +308,8 @@ const hotelsIt: Hotel[] = [
     bestFor: "Soggiorno in un monumento",
     blurb:
       "L'indirizzo dietro la Sachertorte originale, proprio alle spalle dell'Opera di Stato nel cuore del centro. È formale e d'altri tempi, e il prezzo lo riflette; il caffè al piano terra ti fa assaggiare la leggenda senza prenotare una camera.",
-    image: px(338504),
-    imageAlt: "Camera d'albergo maestosa con lampadario e soffitto decorato",
+    image: px(1001965),
+    imageAlt: "Lobby storica e sontuosa di un hotel con archi e piante",
   },
   {
     slug: "altstadt-vienna",
@@ -424,8 +424,8 @@ const hotelsIt: Hotel[] = [
     bestFor: "Soggiorno da cartolina",
     blurb:
       "Una grande dame a conduzione familiare proprio in cima alla scalinata di Piazza di Spagna, con un ristorante sul tetto affacciato su tutto il centro. È uno degli indirizzi più cari di Roma; la posizione e la vista sono il motivo per cui la gente li paga.",
-    image: px(338504),
-    imageAlt: "Camera d'albergo di lusso con lampadario e soffitto decorato",
+    image: px(2290753),
+    imageAlt: "Terrazza sul tetto di un hotel al crepuscolo con tavoli apparecchiati per cena",
   },
   {
     slug: "hotel-artemide",

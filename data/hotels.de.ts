@@ -250,7 +250,7 @@ const hotelsDe: Hotel[] = [
     bestFor: "Wahrzeichen-Aufenthalt",
     blurb:
       "Ein restaurierter Jugendstilpalast von 1906 am Pester Ende der Kettenbrücke, mit zur Donau gerichteten Zimmern, die hinüber zur Budaer Burg blicken. Die Lage ist so zentral, wie es Budapest zulässt, wenige Schritte von der Uferstraßenbahn und der St.-Stephans-Basilika.",
-    image: px(338504),
+    image: px(262048),
     imageAlt: "Prächtiges Hotelschlafzimmer mit Kronleuchter und Gewölbedecke",
   },
   {
@@ -308,8 +308,8 @@ const hotelsDe: Hotel[] = [
     bestFor: "Wahrzeichen-Aufenthalt",
     blurb:
       "Die Adresse hinter der originalen Sachertorte, direkt hinter der Staatsoper im ganz zentralen Zentrum. Es ist altweltlich förmlich und entsprechend bepreist; das Café im Erdgeschoss lässt Sie die Legende kosten, ohne ein Zimmer zu buchen.",
-    image: px(338504),
-    imageAlt: "Prächtiges Hotelschlafzimmer mit Kronleuchter und verzierter Decke",
+    image: px(1001965),
+    imageAlt: "Prunkvolle historische Hotellobby mit Bögen und Pflanzen",
   },
   {
     slug: "altstadt-vienna",
@@ -424,8 +424,8 @@ const hotelsDe: Hotel[] = [
     bestFor: "Wahrzeichen-Aufenthalt",
     blurb:
       "Eine familiengeführte Grande Dame direkt am Kopf der Spanischen Treppe, mit einem Dachrestaurant über dem ganzen Centro. Es ist eine der teuersten Adressen Roms; die Lage und die Aussicht sind der Grund, warum die Leute sie zahlen.",
-    image: px(338504),
-    imageAlt: "Prächtiges Hotelschlafzimmer mit Kronleuchter und verzierter Decke",
+    image: px(2290753),
+    imageAlt: "Dachterrasse eines Hotels in der Abenddämmerung mit gedeckten Tischen",
   },
   {
     slug: "hotel-artemide",

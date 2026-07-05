@@ -250,7 +250,7 @@ const hotelsFr: Hotel[] = [
     bestFor: "Séjour dans un monument",
     blurb:
       "Un palais Art nouveau de 1906 restauré, au bout du pont des Chaînes côté Pest, avec des chambres face au Danube qui regardent vers le château de Buda. L'emplacement est aussi central que Budapest peut l'offrir, à deux pas du tram du bord du fleuve et de la basilique Saint-Étienne.",
-    image: px(338504),
+    image: px(262048),
     imageAlt: "Chambre d'hôtel grandiose avec lustre et plafond voûté",
   },
   {
@@ -308,8 +308,8 @@ const hotelsFr: Hotel[] = [
     bestFor: "Séjour d'exception",
     blurb:
       "L'adresse à l'origine de la Sachertorte, juste derrière l'Opéra national en plein centre. C'est d'un formalisme d'un autre temps et facturé en conséquence ; le café du rez-de-chaussée vous permet de goûter à la légende sans réserver de chambre.",
-    image: px(338504),
-    imageAlt: "Chambre d'hôtel grandiose avec lustre et plafond ouvragé",
+    image: px(1001965),
+    imageAlt: "Hall d'hôtel historique orné d'arches et de plantes",
   },
   {
     slug: "altstadt-vienna",
@@ -424,8 +424,8 @@ const hotelsFr: Hotel[] = [
     bestFor: "Séjour de prestige",
     blurb:
       "Une grande dame familiale posée pile en haut de l'escalier de la place d'Espagne, avec un restaurant sur le toit qui domine tout le centro. C'est l'une des adresses les plus chères de Rome ; l'emplacement et la vue sont la raison pour laquelle on la paie.",
-    image: px(338504),
-    imageAlt: "Chambre d'hôtel majestueuse avec lustre et plafond ouvragé",
+    image: px(2290753),
+    imageAlt: "Terrasse sur le toit d'un hôtel au crépuscule avec tables dressées pour le dîner",
   },
   {
     slug: "hotel-artemide",

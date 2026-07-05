@@ -6,7 +6,6 @@ import {
   SITE_NAME,
   SITE_URL,
   PLAUSIBLE_DOMAIN,
-  STAY22_LMA_ID,
 } from "@/lib/site";
 import "./globals.css";
 
@@ -59,18 +58,6 @@ export default function RootLayout({
             src="https://plausible.io/js/script.js"
           />
         ) : null}
-        {/* Stay22 Let Me Allez: lazy so it never competes with the LCP */}
-        <Script id="stay22-lma" strategy="lazyOnload">
-          {`(function (s, t, a, y, twenty, two) {
-  s.Stay22 = s.Stay22 || {};
-  s.Stay22.params = { lmaID: '${STAY22_LMA_ID}' };
-  twenty = t.createElement(a);
-  two = t.getElementsByTagName(a)[0];
-  twenty.async = 1;
-  twenty.src = y;
-  two.parentNode.insertBefore(twenty, two);
-})(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');`}
-        </Script>
       </body>
     </html>
   );
