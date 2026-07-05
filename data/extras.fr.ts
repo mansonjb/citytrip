@@ -117,6 +117,37 @@ const extrasFr: Record<string, CityExtras> = {
       "Le flamenco du Sacromonte",
     ],
   },
+  rome: {
+    citySlug: "rome",
+    image: hero(32619390),
+    imageAlt: "Le Colisée de Rome contre un ciel d'un bleu éclatant",
+    history:
+      "Rome fut, selon sa propre légende, fondée par Romulus en 753 av. J.-C., et devint la capitale d'un empire qui s'étendait de la Bretagne au Sahara. Les ruines entre lesquelles vous marchez, le Colisée, le Forum, le Panthéon, sont les vestiges d'une ville qui comptait un million d'habitants quand le Londres médiéval en comptait vingt mille. Quand l'empire tomba, les papes firent de Rome la capitale du monde catholique, et l'argent de la Renaissance et du Baroque la rebâtit autour des ossements antiques, ce qui explique pourquoi les fontaines du Bernin reposent sur des fondations romaines. Elle ne devint la capitale d'une Italie unifiée qu'en 1871, la dernière pièce du pays à rejoindre l'ensemble. Tout ce qui a suivi, de la circulation à l'apéritif, se superpose à trois mille ans que l'on n'a jamais fait table rase.",
+    knownFor: [
+      "Le Colisée",
+      "Le Vatican et la chapelle Sixtine",
+      "La fontaine de Trevi",
+      "Les ruines romaines",
+      "Pâtes et glaces",
+      "Les fontaines baroques",
+    ],
+  },
+  amsterdam: {
+    citySlug: "amsterdam",
+    image: hero(12705128),
+    imageAlt:
+      "Maisons de canal d'Amsterdam et bateaux de tourisme sur le Damrak sous un ciel bleu",
+    history:
+      "Amsterdam est née d'un village de pêcheurs du XIIIe siècle qui édifia une digue sur l'Amstel, d'où vient son nom. Son âge d'or fut le XVIIe siècle, quand les navires néerlandais menaient le commerce mondial et que les marchands qui les finançaient creusèrent l'anneau de canaux, le Grachtengordel, et bâtirent les hautes maisons à pignon étroites que l'on voit encore, taxées à la largeur, ce qui explique pourquoi elles sont si minces. Cette richesse finança Rembrandt et la tulipomanie qui ruina les spéculateurs en 1637. La ville a toujours été un refuge, pour les huguenots, pour les juifs, et plus tard un symbole de tolérance. Anne Frank s'y cacha de 1942 jusqu'à ce que sa famille soit dénoncée en 1944, et sa maison sur le Prinsengracht est aujourd'hui le mémorial le plus visité de la ville.",
+    knownFor: [
+      "La ceinture de canaux",
+      "Le musée Van Gogh",
+      "La maison d'Anne Frank",
+      "Les vélos",
+      "Le Rijksmuseum",
+      "Les brown cafes",
+    ],
+  },
 };
 
 export default extrasFr;

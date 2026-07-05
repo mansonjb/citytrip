@@ -117,6 +117,37 @@ const extrasDe: Record<string, CityExtras> = {
       "Sacromonte-Flamenco",
     ],
   },
+  rome: {
+    citySlug: "rome",
+    image: hero(32619390),
+    imageAlt: "Das Kolosseum in Rom vor einem strahlend blauen Himmel",
+    history:
+      "Rom wurde nach seiner eigenen Legende 753 v. Chr. von Romulus gegründet und wuchs zur Hauptstadt eines Reiches heran, das von Britannien bis zur Sahara reichte. Die Ruinen, zwischen denen Sie umhergehen, das Kolosseum, das Forum, das Pantheon, sind die Überbleibsel einer Stadt, die eine Million Menschen fasste, während das mittelalterliche London zwanzigtausend zählte. Als das Reich fiel, machten die Päpste Rom zur Hauptstadt der katholischen Welt, und Geld der Renaissance und des Barocks baute es rund um die antiken Knochen wieder auf, weshalb Bernini-Brunnen auf römischen Fundamenten stehen. Erst 1871 wurde es zur Hauptstadt eines geeinten Italiens, das letzte Stück des Landes, das dazukam. Alles seither, vom Verkehr bis zum Aperitivo, schichtet sich auf dreitausend Jahre, die nie weggeräumt wurden.",
+    knownFor: [
+      "Das Kolosseum",
+      "Vatikan und Sixtinische Kapelle",
+      "Trevi-Brunnen",
+      "Römische Ruinen",
+      "Pasta und Gelato",
+      "Barocke Brunnen",
+    ],
+  },
+  amsterdam: {
+    citySlug: "amsterdam",
+    image: hero(12705128),
+    imageAlt:
+      "Amsterdamer Grachtenhäuser und Ausflugsboote am Damrak unter blauem Himmel",
+    history:
+      "Amsterdam wuchs aus einem Fischerdorf des 13. Jahrhunderts heran, das den Fluss Amstel abdämmte, woher der Name stammt. Sein goldenes Zeitalter war das 17. Jahrhundert, als niederländische Schiffe den Welthandel beherrschten und die Kaufleute, die sie finanzierten, den Grachtengürtel, die Grachtengordel, gruben und die hohen, schmalen Giebelhäuser bauten, die Sie noch sehen, nach ihrer Breite besteuert, weshalb sie so schmal sind. Dieser Reichtum finanzierte Rembrandt und die Tulpenmanie, die 1637 Spekulanten ruinierte. Die Stadt war immer eine Zuflucht, für Hugenotten, für Juden und später ein Inbegriff für Toleranz. Anne Frank versteckte sich hier von 1942 bis zum Verrat ihrer Familie 1944, und ihr Haus an der Prinsengracht ist heute die meistbesuchte Gedenkstätte der Stadt.",
+    knownFor: [
+      "Der Grachtengürtel",
+      "Van-Gogh-Museum",
+      "Anne-Frank-Haus",
+      "Fahrräder",
+      "Rijksmuseum",
+      "Braune Cafés",
+    ],
+  },
 };
 
 export default extrasDe;

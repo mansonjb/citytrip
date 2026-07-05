@@ -411,6 +411,122 @@ const hotelsEn: Hotel[] = [
     image: px(279805),
     imageAlt: "Warm bedside lamp and headboard detail in a guesthouse room",
   },
+
+  // ---- Rome ----
+  {
+    slug: "hotel-hassler-roma",
+    citySlug: "rome",
+    name: "Hotel Hassler Roma",
+    neighborhoodSlug: "centro-storico",
+    band: "€€€",
+    priceFrom: 500,
+    style: "Top of the Spanish Steps",
+    bestFor: "Landmark stay",
+    blurb:
+      "A family-run grande dame sitting right at the head of the Spanish Steps, with a rooftop restaurant over the whole centro. It is one of the most expensive addresses in Rome; the location and the view are the reason people pay it.",
+    image: px(338504),
+    imageAlt: "Grand hotel bedroom with chandelier and ornate ceiling",
+  },
+  {
+    slug: "hotel-artemide",
+    citySlug: "rome",
+    name: "Hotel Artemide",
+    neighborhoodSlug: "monti",
+    band: "€€",
+    priceFrom: 160,
+    style: "Polished and central",
+    bestFor: "First visit",
+    blurb:
+      "A reliable four-star on Via Nazionale between Termini and Monti, walkable to the Colosseum and every metro line. Rooms are quiet and generous for Rome, and the rooftop aperitivo is included some seasons.",
+    image: px(262048),
+    imageAlt: "Bright elegant hotel suite with a chandelier and large bed",
+  },
+  {
+    slug: "hotel-santa-maria-trastevere",
+    citySlug: "rome",
+    name: "Hotel Santa Maria",
+    neighborhoodSlug: "trastevere",
+    band: "€€",
+    priceFrom: 150,
+    style: "Trastevere cloister",
+    bestFor: "Local life",
+    blurb:
+      "A low-rise former convent built around an orange-tree courtyard in the middle of Trastevere, so you sleep in the nightlife district without the street noise. Ground-floor rooms make it rare in Rome for anyone avoiding stairs.",
+    image: px(164595),
+    imageAlt: "Hotel bedroom with dark wood beams and crisp bedding",
+  },
+  {
+    slug: "the-romehello",
+    citySlug: "rome",
+    name: "The RomeHello",
+    neighborhoodSlug: "monti",
+    band: "€",
+    priceFrom: 45,
+    style: "Design hostel",
+    bestFor: "Budget",
+    blurb:
+      "A bright social hostel between Termini and the Trevi Fountain, with private rooms as well as dorms and a big garden courtyard. It is walkable to the ancient core and a fraction of central-Rome hotel prices.",
+    image: px(279805),
+    imageAlt: "Warm bedside lamp and headboard detail in a guesthouse room",
+  },
+
+  // ---- Amsterdam ----
+  {
+    slug: "pulitzer-amsterdam",
+    citySlug: "amsterdam",
+    name: "Pulitzer Amsterdam",
+    neighborhoodSlug: "jordaan",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Twenty-five canal houses",
+    bestFor: "Romantic",
+    blurb:
+      "A luxury hotel stitched together from twenty-five 17th-century canal houses on the Prinsengracht, so the corridors wander through history. You are between the Jordaan and the Anne Frank House, on the prettiest stretch of water in the city.",
+    image: px(262048),
+    imageAlt: "Elegant hotel suite with a chandelier and large bed",
+  },
+  {
+    slug: "hotel-v-nesplein",
+    citySlug: "amsterdam",
+    name: "Hotel V Nesplein",
+    neighborhoodSlug: "centrum",
+    band: "€€",
+    priceFrom: 160,
+    style: "Design in the center",
+    bestFor: "First visit",
+    blurb:
+      "A warm design hotel on a quiet theatre square a few minutes from Dam Square and the flower market. It puts you inside the walkable core, which in bike-first Amsterdam saves you working out the trams.",
+    image: px(1267438),
+    imageAlt: "Minimalist design hotel room in dark tones with low lighting",
+  },
+  {
+    slug: "conscious-hotel-vondelpark",
+    citySlug: "amsterdam",
+    name: "Conscious Hotel Vondelpark",
+    neighborhoodSlug: "oud-west",
+    band: "€€",
+    priceFrom: 130,
+    style: "Eco design",
+    bestFor: "Design lovers",
+    blurb:
+      "A green, good-value design hotel a block from Vondelpark and the Museum Quarter, so the Rijksmuseum and Van Gogh are a short walk. Oud-West around it is where locals eat, away from the center markup.",
+    image: px(2507010),
+    imageAlt: "Modern bright hotel lobby with floor-to-ceiling windows",
+  },
+  {
+    slug: "generator-amsterdam",
+    citySlug: "amsterdam",
+    name: "Generator Amsterdam",
+    neighborhoodSlug: "oost",
+    band: "€",
+    priceFrom: 55,
+    style: "Park-side hostel",
+    bestFor: "Budget",
+    blurb:
+      "A design hostel in a former university building on the Oosterpark, with private rooms as well as dorms and a canal-side bar. Amsterdam beds are pricey, and this is one of the better-value ones a tram ride from the center.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;

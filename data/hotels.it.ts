@@ -411,6 +411,122 @@ const hotelsIt: Hotel[] = [
     image: px(279805),
     imageAlt: "Dettaglio di abat-jour caldo e testiera in una camera di guesthouse",
   },
+
+  // ---- Rome ----
+  {
+    slug: "hotel-hassler-roma",
+    citySlug: "rome",
+    name: "Hotel Hassler Roma",
+    neighborhoodSlug: "centro-storico",
+    band: "€€€",
+    priceFrom: 500,
+    style: "In cima a Piazza di Spagna",
+    bestFor: "Soggiorno da cartolina",
+    blurb:
+      "Una grande dame a conduzione familiare proprio in cima alla scalinata di Piazza di Spagna, con un ristorante sul tetto affacciato su tutto il centro. È uno degli indirizzi più cari di Roma; la posizione e la vista sono il motivo per cui la gente li paga.",
+    image: px(338504),
+    imageAlt: "Camera d'albergo di lusso con lampadario e soffitto decorato",
+  },
+  {
+    slug: "hotel-artemide",
+    citySlug: "rome",
+    name: "Hotel Artemide",
+    neighborhoodSlug: "monti",
+    band: "€€",
+    priceFrom: 160,
+    style: "Curato e centrale",
+    bestFor: "Prima visita",
+    blurb:
+      "Un affidabile quattro stelle su Via Nazionale tra Termini e Monti, raggiungibile a piedi dal Colosseo e da ogni linea della metro. Le camere sono silenziose e ampie per gli standard di Roma, e l'aperitivo sul tetto è incluso in alcune stagioni.",
+    image: px(262048),
+    imageAlt: "Elegante suite d'albergo luminosa con lampadario e letto grande",
+  },
+  {
+    slug: "hotel-santa-maria-trastevere",
+    citySlug: "rome",
+    name: "Hotel Santa Maria",
+    neighborhoodSlug: "trastevere",
+    band: "€€",
+    priceFrom: 150,
+    style: "Chiostro di Trastevere",
+    bestFor: "Vita locale",
+    blurb:
+      "Un ex convento a pochi piani costruito attorno a un cortile con aranci nel cuore di Trastevere, così dormite nel quartiere della vita notturna senza il rumore della strada. Le camere al piano terra lo rendono raro a Roma per chiunque voglia evitare le scale.",
+    image: px(164595),
+    imageAlt: "Camera d'albergo con travi in legno scuro e biancheria impeccabile",
+  },
+  {
+    slug: "the-romehello",
+    citySlug: "rome",
+    name: "The RomeHello",
+    neighborhoodSlug: "monti",
+    band: "€",
+    priceFrom: 45,
+    style: "Ostello di design",
+    bestFor: "Budget",
+    blurb:
+      "Un ostello luminoso e sociale tra Termini e la Fontana di Trevi, con camere private oltre ai dormitori e un grande cortile giardino. È raggiungibile a piedi dal cuore antico e a una frazione dei prezzi degli hotel del centro di Roma.",
+    image: px(279805),
+    imageAlt: "Dettaglio di abat-jour caldo e testiera in una camera di guesthouse",
+  },
+
+  // ---- Amsterdam ----
+  {
+    slug: "pulitzer-amsterdam",
+    citySlug: "amsterdam",
+    name: "Pulitzer Amsterdam",
+    neighborhoodSlug: "jordaan",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Venticinque case sui canali",
+    bestFor: "Romantico",
+    blurb:
+      "Un hotel di lusso cucito insieme da venticinque case sui canali del Seicento sul Prinsengracht, così i corridoi vagano attraverso la storia. Vi trovate tra il Jordaan e la Casa di Anna Frank, sul tratto d'acqua più bello della città.",
+    image: px(262048),
+    imageAlt: "Elegante suite d'albergo con lampadario e letto grande",
+  },
+  {
+    slug: "hotel-v-nesplein",
+    citySlug: "amsterdam",
+    name: "Hotel V Nesplein",
+    neighborhoodSlug: "centrum",
+    band: "€€",
+    priceFrom: 160,
+    style: "Design nel centro",
+    bestFor: "Prima visita",
+    blurb:
+      "Un caldo hotel di design su una tranquilla piazza dei teatri a pochi minuti da Dam Square e dal mercato dei fiori. Vi mette dentro il cuore percorribile a piedi, cosa che nell'Amsterdam a misura di bici vi risparmia di dover decifrare i tram.",
+    image: px(1267438),
+    imageAlt: "Camera d'albergo di design minimalista dai toni scuri con luci soffuse",
+  },
+  {
+    slug: "conscious-hotel-vondelpark",
+    citySlug: "amsterdam",
+    name: "Conscious Hotel Vondelpark",
+    neighborhoodSlug: "oud-west",
+    band: "€€",
+    priceFrom: 130,
+    style: "Design ecologico",
+    bestFor: "Amanti del design",
+    blurb:
+      "Un hotel di design verde e dal buon rapporto qualità-prezzo a un isolato dal Vondelpark e dal Quartiere dei Musei, così il Rijksmuseum e il Van Gogh sono a breve distanza a piedi. L'Oud-West attorno è dove mangia la gente del posto, lontano dal sovrapprezzo del centro.",
+    image: px(2507010),
+    imageAlt: "Hall d'albergo moderna e luminosa con vetrate a tutta altezza",
+  },
+  {
+    slug: "generator-amsterdam",
+    citySlug: "amsterdam",
+    name: "Generator Amsterdam",
+    neighborhoodSlug: "oost",
+    band: "€",
+    priceFrom: 55,
+    style: "Ostello sul parco",
+    bestFor: "Budget",
+    blurb:
+      "Un ostello di design in un ex edificio universitario sull'Oosterpark, con camere private oltre ai dormitori e un bar lungo il canale. I letti ad Amsterdam sono cari, e questo è uno di quelli dal miglior rapporto qualità-prezzo a una corsa di tram dal centro.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
 ];
 
 export default hotelsIt;

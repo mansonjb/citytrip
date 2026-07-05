@@ -116,6 +116,37 @@ const extrasEn: Record<string, CityExtras> = {
       "Sacromonte flamenco",
     ],
   },
+  rome: {
+    citySlug: "rome",
+    image: hero(32619390),
+    imageAlt: "The Colosseum in Rome against a bright blue sky",
+    history:
+      "Rome was, by its own legend, founded by Romulus in 753 BC, and it grew into the capital of an empire that ran from Britain to the Sahara. The ruins you walk between, the Colosseum, the Forum, the Pantheon, are the leftovers of a city that held a million people while medieval London held twenty thousand. When the empire fell, the popes made Rome the capital of the Catholic world, and Renaissance and Baroque money rebuilt it around the ancient bones, which is why Bernini fountains sit on Roman foundations. It only became the capital of a united Italy in 1871, the last piece of the country to join. Everything since, from the traffic to the aperitivo, layers onto three thousand years that never got cleared away.",
+    knownFor: [
+      "The Colosseum",
+      "Vatican and Sistine Chapel",
+      "Trevi Fountain",
+      "Roman ruins",
+      "Pasta and gelato",
+      "Baroque fountains",
+    ],
+  },
+  amsterdam: {
+    citySlug: "amsterdam",
+    image: hero(12705128),
+    imageAlt:
+      "Amsterdam canal houses and tour boats on the Damrak under a blue sky",
+    history:
+      "Amsterdam grew from a 13th-century fishing village that dammed the river Amstel, which is where the name comes from. Its golden age was the 17th century, when Dutch ships ran the world's trade and the merchants who financed them dug the ring of canals, the Grachtengordel, and built the tall narrow gabled houses you still see, taxed by their width, which is why they are so thin. That wealth funded Rembrandt and the tulip mania that ruined speculators in 1637. The city has always been a refuge, for Huguenots, for Jews, and later a byword for tolerance. Anne Frank hid here from 1942 until her family was betrayed in 1944, and her house on the Prinsengracht is now the city's most visited memorial.",
+    knownFor: [
+      "The canal ring",
+      "Van Gogh Museum",
+      "Anne Frank House",
+      "Bicycles",
+      "Rijksmuseum",
+      "Brown cafes",
+    ],
+  },
 };
 
 export default extrasEn;

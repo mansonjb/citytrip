@@ -115,6 +115,37 @@ const extrasPt: Record<string, CityExtras> = {
       "Flamenco do Sacromonte",
     ],
   },
+  rome: {
+    citySlug: "rome",
+    image: hero(32619390),
+    imageAlt: "O Coliseu em Roma contra um céu azul intenso",
+    history:
+      "Roma foi, pela sua própria lenda, fundada por Rómulo em 753 a.C., e cresceu até ser a capital de um império que ia da Britânia ao Saara. As ruínas por onde passa, o Coliseu, o Forum, o Panteao, são as sobras de uma cidade que tinha um milhão de habitantes enquanto a Londres medieval tinha vinte mil. Quando o império caiu, os papas fizeram de Roma a capital do mundo católico, e o dinheiro do Renascimento e do Barroco reconstruiu-a à volta dos ossos antigos, e é por isso que as fontes de Bernini assentam sobre alicerces romanos. Só se tornou a capital de uma Itália unida em 1871, a última peça do país a juntar-se. Tudo desde então, do trânsito ao aperitivo, sobrepõe-se a três mil anos que nunca foram removidos.",
+    knownFor: [
+      "O Coliseu",
+      "Vaticano e Capela Sistina",
+      "Fontana di Trevi",
+      "Ruínas romanas",
+      "Massa e gelado",
+      "Fontes barrocas",
+    ],
+  },
+  amsterdam: {
+    citySlug: "amsterdam",
+    image: hero(12705128),
+    imageAlt:
+      "Casas de canal e barcos turísticos de Amesterdao no Damrak sob um céu azul",
+    history:
+      "Amesterdao cresceu a partir de uma aldeia piscatória do século XIII que barrou o rio Amstel, de onde vem o nome. A sua idade de ouro foi o século XVII, quando os navios holandeses dominavam o comércio mundial e os mercadores que os financiavam escavaram o anel de canais, o Grachtengordel, e construíram as casas de empena altas e estreitas que ainda hoje se veem, taxadas pela largura, e é por isso que são tão finas. Essa riqueza financiou Rembrandt e a mania das tulipas que arruinou os especuladores em 1637. A cidade foi sempre um refúgio, para huguenotes, para judeus, e mais tarde um sinónimo de tolerância. Anne Frank escondeu-se aqui de 1942 até a sua família ser denunciada em 1944, e a sua casa no Prinsengracht é hoje o memorial mais visitado da cidade.",
+    knownFor: [
+      "O anel de canais",
+      "Museu Van Gogh",
+      "Casa de Anne Frank",
+      "Bicicletas",
+      "Rijksmuseum",
+      "Brown cafes",
+    ],
+  },
 };
 
 export default extrasPt;

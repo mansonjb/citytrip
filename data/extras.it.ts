@@ -115,6 +115,37 @@ const extrasIt: Record<string, CityExtras> = {
       "Flamenco del Sacromonte",
     ],
   },
+  rome: {
+    citySlug: "rome",
+    image: hero(32619390),
+    imageAlt: "Il Colosseo di Roma contro un cielo azzurro limpido",
+    history:
+      "Roma fu, secondo la sua stessa leggenda, fondata da Romolo nel 753 a.C., e crebbe fino a diventare la capitale di un impero che andava dalla Britannia al Sahara. Le rovine tra cui camminate, il Colosseo, il Foro, il Pantheon, sono i resti di una città che contava un milione di abitanti quando la Londra medievale ne contava ventimila. Quando l'impero cadde, i papi fecero di Roma la capitale del mondo cattolico, e il denaro rinascimentale e barocco la ricostruì attorno alle ossa antiche, ed è per questo che le fontane del Bernini poggiano su fondamenta romane. Divenne capitale di un'Italia unita solo nel 1871, l'ultimo pezzo del Paese ad aggregarsi. Tutto ciò che è venuto dopo, dal traffico all'aperitivo, si stratifica su tremila anni che non furono mai sgomberati.",
+    knownFor: [
+      "Il Colosseo",
+      "Vaticano e Cappella Sistina",
+      "Fontana di Trevi",
+      "Rovine romane",
+      "Pasta e gelato",
+      "Fontane barocche",
+    ],
+  },
+  amsterdam: {
+    citySlug: "amsterdam",
+    image: hero(12705128),
+    imageAlt:
+      "Case sui canali di Amsterdam e barche turistiche sul Damrak sotto un cielo azzurro",
+    history:
+      "Amsterdam nacque da un villaggio di pescatori del XIII secolo che sbarrò con una diga il fiume Amstel, da cui deriva il nome. La sua età dell'oro fu il Seicento, quando le navi olandesi dominavano il commercio mondiale e i mercanti che le finanziavano scavarono l'anello di canali, il Grachtengordel, e costruirono le alte e strette case a timpano che vedete ancora, tassate in base alla larghezza, ed è per questo che sono così sottili. Quella ricchezza finanziò Rembrandt e la mania dei tulipani che rovinò gli speculatori nel 1637. La città è sempre stata un rifugio, per gli ugonotti, per gli ebrei, e in seguito un sinonimo di tolleranza. Anna Frank si nascose qui dal 1942 fino a quando la sua famiglia fu tradita nel 1944, e la sua casa sul Prinsengracht è oggi il memoriale più visitato della città.",
+    knownFor: [
+      "L'anello dei canali",
+      "Van Gogh Museum",
+      "Casa di Anna Frank",
+      "Biciclette",
+      "Rijksmuseum",
+      "Brown cafe",
+    ],
+  },
 };
 
 export default extrasIt;
