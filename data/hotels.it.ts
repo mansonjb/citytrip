@@ -759,6 +759,64 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },
+
+  // ---- Madrid ----
+  {
+    slug: "the-principal-madrid",
+    citySlug: "madrid",
+    name: "The Principal Madrid",
+    neighborhoodSlug: "centro",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Rooftop sulla Gran Via",
+    bestFor: "Panorami",
+    blurb:
+      "Un hotel raffinato in cima alla Gran Via con una terrazza sul tetto e un ristorante affacciati sui tetti della città fino alle montagne. Sei a pochi minuti a piedi dai musei d'arte e dalla vita notturna di Chueca e Malasana.",
+    image: px(261102),
+    imageAlt: "Terrazza sul tetto di un hotel al crepuscolo affacciata sulla città",
+  },
+  {
+    slug: "only-you-boutique-madrid",
+    citySlug: "madrid",
+    name: "Only YOU Boutique Hotel Madrid",
+    neighborhoodSlug: "chueca",
+    band: "€€",
+    priceFrom: 180,
+    style: "Fermento boutique",
+    bestFor: "Amanti del design",
+    blurb:
+      "Un elegante hotel di design in una dimora restaurata di Chueca, con un lobby bar animato che i locali usano per brunch e cocktail. Ti mette nel barrio centrale più vivace, a breve distanza a piedi dal Prado e dalla Gran Via.",
+    image: px(1267438),
+    imageAlt: "Camera d'albergo minimalista dai toni scuri con luci soffuse",
+  },
+  {
+    slug: "posada-del-leon-de-oro",
+    citySlug: "madrid",
+    name: "Posada del Leon de Oro",
+    neighborhoodSlug: "la-latina",
+    band: "€€",
+    priceFrom: 130,
+    style: "Vecchia locanda sulla Cava Baja",
+    bestFor: "Vita locale",
+    blurb:
+      "Una locanda di posta ottocentesca restaurata proprio sulla Cava Baja, la migliore strada di tapas di La Latina, così la cena è al piano di sotto. Le camere sono costruite attorno a un cortile coperto in vetro sopra le antiche mura cittadine.",
+    image: px(279746),
+    imageAlt: "Camera d'albergo tradizionale con mobili in legno",
+  },
+  {
+    slug: "the-hat-madrid",
+    citySlug: "madrid",
+    name: "The Hat Madrid",
+    neighborhoodSlug: "centro",
+    band: "€",
+    priceFrom: 40,
+    style: "Ostello con rooftop",
+    bestFor: "Budget",
+    blurb:
+      "Un hotel e ostello economico curato a pochi passi dalla Plaza Mayor, con camere private oltre ai dormitori e un bar con terrazza sul tetto. È uno dei letti dal miglior rapporto qualità-prezzo nel cuore della vecchia Madrid.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
 ];
 
 export default hotelsIt;

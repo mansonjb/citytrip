@@ -759,6 +759,64 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
   },
+
+  // ---- Madrid ----
+  {
+    slug: "the-principal-madrid",
+    citySlug: "madrid",
+    name: "The Principal Madrid",
+    neighborhoodSlug: "centro",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Dachterrasse über der Gran Via",
+    bestFor: "Aussicht",
+    blurb:
+      "Ein raffiniertes Hotel am oberen Ende der Gran Via mit einer Dachterrasse und einem Restaurant, die über die Dächer der Stadt bis zu den Bergen blicken. Sie sind wenige Gehminuten von den Kunstmuseen und dem Nachtleben von Chueca und Malasana entfernt.",
+    image: px(261102),
+    imageAlt: "Hotel-Dachterrasse in der Abenddämmerung mit Blick über die Stadt",
+  },
+  {
+    slug: "only-you-boutique-madrid",
+    citySlug: "madrid",
+    name: "Only YOU Boutique Hotel Madrid",
+    neighborhoodSlug: "chueca",
+    band: "€€",
+    priceFrom: 180,
+    style: "Boutique-Trubel",
+    bestFor: "Designliebhaber",
+    blurb:
+      "Ein stilvolles Designhotel in einem restaurierten Herrenhaus in Chueca, mit einer belebten Lobbybar, die Einheimische für Brunch und Cocktails nutzen. Es setzt Sie in das lebhafteste zentrale Barrio, einen kurzen Weg vom Prado und der Gran Via.",
+    image: px(1267438),
+    imageAlt: "Minimalistisches Designhotelzimmer in dunklen Tönen mit gedämpftem Licht",
+  },
+  {
+    slug: "posada-del-leon-de-oro",
+    citySlug: "madrid",
+    name: "Posada del Leon de Oro",
+    neighborhoodSlug: "la-latina",
+    band: "€€",
+    priceFrom: 130,
+    style: "Alter Gasthof an der Cava Baja",
+    bestFor: "Lokales Leben",
+    blurb:
+      "Ein restaurierter Kutschgasthof aus dem 19. Jahrhundert direkt an der Cava Baja, der besten Tapas-Straße in La Latina, sodass das Abendessen unten wartet. Die Zimmer sind rund um einen glasüberdachten Innenhof über der alten Stadtmauer angeordnet.",
+    image: px(279746),
+    imageAlt: "Traditionelles Hotelzimmer mit Holzmöbeln",
+  },
+  {
+    slug: "the-hat-madrid",
+    citySlug: "madrid",
+    name: "The Hat Madrid",
+    neighborhoodSlug: "centro",
+    band: "€",
+    priceFrom: 40,
+    style: "Hostel mit Dachterrasse",
+    bestFor: "Budget",
+    blurb:
+      "Ein schickes Budget-Hotel und Hostel wenige Schritte von der Plaza Mayor, mit Privatzimmern ebenso wie Schlafsälen und einer Dachterrassenbar. Es ist eines der preiswertesten Betten im ganz zentralen alten Madrid.",
+    image: px(271624),
+    imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
+  },
 ];
 
 export default hotelsDe;

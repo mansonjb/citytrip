@@ -32,6 +32,7 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /bruges (Bruges, Belgium): ideal 2 days
 - /barcelona (Barcelona, Spain): ideal 3 days
 - /berlin (Berlin, Germany): ideal 3 days
+- /madrid (Madrid, Spain): ideal 3 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,

@@ -759,6 +759,64 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
   },
+
+  // ---- Madrid ----
+  {
+    slug: "the-principal-madrid",
+    citySlug: "madrid",
+    name: "The Principal Madrid",
+    neighborhoodSlug: "centro",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Rooftop sur la Gran Via",
+    bestFor: "Vues",
+    blurb:
+      "Un hôtel raffiné en haut de la Gran Via, avec une terrasse et un restaurant sur le toit dominant les toits de la ville jusqu'aux montagnes. Vous êtes à quelques minutes à pied des musées d'art et de la vie nocturne de Chueca et Malasana.",
+    image: px(261102),
+    imageAlt: "Terrasse d'hôtel sur le toit au crépuscule surplombant la ville",
+  },
+  {
+    slug: "only-you-boutique-madrid",
+    citySlug: "madrid",
+    name: "Only YOU Boutique Hotel Madrid",
+    neighborhoodSlug: "chueca",
+    band: "€€",
+    priceFrom: 180,
+    style: "Effervescence boutique",
+    bestFor: "Amateurs de design",
+    blurb:
+      "Un hôtel design élégant dans une demeure restaurée de Chueca, avec un bar de hall animé que les locaux utilisent pour le brunch et les cocktails. Il vous place dans le barrio central le plus animé, à courte marche du Prado et de la Gran Via.",
+    image: px(1267438),
+    imageAlt: "Chambre d'hôtel design minimaliste aux tons sombres et à l'éclairage tamisé",
+  },
+  {
+    slug: "posada-del-leon-de-oro",
+    citySlug: "madrid",
+    name: "Posada del Leon de Oro",
+    neighborhoodSlug: "la-latina",
+    band: "€€",
+    priceFrom: 130,
+    style: "Vieille auberge sur Cava Baja",
+    bestFor: "Vie locale",
+    blurb:
+      "Un relais de poste du XIXe siècle restauré, en plein sur Cava Baja, la meilleure rue à tapas de La Latina, si bien que le dîner est en bas. Les chambres s'organisent autour d'une cour couverte de verre au-dessus de l'ancienne muraille de la ville.",
+    image: px(279746),
+    imageAlt: "Chambre d'hôtel traditionnelle avec mobilier en bois",
+  },
+  {
+    slug: "the-hat-madrid",
+    citySlug: "madrid",
+    name: "The Hat Madrid",
+    neighborhoodSlug: "centro",
+    band: "€",
+    priceFrom: 40,
+    style: "Auberge avec rooftop",
+    bestFor: "Petit budget",
+    blurb:
+      "Un hôtel et une auberge économiques et soignés à deux pas de la Plaza Mayor, avec des chambres privées comme des dortoirs et un bar sur le toit. C'est l'un des lits au meilleur rapport qualité-prix en plein coeur du vieux Madrid.",
+    image: px(271624),
+    imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
+  },
 ];
 
 export default hotelsFr;

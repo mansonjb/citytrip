@@ -757,6 +757,64 @@ const hotelsPt: Hotel[] = [
     image: px(271624),
     imageAlt: "Quarto simples e luminoso com uma secretária e cama de casal",
   },
+
+  // ---- Madrid ----
+  {
+    slug: "the-principal-madrid",
+    citySlug: "madrid",
+    name: "The Principal Madrid",
+    neighborhoodSlug: "centro",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Rooftop sobre a Gran Via",
+    bestFor: "Vistas",
+    blurb:
+      "Um hotel requintado no topo da Gran Via, com um terraço e um restaurante no rooftop a olhar sobre os telhados da cidade até às montanhas. Fica a poucos minutos a pé dos museus de arte e da vida noturna de Chueca e Malasana.",
+    image: px(261102),
+    imageAlt: "Terraço de hotel no rooftop ao entardecer sobre a cidade",
+  },
+  {
+    slug: "only-you-boutique-madrid",
+    citySlug: "madrid",
+    name: "Only YOU Boutique Hotel Madrid",
+    neighborhoodSlug: "chueca",
+    band: "€€",
+    priceFrom: 180,
+    style: "Vibração boutique",
+    bestFor: "Amantes de design",
+    blurb:
+      "Um hotel de design com estilo numa casa senhorial restaurada de Chueca, com um bar de lobby movimentado que os locais usam para brunch e cocktails. Coloca-o no barrio central mais animado, a uma curta caminhada do Museu do Prado e da Gran Via.",
+    image: px(1267438),
+    imageAlt: "Quarto de hotel de design minimalista em tons escuros com luz baixa",
+  },
+  {
+    slug: "posada-del-leon-de-oro",
+    citySlug: "madrid",
+    name: "Posada del Leon de Oro",
+    neighborhoodSlug: "la-latina",
+    band: "€€",
+    priceFrom: 130,
+    style: "Antiga estalagem na Cava Baja",
+    bestFor: "Vida local",
+    blurb:
+      "Uma estalagem de posta do século XIX restaurada mesmo na Cava Baja, a melhor rua de tapas de La Latina, por isso o jantar é lá em baixo. Os quartos estão dispostos à volta de um pátio coberto de vidro sobre a antiga muralha da cidade.",
+    image: px(279746),
+    imageAlt: "Quarto de hotel tradicional com mobiliário de madeira",
+  },
+  {
+    slug: "the-hat-madrid",
+    citySlug: "madrid",
+    name: "The Hat Madrid",
+    neighborhoodSlug: "centro",
+    band: "€",
+    priceFrom: 40,
+    style: "Hostel com rooftop",
+    bestFor: "Orçamento apertado",
+    blurb:
+      "Um hotel e hostel económico com estilo a dois passos da Plaza Mayor, com quartos privados além dos dormitórios e um bar de terraço no rooftop. É uma das camas com melhor relação qualidade-preço em pleno centro da Madrid antiga.",
+    image: px(271624),
+    imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
+  },
 ];
 
 export default hotelsPt;

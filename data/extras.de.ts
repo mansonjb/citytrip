@@ -211,6 +211,21 @@ const extrasDe: Record<string, CityExtras> = {
       "Street-Art",
     ],
   },
+  madrid: {
+    citySlug: "madrid",
+    image: hero(32314658),
+    imageAlt: "Das Metropolis-Gebäude an der Gran Via in Madrid im goldenen Abendlicht",
+    history:
+      "Madrid wurde fast per Dekret zur Hauptstadt Spaniens: 1561 verlegte König Philipp II. seinen Hof in das damals bescheidene Städtchen, teils gewählt, weil es im toten Zentrum der Halbinsel lag. Die engen Gassen des alten Zentrums rund um die Plaza Mayor heißen nach jenen Habsburgerkönigen noch immer Madrid de los Austrias, während die späteren Bourbonen den Konigspalast und die Boulevards hinzufügten. Am 2. Mai 1808 erhob sich die Stadt gegen Napoleons Truppen, ein Gemetzel, das Goya malte und das das Land noch heute als Feiertag begeht. Madrid hat kein einzelnes Wunder wie die Alhambra oder die Sagrada Familia; sein Reiz ist die Dichte des Lebens und eine der größten Konzentrationen an Malerei der Welt, der Prado, das Reina Sofia und das Thyssen in einem Zehn-Minuten-Fußweg.",
+    knownFor: [
+      "Der Prado",
+      "Retiro-Park",
+      "Tapas und Terrassen",
+      "Konigspalast",
+      "Guernica",
+      "Lange Nächte",
+    ],
+  },
 };
 
 export default extrasDe;

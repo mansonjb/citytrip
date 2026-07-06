@@ -759,6 +759,64 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+
+  // ---- Madrid ----
+  {
+    slug: "the-principal-madrid",
+    citySlug: "madrid",
+    name: "The Principal Madrid",
+    neighborhoodSlug: "centro",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Rooftop over Gran Via",
+    bestFor: "Views",
+    blurb:
+      "A refined hotel at the top of Gran Via with a rooftop terrace and restaurant looking over the city's rooftops to the mountains. You are minutes on foot from the art museums and the Chueca and Malasana nightlife.",
+    image: px(261102),
+    imageAlt: "Hotel rooftop terrace at dusk overlooking the city",
+  },
+  {
+    slug: "only-you-boutique-madrid",
+    citySlug: "madrid",
+    name: "Only YOU Boutique Hotel Madrid",
+    neighborhoodSlug: "chueca",
+    band: "€€",
+    priceFrom: 180,
+    style: "Boutique buzz",
+    bestFor: "Design lovers",
+    blurb:
+      "A stylish design hotel in a restored Chueca mansion, with a busy lobby bar that locals use for brunch and cocktails. It puts you in the liveliest central barrio, a short walk from the Prado and Gran Via.",
+    image: px(1267438),
+    imageAlt: "Minimalist design hotel room in dark tones with low lighting",
+  },
+  {
+    slug: "posada-del-leon-de-oro",
+    citySlug: "madrid",
+    name: "Posada del Leon de Oro",
+    neighborhoodSlug: "la-latina",
+    band: "€€",
+    priceFrom: 130,
+    style: "Old inn on Cava Baja",
+    bestFor: "Local life",
+    blurb:
+      "A restored 19th-century coaching inn right on Cava Baja, the best tapas street in La Latina, so dinner is downstairs. The rooms are built around a glass-covered courtyard over the old city wall.",
+    image: px(279746),
+    imageAlt: "Traditional hotel bedroom with wooden furniture",
+  },
+  {
+    slug: "the-hat-madrid",
+    citySlug: "madrid",
+    name: "The Hat Madrid",
+    neighborhoodSlug: "centro",
+    band: "€",
+    priceFrom: 40,
+    style: "Rooftop hostel",
+    bestFor: "Budget",
+    blurb:
+      "A smart budget hotel and hostel steps from Plaza Mayor, with private rooms as well as dorms and a rooftop terrace bar. It is one of the best-value beds in the very center of old Madrid.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;

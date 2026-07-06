@@ -210,6 +210,21 @@ const extrasEn: Record<string, CityExtras> = {
       "Street art",
     ],
   },
+  madrid: {
+    citySlug: "madrid",
+    image: hero(32314658),
+    imageAlt: "The Metropolis building on Gran Via in Madrid at golden hour",
+    history:
+      "Madrid became the capital of Spain almost by decree: in 1561 King Philip II moved his court to what was then a modest town, chosen partly because it sat in the dead center of the peninsula. The tight lanes of the old center around Plaza Mayor are still called the Madrid de los Austrias after those Habsburg kings, while the later Bourbons added the Royal Palace and the boulevards. On 2 May 1808 the city rose against Napoleon's troops, a slaughter Goya painted and the country still marks as a holiday. Madrid has no single wonder like the Alhambra or the Sagrada Familia; its draw is the density of life and one of the greatest concentrations of painting on earth, the Prado, the Reina Sofia and the Thyssen within a ten-minute walk.",
+    knownFor: [
+      "The Prado",
+      "Retiro Park",
+      "Tapas and terraces",
+      "Royal Palace",
+      "Guernica",
+      "Late nights",
+    ],
+  },
 };
 
 export default extrasEn;

@@ -211,6 +211,21 @@ const extrasFr: Record<string, CityExtras> = {
       "Le street art",
     ],
   },
+  madrid: {
+    citySlug: "madrid",
+    image: hero(32314658),
+    imageAlt: "L'immeuble Metropolis sur la Gran Via à Madrid à l'heure dorée",
+    history:
+      "Madrid devint la capitale de l'Espagne presque par décret : en 1561, le roi Philippe II transféra sa cour dans ce qui n'était alors qu'une modeste bourgade, choisie en partie parce qu'elle se trouvait au centre exact de la péninsule. Les ruelles serrées du vieux centre autour de la Plaza Mayor s'appellent encore le Madrid de los Austrias d'après ces rois Habsbourg, tandis que les Bourbons plus tardifs ajoutèrent le Palais royal et les boulevards. Le 2 mai 1808, la ville se souleva contre les troupes de Napoléon, un carnage que Goya peignit et que le pays marque encore d'un jour férié. Madrid n'a pas de merveille unique comme l'Alhambra ou la Sagrada Familia ; son attrait tient à la densité de la vie et à l'une des plus grandes concentrations de peinture au monde, le Prado, le Reina Sofia et le Thyssen à dix minutes de marche.",
+    knownFor: [
+      "Le Prado",
+      "Le parc du Retiro",
+      "Tapas et terrasses",
+      "Le Palais royal",
+      "Guernica",
+      "Les nuits tardives",
+    ],
+  },
 };
 
 export default extrasFr;
