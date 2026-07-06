@@ -9,6 +9,8 @@ export const PLAUSIBLE_DOMAIN = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN ?? "";
 // Google Analytics 4 measurement id. Empty string disables the tag.
 export const GA_MEASUREMENT_ID =
   process.env.NEXT_PUBLIC_GA_ID ?? "G-X8NQ9PS06W";
+// Microsoft Clarity project id. Empty string disables the tag.
+export const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID ?? "xi3gvbv5ln";
 
 export const SITE_DESCRIPTION =
   "The right number of days, the right neighborhood, the right month. Day-by-day city break itineraries built on real data, not filler.";
