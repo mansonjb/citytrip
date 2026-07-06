@@ -178,6 +178,22 @@ const extrasIt: Record<string, CityExtras> = {
       "Piazze acciottolate",
     ],
   },
+  barcelona: {
+    citySlug: "barcelona",
+    image: hero(21357884),
+    imageAlt:
+      "La Sagrada Familia che si eleva su Barcellona e sul mare, vista dal Park Guell",
+    history:
+      "Barcellona nacque come la città romana di Barcino, poi trascorse il Medioevo come capitale marinara della Corona d'Aragona, ed è per questo che il Quartiere Gotico conserva ancora palazzi medievali a un isolato dal porto. La città moderna nacque nel 1860, quando caddero le vecchie mura e l'ingegnere Ildefons Cerda tracciò l'Eixample, la griglia di isolati dagli angoli smussati che si percorre ancora oggi. Il denaro industriale finanziò poi il boom del Modernisme attorno al 1900, e Antoni Gaudi trasformò quella ricchezza nella Sagrada Familia, nel Park Guell e in Casa Batllo; la basilica fu iniziata nel 1882 ed è tuttora in fase di completamento. Le Olimpiadi del 1992 aprirono la città alle sue spiagge, e da allora Barcellona è una delle città più visitate d'Europa. È fieramente catalana, con una lingua propria e un forte movimento indipendentista.",
+    knownFor: [
+      "Sagrada Familia",
+      "Architettura di Gaudi",
+      "Park Guell",
+      "La Rambla",
+      "Tapas e vermut",
+      "Spiagge cittadine",
+    ],
+  },
 };
 
 export default extrasIt;

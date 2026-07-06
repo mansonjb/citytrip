@@ -180,6 +180,22 @@ const extrasFr: Record<string, CityExtras> = {
       "Les places pavées",
     ],
   },
+  barcelona: {
+    citySlug: "barcelona",
+    image: hero(21357884),
+    imageAlt:
+      "La Sagrada Familia s'élevant au-dessus de Barcelone et de la mer, vue depuis le Park Guell",
+    history:
+      "Barcelone débuta comme la ville romaine de Barcino, puis passa le Moyen Âge en capitale maritime de la Couronne d'Aragon, ce qui explique pourquoi le quartier gothique compte encore des palais médiévaux à un pâté de maisons du port. La ville moderne naquit en 1860, quand les vieux remparts tombèrent et que l'ingénieur Ildefons Cerda traça l'Eixample, la grille de pâtés de maisons aux angles coupés que vous parcourez encore aujourd'hui. L'argent de l'industrie finança ensuite l'essor du Modernisme autour de 1900, et Antoni Gaudi transforma cette richesse en Sagrada Familia, Park Guell et Casa Batllo ; la basilique fut commencée en 1882 et est encore en cours d'achèvement. Les Jeux olympiques de 1992 ouvrirent la ville sur ses plages, et Barcelone est depuis l'une des villes les plus visitées d'Europe. Elle est farouchement catalane, avec sa propre langue et un bruyant mouvement indépendantiste.",
+    knownFor: [
+      "La Sagrada Familia",
+      "L'architecture de Gaudi",
+      "Le Park Guell",
+      "La Rambla",
+      "Tapas et vermut",
+      "Les plages urbaines",
+    ],
+  },
 };
 
 export default extrasFr;

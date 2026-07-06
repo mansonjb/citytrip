@@ -179,6 +179,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Cobbled squares",
     ],
   },
+  barcelona: {
+    citySlug: "barcelona",
+    image: hero(21357884),
+    imageAlt:
+      "The Sagrada Familia rising over Barcelona and the sea, seen from Park Guell",
+    history:
+      "Barcelona started as the Roman town of Barcino, then spent the Middle Ages as the seafaring capital of the Crown of Aragon, which is why the Gothic Quarter still has medieval palaces a block from the port. The modern city was born in 1860 when the old walls came down and the engineer Ildefons Cerda laid out the Eixample, the grid of chamfered blocks you still walk today. Industrial money then funded the Modernisme boom around 1900, and Antoni Gaudi turned that wealth into the Sagrada Familia, Park Guell and Casa Batllo; the basilica was begun in 1882 and is still being finished. The 1992 Olympics opened the city to its beaches, and Barcelona has been one of Europe's most visited cities ever since. It is fiercely Catalan, with its own language and a loud independence movement.",
+    knownFor: [
+      "Sagrada Familia",
+      "Gaudi architecture",
+      "Park Guell",
+      "La Rambla",
+      "Tapas and vermut",
+      "City beaches",
+    ],
+  },
 };
 
 export default extrasEn;

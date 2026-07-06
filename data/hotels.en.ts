@@ -643,6 +643,64 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+
+  // ---- Barcelona ----
+  {
+    slug: "hotel-arts-barcelona",
+    citySlug: "barcelona",
+    name: "Hotel Arts Barcelona",
+    neighborhoodSlug: "barceloneta",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Seafront tower",
+    bestFor: "Views",
+    blurb:
+      "A glass tower right on the Barceloneta beachfront, with a pool deck and high floors looking straight down the coast. You trade the old-town lanes for sea views and a ten-minute walk or tram into the Gothic Quarter.",
+    image: px(261102),
+    imageAlt: "Hotel rooftop pool at dusk overlooking the city",
+  },
+  {
+    slug: "yurbban-trafalgar",
+    citySlug: "barcelona",
+    name: "Yurbban Trafalgar Hotel",
+    neighborhoodSlug: "el-born",
+    band: "€€",
+    priceFrom: 160,
+    style: "Rooftop plunge pool",
+    bestFor: "First visit",
+    blurb:
+      "A mid-range hotel on the edge of El Born with a small rooftop pool and bar over the rooftops toward the cathedral. You are a few minutes' walk from the Picasso Museum and the Gothic Quarter on foot.",
+    image: px(2290753),
+    imageAlt: "Rooftop hotel terrace at dusk with tables and a city view",
+  },
+  {
+    slug: "casa-bonay",
+    citySlug: "barcelona",
+    name: "Casa Bonay",
+    neighborhoodSlug: "eixample",
+    band: "€€",
+    priceFrom: 150,
+    style: "Design classic",
+    bestFor: "Design lovers",
+    blurb:
+      "A design hotel in an 1869 Eixample building, with hydraulic-tiled floors, a rooftop bar and a good coffee bar on the ground floor. It sits on the grid between the old town and the Sagrada Familia, both a short metro hop away.",
+    image: px(1267438),
+    imageAlt: "Minimalist design hotel room in dark tones with low lighting",
+  },
+  {
+    slug: "casa-gracia-barcelona",
+    citySlug: "barcelona",
+    name: "Casa Gracia",
+    neighborhoodSlug: "gracia",
+    band: "€",
+    priceFrom: 45,
+    style: "Boutique hostel",
+    bestFor: "Budget",
+    blurb:
+      "A stylish boutique hostel at the top of Passeig de Gracia, with private rooms as well as dorms and a big terrace. It puts you between the Gaudi houses and the Gracia bars at a fraction of hotel prices.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;

@@ -178,6 +178,22 @@ const extrasPt: Record<string, CityExtras> = {
       "Pracas de calcada",
     ],
   },
+  barcelona: {
+    citySlug: "barcelona",
+    image: hero(21357884),
+    imageAlt:
+      "A Sagrada Familia erguendo-se sobre Barcelona e o mar, vista do Park Guell",
+    history:
+      "Barcelona comecou como a cidade romana de Barcino, e depois passou a Idade Media como a capital maritima da Coroa de Aragao, e e por isso que o Bairro Gotico ainda tem palacios medievais a um quarteirao do porto. A cidade moderna nasceu em 1860, quando as velhas muralhas cairam e o engenheiro Ildefons Cerda tracou o Eixample, a grelha de quarteiroes chanfrados que ainda hoje se percorre. O dinheiro industrial financiou depois o boom do Modernisme por volta de 1900, e Antoni Gaudi transformou essa riqueza na Sagrada Familia, no Park Guell e na Casa Batllo; a basilica foi comecada em 1882 e ainda esta a ser terminada. Os Jogos Olimpicos de 1992 abriram a cidade as suas praias, e Barcelona e desde entao uma das cidades mais visitadas da Europa. E ferozmente catala, com a sua propria lingua e um ruidoso movimento independentista.",
+    knownFor: [
+      "Sagrada Familia",
+      "Arquitetura de Gaudi",
+      "Park Guell",
+      "La Rambla",
+      "Tapas e vermute",
+      "Praias urbanas",
+    ],
+  },
 };
 
 export default extrasPt;

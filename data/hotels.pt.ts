@@ -641,6 +641,64 @@ const hotelsPt: Hotel[] = [
     image: px(271624),
     imageAlt: "Quarto simples e luminoso com uma secretária e cama de casal",
   },
+
+  // ---- Barcelona ----
+  {
+    slug: "hotel-arts-barcelona",
+    citySlug: "barcelona",
+    name: "Hotel Arts Barcelona",
+    neighborhoodSlug: "barceloneta",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Torre à beira-mar",
+    bestFor: "Vistas",
+    blurb:
+      "Uma torre de vidro mesmo na frente de praia da Barceloneta, com deck de piscina e pisos altos a olhar a direito pela costa. Troca as vielas da cidade velha por vistas de mar e uma caminhada ou elétrico de dez minutos até ao Bairro Gótico.",
+    image: px(261102),
+    imageAlt: "Piscina no rooftop de hotel ao entardecer sobre a cidade",
+  },
+  {
+    slug: "yurbban-trafalgar",
+    citySlug: "barcelona",
+    name: "Yurbban Trafalgar Hotel",
+    neighborhoodSlug: "el-born",
+    band: "€€",
+    priceFrom: 160,
+    style: "Piscina de imersão no rooftop",
+    bestFor: "Primeira visita",
+    blurb:
+      "Um hotel de gama média na berma de El Born com uma pequena piscina no rooftop e um bar sobre os telhados na direção da catedral. Fica a poucos minutos a pé do Museu Picasso e do Bairro Gótico.",
+    image: px(2290753),
+    imageAlt: "Terraço de hotel no rooftop ao entardecer com mesas e vista da cidade",
+  },
+  {
+    slug: "casa-bonay",
+    citySlug: "barcelona",
+    name: "Casa Bonay",
+    neighborhoodSlug: "eixample",
+    band: "€€",
+    priceFrom: 150,
+    style: "Clássico de design",
+    bestFor: "Amantes de design",
+    blurb:
+      "Um hotel de design num edifício de 1869 do Eixample, com pavimentos de mosaico hidráulico, um rooftop bar e um bom bar de café no rés do chão. Fica na grelha entre a cidade velha e a Sagrada Familia, ambas a um curto salto de metro.",
+    image: px(1267438),
+    imageAlt: "Quarto de hotel de design minimalista em tons escuros com luz baixa",
+  },
+  {
+    slug: "casa-gracia-barcelona",
+    citySlug: "barcelona",
+    name: "Casa Gracia",
+    neighborhoodSlug: "gracia",
+    band: "€",
+    priceFrom: 45,
+    style: "Hostel boutique",
+    bestFor: "Orçamento apertado",
+    blurb:
+      "Um hostel boutique com estilo no topo do Passeig de Gracia, com quartos privados além dos dormitórios e um grande terraço. Coloca-o entre as casas de Gaudi e os bares de Gracia por uma fração dos preços de hotel.",
+    image: px(271624),
+    imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
+  },
 ];
 
 export default hotelsPt;

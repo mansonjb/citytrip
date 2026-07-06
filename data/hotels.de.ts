@@ -643,6 +643,64 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
   },
+
+  // ---- Barcelona ----
+  {
+    slug: "hotel-arts-barcelona",
+    citySlug: "barcelona",
+    name: "Hotel Arts Barcelona",
+    neighborhoodSlug: "barceloneta",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Turm am Meer",
+    bestFor: "Aussicht",
+    blurb:
+      "Ein Glasturm direkt am Strand von Barceloneta, mit einem Pooldeck und hohen Etagen, die geradewegs die Küste hinunterblicken. Sie tauschen die Altstadtgassen gegen Meerblick und einen Zehn-Minuten-Weg oder eine Tramfahrt ins Gotische Viertel.",
+    image: px(261102),
+    imageAlt: "Hotel-Dachpool in der Abenddämmerung mit Blick über die Stadt",
+  },
+  {
+    slug: "yurbban-trafalgar",
+    citySlug: "barcelona",
+    name: "Yurbban Trafalgar Hotel",
+    neighborhoodSlug: "el-born",
+    band: "€€",
+    priceFrom: 160,
+    style: "Rooftop-Tauchbecken",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein Mittelklassehotel am Rand von El Born mit einem kleinen Dachpool und einer Bar über den Dächern in Richtung Kathedrale. Sie sind wenige Gehminuten vom Picasso-Museum und vom Gotischen Viertel entfernt.",
+    image: px(2290753),
+    imageAlt: "Hotel-Dachterrasse in der Abenddämmerung mit Tischen und Stadtblick",
+  },
+  {
+    slug: "casa-bonay",
+    citySlug: "barcelona",
+    name: "Casa Bonay",
+    neighborhoodSlug: "eixample",
+    band: "€€",
+    priceFrom: 150,
+    style: "Design-Klassiker",
+    bestFor: "Designliebhaber",
+    blurb:
+      "Ein Designhotel in einem Eixample-Gebäude von 1869, mit hydraulisch gefliesten Böden, einer Dachbar und einer guten Kaffeebar im Erdgeschoss. Es liegt im Raster zwischen der Altstadt und der Sagrada Familia, beide nur eine kurze Metrofahrt entfernt.",
+    image: px(1267438),
+    imageAlt: "Minimalistisches Designhotelzimmer in dunklen Tönen mit gedämpftem Licht",
+  },
+  {
+    slug: "casa-gracia-barcelona",
+    citySlug: "barcelona",
+    name: "Casa Gracia",
+    neighborhoodSlug: "gracia",
+    band: "€",
+    priceFrom: 45,
+    style: "Boutique-Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein stilvolles Boutique-Hostel am oberen Ende des Passeig de Gracia, mit Privatzimmern ebenso wie Schlafsälen und einer großen Terrasse. Es setzt Sie zwischen die Gaudi-Häuser und die Bars von Gracia zu einem Bruchteil der Hotelpreise.",
+    image: px(271624),
+    imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
+  },
 ];
 
 export default hotelsDe;

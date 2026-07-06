@@ -643,6 +643,64 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },
+
+  // ---- Barcelona ----
+  {
+    slug: "hotel-arts-barcelona",
+    citySlug: "barcelona",
+    name: "Hotel Arts Barcelona",
+    neighborhoodSlug: "barceloneta",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Torre sul mare",
+    bestFor: "Panorami",
+    blurb:
+      "Una torre di vetro proprio sul lungomare della Barceloneta, con un solarium con piscina e piani alti che guardano dritto lungo la costa. Baratti i vicoli del centro storico con la vista sul mare e con dieci minuti a piedi o in tram fino al Quartiere Gotico.",
+    image: px(261102),
+    imageAlt: "Piscina sul tetto di un hotel al crepuscolo affacciata sulla città",
+  },
+  {
+    slug: "yurbban-trafalgar",
+    citySlug: "barcelona",
+    name: "Yurbban Trafalgar Hotel",
+    neighborhoodSlug: "el-born",
+    band: "€€",
+    priceFrom: 160,
+    style: "Piscina sul rooftop",
+    bestFor: "Prima visita",
+    blurb:
+      "Un hotel di fascia media ai margini di El Born con una piccola piscina e un bar sul tetto affacciati sui tetti verso la cattedrale. Sei a pochi minuti a piedi dal Museo Picasso e dal Quartiere Gotico.",
+    image: px(2290753),
+    imageAlt: "Terrazza sul tetto di un hotel al crepuscolo con tavoli e vista sulla città",
+  },
+  {
+    slug: "casa-bonay",
+    citySlug: "barcelona",
+    name: "Casa Bonay",
+    neighborhoodSlug: "eixample",
+    band: "€€",
+    priceFrom: 150,
+    style: "Classico del design",
+    bestFor: "Amanti del design",
+    blurb:
+      "Un hotel di design in un edificio dell'Eixample del 1869, con pavimenti in cementine idrauliche, un rooftop bar e un buon caffè al piano terra. Si trova sulla griglia tra il centro storico e la Sagrada Familia, entrambi a una breve corsa di metro.",
+    image: px(1267438),
+    imageAlt: "Camera d'albergo di design minimalista dai toni scuri con luci soffuse",
+  },
+  {
+    slug: "casa-gracia-barcelona",
+    citySlug: "barcelona",
+    name: "Casa Gracia",
+    neighborhoodSlug: "gracia",
+    band: "€",
+    priceFrom: 45,
+    style: "Ostello boutique",
+    bestFor: "Budget",
+    blurb:
+      "Un elegante ostello boutique in cima al Passeig de Gracia, con camere private oltre ai dormitori e una grande terrazza. Ti mette tra le case di Gaudi e i bar di Gracia a una frazione dei prezzi degli hotel.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
 ];
 
 export default hotelsIt;

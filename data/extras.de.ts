@@ -180,6 +180,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Kopfsteingepflasterte Plätze",
     ],
   },
+  barcelona: {
+    citySlug: "barcelona",
+    image: hero(21357884),
+    imageAlt:
+      "Die Sagrada Familia erhebt sich über Barcelona und dem Meer, gesehen vom Park Guell",
+    history:
+      "Barcelona begann als die römische Stadt Barcino und verbrachte dann das Mittelalter als seefahrende Hauptstadt der Krone von Aragón, weshalb das Gotische Viertel noch heute mittelalterliche Paläste einen Block vom Hafen entfernt hat. Die moderne Stadt entstand 1860, als die alten Mauern fielen und der Ingenieur Ildefons Cerda den Eixample anlegte, das Raster aus abgeschrägten Blocks, durch das Sie noch heute laufen. Industriegeld finanzierte dann um 1900 den Boom des Modernisme, und Antoni Gaudi verwandelte diesen Reichtum in die Sagrada Familia, den Park Guell und die Casa Batllo; die Basilika wurde 1882 begonnen und wird noch immer fertiggestellt. Die Olympischen Spiele von 1992 öffneten die Stadt zu ihren Stränden hin, und Barcelona zählt seither zu den meistbesuchten Städten Europas. Es ist entschieden katalanisch, mit einer eigenen Sprache und einer lautstarken Unabhängigkeitsbewegung.",
+    knownFor: [
+      "Sagrada Familia",
+      "Gaudi-Architektur",
+      "Park Guell",
+      "La Rambla",
+      "Tapas und Vermut",
+      "Stadtstrände",
+    ],
+  },
 };
 
 export default extrasDe;

@@ -643,6 +643,64 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
   },
+
+  // ---- Barcelone ----
+  {
+    slug: "hotel-arts-barcelona",
+    citySlug: "barcelona",
+    name: "Hotel Arts Barcelona",
+    neighborhoodSlug: "barceloneta",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Tour en bord de mer",
+    bestFor: "Vues",
+    blurb:
+      "Une tour de verre en plein sur le front de mer de la Barceloneta, avec un pont-piscine et des étages élevés qui plongent droit le long de la côte. Vous troquez les ruelles de la vieille ville contre des vues sur mer et une marche ou un tram de dix minutes jusqu'au quartier gothique.",
+    image: px(261102),
+    imageAlt: "Piscine sur le toit d'un hôtel au crépuscule dominant la ville",
+  },
+  {
+    slug: "yurbban-trafalgar",
+    citySlug: "barcelona",
+    name: "Yurbban Trafalgar Hotel",
+    neighborhoodSlug: "el-born",
+    band: "€€",
+    priceFrom: 160,
+    style: "Petit bassin sur le toit",
+    bestFor: "Première visite",
+    blurb:
+      "Un hôtel de milieu de gamme en lisière d'El Born, avec une petite piscine et un bar sur le toit par-dessus les toits vers la cathédrale. Vous êtes à quelques minutes à pied du musée Picasso et du quartier gothique.",
+    image: px(2290753),
+    imageAlt: "Terrasse d'hôtel sur le toit au crépuscule avec tables et vue sur la ville",
+  },
+  {
+    slug: "casa-bonay",
+    citySlug: "barcelona",
+    name: "Casa Bonay",
+    neighborhoodSlug: "eixample",
+    band: "€€",
+    priceFrom: 150,
+    style: "Classique du design",
+    bestFor: "Amateurs de design",
+    blurb:
+      "Un hôtel design dans un immeuble de l'Eixample de 1869, avec des sols en carreaux hydrauliques, un bar sur le toit et un bon bar à café au rez-de-chaussée. Il se trouve sur la grille entre la vieille ville et la Sagrada Familia, toutes deux à un court saut de métro.",
+    image: px(1267438),
+    imageAlt: "Chambre d'hôtel design minimaliste aux tons sombres et à l'éclairage tamisé",
+  },
+  {
+    slug: "casa-gracia-barcelona",
+    citySlug: "barcelona",
+    name: "Casa Gracia",
+    neighborhoodSlug: "gracia",
+    band: "€",
+    priceFrom: 45,
+    style: "Auberge de charme",
+    bestFor: "Petit budget",
+    blurb:
+      "Une auberge de charme élégante en haut du Passeig de Gracia, avec des chambres privées comme des dortoirs et une grande terrasse. Elle vous place entre les maisons de Gaudi et les bars de Gracia pour une fraction des prix hôteliers.",
+    image: px(271624),
+    imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
+  },
 ];
 
 export default hotelsFr;

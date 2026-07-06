@@ -30,6 +30,7 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /amsterdam (Amsterdam, Netherlands): ideal 3 days
 - /florence (Florence, Italy): ideal 2 days
 - /bruges (Bruges, Belgium): ideal 2 days
+- /barcelona (Barcelona, Spain): ideal 3 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,
