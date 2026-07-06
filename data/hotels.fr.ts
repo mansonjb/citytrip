@@ -701,6 +701,64 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
   },
+
+  // ---- Berlin ----
+  {
+    slug: "hotel-adlon-kempinski",
+    citySlug: "berlin",
+    name: "Hotel Adlon Kempinski",
+    neighborhoodSlug: "mitte",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Grande dame face à la porte",
+    bestFor: "Séjour dans un monument",
+    blurb:
+      "L'hôtel le plus célèbre de Berlin se dresse juste à côté de la porte de Brandebourg, reconstruit en 1997 sur le site de l'original qui abrita un siècle d'histoire. Les chambres de devant donnent sur la porte elle-même, ce qui est ce que vous payez.",
+    image: px(262048),
+    imageAlt: "Suite d'hôtel grandiose et élégante avec un lustre et un grand lit",
+  },
+  {
+    slug: "michelberger-hotel",
+    citySlug: "berlin",
+    name: "Michelberger Hotel",
+    neighborhoodSlug: "friedrichshain",
+    band: "€€",
+    priceFrom: 130,
+    style: "Repaire créatif",
+    bestFor: "Amateurs de design",
+    blurb:
+      "Un hôtel décontracté et à l'esprit design dans une ancienne usine près de la Warschauer Strasse, avec un bar de cour qui se remplit de locaux. Vous êtes au coeur de la vie nocturne de Friedrichshain et à courte marche de l'East Side Gallery.",
+    image: px(1267438),
+    imageAlt: "Chambre d'hôtel design minimaliste aux tons sombres et à l'éclairage tamisé",
+  },
+  {
+    slug: "hotel-oderberger",
+    citySlug: "berlin",
+    name: "Hotel Oderberger",
+    neighborhoodSlug: "prenzlauer-berg",
+    band: "€€",
+    priceFrom: 140,
+    style: "Bains publics restaurés",
+    bestFor: "Première visite",
+    blurb:
+      "Un hôtel aménagé dans des bains publics de 1902 restaurés à Prenzlauer Berg, dont la grande piscine intérieure est ouverte aux clients. Les rues arborées bordées de cafés alentour comptent parmi les plus agréables de la ville.",
+    image: px(2507010),
+    imageAlt: "Hall d'hôtel moderne et lumineux avec des baies vitrées du sol au plafond",
+  },
+  {
+    slug: "the-circus-hostel",
+    citySlug: "berlin",
+    name: "The Circus Hostel",
+    neighborhoodSlug: "mitte",
+    band: "€",
+    priceFrom: 35,
+    style: "Auberge design",
+    bestFor: "Petit budget",
+    blurb:
+      "Une auberge léchée et de longue date sur la Rosenthaler Platz, avec des chambres privées comme des dortoirs et sa propre microbrasserie-bar. Elle se trouve sur le U-Bahn entre les sites de Mitte et les bars de Prenzlauer Berg.",
+    image: px(271624),
+    imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
+  },
 ];
 
 export default hotelsFr;

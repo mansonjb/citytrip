@@ -195,6 +195,21 @@ const extrasEn: Record<string, CityExtras> = {
       "City beaches",
     ],
   },
+  berlin: {
+    citySlug: "berlin",
+    image: hero(37468367),
+    imageAlt: "The Brandenburg Gate in Berlin under a blue sky",
+    history:
+      "Berlin was the capital of Prussia and then, from 1871, of a unified Germany. The 1920s Weimar years made it a byword for cabaret, cinema and modern art, until the Nazis took power here in 1933 and ran the war from the city. What the bombing left, the Cold War split: from 1961 the Berlin Wall cut the city in two for 28 years, until it fell on 9 November 1989 and Germany reunified with Berlin as its capital in 1990. The scars are now the sights, from the surviving stretches of Wall to the Cold War checkpoints and the memorials. Cheap rents in the emptied east then turned the reunited city into Europe's techno and creative capital, which is the Berlin most people come for today.",
+    knownFor: [
+      "Brandenburg Gate",
+      "The Berlin Wall",
+      "Cold War history",
+      "Techno nightlife",
+      "Museum Island",
+      "Street art",
+    ],
+  },
 };
 
 export default extrasEn;

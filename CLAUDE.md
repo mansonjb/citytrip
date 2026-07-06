@@ -40,6 +40,12 @@ métro), NeighborhoodBoard (tableau départ), Stamp, hard-shadow.
   URL + contrôle visuel obligatoires. NE PAS utiliser mix-blend-multiply pour
   teinter les photos (casse certaines couleurs, ex. Prague) : calque dégradé
   normal faible opacité + scrim ink en bas pour la lisibilité.
+- Photos réelles des hôtels : pipeline Apify (actor compass~crawler-google-places),
+  script scripts/sync-hotel-photos.mjs. `APIFY_TOKEN=... node scripts/sync-hotel-photos.mjs`
+  (incrémental, --FORCE pour tout refaire). Télécharge 1 vraie photo/hôtel dans
+  public/hotels/<citySlug>/<slug>.jpg et écrit data/hotel-photos.json (slug -> chemin).
+  HotelCard utilise la vraie photo si présente, sinon fallback sur l'image px() stock.
+  Token dans .env.local (gitignore, jamais commité). Après ajout d'hôtels, relancer le script.
 - Hôtels (pattern HotelsWithPets) : 4 picks par ville dans data/hotels.ts
   (1 splurge, 2 mid, 1 budget, vrais établissements), affichés avec photo via
   <HotelsRail> dans le PREMIER TIERS de chaque page destination (hub,

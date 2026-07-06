@@ -196,6 +196,21 @@ const extrasFr: Record<string, CityExtras> = {
       "Les plages urbaines",
     ],
   },
+  berlin: {
+    citySlug: "berlin",
+    image: hero(37468367),
+    imageAlt: "La porte de Brandebourg à Berlin sous un ciel bleu",
+    history:
+      "Berlin fut la capitale de la Prusse puis, à partir de 1871, d'une Allemagne unifiée. Les années Weimar des années 1920 en firent un symbole de cabaret, de cinéma et d'art moderne, jusqu'à ce que les nazis prennent le pouvoir ici en 1933 et mènent la guerre depuis la ville. Ce que les bombardements ont laissé, la guerre froide l'a divisé : à partir de 1961, le mur de Berlin coupa la ville en deux pendant 28 ans, jusqu'à sa chute le 9 novembre 1989 et la réunification de l'Allemagne avec Berlin pour capitale en 1990. Les cicatrices sont aujourd'hui les sites, des tronçons de Mur encore debout aux points de passage de la guerre froide et aux mémoriaux. Les loyers bas de l'est vidé de ses habitants transformèrent ensuite la ville réunifiée en capitale de la techno et de la création en Europe, le Berlin pour lequel la plupart des gens viennent aujourd'hui.",
+    knownFor: [
+      "La porte de Brandebourg",
+      "Le mur de Berlin",
+      "L'histoire de la guerre froide",
+      "La vie nocturne techno",
+      "L'ile aux Musees",
+      "Le street art",
+    ],
+  },
 };
 
 export default extrasFr;

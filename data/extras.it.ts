@@ -194,6 +194,21 @@ const extrasIt: Record<string, CityExtras> = {
       "Spiagge cittadine",
     ],
   },
+  berlin: {
+    citySlug: "berlin",
+    image: hero(37468367),
+    imageAlt: "La Porta di Brandeburgo a Berlino sotto un cielo azzurro",
+    history:
+      "Berlino fu la capitale della Prussia e poi, dal 1871, di una Germania unificata. Gli anni della Repubblica di Weimar negli anni Venti la resero sinonimo di cabaret, cinema e arte moderna, finché i nazisti non presero il potere qui nel 1933 e condussero la guerra dalla città. Ciò che i bombardamenti lasciarono, la Guerra Fredda lo divise: dal 1961 il Muro di Berlino tagliò la città in due per 28 anni, fino a quando cadde il 9 novembre 1989 e la Germania si riunificò con Berlino come capitale nel 1990. Le cicatrici sono oggi le attrazioni, dai tratti superstiti del Muro ai valichi della Guerra Fredda e ai memoriali. Gli affitti economici nell'est svuotato trasformarono poi la città riunita nella capitale europea della techno e della creatività, che è la Berlino per cui la maggior parte della gente viene oggi.",
+    knownFor: [
+      "Porta di Brandeburgo",
+      "Il Muro di Berlino",
+      "Storia della Guerra Fredda",
+      "Vita notturna techno",
+      "Isola dei Musei",
+      "Street art",
+    ],
+  },
 };
 
 export default extrasIt;

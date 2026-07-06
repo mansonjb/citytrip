@@ -194,6 +194,21 @@ const extrasPt: Record<string, CityExtras> = {
       "Praias urbanas",
     ],
   },
+  berlin: {
+    citySlug: "berlin",
+    image: hero(37468367),
+    imageAlt: "A Porta de Brandemburgo em Berlim sob um céu azul",
+    history:
+      "Berlim foi a capital da Prússia e, a partir de 1871, de uma Alemanha unificada. Os anos de Weimar, na década de 1920, fizeram dela sinónimo de cabaré, cinema e arte moderna, até os nazis tomarem o poder aqui em 1933 e conduzirem a guerra a partir da cidade. O que os bombardeamentos deixaram, a Guerra Fria dividiu: a partir de 1961, o Muro de Berlim cortou a cidade em duas durante 28 anos, até cair a 9 de novembro de 1989 e a Alemanha se reunificar com Berlim como capital em 1990. As cicatrizes são hoje as atrações, dos troços sobreviventes do Muro aos postos de controlo da Guerra Fria e aos memoriais. As rendas baratas no leste esvaziado transformaram depois a cidade reunida na capital do techno e da criatividade da Europa, que é a Berlim que a maioria vem procurar hoje.",
+    knownFor: [
+      "Porta de Brandemburgo",
+      "O Muro de Berlim",
+      "História da Guerra Fria",
+      "Vida noturna techno",
+      "Ilha dos Museus",
+      "Arte urbana",
+    ],
+  },
 };
 
 export default extrasPt;

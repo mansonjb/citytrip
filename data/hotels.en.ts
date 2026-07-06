@@ -701,6 +701,64 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+
+  // ---- Berlin ----
+  {
+    slug: "hotel-adlon-kempinski",
+    citySlug: "berlin",
+    name: "Hotel Adlon Kempinski",
+    neighborhoodSlug: "mitte",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Grand dame at the gate",
+    bestFor: "Landmark stay",
+    blurb:
+      "Berlin's most famous hotel sits right beside the Brandenburg Gate, rebuilt in 1997 on the site of the original that hosted a century of history. Front rooms look onto the gate itself, which is what you are paying for.",
+    image: px(262048),
+    imageAlt: "Grand elegant hotel suite with a chandelier and large bed",
+  },
+  {
+    slug: "michelberger-hotel",
+    citySlug: "berlin",
+    name: "Michelberger Hotel",
+    neighborhoodSlug: "friedrichshain",
+    band: "€€",
+    priceFrom: 130,
+    style: "Creative hangout",
+    bestFor: "Design lovers",
+    blurb:
+      "A relaxed, design-led hotel in a former factory by Warschauer Strasse, with a courtyard bar that fills with locals. You are in the heart of Friedrichshain nightlife and a short walk from the East Side Gallery.",
+    image: px(1267438),
+    imageAlt: "Minimalist design hotel room in dark tones with low lighting",
+  },
+  {
+    slug: "hotel-oderberger",
+    citySlug: "berlin",
+    name: "Hotel Oderberger",
+    neighborhoodSlug: "prenzlauer-berg",
+    band: "€€",
+    priceFrom: 140,
+    style: "Restored bathhouse",
+    bestFor: "First visit",
+    blurb:
+      "A hotel built into a restored 1902 public bathhouse in Prenzlauer Berg, whose grand indoor pool is open to guests. The leafy cafe-lined streets around it are among the most pleasant in the city.",
+    image: px(2507010),
+    imageAlt: "Modern bright hotel lobby with floor-to-ceiling windows",
+  },
+  {
+    slug: "the-circus-hostel",
+    citySlug: "berlin",
+    name: "The Circus Hostel",
+    neighborhoodSlug: "mitte",
+    band: "€",
+    priceFrom: 35,
+    style: "Design hostel",
+    bestFor: "Budget",
+    blurb:
+      "A polished, long-running hostel on Rosenthaler Platz with private rooms as well as dorms and its own microbrewery bar. It sits on the U-Bahn between Mitte's sights and the Prenzlauer Berg bars.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;

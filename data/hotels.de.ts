@@ -701,6 +701,64 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
   },
+
+  // ---- Berlin ----
+  {
+    slug: "hotel-adlon-kempinski",
+    citySlug: "berlin",
+    name: "Hotel Adlon Kempinski",
+    neighborhoodSlug: "mitte",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Grande Dame am Tor",
+    bestFor: "Wahrzeichen-Aufenthalt",
+    blurb:
+      "Berlins berühmtestes Hotel liegt direkt neben dem Brandenburger Tor, 1997 an der Stelle des Originals wiederaufgebaut, das ein Jahrhundert Geschichte beherbergte. Die Vorderzimmer blicken auf das Tor selbst, und genau dafür zahlen Sie.",
+    image: px(262048),
+    imageAlt: "Prächtige, elegante Hotelsuite mit Kronleuchter und großem Bett",
+  },
+  {
+    slug: "michelberger-hotel",
+    citySlug: "berlin",
+    name: "Michelberger Hotel",
+    neighborhoodSlug: "friedrichshain",
+    band: "€€",
+    priceFrom: 130,
+    style: "Kreativer Treffpunkt",
+    bestFor: "Designliebhaber",
+    blurb:
+      "Ein entspanntes, designbetontes Hotel in einer ehemaligen Fabrik an der Warschauer Straße, mit einer Hofbar, die sich mit Einheimischen füllt. Sie sind mitten im Nachtleben von Friedrichshain und einen kurzen Weg von der East Side Gallery.",
+    image: px(1267438),
+    imageAlt: "Minimalistisches Designhotelzimmer in dunklen Tönen mit gedämpftem Licht",
+  },
+  {
+    slug: "hotel-oderberger",
+    citySlug: "berlin",
+    name: "Hotel Oderberger",
+    neighborhoodSlug: "prenzlauer-berg",
+    band: "€€",
+    priceFrom: 140,
+    style: "Restauriertes Badehaus",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein Hotel, eingerichtet in einem restaurierten öffentlichen Badehaus von 1902 in Prenzlauer Berg, dessen prächtiges Hallenbad den Gästen offensteht. Die grünen, von Cafés gesäumten Straßen ringsum gehören zu den angenehmsten der Stadt.",
+    image: px(2507010),
+    imageAlt: "Moderne, helle Hotellobby mit raumhohen Fenstern",
+  },
+  {
+    slug: "the-circus-hostel",
+    citySlug: "berlin",
+    name: "The Circus Hostel",
+    neighborhoodSlug: "mitte",
+    band: "€",
+    priceFrom: 35,
+    style: "Design-Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein gepflegtes, langjähriges Hostel am Rosenthaler Platz mit Privatzimmern ebenso wie Schlafsälen und einer eigenen Mikrobrauerei-Bar. Es liegt an der U-Bahn zwischen den Sehenswürdigkeiten der Mitte und den Bars von Prenzlauer Berg.",
+    image: px(271624),
+    imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
+  },
 ];
 
 export default hotelsDe;

@@ -3,6 +3,11 @@ import type { City, Hotel } from "@/data/types";
 import { getNeighborhood } from "@/data";
 import { STR, fmt, type Locale } from "@/lib/i18n";
 import { AffiliateLink, stay22HotelUrl, stay22SearchUrl } from "./AffiliateLink";
+import hotelPhotos from "@/data/hotel-photos.json";
+
+// Real per-hotel photo (Apify / Google place) if we have one, else the
+// illustrative stock fallback. Real photos are the same across locales.
+const REAL_PHOTOS = hotelPhotos as Record<string, string>;
 
 function HotelCard({
   hotel,
@@ -16,12 +21,15 @@ function HotelCard({
   const aid = process.env.NEXT_PUBLIC_STAY22_AID ?? "";
   const hood = getNeighborhood(city.slug, hotel.neighborhoodSlug, locale);
   const t = STR[locale].common;
+  const realPhoto = REAL_PHOTOS[hotel.slug];
+  const imgSrc = realPhoto ?? hotel.image;
+  const imgAlt = realPhoto ? `${hotel.name}, ${city.name}` : hotel.imageAlt;
   return (
     <article className="flex flex-col overflow-hidden rounded-2xl bg-paper hard-shadow">
       <div className="relative h-44">
         <Image
-          src={hotel.image}
-          alt={hotel.imageAlt}
+          src={imgSrc}
+          alt={imgAlt}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
           className="object-cover"

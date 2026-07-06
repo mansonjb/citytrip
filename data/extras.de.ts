@@ -196,6 +196,21 @@ const extrasDe: Record<string, CityExtras> = {
       "Stadtstrände",
     ],
   },
+  berlin: {
+    citySlug: "berlin",
+    image: hero(37468367),
+    imageAlt: "Das Brandenburger Tor in Berlin unter blauem Himmel",
+    history:
+      "Berlin war die Hauptstadt Preußens und dann, ab 1871, eines geeinten Deutschlands. Die Weimarer Jahre der 1920er machten es zum Inbegriff von Kabarett, Kino und moderner Kunst, bis die Nationalsozialisten hier 1933 an die Macht kamen und den Krieg von der Stadt aus führten. Was die Bombardierungen übrig ließen, teilte der Kalte Krieg: Ab 1961 zerschnitt die Berliner Mauer die Stadt 28 Jahre lang in zwei Hälften, bis sie am 9. November 1989 fiel und Deutschland sich 1990 mit Berlin als Hauptstadt wiedervereinigte. Die Narben sind heute die Sehenswürdigkeiten, von den erhaltenen Mauerabschnitten über die Kontrollpunkte des Kalten Krieges bis zu den Gedenkstätten. Günstige Mieten im geleerten Osten machten die wiedervereinigte Stadt dann zur Techno- und Kreativhauptstadt Europas, und für dieses Berlin kommen die meisten Menschen heute.",
+    knownFor: [
+      "Brandenburger Tor",
+      "Die Berliner Mauer",
+      "Geschichte des Kalten Krieges",
+      "Techno-Nachtleben",
+      "Museumsinsel",
+      "Street-Art",
+    ],
+  },
 };
 
 export default extrasDe;
