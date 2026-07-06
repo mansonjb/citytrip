@@ -148,6 +148,38 @@ const extrasFr: Record<string, CityExtras> = {
       "Les brown cafes",
     ],
   },
+  florence: {
+    citySlug: "florence",
+    image: hero(981682),
+    imageAlt:
+      "La coupole de Brunelleschi se dressant au-dessus des toits en terre cuite de Florence",
+    history:
+      "Florence est le berceau de la Renaissance. Au XVe siècle, les Médicis, une famille de banquiers qui dirigeait de fait la ville, déversèrent leur fortune sur les artistes et les architectes, et le résultat est une petite ville renfermant plus d'art célèbre au mètre carré que presque partout sur terre. Brunelleschi éleva la plus grande coupole en maçonnerie du monde au-dessus de la cathédrale en 1436, toujours la silhouette actuelle, sans aucun échafaudage complet. Le florin d'or frappé ici était la monnaie la plus fiable de l'Europe médiévale, et c'est ainsi qu'une ville toscane de marchands finit par financer Michel-Ange, Botticelli et Léonard de Vinci. Galilée enseigna ici, Machiavel écrivit ici, et pendant six ans après 1865 Florence fut même la capitale d'une Italie fraîchement unifiée.",
+    knownFor: [
+      "Le Duomo",
+      "L'art de la Renaissance",
+      "La galerie des Offices",
+      "Le David de Michel-Ange",
+      "Le Ponte Vecchio",
+      "La cuisine toscane",
+    ],
+  },
+  bruges: {
+    citySlug: "bruges",
+    image: hero(5612504),
+    imageAlt:
+      "Maisons de brique à pignons à redents le long d'un canal de Bruges sous un ciel bleu",
+    history:
+      "Bruges fut l'une des villes les plus riches de l'Europe médiévale, le carrefour commercial de la Flandre où la laine d'Angleterre devenait le plus beau drap du continent. Elle abrita ce que beaucoup appellent la première bourse au monde, du nom de la famille Van der Beurze dont l'auberge accueillait les marchands, d'où vient le mot bourse. Puis le chenal maritime qui l'avait enrichie, le Zwin, s'ensabla autour de 1500, les marchands partirent pour Anvers, et Bruges s'endormit pendant quatre siècles. C'est précisément pourquoi elle survécut : sans argent pour tout démolir et reconstruire, le centre médiéval resta intact. Un roman sombre de 1892, Bruges-la-Morte, la rendit de nouveau célèbre, et les touristes viennent depuis.",
+    knownFor: [
+      "Les canaux médiévaux",
+      "Le Beffroi",
+      "Le chocolat belge",
+      "L'art flamand",
+      "La bière trappiste",
+      "Les places pavées",
+    ],
+  },
 };
 
 export default extrasFr;

@@ -146,6 +146,38 @@ const extrasPt: Record<string, CityExtras> = {
       "Brown cafes",
     ],
   },
+  florence: {
+    citySlug: "florence",
+    image: hero(981682),
+    imageAlt:
+      "A cupula de Brunelleschi erguendo-se sobre os telhados de terracota de Florenca",
+    history:
+      "Florenca é onde o Renascimento comecou. No século XV os Médici, uma família de banqueiros que na prática governava a cidade, despejaram a sua fortuna em artistas e arquitetos, e o resultado é uma pequena cidade que guarda mais arte famosa por metro quadrado do que quase qualquer sítio na Terra. Brunelleschi ergueu a maior cupula de alvenaria do mundo sobre a catedral em 1436, ainda hoje a silhueta da cidade, sem qualquer andaime completo. O florim de ouro cunhado aqui era a moeda mais fiável da Europa medieval, e foi assim que uma cidade toscana de mercadores acabou a financiar Miguel Angelo, Botticelli e Leonardo. Galileu ensinou aqui, Maquiavel escreveu aqui, e durante seis anos depois de 1865 Florenca foi ate a capital de uma Itália recém-unida.",
+    knownFor: [
+      "O Duomo",
+      "Arte renascentista",
+      "Galeria Uffizi",
+      "O David de Miguel Angelo",
+      "Ponte Vecchio",
+      "Comida toscana",
+    ],
+  },
+  bruges: {
+    citySlug: "bruges",
+    image: hero(5612504),
+    imageAlt:
+      "Casas de tijolo com empenas em escada ao longo de um canal de Bruges sob um céu azul",
+    history:
+      "Bruges foi uma das cidades mais ricas da Europa medieval, o centro comercial da Flandres onde a la de Inglaterra se tornava o pano mais fino do continente. Geriu aquilo a que muitos chamam a primeira bolsa de valores do mundo, com o nome da família Van der Beurze, cuja estalagem acolhia os comerciantes, e é daí que vem a palavra bolsa. Depois o canal marítimo que a enriqueceu, o Zwin, assoreou por volta de 1500, os mercadores mudaram-se para Antuérpia, e Bruges adormeceu durante quatro séculos. Foi exatamente por isso que sobreviveu: sem dinheiro para deitar tudo abaixo e reconstruir, o centro medieval manteve-se intacto. Um romance sombrio de 1892, Bruges-la-Morte, voltou a torná-la famosa, e os turistas nunca mais deixaram de vir.",
+    knownFor: [
+      "Canais medievais",
+      "O Campanário",
+      "Chocolate belga",
+      "Arte flamenga",
+      "Cerveja trapista",
+      "Pracas de calcada",
+    ],
+  },
 };
 
 export default extrasPt;

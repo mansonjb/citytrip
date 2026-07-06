@@ -148,6 +148,38 @@ const extrasDe: Record<string, CityExtras> = {
       "Braune Cafés",
     ],
   },
+  florence: {
+    citySlug: "florence",
+    image: hero(981682),
+    imageAlt:
+      "Brunelleschis Kuppel erhebt sich über den Terrakottadächern von Florenz",
+    history:
+      "In Florenz begann die Renaissance. Im 15. Jahrhundert steckten die Medici, eine Bankiersfamilie, die die Stadt faktisch regierte, ihr Vermögen in Künstler und Architekten, und das Ergebnis ist eine kleine Stadt, die pro Quadratmeter mehr berühmte Kunst beherbergt als fast irgendwo sonst auf der Erde. Brunelleschi errichtete 1436 die größte Ziegelkuppel der Welt über der Kathedrale, bis heute die Skyline, ohne jedes vollständige Gerüst. Der hier geprägte Gold-Florin war die vertrauenswürdigste Münze des mittelalterlichen Europa, so kam es, dass eine toskanische Kaufmannsstadt Michelangelo, Botticelli und Leonardo finanzierte. Galileo lehrte hier, Machiavelli schrieb hier, und sechs Jahre lang nach 1865 war Florenz sogar die Hauptstadt eines neu geeinten Italiens.",
+    knownFor: [
+      "Der Dom",
+      "Renaissance-Kunst",
+      "Uffizien",
+      "Michelangelos David",
+      "Ponte Vecchio",
+      "Toskanische Küche",
+    ],
+  },
+  bruges: {
+    citySlug: "bruges",
+    image: hero(5612504),
+    imageAlt:
+      "Backsteinhäuser mit Treppengiebeln entlang einer Brügger Gracht unter blauem Himmel",
+    history:
+      "Brugge war eine der reichsten Städte des mittelalterlichen Europa, das Handelszentrum Flanderns, wo Wolle aus England zum feinsten Tuch des Kontinents wurde. Es betrieb, was viele die erste Börse der Welt nennen, benannt nach der Familie Van der Beurze, deren Gasthof die Händler beherbergte, woher das Wort Börse stammt. Dann versandete die Meeresrinne, die es reich machte, das Zwin, um 1500, die Kaufleute zogen nach Antwerpen, und Brugge schlief vier Jahrhunderte lang. Genau darum überlebte es: ohne Geld, um Dinge abzureißen und neu zu bauen, blieb das mittelalterliche Zentrum intakt. Ein düsterer Roman von 1892, Bruges-la-Morte, machte es wieder berühmt, und die Touristen sind seither gekommen.",
+    knownFor: [
+      "Mittelalterliche Grachten",
+      "Der Belfried",
+      "Belgische Schokolade",
+      "Flämische Kunst",
+      "Trappistenbier",
+      "Kopfsteingepflasterte Plätze",
+    ],
+  },
 };
 
 export default extrasDe;

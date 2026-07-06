@@ -527,6 +527,122 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },
+
+  // ---- Florence ----
+  {
+    slug: "portrait-firenze",
+    citySlug: "florence",
+    name: "Portrait Firenze",
+    neighborhoodSlug: "duomo",
+    band: "€€€",
+    priceFrom: 550,
+    style: "Vista sull'Arno",
+    bestFor: "Soggiorno iconico",
+    blurb:
+      "Un indirizzo di lusso di proprietà Ferragamo sul Lungarno, con camere affacciate dritte su Ponte Vecchio. È caro anche per gli standard di Firenze, e le suite con vista sul fiume sono il motivo per cui la gente lo prenota.",
+    image: px(262048),
+    imageAlt: "Suite d'albergo luminosa ed elegante con lampadario e letto grande",
+  },
+  {
+    slug: "hotel-davanzati",
+    citySlug: "florence",
+    name: "Hotel Davanzati",
+    neighborhoodSlug: "duomo",
+    band: "€€",
+    priceFrom: 160,
+    style: "Classico a gestione familiare",
+    bestFor: "Prima visita",
+    blurb:
+      "Un hotel caloroso a gestione familiare in un palazzo medievale a due minuti da Piazza della Signoria, così gli Uffizi e il Duomo sono entrambi a breve distanza a piedi. L'aperitivo serale incluso e i consigli dei proprietari sono ciò che le recensioni continuano a citare.",
+    image: px(279746),
+    imageAlt: "Camera d'albergo tradizionale con mobili in legno",
+  },
+  {
+    slug: "palazzo-guadagni",
+    citySlug: "florence",
+    name: "Hotel Palazzo Guadagni",
+    neighborhoodSlug: "santo-spirito",
+    band: "€€",
+    priceFrom: 150,
+    style: "Loggia sulla piazza",
+    bestFor: "Vita locale",
+    blurb:
+      "Un palazzo rinascimentale sulla vivace Piazza Santo Spirito nell'Oltrarno, con una loggia all'ultimo piano affacciata sui tetti. Dormi sul lato artigiano del fiume, a cinque minuti a piedi dal centro.",
+    image: px(164595),
+    imageAlt: "Camera d'albergo con legno scuro e biancheria fresca di bucato",
+  },
+  {
+    slug: "academy-hostel-florence",
+    citySlug: "florence",
+    name: "Academy Hostel",
+    neighborhoodSlug: "san-lorenzo",
+    band: "€",
+    priceFrom: 45,
+    style: "Ostello centrale",
+    bestFor: "Budget",
+    blurb:
+      "Un piccolo ostello ben tenuto in un edificio storico vicino al mercato di San Lorenzo e al Duomo, con camere private oltre ai dormitori. Ti mette dentro il nucleo percorribile a piedi a una frazione dei prezzi degli hotel di Firenze.",
+    image: px(279805),
+    imageAlt: "Lampada da comodino calda e dettaglio della testiera in una camera di guesthouse",
+  },
+
+  // ---- Bruges ----
+  {
+    slug: "dukes-palace-bruges",
+    citySlug: "bruges",
+    name: "Hotel Dukes' Palace",
+    neighborhoodSlug: "t-zand",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Palazzo neogotico",
+    bestFor: "Soggiorno iconico",
+    blurb:
+      "Una residenza ducale del XV secolo trasformata in cinque stelle, con un giardino cinto da mura e torrette a pochi minuti dal Markt. È l'indirizzo più sontuoso in una città di piccoli hotel, e il più tranquillo una volta andati via i gitanti.",
+    image: px(1001965),
+    imageAlt: "Elaborata hall d'albergo storica con archi e verde",
+  },
+  {
+    slug: "hotel-heritage-bruges",
+    citySlug: "bruges",
+    name: "Hotel Heritage",
+    neighborhoodSlug: "markt",
+    band: "€€",
+    priceFrom: 170,
+    style: "Classico in una dimora",
+    bestFor: "Prima visita",
+    blurb:
+      "Una dimora del XIX secolo a un isolato dal Markt, così esci nel centro da cartolina dopo che i pullman se ne sono andati. La colazione nella cantina a volte e le viste dal tetto sul Campanile sono il richiamo.",
+    image: px(262048),
+    imageAlt: "Suite d'albergo elegante con lampadario e letto grande",
+  },
+  {
+    slug: "canalview-ter-reien",
+    citySlug: "bruges",
+    name: "Canalview Hotel Ter Reien",
+    neighborhoodSlug: "langestraat",
+    band: "€€",
+    priceFrom: 130,
+    style: "Camere con vista sul canale",
+    bestFor: "Romantico",
+    blurb:
+      "Un hotel accogliente su un tratto tranquillo di canale nel centro storico, con le camere frontali affacciate dritte sull'acqua. Sei a cinque minuti a piedi dal Burg e dal Markt ma su uno degli angoli più belli della città.",
+    image: px(279746),
+    imageAlt: "Camera d'albergo tradizionale con mobili in legno",
+  },
+  {
+    slug: "snuffel-hostel-bruges",
+    citySlug: "bruges",
+    name: "Snuffel Hostel",
+    neighborhoodSlug: "t-zand",
+    band: "€",
+    priceFrom: 30,
+    style: "Ostello del centro storico",
+    bestFor: "Budget",
+    blurb:
+      "Un ostello caratteristico e di lunga data a breve distanza a piedi dal Markt, con camere private oltre ai dormitori e un proprio bar che spilla birre belghe. È uno dei letti più economici dentro l'anello storico.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
 ];
 
 export default hotelsIt;

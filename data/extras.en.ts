@@ -147,6 +147,38 @@ const extrasEn: Record<string, CityExtras> = {
       "Brown cafes",
     ],
   },
+  florence: {
+    citySlug: "florence",
+    image: hero(981682),
+    imageAlt:
+      "Brunelleschi's dome rising over the terracotta rooftops of Florence",
+    history:
+      "Florence is where the Renaissance began. In the 15th century the Medici, a family of bankers who effectively ran the city, poured their fortune into artists and architects, and the result is a small town holding more famous art per square meter than almost anywhere on earth. Brunelleschi raised the largest masonry dome in the world over the cathedral in 1436, still the skyline today, without any full scaffolding. The gold florin minted here was medieval Europe's most trusted coin, which is how a Tuscan town of merchants ended up funding Michelangelo, Botticelli and Leonardo. Galileo taught here, Machiavelli wrote here, and for six years after 1865 Florence was even the capital of a newly united Italy.",
+    knownFor: [
+      "The Duomo",
+      "Renaissance art",
+      "Uffizi Gallery",
+      "Michelangelo's David",
+      "Ponte Vecchio",
+      "Tuscan food",
+    ],
+  },
+  bruges: {
+    citySlug: "bruges",
+    image: hero(5612504),
+    imageAlt:
+      "Stepped-gable brick houses along a Bruges canal under a blue sky",
+    history:
+      "Bruges was one of the richest cities in medieval Europe, the trading hub of Flanders where wool from England became the finest cloth on the continent. It ran what many call the world's first stock exchange, named after the Van der Beurze family whose inn hosted the traders, which is where the word bourse comes from. Then the sea channel that made it rich, the Zwin, silted up around 1500, the merchants moved to Antwerp, and Bruges fell asleep for four centuries. That is exactly why it survived: with no money to knock things down and rebuild, the medieval center stayed intact. A gloomy 1892 novel, Bruges-la-Morte, made it famous again, and the tourists have come ever since.",
+    knownFor: [
+      "Medieval canals",
+      "The Belfry",
+      "Belgian chocolate",
+      "Flemish art",
+      "Trappist beer",
+      "Cobbled squares",
+    ],
+  },
 };
 
 export default extrasEn;

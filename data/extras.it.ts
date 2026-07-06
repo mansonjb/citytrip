@@ -146,6 +146,38 @@ const extrasIt: Record<string, CityExtras> = {
       "Brown cafe",
     ],
   },
+  florence: {
+    citySlug: "florence",
+    image: hero(981682),
+    imageAlt:
+      "La cupola del Brunelleschi si eleva sui tetti in cotto di Firenze",
+    history:
+      "Firenze è dove è iniziato il Rinascimento. Nel XV secolo i Medici, una famiglia di banchieri che di fatto governava la città, riversarono la loro fortuna su artisti e architetti, e il risultato è una piccola città che racchiude più arte celebre per metro quadrato di quasi ogni altro luogo sulla terra. Il Brunelleschi eresse la più grande cupola in muratura del mondo sopra la cattedrale nel 1436, ancora oggi lo skyline, senza alcuna impalcatura completa. Il fiorino d'oro coniato qui era la moneta più affidabile dell'Europa medievale, ed è così che una città toscana di mercanti finì per finanziare Michelangelo, Botticelli e Leonardo. Galileo insegnò qui, Machiavelli scrisse qui, e per sei anni dopo il 1865 Firenze fu persino la capitale di un'Italia appena unita.",
+    knownFor: [
+      "Il Duomo",
+      "Arte rinascimentale",
+      "Galleria degli Uffizi",
+      "Il David di Michelangelo",
+      "Ponte Vecchio",
+      "Cucina toscana",
+    ],
+  },
+  bruges: {
+    citySlug: "bruges",
+    image: hero(5612504),
+    imageAlt:
+      "Case di mattoni con frontoni a gradini lungo un canale di Bruges sotto un cielo azzurro",
+    history:
+      "Bruges era una delle città più ricche dell'Europa medievale, il nodo commerciale delle Fiandre dove la lana dall'Inghilterra diventava il tessuto più pregiato del continente. Ospitava quella che molti chiamano la prima borsa valori del mondo, dal nome della famiglia Van der Beurze nella cui locanda si riunivano i mercanti, da cui deriva la parola borsa. Poi il canale marittimo che l'aveva fatta ricca, lo Zwin, si insabbiò intorno al 1500, i mercanti si spostarono ad Anversa e Bruges si addormentò per quattro secoli. È proprio per questo che è sopravvissuta: senza denaro per abbattere e ricostruire, il centro medievale rimase intatto. Un cupo romanzo del 1892, Bruges-la-Morte, la rese di nuovo celebre, e da allora i turisti non hanno più smesso di arrivare.",
+    knownFor: [
+      "Canali medievali",
+      "Il Campanile",
+      "Cioccolato belga",
+      "Arte fiamminga",
+      "Birra trappista",
+      "Piazze acciottolate",
+    ],
+  },
 };
 
 export default extrasIt;

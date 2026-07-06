@@ -527,6 +527,122 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
   },
+
+  // ---- Florenz ----
+  {
+    slug: "portrait-firenze",
+    citySlug: "florence",
+    name: "Portrait Firenze",
+    neighborhoodSlug: "duomo",
+    band: "€€€",
+    priceFrom: 550,
+    style: "Arno-Ausblicke",
+    bestFor: "Aufenthalt am Wahrzeichen",
+    blurb:
+      "Eine Ferragamo-eigene Luxusadresse am Lungarno mit Zimmern, die direkt auf den Ponte Vecchio blicken. Sie ist selbst für Florenz teuer, und die Suiten mit Flussblick sind der Grund, warum man sie bucht.",
+    image: px(262048),
+    imageAlt: "Helle, elegante Hotelsuite mit Kronleuchter und großem Bett",
+  },
+  {
+    slug: "hotel-davanzati",
+    citySlug: "florence",
+    name: "Hotel Davanzati",
+    neighborhoodSlug: "duomo",
+    band: "€€",
+    priceFrom: 160,
+    style: "Familiengeführter Klassiker",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein warmes, familiengeführtes Hotel in einem mittelalterlichen Palazzo zwei Minuten von der Piazza della Signoria, sodass die Uffizien und der Dom beide einen kurzen Weg entfernt sind. Der inkludierte Abend-Aperitivo und die Tipps der Besitzer sind, was Rezensenten immer wieder erwähnen.",
+    image: px(279746),
+    imageAlt: "Traditionelles Hotelzimmer mit Holzmöbeln",
+  },
+  {
+    slug: "palazzo-guadagni",
+    citySlug: "florence",
+    name: "Hotel Palazzo Guadagni",
+    neighborhoodSlug: "santo-spirito",
+    band: "€€",
+    priceFrom: 150,
+    style: "Loggia über der Piazza",
+    bestFor: "Lokales Leben",
+    blurb:
+      "Ein Renaissance-Palast an der lebhaften Piazza Santo Spirito im Oltrarno, mit einer Loggia-Terrasse im obersten Stock über den Dächern. Sie schlafen auf der Handwerkerseite des Flusses, ein Fünf-Minuten-Weg hinüber ins Zentrum.",
+    image: px(164595),
+    imageAlt: "Hotelzimmer mit dunklem Holz und frischer Bettwäsche",
+  },
+  {
+    slug: "academy-hostel-florence",
+    citySlug: "florence",
+    name: "Academy Hostel",
+    neighborhoodSlug: "san-lorenzo",
+    band: "€",
+    priceFrom: 45,
+    style: "Zentrales Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein kleines, gepflegtes Hostel in einem historischen Gebäude nahe dem San-Lorenzo-Markt und dem Dom, mit Privatzimmern ebenso wie Schlafsälen. Es setzt Sie in den erlaufbaren Kern zu einem Bruchteil der Florentiner Hotelpreise.",
+    image: px(279805),
+    imageAlt: "Warme Nachttischlampe und Kopfteil-Detail in einem Gästehauszimmer",
+  },
+
+  // ---- Brugge ----
+  {
+    slug: "dukes-palace-bruges",
+    citySlug: "bruges",
+    name: "Hotel Dukes' Palace",
+    neighborhoodSlug: "t-zand",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Neugotischer Palast",
+    bestFor: "Aufenthalt am Wahrzeichen",
+    blurb:
+      "Eine herzogliche Residenz aus dem 15. Jahrhundert, zum Fünf-Sterne-Haus geworden, mit einem ummauerten Garten und Türmchen wenige Minuten vom Markt. Es ist die vornehmste Adresse in einer Stadt kleiner Hotels und die ruhigste, sobald die Tagesausflügler abgereist sind.",
+    image: px(1001965),
+    imageAlt: "Prunkvolle historische Hotellobby mit Bögen und Grün",
+  },
+  {
+    slug: "hotel-heritage-bruges",
+    citySlug: "bruges",
+    name: "Hotel Heritage",
+    neighborhoodSlug: "markt",
+    band: "€€",
+    priceFrom: 170,
+    style: "Herrschaftshaus-Klassiker",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein Herrschaftshaus aus dem 19. Jahrhundert einen Block vom Markt, sodass Sie ins Postkartenzentrum hinaustreten, nachdem die Reisebusse abgefahren sind. Das Frühstück im Gewölbekeller und die Dachausblicke über den Belfried sind der Reiz.",
+    image: px(262048),
+    imageAlt: "Elegante Hotelsuite mit Kronleuchter und großem Bett",
+  },
+  {
+    slug: "canalview-ter-reien",
+    citySlug: "bruges",
+    name: "Canalview Hotel Ter Reien",
+    neighborhoodSlug: "langestraat",
+    band: "€€",
+    priceFrom: 130,
+    style: "Zimmer mit Grachtenblick",
+    bestFor: "Romantisch",
+    blurb:
+      "Ein freundliches Hotel an einem ruhigen Grachtenabschnitt im alten Zentrum, mit Vorderzimmern, die direkt aufs Wasser blicken. Sie sind einen Fünf-Minuten-Weg vom Burg und dem Markt, aber an einer der schönsten Ecken der Stadt.",
+    image: px(279746),
+    imageAlt: "Traditionelles Hotelzimmer mit Holzmöbeln",
+  },
+  {
+    slug: "snuffel-hostel-bruges",
+    citySlug: "bruges",
+    name: "Snuffel Hostel",
+    neighborhoodSlug: "t-zand",
+    band: "€",
+    priceFrom: 30,
+    style: "Altstadt-Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein langjähriges, charaktervolles Hostel einen kurzen Weg vom Markt, mit Privatzimmern ebenso wie Schlafsälen und einer eigenen Bar, die belgische Biere ausschenkt. Es ist eines der günstigsten Betten innerhalb des historischen Rings.",
+    image: px(271624),
+    imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
+  },
 ];
 
 export default hotelsDe;
