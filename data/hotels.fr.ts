@@ -817,6 +817,64 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
   },
+
+  // ---- Cracovie ----
+  {
+    slug: "hotel-stary",
+    citySlug: "krakow",
+    name: "Hotel Stary",
+    neighborhoodSlug: "stare-miasto",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Palais de la vieille ville",
+    bestFor: "Séjour dans un monument",
+    blurb:
+      "Un cinq étoiles dans une maison de ville restaurée du XVe siècle à une minute de la Grand-Place, avec un bar sur le toit dominant la vieille ville et une piscine dans les caves médiévales. C'est le splurge malin dans une ville où le luxe coûte encore moins qu'une chambre de milieu de gamme ailleurs.",
+    image: px(262048),
+    imageAlt: "Suite d'hôtel élégante avec un lustre et un grand lit",
+  },
+  {
+    slug: "puro-krakow-kazimierz",
+    citySlug: "krakow",
+    name: "PURO Krakow Kazimierz",
+    neighborhoodSlug: "kazimierz",
+    band: "€€",
+    priceFrom: 100,
+    style: "Design à Kazimierz",
+    bestFor: "Amateurs de design",
+    blurb:
+      "Un hôtel design léché en lisière du quartier juif de Kazimierz, avec un bar sur le toit et un enregistrement autonome. Vous êtes parmi les bars, les galeries et les food trucks du quartier le plus intéressant de la vieille ville, à dix minutes à pied de la Grand-Place.",
+    image: px(1267438),
+    imageAlt: "Chambre d'hôtel design minimaliste aux tons sombres et à l'éclairage tamisé",
+  },
+  {
+    slug: "hotel-wentzl",
+    citySlug: "krakow",
+    name: "Hotel Wentzl",
+    neighborhoodSlug: "stare-miasto",
+    band: "€€",
+    priceFrom: 120,
+    style: "Sur la Grand-Place",
+    bestFor: "Première visite",
+    blurb:
+      "Un petit hôtel en plein sur la Grand-Place, au-dessus d'un restaurant qui tourne depuis 1792, si bien que certaines chambres donnent droit sur la Halle aux draps. On ne peut pas dormir plus central que cela à Cracovie.",
+    image: px(279746),
+    imageAlt: "Chambre d'hôtel traditionnelle avec du mobilier en bois",
+  },
+  {
+    slug: "greg-and-tom-hostel",
+    citySlug: "krakow",
+    name: "Greg & Tom Hostel",
+    neighborhoodSlug: "kleparz",
+    band: "€",
+    priceFrom: 20,
+    style: "Auberge conviviale",
+    bestFor: "Petit budget",
+    blurb:
+      "Une auberge accueillante et bien tenue entre la gare et la vieille ville, avec des chambres privées comme des dortoirs et un dîner maison gratuit certains soirs. C'est à cinq minutes à pied de la Barbacane et de la Grand-Place.",
+    image: px(271624),
+    imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
+  },
 ];
 
 export default hotelsFr;

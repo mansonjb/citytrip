@@ -225,6 +225,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Late nights",
     ],
   },
+  krakow: {
+    citySlug: "krakow",
+    image: hero(37459506),
+    imageAlt:
+      "The Cloth Hall and St Mary's Basilica on Krakow's Main Market Square",
+    history:
+      "Krakow was the royal capital of Poland for more than five centuries, until the court moved to Warsaw in 1596, and its kings were crowned and buried up on Wawel Hill. The Jagiellonian University, founded in 1364, is one of the oldest in Europe and taught a young Copernicus. Unlike Warsaw, the old town came through the Second World War almost undamaged, which is why the medieval Main Square, the largest in Europe, is still intact and UNESCO-listed. The darker history is close by: the Nazis ran occupied Poland from Krakow, emptied the Jewish quarter of Kazimierz into the Podgorze ghetto, and built Auschwitz-Birkenau an hour to the west. Cheap, walkable and full of students, Krakow is now one of the most popular short breaks in Europe.",
+    knownFor: [
+      "Main Market Square",
+      "Wawel Castle",
+      "Kazimierz",
+      "Cheap pierogi",
+      "Christmas market",
+      "Auschwitz day trip",
+    ],
+  },
 };
 
 export default extrasEn;

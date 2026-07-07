@@ -226,6 +226,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Lange Nächte",
     ],
   },
+  krakow: {
+    citySlug: "krakow",
+    image: hero(37459506),
+    imageAlt:
+      "Die Tuchhallen und die Marienbasilika am Hauptmarkt von Krakau",
+    history:
+      "Krakau war über fünf Jahrhunderte lang die königliche Hauptstadt Polens, bis der Hof 1596 nach Warschau zog, und seine Könige wurden oben auf dem Wawel-Hügel gekrönt und bestattet. Die 1364 gegründete Jagiellonen-Universität ist eine der ältesten Europas und unterrichtete einen jungen Kopernikus. Anders als Warschau kam die Altstadt fast unbeschädigt durch den Zweiten Weltkrieg, weshalb der mittelalterliche Hauptmarkt, der größte Europas, noch intakt und UNESCO-gelistet ist. Die dunklere Geschichte ist nah: Die Nationalsozialisten führten das besetzte Polen von Krakau aus, leerten das jüdische Viertel Kazimierz in das Ghetto von Podgorze und bauten eine Stunde westlich Auschwitz-Birkenau. Günstig, zu Fuß erkundbar und voller Studenten, ist Krakau heute einer der beliebtesten Kurztrips Europas.",
+    knownFor: [
+      "Hauptmarkt",
+      "Wawel-Schloss",
+      "Kazimierz",
+      "Günstige Pierogi",
+      "Weihnachtsmarkt",
+      "Tagesausflug Auschwitz",
+    ],
+  },
 };
 
 export default extrasDe;

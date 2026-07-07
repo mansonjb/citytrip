@@ -224,6 +224,22 @@ const extrasIt: Record<string, CityExtras> = {
       "Nottate lunghe",
     ],
   },
+  krakow: {
+    citySlug: "krakow",
+    image: hero(37459506),
+    imageAlt:
+      "Il Mercato dei Tessuti e la Basilica di Santa Maria sulla Piazza del Mercato di Cracovia",
+    history:
+      "Cracovia fu la capitale reale della Polonia per più di cinque secoli, finché la corte non si trasferì a Varsavia nel 1596, e i suoi re venivano incoronati e sepolti sulla collina del Wawel. L'Università Jagellonica, fondata nel 1364, è una delle più antiche d'Europa e formò un giovane Copernico. A differenza di Varsavia, la città vecchia attraversò la Seconda guerra mondiale quasi indenne, ed è per questo che la medievale Piazza del Mercato, la più grande d'Europa, è ancora intatta e patrimonio UNESCO. La storia più cupa è a due passi: i nazisti governavano la Polonia occupata da Cracovia, svuotarono il quartiere ebraico di Kazimierz confinandolo nel ghetto di Podgorze, e costruirono Auschwitz-Birkenau a un'ora a ovest. Economica, percorribile a piedi e piena di studenti, Cracovia è oggi una delle vacanze brevi più amate d'Europa.",
+    knownFor: [
+      "Piazza del Mercato",
+      "Castello del Wawel",
+      "Kazimierz",
+      "Pierogi economici",
+      "Mercatino di Natale",
+      "Gita ad Auschwitz",
+    ],
+  },
 };
 
 export default extrasIt;

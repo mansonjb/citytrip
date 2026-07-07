@@ -817,6 +817,64 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },
+
+  // ---- Krakow ----
+  {
+    slug: "hotel-stary",
+    citySlug: "krakow",
+    name: "Hotel Stary",
+    neighborhoodSlug: "stare-miasto",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Palazzo nella Città Vecchia",
+    bestFor: "Soggiorno da cartolina",
+    blurb:
+      "Un cinque stelle dentro un palazzo cittadino del Quattrocento restaurato a un minuto dalla Piazza del Mercato, con un bar sul tetto affacciato sulla città vecchia e una piscina nelle cantine medievali. È il lusso sensato in una città dove il lusso costa ancora meno di una camera di fascia media altrove.",
+    image: px(262048),
+    imageAlt: "Elegante suite d'albergo con lampadario e letto grande",
+  },
+  {
+    slug: "puro-krakow-kazimierz",
+    citySlug: "krakow",
+    name: "PURO Krakow Kazimierz",
+    neighborhoodSlug: "kazimierz",
+    band: "€€",
+    priceFrom: 100,
+    style: "Design a Kazimierz",
+    bestFor: "Amanti del design",
+    blurb:
+      "Un elegante design hotel al margine del quartiere ebraico di Kazimierz, con bar sul tetto e check-in automatico. Ci si trova tra i bar, le gallerie e i food truck del distretto più interessante della città vecchia, a dieci minuti a piedi dalla Piazza del Mercato.",
+    image: px(1267438),
+    imageAlt: "Camera di design minimalista in tonalità scure con luce soffusa",
+  },
+  {
+    slug: "hotel-wentzl",
+    citySlug: "krakow",
+    name: "Hotel Wentzl",
+    neighborhoodSlug: "stare-miasto",
+    band: "€€",
+    priceFrom: 120,
+    style: "Sulla Piazza del Mercato",
+    bestFor: "Prima visita",
+    blurb:
+      "Un piccolo hotel proprio sulla Piazza del Mercato sopra un ristorante attivo dal 1792, così alcune camere si affacciano direttamente sul Mercato dei Tessuti. Non si può dormire più al centro di così a Cracovia.",
+    image: px(279746),
+    imageAlt: "Camera d'albergo tradizionale con mobili in legno",
+  },
+  {
+    slug: "greg-and-tom-hostel",
+    citySlug: "krakow",
+    name: "Greg & Tom Hostel",
+    neighborhoodSlug: "kleparz",
+    band: "€",
+    priceFrom: 20,
+    style: "Ostello socievole",
+    bestFor: "Budget",
+    blurb:
+      "Un ostello accogliente e ben gestito tra la stazione dei treni e la città vecchia, con camere private oltre ai dormitori e una cena casalinga gratuita alcune sere. È a cinque minuti a piedi dal Barbacane e dalla Piazza del Mercato.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
 ];
 
 export default hotelsIt;

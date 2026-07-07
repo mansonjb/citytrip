@@ -817,6 +817,64 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
   },
+
+  // ---- Krakau ----
+  {
+    slug: "hotel-stary",
+    citySlug: "krakow",
+    name: "Hotel Stary",
+    neighborhoodSlug: "stare-miasto",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Altstadtpalast",
+    bestFor: "Wahrzeichen-Aufenthalt",
+    blurb:
+      "Ein Fünf-Sterne-Haus in einem restaurierten Stadthaus aus dem 15. Jahrhundert, eine Minute vom Hauptmarkt, mit einer Dachbar über der Altstadt und einem Pool in den mittelalterlichen Kellern. Es ist der kluge Luxus in einer Stadt, in der Luxus noch weniger kostet als ein Mittelklassezimmer anderswo.",
+    image: px(262048),
+    imageAlt: "Elegante Hotelsuite mit Kronleuchter und großem Bett",
+  },
+  {
+    slug: "puro-krakow-kazimierz",
+    citySlug: "krakow",
+    name: "PURO Krakow Kazimierz",
+    neighborhoodSlug: "kazimierz",
+    band: "€€",
+    priceFrom: 100,
+    style: "Design in Kazimierz",
+    bestFor: "Designliebhaber",
+    blurb:
+      "Ein schickes Designhotel am Rand des jüdischen Viertels Kazimierz, mit einer Dachbar und Self-Check-in. Sie sind mitten unter den Bars, Galerien und Foodtrucks des interessantesten Viertels der Altstadt, zehn Gehminuten vom Hauptmarkt.",
+    image: px(1267438),
+    imageAlt: "Minimalistisches Designhotelzimmer in dunklen Tönen mit gedämpftem Licht",
+  },
+  {
+    slug: "hotel-wentzl",
+    citySlug: "krakow",
+    name: "Hotel Wentzl",
+    neighborhoodSlug: "stare-miasto",
+    band: "€€",
+    priceFrom: 120,
+    style: "Am Hauptmarkt",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein kleines Hotel direkt am Hauptmarkt über einem Restaurant, das seit 1792 geführt wird, sodass einige Zimmer direkt auf die Tuchhallen blicken. Zentraler als hier können Sie in Krakau nicht schlafen.",
+    image: px(279746),
+    imageAlt: "Traditionelles Hotelzimmer mit Holzmöbeln",
+  },
+  {
+    slug: "greg-and-tom-hostel",
+    citySlug: "krakow",
+    name: "Greg & Tom Hostel",
+    neighborhoodSlug: "kleparz",
+    band: "€",
+    priceFrom: 20,
+    style: "Geselliges Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein freundliches, gut geführtes Hostel zwischen dem Bahnhof und der Altstadt, mit Privatzimmern ebenso wie Schlafsälen und an manchen Abenden einem kostenlosen hausgemachten Abendessen. Es ist ein Fünf-Minuten-Weg zur Barbakane und zum Hauptmarkt.",
+    image: px(271624),
+    imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
+  },
 ];
 
 export default hotelsDe;

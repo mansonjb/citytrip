@@ -815,6 +815,64 @@ const hotelsPt: Hotel[] = [
     image: px(271624),
     imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
   },
+
+  // ---- Cracovia ----
+  {
+    slug: "hotel-stary",
+    citySlug: "krakow",
+    name: "Hotel Stary",
+    neighborhoodSlug: "stare-miasto",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Palácio na Cidade Velha",
+    bestFor: "Estadia num marco",
+    blurb:
+      "Um cinco estrelas dentro de uma casa senhorial restaurada do século XV, a um minuto da Praça do Mercado, com um bar no rooftop sobre a cidade velha e uma piscina nas caves medievais. É o luxo esperto numa cidade onde o luxo ainda custa menos do que um quarto de gama média noutro sítio.",
+    image: px(262048),
+    imageAlt: "Suíte de hotel elegante com um lustre e cama grande",
+  },
+  {
+    slug: "puro-krakow-kazimierz",
+    citySlug: "krakow",
+    name: "PURO Krakow Kazimierz",
+    neighborhoodSlug: "kazimierz",
+    band: "€€",
+    priceFrom: 100,
+    style: "Design em Kazimierz",
+    bestFor: "Amantes de design",
+    blurb:
+      "Um hotel de design elegante na berma do bairro judeu de Kazimierz, com um bar no rooftop e check-in automático. Fica entre os bares, as galerias e as roulottes de comida do distrito mais interessante da cidade velha, a dez minutos a pé da Praça do Mercado.",
+    image: px(1267438),
+    imageAlt: "Quarto de hotel de design minimalista em tons escuros com luz baixa",
+  },
+  {
+    slug: "hotel-wentzl",
+    citySlug: "krakow",
+    name: "Hotel Wentzl",
+    neighborhoodSlug: "stare-miasto",
+    band: "€€",
+    priceFrom: 120,
+    style: "Na Praça do Mercado",
+    bestFor: "Primeira visita",
+    blurb:
+      "Um pequeno hotel mesmo na Praça do Mercado, por cima de um restaurante que funciona desde 1792, por isso alguns quartos dão diretamente para a Lonja dos Panos. Não se dorme mais central do que isto em Cracovia.",
+    image: px(279746),
+    imageAlt: "Quarto de hotel tradicional com mobiliário de madeira",
+  },
+  {
+    slug: "greg-and-tom-hostel",
+    citySlug: "krakow",
+    name: "Greg & Tom Hostel",
+    neighborhoodSlug: "kleparz",
+    band: "€",
+    priceFrom: 20,
+    style: "Hostel sociável",
+    bestFor: "Orçamento apertado",
+    blurb:
+      "Um hostel simpático e bem gerido entre a estação de comboios e a cidade velha, com quartos privados além dos dormitórios e um jantar caseiro grátis nalgumas noites. Fica a cinco minutos a pé da Barbaca e da Praça do Mercado.",
+    image: px(271624),
+    imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
+  },
 ];
 
 export default hotelsPt;

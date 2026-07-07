@@ -70,15 +70,20 @@ import madridFr from "./cities/madrid.fr";
 import madridPt from "./cities/madrid.pt";
 import madridIt from "./cities/madrid.it";
 import madridDe from "./cities/madrid.de";
+import krakow from "./cities/krakow";
+import krakowFr from "./cities/krakow.fr";
+import krakowPt from "./cities/krakow.pt";
+import krakowIt from "./cities/krakow.it";
+import krakowDe from "./cities/krakow.de";
 
 // Register every city bundle per locale. Adding a city = one file per locale
 // + one entry per array below (same order everywhere).
 const bundlesByLocale: Record<Locale, CityData[]> = {
-  en: [lisbon, prague, seville, porto, budapest, vienna, granada, rome, amsterdam, florence, bruges, barcelona, berlin, madrid],
-  fr: [lisbonFr, pragueFr, sevilleFr, portoFr, budapestFr, viennaFr, granadaFr, romeFr, amsterdamFr, florenceFr, brugesFr, barcelonaFr, berlinFr, madridFr],
-  pt: [lisbonPt, praguePt, sevillePt, portoPt, budapestPt, viennaPt, granadaPt, romePt, amsterdamPt, florencePt, brugesPt, barcelonaPt, berlinPt, madridPt],
-  it: [lisbonIt, pragueIt, sevilleIt, portoIt, budapestIt, viennaIt, granadaIt, romeIt, amsterdamIt, florenceIt, brugesIt, barcelonaIt, berlinIt, madridIt],
-  de: [lisbonDe, pragueDe, sevilleDe, portoDe, budapestDe, viennaDe, granadaDe, romeDe, amsterdamDe, florenceDe, brugesDe, barcelonaDe, berlinDe, madridDe],
+  en: [lisbon, prague, seville, porto, budapest, vienna, granada, rome, amsterdam, florence, bruges, barcelona, berlin, madrid, krakow],
+  fr: [lisbonFr, pragueFr, sevilleFr, portoFr, budapestFr, viennaFr, granadaFr, romeFr, amsterdamFr, florenceFr, brugesFr, barcelonaFr, berlinFr, madridFr, krakowFr],
+  pt: [lisbonPt, praguePt, sevillePt, portoPt, budapestPt, viennaPt, granadaPt, romePt, amsterdamPt, florencePt, brugesPt, barcelonaPt, berlinPt, madridPt, krakowPt],
+  it: [lisbonIt, pragueIt, sevilleIt, portoIt, budapestIt, viennaIt, granadaIt, romeIt, amsterdamIt, florenceIt, brugesIt, barcelonaIt, berlinIt, madridIt, krakowIt],
+  de: [lisbonDe, pragueDe, sevilleDe, portoDe, budapestDe, viennaDe, granadaDe, romeDe, amsterdamDe, florenceDe, brugesDe, barcelonaDe, berlinDe, madridDe, krakowDe],
 };
 
 export function cityBundles(locale: Locale = "en"): CityData[] {

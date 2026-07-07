@@ -224,6 +224,22 @@ const extrasPt: Record<string, CityExtras> = {
       "Noites tardias",
     ],
   },
+  krakow: {
+    citySlug: "krakow",
+    image: hero(37459506),
+    imageAlt:
+      "A Lonja dos Panos e a Basilica de Santa Maria na Praca do Mercado de Cracovia",
+    history:
+      "Cracovia foi a capital real da Polonia durante mais de cinco seculos, ate a corte se mudar para Varsovia em 1596, e os seus reis eram coroados e sepultados no alto da colina de Wawel. A Universidade Jagiellonian, fundada em 1364, e uma das mais antigas da Europa e ensinou um jovem Copernico. Ao contrario de Varsovia, a cidade velha atravessou a Segunda Guerra Mundial quase sem danos, e e por isso que a Praca do Mercado medieval, a maior da Europa, continua intacta e classificada pela UNESCO. A historia mais sombria fica perto: os nazis governaram a Polonia ocupada a partir de Cracovia, esvaziaram o bairro judeu de Kazimierz para o gueto de Podgorze e construiram Auschwitz-Birkenau a uma hora para oeste. Barata, percorrivel a pe e cheia de estudantes, Cracovia e hoje uma das escapadas curtas mais populares da Europa.",
+    knownFor: [
+      "Praca do Mercado",
+      "Castelo de Wawel",
+      "Kazimierz",
+      "Pierogi barato",
+      "Mercado de Natal",
+      "Excursao a Auschwitz",
+    ],
+  },
 };
 
 export default extrasPt;

@@ -226,6 +226,22 @@ const extrasFr: Record<string, CityExtras> = {
       "Les nuits tardives",
     ],
   },
+  krakow: {
+    citySlug: "krakow",
+    image: hero(37459506),
+    imageAlt:
+      "La Halle aux draps et la basilique Sainte-Marie sur la Grand-Place de Cracovie",
+    history:
+      "Cracovie fut la capitale royale de la Pologne pendant plus de cinq siècles, jusqu'au transfert de la cour à Varsovie en 1596, et ses rois furent couronnés et inhumés là-haut, sur la colline du Wawel. L'université jagellonne, fondée en 1364, est l'une des plus anciennes d'Europe et forma un jeune Copernic. Contrairement à Varsovie, la vieille ville a traversé la Seconde Guerre mondiale presque intacte, ce qui explique pourquoi la Grand-Place médiévale, la plus grande d'Europe, est encore entière et classée à l'UNESCO. L'histoire plus sombre est toute proche : les nazis dirigeaient la Pologne occupée depuis Cracovie, vidèrent le quartier juif de Kazimierz dans le ghetto de Podgorze, et bâtirent Auschwitz-Birkenau à une heure à l'ouest. Bon marché, parcourable à pied et pleine d'étudiants, Cracovie est aujourd'hui l'un des city breaks les plus prisés d'Europe.",
+    knownFor: [
+      "La Grand-Place",
+      "Le château du Wawel",
+      "Kazimierz",
+      "Les pierogi bon marché",
+      "Le marché de Noël",
+      "L'excursion à Auschwitz",
+    ],
+  },
 };
 
 export default extrasFr;

@@ -817,6 +817,64 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+
+  // ---- Krakow ----
+  {
+    slug: "hotel-stary",
+    citySlug: "krakow",
+    name: "Hotel Stary",
+    neighborhoodSlug: "stare-miasto",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Old Town palace",
+    bestFor: "Landmark stay",
+    blurb:
+      "A five-star inside a restored 15th-century townhouse a minute from the Main Square, with a rooftop bar over the old town and a pool in the medieval cellars. It is the smart splurge in a city where luxury still costs less than a mid-range room elsewhere.",
+    image: px(262048),
+    imageAlt: "Elegant hotel suite with a chandelier and large bed",
+  },
+  {
+    slug: "puro-krakow-kazimierz",
+    citySlug: "krakow",
+    name: "PURO Krakow Kazimierz",
+    neighborhoodSlug: "kazimierz",
+    band: "€€",
+    priceFrom: 100,
+    style: "Design in Kazimierz",
+    bestFor: "Design lovers",
+    blurb:
+      "A slick design hotel on the edge of the Kazimierz Jewish quarter, with a rooftop bar and self check-in. You are among the bars, galleries and food trucks of the old town's most interesting district, ten minutes' walk from the Main Square.",
+    image: px(1267438),
+    imageAlt: "Minimalist design hotel room in dark tones with low lighting",
+  },
+  {
+    slug: "hotel-wentzl",
+    citySlug: "krakow",
+    name: "Hotel Wentzl",
+    neighborhoodSlug: "stare-miasto",
+    band: "€€",
+    priceFrom: 120,
+    style: "On the Main Square",
+    bestFor: "First visit",
+    blurb:
+      "A small hotel right on the Main Market Square above a restaurant that has run since 1792, so some rooms look straight onto the Cloth Hall. You cannot sleep more central than this in Krakow.",
+    image: px(279746),
+    imageAlt: "Traditional hotel bedroom with wooden furniture",
+  },
+  {
+    slug: "greg-and-tom-hostel",
+    citySlug: "krakow",
+    name: "Greg & Tom Hostel",
+    neighborhoodSlug: "kleparz",
+    band: "€",
+    priceFrom: 20,
+    style: "Sociable hostel",
+    bestFor: "Budget",
+    blurb:
+      "A friendly, well-run hostel between the train station and the old town, with private rooms as well as dorms and a free home-cooked dinner some nights. It is a five-minute walk to the Barbican and the Main Square.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;
