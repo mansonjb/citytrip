@@ -53,7 +53,7 @@ const fr: typeof en = {
       "Quatre adresses qui couvrent la gamme réaliste, du coup de folie au petit budget. Les prix sont des bases basse saison ; vérifiez les tarifs en direct pour vos dates.",
     seeAll: "Voir tous les hôtels de {city}",
     photosNote:
-      "Photos d'illustration · les liens de réservation soutiennent le site sans surcoût",
+      "Vraies photos des hôtels · prix indicatifs à partir de, pas des tarifs en direct · les liens de réservation soutiennent le site sans surcoût",
   },
   cityCard: { days: "Jours", best: "Top", budget: "Budget" },
   bestFor: {

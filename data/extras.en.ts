@@ -319,6 +319,38 @@ const extrasEn: Record<string, CityExtras> = {
       "Murano glass",
     ],
   },
+  dublin: {
+    citySlug: "dublin",
+    image: hero(13157974),
+    imageAlt:
+      "The Ha'penny Bridge over the River Liffey in Dublin with the green dome of the Custom House behind",
+    history:
+      "Dublin began as a Viking trading and slaving port on the River Liffey around 841, and its name comes from the Irish Dubh Linn, the black pool where the longships moored. It became the centre of English rule in Ireland after the Norman arrival in 1170, and the wide streets and red-brick squares of the Georgian city were laid out in the 1700s, when Dublin was the second city of the British Empire. The 1916 Easter Rising began at the General Post Office on O'Connell Street and set off the fight that led to Irish independence in 1922. The city carries an outsized literary weight, home to four Nobel laureates and the setting for James Joyce's Ulysses, and it is now the young, tech-driven capital of a much richer Ireland.",
+    knownFor: [
+      "Guinness Storehouse",
+      "Book of Kells",
+      "Georgian doors",
+      "Temple Bar pubs",
+      "Trinity College",
+      "Traditional music",
+    ],
+  },
+  stockholm: {
+    citySlug: "stockholm",
+    image: hero(30158443),
+    imageAlt:
+      "Stockholm's Riddarholmen waterfront and church spire seen across the water under a blue sky",
+    history:
+      "Stockholm was founded around 1252 on the small island now called Gamla Stan, where Lake Malaren empties into the Baltic Sea, and it grew rich controlling the iron and copper trade out of Sweden. It became the permanent capital in the 15th century and the seat of the Swedish kings, whose Royal Palace still stands over the old town. The city spread across its fourteen islands as Sweden rose to great-power status in the 1600s, the era of the warship Vasa, which capsized in the harbour on its maiden voyage in 1628 and was raised, almost intact, in 1961. Spared the destruction of both world wars by Swedish neutrality, Stockholm kept its historic core and made the 20th century a byword for design, and it still hosts the Nobel Prize ceremony and banquet every December.",
+    knownFor: [
+      "Gamla Stan old town",
+      "The Vasa ship",
+      "ABBA Museum",
+      "The archipelago",
+      "Fika culture",
+      "The Nobel Prize",
+    ],
+  },
 };
 
 export default extrasEn;

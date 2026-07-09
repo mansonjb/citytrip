@@ -23,16 +23,28 @@ export function AffiliateLink({
   );
 }
 
-// Deep link to the hotel search centered on a named property.
+// Deep link to a specific property: the full address string names the exact
+// hotel, and the coordinates (neighborhood-level) center the map tightly on it
+// so Stay22 surfaces that hotel rather than a loose city search.
 export function stay22HotelUrl(opts: {
   hotelName: string;
   cityName: string;
+  country?: string;
+  lat?: number;
+  lng?: number;
   aid: string;
 }): string {
+  const address = [opts.hotelName, opts.cityName, opts.country]
+    .filter(Boolean)
+    .join(", ");
   const params = new URLSearchParams({
     aid: opts.aid || "perfectcitybreak",
-    address: `${opts.hotelName}, ${opts.cityName}`,
+    address,
   });
+  if (opts.lat !== undefined && opts.lng !== undefined) {
+    params.set("lat", String(opts.lat));
+    params.set("lng", String(opts.lng));
+  }
   return `https://www.stay22.com/allez/booking?${params.toString()}`;
 }
 

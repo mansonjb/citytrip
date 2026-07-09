@@ -320,6 +320,38 @@ const extrasDe: Record<string, CityExtras> = {
       "Muranoglas",
     ],
   },
+  dublin: {
+    citySlug: "dublin",
+    image: hero(13157974),
+    imageAlt:
+      "Die Ha'penny Bridge über den Fluss Liffey in Dublin mit der grünen Kuppel des Custom House dahinter",
+    history:
+      "Dublin begann um 841 als wikingischer Handels- und Sklavenhafen am Fluss Liffey, und sein Name stammt vom irischen Dubh Linn, dem schwarzen Teich, an dem die Langschiffe festmachten. Nach der Ankunft der Normannen 1170 wurde es zum Zentrum der englischen Herrschaft in Irland, und die breiten Straßen und roten Backsteinplätze der georgianischen Stadt wurden im 18. Jahrhundert angelegt, als Dublin die zweite Stadt des Britischen Empire war. Der Osteraufstand von 1916 begann am Hauptpostamt in der O'Connell Street und löste den Kampf aus, der 1922 zur irischen Unabhängigkeit führte. Die Stadt trägt ein überdimensionales literarisches Gewicht, Heimat von vier Nobelpreisträgern und Schauplatz von James Joyces Ulysses, und sie ist heute die junge, technologiegetriebene Hauptstadt eines weit reicheren Irlands.",
+    knownFor: [
+      "Guinness Storehouse",
+      "Book of Kells",
+      "Georgianische Türen",
+      "Pubs von Temple Bar",
+      "Trinity College",
+      "Traditionelle Musik",
+    ],
+  },
+  stockholm: {
+    citySlug: "stockholm",
+    image: hero(30158443),
+    imageAlt:
+      "Stockholms Uferfront Riddarholmen und Kirchturm, über das Wasser hinweg unter blauem Himmel gesehen",
+    history:
+      "Stockholm wurde um 1252 auf der kleinen Insel gegründet, die heute Gamla Stan heißt, dort, wo sich der Mälarsee in die Ostsee ergießt, und es wurde reich, indem es den Eisen- und Kupferhandel aus Schweden kontrollierte. Im 15. Jahrhundert wurde es zur ständigen Hauptstadt und zum Sitz der schwedischen Könige, deren Königsschloss noch immer über der Altstadt steht. Die Stadt breitete sich über ihre vierzehn Inseln aus, als Schweden im 17. Jahrhundert zur Großmacht aufstieg, der Ära des Kriegsschiffs Vasa, das 1628 auf seiner Jungfernfahrt im Hafen kenterte und 1961 fast unversehrt gehoben wurde. Von der Zerstörung beider Weltkriege durch die schwedische Neutralität verschont, bewahrte Stockholm seinen historischen Kern und machte das 20. Jahrhundert zum Inbegriff für Design, und es richtet noch immer jeden Dezember die Verleihung und das Bankett des Nobelpreises aus.",
+    knownFor: [
+      "Altstadt Gamla Stan",
+      "Das Schiff Vasa",
+      "ABBA-Museum",
+      "Der Schärengarten",
+      "Fika-Kultur",
+      "Der Nobelpreis",
+    ],
+  },
 };
 
 export default extrasDe;

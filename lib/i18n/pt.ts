@@ -52,7 +52,7 @@ const pt: typeof en = {
       "Quatro escolhas que cobrem a gama realista, do luxo ao económico. Os preços são valores de partida em época baixa; confirme as tarifas em tempo real para as suas datas.",
     seeAll: "Ver todos os hotéis de {city}",
     photosNote:
-      "Fotos ilustrativas · os links de reserva apoiam o site sem custo extra",
+      "Fotos reais dos hotéis · preços indicativos a partir de, não valores em tempo real · os links de reserva apoiam o site sem custo extra",
   },
   cityCard: { days: "Dias", best: "Melhor", budget: "Orçamento" },
   bestFor: {

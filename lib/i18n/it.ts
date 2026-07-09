@@ -52,7 +52,7 @@ const it: typeof en = {
       "Quattro indirizzi che coprono la gamma realistica, dallo sfizio al budget. I prezzi sono basi di bassa stagione; controlla le tariffe in tempo reale per le tue date.",
     seeAll: "Vedi tutti gli hotel di {city}",
     photosNote:
-      "Foto illustrative · i link di prenotazione sostengono il sito senza costi extra",
+      "Foto reali degli hotel · prezzi indicativi a partire da, non tariffe in tempo reale · i link di prenotazione sostengono il sito senza costi extra",
   },
   cityCard: { days: "Giorni", best: "Top", budget: "Budget" },
   bestFor: {

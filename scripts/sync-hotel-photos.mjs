@@ -27,6 +27,7 @@ const MANIFEST = join(ROOT, "data", "hotel-photos.json");
 // wrong place on Google (generic hotel names, franchises, etc.).
 const QUERY_OVERRIDE = {
   "the-balmoral": "The Balmoral Hotel Princes Street Edinburgh Rocco Forte",
+  "the-morgan": "The Morgan Hotel Fleet Street Temple Bar Dublin",
 };
 
 const CITY_NAME = {

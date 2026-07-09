@@ -53,7 +53,7 @@ const en = {
       "Four picks that cover the realistic range, from splurge to budget. Prices are low-season starting points; check live rates for your dates.",
     seeAll: "See all {city} hotels",
     photosNote:
-      "Photos are illustrative · booking links support the site at no extra cost",
+      "Real hotel photos · prices are indicative from-rates, not live quotes · booking links support the site at no extra cost",
   },
   cityCard: { days: "Days", best: "Best", budget: "Budget" },
   bestFor: {

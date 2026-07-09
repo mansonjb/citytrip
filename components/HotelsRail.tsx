@@ -56,7 +56,7 @@ function HotelCard({
           <p className="font-mono text-xs text-ink/60">
             {t.from}{" "}
             <span className="text-sm font-bold text-ink">
-              {hotel.priceFrom} EUR
+              ~{hotel.priceFrom} EUR
             </span>
             {t.perNight}
           </p>
@@ -64,6 +64,9 @@ function HotelCard({
             href={stay22HotelUrl({
               hotelName: hotel.name,
               cityName: city.name,
+              country: city.country,
+              lat: hood?.lat ?? city.lat,
+              lng: hood?.lng ?? city.lng,
               aid,
             })}
             className="label-mono whitespace-nowrap rounded-full border-2 border-ink bg-ink px-3.5 py-1.5 font-semibold text-white transition-transform hover:-translate-y-0.5"

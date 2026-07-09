@@ -39,6 +39,8 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /edinburgh (Edinburgh, Scotland): ideal 2 days
 - /paris (Paris, France): ideal 4 days
 - /venice (Venice, Italy): ideal 2 days
+- /dublin (Dublin, Ireland): ideal 2 days
+- /stockholm (Stockholm, Sweden): ideal 3 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,

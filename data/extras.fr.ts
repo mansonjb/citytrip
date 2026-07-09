@@ -320,6 +320,38 @@ const extrasFr: Record<string, CityExtras> = {
       "Le verre de Murano",
     ],
   },
+  dublin: {
+    citySlug: "dublin",
+    image: hero(13157974),
+    imageAlt:
+      "Le Ha'penny Bridge sur la rivière Liffey à Dublin, avec le dôme vert de la Custom House derrière",
+    history:
+      "Dublin est née d'un port viking de commerce et d'esclaves sur la rivière Liffey vers 841, et son nom vient de l'irlandais Dubh Linn, le bassin noir où mouillaient les drakkars. Elle devint le centre de la domination anglaise en Irlande après l'arrivée des Normands en 1170, et les larges rues et les places de brique rouge de la ville géorgienne furent tracées dans les années 1700, quand Dublin était la deuxième ville de l'Empire britannique. L'Insurrection de Pâques 1916 débuta à la General Post Office sur O'Connell Street et déclencha la lutte qui mena à l'indépendance de l'Irlande en 1922. La ville porte un poids littéraire démesuré, patrie de quatre lauréats du Nobel et cadre de l'Ulysse de James Joyce, et elle est aujourd'hui la capitale jeune et portée par la tech d'une Irlande bien plus riche.",
+    knownFor: [
+      "La Guinness Storehouse",
+      "Le Livre de Kells",
+      "Les portes géorgiennes",
+      "Les pubs de Temple Bar",
+      "Trinity College",
+      "La musique traditionnelle",
+    ],
+  },
+  stockholm: {
+    citySlug: "stockholm",
+    image: hero(30158443),
+    imageAlt:
+      "Le front de mer de Riddarholmen à Stockholm et la flèche de son église vus par-dessus l'eau sous un ciel bleu",
+    history:
+      "Stockholm fut fondée vers 1252 sur la petite île aujourd'hui appelée Gamla Stan, là où le lac Malaren se déverse dans la Baltique, et elle s'enrichit en contrôlant le commerce du fer et du cuivre sortant de Suède. Elle devint la capitale permanente au XVe siècle et le siège des rois de Suède, dont le palais royal se dresse toujours au-dessus de la vieille ville. La ville s'étala sur ses quatorze îles à mesure que la Suède accédait au rang de grande puissance au XVIIe siècle, l'époque du navire de guerre Vasa, qui chavira dans le port lors de son voyage inaugural en 1628 et fut relevé, presque intact, en 1961. Épargnée par la destruction des deux guerres mondiales grâce à la neutralité suédoise, Stockholm conserva son noyau historique et fit du XXe siècle un symbole du design, et elle accueille toujours la cérémonie et le banquet du prix Nobel chaque décembre.",
+    knownFor: [
+      "La vieille ville de Gamla Stan",
+      "Le navire Vasa",
+      "Le musée ABBA",
+      "L'archipel",
+      "La culture du fika",
+      "Le prix Nobel",
+    ],
+  },
 };
 
 export default extrasFr;

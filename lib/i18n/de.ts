@@ -52,7 +52,7 @@ const de: typeof en = {
       "Vier Empfehlungen, die die realistische Bandbreite abdecken, vom Luxus bis zum kleinen Budget. Die Preise sind Startwerte der Nebensaison; prüfen Sie die aktuellen Raten für Ihre Reisedaten.",
     seeAll: "Alle Hotels in {city} ansehen",
     photosNote:
-      "Fotos dienen der Illustration · Buchungslinks unterstützen die Seite ohne Mehrkosten",
+      "Echte Hotelfotos · Preise sind Richtwerte ab, keine Live-Tarife · Buchungslinks unterstützen die Seite ohne Mehrkosten",
   },
   cityCard: { days: "Tage", best: "Top", budget: "Budget" },
   bestFor: {

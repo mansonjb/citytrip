@@ -318,6 +318,38 @@ const extrasIt: Record<string, CityExtras> = {
       "Vetro di Murano",
     ],
   },
+  dublin: {
+    citySlug: "dublin",
+    image: hero(13157974),
+    imageAlt:
+      "Il Ha'penny Bridge sul fiume Liffey a Dublino con dietro la cupola verde della Custom House",
+    history:
+      "Dublino nacque come porto vichingo di commercio e di schiavi sul fiume Liffey attorno all'841, e il suo nome deriva dall'irlandese Dubh Linn, la pozza nera dove ormeggiavano le navi lunghe. Divenne il centro del dominio inglese in Irlanda dopo l'arrivo dei normanni nel 1170, e le ampie strade e le piazze in mattoni rossi della città georgiana furono tracciate nel Settecento, quando Dublino era la seconda città dell'Impero britannico. La Rivolta di Pasqua del 1916 iniziò al General Post Office di O'Connell Street e diede il via alla lotta che portò all'indipendenza irlandese nel 1922. La città porta un peso letterario spropositato, patria di quattro premi Nobel e ambientazione dell'Ulisse di James Joyce, ed è oggi la capitale giovane e trainata dalla tecnologia di un'Irlanda molto più ricca.",
+    knownFor: [
+      "Guinness Storehouse",
+      "Book of Kells",
+      "Porte georgiane",
+      "Pub di Temple Bar",
+      "Trinity College",
+      "Musica tradizionale",
+    ],
+  },
+  stockholm: {
+    citySlug: "stockholm",
+    image: hero(30158443),
+    imageAlt:
+      "Il lungomare di Riddarholmen a Stoccolma e la guglia della chiesa visti al di là dell'acqua sotto un cielo azzurro",
+    history:
+      "Stoccolma fu fondata attorno al 1252 sulla piccola isola oggi chiamata Gamla Stan, dove il lago Malaren si getta nel Mar Baltico, e si arricchì controllando il commercio del ferro e del rame in uscita dalla Svezia. Divenne la capitale permanente nel XV secolo e la sede dei re svedesi, il cui Palazzo Reale domina ancora la città vecchia. La città si estese sulle sue quattordici isole man mano che la Svezia saliva al rango di grande potenza nel Seicento, l'epoca del vascello da guerra Vasa, che si capovolse nel porto durante il suo viaggio inaugurale nel 1628 e fu sollevato, quasi intatto, nel 1961. Risparmiata dalla distruzione di entrambe le guerre mondiali grazie alla neutralità svedese, Stoccolma conservò il suo nucleo storico e fece del XX secolo un sinonimo di design, e ospita ancora la cerimonia e il banchetto del Premio Nobel ogni dicembre.",
+    knownFor: [
+      "Città vecchia di Gamla Stan",
+      "Il vascello Vasa",
+      "Museo degli ABBA",
+      "L'arcipelago",
+      "Cultura della fika",
+      "Il Premio Nobel",
+    ],
+  },
 };
 
 export default extrasIt;

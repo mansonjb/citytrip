@@ -318,6 +318,38 @@ const extrasPt: Record<string, CityExtras> = {
       "Vidro de Murano",
     ],
   },
+  dublin: {
+    citySlug: "dublin",
+    image: hero(13157974),
+    imageAlt:
+      "A Ponte Ha'penny sobre o rio Liffey em Dublin com a cupula verde da Custom House ao fundo",
+    history:
+      "Dublin comecou como um porto viking de comercio e de escravos no rio Liffey por volta de 841, e o seu nome vem do irlandes Dubh Linn, a poca negra onde os drakkares atracavam. Tornou-se o centro do dominio ingles na Irlanda depois da chegada dos normandos em 1170, e as ruas largas e as pracas de tijolo vermelho da cidade georgiana foram tracadas no seculo XVIII, quando Dublin era a segunda cidade do Imperio Britanico. A Revolta da Pascoa de 1916 comecou nos Correios Centrais da O'Connell Street e desencadeou a luta que levou a independencia irlandesa em 1922. A cidade carrega um peso literario desmedido, casa de quatro laureados Nobel e cenario do Ulisses de James Joyce, e e hoje a capital jovem e movida pela tecnologia de uma Irlanda muito mais rica.",
+    knownFor: [
+      "Guinness Storehouse",
+      "Book of Kells",
+      "Portas georgianas",
+      "Pubs de Temple Bar",
+      "Trinity College",
+      "Musica tradicional",
+    ],
+  },
+  stockholm: {
+    citySlug: "stockholm",
+    image: hero(30158443),
+    imageAlt:
+      "A frente de agua de Riddarholmen em Estocolmo e a torre da igreja vistas do outro lado da agua sob um céu azul",
+    history:
+      "Estocolmo foi fundada por volta de 1252 na pequena ilha hoje chamada Gamla Stan, onde o lago Malaren desagua no mar Baltico, e enriqueceu controlando o comercio de ferro e cobre que saia da Suecia. Tornou-se a capital permanente no seculo XV e a sede dos reis suecos, cujo Palacio Real ainda se ergue sobre a cidade velha. A cidade espalhou-se pelas suas catorze ilhas a medida que a Suecia ascendia a estatuto de grande potencia no seculo XVII, a era do navio de guerra Vasa, que se virou no porto na sua viagem inaugural em 1628 e foi erguido, quase intacto, em 1961. Poupada a destruicao das duas guerras mundiais pela neutralidade sueca, Estocolmo manteve o seu nucleo historico e fez do seculo XX um sinonimo de design, e ainda acolhe a cerimonia e o banquete do Premio Nobel todos os dezembros.",
+    knownFor: [
+      "Cidade velha de Gamla Stan",
+      "O navio Vasa",
+      "Museu ABBA",
+      "O arquipelago",
+      "Cultura da fika",
+      "O Premio Nobel",
+    ],
+  },
 };
 
 export default extrasPt;

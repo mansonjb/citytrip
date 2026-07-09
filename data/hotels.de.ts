@@ -1165,6 +1165,122 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
   },
+
+  // ---- Dublin ----
+  {
+    slug: "the-shelbourne",
+    citySlug: "dublin",
+    name: "The Shelbourne",
+    neighborhoodSlug: "creative-quarter",
+    band: "€€€",
+    priceFrom: 320,
+    style: "Grandhotel-Wahrzeichen",
+    bestFor: "Besondere Anlässe",
+    blurb:
+      "Dublins Grande Dame seit 1824, mit direktem Blick auf den St Stephen's Green und den Läden der Grafton Street eine Minute entfernt. Die irische Verfassung wurde 1922 oben im Zimmer 112 entworfen, und der Nachmittagstee in der Lord Mayor's Lounge ist noch immer eine Institution.",
+    image: px(262048),
+    imageAlt: "Elegante Hotelsuite mit Kronleuchter und großem Bett",
+  },
+  {
+    slug: "the-morgan",
+    citySlug: "dublin",
+    name: "The Morgan",
+    neighborhoodSlug: "temple-bar",
+    band: "€€",
+    priceFrom: 155,
+    style: "Design-Boutique",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein schickes Boutiquehotel an der Fleet Street mitten in Temple Bar, sodass die Trad-Music-Pubs und die Ha'penny Bridge zwei Gehminuten von der Tür entfernt sind. Fragen Sie nach einem Zimmer abseits der Straßenseite, denn das Kopfsteinpflaster bleibt an Wochenenden mit Junggesellen- und Junggesellinnengruppen bis spät laut.",
+    image: px(1267438),
+    imageAlt: "Modernes Boutiquehotelzimmer in dunklen Tönen mit gedämpftem Licht",
+  },
+  {
+    slug: "the-wilder-townhouse",
+    citySlug: "dublin",
+    name: "The Wilder Townhouse",
+    neighborhoodSlug: "portobello",
+    band: "€€",
+    priceFrom: 145,
+    style: "Viktorianisches Stadthaus",
+    bestFor: "Paare",
+    blurb:
+      "Ein roter Backsteinbau im viktorianischen Stil an der Adelaide Road zwischen dem St Stephen's Green und dem Grand Canal, geführt als reines Erwachsenen-Stadthaus mit einem kerzenbeleuchteten Gin- und Tee-Salon. Es ist ein Zehn-Minuten-Spaziergang zum Green und liegt doch in einer ruhigen, grünen Straße abseits der Menschenmassen.",
+    image: px(2507010),
+    imageAlt: "Warme Hotellounge im Stil der Epoche mit Sesseln und sanftem Licht",
+  },
+  {
+    slug: "jacobs-inn",
+    citySlug: "dublin",
+    name: "Jacobs Inn",
+    neighborhoodSlug: "docklands",
+    band: "€",
+    priceFrom: 35,
+    style: "Modernes Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein großes, gut geführtes Designhostel neben dem Bahnhof Connolly und dem Busbahnhof Busaras, mit Privatzimmern ebenso wie Schlafsälen und einer belebten Selbstversorgerküche. Die Flughafenbusse halten direkt davor, was es zum einfachsten günstigen Bett für einen Kurztrip macht.",
+    image: px(271624),
+    imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
+  },
+
+  // ---- Stockholm ----
+  {
+    slug: "grand-hotel-stockholm",
+    citySlug: "stockholm",
+    name: "Grand Hotel Stockholm",
+    neighborhoodSlug: "norrmalm",
+    band: "€€€",
+    priceFrom: 400,
+    style: "Grandioses Wahrzeichen am Wasser",
+    bestFor: "Besondere Anlässe",
+    blurb:
+      "Das grandiose alte Hotel der Stadt am Kai von Blasieholmen, mit Blick über das Wasser zum Königsschloss und nach Gamla Stan. Nobelpreisträger übernachten hier seit 1901, und die Veranda am Wasser richtet ein klassisches Smörgåsbord an.",
+    image: px(262048),
+    imageAlt: "Elegante Hotelsuite mit Kronleuchter und großem Bett",
+  },
+  {
+    slug: "hotel-rival",
+    citySlug: "stockholm",
+    name: "Hotel Rival",
+    neighborhoodSlug: "sodermalm",
+    band: "€€",
+    priceFrom: 160,
+    style: "Art déco, im Besitz von ABBA",
+    bestFor: "Designliebhaber",
+    blurb:
+      "Ein restauriertes Art-déco-Kino der 1930er Jahre am grünen Mariatorget in Södermalm, im Besitz von Benny Andersson von ABBA, mit dem alten Lichtspielhaus, das unten noch immer läuft. Die angesagten Bars und Vintage-Läden von SoFo liegen direkt vor der Tür.",
+    image: px(1267438),
+    imageAlt: "Modernes Hotelzimmer in dunklen Tönen mit gedämpftem Licht",
+  },
+  {
+    slug: "lady-hamilton-hotel",
+    citySlug: "stockholm",
+    name: "Lady Hamilton Hotel",
+    neighborhoodSlug: "gamla-stan",
+    band: "€€",
+    priceFrom: 175,
+    style: "Altstadt voller Antiquitäten",
+    bestFor: "Paare",
+    blurb:
+      "Ein Gebäude aus den 1470er Jahren wenige Schritte vom Königsschloss im Herzen von Gamla Stan, vollgestellt mit schwedischen Volksantiquitäten und bemalten Dalapferden. Gäste können ein Bad im Tauchbecken nehmen, das unten im Steinkeller in den mittelalterlichen Brunnen eingelassen ist.",
+    image: px(2507010),
+    imageAlt: "Gemütliches, traditionelles Hotelzimmer mit antiken Holzmöbeln",
+  },
+  {
+    slug: "generator-stockholm",
+    citySlug: "stockholm",
+    name: "Generator Stockholm",
+    neighborhoodSlug: "norrmalm",
+    band: "€",
+    priceFrom: 45,
+    style: "Design-Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein großes Designhostel an der Torsgatan mit Privatzimmern ebenso wie Schlafsälen, einen kurzen Weg vom Hauptbahnhof und den Cafés von Vasastan. Ein seltenes gut bepreistes Bett in einer der teuersten Städte Europas, während eine SL-Fahrkarte den Rest abdeckt.",
+    image: px(271624),
+    imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
+  },
 ];
 
 export default hotelsDe;
