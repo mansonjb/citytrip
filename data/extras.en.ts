@@ -288,6 +288,37 @@ const extrasEn: Record<string, CityExtras> = {
       "Harry Potter",
     ],
   },
+  paris: {
+    citySlug: "paris",
+    image: hero(36771040),
+    imageAlt: "The Eiffel Tower rising over Paris framed by trees",
+    history:
+      "Paris began as a settlement of the Parisii tribe on an island in the Seine, grew into the Roman town of Lutetia, and has been the capital of France for most of a thousand years. Notre-Dame was begun in 1163, and the medieval Latin Quarter grew around one of Europe's first universities. The Revolution of 1789 started here with the storming of the Bastille, and in the 1850s and 60s Baron Haussmann tore through the crowded old city to lay the wide boulevards and uniform limestone facades that define it today. The Eiffel Tower went up as a temporary exhibit for the 1889 World's Fair and was never taken down. Paris was the art capital of the 20th century, was liberated in 1944, and reopened a restored Notre-Dame in December 2024, five years after the fire.",
+    knownFor: [
+      "Eiffel Tower",
+      "The Louvre",
+      "Notre-Dame",
+      "Cafe terraces",
+      "Haussmann boulevards",
+      "Art and fashion",
+    ],
+  },
+  venice: {
+    citySlug: "venice",
+    image: hero(34775901),
+    imageAlt:
+      "The Grand Canal in Venice lined with palazzi and gondolas seen from the Rialto",
+    history:
+      "Venice was founded by mainland refugees who fled onto the marshy islands of the lagoon in the 5th and 6th centuries, and it grew into a republic that ran Mediterranean trade for a thousand years. At its height the Most Serene Republic, led by an elected Doge from the Palazzo Ducale, was one of the richest states in Europe; Marco Polo set off from here for China. All of it was built on millions of wooden piles driven into the mud, which is why the palazzi seem to rise straight out of the water. The Republic finally fell to Napoleon in 1797. Today Venice spreads across 118 islands with no cars at all, and struggles with sinking foundations, the acqua alta floods and mass tourism, which is why it now charges day-trippers an access fee on busy days.",
+    knownFor: [
+      "The Grand Canal",
+      "St Mark's Square",
+      "Gondolas",
+      "Rialto Bridge",
+      "Carnevale masks",
+      "Murano glass",
+    ],
+  },
 };
 
 export default extrasEn;

@@ -287,6 +287,37 @@ const extrasPt: Record<string, CityExtras> = {
       "Harry Potter",
     ],
   },
+  paris: {
+    citySlug: "paris",
+    image: hero(36771040),
+    imageAlt: "A Torre Eiffel erguendo-se sobre Paris emoldurada por árvores",
+    history:
+      "Paris começou como um povoado da tribo dos Parisii numa ilha do Sena, cresceu até ser a cidade romana de Lutécia, e é a capital de França há quase mil anos. Notre-Dame foi iniciada em 1163, e o Bairro Latino medieval cresceu à volta de uma das primeiras universidades da Europa. A Revolução de 1789 começou aqui com a tomada da Bastilha, e nas décadas de 1850 e 1860 o barão Haussmann rasgou a cidade velha e apinhada para traçar as largas avenidas e as fachadas uniformes de calcário que hoje a definem. A Torre Eiffel ergueu-se como exposição temporária para a Exposição Universal de 1889 e nunca mais foi desmontada. Paris foi a capital da arte do século XX, foi libertada em 1944, e reabriu uma Notre-Dame restaurada em dezembro de 2024, cinco anos depois do incêndio.",
+    knownFor: [
+      "Torre Eiffel",
+      "O Louvre",
+      "Notre-Dame",
+      "Esplanadas de café",
+      "Avenidas de Haussmann",
+      "Arte e moda",
+    ],
+  },
+  venice: {
+    citySlug: "venice",
+    image: hero(34775901),
+    imageAlt:
+      "O Grande Canal em Veneza ladeado de palazzi e gondolas visto da Ponte de Rialto",
+    history:
+      "Veneza foi fundada por refugiados de terra firme que fugiram para as ilhas pantanosas da laguna nos séculos V e VI, e cresceu até ser uma república que geriu o comércio do Mediterrâneo durante mil anos. No seu auge, a Sereníssima República, dirigida por um Doge eleito a partir do Palácio Ducal, era um dos estados mais ricos da Europa; foi daqui que Marco Polo partiu para a China. Tudo isto foi construído sobre milhões de estacas de madeira cravadas na lama, e é por isso que os palazzi parecem erguer-se a direito da água. A República acabou por cair diante de Napoleão em 1797. Hoje Veneza espalha-se por 118 ilhas sem carros nenhuns, e debate-se com fundações que afundam, as cheias de acqua alta e o turismo de massas, e é por isso que agora cobra uma taxa de acesso aos visitantes de um dia nos dias movimentados.",
+    knownFor: [
+      "O Grande Canal",
+      "A Praça de São Marcos",
+      "Gondolas",
+      "Ponte de Rialto",
+      "Máscaras de Carnevale",
+      "Vidro de Murano",
+    ],
+  },
 };
 
 export default extrasPt;

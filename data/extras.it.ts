@@ -287,6 +287,37 @@ const extrasIt: Record<string, CityExtras> = {
       "Harry Potter",
     ],
   },
+  paris: {
+    citySlug: "paris",
+    image: hero(36771040),
+    imageAlt: "La Torre Eiffel che si eleva su Parigi incorniciata dagli alberi",
+    history:
+      "Parigi nacque come insediamento della tribù dei Parisii su un'isola della Senna, crebbe fino a diventare la città romana di Lutetia, ed è stata capitale della Francia per gran parte di mille anni. Notre-Dame fu iniziata nel 1163, e il medievale Quartiere Latino crebbe attorno a una delle prime università d'Europa. La Rivoluzione del 1789 cominciò qui con la presa della Bastiglia, e negli anni Cinquanta e Sessanta dell'Ottocento il barone Haussmann squarciò l'affollata città vecchia per tracciare gli ampi boulevard e le uniformi facciate in pietra calcarea che la definiscono oggi. La Torre Eiffel fu eretta come installazione temporanea per l'Esposizione Universale del 1889 e non fu mai smontata. Parigi fu la capitale dell'arte del XX secolo, venne liberata nel 1944, e ha riaperto una Notre-Dame restaurata a dicembre 2024, cinque anni dopo l'incendio.",
+    knownFor: [
+      "Torre Eiffel",
+      "Il Louvre",
+      "Notre-Dame",
+      "Dehors dei caffè",
+      "Boulevard di Haussmann",
+      "Arte e moda",
+    ],
+  },
+  venice: {
+    citySlug: "venice",
+    image: hero(34775901),
+    imageAlt:
+      "Il Canal Grande a Venezia costeggiato da palazzi e gondole visto dal Rialto",
+    history:
+      "Venezia fu fondata da profughi della terraferma che si rifugiarono sulle paludose isole della laguna nel V e VI secolo, e crebbe fino a diventare una repubblica che guidò il commercio del Mediterraneo per mille anni. Al suo apice la Serenissima, guidata da un Doge eletto dal Palazzo Ducale, era uno degli stati più ricchi d'Europa; Marco Polo partì da qui per la Cina. Tutto fu costruito su milioni di pali di legno conficcati nel fango, ed è per questo che i palazzi paiono sorgere dritti dall'acqua. La Repubblica cadde infine davanti a Napoleone nel 1797. Oggi Venezia si estende su 118 isole del tutto prive di auto, e lotta con le fondamenta che sprofondano, le inondazioni dell'acqua alta e il turismo di massa, ed è per questo che ora applica ai visitatori giornalieri un contributo d'accesso nei giorni affollati.",
+    knownFor: [
+      "Il Canal Grande",
+      "Piazza San Marco",
+      "Gondole",
+      "Ponte di Rialto",
+      "Maschere di Carnevale",
+      "Vetro di Murano",
+    ],
+  },
 };
 
 export default extrasIt;

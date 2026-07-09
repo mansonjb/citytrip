@@ -1049,6 +1049,122 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },
+
+  // ---- Paris ----
+  {
+    slug: "hotel-lutetia",
+    citySlug: "paris",
+    name: "Hotel Lutetia",
+    neighborhoodSlug: "saint-germain",
+    band: "€€€",
+    priceFrom: 500,
+    style: "Grande dame della Rive Gauche",
+    bestFor: "Soggiorno iconico",
+    blurb:
+      "L'unico hotel palace della Rive Gauche, un monumento del 1910 restaurato su Boulevard Raspail con un celebre bar e una brasserie. Sei nel cuore di Saint-Germain, a piedi dal Museo d'Orsay e dal Quartiere Latino.",
+    image: px(262048),
+    imageAlt: "Suite d'albergo maestosa ed elegante con lampadario e letto grande",
+  },
+  {
+    slug: "hotel-national-arts-metiers",
+    citySlug: "paris",
+    name: "Hotel National des Arts et Metiers",
+    neighborhoodSlug: "le-marais",
+    band: "€€",
+    priceFrom: 200,
+    style: "Rooftop nel Marais",
+    bestFor: "Amanti del design",
+    blurb:
+      "Un caldo hotel di design italiano ai margini del Marais con un rooftop bar sopra la città. Sei a due passi dal Pompidou e dai bar del Marais, sulla metro tra le attrazioni della Rive Droite.",
+    image: px(1267438),
+    imageAlt: "Camera d'albergo minimalista dai toni scuri con luci soffuse",
+  },
+  {
+    slug: "hotel-des-grands-hommes",
+    citySlug: "paris",
+    name: "Hotel des Grands Hommes",
+    neighborhoodSlug: "latin-quarter",
+    band: "€€",
+    priceFrom: 180,
+    style: "Classico del Quartiere Latino",
+    bestFor: "Prima visita",
+    blurb:
+      "Un piccolo hotel classico di fronte al Pantheon nel Quartiere Latino, a breve distanza a piedi dai Giardini del Lussemburgo e da Notre-Dame. Alcune camere hanno balconi affacciati dritti sulla cupola.",
+    image: px(279746),
+    imageAlt: "Camera d'albergo tradizionale con mobili in legno",
+  },
+  {
+    slug: "generator-paris",
+    citySlug: "paris",
+    name: "Generator Paris",
+    neighborhoodSlug: "canal-saint-martin",
+    band: "€",
+    priceFrom: 45,
+    style: "Ostello di design",
+    bestFor: "Budget",
+    blurb:
+      "Un grande ostello di design sopra il Canale Saint-Martin con un rooftop bar e vista sulla città, con camere private oltre ai dormitori. È uno dei letti centrali dal miglior rapporto qualità-prezzo in una città cara, in metro per ogni dove.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
+
+  // ---- Venice ----
+  {
+    slug: "the-gritti-palace",
+    citySlug: "venice",
+    name: "The Gritti Palace",
+    neighborhoodSlug: "san-marco",
+    band: "€€€",
+    priceFrom: 800,
+    style: "Palazzo sul Canal Grande",
+    bestFor: "Soggiorno iconico",
+    blurb:
+      "Un palazzo del XV secolo proprio sul Canal Grande vicino a Piazza San Marco, con una terrazza dove i taxi acquei accostano alla porta. È uno degli indirizzi più famosi e cari di Venezia, e le camere con vista sul canale ne sono il motivo.",
+    image: px(262048),
+    imageAlt: "Suite d'albergo maestosa ed elegante con lampadario e letto grande",
+  },
+  {
+    slug: "hotel-antiche-figure",
+    citySlug: "venice",
+    name: "Hotel Antiche Figure",
+    neighborhoodSlug: "san-polo",
+    band: "€€",
+    priceFrom: 170,
+    style: "Classico con vista sul canale",
+    bestFor: "Prima visita",
+    blurb:
+      "Un tradizionale hotel veneziano in un palazzo restaurato affacciato sul Canal Grande, proprio di fronte alla stazione ferroviaria di Santa Lucia. Arrivare e ripartire è facile, e le camere sul canale guardano i vaporetti che passano.",
+    image: px(279746),
+    imageAlt: "Camera d'albergo tradizionale con mobili in legno",
+  },
+  {
+    slug: "ca-pisani-hotel",
+    citySlug: "venice",
+    name: "Ca' Pisani Hotel",
+    neighborhoodSlug: "dorsoduro",
+    band: "€€",
+    priceFrom: 190,
+    style: "Art Déco a Dorsoduro",
+    bestFor: "Amanti del design",
+    blurb:
+      "Un hotel di design in un edificio del XIV secolo dietro l'Accademia nella tranquilla Dorsoduro, arredato secondo il design italiano degli anni Trenta e Quaranta. Sei tra le gallerie e i bar degli studenti, lontano dalla ressa di San Marco.",
+    image: px(1267438),
+    imageAlt: "Camera d'albergo minimalista dai toni scuri con luci soffuse",
+  },
+  {
+    slug: "we-crociferi-venice",
+    citySlug: "venice",
+    name: "We_Crociferi",
+    neighborhoodSlug: "cannaregio",
+    band: "€",
+    priceFrom: 45,
+    style: "Ostello in un convento",
+    bestFor: "Budget",
+    blurb:
+      "Un ostello di design e guesthouse in un convento del XVI secolo restaurato a Cannaregio, con camere private oltre ai dormitori attorno a un chiostro in pietra. È un raro letto abbordabile nella metà vera e vissuta di Venezia.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
 ];
 
 export default hotelsIt;

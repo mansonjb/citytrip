@@ -289,6 +289,37 @@ const extrasDe: Record<string, CityExtras> = {
       "Harry Potter",
     ],
   },
+  paris: {
+    citySlug: "paris",
+    image: hero(36771040),
+    imageAlt: "Der Eiffelturm, der sich über Paris erhebt, von Bäumen gerahmt",
+    history:
+      "Paris begann als Siedlung des Stammes der Parisii auf einer Insel in der Seine, wuchs zur römischen Stadt Lutetia heran und ist seit fast tausend Jahren die Hauptstadt Frankreichs. Notre-Dame wurde 1163 begonnen, und das mittelalterliche Quartier Latin wuchs rund um eine der ersten Universitäten Europas. Die Revolution von 1789 begann hier mit dem Sturm auf die Bastille, und in den 1850er und 60er Jahren riss Baron Haussmann durch die überfüllte Altstadt, um die breiten Boulevards und die einheitlichen Kalksteinfassaden anzulegen, die sie heute prägen. Der Eiffelturm wurde als vorübergehende Attraktion für die Weltausstellung von 1889 errichtet und nie wieder abgebaut. Paris war die Kunsthauptstadt des 20. Jahrhunderts, wurde 1944 befreit und eröffnete im Dezember 2024 ein restauriertes Notre-Dame wieder, fünf Jahre nach dem Brand.",
+    knownFor: [
+      "Der Eiffelturm",
+      "Der Louvre",
+      "Notre-Dame",
+      "Cafeterrassen",
+      "Haussmann-Boulevards",
+      "Kunst und Mode",
+    ],
+  },
+  venice: {
+    citySlug: "venice",
+    image: hero(34775901),
+    imageAlt:
+      "Der Canal Grande in Venedig, gesäumt von Palazzi und Gondeln, von der Rialtobrücke aus gesehen",
+    history:
+      "Venedig wurde von Flüchtlingen vom Festland gegründet, die im 5. und 6. Jahrhundert auf die sumpfigen Inseln der Lagune flohen, und es wuchs zu einer Republik heran, die den Mittelmeerhandel tausend Jahre lang beherrschte. Auf ihrem Höhepunkt war die Allerdurchlauchtigste Republik, geführt von einem gewählten Dogen aus dem Palazzo Ducale, einer der reichsten Staaten Europas; Marco Polo brach von hier nach China auf. All das wurde auf Millionen von Holzpfählen errichtet, die in den Schlamm getrieben wurden, weshalb die Palazzi geradewegs aus dem Wasser zu steigen scheinen. Die Republik fiel schließlich 1797 an Napoleon. Heute erstreckt sich Venedig über 118 Inseln ganz ohne Autos und kämpft mit sinkenden Fundamenten, den Acqua-alta-Fluten und dem Massentourismus, weshalb es Tagesbesuchern nun an geschäftigen Tagen eine Zutrittsgebühr berechnet.",
+    knownFor: [
+      "Der Canal Grande",
+      "Der Markusplatz",
+      "Gondeln",
+      "Die Rialtobrücke",
+      "Carnevale-Masken",
+      "Muranoglas",
+    ],
+  },
 };
 
 export default extrasDe;

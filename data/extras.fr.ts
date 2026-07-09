@@ -289,6 +289,37 @@ const extrasFr: Record<string, CityExtras> = {
       "Harry Potter",
     ],
   },
+  paris: {
+    citySlug: "paris",
+    image: hero(36771040),
+    imageAlt: "La tour Eiffel s'élevant au-dessus de Paris, encadrée par des arbres",
+    history:
+      "Paris est née d'un établissement de la tribu des Parisii sur une île de la Seine, est devenue la ville romaine de Lutèce, et est la capitale de la France depuis près de mille ans. Notre-Dame fut commencée en 1163, et le Quartier latin médiéval s'est développé autour de l'une des premières universités d'Europe. La Révolution de 1789 a débuté ici avec la prise de la Bastille, et dans les années 1850 et 1860, le baron Haussmann a percé la vieille ville surpeuplée pour tracer les larges boulevards et les façades uniformes en pierre de taille qui la définissent aujourd'hui. La tour Eiffel fut érigée comme installation temporaire pour l'Exposition universelle de 1889 et ne fut jamais démontée. Paris fut la capitale artistique du XXe siècle, fut libérée en 1944, et a rouvert une Notre-Dame restaurée en décembre 2024, cinq ans après l'incendie.",
+    knownFor: [
+      "La tour Eiffel",
+      "Le Louvre",
+      "Notre-Dame",
+      "Les terrasses de café",
+      "Les boulevards haussmanniens",
+      "L'art et la mode",
+    ],
+  },
+  venice: {
+    citySlug: "venice",
+    image: hero(34775901),
+    imageAlt:
+      "Le Grand Canal de Venise bordé de palazzi et de gondoles, vu depuis le Rialto",
+    history:
+      "Venise fut fondée par des réfugiés du continent qui se réfugièrent sur les îles marécageuses de la lagune aux Ve et VIe siècles, et devint une république qui domina le commerce méditerranéen pendant mille ans. À son apogée, la Sérénissime République, dirigée par un doge élu depuis le palais des Doges, était l'un des États les plus riches d'Europe ; Marco Polo en partit pour la Chine. Tout cela fut bâti sur des millions de pieux de bois enfoncés dans la vase, ce qui explique pourquoi les palazzi semblent surgir droit de l'eau. La République finit par tomber devant Napoléon en 1797. Aujourd'hui, Venise s'étend sur 118 îles sans aucune voiture, et se débat avec l'enfoncement de ses fondations, les inondations d'acqua alta et le tourisme de masse, ce qui explique qu'elle fasse désormais payer une taxe d'accès aux visiteurs d'un jour les jours d'affluence.",
+    knownFor: [
+      "Le Grand Canal",
+      "La place Saint-Marc",
+      "Les gondoles",
+      "Le pont du Rialto",
+      "Les masques du Carnevale",
+      "Le verre de Murano",
+    ],
+  },
 };
 
 export default extrasFr;
