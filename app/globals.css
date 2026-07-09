@@ -183,3 +183,15 @@ html {
   padding: 0.6rem 0.75rem;
   border-bottom: 1px solid color-mix(in srgb, var(--color-ink) 15%, transparent);
 }
+
+/* Stay22 LetMeAllez hard guard: the script linkifies place names in page text
+   (data-is-hyperlink22). Inside the FAQ this used to hijack the summary tap and
+   open Booking on mobile. Neutralize any injected link within the FAQ or any
+   <summary> so the native details toggle always wins. */
+#faq a[data-is-hyperlink22],
+summary a[data-is-hyperlink22] {
+  pointer-events: none !important;
+  color: inherit !important;
+  text-decoration: inherit !important;
+  cursor: inherit !important;
+}

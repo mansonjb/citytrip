@@ -83,6 +83,22 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 })(window, document, "clarity", "script", "${CLARITY_ID}");`}
           </Script>
         ) : null}
+        {/* Stay22 LetMeAllez: auto-affiliates outbound booking links + place
+            mentions. ignoreElements keeps it away from the FAQ toggles; the
+            globals.css guard (#faq a[data-is-hyperlink22]) is the hard backstop
+            against the mobile FAQ-tap-hijack bug that got it removed before. */}
+        <Script id="stay22-lma-config" strategy="afterInteractive">
+          {`window.Stay22 = window.Stay22 || {};
+window.Stay22.params = Object.assign({}, window.Stay22.params, {
+  lmaID: '6a48d53e72afe45e1b3300b0',
+  ignoreElements: ['#faq', '#faq *', 'summary', 'details'],
+});`}
+        </Script>
+        <Script
+          id="stay22-lma"
+          src="https://scripts.stay22.com/letmeallez.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
