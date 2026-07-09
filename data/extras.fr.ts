@@ -242,6 +242,53 @@ const extrasFr: Record<string, CityExtras> = {
       "L'excursion à Auschwitz",
     ],
   },
+  copenhagen: {
+    citySlug: "copenhagen",
+    image: hero(20228124),
+    imageAlt:
+      "Les maisons colorées du port et les bateaux en bois de Nyhavn à Copenhague",
+    history:
+      "Copenhague est passée d'un village de pêcheurs à la ville marchande fortifiée qui contrôlait l'entrée de la Baltique, d'où vient son nom, le port des marchands. La majeure partie de la vieille ville a été façonnée par le roi Christian IV au début des années 1600, qui bâtit le château de Rosenborg et la Tour ronde ; le canal de carte postale de Nyhavn fut creusé peu après comme port de travail pour les marins et les tavernes. La flotte britannique bombarda et incendia une grande partie de la ville en 1807, pendant les guerres napoléoniennes. Hans Christian Andersen y écrivit ses contes au XIXe siècle, et la Petite Sirène de bronze fut érigée en 1913. Le Danemark est la plus ancienne monarchie du monde, et le Copenhague moderne a transformé cette longue et confortable histoire en une réputation mondiale de design, de vélo et de cuisine néo-nordique.",
+    knownFor: [
+      "Le port de Nyhavn",
+      "Les jardins de Tivoli",
+      "Des vélos partout",
+      "Hygge et design",
+      "La cuisine néo-nordique",
+      "La Petite Sirène",
+    ],
+  },
+  athens: {
+    citySlug: "athens",
+    image: hero(33201846),
+    imageAlt: "L'Acropole d'Athènes sur son rocher sous un ciel bleu limpide",
+    history:
+      "Athènes est le lieu où une grande partie du monde occidental a été inventée. Au Ve siècle av. J.-C., c'était la plus riche et la plus puissante des cités-États grecques, et sous Périclès elle bâtit le Parthénon et le reste de l'Acropole au moment même où Socrate, puis Platon et Aristote, débattaient de philosophie dans ses rues et inventaient la démocratie. Rome, puis Byzance, puis les Ottomans prirent tour à tour la ville, et le Parthénon servit d'église et de mosquée avant qu'un obus vénitien ne touche la poudre à canon que les Ottomans y stockaient en 1687 et n'en fasse sauter le toit. Quand la Grèce gagna son indépendance, Athènes devint la capitale du nouveau royaume en 1834, alors une petite ville de quelques milliers d'habitants, et grandit pour devenir la métropole moderne tentaculaire qui enveloppe aujourd'hui ces rochers antiques.",
+    knownFor: [
+      "L'Acropole",
+      "Le Parthénon",
+      "Les ruines antiques",
+      "Les vues en toiture",
+      "Souvláki et mezze",
+      "Le berceau de la démocratie",
+    ],
+  },
+  edinburgh: {
+    citySlug: "edinburgh",
+    image: hero(28851815),
+    imageAlt:
+      "La ligne d'horizon de la vieille ville d'Édimbourg avec le Scott Monument et la tour de l'horloge du Balmoral",
+    history:
+      "Édimbourg est la capitale de l'Écosse depuis six siècles, et le château sur son piton de roche volcanique est fortifié depuis bien plus longtemps encore. La vieille ville médiévale s'est développée en une dense colonne vertébrale de hauts immeubles de rapport dévalant la crête du Royal Mile, du château au palais royal de Holyroodhouse. Au XVIIIe siècle, pendant les Lumières écossaises qui produisirent David Hume et Adam Smith, la ville bâtit l'élégante trame géorgienne de la ville neuve de l'autre côté de la vallée, et gagna le surnom d'Athènes du Nord. Le premier Edinburgh Festival Fringe eut lieu en 1947 et c'est aujourd'hui le plus grand festival d'arts au monde, envahissant toute la ville chaque août. Les cafés où J.K. Rowling écrivit Harry Potter font encore de bonnes affaires.",
+    knownFor: [
+      "Le château d'Édimbourg",
+      "Le Royal Mile",
+      "Arthur's Seat",
+      "Le festival Fringe",
+      "Le whisky écossais",
+      "Harry Potter",
+    ],
+  },
 };
 
 export default extrasFr;

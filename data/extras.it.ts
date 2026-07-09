@@ -240,6 +240,53 @@ const extrasIt: Record<string, CityExtras> = {
       "Gita ad Auschwitz",
     ],
   },
+  copenhagen: {
+    citySlug: "copenhagen",
+    image: hero(20228124),
+    imageAlt:
+      "Le colorate case del porto e le barche di legno di Nyhavn a Copenaghen",
+    history:
+      "Copenaghen crebbe da villaggio di pescatori a città mercantile fortificata che controllava l'ingresso al Baltico, da cui deriva il suo nome, porto dei mercanti. Gran parte della città vecchia fu plasmata da re Cristiano IV all'inizio del Seicento, che costruì il Castello di Rosenborg e la Torre Rotonda; il canale da cartolina di Nyhavn fu scavato poco dopo come porto operativo per marinai e taverne. La flotta britannica bombardò e diede alle fiamme gran parte della città nel 1807 durante le guerre napoleoniche. Hans Christian Andersen scrisse qui le sue fiabe nell'Ottocento, e la Sirenetta di bronzo fu collocata nel 1913. La Danimarca è la monarchia più antica del mondo, e la Copenaghen moderna ha trasformato quella lunga e comoda storia in una reputazione globale per design, ciclismo e nuova cucina nordica.",
+    knownFor: [
+      "Porto di Nyhavn",
+      "Giardini di Tivoli",
+      "Biciclette ovunque",
+      "Hygge e design",
+      "Nuova cucina nordica",
+      "La Sirenetta",
+    ],
+  },
+  athens: {
+    citySlug: "athens",
+    image: hero(33201846),
+    imageAlt: "L'Acropoli di Atene sulla sua rocca sotto un cielo azzurro limpido",
+    history:
+      "Atene è dove buona parte del mondo occidentale fu inventata. Nel V secolo a.C. era la più ricca e potente delle città-stato greche, e sotto Pericle costruì il Partenone e il resto dell'Acropoli nello stesso periodo in cui Socrate, e poi Platone e Aristotele, discutevano di filosofia nelle sue strade e inventavano la democrazia. Roma, poi Bisanzio, poi gli Ottomani presero ciascuno la città, e il Partenone servì da chiesa e da moschea prima che una granata veneziana colpisse la polvere da sparo che gli Ottomani vi avevano stivato dentro nel 1687 e ne facesse saltare il tetto. Quando la Grecia conquistò l'indipendenza, Atene divenne la capitale del nuovo regno nel 1834, allora una cittadina di poche migliaia di persone, e crebbe fino alla vasta città moderna che oggi avvolge quelle antiche rocce.",
+    knownFor: [
+      "L'Acropoli",
+      "Il Partenone",
+      "Rovine antiche",
+      "Viste dai rooftop",
+      "Souvlaki e mezze",
+      "Culla della democrazia",
+    ],
+  },
+  edinburgh: {
+    citySlug: "edinburgh",
+    image: hero(28851815),
+    imageAlt:
+      "Lo skyline della Città Vecchia di Edimburgo con lo Scott Monument e la torre dell'orologio del Balmoral",
+    history:
+      "Edimburgo è la capitale della Scozia da sei secoli, e il castello sul suo tappo di roccia vulcanica è stato fortificato per molto più a lungo di così. La medievale Città Vecchia crebbe come una densa spina di alte case popolari che scende lungo il crinale del Royal Mile dal castello al palazzo reale di Holyroodhouse. Nel Settecento, durante l'Illuminismo scozzese che produsse David Hume e Adam Smith, la città costruì l'elegante griglia georgiana della Città Nuova oltre la valle, e si guadagnò il soprannome di Atene del Nord. Il primo Edinburgh Festival Fringe si svolse nel 1947 ed è oggi il più grande festival delle arti al mondo, che occupa l'intera città ogni agosto. I caffè in cui J.K. Rowling scrisse Harry Potter fanno ancora ottimi affari.",
+    knownFor: [
+      "Castello di Edimburgo",
+      "Il Royal Mile",
+      "Arthur's Seat",
+      "Il festival Fringe",
+      "Whisky scozzese",
+      "Harry Potter",
+    ],
+  },
 };
 
 export default extrasIt;

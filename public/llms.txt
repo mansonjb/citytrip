@@ -34,6 +34,9 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /berlin (Berlin, Germany): ideal 3 days
 - /madrid (Madrid, Spain): ideal 3 days
 - /krakow (Krakow, Poland): ideal 2 days
+- /copenhagen (Copenhagen, Denmark): ideal 3 days
+- /athens (Athens, Greece): ideal 3 days
+- /edinburgh (Edinburgh, Scotland): ideal 2 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,

@@ -23,6 +23,12 @@ const ROOT = process.cwd();
 const PUBLIC = join(ROOT, "public");
 const MANIFEST = join(ROOT, "data", "hotel-photos.json");
 
+// Per-hotel query overrides where the plain "name + city" search hits the
+// wrong place on Google (generic hotel names, franchises, etc.).
+const QUERY_OVERRIDE = {
+  "the-balmoral": "The Balmoral Hotel Princes Street Edinburgh Rocco Forte",
+};
+
 const CITY_NAME = {
   lisbon: "Lisbon",
   prague: "Prague",
@@ -113,7 +119,8 @@ async function main() {
   console.log(`[hotels] fetching ${todo.length}`);
 
   const queries = todo.map(
-    (h) => `${h.name} ${CITY_NAME[h.citySlug] ?? ""}`.trim()
+    (h) =>
+      QUERY_OVERRIDE[h.slug] ?? `${h.name} ${CITY_NAME[h.citySlug] ?? ""}`.trim()
   );
   // map normalized query -> hotel for result matching
   const byQuery = new Map(todo.map((h, i) => [norm(queries[i]), h]));

@@ -240,6 +240,53 @@ const extrasPt: Record<string, CityExtras> = {
       "Excursao a Auschwitz",
     ],
   },
+  copenhagen: {
+    citySlug: "copenhagen",
+    image: hero(20228124),
+    imageAlt:
+      "As coloridas casas do porto e os barcos de madeira de Nyhavn, em Copenhaga",
+    history:
+      "Copenhaga cresceu de uma aldeia piscatória para a cidade mercantil fortificada que controlava a entrada do Báltico, de onde vem o seu nome, porto dos mercadores. Grande parte da cidade antiga foi moldada pelo rei Cristiano IV no início do século XVII, que construiu o Castelo de Rosenborg e a Torre Redonda; o canal de postal de Nyhavn foi escavado pouco depois como um porto de trabalho para marinheiros e tabernas. A frota britânica bombardeou e incendiou grande parte da cidade em 1807, durante as Guerras Napoleónicas. Hans Christian Andersen escreveu aqui os seus contos de fadas no século XIX, e a Pequena Sereia em bronze foi erguida em 1913. A Dinamarca é a monarquia mais antiga do mundo, e a Copenhaga moderna transformou essa longa e confortável história numa reputação global de design, ciclismo e nova gastronomia nórdica.",
+    knownFor: [
+      "Porto de Nyhavn",
+      "Jardins Tivoli",
+      "Bicicletas por todo o lado",
+      "Hygge e design",
+      "Nova gastronomia nórdica",
+      "A Pequena Sereia",
+    ],
+  },
+  athens: {
+    citySlug: "athens",
+    image: hero(33201846),
+    imageAlt: "A Acrópole de Atenas na sua rocha sob um céu azul limpo",
+    history:
+      "Atenas é onde grande parte do mundo ocidental foi inventado. No século V a.C. era a mais rica e poderosa das cidades-estado gregas, e sob Péricles construiu o Partenon e o resto da Acrópole ao mesmo tempo que Sócrates, e depois Platão e Aristóteles, discutiam filosofia nas suas ruas e inventavam a democracia. Roma, depois Bizâncio, depois os otomanos tomaram cada um a cidade, e o Partenon serviu de igreja e de mesquita antes de uma bomba veneziana atingir a pólvora que os otomanos guardavam lá dentro em 1687 e fazer voar o telhado. Quando a Grécia conquistou a independência, Atenas tornou-se a capital do novo reino em 1834, então uma pequena vila de uns milhares de pessoas, e cresceu até à extensa cidade moderna que hoje envolve aquelas rochas antigas.",
+    knownFor: [
+      "A Acrópole",
+      "O Partenon",
+      "Ruínas antigas",
+      "Vistas de rooftop",
+      "Souvlaki e mezze",
+      "Berço da democracia",
+    ],
+  },
+  edinburgh: {
+    citySlug: "edinburgh",
+    image: hero(28851815),
+    imageAlt:
+      "O horizonte da Cidade Velha de Edimburgo com o Scott Monument e a torre do relógio do Balmoral",
+    history:
+      "Edimburgo é a capital da Escócia há seis séculos, e o castelo no seu tampão de rocha vulcânica está fortificado há muito mais tempo do que isso. A Cidade Velha medieval cresceu como uma espinha densa de altos prédios de habitação a descer pela cumeeira da Royal Mile, do castelo até ao palácio real de Holyroodhouse. No século XVIII, durante o Iluminismo Escocês que produziu David Hume e Adam Smith, a cidade construiu a elegante grelha georgiana da Cidade Nova do outro lado do vale, e ganhou a alcunha de Atenas do Norte. O primeiro Edinburgh Festival Fringe decorreu em 1947 e é hoje o maior festival de artes do planeta, tomando conta da cidade inteira todos os agostos. Os cafés onde J.K. Rowling escreveu Harry Potter continuam a fazer bom negócio.",
+    knownFor: [
+      "Castelo de Edimburgo",
+      "A Royal Mile",
+      "Arthur's Seat",
+      "O festival Fringe",
+      "Whisky escocês",
+      "Harry Potter",
+    ],
+  },
 };
 
 export default extrasPt;

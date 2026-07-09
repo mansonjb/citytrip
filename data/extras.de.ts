@@ -242,6 +242,53 @@ const extrasDe: Record<string, CityExtras> = {
       "Tagesausflug Auschwitz",
     ],
   },
+  copenhagen: {
+    citySlug: "copenhagen",
+    image: hero(20228124),
+    imageAlt:
+      "Die bunten Hafenhäuser und Holzboote des Nyhavn in Kopenhagen",
+    history:
+      "Kopenhagen wuchs von einem Fischerdorf zur befestigten Handelsstadt, die die Einfahrt in die Ostsee kontrollierte, woher auch ihr Name, Kaufmannshafen, stammt. Der Großteil der Altstadt wurde im frühen 17. Jahrhundert von König Christian IV. geformt, der das Schloss Rosenborg und den Runden Turm baute; der Postkartenkanal Nyhavn wurde kurz darauf als Arbeitshafen für Seeleute und Schenken gegraben. Die britische Flotte beschoss und verbrannte 1807 während der Napoleonischen Kriege einen Großteil der Stadt. Hans Christian Andersen schrieb hier im 19. Jahrhundert seine Märchen, und die bronzene Kleine Meerjungfrau wurde 1913 aufgestellt. Dänemark ist die älteste Monarchie der Welt, und das moderne Kopenhagen hat diese lange, behagliche Geschichte in einen weltweiten Ruf für Design, Radfahren und neue nordische Küche verwandelt.",
+    knownFor: [
+      "Hafen Nyhavn",
+      "Tivoli-Garten",
+      "Überall Fahrräder",
+      "Hygge und Design",
+      "Neue nordische Küche",
+      "Die Kleine Meerjungfrau",
+    ],
+  },
+  athens: {
+    citySlug: "athens",
+    image: hero(33201846),
+    imageAlt: "Die Akropolis von Athen auf ihrem Felsen unter klarem blauem Himmel",
+    history:
+      "In Athen wurde ein großer Teil der westlichen Welt erfunden. Im 5. Jahrhundert v. Chr. war es der reichste und mächtigste der griechischen Stadtstaaten, und unter Perikles baute es den Parthenon und den Rest der Akropolis, zur selben Zeit, als Sokrates und dann Platon und Aristoteles in seinen Straßen über Philosophie stritten und die Demokratie erfanden. Rom, dann Byzanz, dann die Osmanen nahmen die Stadt nacheinander ein, und der Parthenon diente als Kirche und Moschee, bevor eine venezianische Granate 1687 das Schießpulver traf, das die Osmanen darin gelagert hatten, und das Dach absprengte. Als Griechenland die Unabhängigkeit gewann, wurde Athen 1834 zur Hauptstadt des neuen Königreichs, damals eine kleine Stadt von ein paar tausend Menschen, und wuchs zu der ausgedehnten modernen Stadt heran, die sich nun um jene antiken Felsen legt.",
+    knownFor: [
+      "Die Akropolis",
+      "Der Parthenon",
+      "Antike Ruinen",
+      "Dachterrassen-Ausblicke",
+      "Souvlaki und Mezze",
+      "Wiege der Demokratie",
+    ],
+  },
+  edinburgh: {
+    citySlug: "edinburgh",
+    image: hero(28851815),
+    imageAlt:
+      "Die Skyline der Edinburgher Altstadt mit dem Scott Monument und dem Balmoral-Uhrturm",
+    history:
+      "Edinburgh ist seit sechs Jahrhunderten die Hauptstadt Schottlands, und das Schloss auf seinem Pfropfen aus Vulkangestein ist weit länger befestigt als das. Die mittelalterliche Altstadt wuchs als dichtes Rückgrat hoher Mietshäuser, das den Grat der Royal Mile vom Schloss zum königlichen Palast Holyroodhouse hinabläuft. In den 1700ern, während der Schottischen Aufklärung, die David Hume und Adam Smith hervorbrachte, baute die Stadt das elegante georgianische Raster der Neustadt über dem Tal und verdiente sich den Beinamen das Athen des Nordens. Das erste Edinburgh Festival Fringe lief 1947 und ist heute das größte Kunstfestival der Welt, das jeden August die ganze Stadt übernimmt. Die Cafés, in denen J.K. Rowling Harry Potter schrieb, machen noch immer flottes Geschäft.",
+    knownFor: [
+      "Edinburgh Castle",
+      "Die Royal Mile",
+      "Arthur's Seat",
+      "Das Fringe-Festival",
+      "Scotch Whisky",
+      "Harry Potter",
+    ],
+  },
 };
 
 export default extrasDe;

@@ -241,6 +241,53 @@ const extrasEn: Record<string, CityExtras> = {
       "Auschwitz day trip",
     ],
   },
+  copenhagen: {
+    citySlug: "copenhagen",
+    image: hero(20228124),
+    imageAlt:
+      "The colourful harbour houses and wooden boats of Nyhavn in Copenhagen",
+    history:
+      "Copenhagen grew from a fishing village into the fortified merchant town that controlled the entrance to the Baltic, which is where its name, merchants' harbour, comes from. Most of the old city was shaped by King Christian IV in the early 1600s, who built the Rosenborg Castle and the Round Tower; the postcard canal of Nyhavn was dug soon after as a working port for sailors and taverns. The British fleet bombarded and burned much of the city in 1807 during the Napoleonic Wars. Hans Christian Andersen wrote his fairy tales here in the 19th century, and the bronze Little Mermaid went up in 1913. Denmark is the world's oldest monarchy, and modern Copenhagen has turned that long, comfortable history into a global reputation for design, cycling and New Nordic food.",
+    knownFor: [
+      "Nyhavn harbour",
+      "Tivoli Gardens",
+      "Bikes everywhere",
+      "Hygge and design",
+      "New Nordic food",
+      "The Little Mermaid",
+    ],
+  },
+  athens: {
+    citySlug: "athens",
+    image: hero(33201846),
+    imageAlt: "The Acropolis of Athens on its rock under a clear blue sky",
+    history:
+      "Athens is where a lot of the Western world was invented. In the 5th century BC it was the richest and most powerful of the Greek city-states, and under Pericles it built the Parthenon and the rest of the Acropolis at the same time that Socrates, and then Plato and Aristotle, were arguing philosophy in its streets and inventing democracy. Rome, then Byzantium, then the Ottomans each took the city, and the Parthenon served as a church and a mosque before a Venetian shell hit the gunpowder the Ottomans stored inside it in 1687 and blew the roof off. When Greece won independence, Athens became the capital of the new kingdom in 1834, then a small town of a few thousand people, and grew into the sprawling modern city that now wraps around those ancient rocks.",
+    knownFor: [
+      "The Acropolis",
+      "The Parthenon",
+      "Ancient ruins",
+      "Rooftop views",
+      "Souvlaki and mezze",
+      "Birthplace of democracy",
+    ],
+  },
+  edinburgh: {
+    citySlug: "edinburgh",
+    image: hero(28851815),
+    imageAlt:
+      "The Edinburgh Old Town skyline with the Scott Monument and Balmoral clock tower",
+    history:
+      "Edinburgh has been the capital of Scotland for six centuries, and the castle on its plug of volcanic rock has been fortified for far longer than that. The medieval Old Town grew as a dense spine of tall tenements running down the ridge of the Royal Mile from the castle to the royal palace of Holyroodhouse. In the 1700s, during the Scottish Enlightenment that produced David Hume and Adam Smith, the city built the elegant Georgian grid of the New Town across the valley, and earned the nickname the Athens of the North. The first Edinburgh Festival Fringe ran in 1947 and is now the largest arts festival on earth, taking over the whole city every August. The cafes where J.K. Rowling wrote Harry Potter are still doing a brisk trade.",
+    knownFor: [
+      "Edinburgh Castle",
+      "The Royal Mile",
+      "Arthur's Seat",
+      "The Fringe festival",
+      "Scotch whisky",
+      "Harry Potter",
+    ],
+  },
 };
 
 export default extrasEn;
