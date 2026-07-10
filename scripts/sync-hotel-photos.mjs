@@ -30,6 +30,8 @@ const QUERY_OVERRIDE = {
   "the-morgan": "The Morgan Hotel Fleet Street Temple Bar Dublin",
   "reykjavik-city-hostel":
     "Reykjavik City HI Hostel Sundlaugavegur Laugardalur Iceland",
+  "fabrika-hostel-tallinn": "Fabrika Telliskivi Tallinn",
+  "la-maison-hotel-munich": "LA MAISON hotel Muenchen Occamstrasse",
 };
 
 const CITY_NAME = {
@@ -49,6 +51,9 @@ const CITY_NAME = {
   nice: "Nice France",
   dubrovnik: "Dubrovnik Croatia",
   reykjavik: "Reykjavik Iceland",
+  munich: "Munich Germany",
+  tallinn: "Tallinn Estonia",
+  oslo: "Oslo Norway",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

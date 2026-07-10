@@ -150,16 +150,34 @@ import reykjavikPt from "./cities/reykjavik.pt";
 import reykjavikIt from "./cities/reykjavik.it";
 import reykjavikDe from "./cities/reykjavik.de";
 import reykjavikEs from "./cities/reykjavik.es";
+import munich from "./cities/munich";
+import munichFr from "./cities/munich.fr";
+import munichPt from "./cities/munich.pt";
+import munichIt from "./cities/munich.it";
+import munichDe from "./cities/munich.de";
+import munichEs from "./cities/munich.es";
+import tallinn from "./cities/tallinn";
+import tallinnFr from "./cities/tallinn.fr";
+import tallinnPt from "./cities/tallinn.pt";
+import tallinnIt from "./cities/tallinn.it";
+import tallinnDe from "./cities/tallinn.de";
+import tallinnEs from "./cities/tallinn.es";
+import oslo from "./cities/oslo";
+import osloFr from "./cities/oslo.fr";
+import osloPt from "./cities/oslo.pt";
+import osloIt from "./cities/oslo.it";
+import osloDe from "./cities/oslo.de";
+import osloEs from "./cities/oslo.es";
 
 // Register every city bundle per locale. Adding a city = one file per locale
 // + one entry per array below (same order everywhere).
 const bundlesByLocale: Record<Locale, CityData[]> = {
-  en: [lisbon, prague, seville, porto, budapest, vienna, granada, rome, amsterdam, florence, bruges, barcelona, berlin, madrid, krakow, copenhagen, athens, edinburgh, paris, venice, dublin, stockholm, nice, dubrovnik, reykjavik],
-  fr: [lisbonFr, pragueFr, sevilleFr, portoFr, budapestFr, viennaFr, granadaFr, romeFr, amsterdamFr, florenceFr, brugesFr, barcelonaFr, berlinFr, madridFr, krakowFr, copenhagenFr, athensFr, edinburghFr, parisFr, veniceFr, dublinFr, stockholmFr, niceFr, dubrovnikFr, reykjavikFr],
-  pt: [lisbonPt, praguePt, sevillePt, portoPt, budapestPt, viennaPt, granadaPt, romePt, amsterdamPt, florencePt, brugesPt, barcelonaPt, berlinPt, madridPt, krakowPt, copenhagenPt, athensPt, edinburghPt, parisPt, venicePt, dublinPt, stockholmPt, nicePt, dubrovnikPt, reykjavikPt],
-  it: [lisbonIt, pragueIt, sevilleIt, portoIt, budapestIt, viennaIt, granadaIt, romeIt, amsterdamIt, florenceIt, brugesIt, barcelonaIt, berlinIt, madridIt, krakowIt, copenhagenIt, athensIt, edinburghIt, parisIt, veniceIt, dublinIt, stockholmIt, niceIt, dubrovnikIt, reykjavikIt],
-  de: [lisbonDe, pragueDe, sevilleDe, portoDe, budapestDe, viennaDe, granadaDe, romeDe, amsterdamDe, florenceDe, brugesDe, barcelonaDe, berlinDe, madridDe, krakowDe, copenhagenDe, athensDe, edinburghDe, parisDe, veniceDe, dublinDe, stockholmDe, niceDe, dubrovnikDe, reykjavikDe],
-  es: [lisbonEs, pragueEs, sevilleEs, portoEs, budapestEs, viennaEs, granadaEs, romeEs, amsterdamEs, florenceEs, brugesEs, barcelonaEs, berlinEs, madridEs, krakowEs, copenhagenEs, athensEs, edinburghEs, parisEs, veniceEs, dublinEs, stockholmEs, niceEs, dubrovnikEs, reykjavikEs],
+  en: [lisbon, prague, seville, porto, budapest, vienna, granada, rome, amsterdam, florence, bruges, barcelona, berlin, madrid, krakow, copenhagen, athens, edinburgh, paris, venice, dublin, stockholm, nice, dubrovnik, reykjavik, munich, tallinn, oslo],
+  fr: [lisbonFr, pragueFr, sevilleFr, portoFr, budapestFr, viennaFr, granadaFr, romeFr, amsterdamFr, florenceFr, brugesFr, barcelonaFr, berlinFr, madridFr, krakowFr, copenhagenFr, athensFr, edinburghFr, parisFr, veniceFr, dublinFr, stockholmFr, niceFr, dubrovnikFr, reykjavikFr, munichFr, tallinnFr, osloFr],
+  pt: [lisbonPt, praguePt, sevillePt, portoPt, budapestPt, viennaPt, granadaPt, romePt, amsterdamPt, florencePt, brugesPt, barcelonaPt, berlinPt, madridPt, krakowPt, copenhagenPt, athensPt, edinburghPt, parisPt, venicePt, dublinPt, stockholmPt, nicePt, dubrovnikPt, reykjavikPt, munichPt, tallinnPt, osloPt],
+  it: [lisbonIt, pragueIt, sevilleIt, portoIt, budapestIt, viennaIt, granadaIt, romeIt, amsterdamIt, florenceIt, brugesIt, barcelonaIt, berlinIt, madridIt, krakowIt, copenhagenIt, athensIt, edinburghIt, parisIt, veniceIt, dublinIt, stockholmIt, niceIt, dubrovnikIt, reykjavikIt, munichIt, tallinnIt, osloIt],
+  de: [lisbonDe, pragueDe, sevilleDe, portoDe, budapestDe, viennaDe, granadaDe, romeDe, amsterdamDe, florenceDe, brugesDe, barcelonaDe, berlinDe, madridDe, krakowDe, copenhagenDe, athensDe, edinburghDe, parisDe, veniceDe, dublinDe, stockholmDe, niceDe, dubrovnikDe, reykjavikDe, munichDe, tallinnDe, osloDe],
+  es: [lisbonEs, pragueEs, sevilleEs, portoEs, budapestEs, viennaEs, granadaEs, romeEs, amsterdamEs, florenceEs, brugesEs, barcelonaEs, berlinEs, madridEs, krakowEs, copenhagenEs, athensEs, edinburghEs, parisEs, veniceEs, dublinEs, stockholmEs, niceEs, dubrovnikEs, reykjavikEs, munichEs, tallinnEs, osloEs],
 };
 
 export function cityBundles(locale: Locale = "en"): CityData[] {

@@ -400,6 +400,54 @@ const extrasFr: Record<string, CityExtras> = {
       "L'observation des baleines",
     ],
   },
+  munich: {
+    citySlug: "munich",
+    image: hero(13762982),
+    imageAlt:
+      "Les deux tours à bulbe jumelles de la Frauenkirche et la tour de la nouvelle mairie au-dessus de la vieille ville de Munich",
+    history:
+      "Munich est née en 1158 autour d'un établissement de moines, d'où viennent à la fois son nom, tiré de Munichen, et le petit moine de son blason. Elle devint le siège de la dynastie des Wittelsbach, qui gouvernèrent la Bavière pendant plus de 700 ans et emplirent la ville de palais comme la Residenz et Nymphenburg, tout en en faisant une capitale de l'art et de la musique. C'est aussi là que le mouvement nazi vit le jour dans les années 1920 et que fut signé l'accord de Munich de 1938, même si les étudiants de la Rose blanche qui résistèrent depuis l'université sont commémorés dans toute la ville. Reconstruite avec soin après les bombardements de la guerre, Munich s'est réinventée prospère, verte et fameusement attachée à la tradition, connue aujourd'hui pour BMW, le FC Bayern, les brasseries et l'Oktoberfest, tenue pour la première fois en 1810 pour célébrer un mariage royal.",
+    knownFor: [
+      "Marienplatz",
+      "L'Oktoberfest",
+      "Les brasseries en plein air",
+      "Le Jardin anglais",
+      "L'excursion à Neuschwanstein",
+      "BMW et le FC Bayern",
+    ],
+  },
+  tallinn: {
+    citySlug: "tallinn",
+    image: hero(35838020),
+    imageAlt:
+      "Les toits rouges et les flèches d'églises de la vieille ville médiévale de Tallinn avec la skyline moderne derrière au coucher du soleil",
+    history:
+      "Tallinn s'est développée comme port de commerce hanséatique sur la Baltique, et dès les XIVe et XVe siècles ses marchands avaient élevé les remparts, les maisons de guilde et les églises de la vieille ville qui tiennent encore presque intacts, ce qui en fait l'une des cités médiévales les mieux conservées d'Europe. Le nom se rattache souvent à Taani linn, la ville danoise, d'après les Danois qui s'emparèrent du fort perché en 1219 ; la ville haute de Toompea abritait les dirigeants tandis que les marchands germanophones tenaient la ville basse en contrebas. L'Estonie fut absorbée par l'empire russe puis, après une courte première indépendance, par l'Union soviétique jusqu'en 1991, quand la pacifique révolution chantante rendit au pays sa liberté. Depuis, Tallinn est devenue la vitrine de l'e-Estonie, un lieu qui a contribué à créer Skype et administre son gouvernement en ligne, le tout enroulé autour d'un cœur médiéval de conte de fées.",
+    knownFor: [
+      "La vieille ville médiévale",
+      "Les belvédères de Toompea",
+      "La cathédrale Alexandre-Nevski",
+      "Telliskivi et Kalamaja",
+      "L'e-Estonie",
+      "Le marché de Noël",
+    ],
+  },
+  oslo: {
+    citySlug: "oslo",
+    image: hero(18170373),
+    imageAlt:
+      "Le toit de marbre blanc de l'opéra d'Oslo descendant en pente vers le port sous un ciel bleu",
+    history:
+      "Oslo fut fondée vers 1040 et faite capitale de la Norvège par le roi Haakon V vers 1300, mais après un incendie dévastateur en 1624, le roi danois Christian IV la rebâtit à côté de la forteresse d'Akershus et la rebaptisa Christiania, un nom qu'elle garda jusqu'à redevenir Oslo en 1925. Pendant des siècles, la Norvège fut gouvernée depuis le Danemark, puis liée à la Suède, et elle ne gagna sa pleine indépendance qu'en 1905, quand elle fit venir le roi dont les descendants règnent encore aujourd'hui. Le pétrole de la mer du Nord, découvert à la fin des années 1960, transforma une modeste capitale nordique en l'une des villes les plus riches de la planète, ce qui paya l'opéra du front de mer et la série de nouveaux musées le long du fjord. Patrie du prix Nobel de la paix, remis ici chaque décembre, Oslo enveloppe un centre compact dans la forêt et le fjord d'où les habitants skient et naviguent au départ direct de la ville.",
+    knownFor: [
+      "L'opéra",
+      "Le Cri",
+      "Le parc Vigeland",
+      "Le fjord d'Oslo",
+      "Le prix Nobel de la paix",
+      "Holmenkollen",
+    ],
+  },
 };
 
 export default extrasFr;

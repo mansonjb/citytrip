@@ -398,6 +398,54 @@ const extrasIt: Record<string, CityExtras> = {
       "Whale watching",
     ],
   },
+  munich: {
+    citySlug: "munich",
+    image: hero(13762982),
+    imageAlt:
+      "Le due cupole a cipolla gemelle della Frauenkirche e la torre del Nuovo Municipio sulla città vecchia di Monaco",
+    history:
+      "Monaco nacque nel 1158 attorno a un insediamento di monaci, da cui derivano sia il suo nome, da Munichen, sia il monachello sul suo stemma. Divenne la sede della dinastia dei Wittelsbach, che governò la Baviera per più di 700 anni e riempì la città di palazzi come la Residenz e Nymphenburg facendone una capitale d'arte e di musica. Fu anche il luogo in cui nacque il movimento nazista negli anni Venti e dove fu firmato l'Accordo di Monaco del 1938, anche se gli studenti della Rosa Bianca che resistettero dall'università sono ricordati in tutta la città. Ricostruita con cura dopo i bombardamenti di guerra, Monaco si reinventò prospera, verde e notoriamente affezionata alla tradizione, nota oggi per la BMW, il FC Bayern, le birrerie e l'Oktoberfest, tenuto per la prima volta nel 1810 per celebrare un matrimonio reale.",
+    knownFor: [
+      "Marienplatz",
+      "Oktoberfest",
+      "Birrerie all'aperto",
+      "L'Englischer Garten",
+      "Gita a Neuschwanstein",
+      "BMW e FC Bayern",
+    ],
+  },
+  tallinn: {
+    citySlug: "tallinn",
+    image: hero(35838020),
+    imageAlt:
+      "I tetti rossi e le guglie delle chiese della città vecchia medievale di Tallinn con dietro lo skyline moderno al tramonto",
+    history:
+      "Tallinn crebbe come porto commerciale anseatico sul Baltico, e già nel XIV e XV secolo i suoi mercanti avevano innalzato le mura, le case delle corporazioni e le chiese della città vecchia che ancora oggi resta quasi intatta, il che ne fa una delle città medievali meglio conservate d'Europa. Il nome viene spesso ricondotto a Taani linn, la città danese, dai danesi che presero la roccaforte sulla collina nel 1219; la città alta di Toompea ospitava i governanti mentre i mercanti di lingua tedesca gestivano la città bassa sottostante. L'Estonia fu assorbita dall'impero russo e poi, dopo una breve prima indipendenza, dall'Unione Sovietica fino al 1991, quando la pacifica Rivoluzione cantata restituì il Paese. Da allora Tallinn è diventata la vetrina della e-Estonia, un luogo che ha contribuito a creare Skype e gestisce il proprio governo online, tutto avvolto attorno a un fiabesco nucleo medievale.",
+    knownFor: [
+      "Città vecchia medievale",
+      "Punti panoramici di Toompea",
+      "Cattedrale Alexander Nevsky",
+      "Telliskivi e Kalamaja",
+      "e-Estonia",
+      "Mercatino di Natale",
+    ],
+  },
+  oslo: {
+    citySlug: "oslo",
+    image: hero(18170373),
+    imageAlt:
+      "Il tetto di marmo bianco del Teatro dell'Opera di Oslo che scende verso il porto sotto un cielo azzurro",
+    history:
+      "Oslo fu fondata attorno al 1040 e resa capitale della Norvegia dal re Haakon V intorno al 1300, ma dopo un devastante incendio nel 1624 il re danese Cristiano IV la ricostruì accanto alla fortezza di Akershus e la ribattezzò Christiania, nome che mantenne finché non tornò a essere Oslo nel 1925. Per secoli la Norvegia fu governata dalla Danimarca e poi legata alla Svezia, e conquistò la piena indipendenza solo nel 1905, quando chiamò il re i cui discendenti regnano ancora oggi. Il petrolio del Mare del Nord, scoperto alla fine degli anni Sessanta, trasformò una modesta capitale nordica in una delle città più ricche del pianeta, il che pagò il Teatro dell'Opera sul lungomare e la serie di nuovi musei lungo il fiordo. Sede del Premio Nobel per la Pace, assegnato qui ogni dicembre, Oslo avvolge un centro compatto nel bosco e nel fiordo da cui la gente del posto scia e naviga direttamente dalla città.",
+    knownFor: [
+      "Il Teatro dell'Opera",
+      "L'Urlo",
+      "Parco di Vigeland",
+      "L'Oslofjord",
+      "Premio Nobel per la Pace",
+      "Holmenkollen",
+    ],
+  },
 };
 
 export default extrasIt;

@@ -44,6 +44,9 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /nice (Nice, France): ideal 2 days
 - /dubrovnik (Dubrovnik, Croatia): ideal 2 days
 - /reykjavik (Reykjavik, Iceland): ideal 3 days
+- /munich (Munich, Germany): ideal 3 days
+- /tallinn (Tallinn, Estonia): ideal 2 days
+- /oslo (Oslo, Norway): ideal 2 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,

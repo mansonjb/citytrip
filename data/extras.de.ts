@@ -400,6 +400,54 @@ const extrasDe: Record<string, CityExtras> = {
       "Walbeobachtung",
     ],
   },
+  munich: {
+    citySlug: "munich",
+    image: hero(13762982),
+    imageAlt:
+      "Die beiden Zwiebeltürme der Frauenkirche und der Turm des Neuen Rathauses über der Altstadt von München",
+    history:
+      "München wuchs 1158 rund um eine Siedlung von Mönchen heran, woher sowohl sein Name, von Munichen, als auch der kleine Mönch in seinem Wappen stammen. Es wurde der Sitz der Wittelsbacher-Dynastie, die Bayern über 700 Jahre lang beherrschte und die Stadt mit Palästen wie der Residenz und Nymphenburg füllte, während sie sie zu einer Hauptstadt der Kunst und Musik machte. Es war auch der Ort, an dem die NS-Bewegung in den 1920er Jahren entstand und an dem 1938 das Münchner Abkommen unterzeichnet wurde, wobei der Studenten der Weißen Rose, die von der Universität aus Widerstand leisteten, in der ganzen Stadt gedacht wird. Nach den Bombardierungen des Krieges behutsam wiederaufgebaut, erfand sich München als wohlhabend, grün und berühmt traditionsverbunden neu, heute bekannt für BMW, den FC Bayern, die Bierhallen und das Oktoberfest, das 1810 erstmals zur Feier einer königlichen Hochzeit stattfand.",
+    knownFor: [
+      "Marienplatz",
+      "Oktoberfest",
+      "Biergärten",
+      "Der Englische Garten",
+      "Tagesausflug nach Neuschwanstein",
+      "BMW und der FC Bayern",
+    ],
+  },
+  tallinn: {
+    citySlug: "tallinn",
+    image: hero(35838020),
+    imageAlt:
+      "Die roten Dächer und Kirchtürme der mittelalterlichen Altstadt von Tallinn mit der modernen Skyline dahinter bei Sonnenuntergang",
+    history:
+      "Tallinn wuchs als hanseatischer Handelshafen an der Ostsee, und bis zum 14. und 15. Jahrhundert hatten seine Kaufleute die Mauern, Gildehäuser und Kirchen der Altstadt errichtet, die noch heute nahezu unversehrt stehen, was es zu einer der besterhaltenen mittelalterlichen Städte Europas macht. Der Name wird oft auf Taani linn, die dänische Stadt, zurückgeführt, nach den Dänen, die 1219 die Hügelfestung eroberten; die Oberstadt des Toompea beherbergte die Herrscher, während die deutschsprachigen Kaufleute die Unterstadt darunter führten. Estland wurde vom russischen Reich und dann, nach einer kurzen ersten Unabhängigkeit, von der Sowjetunion aufgesogen, bis 1991 die friedliche Singende Revolution das Land wiederherstellte. Seither ist Tallinn zum Aushängeschild des e-Estland geworden, ein Ort, der Skype mitschuf und seine Regierung online betreibt, alles um einen märchenhaften mittelalterlichen Kern gewickelt.",
+    knownFor: [
+      "Mittelalterliche Altstadt",
+      "Toompea-Aussichtspunkte",
+      "Alexander-Newski-Kathedrale",
+      "Telliskivi und Kalamaja",
+      "e-Estland",
+      "Weihnachtsmarkt",
+    ],
+  },
+  oslo: {
+    citySlug: "oslo",
+    image: hero(18170373),
+    imageAlt:
+      "Das weiße Marmordach des Osloer Opernhauses, das unter blauem Himmel zum Hafen hinabfällt",
+    history:
+      "Oslo wurde um 1040 gegründet und um 1300 von König Haakon V. zur Hauptstadt Norwegens gemacht, doch nach einem verheerenden Brand 1624 baute der dänische König Christian IV. es neben der Festung Akershus wieder auf und benannte es in Christiania um, ein Name, den es behielt, bis es 1925 wieder Oslo wurde. Jahrhundertelang wurde Norwegen von Dänemark aus regiert und dann an Schweden gebunden, und es gewann erst 1905 die volle Unabhängigkeit, als es den König einlud, dessen Nachfahren noch heute regieren. Das in den späten 1960er Jahren entdeckte Nordseeöl verwandelte eine bescheidene nordische Hauptstadt in eine der wohlhabendsten Städte der Erde, was das Opernhaus am Wasser und die Reihe neuer Museen entlang des Fjords bezahlte. Als Heimat des Friedensnobelpreises, der hier jeden Dezember verliehen wird, wickelt Oslo ein kompaktes Zentrum in den Wald und Fjord, in dem die Einheimischen direkt aus der Stadt heraus Ski fahren und segeln.",
+    knownFor: [
+      "Das Opernhaus",
+      "Der Schrei",
+      "Vigeland-Park",
+      "Der Oslofjord",
+      "Friedensnobelpreis",
+      "Holmenkollen",
+    ],
+  },
 };
 
 export default extrasDe;

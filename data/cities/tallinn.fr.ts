@@ -1,0 +1,517 @@
+import type { CityData } from "../types";
+
+const tallinnFr: CityData = {
+  city: {
+    slug: "tallinn",
+    name: "Tallinn",
+    country: "Estonie",
+    countrySlug: "estonia",
+    lat: 59.4370,
+    lng: 24.7536,
+    tier: 3,
+    idealDays: 2,
+    durations: [2, 3],
+    airportCode: "TLL",
+    airportToCenter:
+      "L'aéroport Lennart Meri de Tallinn se trouve à seulement 4 km environ au sud-est du centre, si bien que les transferts sont rapides et bon marché. La ligne de tram 4 relie un arrêt juste devant le terminal à la lisière de la vieille ville et au centre en 15 minutes environ ; validez une carte bancaire sans contact sur le valideur pour quelques euros. Un Bolt ou un taxi couvre le même trajet en 10 minutes environ pour 8 à 12 EUR, ce qui vaut le coup avec des bagages ou après une arrivée tardive.",
+    centerWalkable: true,
+    bestMonths: [5, 6, 7, 8, 9],
+    avoidMonths: [1, 2],
+    monthlyNotes: {
+      1: "Plein hiver, avec des maximales proches de zéro, de fréquentes chutes de neige et seulement six heures de jour environ : prévoyez des haltes à l'intérieur et de courtes sorties en extérieur. Les tarifs sont au plus bas et la vieille ville est à son plus beau sous la neige, mais emportez de vraies bottes et un manteau chaud car les trottoirs se couvrent de verglas.",
+      2: "Encore froid et sombre, autour de moins 2C, souvent la période la plus enneigée de l'année, la Baltique elle-même gelant parfois au bord du rivage. La foule est clairsemée et les hôtels bon marché ; c'est le moment le plus calme et le plus atmosphérique pour avoir les ruelles médiévales presque pour soi.",
+      3: "Le froid se relâche lentement vers des maximales proches de 2C, la neige s'attarde dans le mois et les journées s'allongent vite à l'approche du printemps. Les prix restent bas et la lumière revient, mais attendez-vous à une neige fondue grise sous les pieds et gardez vos couches d'hiver.",
+      4: "Un mois d'aile grimpant à 9C environ, la neige partie et les parcs commençant à verdir, même si pluie et vent cru sont fréquents. Les tarifs de chambre restent modestes et la vieille ville est calme avant que la saison estivale ne monte.",
+      5: "L'une des meilleures fenêtres : maximales proches de 15C, longues journées lumineuses et le parc de Kadriorg en fleurs avant l'arrivée en force de la foule et des bateaux de croisière. Les terrasses rouvrent et la ville se sent vivante sans la cohue de juillet.",
+      6: "Été doux, autour de 19C, avec une durée de jour étonnamment longue autour du solstice, quand le ciel s'assombrit à peine. Les Journées de la vieille ville de Tallinn emplissent le cœur médiéval de musique et de marchés début juin, mais notez que la ville se vide pour la Jaanipaev vers le 23 et 24 juin, quand les habitants partent à la campagne.",
+      7: "Le mois le plus chaud, autour de 21C, la haute saison avec les plus longues files et la plus forte foule de croisiéristes d'un jour dans la vieille ville dès la fin de matinée. Réservez à l'avance et visitez la Raekoja plats tôt ou tard pour esquiver les groupes.",
+      8: "Toujours chaud, autour de 21C, et fréquenté, avec de longues soirées lumineuses idéales pour le bord de mer à Pirita et à Kadriorg. La foule des croisières persiste dans la vieille ville en journée mais s'éclaircit à l'heure du dîner, et la baignade en eau tiède devient brièvement plausible.",
+      9: "Un mois d'aile malin s'adoucissant vers 16C, avec la saison des croisières qui décline et les couleurs d'automne qui gagnent Kadriorg. Les journées raccourcissent nettement, mais les tarifs baissent et les ruelles se calment, ce qui en fait l'un des meilleurs rapports qualité-prix pour visiter.",
+      10: "Frais et de plus en plus humide, autour de 10C, avec des couchers de soleil précoces et les premières gelées, même si la vieille ville reste photogénique sous une lumière dorée et basse. La foule est partie et les prix bas ; emportez un imperméable et des couches chaudes.",
+      11: "Gris, humide et froid, près de 4C, avec la plus courte amorce vers l'hiver et de longues soirées sombres. C'est le mois le plus calme et le moins cher, et le marché de Noël de la Raekoja plats ouvre en général la dernière semaine pour égayer l'ambiance.",
+      12: "Froid et sombre, autour de zéro, avec de la neige probable et seulement six heures de jour environ, mais le marché de Noël de la place de l'Hôtel de Ville, l'un des plus anciens et des plus jolis d'Europe, se tient tout le mois avec vin chaud et un sapin géant. Réservez à l'avance pour le pic des fêtes et du Nouvel An.",
+    },
+    climate: {
+      1: { highC: -2, lowC: -6, rainyDays: 12 },
+      2: { highC: -2, lowC: -7, rainyDays: 9 },
+      3: { highC: 2, lowC: -4, rainyDays: 9 },
+      4: { highC: 9, lowC: 1, rainyDays: 9 },
+      5: { highC: 15, lowC: 6, rainyDays: 9 },
+      6: { highC: 19, lowC: 10, rainyDays: 10 },
+      7: { highC: 21, lowC: 13, rainyDays: 11 },
+      8: { highC: 21, lowC: 12, rainyDays: 12 },
+      9: { highC: 16, lowC: 8, rainyDays: 12 },
+      10: { highC: 10, lowC: 4, rainyDays: 13 },
+      11: { highC: 4, lowC: 0, rainyDays: 14 },
+      12: { highC: 0, lowC: -4, rainyDays: 13 },
+    },
+    budgetLevel: "mid",
+    budgetPerDay: { budget: 55, mid: 110, high: 220 },
+    tagline: "Une vieille ville fortifiée de conte de fées sur la Baltique, tout en flèches et toits rouges, bon marché et accessible à pied en deux journées faciles.",
+    heroIntro:
+      "Tallinn concentre une vieille ville compacte, classée à l'UNESCO, faite de ruelles pavées, de tours médiévales et de maisons de marchands, un cœur que l'on parcourt en une seule journée à pied. Montez vers la ville haute sur Toompea pour le belvédère de Kohtuotsa dominant une mer de toits rouges et de flèches d'églises, puis descendez dans le branché quartier de Kalamaja et la Telliskivi Creative City pour un contrepoint moderne d'art de rue, de cafés et de halles de marché. C'est une capitale de l'e-Estonie, numérique avant tout, qui reste bon marché selon les normes nordiques, si bien que vos euros vont loin. Venez seulement parés à deux choses : la foule des croisières qui submerge la vieille ville à midi avant de se vider le soir, et des hivers froids et sombres qui récompensent par les tarifs de chambre les plus bas de l'année.",
+    accent: { from: "#256B6B", to: "#C24A3A", ink: "#123A3A" },
+    neighborhoodSlugs: [
+      "old-town",
+      "kalamaja",
+      "rotermann",
+      "kadriorg",
+      "city-centre",
+    ],
+    nearbyCitySlugs: ["stockholm"],
+  },
+  neighborhoods: [
+    {
+      slug: "old-town",
+      citySlug: "tallinn",
+      name: "La vieille ville (Vanalinn)",
+      lat: 59.4372,
+      lng: 24.7453,
+      bestFor: ["first-time", "romantic"],
+      vibe: "Le cœur médiéval fortifié se scinde en une ville basse de maisons de guilde et de places de marché et une ville haute de Toompea, qui abrite le château et les belvédères classiques sur les toits rouges. Chaque site phare se trouve à dix minutes à pied de la Raekoja plats, si bien qu'une base ici pour une première visite vous permet d'être parmi les tours avant l'arrivée de la foule des croisières. C'est atmosphérique et magnifique mais touristique, et les pavés sont durs pour les valises à roulettes et les talons.",
+      pros: [
+        "Chaque grand site, belvédère et les remparts à quelques minutes à pied",
+        "Les ruelles illuminées sont à vous le soir, une fois les visiteurs d'un jour partis",
+        "La base la plus romantique et la plus photogénique de la ville",
+      ],
+      cons: [
+        "Foule dense de croisiéristes et de groupes de la fin de matinée au début de soirée",
+        "Les restaurants de la Raekoja plats sont les plus touristiques de la ville en prix",
+        "Les ruelles pavées et pentues sont difficiles avec des bagages ou une mobilité réduite",
+      ],
+    },
+    {
+      slug: "kalamaja",
+      citySlug: "tallinn",
+      name: "Kalamaja",
+      lat: 59.4470,
+      lng: 24.7360,
+      bestFor: ["local", "budget"],
+      vibe: "Le branché quartier des maisons en bois, juste au nord-ouest de la vieille ville, a transformé ses anciennes usines en Telliskivi Creative City, un pôle d'ateliers, d'art de rue, de bars et de marchés aux puces le week-end. L'immense halle de marché de Balti Jaam se tient à sa lisière pour manger et faire ses courses à petit prix, et tout le secteur paraît habité et créatif plutôt que mis en scène pour les visiteurs. Basez-vous ici pour des prix plus bas et la vraie scène locale, à dix minutes à pied ou à un arrêt de tram du cœur médiéval.",
+      pros: [
+        "Le meilleur rapport qualité-prix pour manger et boire, plus la halle de Balti Jaam pour des repas bon marché",
+        "La Telliskivi Creative City, l'art de rue et le design indépendant au pied de votre porte",
+        "Une ambiance vraiment locale à une courte marche de la vieille ville",
+      ],
+      cons: [
+        "Moins de sites phares dans les rues immédiates",
+        "Certains pâtés de maisons près de la voie ferrée restent un peu rudes",
+        "L'offre hôtelière penche vers les pensions et les appartements plutôt que les grands hôtels",
+      ],
+    },
+    {
+      slug: "rotermann",
+      citySlug: "tallinn",
+      name: "Le quartier Rotermann",
+      lat: 59.4390,
+      lng: 24.7580,
+      bestFor: ["first-time", "nightlife"],
+      vibe: "Un quartier réhabilité d'anciens entrepôts de calcaire et de brique retravaillés en une architecture moderne audacieuse, coincé entre la vieille ville et le port de passagers. Il est dense en boutiques de design, restaurants et bars, si bien que les soirées restent animées et que les ferries du port vers Helsinki et Stockholm sont à une courte marche. Logez ici pour une base élégante et contemporaine qui garde le cœur médiéval à cinq minutes à pied à l'ouest.",
+      pros: [
+        "Design moderne pointu, restaurants et bars pour une soirée animée",
+        "Cinq minutes à pied à la fois de la vieille ville et des terminaux de ferry",
+        "Un contrepoint hôtelier moderne aux ruelles médiévales",
+      ],
+      cons: [
+        "Peu d'espaces verts et une atmosphère de béton plus dure",
+        "Certaines rues sont calmes et affairées en dehors des portions à bars",
+        "Moins de sites classiques dans le quartier lui-même",
+      ],
+    },
+    {
+      slug: "kadriorg",
+      citySlug: "tallinn",
+      name: "Kadriorg",
+      lat: 59.4380,
+      lng: 24.7900,
+      bestFor: ["family", "romantic"],
+      vibe: "Un quartier balnéaire verdoyant à environ 2 km à l'est du centre, bâti autour du palais baroque de Kadriorg et de son parc à la française, que Pierre le Grand commença en 1718. Le grand musée d'art KUMU se dresse dans le parc, et des rues bordées d'arbres et de villas en bois descendent vers le front de mer et la promenade de Pirita. Basez-vous ici pour un séjour calme, vert et romantique pensé pour les familles, à un court trajet de tram de la vieille ville.",
+      pros: [
+        "Le palais, les jardins à la française et le musée d'art KUMU tous dans un même parc",
+        "Des rues vertes et calmes et un accès facile à la promenade du bord de mer",
+        "Plus tranquille et plus spacieux que la vieille ville bondée",
+      ],
+      cons: [
+        "À 10 à 15 minutes de tram du cœur médiéval et de la vie nocturne",
+        "Moins de restaurants et de bars dans les rues immédiates",
+        "Offre hôtelière limitée, surtout des appartements et de petites pensions",
+      ],
+    },
+    {
+      slug: "city-centre",
+      citySlug: "tallinn",
+      name: "Le centre-ville (Sudalinn)",
+      lat: 59.4310,
+      lng: 24.7530,
+      bestFor: ["budget", "first-time"],
+      vibe: "Le cœur d'affaires moderne, juste au sud de la vieille ville, rassemble les hôtels les plus hauts, le centre commercial Viru et les entrées Solaris et Viru vers les ruelles médiévales. C'est le choix pratique et bien connecté, avec les nœuds de tram et de bus et la ligne de tram 4 de l'aéroport qui passent tous par là. Basez-vous ici pour un bon rapport qualité-prix d'hôtel de milieu de gamme et le plus court saut à la fois vers la vieille ville et vers les transports.",
+      pros: [
+        "Le meilleur rapport qualité-prix d'hôtel de milieu de gamme et un choix de chaînes",
+        "À deux pas de la porte Viru vers la vieille ville et des principaux centres commerciaux",
+        "Tram, bus et ligne 4 de l'aéroport convergent tous ici",
+      ],
+      cons: [
+        "Moderne et fonctionnel plutôt que plein de caractère",
+        "Certaines portions sont des immeubles de bureaux et de la circulation plutôt que du charme",
+        "Le secteur Viru devient chargé et impersonnel aux heures de pointe",
+      ],
+    },
+  ],
+  pois: [
+    {
+      slug: "town-hall-square",
+      citySlug: "tallinn",
+      name: "La place de l'Hôtel de Ville et l'hôtel de ville gothique",
+      lat: 59.4372,
+      lng: 24.7453,
+      kind: "sight",
+      needsBooking: false,
+      tip: "La Raekoja plats est gratuite et ouverte toute la journée, cernée de maisons de marchands pastel et ancrée par l'hôtel de ville gothique de 1404, le seul survivant de son genre en Europe du Nord. Montez la tour pour un petit droit en été, et venez avant 10h ou après le départ des bateaux de croisière pour photographier la place sans la foule ; en décembre elle se remplit du marché de Noël et d'un sapin géant.",
+    },
+    {
+      slug: "kohtuotsa-viewpoint",
+      citySlug: "tallinn",
+      name: "La plateforme panoramique de Kohtuotsa",
+      lat: 59.4390,
+      lng: 24.7420,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "C'est la vue de carte postale gratuite et classique sur les toits rouges, les flèches et le port de la ville basse, sur le bord est de Toompea, près du mur portant l'inscription « The Times We Had ». Elle est fréquentée, alors arrivez tôt pour un cliché dégagé, puis marchez deux minutes jusqu'à la plateforme plus calme de Patkuli, côté nord, pour les tours et la mer au-delà.",
+    },
+    {
+      slug: "patkuli-viewpoint",
+      citySlug: "tallinn",
+      name: "La plateforme panoramique de Patkuli",
+      lat: 59.4400,
+      lng: 24.7400,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Le second belvédère gratuit de Toompea regarde au nord-ouest la grappe de tours du rempart de la vieille ville, la gare et la Baltique, et il est en général moins pris d'assaut que Kohtuotsa. Un long escalier en descend droit vers le marché de Balti Jaam et Kalamaja, alors servez-vous-en pour relier la ville haute au quartier branché en une seule marche.",
+    },
+    {
+      slug: "alexander-nevsky-cathedral",
+      citySlug: "tallinn",
+      name: "La cathédrale Alexandre-Nevski",
+      lat: 59.4358,
+      lng: 24.7386,
+      kind: "sight",
+      needsBooking: false,
+      tip: "La cathédrale orthodoxe russe aux dômes en bulbe, face au château de Toompea, fut achevée en 1900 et son intérieur d'icônes et de mosaïques est gratuit d'accès, même si la photographie y est interdite et qu'il faut se couvrir les épaules. Calez votre visite à l'heure pile pour entendre ses onze cloches, puis traversez la place jusqu'au parlement.",
+    },
+    {
+      slug: "st-olafs-church",
+      citySlug: "tallinn",
+      name: "La tour de l'église Saint-Olaf",
+      lat: 59.4413,
+      lng: 24.7476,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Réputée un temps le plus haut bâtiment du monde vers 1500, la tour de Saint-Olaf se grimpe de façon saisonnière, en général d'avril à octobre, pour un petit droit en espèces, par un escalier en colimaçon très serré et raide de 258 marches sans ascenseur. La récompense est une vue à 360 degrés sur la vieille ville et la mer, mais passez votre tour en cas de problèmes de genoux ou de claustrophobie.",
+    },
+    {
+      slug: "toompea-castle",
+      citySlug: "tallinn",
+      name: "Le château de Toompea et le parlement",
+      lat: 59.4358,
+      lng: 24.7376,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Le château de Toompea abrite le Riigikogu, le parlement estonien, derrière une façade rose du XVIIIe siècle, avec la tour médiévale du Grand Hermann où le drapeau national est hissé au lever du soleil chaque jour. La cour est libre d'accès à pied, et des visites guidées gratuites du parlement ont lieu certains jours de semaine si vous réservez à l'avance sur le site du Riigikogu.",
+    },
+    {
+      slug: "town-walls-kiek-in-de-kok",
+      citySlug: "tallinn",
+      name: "Les remparts et Kiek in de Kok",
+      lat: 59.4345,
+      lng: 24.7400,
+      kind: "sight",
+      needsBooking: true,
+      tip: "Près de 2 km de mur médiéval et une vingtaine de ses tours tiennent encore debout, parmi les mieux conservés d'Europe, et le musée de la tour d'artillerie Kiek in de Kok se relie aux passages souterrains des Bastions sur un billet à horaire, à réserver de préférence en ligne. Pour une marche moins chère, la portion séparée de la tour Hellemann et du chemin de ronde vous laisse arpenter les remparts entre les tours pour quelques euros.",
+    },
+    {
+      slug: "st-catherines-passage",
+      citySlug: "tallinn",
+      name: "Le passage Sainte-Catherine et les ruelles des artisans",
+      lat: 59.4375,
+      lng: 24.7480,
+      kind: "sight",
+      needsBooking: false,
+      tip: "La Katariina kaik est une ruelle médiévale étroite et couverte reliant les rues Vene et Muurivahe, bordée des ateliers de la guilde Sainte-Catherine où souffleurs de verre, potiers et chapeliers travaillent derrière des portes ouvertes. Elle est libre de parcourir et les ateliers ouvrent en journée, alors venez l'après-midi, puis parcourez les vendeuses de pulls en laine le long du mur de Muurivahe.",
+    },
+    {
+      slug: "telliskivi-balti-jaam",
+      citySlug: "tallinn",
+      name: "La Telliskivi Creative City et le marché de Balti Jaam",
+      lat: 59.4425,
+      lng: 24.7370,
+      kind: "experience",
+      needsBooking: false,
+      tip: "La Telliskivi Creative City occupe un ancien complexe d'usine ferroviaire à Kalamaja, avec ateliers, fresques d'art de rue, bars et un marché aux puces le samedi matin, tandis que la halle voisine de Balti Jaam empile street food, produits frais et stands vintage à petit prix sur plusieurs étages. Les deux sont libres à parcourir et à dix minutes à pied au nord-ouest de la vieille ville, à savourer de préférence autour de l'heure du déjeuner.",
+    },
+    {
+      slug: "kadriorg-kumu",
+      citySlug: "tallinn",
+      name: "Le palais de Kadriorg et le musée d'art KUMU",
+      lat: 59.4380,
+      lng: 24.7910,
+      kind: "museum",
+      needsBooking: false,
+      tip: "Pierre le Grand entreprit le palais baroque de Kadriorg et son parc à la française en 1718, et le palais présente aujourd'hui l'art classique étranger tandis que l'immense bâtiment moderne KUMU tout proche abrite la collection nationale d'art estonien, du XVIIIe siècle à nos jours. Le KUMU ferme le lundi et le mardi hors saison, alors vérifiez les horaires ; le parc lui-même est gratuit et vaut le trajet de 15 minutes en tram 1 ou 3 vers l'est.",
+    },
+    {
+      slug: "seaplane-harbour",
+      citySlug: "tallinn",
+      name: "Le port des hydravions (Lennusadam)",
+      lat: 59.4520,
+      lng: 24.7290,
+      kind: "museum",
+      needsBooking: true,
+      tip: "Ce musée maritime occupe un vaste hangar à hydravions de 1917, avec un sous-marin Lembit de 1936 dans lequel on entre, un hydravion grandeur nature et des maquettes de navires, plus des brise-glace amarrés que l'on peut monter à bord à l'extérieur. Il est vraiment adapté aux familles et interactif ; achetez les billets en ligne pour éviter le guichet, et rejoignez-le par une marche de 20 minutes le long du front de mer de Kalamaja depuis la vieille ville.",
+    },
+    {
+      slug: "olde-hansa",
+      citySlug: "tallinn",
+      name: "Le banquet médiéval Olde Hansa",
+      lat: 59.4368,
+      lng: 24.7460,
+      kind: "food",
+      needsBooking: true,
+      tip: "Cette taverne à thème médiéval éclairée aux chandelles, près de la Raekoja plats, sert du gibier, de l'ours et de l'élan avec de la bière au miel, avec un personnel costumé et sans lumière électrique, et c'est amusant pour la mise en scène. Soyez lucide : c'est une expérience aux prix touristiques, alors réservez une table pour l'ambiance plutôt que pour le rapport qualité-prix, et attendez-vous à une addition bien au-dessus d'un dîner tallinnois normal.",
+    },
+    {
+      slug: "estonian-open-air-museum",
+      citySlug: "tallinn",
+      name: "Le musée estonien de plein air",
+      lat: 59.4300,
+      lng: 24.6540,
+      kind: "park",
+      needsBooking: false,
+      tip: "Ce musée de plein air de 72 hectares à Rocca al Mare, à environ 8 km à l'ouest du centre, rassemble des fermes en bois déplacées, une église, une école et des moulins à vent dans un parc boisé en bord de mer, animé en été par des démonstrations d'artisanat. Comptez une demi-journée et rejoignez-le par le bus 21 depuis la gare de Balti Jaam ; c'est une option facile si vous avez un troisième jour et voulez de l'espace vert et de l'histoire rurale estonienne.",
+    },
+  ],
+  itineraries: [
+    {
+      citySlug: "tallinn",
+      days: 2,
+      summary:
+        "Deux journées pleines suffisent amplement pour le cœur de Tallinn, car le noyau médiéval est minuscule et entièrement accessible à pied. L'astuce est de composer avec les bateaux de croisière : la vieille ville est submergée par la foule d'un jour de la fin de matinée à la fin d'après-midi, puis se vide le soir, alors commencez tôt sur la Raekoja plats et les belvédères de Toompea avant que les groupes ne grimpent la colline. Basez-vous dans la vieille ville ou dans le centre-ville tout proche pour être parmi les tours dès le matin et pouvoir rentrer à pied à travers des places illuminées le soir. Le premier jour couvre la ville haute et basse : la place de l'Hôtel de Ville, les belvédères de Kohtuotsa et de Patkuli, la cathédrale Alexandre-Nevski, le château de Toompea, les remparts et le passage Sainte-Catherine. Le second passe dans le branché Kalamaja pour Telliskivi et le marché de Balti Jaam, puis grimpe la tour de Saint-Olaf et boucle les remparts. Tallinn est bon marché selon les normes nordiques, alors mangez bien à l'écart de la grand-place. Ce que l'on abandonne à ce rythme, c'est Kadriorg et le port des hydravions ; pour ceux-là, ajoutez la version de trois jours.",
+      stayNeighborhoodSlug: "old-town",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "La vieille ville médiévale, haute et basse",
+          morning: [
+            {
+              poiSlug: "town-hall-square",
+              text: "Commencez sur la Raekoja plats avant 10h, tant que la place est calme et la lumière nette, et savourez l'hôtel de ville gothique de 1404, le seul survivant de son genre en Europe du Nord. Prenez un café dans un troquet à l'écart de la place, où les prix sont divisés par deux.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "kohtuotsa-viewpoint",
+              text: "Montez dans la ville haute sur Toompea et gagnez la plateforme gratuite de Kohtuotsa pour la vue classique sur les toits rouges et les flèches, en y arrivant tôt avant les groupes. Marchez deux minutes jusqu'à la plateforme de Patkuli pour les tours et la mer.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "alexander-nevsky-cathedral",
+              text: "Traversez jusqu'à la cathédrale Alexandre-Nevski aux dômes en bulbe, gratuite d'accès avec ses icônes et ses mosaïques, et calez la visite à l'heure pile pour entendre les onze cloches. Notez que la photographie à l'intérieur est interdite et qu'il faut se couvrir les épaules.",
+              durationMin: 30,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "toompea-castle",
+              text: "Faites un pas jusqu'au château de Toompea, siège du parlement estonien derrière sa façade rose, et à la tour du Grand Hermann où le drapeau est hissé au lever du soleil. La cour est libre d'accès à pied avant de redescendre la colline pour déjeuner.",
+              durationMin: 40,
+            },
+            {
+              text: "Déjeunez à quelques ruelles de la Raekoja plats, où un bol de soupe d'élan estonienne ou une assiette de pelmeni coûte une fraction des tables du bord de la place. Restez léger avant la marche de l'après-midi.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "town-walls-kiek-in-de-kok",
+              text: "Explorez les remparts, parmi les mieux conservés d'Europe, et la tour d'artillerie Kiek in de Kok avec ses passages souterrains des Bastions sur un billet à horaire réservé en ligne. Pour une marche de remparts moins chère, arpentez le chemin de ronde depuis la tour Hellemann.",
+              durationMin: 75,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "st-catherines-passage",
+              text: "Flânez dans le passage Sainte-Catherine en fin d'après-midi tant que les ateliers de la guilde Sainte-Catherine ont encore leurs portes ouvertes, puis parcourez les vendeuses de pulls en laine le long du mur de Muurivahe. C'est gratuit et atmosphérique à mesure que la foule du jour s'éclaircit.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "olde-hansa",
+              text: "Pour le dîner, réservez soit le banquet médiéval aux chandelles Olde Hansa près de la place, pour la mise en scène, en sachant qu'il est aux prix touristiques, soit un petit restaurant de cave pour une cuisine baltique de meilleur rapport qualité-prix. Dans les deux cas, prenez les ruelles illuminées tard, une fois la foule des croisières partie.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "Kalamaja, le marché et les remparts",
+          morning: [
+            {
+              poiSlug: "st-olafs-church",
+              text: "Si c'est d'avril à octobre, grimpez la tour de Saint-Olaf dès le matin par l'étroit colimaçon de 258 marches pour la vue à 360 degrés sur la vieille ville et la mer, en payant le petit droit en espèces en bas. Passez votre tour en hiver quand elle ferme, et allez-y tôt pour devancer la file dans l'escalier étroit.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "telliskivi-balti-jaam",
+              text: "Marchez au nord-ouest dans Kalamaja jusqu'à la Telliskivi Creative City pour son art de rue, ses ateliers et ses bars, en la visant pour la fin de matinée. Passez à la halle voisine de Balti Jaam pour un déjeuner street food bon marché sur ses plusieurs étages d'étals.",
+              durationMin: 120,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Flânez dans les rues de maisons en bois de Kalamaja, l'un des quartiers les plus pleins de caractère de Tallinn, et suivez le front de mer pour revenir vers la vieille ville. C'est ici que la ville se sent habitée plutôt que mise en scène pour les visiteurs.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "patkuli-viewpoint",
+              text: "Grimpez le long escalier de Patkuli pour remonter dans Toompea et jeter un second regard sur les tours d'en haut, plus calmes maintenant que ne le permettait la foule du matin. De là, bouclez à travers les ruelles de la ville haute que vous avez manquées.",
+              durationMin: 45,
+            },
+          ],
+          evening: [
+            {
+              text: "Rejoignez le quartier Rotermann à l'est de la vieille ville pour ses entrepôts reconvertis, ses boutiques de design et sa scène de bars plus animée, à cinq minutes à pied du cœur médiéval. C'est le contrepoint moderne aux ruelles et un bon endroit pour dîner et boire un verre.",
+              durationMin: 90,
+            },
+            {
+              text: "Terminez par une dernière boucle lente de la Raekoja plats à la nuit tombée, quand la place est illuminée et presque déserte. Si vous avez un vol tôt, souvenez-vous que la ligne de tram 4 de l'aéroport relie le centre au terminal en 15 minutes environ pour quelques euros.",
+              durationMin: 60,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      citySlug: "tallinn",
+      days: 3,
+      summary:
+        "Trois jours, c'est la durée confortable pour Tallinn : de quoi faire le noyau médiéval, plus les musées du bord de mer et l'espace vert qu'un séjour éclair de deux jours saute. La vieille ville est petite et accessible à pied, si bien que les premier et deuxième jours couvrent la ville haute et basse, les belvédères, les remparts et le branché Kalamaja à un rythme tranquille, en commençant toujours tôt pour devancer la foule des croisières qui remplit les ruelles dès la fin de matinée. La journée supplémentaire vous offre le versant plus calme et plus vert de la ville : le palais baroque de Kadriorg et son parc avec l'excellent musée d'art KUMU, puis le sous-marin à visiter et les hydravions du port des hydravions sur le front de mer de Kalamaja. Basez-vous dans la vieille ville pour les nuits médiévales, ou à Kalamaja pour des prix plus bas et la scène locale à un arrêt de tram. Tallinn reste bon marché selon les normes nordiques, alors mangez à l'écart de la grand-place et prenez les trams sans contact pour rejoindre Kadriorg en 15 minutes. Venez de mai à septembre pour la longue lumière et les terrasses ouvertes ; en décembre, le marché de Noël de la place de l'Hôtel de Ville est l'un des plus anciens et des plus jolis d'Europe.",
+      stayNeighborhoodSlug: "old-town",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "La vieille ville médiévale, haute et basse",
+          morning: [
+            {
+              poiSlug: "town-hall-square",
+              text: "Ouvrez sur la Raekoja plats avant l'accostage des bateaux, en savourant l'hôtel de ville gothique de 1404 et l'anneau de maisons de marchands pastel dans le calme du matin. Un café à l'écart de la place garde le prix raisonnable.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "kohtuotsa-viewpoint",
+              text: "Grimpez Toompea jusqu'à la plateforme gratuite de Kohtuotsa pour la vue sur les toits rouges, puis la plateforme voisine de Patkuli pour les tours et la mer, les deux tôt avant l'arrivée des groupes.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "alexander-nevsky-cathedral",
+              text: "Visitez la cathédrale Alexandre-Nevski gratuite face au château pour ses icônes et ses mosaïques, idéalement à l'heure pile pour les cloches. Couvrez-vous les épaules et laissez l'appareil photo dans votre sac à l'intérieur.",
+              durationMin: 30,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "toompea-castle",
+              text: "Entrez dans la cour gratuite du château de Toompea, siège du parlement estonien, sous la tour au drapeau du Grand Hermann, puis redescendez pour déjeuner. Réservez à l'avance une visite gratuite du parlement sur le site du Riigikogu si l'horaire convient.",
+              durationMin: 40,
+            },
+            {
+              text: "Déjeunez à quelques ruelles de la grand-place, sur une cuisine réconfortante estonienne comme la soupe d'élan ou les pelmeni, à une fraction des prix de la Raekoja plats. Restez léger avant les remparts.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "town-walls-kiek-in-de-kok",
+              text: "Visitez les remparts médiévaux et la tour Kiek in de Kok avec ses passages souterrains des Bastions sur un billet à horaire en ligne, ou arpentez la marche de rempart moins chère de la tour Hellemann. Les murs, ici, sont parmi les mieux conservés d'Europe.",
+              durationMin: 75,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "st-catherines-passage",
+              text: "Passez dans le passage Sainte-Catherine tant que les ateliers de la guilde gardent leurs portes ouvertes, puis parcourez les vendeuses de laine le long du mur de Muurivahe. Gratuit et à son mieux dans la lumière de fin d'après-midi.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "olde-hansa",
+              text: "Le dîner est soit le banquet aux chandelles Olde Hansa pour le théâtre médiéval, aux prix touristiques et valant le coup pour la seule ambiance, soit un restaurant de cave pour une cuisine baltique de meilleur rapport qualité-prix. Parcourez la place illuminée tard, une fois la foule partie.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "La tour de Saint-Olaf et Kalamaja",
+          morning: [
+            {
+              poiSlug: "st-olafs-church",
+              text: "En saison, d'avril à octobre, grimpez la tour en colimaçon de 258 marches de Saint-Olaf dès le matin pour la vue à 360 degrés, en payant le petit droit en espèces en bas. Allez-y tôt pour devancer la file dans l'escalier étroit, et passez votre tour si elle est fermée en hiver.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "telliskivi-balti-jaam",
+              text: "Filez au nord-ouest dans Kalamaja jusqu'à la Telliskivi Creative City pour l'art de rue, les ateliers et les bars, puis mangez à petit prix sur les plusieurs étages de la halle de Balti Jaam. À son mieux entre la fin de matinée et le déjeuner.",
+              durationMin: 120,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Flânez dans les rues de maisons en bois de Kalamaja, le quartier le plus plein de caractère de la ville, en suivant le rivage. C'est le Tallinn tel que le vivent les habitants, à une courte marche du cœur médiéval.",
+              durationMin: 60,
+            },
+            {
+              text: "Bouclez en repassant par le quartier Rotermann à l'est de la vieille ville pour ses entrepôts reconvertis et ses boutiques de design, une pause moderne loin des ruelles médiévales. Un café et un lèche-vitrines avant la soirée.",
+              durationMin: 60,
+            },
+          ],
+          evening: [
+            {
+              text: "Dînez à Rotermann ou en lisière de la vieille ville, où la scène des bars est plus animée et les prix plus justes que la grand-place. Tallinn est bon marché selon les normes nordiques, alors un bon repas et des verres restent abordables.",
+              durationMin: 120,
+            },
+            {
+              text: "Achevez par une dernière boucle lente des ruelles illuminées de la vieille ville à la nuit tombée, quand la foule du jour est partie depuis longtemps. En été, la lumière s'efface à peine, si bien que les soirées se prolongent, tardives et douces.",
+              durationMin: 45,
+            },
+          ],
+        },
+        {
+          dayNumber: 3,
+          theme: "Kadriorg, KUMU et le port des hydravions",
+          morning: [
+            {
+              poiSlug: "kadriorg-kumu",
+              text: "Prenez le tram 1 ou 3 vers l'est, 15 minutes environ, jusqu'à Kadriorg, parcourez le parc à la française gratuit que Pierre le Grand entreprit en 1718, et visitez le palais baroque et le musée moderne KUMU d'art estonien. Vérifiez les horaires, car le KUMU ferme le lundi et le mardi hors saison.",
+              durationMin: 180,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "seaplane-harbour",
+              text: "Passez au musée maritime du port des hydravions, dans son hangar de 1917, pour le sous-marin Lembit à visiter, un hydravion grandeur nature et les brise-glace amarrés à l'extérieur. Achetez les billets en ligne pour éviter le guichet ; c'est une marche de 20 minutes le long du front de mer depuis la vieille ville ou un court taxi depuis Kadriorg.",
+              durationMin: 120,
+            },
+            {
+              text: "Si le temps tient, parcourez le front de mer côté Kalamaja et Pirita pour revenir vers le centre, ou prenez le tram, en captant la lumière de la Baltique sur la mer. Ce versant vert et balnéaire de Tallinn est ce que le plan de deux jours manque.",
+              durationMin: 60,
+            },
+          ],
+          evening: [
+            {
+              text: "Dernier dîner de retour dans la vieille ville ou à Kalamaja pour une ultime tournée de cuisine baltique et de bière locale bon marché. Un apéritif sur une terrasse de Telliskivi d'abord si la soirée est douce.",
+              durationMin: 120,
+            },
+            {
+              text: "Si demain c'est un vol tôt, souvenez-vous que l'aéroport n'est qu'à 4 km : la ligne de tram 4 relie le centre au terminal en 15 minutes environ pour quelques euros sur un tap sans contact, ou un Bolt tourne autour de 8 à 12 EUR.",
+              durationMin: 30,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export default tallinnFr;

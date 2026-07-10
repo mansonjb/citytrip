@@ -1,0 +1,517 @@
+import type { CityData } from "../types";
+
+const tallinnPt: CityData = {
+  city: {
+    slug: "tallinn",
+    name: "Tallinn",
+    country: "Estonia",
+    countrySlug: "estonia",
+    lat: 59.4370,
+    lng: 24.7536,
+    tier: 3,
+    idealDays: 2,
+    durations: [2, 3],
+    airportCode: "TLL",
+    airportToCenter:
+      "O aeroporto Lennart Meri de Tallinn fica a apenas cerca de 4km a sudeste do centro, por isso as transferencias sao rapidas e baratas. O eletrico da linha 4 vai de uma paragem mesmo a saida do terminal ate a beira da cidade velha e ao centro em cerca de 15 minutos; encoste um cartao bancario contactless ao validador por uns dois euros. Um Bolt ou taxi faz o mesmo percurso em cerca de 10 minutos por uns 8 a 12 EUR, o que compensa com bagagem ou depois de uma chegada tardia.",
+    centerWalkable: true,
+    bestMonths: [5, 6, 7, 8, 9],
+    avoidMonths: [1, 2],
+    monthlyNotes: {
+      1: "Pleno inverno, com maximas perto do zero, neve frequente e apenas cerca de seis horas de luz do dia, por isso planeie paragens de interior e curtas incursoes ao ar livre. Os precos estao no seu minimo e a cidade velha fica no seu melhor sob a neve, mas leve boas botas e um casaco quente, ja que os passeios ficam cobertos de gelo.",
+      2: "Ainda frio e escuro, a volta dos menos 2C, muitas vezes o periodo mais nevado do ano, com o proprio Baltico por vezes gelado junto a costa. As multidoes sao escassas e os hoteis baratos; e a altura mais sossegada e cheia de atmosfera para ter as ruelas medievais quase so para si.",
+      3: "O frio alivia devagar em direcao a maximas perto dos 2C, a neve prolonga-se pelo mes e os dias alongam-se depressa a medida que a primavera se aproxima. Os precos mantem-se baixos e a luz regressa, mas conte com lama cinzenta debaixo dos pes e mantenha as camadas de inverno.",
+      4: "Um mes de meia-estacao a subir para uns 9C, com a neve ida e os parques a comecar a verdejar, embora a chuva e o vento cortante sejam comuns. Os precos de quarto ainda sao modestos e a cidade velha esta calma antes de a epoca de verao ganhar forca.",
+      5: "Uma das melhores janelas: maximas perto dos 15C, dias longos e luminosos e o parque de Kadriorg em flor antes de as multidoes de pico e os navios de cruzeiro chegarem em forca. As esplanadas reabrem e a cidade sente-se viva sem o aperto de julho.",
+      6: "Verao ameno a volta dos 19C com uma luz do dia espantosamente longa por volta do solsticio, quando o ceu mal escurece. Os Tallinn Old Town Days enchem o nucleo medieval de musica e mercados no inicio de junho, mas repare que a cidade esvazia-se no Jaanipaev, por volta de 23 a 24 de junho, quando os locais partem para o campo.",
+      7: "O mes mais quente, a volta dos 21C, epoca de pico com as filas mais longas e as maiores multidoes de dia dos navios de cruzeiro na cidade velha a partir do meio da manha. Reserve com antecedencia e visite a Raekoja plats cedo ou tarde para escapar aos grupos de excursao.",
+      8: "Ainda quente, a volta dos 21C, e movimentado, com longos seroes de luz ideais para a beira-mar em Pirita e Kadriorg. As multidoes dos cruzeiros persistem na cidade velha de dia mas rareiam a hora do jantar, e nadar em agua morna torna-se por breves periodos plausivel.",
+      9: "Um esperto mes de meia-estacao a abrandar para uns 16C, com a epoca de cruzeiros a terminar e a cor do outono a chegar a Kadriorg. Os dias encurtam de forma notoria, mas os precos descem e as ruelas acalmam, tornando-a uma das melhores alturas em conta para visitar.",
+      10: "Fresco e cada vez mais chuvoso, a volta dos 10C, com o por do sol cedo e as primeiras geadas, embora a cidade velha se mantenha fotogenica sob a luz dourada rasante. As multidoes foram-se e os precos estao baixos; leve um impermeavel e camadas quentes.",
+      11: "Cinzento, humido e frio perto dos 4C, com a mais curta reta final para o inverno e longos seroes escuros. E o mes mais sossegado e mais barato, e o mercado de Natal na Raekoja plats costuma abrir na ultima semana para animar o ambiente.",
+      12: "Frio e escuro, a volta do zero, com neve provavel e apenas cerca de seis horas de luz do dia, mas o mercado de Natal da Praca da Camara Municipal, um dos mais antigos e bonitos da Europa, decorre ao longo do mes com vinho quente e uma arvore gigante. Reserve com antecedencia para o pico das festas e do Ano Novo.",
+    },
+    climate: {
+      1: { highC: -2, lowC: -6, rainyDays: 12 },
+      2: { highC: -2, lowC: -7, rainyDays: 9 },
+      3: { highC: 2, lowC: -4, rainyDays: 9 },
+      4: { highC: 9, lowC: 1, rainyDays: 9 },
+      5: { highC: 15, lowC: 6, rainyDays: 9 },
+      6: { highC: 19, lowC: 10, rainyDays: 10 },
+      7: { highC: 21, lowC: 13, rainyDays: 11 },
+      8: { highC: 21, lowC: 12, rainyDays: 12 },
+      9: { highC: 16, lowC: 8, rainyDays: 12 },
+      10: { highC: 10, lowC: 4, rainyDays: 13 },
+      11: { highC: 4, lowC: 0, rainyDays: 14 },
+      12: { highC: 0, lowC: -4, rainyDays: 13 },
+    },
+    budgetLevel: "mid",
+    budgetPerDay: { budget: 55, mid: 110, high: 220 },
+    tagline: "Uma cidade velha muralhada de conto de fadas no Baltico, toda torres e telhados vermelhos, barata e percorrivel a pe em dois dias faceis.",
+    heroIntro:
+      "Tallinn concentra uma cidade velha compacta e classificada pela UNESCO, de ruelas de calcada, torres medievais e casas de mercadores, num nucleo que se ve num so dia a pe. Suba a cidade alta em Toompea para o miradouro de Kohtuotsa sobre um mar de telhados vermelhos e torres de igreja, e depois desca ate ao moderno bairro de Kalamaja e a Telliskivi Creative City para um contraponto moderno de arte urbana, cafes e mercados cobertos. E uma capital digital, a e-Estonia, que se mantem barata para os padroes nordicos, por isso os seus euros rendem. So venha preparado para duas coisas: as multidoes dos cruzeiros que inundam a cidade velha ao meio-dia antes de esvaziarem ao serao, e os invernos frios e escuros que recompensam com os precos de quarto mais baixos do ano.",
+    accent: { from: "#256B6B", to: "#C24A3A", ink: "#123A3A" },
+    neighborhoodSlugs: [
+      "old-town",
+      "kalamaja",
+      "rotermann",
+      "kadriorg",
+      "city-centre",
+    ],
+    nearbyCitySlugs: ["stockholm"],
+  },
+  neighborhoods: [
+    {
+      slug: "old-town",
+      citySlug: "tallinn",
+      name: "Cidade Velha (Vanalinn)",
+      lat: 59.4372,
+      lng: 24.7453,
+      bestFor: ["first-time", "romantic"],
+      vibe: "O nucleo medieval muralhado divide-se na cidade baixa das casas de guilda e das pracas de mercado e na cidade alta de Toompea, casa do castelo e dos classicos miradouros de telhados vermelhos. Todos os grandes monumentos ficam a dez minutos a pe da Raekoja plats, por isso uma base aqui numa primeira visita significa poder estar entre as torres antes de as multidoes dos cruzeiros chegarem. E cheia de atmosfera e bonita mas turistica, e as calcadas sao duras para malas de rodas e saltos altos.",
+      pros: [
+        "Todos os grandes monumentos, miradouros e as muralhas da cidade a poucos minutos a pe",
+        "As ruelas iluminadas sao suas ao serao assim que os visitantes de um dia partem",
+        "A base mais romantica e fotogenica da cidade",
+      ],
+      cons: [
+        "Multidoes densas de navios de cruzeiro e de grupos de excursao do meio da manha ao inicio do serao",
+        "Os restaurantes na Raekoja plats tem os precos mais turisticos da cidade",
+        "As ruelas de calcada ingremes sao dificeis com bagagem ou mobilidade reduzida",
+      ],
+    },
+    {
+      slug: "kalamaja",
+      citySlug: "tallinn",
+      name: "Kalamaja",
+      lat: 59.4470,
+      lng: 24.7360,
+      bestFor: ["local", "budget"],
+      vibe: "O moderno bairro de casas de madeira mesmo a noroeste da cidade velha transformou as suas antigas fabricas na Telliskivi Creative City, um polo de estudios, arte urbana, bares e feiras da ladra de fim de semana. O enorme mercado coberto Balti Jaam fica na sua beira para comida barata e produtos frescos, e toda a zona parece vivida e criativa em vez de encenada para os visitantes. Baseie-se aqui pelos precos mais baixos e pela verdadeira cena local, a dez minutos a pe ou a uma paragem de eletrico do nucleo medieval.",
+      pros: [
+        "Comer e beber com a melhor relacao qualidade-preco, mais o mercado coberto Balti Jaam para refeicoes baratas",
+        "A Telliskivi Creative City, arte urbana e design independente a sua porta",
+        "Ambiente genuinamente local a uma curta caminhada da cidade velha",
+      ],
+      cons: [
+        "Menos grandes monumentos nas ruas imediatas",
+        "Alguns quarteiroes junto a linha ferrea ainda estao um pouco degradados",
+        "A oferta de alojamento pende para guesthouses e apartamentos em vez de grandes hoteis",
+      ],
+    },
+    {
+      slug: "rotermann",
+      citySlug: "tallinn",
+      name: "Bairro Rotermann",
+      lat: 59.4390,
+      lng: 24.7580,
+      bestFor: ["first-time", "nightlife"],
+      vibe: "Um bairro regenerado de antigos armazens de calcario e tijolo reconvertidos em arquitetura moderna arrojada, encaixado entre a cidade velha e o porto de passageiros. Esta cheio de lojas de design, restaurantes e bares, por isso os seroes mantem-se movimentados e os ferries do porto para Helsinquia e Estocolmo ficam a uma curta caminhada. Fique aqui para uma base elegante e contemporanea que ainda poe o nucleo medieval a cinco minutos a pe para oeste.",
+      pros: [
+        "Design moderno e apurado, restaurantes e bares para uma noite animada",
+        "Cinco minutos a pe tanto da cidade velha como dos terminais de ferry",
+        "Um contraponto de hotel moderno as ruelas medievais",
+      ],
+      cons: [
+        "Pouco espaco verde e um ambiente de betao mais duro",
+        "Algumas ruas sao sossegadas e formais fora das zonas de bares",
+        "Menos monumentos classicos dentro do proprio bairro",
+      ],
+    },
+    {
+      slug: "kadriorg",
+      citySlug: "tallinn",
+      name: "Kadriorg",
+      lat: 59.4380,
+      lng: 24.7900,
+      bestFor: ["family", "romantic"],
+      vibe: "Um frondoso bairro a beira-mar a cerca de 2km a leste do centro, construido a volta do barroco Palacio de Kadriorg e do seu parque formal, que Pedro, o Grande, iniciou em 1718. O imponente museu de arte KUMU fica no parque, e ruas ladeadas de arvores com vivendas de madeira descem em direcao a frente de mar e ao passeio de Pirita. Baseie-se aqui para uma estadia calma, verde e romantica a pensar em familias, a uma curta viagem de eletrico da cidade velha.",
+      pros: [
+        "O palacio, os jardins formais e o museu de arte KUMU todos num so parque",
+        "Ruas verdes e sossegadas e facil acesso ao passeio a beira-mar",
+        "Mais calmo e mais espacoso do que a apinhada cidade velha",
+      ],
+      cons: [
+        "A 10 a 15 minutos de eletrico do nucleo medieval e da vida noturna",
+        "Menos restaurantes e bares nas ruas imediatas",
+        "Oferta limitada de hoteis, sobretudo apartamentos e pequenas guesthouses",
+      ],
+    },
+    {
+      slug: "city-centre",
+      citySlug: "tallinn",
+      name: "Centro da Cidade (Sudalinn)",
+      lat: 59.4310,
+      lng: 24.7530,
+      bestFor: ["budget", "first-time"],
+      vibe: "O moderno coracao de negocios logo a sul da cidade velha reune os hoteis mais altos, o centro comercial Viru e as entradas do Solaris e do portao Viru para as ruelas medievais. E a escolha pratica e bem ligada, com terminais de eletrico e de autocarro e o eletrico da linha 4 do aeroporto a passar todos por ali. Baseie-se aqui pela relacao qualidade-preco fiavel de hotel de gama media e pelo salto mais curto tanto para a cidade velha como para as ligacoes de transporte.",
+      pros: [
+        "A melhor relacao qualidade-preco de hotel de gama media e escolha de cadeias",
+        "A poucos passos do portao Viru para a cidade velha e dos principais centros comerciais",
+        "Eletrico, autocarro e a linha 4 do aeroporto convergem todos aqui",
+      ],
+      cons: [
+        "Moderno e funcional em vez de cheio de carater",
+        "Algumas zonas sao blocos de escritorios e transito em vez de charme",
+        "A zona do Viru fica movimentada e impessoal a hora de ponta",
+      ],
+    },
+  ],
+  pois: [
+    {
+      slug: "town-hall-square",
+      citySlug: "tallinn",
+      name: "Praca da Camara Municipal e a Camara Gotica",
+      lat: 59.4372,
+      lng: 24.7453,
+      kind: "sight",
+      needsBooking: false,
+      tip: "A Raekoja plats e gratuita e esta aberta todo o dia, rodeada de casas de mercadores em tons pastel e ancorada pela camara gotica de 1404, a unica do genero que sobrevive no norte da Europa. Suba a torre por uma pequena taxa no verao, e venha antes das 10h ou depois de os navios de cruzeiro partirem para fotografar a praca sem as multidoes; em dezembro enche-se com o mercado de Natal e uma arvore gigante.",
+    },
+    {
+      slug: "kohtuotsa-viewpoint",
+      citySlug: "tallinn",
+      name: "Miradouro de Kohtuotsa",
+      lat: 59.4390,
+      lng: 24.7420,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Esta e a classica vista de postal gratuita sobre os telhados vermelhos, as torres e o porto da cidade baixa, na beira leste de Toompea junto ao muro com a inscricao 'The Times We Had'. Fica movimentada, por isso chegue cedo para uma foto limpa, e depois caminhe dois minutos ate ao mais sossegado miradouro de Patkuli, no lado norte, para as torres e o mar ao fundo.",
+    },
+    {
+      slug: "patkuli-viewpoint",
+      citySlug: "tallinn",
+      name: "Miradouro de Patkuli",
+      lat: 59.4400,
+      lng: 24.7400,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "O segundo miradouro gratuito de Toompea olha para noroeste sobre o conjunto de torres da muralha da cidade velha, a estacao de comboios e o Baltico, e costuma estar menos apinhado do que o Kohtuotsa. Uma longa escadaria desce daqui diretamente em direcao ao mercado Balti Jaam e a Kalamaja, por isso use-a para ligar a cidade alta ao bairro moderno numa so caminhada.",
+    },
+    {
+      slug: "alexander-nevsky-cathedral",
+      citySlug: "tallinn",
+      name: "Catedral de Alexander Nevsky",
+      lat: 59.4358,
+      lng: 24.7386,
+      kind: "sight",
+      needsBooking: false,
+      tip: "A catedral ortodoxa russa de cupulas em bolbo em frente ao Castelo de Toompea foi concluida em 1900 e o seu interior de icones e mosaicos e de entrada gratuita, embora nao seja permitido fotografar la dentro e os ombros devam estar cobertos. Marque a visita para a hora certa para ouvir os seus onze sinos, e depois atravesse a praca ate ao parlamento.",
+    },
+    {
+      slug: "st-olafs-church",
+      citySlug: "tallinn",
+      name: "Torre da Igreja de Sao Olavo",
+      lat: 59.4413,
+      lng: 24.7476,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Outrora tida como o edificio mais alto do mundo por volta de 1500, a torre de Sao Olavo esta aberta para subir por epocas, normalmente de abril a outubro, por uma pequena taxa em dinheiro, por uma escadaria em espiral muito apertada e ingreme de 258 degraus sem elevador. A recompensa e uma vista de 360 graus sobre a cidade velha e o mar, mas salte-a se tiver problemas de joelhos ou de claustrofobia.",
+    },
+    {
+      slug: "toompea-castle",
+      citySlug: "tallinn",
+      name: "Castelo de Toompea e o Parlamento",
+      lat: 59.4358,
+      lng: 24.7376,
+      kind: "sight",
+      needsBooking: false,
+      tip: "O Castelo de Toompea alberga o Riigikogu, o parlamento da Estonia, por tras de uma fachada rosa do seculo XVIII, com a torre medieval Tall Hermann onde a bandeira nacional e hasteada ao nascer do sol todos os dias. O patio e de acesso livre, e ha visitas guiadas gratuitas ao parlamento em alguns dias de semana se reservar com antecedencia atraves do site do Riigikogu.",
+    },
+    {
+      slug: "town-walls-kiek-in-de-kok",
+      citySlug: "tallinn",
+      name: "Muralhas da Cidade e Kiek in de Kok",
+      lat: 59.4345,
+      lng: 24.7400,
+      kind: "sight",
+      needsBooking: true,
+      tip: "Quase 2km da muralha medieval e cerca de 20 das suas torres ainda estao de pe, entre as mais bem preservadas da Europa, e o museu da torre de artilharia Kiek in de Kok liga-se as subterraneas Passagens do Bastiao num bilhete com hora marcada, melhor reservado online. Para uma visita mais barata, o troco separado da Torre Hellemann e do caminho de muralha permite percorrer as ameias entre torres por uns euros.",
+    },
+    {
+      slug: "st-catherines-passage",
+      citySlug: "tallinn",
+      name: "Passagem de Santa Catarina e as Ruelas dos Oficios",
+      lat: 59.4375,
+      lng: 24.7480,
+      kind: "sight",
+      needsBooking: false,
+      tip: "A Katariina kaik e uma estreita ruela medieval coberta que liga as ruas Vene e Muurivahe, ladeada pelas oficinas da Guilda de Santa Catarina onde sopradores de vidro, oleiros e chapeleiros trabalham de portas abertas. E de acesso livre e os estudios funcionam em horario de dia, por isso venha a tarde, e depois espreite os vendedores de camisolas de la ao longo do muro na Muurivahe.",
+    },
+    {
+      slug: "telliskivi-balti-jaam",
+      citySlug: "tallinn",
+      name: "Telliskivi Creative City e o Mercado Balti Jaam",
+      lat: 59.4425,
+      lng: 24.7370,
+      kind: "experience",
+      needsBooking: false,
+      tip: "A Telliskivi Creative City ocupa um antigo complexo fabril ferroviario em Kalamaja com estudios, murais de arte urbana, bares e uma feira da ladra ao sabado de manha, enquanto o vizinho mercado coberto Balti Jaam empilha comida de rua barata, produtos frescos e bancas vintage por varios pisos. Ambos sao de acesso livre e ficam a dez minutos a pe a noroeste da cidade velha, melhor aproveitados por volta da hora de almoco.",
+    },
+    {
+      slug: "kadriorg-kumu",
+      citySlug: "tallinn",
+      name: "Palacio de Kadriorg e o Museu de Arte KUMU",
+      lat: 59.4380,
+      lng: 24.7910,
+      kind: "museum",
+      needsBooking: false,
+      tip: "Pedro, o Grande, iniciou o barroco Palacio de Kadriorg e o seu parque formal em 1718, e o palacio mostra hoje arte classica estrangeira enquanto o enorme edificio moderno KUMU ali perto guarda a colecao nacional de arte estoniana do seculo XVIII ate hoje. O KUMU fecha as segundas e tercas fora de epoca, por isso verifique os horarios; o proprio parque e gratuito e vale a viagem de 15 minutos no eletrico 1 ou 3 para leste.",
+    },
+    {
+      slug: "seaplane-harbour",
+      citySlug: "tallinn",
+      name: "Porto dos Hidroavioes (Lennusadam)",
+      lat: 59.4520,
+      lng: 24.7290,
+      kind: "museum",
+      needsBooking: true,
+      tip: "Este museu maritimo ocupa um vasto hangar de hidroavioes de 1917 com o submarino Lembit de 1936 onde se entra, um hidroaviao em tamanho real e modelos de navios, e quebra-gelos atracados que se pode visitar la fora. E genuinamente familiar e interativo; compre os bilhetes online para saltar a bilheteira, e chegue la numa caminhada de 20 minutos ao longo da frente de mar de Kalamaja a partir da cidade velha.",
+    },
+    {
+      slug: "olde-hansa",
+      citySlug: "tallinn",
+      name: "Banquete Medieval Olde Hansa",
+      lat: 59.4368,
+      lng: 24.7460,
+      kind: "food",
+      needsBooking: true,
+      tip: "Esta taberna de tema medieval a luz de velas junto a Raekoja plats serve pratos de caca, urso e alce com cerveja de mel, com pessoal em trajes de epoca e sem luz eletrica, e e divertida pelo teatro que oferece. Nao se iluda: e uma experiencia com precos turisticos, por isso reserve mesa pela atmosfera e nao pela relacao qualidade-preco, e conte com uma conta bem acima de um jantar normal em Tallinn.",
+    },
+    {
+      slug: "estonian-open-air-museum",
+      citySlug: "tallinn",
+      name: "Museu ao Ar Livre da Estonia",
+      lat: 59.4300,
+      lng: 24.6540,
+      kind: "park",
+      needsBooking: false,
+      tip: "Este museu ao ar livre de 72 hectares em Rocca al Mare, a cerca de 8km a oeste do centro, reune casas de quinta de madeira transferidas, uma igreja, uma escola e moinhos de vento por um parque arborizado a beira-mar, com pessoal no verao a fazer demonstracoes de oficios. Reserve meio dia e chegue la no autocarro 21 a partir da estacao Balti Jaam; e uma opcao facil se tiver um terceiro dia e quiser espaco verde e a historia rural estoniana.",
+    },
+  ],
+  itineraries: [
+    {
+      citySlug: "tallinn",
+      days: 2,
+      summary:
+        "Dois dias inteiros chegam de sobra para o coracao de Tallinn, porque o nucleo medieval e minusculo e inteiramente percorrivel a pe. O truque e planear em torno dos navios de cruzeiro: a cidade velha enche-se de multidoes de dia do meio da manha ate ao fim da tarde, e depois esvazia-se para o serao, por isso comece cedo na Raekoja plats e nos miradouros de Toompea antes de os grupos de excursao subirem a colina. Instale-se na cidade velha ou no centro da cidade ali perto para estar entre as torres logo de manha e poder voltar a pe por pracas iluminadas a noite. O primeiro dia cobre a cidade alta e a baixa: a Praca da Camara Municipal, os miradouros de Kohtuotsa e Patkuli, a Catedral de Alexander Nevsky, o Castelo de Toompea, as muralhas da cidade e a Passagem de Santa Catarina. O segundo dia atravessa para a moderna Kalamaja pela Telliskivi e o mercado Balti Jaam, e depois sobe a torre de Sao Olavo e percorre as ameias. Tallinn e barata para os padroes nordicos, por isso coma bem fora da praca principal. O que se abdica a este ritmo e Kadriorg e o Porto dos Hidroavioes; para esses, acrescente a versao de tres dias.",
+      stayNeighborhoodSlug: "old-town",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "A cidade velha medieval, alta e baixa",
+          morning: [
+            {
+              poiSlug: "town-hall-square",
+              text: "Comece na Raekoja plats antes das 10h, enquanto a praca esta sossegada e a luz esta limpa, e aprecie a camara gotica de 1404, a unica do genero que sobrevive no norte da Europa. Tome um cafe num cafe fora da praca, onde os precos sao metade.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "kohtuotsa-viewpoint",
+              text: "Suba a cidade alta em Toompea e chegue ao miradouro gratuito de Kohtuotsa para a vista classica sobre os telhados vermelhos e as torres, chegando la cedo antes dos grupos de excursao. Caminhe dois minutos ate ao miradouro de Patkuli para as torres e o mar.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "alexander-nevsky-cathedral",
+              text: "Atravesse ate a Catedral de Alexander Nevsky, de cupulas em bolbo, de entrada gratuita com os seus icones e mosaicos, e marque a visita para a hora certa para ouvir os onze sinos. Repare que nao e permitido fotografar la dentro e os ombros devem estar cobertos.",
+              durationMin: 30,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "toompea-castle",
+              text: "Atravesse a praca ate ao Castelo de Toompea, casa do parlamento da Estonia por tras da sua fachada rosa e da torre Tall Hermann onde a bandeira e hasteada ao nascer do sol. O patio e de acesso livre antes de descer a colina para almocar.",
+              durationMin: 40,
+            },
+            {
+              text: "Almoce umas ruelas atras da Raekoja plats, onde uma taca de sopa de alce estoniana ou um prato de pelmeni custa uma fracao das mesas junto a praca. Mantenha-o leve antes da caminhada da tarde.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "town-walls-kiek-in-de-kok",
+              text: "Explore as muralhas da cidade, entre as mais bem preservadas da Europa, e a torre de artilharia Kiek in de Kok com as suas subterraneas Passagens do Bastiao num bilhete com hora marcada reservado online. Para um caminho de muralha mais barato, percorra antes as ameias a partir da Torre Hellemann.",
+              durationMin: 75,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "st-catherines-passage",
+              text: "Passeie pela Passagem de Santa Catarina ao fim da tarde enquanto as oficinas da Guilda de Santa Catarina ainda tem as portas abertas, e depois espreite os vendedores de camisolas de la ao longo do muro da Muurivahe. E gratuita e cheia de atmosfera a medida que as multidoes do dia rareiam.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "olde-hansa",
+              text: "Para jantar, ou reserve o banquete medieval Olde Hansa a luz de velas junto a praca pelo teatro que oferece, sabendo que tem precos turisticos, ou escolha um pequeno restaurante de cave para uma cozinha baltica com melhor relacao qualidade-preco. Seja como for, percorra as ruelas iluminadas tarde, assim que as multidoes dos cruzeiros se forem.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "Kalamaja, o mercado e as ameias",
+          morning: [
+            {
+              poiSlug: "st-olafs-church",
+              text: "Se for de abril a outubro, suba a torre de Sao Olavo logo de manha pela apertada espiral de 258 degraus para a vista de 360 graus sobre a cidade velha e o mar, pagando a pequena taxa em dinheiro em baixo. Salte-a no inverno, quando fecha, e va cedo para escapar a fila nas escadas estreitas.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "telliskivi-balti-jaam",
+              text: "Caminhe para noroeste ate Kalamaja, a Telliskivi Creative City, pela sua arte urbana, estudios e bares, apontando para o fim da manha. Atravesse para o vizinho mercado coberto Balti Jaam para um almoco barato de comida de rua pelos seus varios pisos de bancas.",
+              durationMin: 120,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Passeie pelas ruas de casas de madeira de Kalamaja, um dos bairros mais cheios de carater de Tallinn, e siga pela frente de mar de volta a cidade velha. E aqui que a cidade parece vivida em vez de encenada para os visitantes.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "patkuli-viewpoint",
+              text: "Suba a longa escadaria de Patkuli de volta a Toompea para um segundo olhar sobre as torres do alto, mais sossegado agora do que as multidoes da manha permitiram. Daqui desca em volta pelas ruelas da cidade alta que ficaram por ver.",
+              durationMin: 45,
+            },
+          ],
+          evening: [
+            {
+              text: "Siga para o Bairro Rotermann, a leste da cidade velha, pelos seus armazens reconvertidos, lojas de design e uma cena de bares mais movimentada, a cinco minutos a pe do nucleo medieval. E o contraponto moderno as ruelas e um bom sitio para jantar e beber um copo.",
+              durationMin: 90,
+            },
+            {
+              text: "Termine com uma ultima volta lenta pela Raekoja plats depois de escurecer, quando a praca esta iluminada e quase vazia. Se tiver um voo cedo, lembre-se de que o eletrico da linha 4 do aeroporto vai do centro ate ao terminal em cerca de 15 minutos por uns dois euros.",
+              durationMin: 60,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      citySlug: "tallinn",
+      days: 3,
+      summary:
+        "Tres dias sao a dose confortavel para Tallinn: chegam para o nucleo medieval mais os museus a beira-mar e o espaco verde que uma correria de dois dias salta. A cidade velha e pequena e percorrivel a pe, por isso o primeiro e o segundo dia cobrem a cidade alta e a baixa, os miradouros, as muralhas e a moderna Kalamaja a um ritmo sem pressas, comecando ainda assim cedo para escapar as multidoes dos cruzeiros que enchem as ruelas ao meio da manha. O dia extra compra-lhe o lado mais calmo e mais verde da cidade: o barroco Palacio de Kadriorg e o seu parque com o excelente museu de arte KUMU, e depois o submarino onde se entra e os hidroavioes do Porto dos Hidroavioes, na frente de mar de Kalamaja. Fique na cidade velha pelas noites medievais, ou em Kalamaja pelos precos mais baixos e a cena local a uma paragem de eletrico. Tallinn mantem-se barata para os padroes nordicos, por isso coma fora da praca principal e use os eletricos de toque contactless para chegar a Kadriorg em 15 minutos. Venha de maio a setembro pela luz longa e pelas esplanadas abertas; em dezembro, o mercado de Natal da Praca da Camara Municipal e um dos mais antigos e bonitos da Europa.",
+      stayNeighborhoodSlug: "old-town",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "A cidade velha medieval, alta e baixa",
+          morning: [
+            {
+              poiSlug: "town-hall-square",
+              text: "Abra na Raekoja plats antes de os navios atracarem, apreciando a camara gotica de 1404 e o circulo de casas de mercadores em tons pastel no sossego da manha. Um cafe fora da praca mantem o preco sensato.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "kohtuotsa-viewpoint",
+              text: "Suba a Toompea ate ao miradouro gratuito de Kohtuotsa para a vista dos telhados vermelhos, depois o vizinho miradouro de Patkuli para as torres e o mar, ambos cedo antes de os grupos de excursao chegarem.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "alexander-nevsky-cathedral",
+              text: "Visite a gratuita Catedral de Alexander Nevsky, em frente ao castelo, pelos seus icones e mosaicos, idealmente a hora certa para os sinos. Cubra os ombros e deixe a maquina fotografica no saco la dentro.",
+              durationMin: 30,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "toompea-castle",
+              text: "Entre no patio gratuito do Castelo de Toompea, sede do parlamento da Estonia, sob a torre da bandeira Tall Hermann, e depois desca para almocar. Reserve com antecedencia uma visita gratuita ao parlamento atraves do site do Riigikogu se o horario der jeito.",
+              durationMin: 40,
+            },
+            {
+              text: "Almoce umas ruelas fora da praca principal com comida de conforto estoniana como sopa de alce ou pelmeni, a uma fracao dos precos da Raekoja plats. Mantenha-o leve antes das muralhas.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "town-walls-kiek-in-de-kok",
+              text: "Percorra as muralhas medievais da cidade e a torre Kiek in de Kok com as suas subterraneas Passagens do Bastiao num bilhete online com hora marcada, ou percorra o mais barato caminho de muralha da Torre Hellemann. As muralhas aqui estao entre as mais bem preservadas da Europa.",
+              durationMin: 75,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "st-catherines-passage",
+              text: "Passe pela Passagem de Santa Catarina enquanto as oficinas da guilda mantem as portas abertas, e depois espreite os vendedores de la ao longo do muro da Muurivahe. Gratuita e melhor a luz do fim da tarde.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "olde-hansa",
+              text: "O jantar e ou o banquete Olde Hansa a luz de velas pelo teatro medieval, com precos turisticos e so vale a pena pela atmosfera, ou um restaurante de cave para uma cozinha baltica com melhor relacao qualidade-preco. Percorra a praca iluminada tarde, assim que as multidoes se forem.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "A torre de Sao Olavo e Kalamaja",
+          morning: [
+            {
+              poiSlug: "st-olafs-church",
+              text: "Em epoca, de abril a outubro, suba a torre em espiral de 258 degraus de Sao Olavo logo de manha para a vista de 360 graus, pagando a pequena taxa em dinheiro em baixo. Va cedo para escapar a fila nas escadas apertadas, e salte-a se estiver fechada no inverno.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "telliskivi-balti-jaam",
+              text: "Siga para noroeste ate Kalamaja, a Telliskivi Creative City, pela arte urbana, estudios e bares, e depois coma barato pelos varios pisos do mercado coberto Balti Jaam. Melhor por volta do fim da manha e da hora de almoco.",
+              durationMin: 120,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Passeie pelas ruas de casas de madeira de Kalamaja, o bairro mais cheio de carater da cidade, seguindo a linha da costa. E a Tallinn tal como os locais a vivem, a uma curta caminhada do nucleo medieval.",
+              durationMin: 60,
+            },
+            {
+              text: "Volte pelo Bairro Rotermann, a leste da cidade velha, pelos seus armazens reconvertidos e lojas de design, uma pausa moderna das ruelas medievais. Um cafe e uma vista de olhos antes do serao.",
+              durationMin: 60,
+            },
+          ],
+          evening: [
+            {
+              text: "Jante no Rotermann ou na beira da cidade velha, onde a cena de bares e mais animada e os precos mais justos do que na praca principal. Tallinn e barata para os padroes nordicos, por isso uma boa refeicao e uns copos mantem-se acessiveis.",
+              durationMin: 120,
+            },
+            {
+              text: "Termine com uma ultima volta lenta pelas ruelas iluminadas da cidade velha depois de escurecer, quando as multidoes do dia ja se foram ha muito. No verao a luz mal se desvanece, por isso os seroes prolongam-se tarde e amenos.",
+              durationMin: 45,
+            },
+          ],
+        },
+        {
+          dayNumber: 3,
+          theme: "Kadriorg, o KUMU e o Porto dos Hidroavioes",
+          morning: [
+            {
+              poiSlug: "kadriorg-kumu",
+              text: "Apanhe o eletrico 1 ou 3 para leste cerca de 15 minutos ate Kadriorg, percorra o parque formal gratuito que Pedro, o Grande, iniciou em 1718, e visite o palacio barroco e o moderno museu KUMU de arte estoniana. Verifique os horarios, ja que o KUMU fecha as segundas e tercas fora de epoca.",
+              durationMin: 180,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "seaplane-harbour",
+              text: "Va ate ao museu maritimo do Porto dos Hidroavioes, no seu hangar de 1917, pelo submarino Lembit onde se entra, um hidroaviao em tamanho real e os quebra-gelos atracados la fora. Compre os bilhetes online para saltar a bilheteira; e uma caminhada de 20 minutos pela frente de mar a partir da cidade velha ou um curto taxi desde Kadriorg.",
+              durationMin: 120,
+            },
+            {
+              text: "Se o tempo aguentar, percorra a frente de mar do lado de Kalamaja e de Pirita de volta ao centro, ou apanhe o eletrico, apanhando a luz do Baltico sobre o mar. Este lado verde e a beira-mar de Tallinn e o que o plano de dois dias perde.",
+              durationMin: 60,
+            },
+          ],
+          evening: [
+            {
+              text: "Ultimo jantar de volta a cidade velha ou a Kalamaja para uma ronda final de cozinha baltica e cerveja local barata. Aperitivo numa esplanada da Telliskivi primeiro, se o serao estiver ameno.",
+              durationMin: 120,
+            },
+            {
+              text: "Se amanha e um voo cedo, lembre-se de que o aeroporto fica a apenas 4km: o eletrico da linha 4 vai do centro ate ao terminal em cerca de 15 minutos por uns dois euros com um toque contactless, ou um Bolt fica por uns 8 a 12 EUR.",
+              durationMin: 30,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export default tallinnPt;

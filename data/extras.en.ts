@@ -399,6 +399,54 @@ const extrasEn: Record<string, CityExtras> = {
       "Whale watching",
     ],
   },
+  munich: {
+    citySlug: "munich",
+    image: hero(13762982),
+    imageAlt:
+      "The twin onion domes of the Frauenkirche and the tower of the New Town Hall over the old town of Munich",
+    history:
+      "Munich grew up in 1158 around a settlement of monks, which is where its name, from Munichen, and the little monk on its coat of arms both come from. It became the seat of the Wittelsbach dynasty, who ruled Bavaria for more than 700 years and filled the city with palaces like the Residenz and Nymphenburg while making it a capital of art and music. It was also where the Nazi movement was born in the 1920s and where the 1938 Munich Agreement was signed, though the White Rose students who resisted from the university are remembered across the city. Rebuilt carefully after wartime bombing, Munich reinvented itself as prosperous, green and famously fond of tradition, known now for BMW, FC Bayern, the beer halls and Oktoberfest, first held in 1810 to celebrate a royal wedding.",
+    knownFor: [
+      "Marienplatz",
+      "Oktoberfest",
+      "Beer gardens",
+      "The English Garden",
+      "Neuschwanstein day trip",
+      "BMW and FC Bayern",
+    ],
+  },
+  tallinn: {
+    citySlug: "tallinn",
+    image: hero(35838020),
+    imageAlt:
+      "The red rooftops and church spires of Tallinn's medieval old town with the modern skyline behind at sunset",
+    history:
+      "Tallinn grew as a Hanseatic trading port on the Baltic, and by the 14th and 15th centuries its merchants had raised the walls, guild halls and churches of the old town that still stand almost intact, making it one of the best-preserved medieval cities in Europe. The name is often traced to Taani linn, the Danish town, after the Danes who seized the hill fort in 1219; the upper town of Toompea held the rulers while the German-speaking merchants ran the lower town below. Estonia was absorbed by the Russian empire and then, after a short first independence, by the Soviet Union until 1991, when the peaceful Singing Revolution restored the country. Since then Tallinn has become the showcase of e-Estonia, a place that helped create Skype and runs its government online, all wrapped around a fairy-tale medieval core.",
+    knownFor: [
+      "Medieval old town",
+      "Toompea viewpoints",
+      "Alexander Nevsky Cathedral",
+      "Telliskivi and Kalamaja",
+      "e-Estonia",
+      "Christmas market",
+    ],
+  },
+  oslo: {
+    citySlug: "oslo",
+    image: hero(18170373),
+    imageAlt:
+      "The white marble roof of the Oslo Opera House sloping down to the harbour under a blue sky",
+    history:
+      "Oslo was founded around 1040 and made the capital of Norway by King Haakon V around 1300, but after a devastating fire in 1624 the Danish king Christian IV rebuilt it beside the Akershus fortress and renamed it Christiania, a name it kept until it became Oslo again in 1925. For centuries Norway was ruled from Denmark and then tied to Sweden, and it only won full independence in 1905, when it invited in the king whose descendants still reign today. North Sea oil, discovered in the late 1960s, turned a modest Nordic capital into one of the wealthiest cities on earth, which paid for the waterfront Opera House and the run of new museums along the fjord. Home to the Nobel Peace Prize, awarded here every December, Oslo wraps a compact centre in the forest and fjord that locals ski and sail straight from the city.",
+    knownFor: [
+      "The Opera House",
+      "The Scream",
+      "Vigeland Park",
+      "The Oslofjord",
+      "Nobel Peace Prize",
+      "Holmenkollen",
+    ],
+  },
 };
 
 export default extrasEn;

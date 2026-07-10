@@ -400,6 +400,54 @@ const extrasEs: Record<string, CityExtras> = {
       "El avistamiento de ballenas",
     ],
   },
+  munich: {
+    citySlug: "munich",
+    image: hero(13762982),
+    imageAlt:
+      "Las cúpulas gemelas de cebolla de la Frauenkirche y la torre del Ayuntamiento Nuevo sobre el casco antiguo de Múnich",
+    history:
+      "Múnich surgió en 1158 en torno a un asentamiento de monjes, de donde proceden tanto su nombre, de Munichen, como el monjecito de su escudo. Se convirtió en la sede de la dinastía Wittelsbach, que gobernó Baviera durante más de 700 años y llenó la ciudad de palacios como la Residenz y Nymphenburg mientras la hacía capital del arte y de la música. Fue también donde nació el movimiento nazi en la década de 1920 y donde se firmó el Acuerdo de Múnich de 1938, aunque los estudiantes de la Rosa Blanca que resistieron desde la universidad se recuerdan por toda la ciudad. Reconstruida con cuidado tras los bombardeos de la guerra, Múnich se reinventó como una ciudad próspera, verde y famosa por su apego a la tradición, conocida hoy por BMW, el FC Bayern, las cervecerías y el Oktoberfest, celebrado por primera vez en 1810 para festejar una boda real.",
+    knownFor: [
+      "Marienplatz",
+      "El Oktoberfest",
+      "Los beer gardens",
+      "El Jardín Inglés",
+      "La excursión a Neuschwanstein",
+      "BMW y el FC Bayern",
+    ],
+  },
+  tallinn: {
+    citySlug: "tallinn",
+    image: hero(35838020),
+    imageAlt:
+      "Los tejados rojos y las agujas de las iglesias del casco antiguo medieval de Tallin con el perfil moderno detrás al atardecer",
+    history:
+      "Tallin creció como puerto comercial hanseático en el Báltico, y en los siglos XIV y XV sus mercaderes ya habían levantado las murallas, las salas gremiales y las iglesias del casco antiguo que aún se conservan casi intactas, lo que la convierte en una de las ciudades medievales mejor preservadas de Europa. El nombre suele rastrearse hasta Taani linn, la ciudad danesa, por los daneses que tomaron el fuerte de la colina en 1219; la ciudad alta de Toompea albergaba a los gobernantes mientras que los mercaderes de habla alemana dirigían la ciudad baja de abajo. Estonia fue absorbida por el imperio ruso y luego, tras una breve primera independencia, por la Unión Soviética hasta 1991, cuando la pacífica Revolución Cantada devolvió el país. Desde entonces Tallin se ha convertido en el escaparate de la e-Estonia, un lugar que ayudó a crear Skype y gestiona su gobierno en línea, todo envuelto en torno a un núcleo medieval de cuento de hadas.",
+    knownFor: [
+      "El casco antiguo medieval",
+      "Los miradores de Toompea",
+      "La catedral de Alexander Nevsky",
+      "Telliskivi y Kalamaja",
+      "La e-Estonia",
+      "El mercado navideño",
+    ],
+  },
+  oslo: {
+    citySlug: "oslo",
+    image: hero(18170373),
+    imageAlt:
+      "El tejado de mármol blanco de la Ópera de Oslo bajando hacia el puerto bajo un cielo azul",
+    history:
+      "Oslo fue fundada hacia 1040 y convertida en capital de Noruega por el rey Haakon V hacia 1300, pero tras un incendio devastador en 1624 el rey danés Cristián IV la reconstruyó junto a la fortaleza de Akershus y la rebautizó Christiania, un nombre que mantuvo hasta que volvió a ser Oslo en 1925. Durante siglos Noruega fue gobernada desde Dinamarca y luego quedó atada a Suecia, y solo obtuvo la plena independencia en 1905, cuando llamó al rey cuyos descendientes reinan todavía hoy. El petróleo del mar del Norte, descubierto a finales de la década de 1960, convirtió a una modesta capital nórdica en una de las ciudades más ricas de la tierra, lo que pagó la Ópera del frente marítimo y la serie de nuevos museos a lo largo del fiordo. Sede del Premio Nobel de la Paz, entregado aquí cada diciembre, Oslo envuelve un centro compacto en el bosque y el fiordo por los que los locales esquían y navegan directamente desde la ciudad.",
+    knownFor: [
+      "La Ópera",
+      "El grito",
+      "El parque de Vigeland",
+      "El Oslofjord",
+      "El Premio Nobel de la Paz",
+      "Holmenkollen",
+    ],
+  },
 };
 
 export default extrasEs;

@@ -1,0 +1,517 @@
+import type { CityData } from "../types";
+
+const tallinn: CityData = {
+  city: {
+    slug: "tallinn",
+    name: "Tallinn",
+    country: "Estonia",
+    countrySlug: "estonia",
+    lat: 59.4370,
+    lng: 24.7536,
+    tier: 3,
+    idealDays: 2,
+    durations: [2, 3],
+    airportCode: "TLL",
+    airportToCenter:
+      "Lennart Meri Tallinn Airport sits only about 4km southeast of the centre, so transfers are quick and cheap. Tram line 4 runs from a stop right outside the terminal to the edge of the old town and the centre in about 15 minutes; tap a contactless bank card on the validator for a couple of euros. A Bolt or taxi covers the same run in roughly 10 minutes for around 8 to 12 EUR, which is worth it with luggage or after a late arrival.",
+    centerWalkable: true,
+    bestMonths: [5, 6, 7, 8, 9],
+    avoidMonths: [1, 2],
+    monthlyNotes: {
+      1: "Deep winter with highs near freezing, frequent snow and only about six hours of daylight, so plan indoor stops and short outdoor bursts. Rates are at their lowest and the old town looks its best under snow, but pack proper boots and a warm coat as pavements ice over.",
+      2: "Still cold and dark at around minus 2C, often the snowiest stretch of the year with the Baltic itself sometimes frozen at the shore. Crowds are thin and hotels cheap; this is the quietest, most atmospheric time to have the medieval lanes almost to yourself.",
+      3: "Cold eases slowly toward highs near 2C, snow lingers into the month and days lengthen fast as spring approaches. Prices stay low and the light returns, but expect grey slush underfoot and keep winter layers on.",
+      4: "A shoulder month climbing to around 9C, with snow gone and the parks starting to green up, though rain and raw wind are common. Room rates are still modest and the old town is calm before the summer season builds.",
+      5: "One of the best windows: highs near 15C, long bright days and Kadriorg park in bloom before the peak crowds and cruise ships arrive in force. Terraces reopen and the city feels alive without the July crush.",
+      6: "Mild summer at around 19C with astonishingly long daylight around the solstice, when the sky barely darkens. Tallinn Old Town Days fills the medieval core with music and markets in early June, but note the city empties for Jaanipaev around 23 to 24 June as locals head to the countryside.",
+      7: "The warmest month at around 21C, peak season with the longest queues and heaviest cruise-ship day crowds in the old town from mid-morning. Book ahead and hit Raekoja plats early or late to dodge the tour groups.",
+      8: "Still warm at around 21C and busy, with long light evenings ideal for the seaside at Pirita and Kadriorg. Cruise crowds persist in the old town by day but thin out by dinner, and warm-water swimming is briefly plausible.",
+      9: "A smart shoulder month easing to around 16C, with the cruise season winding down and autumn colour arriving in Kadriorg. Days shorten noticeably but rates fall and the lanes quieten, making it one of the best value times to visit.",
+      10: "Cool and increasingly wet at around 10C, with early sunsets and the first frosts, though the old town stays photogenic under low golden light. Crowds are gone and prices low; pack a waterproof and warm layers.",
+      11: "Grey, damp and cold near 4C with the shortest run-up to winter and long dark evenings. It is the quietest, cheapest month, and the Christmas market on Raekoja plats usually opens in the last week to lift the mood.",
+      12: "Cold and dark at around freezing with snow likely and only about six hours of daylight, but the Town Hall Square Christmas market, one of Europe's oldest and prettiest, runs through the month with mulled wine and a giant tree. Book ahead for the festive and New Year peak.",
+    },
+    climate: {
+      1: { highC: -2, lowC: -6, rainyDays: 12 },
+      2: { highC: -2, lowC: -7, rainyDays: 9 },
+      3: { highC: 2, lowC: -4, rainyDays: 9 },
+      4: { highC: 9, lowC: 1, rainyDays: 9 },
+      5: { highC: 15, lowC: 6, rainyDays: 9 },
+      6: { highC: 19, lowC: 10, rainyDays: 10 },
+      7: { highC: 21, lowC: 13, rainyDays: 11 },
+      8: { highC: 21, lowC: 12, rainyDays: 12 },
+      9: { highC: 16, lowC: 8, rainyDays: 12 },
+      10: { highC: 10, lowC: 4, rainyDays: 13 },
+      11: { highC: 4, lowC: 0, rainyDays: 14 },
+      12: { highC: 0, lowC: -4, rainyDays: 13 },
+    },
+    budgetLevel: "mid",
+    budgetPerDay: { budget: 55, mid: 110, high: 220 },
+    tagline: "A fairy-tale walled old town on the Baltic, all spires and red rooftops, cheap and walkable in two easy days.",
+    heroIntro:
+      "Tallinn packs a compact UNESCO-listed old town of cobbled lanes, medieval towers and merchant houses into a core you can see in a single day on foot. Climb to the upper town on Toompea for the Kohtuotsa viewpoint over a sea of red roofs and church spires, then drop into the hip Kalamaja district and Telliskivi Creative City for a modern counterpoint of street art, cafes and market halls. This is a digital-first e-Estonia capital that stays cheap by Nordic standards, so your euros go far. Just come braced for two things: cruise crowds that swamp the old town midday before emptying by evening, and cold dark winters that reward the lowest room rates of the year.",
+    accent: { from: "#256B6B", to: "#C24A3A", ink: "#123A3A" },
+    neighborhoodSlugs: [
+      "old-town",
+      "kalamaja",
+      "rotermann",
+      "kadriorg",
+      "city-centre",
+    ],
+    nearbyCitySlugs: ["stockholm"],
+  },
+  neighborhoods: [
+    {
+      slug: "old-town",
+      citySlug: "tallinn",
+      name: "Old Town (Vanalinn)",
+      lat: 59.4372,
+      lng: 24.7453,
+      bestFor: ["first-time", "romantic"],
+      vibe: "The medieval walled core splits into the lower town of guild houses and market squares and the upper town of Toompea, home to the castle and the classic red-roof viewpoints. Every headline sight sits within a ten-minute walk of Raekoja plats, so a first-time base here means you can be out among the towers before the cruise crowds land. It is atmospheric and beautiful but touristy, and the cobbles are hard on wheeled cases and heels.",
+      pros: [
+        "Every major sight, viewpoint and the town walls within a few minutes on foot",
+        "Floodlit lanes are yours in the evening once the day-trippers leave",
+        "The most romantic and photogenic base in the city",
+      ],
+      cons: [
+        "Dense cruise-ship and tour-group crowds from mid-morning to early evening",
+        "Restaurants on Raekoja plats are the most tourist-priced in town",
+        "Steep cobbled lanes are tough with luggage or limited mobility",
+      ],
+    },
+    {
+      slug: "kalamaja",
+      citySlug: "tallinn",
+      name: "Kalamaja",
+      lat: 59.4470,
+      lng: 24.7360,
+      bestFor: ["local", "budget"],
+      vibe: "The hip wooden-house district just northwest of the old town has turned its old factories into Telliskivi Creative City, a hub of studios, street art, bars and weekend flea markets. The huge Balti Jaam market hall sits on its edge for cheap eats and produce, and the whole area feels lived-in and creative rather than staged for visitors. Base here for lower prices and the real local scene, a ten-minute walk or one tram stop from the medieval core.",
+      pros: [
+        "Best-value eating and drinking, plus the Balti Jaam market hall for cheap meals",
+        "Telliskivi Creative City, street art and independent design on your doorstep",
+        "Genuinely local atmosphere a short walk from the old town",
+      ],
+      cons: [
+        "Fewer headline sights in the immediate streets",
+        "Some blocks near the railway are still rough around the edges",
+        "Hotel stock leans to guesthouses and apartments over big hotels",
+      ],
+    },
+    {
+      slug: "rotermann",
+      citySlug: "tallinn",
+      name: "Rotermann Quarter",
+      lat: 59.4390,
+      lng: 24.7580,
+      bestFor: ["first-time", "nightlife"],
+      vibe: "A regenerated quarter of old limestone-and-brick warehouses reworked into bold modern architecture, wedged between the old town and the passenger port. It is dense with design shops, restaurants and bars, so evenings stay busy and the port ferries to Helsinki and Stockholm are a short walk away. Stay here for a sleek, contemporary base that still puts the medieval core five minutes on foot to the west.",
+      pros: [
+        "Sharp modern design, restaurants and bars for a lively night out",
+        "Five minutes on foot to both the old town and the ferry terminals",
+        "A modern hotel counterpoint to the medieval lanes",
+      ],
+      cons: [
+        "Little green space and a harder-edged concrete feel",
+        "Some streets are quiet and businesslike outside the bar strips",
+        "Fewer classic sights within the quarter itself",
+      ],
+    },
+    {
+      slug: "kadriorg",
+      citySlug: "tallinn",
+      name: "Kadriorg",
+      lat: 59.4380,
+      lng: 24.7900,
+      bestFor: ["family", "romantic"],
+      vibe: "A leafy seaside district about 2km east of the centre built around the baroque Kadriorg Palace and its formal park, which Peter the Great began in 1718. The grand KUMU art museum sits in the park, and tree-lined streets of wooden villas lead down toward the Pirita seafront and promenade. Base here for a calm, green, romantic stay with families in mind, a short tram ride from the old town.",
+      pros: [
+        "The palace, formal gardens and the KUMU art museum all in one park",
+        "Quiet green streets and easy access to the seaside promenade",
+        "Calmer and more spacious than the packed old town",
+      ],
+      cons: [
+        "A 10 to 15-minute tram ride from the medieval core and nightlife",
+        "Fewer restaurants and bars in the immediate streets",
+        "Limited hotel stock, mostly apartments and small guesthouses",
+      ],
+    },
+    {
+      slug: "city-centre",
+      citySlug: "tallinn",
+      name: "City Centre (Sudalinn)",
+      lat: 59.4310,
+      lng: 24.7530,
+      bestFor: ["budget", "first-time"],
+      vibe: "The modern business heart just south of the old town gathers the tallest hotels, the Viru shopping centre and the Solaris and Viru gate entrances into the medieval lanes. It is the practical, well-connected choice, with tram and bus hubs and airport tram line 4 all passing through. Base here for reliable mid-range hotel value and the shortest hop to both the old town and the transport links.",
+      pros: [
+        "Best mid-range hotel value and choice of chains",
+        "Steps from the Viru gate into the old town and the main malls",
+        "Tram, bus and airport line 4 all converge here",
+      ],
+      cons: [
+        "Modern and functional rather than characterful",
+        "Some stretches are office blocks and traffic rather than charm",
+        "The Viru area gets busy and impersonal at rush hour",
+      ],
+    },
+  ],
+  pois: [
+    {
+      slug: "town-hall-square",
+      citySlug: "tallinn",
+      name: "Town Hall Square and the Gothic Town Hall",
+      lat: 59.4372,
+      lng: 24.7453,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Raekoja plats is free and open all day, ringed by pastel merchant houses and anchored by the 1404 Gothic town hall, the only surviving one of its kind in northern Europe. Climb the tower for a small fee in summer, and come before 10am or after the cruise ships leave to shoot the square without the crowds; in December it fills with the Christmas market and a giant tree.",
+    },
+    {
+      slug: "kohtuotsa-viewpoint",
+      citySlug: "tallinn",
+      name: "Kohtuotsa Viewing Platform",
+      lat: 59.4390,
+      lng: 24.7420,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "This is the classic free postcard view over the lower town's red roofs, spires and the port, on the eastern edge of Toompea by the wall reading 'The Times We Had'. It gets busy, so arrive early for a clear shot, then walk two minutes to the quieter Patkuli platform on the north side for the towers and the sea beyond.",
+    },
+    {
+      slug: "patkuli-viewpoint",
+      citySlug: "tallinn",
+      name: "Patkuli Viewing Platform",
+      lat: 59.4400,
+      lng: 24.7400,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "The second free Toompea viewpoint looks northwest over the old town wall's cluster of towers, the railway station and the Baltic, and it is usually less mobbed than Kohtuotsa. A long staircase drops from here straight down toward Balti Jaam market and Kalamaja, so use it to link the upper town with the hip district in one walk.",
+    },
+    {
+      slug: "alexander-nevsky-cathedral",
+      citySlug: "tallinn",
+      name: "Alexander Nevsky Cathedral",
+      lat: 59.4358,
+      lng: 24.7386,
+      kind: "sight",
+      needsBooking: false,
+      tip: "The onion-domed Russian Orthodox cathedral opposite Toompea Castle was completed in 1900 and its interior of icons and mosaics is free to enter, though photography inside is not allowed and shoulders should be covered. Time your visit for the top of the hour to hear its eleven bells, then cross the square to the parliament.",
+    },
+    {
+      slug: "st-olafs-church",
+      citySlug: "tallinn",
+      name: "St Olaf's Church Tower",
+      lat: 59.4413,
+      lng: 24.7476,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Once reputedly the tallest building in the world around 1500, St Olaf's tower is open to climb seasonally, usually April to October, for a small cash fee, up a very tight, steep 258-step spiral staircase with no lift. The reward is a 360-degree view over the old town and the sea, but skip it if you have knees or claustrophobia issues.",
+    },
+    {
+      slug: "toompea-castle",
+      citySlug: "tallinn",
+      name: "Toompea Castle and Parliament",
+      lat: 59.4358,
+      lng: 24.7376,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Toompea Castle houses the Riigikogu, Estonia's parliament, behind a pink 18th-century facade, with the medieval Tall Hermann tower where the national flag is raised at sunrise each day. The courtyard is free to walk into, and free guided tours of the parliament run on some weekdays if you book ahead through the Riigikogu website.",
+    },
+    {
+      slug: "town-walls-kiek-in-de-kok",
+      citySlug: "tallinn",
+      name: "Town Walls and Kiek in de Kok",
+      lat: 59.4345,
+      lng: 24.7400,
+      kind: "sight",
+      needsBooking: true,
+      tip: "Nearly 2km of the medieval wall and around 20 of its towers still stand, among the best-preserved in Europe, and the Kiek in de Kok artillery tower museum links to the underground Bastion Passages on a timed ticket best booked online. For a cheaper walk, the separate Hellemann Tower and wall-walk stretch lets you pace the ramparts between towers for a few euros.",
+    },
+    {
+      slug: "st-catherines-passage",
+      citySlug: "tallinn",
+      name: "St Catherine's Passage and the Craft Lanes",
+      lat: 59.4375,
+      lng: 24.7480,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Katariina kaik is a narrow covered medieval lane linking Vene and Muurivahe streets, lined with the workshops of the St Catherine's Guild where glassblowers, potters and hatmakers work behind open doors. It is free to wander and the studios keep daytime hours, so come in the afternoon, then browse the woollen-sweater sellers along the wall on Muurivahe.",
+    },
+    {
+      slug: "telliskivi-balti-jaam",
+      citySlug: "tallinn",
+      name: "Telliskivi Creative City and Balti Jaam Market",
+      lat: 59.4425,
+      lng: 24.7370,
+      kind: "experience",
+      needsBooking: false,
+      tip: "Telliskivi Creative City fills a former railway factory complex in Kalamaja with studios, street-art murals, bars and a Saturday-morning flea market, while the adjacent Balti Jaam market hall stacks cheap street food, produce and vintage stalls over several floors. Both are free to browse and a ten-minute walk northwest of the old town, best eaten at around lunchtime.",
+    },
+    {
+      slug: "kadriorg-kumu",
+      citySlug: "tallinn",
+      name: "Kadriorg Palace and KUMU Art Museum",
+      lat: 59.4380,
+      lng: 24.7910,
+      kind: "museum",
+      needsBooking: false,
+      tip: "Peter the Great started the baroque Kadriorg Palace and its formal park in 1718, and the palace now shows foreign classic art while the huge modern KUMU building nearby holds the national collection of Estonian art from the 18th century to today. KUMU closes on Mondays and Tuesdays off-season, so check hours; the park itself is free and worth the 15-minute tram 1 or 3 ride east.",
+    },
+    {
+      slug: "seaplane-harbour",
+      citySlug: "tallinn",
+      name: "Seaplane Harbour (Lennusadam)",
+      lat: 59.4520,
+      lng: 24.7290,
+      kind: "museum",
+      needsBooking: true,
+      tip: "This maritime museum fills a vast 1917 seaplane hangar with a walk-in Lembit submarine from 1936, a full-size seaplane and ship models, and moored icebreakers you can board outside. It is genuinely family-friendly and interactive; buy tickets online to skip the desk, and reach it on a 20-minute walk along the Kalamaja waterfront from the old town.",
+    },
+    {
+      slug: "olde-hansa",
+      citySlug: "tallinn",
+      name: "Olde Hansa Medieval Banquet",
+      lat: 59.4368,
+      lng: 24.7460,
+      kind: "food",
+      needsBooking: true,
+      tip: "This candlelit medieval-themed tavern by Raekoja plats serves game, bear and elk dishes with honey beer, with costumed staff and no electric light, and it is fun for the theatre of it. Be clear-eyed: it is a tourist-priced experience, so book a table for the atmosphere rather than the value, and expect the bill to run well above a normal Tallinn dinner.",
+    },
+    {
+      slug: "estonian-open-air-museum",
+      citySlug: "tallinn",
+      name: "Estonian Open Air Museum",
+      lat: 59.4300,
+      lng: 24.6540,
+      kind: "park",
+      needsBooking: false,
+      tip: "This 72-hectare open-air museum at Rocca al Mare, about 8km west of the centre, gathers relocated wooden farmhouses, a church, a schoolhouse and windmills across a forested seaside park, staffed in summer with craft demonstrations. Allow a half day and reach it on bus 21 from the Balti Jaam station; it is an easy option if you have a third day and want green space and Estonian rural history.",
+    },
+  ],
+  itineraries: [
+    {
+      citySlug: "tallinn",
+      days: 2,
+      summary:
+        "Two full days is plenty for the heart of Tallinn, because the medieval core is tiny and entirely walkable. The trick is timing around the cruise ships: the old town swamps with day crowds from mid-morning to late afternoon, then empties for the evening, so start early on Raekoja plats and the Toompea viewpoints before the tour groups climb the hill. Base yourself in the old town or the nearby city centre so you are among the towers first thing and can walk home across floodlit squares at night. Day one covers the upper and lower town: Town Hall Square, the Kohtuotsa and Patkuli viewpoints, Alexander Nevsky Cathedral, Toompea Castle, the town walls and St Catherine's Passage. Day two crosses into hip Kalamaja for Telliskivi and the Balti Jaam market, then climbs St Olaf's tower and loops the ramparts. Tallinn is cheap by Nordic standards, so eat well off the main square. What you give up at this pace is Kadriorg and the Seaplane Harbour; for those, add the three-day version.",
+      stayNeighborhoodSlug: "old-town",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "The medieval old town, upper and lower",
+          morning: [
+            {
+              poiSlug: "town-hall-square",
+              text: "Start on Raekoja plats before 10am, while the square is quiet and the light is clean, and take in the 1404 Gothic town hall, the only surviving one of its kind in northern Europe. Grab a coffee at a cafe off the square where prices halve.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "kohtuotsa-viewpoint",
+              text: "Climb into the upper town on Toompea and reach the free Kohtuotsa platform for the classic view over the red roofs and spires, getting there early before the tour groups. Walk two minutes to the Patkuli platform for the towers and the sea.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "alexander-nevsky-cathedral",
+              text: "Cross to the onion-domed Alexander Nevsky Cathedral, free to enter with its icons and mosaics, and time it for the top of the hour to hear the eleven bells. Note photography inside is not allowed and shoulders should be covered.",
+              durationMin: 30,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "toompea-castle",
+              text: "Step across the square to Toompea Castle, home to Estonia's parliament behind its pink facade and the Tall Hermann tower where the flag is raised at sunrise. The courtyard is free to walk into before you head back down the hill for lunch.",
+              durationMin: 40,
+            },
+            {
+              text: "Lunch a few lanes back from Raekoja plats, where a bowl of Estonian elk soup or a plate of dumplings costs a fraction of the square-side tables. Keep it light before the afternoon walk.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "town-walls-kiek-in-de-kok",
+              text: "Explore the town walls, among the best-preserved in Europe, and the Kiek in de Kok artillery tower with its underground Bastion Passages on a timed ticket booked online. For a cheaper wall-walk, pace the ramparts from the Hellemann Tower instead.",
+              durationMin: 75,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "st-catherines-passage",
+              text: "Wander St Catherine's Passage in the late afternoon while the St Catherine's Guild workshops still have their doors open, then browse the woollen-sweater sellers along the Muurivahe wall. It is free and atmospheric as the day crowds thin.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "olde-hansa",
+              text: "For dinner, either book the candlelit Olde Hansa medieval banquet by the square for the theatre of it, knowing it is tourist-priced, or pick a small cellar restaurant for better-value Baltic cooking. Either way, take the floodlit lanes late once the cruise crowds have gone.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "Kalamaja, the market and the ramparts",
+          morning: [
+            {
+              poiSlug: "st-olafs-church",
+              text: "If it is April to October, climb St Olaf's tower first thing up the tight 258-step spiral for the 360-degree view over the old town and sea, paying the small cash fee at the bottom. Skip it in winter when it closes, and go early to beat the queue on the narrow stairs.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "telliskivi-balti-jaam",
+              text: "Walk northwest into Kalamaja to Telliskivi Creative City for its street art, studios and bars, timing it for late morning. Cross to the adjacent Balti Jaam market hall for a cheap street-food lunch over its several floors of stalls.",
+              durationMin: 120,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Wander the wooden-house streets of Kalamaja, one of Tallinn's most characterful districts, and follow the waterfront back toward the old town. This is where the city feels lived-in rather than staged for visitors.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "patkuli-viewpoint",
+              text: "Climb the long Patkuli staircase back up into Toompea for a second look at the towers from above, quieter now than the morning crowds allowed. From here loop down through the upper-town lanes you missed.",
+              durationMin: 45,
+            },
+          ],
+          evening: [
+            {
+              text: "Head into the Rotermann Quarter east of the old town for its converted warehouses, design shops and busier bar scene, a five-minute walk from the medieval core. It is the modern counterpoint to the lanes and a good spot for dinner and a drink.",
+              durationMin: 90,
+            },
+            {
+              text: "Finish with a last slow loop of Raekoja plats after dark, when the square is lit and nearly empty. If you have an early flight, remember airport tram line 4 runs from the centre to the terminal in about 15 minutes for a couple of euros.",
+              durationMin: 60,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      citySlug: "tallinn",
+      days: 3,
+      summary:
+        "Three days is the comfortable amount for Tallinn: enough for the medieval core plus the seaside museums and green space that a two-day dash skips. The old town is small and walkable, so days one and two cover the upper and lower town, the viewpoints, the walls and hip Kalamaja at an unhurried pace, still starting early to beat the cruise crowds that fill the lanes by mid-morning. The extra day buys you the calmer, greener side of the city: the baroque Kadriorg Palace and its park with the excellent KUMU art museum, then the walk-in submarine and seaplanes of the Seaplane Harbour on the Kalamaja waterfront. Base in the old town for the medieval nights, or in Kalamaja for lower prices and the local scene one tram stop out. Tallinn stays cheap by Nordic standards, so eat off the main square and use contactless-tap trams to reach Kadriorg in 15 minutes. Come May to September for long light and open terraces; in December the Town Hall Square Christmas market is one of Europe's oldest and prettiest.",
+      stayNeighborhoodSlug: "old-town",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "The medieval old town, upper and lower",
+          morning: [
+            {
+              poiSlug: "town-hall-square",
+              text: "Open on Raekoja plats before the ships dock, taking in the 1404 Gothic town hall and the ring of pastel merchant houses in the morning quiet. Coffee off the square keeps the price sane.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "kohtuotsa-viewpoint",
+              text: "Climb Toompea to the free Kohtuotsa platform for the red-roof view, then the nearby Patkuli platform for the towers and the sea, both early before the tour groups arrive.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "alexander-nevsky-cathedral",
+              text: "Visit the free Alexander Nevsky Cathedral opposite the castle for its icons and mosaics, ideally on the hour for the bells. Cover your shoulders and leave the camera in your bag inside.",
+              durationMin: 30,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "toompea-castle",
+              text: "Walk into the free courtyard of Toompea Castle, seat of Estonia's parliament, below the Tall Hermann flag tower, then head down for lunch. Book a free parliament tour ahead through the Riigikogu site if the timing suits.",
+              durationMin: 40,
+            },
+            {
+              text: "Lunch a few lanes off the main square on Estonian comfort food like elk soup or dumplings, at a fraction of the Raekoja plats prices. Keep it light before the walls.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "town-walls-kiek-in-de-kok",
+              text: "Tour the medieval town walls and the Kiek in de Kok tower with its underground Bastion Passages on a timed online ticket, or pace the cheaper Hellemann Tower rampart walk. The walls here are among the best-preserved in Europe.",
+              durationMin: 75,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "st-catherines-passage",
+              text: "Drop into St Catherine's Passage while the guild workshops keep their doors open, then browse the woollen sellers along the Muurivahe wall. Free and best in the late-afternoon light.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "olde-hansa",
+              text: "Dinner is either the candlelit Olde Hansa banquet for the medieval theatre, tourist-priced and worth it only for the atmosphere, or a cellar restaurant for better-value Baltic cooking. Walk the floodlit square late once the crowds have gone.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "St Olaf's tower and Kalamaja",
+          morning: [
+            {
+              poiSlug: "st-olafs-church",
+              text: "In season, April to October, climb St Olaf's 258-step spiral tower first thing for the 360-degree view, paying the small cash fee below. Go early to beat the queue on the tight stairs, and skip it if closed in winter.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "telliskivi-balti-jaam",
+              text: "Head northwest into Kalamaja to Telliskivi Creative City for street art, studios and bars, then eat cheaply across several floors of the Balti Jaam market hall. Best around late morning to lunch.",
+              durationMin: 120,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Stroll the wooden-house streets of Kalamaja, the city's most characterful district, following the shoreline. This is Tallinn as locals live it, a short walk from the medieval core.",
+              durationMin: 60,
+            },
+            {
+              text: "Loop back through the Rotermann Quarter east of the old town for its converted warehouses and design shops, a modern break from the medieval lanes. Coffee and a browse before the evening.",
+              durationMin: 60,
+            },
+          ],
+          evening: [
+            {
+              text: "Dinner in Rotermann or on the edge of the old town, where the bar scene is livelier and the prices fairer than the main square. Tallinn is cheap by Nordic standards, so a good meal and drinks stay affordable.",
+              durationMin: 120,
+            },
+            {
+              text: "End with a last slow loop of the floodlit old-town lanes after dark, when the day crowds are long gone. In summer the light barely fades, so evenings run late and warm.",
+              durationMin: 45,
+            },
+          ],
+        },
+        {
+          dayNumber: 3,
+          theme: "Kadriorg, KUMU and the Seaplane Harbour",
+          morning: [
+            {
+              poiSlug: "kadriorg-kumu",
+              text: "Ride tram 1 or 3 east about 15 minutes to Kadriorg, walk the free formal park that Peter the Great began in 1718, and tour the baroque palace and the modern KUMU museum of Estonian art. Check hours, as KUMU closes on Mondays and Tuesdays off-season.",
+              durationMin: 180,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "seaplane-harbour",
+              text: "Move to the Seaplane Harbour maritime museum in its 1917 hangar for the walk-in Lembit submarine, a full-size seaplane and the icebreakers moored outside. Buy tickets online to skip the desk; it is a 20-minute waterfront walk from the old town or a short taxi from Kadriorg.",
+              durationMin: 120,
+            },
+            {
+              text: "If the weather holds, walk the Kalamaja and Pirita-side waterfront back toward the centre, or ride the tram, catching the Baltic light off the sea. This green, seaside side of Tallinn is what the two-day plan misses.",
+              durationMin: 60,
+            },
+          ],
+          evening: [
+            {
+              text: "Last dinner back in the old town or Kalamaja for a final round of Baltic cooking and cheap local beer. Aperitivo on a Telliskivi terrace first if the evening is warm.",
+              durationMin: 120,
+            },
+            {
+              text: "If tomorrow is an early flight, remember the airport is only 4km out: tram line 4 runs from the centre to the terminal in about 15 minutes for a couple of euros on a contactless tap, or a Bolt is around 8 to 12 EUR.",
+              durationMin: 30,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export default tallinn;
