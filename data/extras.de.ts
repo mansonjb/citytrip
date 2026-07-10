@@ -352,6 +352,54 @@ const extrasDe: Record<string, CityExtras> = {
       "Der Nobelpreis",
     ],
   },
+  nice: {
+    citySlug: "nice",
+    image: hero(26928991),
+    imageAlt:
+      "Die roten Dächer von Vieux Nice mit dem barocken Uhrturm und den Hügeln der Riviera dahinter",
+    history:
+      "Nizza blickte den Großteil seiner Geschichte eher nach Italien als nach Frankreich: Es gehörte jahrhundertelang zum Haus Savoyen und wurde erst 1860 nach einer Volksabstimmung französisch, weshalb sich die Altstadt ligurisch anfühlt und der lokale Dialekt und die Küche näher an Genua als an Paris sind. Die Stadt wurde im 19. Jahrhundert reich, als britische und russische Aristokraten kamen, um den Winter an der Küste zu verbringen, und es war ihr Geld, das den Uferweg bezahlte, der noch heute ihren Namen trägt, die Promenade des Anglais. Matisse und Chagall ließen sich beide für das Licht hier nieder und hinterließen Museen oben in den begrünten Hügeln von Cimiez, auf dem Gelände der römischen Stadt Cemenelum. Heute ist Nizza die inoffizielle Hauptstadt der Riviera und das Tor zu Monaco, Cannes und den Bergdörfern entlang der Cote d'Azur.",
+    knownFor: [
+      "Promenade des Anglais",
+      "Vieux Nice",
+      "Cours-Saleya-Markt",
+      "Kieselstrände",
+      "Socca",
+      "Riviera-Tagesausflüge",
+    ],
+  },
+  dubrovnik: {
+    citySlug: "dubrovnik",
+    image: hero(16884684),
+    imageAlt:
+      "Die terrakottafarbenen Dächer der Altstadt von Dubrovnik mit der Kathedralenkuppel und dem Berg Srd dahinter",
+    history:
+      "Dubrovnik war jahrhundertelang die Republik Ragusa, ein kleiner, aber gewiefter Seehandels-Stadtstaat, der seine Unabhängigkeit bewahrte, indem er dem jeweils stärksten Reich Tribut zahlte, während er eine Handelsflotte betrieb, die es mit Venedig aufnahm. Seine Steinmauern, bis zu 25 Meter hoch und fast zwei Kilometer lang, wurden nie durchbrochen, und der marmorgepflasterte Stradun und die barocken Kirchen in ihrem Inneren wurden nach einem katastrophalen Erdbeben 1667 weitgehend neu aufgebaut. Die Republik endete, als Napoleon sie 1808 abschaffte, und die Stadt schloss sich später Jugoslawien und dann dem unabhängigen Kroatien an. Granaten beschädigten die Altstadt während der Belagerung von 1991 bis 1992 im kroatischen Unabhängigkeitskrieg, doch sie wurde mühevoll wiederhergestellt, und eine neue Welle des Ruhms kam, als sie zu King's Landing in Game of Thrones wurde.",
+    knownFor: [
+      "Die Stadtmauern",
+      "Terrakottafarbene Dächer",
+      "Stradun",
+      "Game-of-Thrones-Orte",
+      "Insel Lokrum",
+      "Adria-Strände",
+    ],
+  },
+  reykjavik: {
+    citySlug: "reykjavik",
+    image: hero(20165201),
+    imageAlt:
+      "Reykjaviks Skyline über dem Wasser mit dem Turm der Hallgrimskirkja und schneebedeckten Bergen dahinter",
+    history:
+      "Reykjavik war den alten Sagas zufolge der Ort der ersten nordischen Siedlung Islands um 874, als Ingolfur Arnarson seine Hochsitzpfeiler über Bord geworfen und dort gebaut haben soll, wo sie an Land gespült wurden; der Name bedeutet rauchige Bucht, nach dem Dampf, der aus seinen heißen Quellen aufsteigt. Es blieb den Großteil eines Jahrtausends ein winziges Dorf und wuchs erst im 18. Jahrhundert zu einer richtigen Stadt heran, wurde 1918 zur Hauptstadt eines selbstverwalteten Islands und 1944 einer vollständig unabhängigen Republik, als das Land seine letzten Bande zu Dänemark kappte. Die Stadt hatte 1986 ihren Moment im Kalten Krieg, als Reagan und Gorbatschow sich im Haus Hofdi trafen und kurz davor waren, sich auf die Verschrottung ihrer Atomarsenale zu einigen. Fast vollständig mit geothermaler und Wasserkraft beheizt und versorgt, ist sie die nördlichste Hauptstadt der Welt und das Basislager für Islands Wasserfälle, Geysire und Nordlichter.",
+    knownFor: [
+      "Hallgrimskirkja",
+      "Nordlichter",
+      "Golden Circle",
+      "Blaue Lagune",
+      "Geothermale Pools",
+      "Walbeobachtung",
+    ],
+  },
 };
 
 export default extrasDe;

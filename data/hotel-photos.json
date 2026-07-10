@@ -86,5 +86,17 @@
   "grand-hotel-stockholm": "/hotels/stockholm/grand-hotel-stockholm.jpg",
   "hotel-rival": "/hotels/stockholm/hotel-rival.jpg",
   "generator-stockholm": "/hotels/stockholm/generator-stockholm.jpg",
-  "lady-hamilton-hotel": "/hotels/stockholm/lady-hamilton-hotel.jpg"
+  "lady-hamilton-hotel": "/hotels/stockholm/lady-hamilton-hotel.jpg",
+  "hotel-negresco": "/hotels/nice/hotel-negresco.jpg",
+  "hotel-rossetti-nice": "/hotels/nice/hotel-rossetti-nice.jpg",
+  "villa-saint-exupery-beach": "/hotels/nice/villa-saint-exupery-beach.jpg",
+  "hotel-le-petit-palais-nice": "/hotels/nice/hotel-le-petit-palais-nice.jpg",
+  "hotel-stari-grad-dubrovnik": "/hotels/dubrovnik/hotel-stari-grad-dubrovnik.jpg",
+  "hotel-kompas-dubrovnik": "/hotels/dubrovnik/hotel-kompas-dubrovnik.jpg",
+  "hotel-excelsior-dubrovnik": "/hotels/dubrovnik/hotel-excelsior-dubrovnik.jpg",
+  "hotel-borg": "/hotels/reykjavik/hotel-borg.jpg",
+  "sand-hotel-reykjavik": "/hotels/reykjavik/sand-hotel-reykjavik.jpg",
+  "dubrovnik-backpackers-club": "/hotels/dubrovnik/dubrovnik-backpackers-club.jpg",
+  "reykjavik-marina-hotel": "/hotels/reykjavik/reykjavik-marina-hotel.jpg",
+  "reykjavik-city-hostel": "/hotels/reykjavik/reykjavik-city-hostel.jpg"
 }

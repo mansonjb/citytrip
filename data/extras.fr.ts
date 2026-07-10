@@ -352,6 +352,54 @@ const extrasFr: Record<string, CityExtras> = {
       "Le prix Nobel",
     ],
   },
+  nice: {
+    citySlug: "nice",
+    image: hero(26928991),
+    imageAlt:
+      "Les toits rouges du Vieux Nice avec la tour de l'horloge baroque et les collines de la Riviera derrière",
+    history:
+      "Nice a passé le plus clair de son histoire tournée vers l'Italie plutôt que vers la France : elle appartint des siècles durant à la maison de Savoie et ne devint française qu'en 1860, après un plébiscite, ce qui explique pourquoi la vieille ville a des airs liguriens et que le dialecte et la cuisine locaux sont plus proches de Gênes que de Paris. La ville s'enrichit au XIXe siècle quand les aristocrates britanniques et russes vinrent passer l'hiver sur la côte, et c'est leur argent qui paya la promenade du front de mer qui porte encore leur nom, la Promenade des Anglais. Matisse et Chagall s'y installèrent tous deux pour la lumière et laissèrent des musées sur les collines verdoyantes de Cimiez, sur le site de la ville romaine de Cemenelum. Aujourd'hui, Nice est la capitale officieuse de la Riviera et la porte d'entrée de Monaco, de Cannes et des villages perchés le long de la Côte d'Azur.",
+    knownFor: [
+      "La Promenade des Anglais",
+      "Le Vieux Nice",
+      "Le marché du Cours Saleya",
+      "Les plages de galets",
+      "La socca",
+      "Les excursions sur la Riviera",
+    ],
+  },
+  dubrovnik: {
+    citySlug: "dubrovnik",
+    image: hero(16884684),
+    imageAlt:
+      "Les toits en terre cuite de la vieille ville de Dubrovnik avec le dôme de la cathédrale et le mont Srd derrière",
+    history:
+      "Dubrovnik fut pendant des siècles la république de Raguse, une cité-État maritime petite mais habile qui garda son indépendance en payant tribut à l'empire le plus fort du moment tout en armant une flotte marchande qui rivalisait avec Venise. Ses remparts de pierre, hauts de 25 mètres et longs de près de deux kilomètres, ne furent jamais forcés, et le Stradun pavé de marbre et les églises baroques qu'ils enserrent furent en grande partie reconstruits après un tremblement de terre catastrophique en 1667. La république prit fin quand Napoléon l'abolit en 1808, et la ville rejoignit plus tard la Yougoslavie puis la Croatie indépendante. Des obus endommagèrent la vieille ville durant le siège de 1991 et 1992, pendant la guerre d'indépendance croate, mais elle fut restaurée avec un soin méticuleux, et une nouvelle vague de célébrité arriva quand elle devint Port-Réal dans Game of Thrones.",
+    knownFor: [
+      "Les remparts de la ville",
+      "Les toits en terre cuite",
+      "Le Stradun",
+      "Les lieux de Game of Thrones",
+      "L'île de Lokrum",
+      "Les plages de l'Adriatique",
+    ],
+  },
+  reykjavik: {
+    citySlug: "reykjavik",
+    image: hero(20165201),
+    imageAlt:
+      "La silhouette de Reykjavik au-dessus de l'eau avec la tour de Hallgrimskirkja et des montagnes enneigées derrière",
+    history:
+      "Reykjavik fut, selon les vieilles sagas, le site du premier établissement norrois d'Islande vers 874, quand Ingolfur Arnarson aurait jeté par-dessus bord les montants de son siège d'honneur et bâti là où ils échouèrent sur le rivage ; le nom signifie baie fumante, d'après la vapeur qui s'élève de ses sources chaudes. Elle resta un minuscule village pendant près de mille ans et ne devint une véritable ville qu'au XVIIIe siècle, avant de devenir la capitale d'une Islande autonome en 1918 puis d'une république pleinement indépendante en 1944, quand le pays rompit ses derniers liens avec le Danemark. La ville connut son moment de guerre froide en 1986, quand Reagan et Gorbatchev se rencontrèrent à la maison Hofdi et faillirent s'entendre pour démanteler leurs arsenaux nucléaires. Chauffée et alimentée presque entièrement par l'énergie géothermale et hydraulique, c'est la capitale la plus septentrionale du monde et le camp de base des cascades, des geysers et des aurores boréales d'Islande.",
+    knownFor: [
+      "Hallgrimskirkja",
+      "Les aurores boréales",
+      "Le Cercle d'Or",
+      "Le Blue Lagoon",
+      "Les piscines géothermales",
+      "L'observation des baleines",
+    ],
+  },
 };
 
 export default extrasFr;

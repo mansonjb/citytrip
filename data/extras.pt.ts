@@ -350,6 +350,54 @@ const extrasPt: Record<string, CityExtras> = {
       "O Premio Nobel",
     ],
   },
+  nice: {
+    citySlug: "nice",
+    image: hero(26928991),
+    imageAlt:
+      "Os telhados vermelhos de Vieux Nice com a torre do relógio barroca e as colinas da Riviera ao fundo",
+    history:
+      "Nice passou a maior parte da sua história virada para Itália e não para França: pertenceu durante séculos à Casa de Saboia e só se tornou francesa em 1860, após um plebiscito, e é por isso que a cidade velha tem um ar ligure e o dialeto e a comida locais estão mais próximos de Génova do que de Paris. A cidade enriqueceu no século XIX, quando os aristocratas britânicos e russos vinham passar o inverno na costa, e foi o dinheiro deles que pagou o passeio à beira-mar que ainda hoje leva o seu nome, a Promenade des Anglais. Matisse e Chagall instalaram-se aqui pela luz e deixaram museus nas frondosas colinas de Cimiez, no local da cidade romana de Cemenelum. Hoje Nice é a capital não oficial da Riviera e a porta de entrada para Monaco, Cannes e as aldeias empoleiradas ao longo da Cote d'Azur.",
+    knownFor: [
+      "Promenade des Anglais",
+      "Vieux Nice",
+      "Mercado do Cours Saleya",
+      "Praias de seixos",
+      "Socca",
+      "Excursões pela Riviera",
+    ],
+  },
+  dubrovnik: {
+    citySlug: "dubrovnik",
+    image: hero(16884684),
+    imageAlt:
+      "Os telhados de terracota da cidade velha de Dubrovnik com a cúpula da catedral e o Monte Srd ao fundo",
+    history:
+      "Dubrovnik passou séculos como a República de Ragusa, uma pequena mas astuta cidade-estado marítima que manteve a independência pagando tributo ao império mais forte de cada momento enquanto geria uma frota mercante que rivalizava com Veneza. As suas muralhas de pedra, com até 25 metros de altura e quase dois quilómetros de perímetro, nunca foram tomadas, e o Stradun pavimentado a mármore e as igrejas barrocas no seu interior foram em grande parte reconstruídos após um terramoto catastrófico em 1667. A república terminou quando Napoleão a aboliu em 1808, e a cidade juntou-se depois à Jugoslávia e mais tarde à Croácia independente. As granadas danificaram a cidade velha durante o cerco de 1991 a 1992, na guerra da independência croata, mas foi restaurada com todo o cuidado, e uma nova vaga de fama chegou quando se tornou Porto Real em A Guerra dos Tronos.",
+    knownFor: [
+      "As muralhas da cidade",
+      "Telhados de terracota",
+      "Stradun",
+      "Cenários de A Guerra dos Tronos",
+      "Ilha de Lokrum",
+      "Praias do Adriático",
+    ],
+  },
+  reykjavik: {
+    citySlug: "reykjavik",
+    image: hero(20165201),
+    imageAlt:
+      "O horizonte de Reykjavik do outro lado da água com a torre da Hallgrimskirkja e montanhas cobertas de neve ao fundo",
+    history:
+      "Reykjavik foi, segundo as antigas sagas, o local do primeiro povoamento nórdico da Islândia por volta de 874, quando se diz que Ingolfur Arnarson atirou ao mar os pilares do seu trono e construiu onde deram à costa; o nome significa baía fumegante, por causa do vapor que sobe das suas nascentes quentes. Manteve-se uma pequena aldeia durante quase mil anos e só cresceu para uma verdadeira cidade no século XVIII, tornando-se a capital de uma Islândia autónoma em 1918 e de uma república plenamente independente em 1944, quando o país cortou os últimos laços com a Dinamarca. A cidade teve o seu momento de Guerra Fria em 1986, quando Reagan e Gorbachev se encontraram na casa de Hofdi e estiveram perto de acordar o desmantelamento dos seus arsenais nucleares. Aquecida e alimentada quase inteiramente por energia geotérmica e hídrica, é a capital mais a norte do mundo e o campo-base para as cascatas, os géiseres e as Luzes do Norte da Islândia.",
+    knownFor: [
+      "Hallgrimskirkja",
+      "Luzes do Norte",
+      "Círculo Dourado",
+      "Lagoa Azul",
+      "Piscinas geotérmicas",
+      "Observação de baleias",
+    ],
+  },
 };
 
 export default extrasPt;

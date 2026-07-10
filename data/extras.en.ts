@@ -351,6 +351,54 @@ const extrasEn: Record<string, CityExtras> = {
       "The Nobel Prize",
     ],
   },
+  nice: {
+    citySlug: "nice",
+    image: hero(26928991),
+    imageAlt:
+      "The red rooftops of Old Nice with the baroque clock tower and the hills of the Riviera behind",
+    history:
+      "Nice spent most of its history looking to Italy rather than France: it belonged for centuries to the House of Savoy and only became French in 1860, after a plebiscite, which is why the old town feels Ligurian and the local dialect and food are closer to Genoa than to Paris. The city grew rich in the 1800s when British and Russian aristocrats came to spend the winter on the coast, and it was their money that paid for the seafront walk that still carries their name, the Promenade des Anglais. Matisse and Chagall both settled here for the light and left museums up in the leafy hills of Cimiez, on the site of the Roman town of Cemenelum. Today Nice is the unofficial capital of the Riviera and the gateway to Monaco, Cannes and the perched villages along the Cote d'Azur.",
+    knownFor: [
+      "Promenade des Anglais",
+      "Vieux Nice",
+      "Cours Saleya market",
+      "Pebble beaches",
+      "Socca",
+      "Riviera day trips",
+    ],
+  },
+  dubrovnik: {
+    citySlug: "dubrovnik",
+    image: hero(16884684),
+    imageAlt:
+      "The terracotta rooftops of Dubrovnik's old town with the cathedral dome and Mount Srd behind",
+    history:
+      "Dubrovnik spent centuries as the Republic of Ragusa, a small but shrewd maritime city-state that kept its independence by paying tribute to whichever empire was strongest while running a merchant fleet that rivalled Venice. Its stone walls, up to 25 metres high and nearly two kilometres around, were never breached, and the marble-paved Stradun and the Baroque churches inside them were largely rebuilt after a catastrophic earthquake in 1667. The republic ended when Napoleon abolished it in 1808, and the city later joined Yugoslavia and then independent Croatia. Shells damaged the old town during the siege of 1991 to 1992 in the Croatian war of independence, but it was painstakingly restored, and a new wave of fame arrived when it became King's Landing in Game of Thrones.",
+    knownFor: [
+      "The city walls",
+      "Terracotta rooftops",
+      "Stradun",
+      "Game of Thrones sites",
+      "Lokrum island",
+      "Adriatic beaches",
+    ],
+  },
+  reykjavik: {
+    citySlug: "reykjavik",
+    image: hero(20165201),
+    imageAlt:
+      "Reykjavik's skyline across the water with Hallgrimskirkja's tower and snow-capped mountains behind",
+    history:
+      "Reykjavik was, by the old sagas, the site of Iceland's first Norse settlement around 874, when Ingolfur Arnarson is said to have thrown his high-seat pillars overboard and built where they washed ashore; the name means smoky bay, after the steam rising from its hot springs. It stayed a tiny village for most of a thousand years and only grew into a real town in the 1700s, becoming the capital of a self-governing Iceland in 1918 and of a fully independent republic in 1944, when the country cut its last ties to Denmark. The city had its Cold War moment in 1986, when Reagan and Gorbachev met at Hofdi house and came close to agreeing to scrap their nuclear arsenals. Heated and powered almost entirely by geothermal and hydro energy, it is the world's northernmost capital and the base camp for Iceland's waterfalls, geysers and Northern Lights.",
+    knownFor: [
+      "Hallgrimskirkja",
+      "Northern Lights",
+      "Golden Circle",
+      "Blue Lagoon",
+      "Geothermal pools",
+      "Whale watching",
+    ],
+  },
 };
 
 export default extrasEn;

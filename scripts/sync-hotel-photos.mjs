@@ -28,6 +28,8 @@ const MANIFEST = join(ROOT, "data", "hotel-photos.json");
 const QUERY_OVERRIDE = {
   "the-balmoral": "The Balmoral Hotel Princes Street Edinburgh Rocco Forte",
   "the-morgan": "The Morgan Hotel Fleet Street Temple Bar Dublin",
+  "reykjavik-city-hostel":
+    "Reykjavik City HI Hostel Sundlaugavegur Laugardalur Iceland",
 };
 
 const CITY_NAME = {
@@ -44,6 +46,9 @@ const CITY_NAME = {
   bruges: "Bruges Belgium",
   barcelona: "Barcelona",
   berlin: "Berlin",
+  nice: "Nice France",
+  dubrovnik: "Dubrovnik Croatia",
+  reykjavik: "Reykjavik Iceland",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

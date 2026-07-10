@@ -352,6 +352,54 @@ const extrasEs: Record<string, CityExtras> = {
       "El Premio Nobel",
     ],
   },
+  nice: {
+    citySlug: "nice",
+    image: hero(26928991),
+    imageAlt:
+      "Los tejados rojos del casco antiguo de Niza con la torre barroca del reloj y las colinas de la Riviera detrás",
+    history:
+      "Niza pasó la mayor parte de su historia mirando a Italia antes que a Francia: perteneció durante siglos a la Casa de Saboya y solo se hizo francesa en 1860, tras un plebiscito, por lo que el casco antiguo se siente ligur y el dialecto y la comida locales están más cerca de Génova que de París. La ciudad se enriqueció en el siglo XIX, cuando los aristócratas británicos y rusos venían a pasar el invierno en la costa, y fue su dinero el que pagó el paseo marítimo que todavía lleva su nombre, la Promenade des Anglais. Matisse y Chagall se instalaron aquí por la luz y dejaron sendos museos en las frondosas colinas de Cimiez, sobre el emplazamiento de la ciudad romana de Cemenelum. Hoy Niza es la capital extraoficial de la Riviera y la puerta de entrada a Mónaco, Cannes y los pueblos encaramados a lo largo de la Costa Azul.",
+    knownFor: [
+      "La Promenade des Anglais",
+      "Vieux Nice",
+      "El mercado del Cours Saleya",
+      "Las playas de guijarros",
+      "La socca",
+      "Las excursiones por la Riviera",
+    ],
+  },
+  dubrovnik: {
+    citySlug: "dubrovnik",
+    image: hero(16884684),
+    imageAlt:
+      "Los tejados de terracota del casco antiguo de Dubrovnik con la cúpula de la catedral y el monte Srd detrás",
+    history:
+      "Dubrovnik pasó siglos como la República de Ragusa, una pequeña pero astuta ciudad-estado marítima que conservó su independencia pagando tributo al imperio que fuera más fuerte en cada momento mientras mantenía una flota mercante que rivalizaba con Venecia. Sus murallas de piedra, de hasta 25 metros de alto y casi dos kilómetros de perímetro, nunca fueron traspasadas, y el Stradun pavimentado de mármol y las iglesias barrocas de su interior se reconstruyeron en gran parte tras un catastrófico terremoto en 1667. La república terminó cuando Napoleón la abolió en 1808, y la ciudad se sumó más tarde a Yugoslavia y luego a una Croacia independiente. Los proyectiles dañaron el casco antiguo durante el asedio de 1991 a 1992 en la guerra de independencia croata, pero fue restaurado con esmero, y una nueva ola de fama llegó cuando se convirtió en Desembarco del Rey en Juego de Tronos.",
+    knownFor: [
+      "Las murallas de la ciudad",
+      "Los tejados de terracota",
+      "El Stradun",
+      "Los escenarios de Juego de Tronos",
+      "La isla de Lokrum",
+      "Las playas del Adriático",
+    ],
+  },
+  reykjavik: {
+    citySlug: "reykjavik",
+    image: hero(20165201),
+    imageAlt:
+      "El perfil de Reikiavik al otro lado del agua con la torre de Hallgrimskirkja y montañas nevadas detrás",
+    history:
+      "Reikiavik fue, según las viejas sagas, el emplazamiento del primer asentamiento nórdico de Islandia hacia el año 874, cuando se dice que Ingolfur Arnarson arrojó por la borda los pilares de su asiento de honor y edificó donde estos llegaron a la orilla; el nombre significa bahía humeante, por el vapor que se alza de sus fuentes termales. Siguió siendo una aldea diminuta durante casi mil años y solo creció hasta convertirse en una ciudad de verdad en el siglo XVIII, hasta ser la capital de una Islandia autónoma en 1918 y de una república plenamente independiente en 1944, cuando el país cortó sus últimos lazos con Dinamarca. La ciudad tuvo su momento de Guerra Fría en 1986, cuando Reagan y Gorbachov se reunieron en la casa Hofdi y estuvieron cerca de acordar la eliminación de sus arsenales nucleares. Calentada y abastecida casi por completo con energía geotérmica e hidráulica, es la capital más septentrional del mundo y el campamento base para las cascadas, los géiseres y las auroras boreales de Islandia.",
+    knownFor: [
+      "Hallgrimskirkja",
+      "Las auroras boreales",
+      "El Círculo Dorado",
+      "La Laguna Azul",
+      "Las piscinas geotérmicas",
+      "El avistamiento de ballenas",
+    ],
+  },
 };
 
 export default extrasEs;

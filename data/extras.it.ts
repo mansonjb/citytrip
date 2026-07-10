@@ -350,6 +350,54 @@ const extrasIt: Record<string, CityExtras> = {
       "Il Premio Nobel",
     ],
   },
+  nice: {
+    citySlug: "nice",
+    image: hero(26928991),
+    imageAlt:
+      "I tetti rossi della Nizza vecchia con la torre dell'orologio barocca e le colline della Riviera sullo sfondo",
+    history:
+      "Nizza ha guardato per gran parte della sua storia all'Italia più che alla Francia: appartenne per secoli ai Savoia e divenne francese solo nel 1860, dopo un plebiscito, ed è per questo che la città vecchia ha un'aria ligure e il dialetto e la cucina locali sono più vicini a Genova che a Parigi. La città si arricchì nell'Ottocento, quando gli aristocratici britannici e russi venivano a passare l'inverno sulla costa, e fu il loro denaro a pagare la passeggiata sul lungomare che porta ancora il loro nome, la Promenade des Anglais. Matisse e Chagall si stabilirono entrambi qui per la luce e lasciarono i loro musei sulle frondose colline di Cimiez, sul sito della città romana di Cemenelum. Oggi Nizza è la capitale ufficiosa della Riviera e la porta d'accesso a Monaco, Cannes e ai villaggi arroccati lungo la Costa Azzurra.",
+    knownFor: [
+      "Promenade des Anglais",
+      "Vieux Nice",
+      "Mercato del Cours Saleya",
+      "Spiagge di ciottoli",
+      "Socca",
+      "Gite in Riviera",
+    ],
+  },
+  dubrovnik: {
+    citySlug: "dubrovnik",
+    image: hero(16884684),
+    imageAlt:
+      "I tetti in cotto della città vecchia di Dubrovnik con la cupola della cattedrale e il Monte Srd sullo sfondo",
+    history:
+      "Dubrovnik trascorse secoli come Repubblica di Ragusa, una piccola ma astuta città-stato marinara che mantenne l'indipendenza pagando tributi all'impero di volta in volta più forte, mentre gestiva una flotta mercantile che rivaleggiava con Venezia. Le sue mura in pietra, alte fino a 25 metri e lunghe quasi due chilometri, non furono mai violate, e lo Stradun lastricato di marmo e le chiese barocche al loro interno furono in gran parte ricostruiti dopo un catastrofico terremoto nel 1667. La repubblica finì quando Napoleone la abolì nel 1808, e la città entrò poi a far parte della Jugoslavia e quindi della Croazia indipendente. Le granate danneggiarono la città vecchia durante l'assedio del 1991-1992 nella guerra d'indipendenza croata, ma fu restaurata con cura minuziosa, e una nuova ondata di fama arrivò quando divenne Approdo del Re in Game of Thrones.",
+    knownFor: [
+      "Le mura cittadine",
+      "Tetti in cotto",
+      "Stradun",
+      "Luoghi di Game of Thrones",
+      "Isola di Lokrum",
+      "Spiagge adriatiche",
+    ],
+  },
+  reykjavik: {
+    citySlug: "reykjavik",
+    image: hero(20165201),
+    imageAlt:
+      "Lo skyline di Reykjavik al di là dell'acqua con la torre della Hallgrimskirkja e le montagne innevate sullo sfondo",
+    history:
+      "Reykjavik fu, secondo le antiche saghe, il sito del primo insediamento norreno d'Islanda attorno all'874, quando si dice che Ingolfur Arnarson gettò in mare i pilastri del suo seggio d'onore e costruì dove approdarono; il nome significa baia fumosa, dal vapore che si leva dalle sue sorgenti calde. Rimase un minuscolo villaggio per la gran parte di mille anni e crebbe fino a diventare una vera cittadina solo nel Settecento, diventando la capitale di un'Islanda autonoma nel 1918 e di una repubblica pienamente indipendente nel 1944, quando il Paese recise gli ultimi legami con la Danimarca. La città ebbe il suo momento da Guerra Fredda nel 1986, quando Reagan e Gorbaciov si incontrarono alla casa di Hofdi e arrivarono vicini ad accordarsi per smantellare i loro arsenali nucleari. Riscaldata e alimentata quasi interamente da energia geotermica e idroelettrica, è la capitale più a nord del mondo e il campo base per le cascate, i geyser e l'aurora boreale d'Islanda.",
+    knownFor: [
+      "Hallgrimskirkja",
+      "Aurora boreale",
+      "Golden Circle",
+      "Blue Lagoon",
+      "Piscine geotermiche",
+      "Whale watching",
+    ],
+  },
 };
 
 export default extrasIt;
