@@ -31,8 +31,14 @@ const QUERY_OVERRIDE = {
   "reykjavik-city-hostel":
     "Reykjavik City HI Hostel Sundlaugavegur Laugardalur Iceland",
   "fabrika-hostel-tallinn": "Fabrika Telliskivi Tallinn",
-  "la-maison-hotel-munich": "LA MAISON hotel Muenchen Occamstrasse",
 };
+
+// Hotels whose Google Places match is unreliable and always resolves to the
+// wrong property (checked manually). We deliberately keep NO real photo for
+// these so they fall back to the stock px() image; never re-fetch them.
+// la-maison-hotel-munich: Google keeps returning "Vi Vadi Hotel", a different
+// property, so it stays on the stock fallback.
+const SKIP = new Set(["la-maison-hotel-munich"]);
 
 const CITY_NAME = {
   lisbon: "Lisbon",
@@ -54,6 +60,7 @@ const CITY_NAME = {
   munich: "Munich Germany",
   tallinn: "Tallinn Estonia",
   oslo: "Oslo Norway",
+  helsinki: "Helsinki Finland",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---
@@ -117,9 +124,10 @@ async function main() {
     ? JSON.parse(readFileSync(MANIFEST, "utf8"))
     : {};
 
+  const candidates = hotels.filter((h) => !SKIP.has(h.slug));
   const todo = FORCE
-    ? hotels
-    : hotels.filter((h) => {
+    ? candidates
+    : candidates.filter((h) => {
         const p = join(PUBLIC, "hotels", h.citySlug, `${h.slug}.jpg`);
         return !existsSync(p);
       });

@@ -448,6 +448,22 @@ const extrasFr: Record<string, CityExtras> = {
       "Holmenkollen",
     ],
   },
+  helsinki: {
+    citySlug: "helsinki",
+    image: hero(12319482),
+    imageAlt:
+      "La cathédrale d'Helsinki dominant le port du Sud et la place du marché, vue depuis la mer",
+    history:
+      "Helsinki fut fondée en 1550 par le roi Gustave Vasa de Suède comme comptoir commercial pour rivaliser avec Tallinn de l'autre côté du golfe, mais elle resta une petite ville pendant des siècles. Tout changea en 1809, quand la Suède perdit la Finlande au profit de la Russie : le tsar fit d'Helsinki la capitale du nouveau grand-duché en 1812 et chargea l'architecte Carl Ludwig Engel de tracer la place du Sénat néoclassique et sa cathédrale blanche pour évoquer un Saint-Pétersbourg en réduction. La Finlande gagna enfin son indépendance en 1917, et le 20e siècle fit d'Helsinki une vitrine du design finlandais et de l'architecture moderne, d'Alvar Aalto à Marimekko. Elle accueillit les Jeux olympiques de 1952 et les accords d'Helsinki de 1975, et elle reste une capitale compacte cernée par la mer où le sauna est un art de vivre.",
+    knownFor: [
+      "La cathédrale d'Helsinki",
+      "La place du Sénat",
+      "La forteresse de Suomenlinna",
+      "Le Design District",
+      "La culture du sauna",
+      "La place du marché",
+    ],
+  },
 };
 
 export default extrasFr;

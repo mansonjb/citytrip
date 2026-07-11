@@ -447,6 +447,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Holmenkollen",
     ],
   },
+  helsinki: {
+    citySlug: "helsinki",
+    image: hero(12319482),
+    imageAlt:
+      "Helsinki Cathedral rising over the South Harbour and market square seen from the sea",
+    history:
+      "Helsinki was founded in 1550 by King Gustav Vasa of Sweden as a trading post to rival Tallinn across the gulf, but it stayed a small town for centuries. Everything changed in 1809, when Sweden lost Finland to Russia: the tsar made Helsinki the capital of the new Grand Duchy in 1812 and had the architect Carl Ludwig Engel lay out the neoclassical Senate Square and its white cathedral to look like a smaller St Petersburg. Finland finally won its independence in 1917, and the 20th century turned Helsinki into a showcase of Finnish design and modern architecture, from Alvar Aalto to Marimekko. It hosted the 1952 Olympics and the 1975 Helsinki Accords, and it remains a compact, sea-fringed capital where the sauna is a way of life.",
+    knownFor: [
+      "Helsinki Cathedral",
+      "Senate Square",
+      "Suomenlinna fortress",
+      "The Design District",
+      "Sauna culture",
+      "The Market Square",
+    ],
+  },
 };
 
 export default extrasEn;

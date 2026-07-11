@@ -1621,6 +1621,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+  // ---- Helsinki ----
+  {
+    slug: "hotel-kamp",
+    citySlug: "helsinki",
+    name: "Hotel Kamp",
+    neighborhoodSlug: "kluuvi-centre",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Grand Esplanadi landmark",
+    bestFor: "Special occasions",
+    blurb:
+      "Helsinki's grand hotel since 1887, facing the Esplanadi park in the heart of the centre, long the haunt of Sibelius and the national-romantic set. It keeps a spa and a marble lobby bar, with the Design District and Senate Square both a short walk away.",
+    image: px(262048),
+    imageAlt: "Elegant hotel suite with a chandelier and a large bed",
+  },
+  {
+    slug: "klaus-k-hotel",
+    citySlug: "helsinki",
+    name: "Klaus K Hotel",
+    neighborhoodSlug: "punavuori",
+    band: "€€",
+    priceFrom: 170,
+    style: "Design hotel",
+    bestFor: "Couples",
+    blurb:
+      "A design hotel on Bulevardi in the Design District, themed around the moods of the Finnish Kalevala epic, with a lively bar and restaurant. It puts the boutiques and bars of Punavuori on the doorstep and Senate Square ten minutes away.",
+    image: px(1267438),
+    imageAlt: "Contemporary design hotel room in warm tones",
+  },
+  {
+    slug: "hotel-katajanokka",
+    citySlug: "helsinki",
+    name: "Hotel Katajanokka",
+    neighborhoodSlug: "katajanokka",
+    band: "€€",
+    priceFrom: 150,
+    style: "Former prison hotel",
+    bestFor: "First visit",
+    blurb:
+      "A characterful hotel in a 19th-century former county prison on the Katajanokka peninsula, its cell blocks converted into comfortable rooms behind the old red-brick walls. It is a short walk from the Uspenski Cathedral and the Market Square, and a couple of minutes from the Suomenlinna ferry.",
+    image: px(2507010),
+    imageAlt: "Converted brick-vaulted hotel room with warm lighting",
+  },
+  {
+    slug: "cheapsleep-helsinki",
+    citySlug: "helsinki",
+    name: "CheapSleep Helsinki",
+    neighborhoodSlug: "kallio",
+    band: "€",
+    priceFrom: 35,
+    style: "Design hostel",
+    bestFor: "Budget",
+    blurb:
+      "A bright, well-run design hostel north of the centre near the bohemian Kallio district, with private rooms as well as dorms and a self-catering kitchen. The tram and metro put the centre a few minutes away, and it is one of the cheapest beds in a Nordic-priced city.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;

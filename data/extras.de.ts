@@ -448,6 +448,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Holmenkollen",
     ],
   },
+  helsinki: {
+    citySlug: "helsinki",
+    image: hero(12319482),
+    imageAlt:
+      "Der Dom von Helsinki, der über dem Südhafen und dem Marktplatz aufragt, vom Meer aus gesehen",
+    history:
+      "Helsinki wurde 1550 von König Gustav Wasa von Schweden als Handelsposten gegründet, um Tallinn jenseits des Meerbusens Konkurrenz zu machen, blieb aber jahrhundertelang eine kleine Stadt. Alles änderte sich 1809, als Schweden Finnland an Russland verlor: Der Zar machte Helsinki 1812 zur Hauptstadt des neuen Großfürstentums und ließ den Architekten Carl Ludwig Engel den neoklassizistischen Senatsplatz und seine weiße Kathedrale anlegen, damit sie wie ein kleineres St. Petersburg aussahen. Finnland errang seine Unabhängigkeit schließlich 1917, und das 20. Jahrhundert verwandelte Helsinki in einen Schaukasten finnischen Designs und moderner Architektur, von Alvar Aalto bis Marimekko. Es war Gastgeber der Olympischen Spiele 1952 und der Helsinki-Schlussakte von 1975 und bleibt eine kompakte, vom Meer gesäumte Hauptstadt, in der die Sauna eine Lebensart ist.",
+    knownFor: [
+      "Der Dom von Helsinki",
+      "Der Senatsplatz",
+      "Festung Suomenlinna",
+      "Der Design District",
+      "Saunakultur",
+      "Der Marktplatz",
+    ],
+  },
 };
 
 export default extrasDe;

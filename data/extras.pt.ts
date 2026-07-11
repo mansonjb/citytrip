@@ -446,6 +446,22 @@ const extrasPt: Record<string, CityExtras> = {
       "Holmenkollen",
     ],
   },
+  helsinki: {
+    citySlug: "helsinki",
+    image: hero(12319482),
+    imageAlt:
+      "A Catedral de Helsínquia a erguer-se sobre o Porto Sul e a praça do mercado vista do mar",
+    history:
+      "Helsínquia foi fundada em 1550 pelo rei Gustavo Vasa da Suécia como entreposto comercial para rivalizar com Talin do outro lado do golfo, mas manteve-se uma pequena cidade durante séculos. Tudo mudou em 1809, quando a Suécia perdeu a Finlândia para a Rússia: o czar fez de Helsínquia a capital do novo Grão-Ducado em 1812 e encarregou o arquiteto Carl Ludwig Engel de traçar a neoclássica Praça do Senado e a sua catedral branca para se parecer com uma São Petersburgo mais pequena. A Finlândia conquistou finalmente a independência em 1917, e o século XX transformou Helsínquia numa montra do design e da arquitetura moderna finlandeses, de Alvar Aalto a Marimekko. Acolheu os Jogos Olímpicos de 1952 e os Acordos de Helsínquia de 1975, e continua a ser uma capital compacta e ribeirinha onde a sauna é uma forma de vida.",
+    knownFor: [
+      "A Catedral de Helsínquia",
+      "A Praça do Senado",
+      "A fortaleza de Suomenlinna",
+      "O Design District",
+      "A cultura da sauna",
+      "A Praça do Mercado",
+    ],
+  },
 };
 
 export default extrasPt;

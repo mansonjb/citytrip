@@ -109,5 +109,9 @@
   "hotel-palace-tallinn": "/hotels/tallinn/hotel-palace-tallinn.jpg",
   "amerikalinjen-oslo": "/hotels/oslo/amerikalinjen-oslo.jpg",
   "scandic-vulkan-oslo": "/hotels/oslo/scandic-vulkan-oslo.jpg",
-  "cochs-pensjonat-oslo": "/hotels/oslo/cochs-pensjonat-oslo.jpg"
+  "cochs-pensjonat-oslo": "/hotels/oslo/cochs-pensjonat-oslo.jpg",
+  "hotel-kamp": "/hotels/helsinki/hotel-kamp.jpg",
+  "klaus-k-hotel": "/hotels/helsinki/klaus-k-hotel.jpg",
+  "hotel-katajanokka": "/hotels/helsinki/hotel-katajanokka.jpg",
+  "cheapsleep-helsinki": "/hotels/helsinki/cheapsleep-helsinki.jpg"
 }

@@ -446,6 +446,22 @@ const extrasIt: Record<string, CityExtras> = {
       "Holmenkollen",
     ],
   },
+  helsinki: {
+    citySlug: "helsinki",
+    image: hero(12319482),
+    imageAlt:
+      "La Cattedrale di Helsinki che si erge sul porto sud e sulla piazza del mercato vista dal mare",
+    history:
+      "Helsinki fu fondata nel 1550 dal re Gustavo Vasa di Svezia come scalo commerciale per rivaleggiare con Tallinn dall'altra parte del golfo, ma rimase una piccola città per secoli. Tutto cambiò nel 1809, quando la Svezia perse la Finlandia a favore della Russia: lo zar fece di Helsinki la capitale del nuovo Granducato nel 1812 e incaricò l'architetto Carl Ludwig Engel di disegnare la neoclassica Piazza del Senato e la sua cattedrale bianca perché somigliassero a una San Pietroburgo in miniatura. La Finlandia conquistò infine l'indipendenza nel 1917, e il Novecento trasformò Helsinki in una vetrina del design e dell'architettura moderna finlandesi, da Alvar Aalto a Marimekko. Ospitò le Olimpiadi del 1952 e gli Accordi di Helsinki del 1975, e resta una capitale compatta e affacciata sul mare dove la sauna è uno stile di vita.",
+    knownFor: [
+      "Cattedrale di Helsinki",
+      "Piazza del Senato",
+      "Fortezza di Suomenlinna",
+      "Il Design District",
+      "Cultura della sauna",
+      "La piazza del mercato",
+    ],
+  },
 };
 
 export default extrasIt;

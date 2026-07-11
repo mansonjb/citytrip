@@ -1621,6 +1621,63 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },
+  // ---- Helsinki ----
+  {
+    slug: "hotel-kamp",
+    citySlug: "helsinki",
+    name: "Hotel Kamp",
+    neighborhoodSlug: "kluuvi-centre",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Grande albergo dell'Esplanadi",
+    bestFor: "Occasioni speciali",
+    blurb:
+      "Il grande albergo di Helsinki dal 1887, affacciato sul parco dell'Esplanadi nel cuore del centro, a lungo ritrovo di Sibelius e della cerchia del romanticismo nazionale. Conserva una spa e un bar della hall in marmo, con il Design District e Piazza del Senato entrambi a breve distanza a piedi.",
+    image: px(262048),
+    imageAlt: "Elegante suite d'albergo con un lampadario e un grande letto",
+  },
+  {
+    slug: "klaus-k-hotel",
+    citySlug: "helsinki",
+    name: "Klaus K Hotel",
+    neighborhoodSlug: "punavuori",
+    band: "€€",
+    priceFrom: 170,
+    style: "Design hotel",
+    bestFor: "Coppie",
+    blurb:
+      "Un design hotel su Bulevardi nel Design District, ispirato ai toni emotivi dell'epica finlandese Kalevala, con un bar e un ristorante vivaci. Mette le boutique e i bar di Punavuori sull'uscio di casa e Piazza del Senato a dieci minuti.",
+    image: px(1267438),
+    imageAlt: "Camera di design contemporanea dai toni caldi",
+  },
+  {
+    slug: "hotel-katajanokka",
+    citySlug: "helsinki",
+    name: "Hotel Katajanokka",
+    neighborhoodSlug: "katajanokka",
+    band: "€€",
+    priceFrom: 150,
+    style: "Hotel in un'ex prigione",
+    bestFor: "Prima visita",
+    blurb:
+      "Un hotel ricco di carattere in un'ex prigione provinciale dell'Ottocento sulla penisola di Katajanokka, con i blocchi delle celle trasformati in camere confortevoli dietro le vecchie mura in mattoni rossi. È a breve distanza a piedi dalla Cattedrale Uspenski e dalla piazza del mercato, e a un paio di minuti dal traghetto per Suomenlinna.",
+    image: px(2507010),
+    imageAlt: "Camera d'albergo con volte in mattoni riconvertita e illuminazione calda",
+  },
+  {
+    slug: "cheapsleep-helsinki",
+    citySlug: "helsinki",
+    name: "CheapSleep Helsinki",
+    neighborhoodSlug: "kallio",
+    band: "€",
+    priceFrom: 35,
+    style: "Ostello di design",
+    bestFor: "Budget",
+    blurb:
+      "Un ostello di design luminoso e ben gestito a nord del centro, vicino al bohémien quartiere di Kallio, con camere private oltre ai dormitori e una cucina in autonomia. Il tram e la metro mettono il centro a pochi minuti, ed è uno dei letti più economici in una città dai prezzi nordici.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
 ];
 
 export default hotelsIt;
