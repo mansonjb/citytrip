@@ -494,6 +494,38 @@ const extrasIt: Record<string, CityExtras> = {
       "I luoghi del Trono di Spade",
     ],
   },
+  riga: {
+    citySlug: "riga",
+    image: hero(33830451),
+    imageAlt:
+      "I tetti della città vecchia di Riga e la guglia della cattedrale con dietro il fiume Daugava e il ponte Vansu",
+    history:
+      "Riga fu fondata nel 1201 dal vescovo tedesco Alberto come base per convertire il Baltico con la spada, e crebbe fino a diventare la città più grande e ricca del Baltico orientale sotto la Lega anseatica, gestita per secoli da mercanti di lingua tedesca e dai cavalieri livoni. Passò per il dominio polacco, svedese e poi russo, e attorno al 1900 un boom industriale la rese la terza città dell'impero russo e ricoprì i suoi nuovi quartieri della più stravagante architettura Art Nouveau d'Europa. La Lettonia conquistò l'indipendenza nel 1918, fu inghiottita dall'Unione Sovietica nel 1940, e si liberò di nuovo nel 1991 attraverso la pacifica Rivoluzione cantata e la catena umana della Via Baltica. Oggi Riga è la più grande delle tre capitali baltiche, una città vecchia patrimonio UNESCO avvolta in boulevard Jugendstil.",
+    knownFor: [
+      "Le guglie della città vecchia",
+      "Facciate Art Nouveau",
+      "Il Mercato Centrale",
+      "Casa delle Teste Nere",
+      "Ambra baltica",
+      "La Festa del canto",
+    ],
+  },
+  brussels: {
+    citySlug: "brussels",
+    image: hero(655295),
+    imageAlt:
+      "Le dorate facciate barocche delle case delle corporazioni della Grand-Place a Bruxelles sotto un cielo nuvoloso",
+    history:
+      "Bruxelles nacque come insediamento fortificato su un'isola del paludoso fiume Senne attorno al 979 e crebbe fino a diventare la sede dei duchi di Brabante e una residenza prediletta dei duchi di Borgogna e degli Asburgo. Le sue corporazioni costruirono la Grand-Place, e quando le truppe francesi la bombardarono e rasero al suolo nel 1695 le corporazioni ricostruirono le loro case più grandiose di prima, nel barocco dorato che si vede ancora oggi. Il Belgio fu creato nel 1830 con Bruxelles come capitale, e la ricchezza di un boom industriale e di un impero coloniale pagò i grandi boulevard, l'Art Nouveau di Victor Horta e l'immenso Palazzo di Giustizia. Ufficialmente bilingue in francese e olandese, Bruxelles divenne la capitale di fatto dell'Unione europea dopo il 1958, ed è per questo che una comoda città belga oggi contribuisce a governare un continente.",
+    knownFor: [
+      "La Grand-Place",
+      "Birra belga",
+      "Cioccolato",
+      "Frites",
+      "Murales a fumetti",
+      "Art Nouveau",
+    ],
+  },
 };
 
 export default extrasIt;

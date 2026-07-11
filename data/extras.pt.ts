@@ -494,6 +494,38 @@ const extrasPt: Record<string, CityExtras> = {
       "Locais de A Guerra dos Tronos",
     ],
   },
+  riga: {
+    citySlug: "riga",
+    image: hero(33830451),
+    imageAlt:
+      "Os telhados da cidade velha de Riga e a torre da catedral com o rio Daugava e a ponte Vansu ao fundo",
+    history:
+      "Riga foi fundada em 1201 pelo bispo alemão Alberto como base para converter o Báltico pela espada, e cresceu até ser a maior e mais rica cidade do Báltico oriental sob a Liga Hanseática, dirigida durante séculos por mercadores de língua alemã e pelos cavaleiros da Livónia. Passou pelo domínio polaco, sueco e depois russo, e por volta de 1900 um surto industrial fez dela a terceira cidade do império russo e cobriu os seus novos bairros com a mais extravagante arquitetura Art Nouveau da Europa. A Letónia conquistou a independência em 1918, foi engolida pela União Soviética em 1940 e libertou-se de novo em 1991 através da pacífica Revolução Cantada e da corrente humana do Caminho Báltico. Hoje Riga é a maior das três capitais bálticas, uma cidade velha classificada pela UNESCO envolta em bulevares Jugendstil.",
+    knownFor: [
+      "Torres da cidade velha",
+      "Fachadas Art Nouveau",
+      "O Mercado Central",
+      "Casa das Cabeças Negras",
+      "Âmbar báltico",
+      "A Festa da Canção",
+    ],
+  },
+  brussels: {
+    citySlug: "brussels",
+    image: hero(655295),
+    imageAlt:
+      "As douradas fachadas barrocas das casas de guilda da Grand-Place em Bruxelas sob um céu nublado",
+    history:
+      "Bruxelas começou como um povoado fortificado numa ilha do pantanoso rio Senne por volta de 979 e cresceu até ser a sede dos Duques de Brabante e uma residência preferida dos duques da Borgonha e dos Habsburgos. As suas guildas construíram a Grand-Place e, quando as tropas francesas a bombardearam e arrasaram em 1695, as guildas reconstruíram as suas casas mais grandiosas do que antes, no barroco dourado que ainda hoje se vê. A Bélgica foi criada em 1830 com Bruxelas como capital, e a riqueza de um surto industrial e de um império colonial pagou os grandes bulevares, o Art Nouveau de Victor Horta e o vasto Palais de Justice. Oficialmente bilingue em francês e neerlandês, Bruxelas tornou-se a capital de facto da União Europeia depois de 1958, e é por isso que uma confortável cidade belga ajuda agora a governar um continente.",
+    knownFor: [
+      "A Grand-Place",
+      "Cerveja belga",
+      "Chocolate",
+      "Frites",
+      "Murais de banda desenhada",
+      "Art Nouveau",
+    ],
+  },
 };
 
 export default extrasPt;

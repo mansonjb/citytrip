@@ -496,6 +496,38 @@ const extrasFr: Record<string, CityExtras> = {
       "Les lieux de tournage de Game of Thrones",
     ],
   },
+  riga: {
+    citySlug: "riga",
+    image: hero(33830451),
+    imageAlt:
+      "Les toits de la vieille ville de Riga et la flèche de la cathédrale, avec la Daugava et le pont Vansu derrière",
+    history:
+      "Riga fut fondée en 1201 par l'évêque allemand Albert comme base pour convertir la Baltique par l'épée, et elle devint la plus grande et la plus riche ville de la Baltique orientale sous la Ligue hanséatique, dirigée pendant des siècles par des marchands germanophones et les chevaliers de Livonie. Elle passa sous domination polonaise, suédoise puis russe, et vers 1900 un essor industriel en fit la troisième ville de l'empire russe et couvrit ses nouveaux quartiers de la plus extravagante architecture Art nouveau d'Europe. La Lettonie conquit son indépendance en 1918, fut absorbée par l'Union soviétique en 1940, et se libéra de nouveau en 1991 grâce à la pacifique Révolution chantante et à la chaîne humaine de la Voie balte. Aujourd'hui, Riga est la plus grande des trois capitales baltes, une vieille ville classée à l'UNESCO enveloppée de boulevards Jugendstil.",
+    knownFor: [
+      "Les flèches de la vieille ville",
+      "Les façades Art nouveau",
+      "Le marché central",
+      "La maison des Têtes noires",
+      "L'ambre de la Baltique",
+      "La Fête du chant",
+    ],
+  },
+  brussels: {
+    citySlug: "brussels",
+    image: hero(655295),
+    imageAlt:
+      "Les façades baroques dorées des maisons de guildes de la Grand-Place de Bruxelles sous un ciel nuageux",
+    history:
+      "Bruxelles débuta comme un établissement fortifié sur une île de la Senne marécageuse vers 979 et devint le siège des ducs de Brabant et une résidence favorite des ducs de Bourgogne et des Habsbourg. Ses guildes bâtirent la Grand-Place, et quand les troupes françaises la bombardèrent et la rasèrent en 1695, les guildes reconstruisirent leurs maisons plus grandioses qu'avant, dans le baroque doré que l'on voit encore aujourd'hui. La Belgique fut créée en 1830 avec Bruxelles pour capitale, et la richesse d'un essor industriel et d'un empire colonial paya les grands boulevards, l'Art nouveau de Victor Horta et le vaste Palais de Justice. Officiellement bilingue en français et en néerlandais, Bruxelles devint la capitale de fait de l'Union européenne après 1958, et c'est pourquoi une confortable ville belge contribue désormais à gouverner un continent.",
+    knownFor: [
+      "La Grand-Place",
+      "La bière belge",
+      "Le chocolat",
+      "Les frites",
+      "Les fresques de bande dessinée",
+      "L'Art nouveau",
+    ],
+  },
 };
 
 export default extrasFr;

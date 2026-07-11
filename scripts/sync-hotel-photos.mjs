@@ -63,6 +63,8 @@ const CITY_NAME = {
   helsinki: "Helsinki Finland",
   naples: "Naples Italy",
   split: "Split Croatia",
+  riga: "Riga Latvia",
+  brussels: "Brussels Belgium",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

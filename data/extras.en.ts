@@ -495,6 +495,38 @@ const extrasEn: Record<string, CityExtras> = {
       "Game of Thrones sites",
     ],
   },
+  riga: {
+    citySlug: "riga",
+    image: hero(33830451),
+    imageAlt:
+      "Riga's old town rooftops and cathedral spire with the Daugava river and the Vansu bridge behind",
+    history:
+      "Riga was founded in 1201 by the German bishop Albert as a base to convert the Baltic by the sword, and it grew into the biggest and richest city on the eastern Baltic under the Hanseatic League, run for centuries by German-speaking merchants and the Livonian knights. It passed through Polish, Swedish and then Russian rule, and around 1900 an industrial boom made it the third city of the Russian empire and covered its new districts in the most extravagant Art Nouveau architecture in Europe. Latvia won its independence in 1918, was swallowed by the Soviet Union in 1940, and broke free again in 1991 through the peaceful Singing Revolution and the human chain of the Baltic Way. Today Riga is the largest of the three Baltic capitals, a UNESCO-listed old town wrapped in Jugendstil boulevards.",
+    knownFor: [
+      "Old Town spires",
+      "Art Nouveau facades",
+      "The Central Market",
+      "House of the Blackheads",
+      "Baltic amber",
+      "The Song Festival",
+    ],
+  },
+  brussels: {
+    citySlug: "brussels",
+    image: hero(655295),
+    imageAlt:
+      "The gilded Baroque guildhall facades of the Grand-Place in Brussels under a cloudy sky",
+    history:
+      "Brussels began as a fortified settlement on an island in the marshy river Senne around 979 and grew into the seat of the Dukes of Brabant and a favourite residence of the dukes of Burgundy and the Habsburgs. Its guilds built the Grand-Place, and when French troops bombarded and flattened it in 1695 the guilds rebuilt their houses grander than before, in the gilded Baroque you still see today. Belgium was created in 1830 with Brussels as its capital, and the wealth of an industrial boom and a colonial empire paid for the grand boulevards, the Art Nouveau of Victor Horta and the vast Palais de Justice. Officially bilingual in French and Dutch, Brussels became the de facto capital of the European Union after 1958, which is why a comfortable Belgian city now helps run a continent.",
+    knownFor: [
+      "The Grand-Place",
+      "Belgian beer",
+      "Chocolate",
+      "Frites",
+      "Comic-strip murals",
+      "Art Nouveau",
+    ],
+  },
 };
 
 export default extrasEn;

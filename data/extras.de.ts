@@ -496,6 +496,38 @@ const extrasDe: Record<string, CityExtras> = {
       "Game-of-Thrones-Drehorte",
     ],
   },
+  riga: {
+    citySlug: "riga",
+    image: hero(33830451),
+    imageAlt:
+      "Die Dächer und der Domturm der Rigaer Altstadt mit der Daugava und der Vansu-Brücke dahinter",
+    history:
+      "Riga wurde 1201 vom deutschen Bischof Albert als Stützpunkt gegründet, um das Baltikum mit dem Schwert zu bekehren, und wuchs unter der Hanse zur größten und reichsten Stadt der östlichen Ostsee heran, jahrhundertelang von deutschsprachigen Kaufleuten und den livländischen Rittern geführt. Sie ging durch polnische, schwedische und dann russische Herrschaft, und um 1900 machte ein industrieller Aufschwung sie zur drittgrößten Stadt des Russischen Reiches und überzog ihre neuen Viertel mit der extravagantesten Jugendstilarchitektur Europas. Lettland erlangte 1918 seine Unabhängigkeit, wurde 1940 von der Sowjetunion verschluckt und riss sich 1991 durch die friedliche Singende Revolution und die Menschenkette des Baltischen Wegs erneut los. Heute ist Riga die größte der drei baltischen Hauptstädte, eine UNESCO-gelistete Altstadt, umhüllt von Jugendstilboulevards.",
+    knownFor: [
+      "Türme der Altstadt",
+      "Jugendstilfassaden",
+      "Der Zentralmarkt",
+      "Schwarzhäupterhaus",
+      "Baltischer Bernstein",
+      "Das Sangfest",
+    ],
+  },
+  brussels: {
+    citySlug: "brussels",
+    image: hero(655295),
+    imageAlt:
+      "Die vergoldeten barocken Gildehausfassaden des Grand-Place in Brüssel unter einem bewölkten Himmel",
+    history:
+      "Brüssel begann um 979 als befestigte Siedlung auf einer Insel im sumpfigen Fluss Senne und wuchs zum Sitz der Herzöge von Brabant und zu einer bevorzugten Residenz der Herzöge von Burgund und der Habsburger heran. Seine Gilden bauten den Grand-Place, und als französische Truppen ihn 1695 beschossen und dem Erdboden gleichmachten, bauten die Gilden ihre Häuser prächtiger als zuvor wieder auf, im vergoldeten Barock, den Sie noch heute sehen. Belgien wurde 1830 mit Brüssel als Hauptstadt gegründet, und der Reichtum eines industriellen Aufschwungs und eines Kolonialreichs bezahlte die prächtigen Boulevards, den Jugendstil Victor Hortas und den gewaltigen Justizpalast. Offiziell zweisprachig in Französisch und Niederländisch, wurde Brüssel nach 1958 zur faktischen Hauptstadt der Europäischen Union, weshalb eine behagliche belgische Stadt heute mithilft, einen Kontinent zu regieren.",
+    knownFor: [
+      "Der Grand-Place",
+      "Belgisches Bier",
+      "Schokolade",
+      "Fritten",
+      "Comic-Wandbilder",
+      "Jugendstil",
+    ],
+  },
 };
 
 export default extrasDe;

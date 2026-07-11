@@ -496,6 +496,38 @@ const extrasEs: Record<string, CityExtras> = {
       "Localizaciones de Juego de Tronos",
     ],
   },
+  riga: {
+    citySlug: "riga",
+    image: hero(33830451),
+    imageAlt:
+      "Los tejados del casco antiguo de Riga y la aguja de la catedral con el río Daugava y el puente Vansu detrás",
+    history:
+      "Riga fue fundada en 1201 por el obispo alemán Alberto como base para convertir el Báltico a golpe de espada, y creció hasta ser la ciudad más grande y rica del Báltico oriental bajo la Liga Hanseática, gobernada durante siglos por comerciantes de habla alemana y por los caballeros de Livonia. Pasó por manos polacas, suecas y luego rusas, y hacia 1900 un auge industrial la convirtió en la tercera ciudad del imperio ruso y cubrió sus nuevos distritos con la arquitectura art nouveau más extravagante de Europa. Letonia logró su independencia en 1918, fue engullida por la Unión Soviética en 1940 y se liberó de nuevo en 1991 a través de la pacífica Revolución Cantada y la cadena humana de la Vía Báltica. Hoy Riga es la mayor de las tres capitales bálticas, un casco antiguo Patrimonio de la Humanidad envuelto en bulevares Jugendstil.",
+    knownFor: [
+      "Las agujas del casco antiguo",
+      "Las fachadas art nouveau",
+      "El Mercado Central",
+      "La Casa de los Cabezas Negras",
+      "El ámbar báltico",
+      "La Fiesta de la Canción",
+    ],
+  },
+  brussels: {
+    citySlug: "brussels",
+    image: hero(655295),
+    imageAlt:
+      "Las doradas fachadas barrocas de las casas gremiales de la Grand-Place de Bruselas bajo un cielo nublado",
+    history:
+      "Bruselas empezó como un asentamiento fortificado en una isla del pantanoso río Senne hacia el año 979 y creció hasta ser la sede de los duques de Brabante y una residencia predilecta de los duques de Borgoña y de los Habsburgo. Sus gremios construyeron la Grand-Place, y cuando las tropas francesas la bombardearon y arrasaron en 1695, los gremios reconstruyeron sus casas más grandiosas que antes, en el barroco dorado que todavía ves hoy. Bélgica se creó en 1830 con Bruselas como capital, y la riqueza de un auge industrial y de un imperio colonial costeó los grandes bulevares, el art nouveau de Victor Horta y el vasto Palacio de Justicia. Oficialmente bilingüe en francés y neerlandés, Bruselas se convirtió en la capital de facto de la Unión Europea después de 1958, razón por la que una cómoda ciudad belga ayuda ahora a gobernar un continente.",
+    knownFor: [
+      "La Grand-Place",
+      "La cerveza belga",
+      "El chocolate",
+      "Las patatas fritas",
+      "Los murales de cómic",
+      "El art nouveau",
+    ],
+  },
 };
 
 export default extrasEs;
