@@ -1683,6 +1683,64 @@ const hotelsEs: Hotel[] = [
     image: px(271624),
     imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
   },
+
+  // ---- Nápoles ----
+  {
+    slug: "grand-hotel-vesuvio",
+    citySlug: "naples",
+    name: "Grand Hotel Vesuvio",
+    neighborhoodSlug: "santa-lucia-lungomare",
+    band: "€€€",
+    priceFrom: 320,
+    style: "Gran hotel junto al mar",
+    bestFor: "Ocasiones especiales",
+    blurb:
+      "El gran hotel histórico de Nápoles desde 1882, en el paseo marítimo de Santa Lucía mirando de frente al Castel dell'Ovo y al Vesubio, durante mucho tiempo la elección de la realeza de visita y de Enrico Caruso, que murió aquí. El restaurante Caruso de la azotea abarca toda la bahía, y el centro histórico queda a un tranvía o a 20 minutos a pie.",
+    image: px(262048),
+    imageAlt: "Elegante suite de hotel con una araña de luces y una cama grande",
+  },
+  {
+    slug: "decumani-hotel-de-charme",
+    citySlug: "naples",
+    name: "Decumani Hotel de Charme",
+    neighborhoodSlug: "centro-storico",
+    band: "€€",
+    priceFrom: 130,
+    style: "Boutique en un palazzo",
+    bestFor: "Primera visita",
+    blurb:
+      "Un hotel boutique en el antiguo palacio de un cardenal junto a Spaccanapoli, con un dorado salón de baile barroco para el desayuno y habitaciones de techos altos en torno a un patio. Pone las iglesias, el Cristo Velado y las pizzerías del centro histórico justo al otro lado de la puerta.",
+    image: px(1267438),
+    imageAlt: "Recargada habitación de hotel de techos altos en un palazzo histórico",
+  },
+  {
+    slug: "chiaja-hotel-de-charme",
+    citySlug: "naples",
+    name: "Chiaja Hotel de Charme",
+    neighborhoodSlug: "chiaia",
+    band: "€€",
+    priceFrom: 120,
+    style: "Encanto Belle Époque",
+    bestFor: "Parejas",
+    blurb:
+      "Un hotel cálido y amueblado con antigüedades en el antiguo apartamento de un marqués en la peatonal Via Chiaia, a un minuto de la Piazza del Plebiscito. Se sitúa entre las elegantes calles comerciales de Chiaia y el paseo marítimo, en el lado más seguro y refinado del centro.",
+    image: px(2507010),
+    imageAlt: "Habitación de hotel tradicional con mobiliario antiguo e iluminación cálida",
+  },
+  {
+    slug: "la-controra-hostel",
+    citySlug: "naples",
+    name: "La Controra Hostel",
+    neighborhoodSlug: "vomero",
+    band: "€",
+    priceFrom: 30,
+    style: "Albergue de diseño",
+    bestFor: "Presupuesto ajustado",
+    blurb:
+      "Un albergue de diseño relajado con un patio frondoso en la ladera bajo el Vomero, con habitaciones privadas además de dormitorios compartidos. Está a un corto paseo o a un salto en metro del museo arqueológico y del centro histórico, y es una de las camas con mejor relación calidad-precio de la ciudad.",
+    image: px(271624),
+    imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
+  },
 ];
 
 export default hotelsEs;

@@ -464,6 +464,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Der Marktplatz",
     ],
   },
+  naples: {
+    citySlug: "naples",
+    image: hero(31668031),
+    imageAlt:
+      "Die Kuppeln und Dächer von Neapel mit der Bucht von Neapel und dem Vesuv dahinter in der Abenddämmerung",
+    history:
+      "Neapel wurde um 600 v. Chr. von griechischen Siedlern als Neapolis, die neue Stadt, gegründet und behielt sein griechisches Raster, das noch immer in der schnurgeraden Linie von Spaccanapoli nachvollziehbar ist, durch römische, byzantinische, normannische und spanische Herrschaft hindurch. Jahrhundertelang war es die Hauptstadt eines eigenen Königreichs, die größte Stadt Italiens und eine der größten Europas, ein bourbonischer Königssitz, dessen Opernhaus, das San Carlo von 1737, das älteste noch bespielte der Welt ist. All das liegt unter dem Vesuv, dem Vulkan, der Pompeji und Herculaneum 79 n. Chr. begrub und noch immer über der Bucht aufragt, ruhend, aber lebendig. Arm, dicht und leidenschaftlich stolz, schenkte Neapel der Welt die Pizza, die hier in den 1700er Jahren entstand und 1889 als Margherita festgelegt wurde, sowie eine Hingabe an Diego Maradona, die ans Religiöse grenzt.",
+    knownFor: [
+      "Pizza Margherita",
+      "Der Vesuv",
+      "Tagesausflug nach Pompeji",
+      "Spaccanapoli",
+      "Maradona",
+      "Der Verschleierte Christus",
+    ],
+  },
 };
 
 export default extrasDe;

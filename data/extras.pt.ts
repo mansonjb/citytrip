@@ -462,6 +462,22 @@ const extrasPt: Record<string, CityExtras> = {
       "A Praça do Mercado",
     ],
   },
+  naples: {
+    citySlug: "naples",
+    image: hero(31668031),
+    imageAlt:
+      "As cúpulas e os telhados de Nápoles com a Baía de Nápoles e o Monte Vesúvio ao fundo ao anoitecer",
+    history:
+      "Nápoles foi fundada por colonos gregos por volta de 600 a.C. como Neápolis, a cidade nova, e manteve a sua malha grega, ainda hoje visível na linha a direito de Spaccanapoli, ao longo dos domínios romano, bizantino, normando e espanhol. Durante séculos foi a capital do seu próprio reino, a maior cidade de Itália e uma das maiores da Europa, uma sede real dos Bourbon cujo teatro de ópera, o San Carlo de 1737, é o mais antigo ainda em funcionamento no mundo. Tudo isto assenta sob o Vesúvio, o vulcão que soterrou Pompeia e Herculano em 79 d.C. e ainda paira, adormecido mas vivo, sobre a baía. Pobre, densa e ferozmente orgulhosa, Nápoles deu ao mundo a pizza, nascida aqui no século XVIII e fixada como a Margherita em 1889, e uma devoção a Diego Maradona que roça o religioso.",
+    knownFor: [
+      "Pizza margherita",
+      "O Monte Vesúvio",
+      "Excursão a Pompeia",
+      "Spaccanapoli",
+      "Maradona",
+      "O Cristo Velado",
+    ],
+  },
 };
 
 export default extrasPt;

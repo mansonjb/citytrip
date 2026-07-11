@@ -463,6 +463,22 @@ const extrasEn: Record<string, CityExtras> = {
       "The Market Square",
     ],
   },
+  naples: {
+    citySlug: "naples",
+    image: hero(31668031),
+    imageAlt:
+      "The domes and rooftops of Naples with the Bay of Naples and Mount Vesuvius behind at dusk",
+    history:
+      "Naples was founded by Greek settlers around 600 BC as Neapolis, the new city, and it kept its Greek grid, still traceable in the dead-straight line of Spaccanapoli, through Roman, Byzantine, Norman and Spanish rule. For centuries it was the capital of its own kingdom, the largest city in Italy and one of the biggest in Europe, a Bourbon royal seat whose opera house, the San Carlo of 1737, is the oldest still working in the world. All of it sits under Vesuvius, the volcano that buried Pompeii and Herculaneum in AD 79 and still looms, dormant but alive, over the bay. Poor, dense and fiercely proud, Naples gave the world pizza, born here in the 1700s and fixed as the Margherita in 1889, and a devotion to Diego Maradona that borders on the religious.",
+    knownFor: [
+      "Pizza margherita",
+      "Mount Vesuvius",
+      "Pompeii day trip",
+      "Spaccanapoli",
+      "Maradona",
+      "The Veiled Christ",
+    ],
+  },
 };
 
 export default extrasEn;

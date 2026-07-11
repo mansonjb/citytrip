@@ -61,6 +61,7 @@ const CITY_NAME = {
   tallinn: "Tallinn Estonia",
   oslo: "Oslo Norway",
   helsinki: "Helsinki Finland",
+  naples: "Naples Italy",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

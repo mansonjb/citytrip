@@ -1678,6 +1678,63 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },
+  // ---- Naples ----
+  {
+    slug: "grand-hotel-vesuvio",
+    citySlug: "naples",
+    name: "Grand Hotel Vesuvio",
+    neighborhoodSlug: "santa-lucia-lungomare",
+    band: "€€€",
+    priceFrom: 320,
+    style: "Grande hotel sul mare",
+    bestFor: "Occasioni speciali",
+    blurb:
+      "Il grande hotel storico di Napoli dal 1882, sul lungomare di Santa Lucia affacciato su Castel dell'Ovo e sul Vesuvio, a lungo scelto dai reali in visita e da Enrico Caruso, che qui morì. Il ristorante Caruso sul tetto abbraccia tutto il golfo, e il centro storico è a un tram o a 20 minuti a piedi.",
+    image: px(262048),
+    imageAlt: "Elegante suite d'albergo con lampadario e un grande letto",
+  },
+  {
+    slug: "decumani-hotel-de-charme",
+    citySlug: "naples",
+    name: "Decumani Hotel de Charme",
+    neighborhoodSlug: "centro-storico",
+    band: "€€",
+    priceFrom: 130,
+    style: "Boutique in un palazzo",
+    bestFor: "Prima visita",
+    blurb:
+      "Un boutique hotel in un ex palazzo cardinalizio a due passi da Spaccanapoli, con una dorata sala da ballo barocca per la colazione e camere dai soffitti alti attorno a un cortile. Mette le chiese, il Cristo velato e le pizzerie del centro storico proprio fuori dalla porta.",
+    image: px(1267438),
+    imageAlt: "Camera d'albergo sfarzosa dai soffitti alti in un palazzo storico",
+  },
+  {
+    slug: "chiaja-hotel-de-charme",
+    citySlug: "naples",
+    name: "Chiaja Hotel de Charme",
+    neighborhoodSlug: "chiaia",
+    band: "€€",
+    priceFrom: 120,
+    style: "Charme Belle Époque",
+    bestFor: "Coppie",
+    blurb:
+      "Un hotel caldo e arredato con mobili antichi in un ex appartamento di un marchese sulla Via Chiaia pedonale, a un minuto da Piazza del Plebiscito. Si trova tra le eleganti vie dello shopping di Chiaia e il lungomare, sul lato più sicuro e curato del centro.",
+    image: px(2507010),
+    imageAlt: "Camera d'albergo tradizionale con mobili antichi e illuminazione calda",
+  },
+  {
+    slug: "la-controra-hostel",
+    citySlug: "naples",
+    name: "La Controra Hostel",
+    neighborhoodSlug: "vomero",
+    band: "€",
+    priceFrom: 30,
+    style: "Ostello di design",
+    bestFor: "Budget",
+    blurb:
+      "Un rilassato ostello di design con un cortile verdeggiante sul pendio sotto il Vomero, con camere private oltre ai dormitori. È a breve distanza a piedi o una fermata di metro dal museo archeologico e dal centro storico, ed è uno dei letti dal miglior rapporto qualità-prezzo della città.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
 ];
 
 export default hotelsIt;

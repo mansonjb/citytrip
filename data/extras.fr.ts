@@ -464,6 +464,22 @@ const extrasFr: Record<string, CityExtras> = {
       "La place du marché",
     ],
   },
+  naples: {
+    citySlug: "naples",
+    image: hero(31668031),
+    imageAlt:
+      "Les dômes et les toits de Naples avec la baie de Naples et le Vésuve derrière, au crépuscule",
+    history:
+      "Naples fut fondée par des colons grecs vers 600 av. J.-C. sous le nom de Neapolis, la ville nouvelle, et elle conserva sa grille grecque, encore lisible dans la ligne parfaitement rectiligne de Spaccanapoli, à travers les dominations romaine, byzantine, normande et espagnole. Pendant des siècles, elle fut la capitale de son propre royaume, la plus grande ville d'Italie et l'une des plus grandes d'Europe, un siège royal des Bourbons dont l'opéra, le San Carlo de 1737, est le plus ancien encore en activité au monde. Tout cela se trouve sous le Vésuve, le volcan qui ensevelit Pompéi et Herculanum en 79 apr. J.-C. et qui domine encore la baie, endormi mais bien vivant. Pauvre, dense et farouchement fière, Naples a donné au monde la pizza, née ici dans les années 1700 et fixée en Margherita en 1889, et une dévotion à Diego Maradona qui frôle le religieux.",
+    knownFor: [
+      "La pizza margherita",
+      "Le Vésuve",
+      "L'excursion à Pompéi",
+      "Spaccanapoli",
+      "Maradona",
+      "Le Christ voilé",
+    ],
+  },
 };
 
 export default extrasFr;

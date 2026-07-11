@@ -113,5 +113,9 @@
   "hotel-kamp": "/hotels/helsinki/hotel-kamp.jpg",
   "klaus-k-hotel": "/hotels/helsinki/klaus-k-hotel.jpg",
   "hotel-katajanokka": "/hotels/helsinki/hotel-katajanokka.jpg",
-  "cheapsleep-helsinki": "/hotels/helsinki/cheapsleep-helsinki.jpg"
+  "cheapsleep-helsinki": "/hotels/helsinki/cheapsleep-helsinki.jpg",
+  "decumani-hotel-de-charme": "/hotels/naples/decumani-hotel-de-charme.jpg",
+  "chiaja-hotel-de-charme": "/hotels/naples/chiaja-hotel-de-charme.jpg",
+  "la-controra-hostel": "/hotels/naples/la-controra-hostel.jpg",
+  "grand-hotel-vesuvio": "/hotels/naples/grand-hotel-vesuvio.jpg"
 }

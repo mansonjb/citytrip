@@ -462,6 +462,22 @@ const extrasIt: Record<string, CityExtras> = {
       "La piazza del mercato",
     ],
   },
+  naples: {
+    citySlug: "naples",
+    image: hero(31668031),
+    imageAlt:
+      "Le cupole e i tetti di Napoli con il Golfo di Napoli e il Vesuvio sullo sfondo al crepuscolo",
+    history:
+      "Napoli fu fondata da coloni greci attorno al 600 a.C. come Neapolis, la città nuova, e conservò la sua griglia greca, ancora leggibile nella linea dritta di Spaccanapoli, attraverso il dominio romano, bizantino, normanno e spagnolo. Per secoli fu la capitale di un proprio regno, la città più grande d'Italia e una delle più grandi d'Europa, sede reale borbonica il cui teatro d'opera, il San Carlo del 1737, è il più antico ancora in attività al mondo. Tutto questo sta sotto il Vesuvio, il vulcano che seppellì Pompei ed Ercolano nel 79 d.C. e che ancora incombe, dormiente ma vivo, sul golfo. Povera, densa e ferocemente fiera, Napoli ha dato al mondo la pizza, nata qui nel Settecento e fissata come Margherita nel 1889, e una devozione per Diego Maradona che rasenta il religioso.",
+    knownFor: [
+      "Pizza margherita",
+      "Vesuvio",
+      "Gita a Pompei",
+      "Spaccanapoli",
+      "Maradona",
+      "Il Cristo velato",
+    ],
+  },
 };
 
 export default extrasIt;
