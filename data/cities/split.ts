@@ -1,0 +1,516 @@
+import type { CityData } from "../types";
+
+const split: CityData = {
+  city: {
+    slug: "split",
+    name: "Split",
+    country: "Croatia",
+    countrySlug: "croatia",
+    lat: 43.5081,
+    lng: 16.4402,
+    tier: 3,
+    idealDays: 2,
+    durations: [2, 3],
+    airportCode: "SPU",
+    airportToCenter:
+      "Split airport sits about 25km west of the centre near Kastela and Trogir, so every route into town takes a while. The dedicated airport shuttle bus reaches the centre and the harbour in roughly 30 to 40 minutes for around 8 EUR, with tickets sold on board, and it is the simplest option for most arrivals. Cheaper but slower is the Promet city bus line 37, which runs to the main bus station via Trogir for a couple of euros but crawls through the suburbs in about 50 minutes. A taxi into the centre is roughly 30 to 40 EUR and worth splitting across a group. There is no metro and no airport train.",
+    centerWalkable: true,
+    bestMonths: [5, 6, 9, 10],
+    avoidMonths: [7, 8],
+    monthlyNotes: {
+      1: "Cold and wet for the Adriatic at highs near 12C, with the year's thinnest crowds and lowest room rates inside the palace. Many island ferries run a reduced winter timetable and some old-town restaurants close, but the marble lanes are quiet and easy to photograph.",
+      2: "Still mild-cool around 12C with regular rain and short days, though carnival brings costumes and a parade to the centre in the run-up to Lent. Prices stay low and the Riva is uncrowded, but confirm ferry and restaurant openings before you build a day around the islands.",
+      3: "Spring stirs with afternoons near 15C, longer light and gardens greening on Marjan hill, while the winter rain starts to ease. Rates are still low and the palace is calm before the season, though a cool wet front can still blow through and some seasonal spots reopen only late in the month.",
+      4: "Pleasant and green at highs around 18C, with Easter the main crowd spike and the full ferry timetable coming back online. It is a fine month for Marjan, Klis and day trips to Trogir before the summer heat and cruise volume arrive, so book a few days out rather than months.",
+      5: "One of the best months: warm days near 23C, long evenings on the Riva and the sea warming for a first swim, without full peak crowds or prices. The catamarans to Hvar, Brac and Vis are all running and the palace is comfortable to explore before the midday sun.",
+      6: "Hot and bright at around 28C as the season ramps up, with cruise crowds thickening around the Peristyle by midday and rates climbing steadily. The picigin ball game is in full swing on Bacvice beach and the ferries are frequent, so start the sights early and save the water for the afternoon.",
+      7: "Peak heat, peak prices and peak crowds collide at highs near 30C, with the huge Ultra Europe electronic-music festival taking over the Poljud stadium in mid-July and rooms selling out for it. The Split Summer Festival also runs open-air theatre and opera in and around the palace through July and August, so book far ahead and expect the lanes and ferry queues packed at midday.",
+      8: "The hottest, busiest and most expensive month, dry and near 30C, with the Summer Festival continuing and the beaches, catamarans and old town all at their fullest. Come only if you plan around early mornings and late evenings, when the palace cools and the day crowds and cruise passengers have gone.",
+      9: "Heat eases toward comfortable 26C afternoons and the sea is at its warmest, while cruise numbers and prices slip after the first week. Early-to-mid September is one of the smartest windows of the year for the palace, Marjan and the islands, with light that turns golden on the stone.",
+      10: "Highs settle near 21C, the crowds thin markedly and queues shorten, making this a reliably comfortable month for the palace and day trips to Krka or Trogir. Rain picks up later in the month and the island ferries begin trimming their timetable, so check catamaran schedules before planning a Hvar or Vis day.",
+      11: "Cool and wet at around 17C with the season winding down, thin crowds, low rates and the Adriatic still mild for a coastal walk on Marjan. Many island ferries drop to a winter schedule and some old-town kitchens close, so confirm openings before you plan around them.",
+      12: "Mild-cold 13C days, regular rain and festive Advent lights strung along the Riva and through the palace, with Christmas markets and a low-season calm. Crowds stay light until the holidays and prices are among the year's lowest, but expect off-season closures across restaurants and reduced island ferries.",
+    },
+    climate: {
+      1: { highC: 12, lowC: 5, rainyDays: 11 },
+      2: { highC: 12, lowC: 5, rainyDays: 10 },
+      3: { highC: 15, lowC: 7, rainyDays: 10 },
+      4: { highC: 18, lowC: 10, rainyDays: 10 },
+      5: { highC: 23, lowC: 14, rainyDays: 8 },
+      6: { highC: 28, lowC: 18, rainyDays: 6 },
+      7: { highC: 30, lowC: 21, rainyDays: 4 },
+      8: { highC: 30, lowC: 21, rainyDays: 4 },
+      9: { highC: 26, lowC: 17, rainyDays: 6 },
+      10: { highC: 21, lowC: 13, rainyDays: 9 },
+      11: { highC: 17, lowC: 10, rainyDays: 11 },
+      12: { highC: 13, lowC: 7, rainyDays: 11 },
+    },
+    budgetLevel: "mid",
+    budgetPerDay: { budget: 60, mid: 120, high: 240 },
+    tagline:
+      "A living Roman palace on the Dalmatian coast, with marble lanes, the seafront Riva and a gateway to the islands.",
+    heroIntro:
+      "Split's old town is not next to a Roman ruin, it is inside one: the whole centre sits within the walls of Diocletian's fourth-century palace, still lived in, with cafes and apartments built into the imperial stone. You cover it entirely on foot, from the marble Riva promenade along the harbour to the Peristyle square at its heart. It also makes the best base on the coast for the Dalmatian islands of Hvar, Brac and Vis, plus Trogir and the Krka waterfalls, all reachable on a day trip. It is hot and packed in high summer and calmer in spring and autumn, and Game of Thrones fans will find its cellars and nearby Klis fortress on screen. This guide splits two or three days so you see the core without melting in the queues.",
+    accent: { from: "#E0A23C", to: "#1C8AA0", ink: "#0E3E48" },
+    neighborhoodSlugs: [
+      "diocletian-palace",
+      "varos",
+      "bacvice",
+      "riva-meje",
+      "manus-lucac",
+    ],
+    nearbyCitySlugs: ["dubrovnik"],
+  },
+  neighborhoods: [
+    {
+      slug: "diocletian-palace",
+      citySlug: "split",
+      name: "Diocletian's Palace (Old Town)",
+      lat: 43.5082,
+      lng: 16.4402,
+      bestFor: ["first-time", "romantic"],
+      vibe: "Sleeping inside the palace walls puts you on the atmospheric marble lanes with the Peristyle, the cathedral and the Riva at your door, and the old town turns quiet and floodlit once the day crowds thin. It is the most central and atmospheric base, though the same lanes that charm by day can be noisy with bars and restaurants late into the night. Pick it when it is your first visit, time is short and you want to wake up in the middle of the history.",
+      pros: [
+        "The Peristyle, the cathedral, the cellars and the Riva all within a couple of minutes on foot",
+        "The most atmospheric base, with the marble lanes floodlit and quiet late in the evening",
+        "Best for a short trip where being in the middle of the old town matters most",
+      ],
+      cons: [
+        "Nightlife noise carries in the stone lanes, so a central room can be loud in summer",
+        "Busy and crowded by day when the cruise groups and tour parties fill the passages",
+        "Rooms are mostly small apartments up stepped lanes with no lift and limited parking",
+      ],
+    },
+    {
+      slug: "varos",
+      citySlug: "split",
+      name: "Varos",
+      lat: 43.5095,
+      lng: 16.4350,
+      bestFor: ["local", "romantic"],
+      vibe: "Varos is the old fishermen's quarter of low stone cottages climbing the hillside just west of the centre, a maze of steep narrow lanes between the palace and Marjan hill. It is quiet, characterful and genuinely residential, trading the palace crowds for washing lines, cats and family taverns. Base here for a calmer, more romantic stay that is still a five-minute walk from the Riva and the sights.",
+      pros: [
+        "Quiet, characterful stone lanes just five minutes' walk from the palace and the Riva",
+        "Genuinely residential, with old-school family taverns (konobe) at fair prices",
+        "At the foot of the path up Marjan hill for the morning walk to the viewpoints",
+      ],
+      cons: [
+        "Steep stepped lanes make it hard work with luggage and there is little parking",
+        "Few sights of its own, so you walk into the palace for the headline attractions",
+        "Quiet at night, which suits some travellers more than others",
+      ],
+    },
+    {
+      slug: "bacvice",
+      citySlug: "split",
+      name: "Bacvice",
+      lat: 43.5030,
+      lng: 16.4470,
+      bestFor: ["nightlife", "budget"],
+      vibe: "Bacvice is the district around the sandy town beach just east of the harbour, the rare shallow sand beach in a coast of pebbles and the home of the local picigin ball game. Above the beach sit the bars and clubs that make it the centre of Split's summer nightlife, lively and young into the early hours. Base here on a budget when you want the beach on your doorstep and the night out a stumble away.",
+      pros: [
+        "Split's rare sandy beach and the picigin ball game right on the doorstep",
+        "The heart of the summer nightlife, with beach bars and clubs above the sand",
+        "Cheaper rooms than the palace, a flat ten-minute walk from the old town",
+      ],
+      cons: [
+        "The clubs run loud and late in summer, so light sleepers should look elsewhere",
+        "The small beach gets packed and its bars are pricey in peak season",
+        "A younger party crowd that will not suit everyone",
+      ],
+    },
+    {
+      slug: "riva-meje",
+      citySlug: "split",
+      name: "Riva and Meje",
+      lat: 43.5075,
+      lng: 16.4300,
+      bestFor: ["romantic", "family"],
+      vibe: "This is the seafront west of the centre, running from the palm-lined Riva promenade out toward the leafy Meje villas and the slopes of Marjan hill. It is the upscale, green side of Split, with grand houses, sea views and calm streets a short walk from both the old town and the Mestrovic Gallery. Base here for a romantic or family stay that wants space, greenery and the water close at hand.",
+      pros: [
+        "The seafront Riva and the green Meje slopes, upscale and calm with sea views",
+        "A short flat walk to the palace one way and Marjan hill and the Mestrovic Gallery the other",
+        "Quieter and greener than the old town, good for couples and families",
+      ],
+      cons: [
+        "Room rates run higher on the sea-view villa streets",
+        "Fewer bars and restaurants than the palace, so you walk in for the buzz",
+        "The best stays are small guesthouses and villas rather than big hotels",
+      ],
+    },
+    {
+      slug: "manus-lucac",
+      citySlug: "split",
+      name: "Manus and Lucac",
+      lat: 43.5105,
+      lng: 16.4445,
+      bestFor: ["family", "budget"],
+      vibe: "Manus and Lucac are the everyday residential streets just north and east of the palace walls, close enough to walk into the old town in a few minutes but priced for locals rather than tourists. It is an unglamorous but practical base of apartment blocks, corner bakeries and the green market on its edge. Base here with a family or on a budget when you want handier prices and an easy walk to the sights.",
+      pros: [
+        "Handier local prices on rooms and food, a few minutes' walk from the palace",
+        "The green market and the fish market right on the edge of the quarter",
+        "A normal working neighbourhood away from the nightlife and cruise crowds",
+      ],
+      cons: [
+        "Plain residential streets with little of the palace's atmosphere",
+        "You walk into the old town for the sights, bars and restaurants",
+        "Some stretches near the busy roads are noisier than the quiet lanes suggest",
+      ],
+    },
+  ],
+  pois: [
+    {
+      slug: "diocletians-palace-peristyle",
+      citySlug: "split",
+      name: "Diocletian's Palace and the Peristyle",
+      lat: 43.5082,
+      lng: 16.4402,
+      kind: "sight",
+      needsBooking: false,
+      tip: "The palace is not a ticketed site but the living old town itself, free to wander at any hour, so walk the marble lanes at 7am or after dinner for empty photos before and after the cruise groups fill them. Head for the Peristyle, the colonnaded imperial courtyard at its heart, where a costumed Roman guard poses by the black Egyptian sphinx brought here in Diocletian's time and cafe cushions spill down the ancient steps.",
+    },
+    {
+      slug: "cathedral-st-domnius",
+      citySlug: "split",
+      name: "Cathedral of St Domnius and Bell Tower",
+      lat: 43.5085,
+      lng: 16.4407,
+      kind: "sight",
+      needsBooking: false,
+      tip: "The cathedral was built as Diocletian's own mausoleum, making it one of the oldest buildings used as a church anywhere, and the emperor who persecuted Christians now lies replaced by the relics of the martyr he killed. A combined ticket of a few euros covers the church, the crypt and the treasury; pay the extra to climb the steep, narrow Romanesque bell tower for the finest view over the red rooftops and the harbour, but it is not for anyone unsteady on open stairs.",
+    },
+    {
+      slug: "diocletian-cellars",
+      citySlug: "split",
+      name: "Diocletian's Cellars (Substructures)",
+      lat: 43.5078,
+      lng: 16.4404,
+      kind: "sight",
+      needsBooking: false,
+      tip: "These vast vaulted halls under the southern half of the palace held the emperor's storerooms and now mirror the shape of the imperial apartments that stood above, kept cool and atmospheric year round. The central passage that links the Riva to the Peristyle is free to walk through and lined with craft stalls, while the ticketed side chambers of a few euros are where Daenerys kept her dragons in Game of Thrones.",
+    },
+    {
+      slug: "riva-promenade",
+      citySlug: "split",
+      name: "The Riva Waterfront",
+      lat: 43.5074,
+      lng: 16.4390,
+      kind: "sight",
+      needsBooking: false,
+      tip: "The Riva is Split's palm-lined marble seafront promenade, running along the harbour below the white southern wall of the palace, and it is the city's living room where locals take their evening stroll and morning coffee. It is free and always open, so time a coffee here for late afternoon when the light hits the palace wall, and it is the front row for the Advent lights in December and festival stages in summer.",
+    },
+    {
+      slug: "marjan-hill",
+      citySlug: "split",
+      name: "Marjan Hill",
+      lat: 43.5140,
+      lng: 16.4200,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Marjan is the forested peninsula of pine and rock that rises just west of the centre, a nature park laced with walking and cycling trails and old hermit chapels tucked into the cliffs. Climb the steps up from Varos to the Prva vidilica cafe for the classic view over the old town, then push on along the ridge to the Telegrin summit at 178 metres for the full panorama of the coast and islands; go early or toward sunset to dodge the midday heat, and carry water as shade thins near the top.",
+    },
+    {
+      slug: "bacvice-beach-picigin",
+      citySlug: "split",
+      name: "Bacvice Beach and Picigin",
+      lat: 43.5028,
+      lng: 16.4463,
+      kind: "experience",
+      needsBooking: false,
+      tip: "Bacvice is the rare sandy beach on this pebble coast, a short walk east of the harbour, and its shallow water is the home of picigin, the local game where players in a ring keep a small ball from touching the water with acrobatic dives. It is free and playable year round, with locals splashing in even on New Year's Day, so come early for space in summer and watch a picigin game near the shallows for the real Split ritual.",
+    },
+    {
+      slug: "klis-fortress",
+      citySlug: "split",
+      name: "Klis Fortress",
+      lat: 43.5601,
+      lng: 16.5222,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Klis is the long stone fortress strung along a rocky ridge above Split, guarding the pass inland, and its ramparts give a sweeping view back over the city and the sea to the islands. Take Promet bus 22 from the market by the palace out to the village in about 30 minutes, entry is a few euros, and Game of Thrones fans will recognise it as Meereen, the city Daenerys freed from its slavers.",
+    },
+    {
+      slug: "green-fish-markets",
+      citySlug: "split",
+      name: "Green Market (Pazar) and Fish Market (Peskarija)",
+      lat: 43.5090,
+      lng: 16.4420,
+      kind: "experience",
+      needsBooking: false,
+      tip: "The open-air Pazar green market spills along the eastern palace wall with stalls of Dalmatian fruit, vegetables, olive oil, lavender and cheese, busiest and best-stocked in the morning before it winds down by early afternoon. A couple of minutes west, the covered Peskarija fish market sells the morning's Adriatic catch and famously has no flies, thanks to the sulphur spring next door, so come early for both and pick up a picnic for Marjan.",
+    },
+    {
+      slug: "mestrovic-gallery",
+      citySlug: "split",
+      name: "Ivan Mestrovic Gallery",
+      lat: 43.5090,
+      lng: 16.4155,
+      kind: "museum",
+      needsBooking: false,
+      tip: "This gallery west of the centre on the way to Marjan fills the seaside villa that Croatia's greatest modern sculptor built for himself with his own works, from monumental figures to intimate bronzes, set in a garden of statues above the sea. Entry is a few euros and the ticket also covers the nearby Kastelet chapel with his cycle of wooden reliefs; it closes on Mondays, so plan around that, and reach it on foot along the Meje seafront or on bus 12.",
+    },
+    {
+      slug: "golden-gate-gregory-nin",
+      citySlug: "split",
+      name: "Golden Gate and Gregory of Nin Statue",
+      lat: 43.5093,
+      lng: 16.4405,
+      kind: "sight",
+      needsBooking: false,
+      tip: "The Golden Gate was the grand northern entrance to Diocletian's palace, facing the imperial road to Salona, and just outside it stands Ivan Mestrovic's towering bronze of Gregory of Nin, the medieval bishop who fought for services in the Croatian tongue. It is free, and the tradition is to rub the statue's big toe, worn gold and shiny by millions of hands, for good luck, so join the queue for the rub and the photo.",
+    },
+    {
+      slug: "hvar-day-trip",
+      citySlug: "split",
+      name: "Hvar Island Day Trip",
+      lat: 43.1729,
+      lng: 16.4413,
+      kind: "experience",
+      needsBooking: true,
+      tip: "The fast Krilo or Jadrolinija catamaran reaches chic Hvar town in about an hour from Split's harbour, dropping you below its hilltop Spanish fortress, marble square and buzzing marina, and it is the classic island day out. Book the catamaran ahead online in summer because seats sell out, aim for an early boat and a late return to make a full day, and check the exact timetable, as sailings thin sharply outside the season.",
+    },
+    {
+      slug: "trogir-day-trip",
+      citySlug: "split",
+      name: "Trogir Old Town Day Trip",
+      lat: 43.5125,
+      lng: 16.2517,
+      kind: "experience",
+      needsBooking: false,
+      tip: "Trogir is a tiny UNESCO-listed old town set on its own islet about 30 minutes west toward the airport, a dense knot of Romanesque and Renaissance stone crowned by the carved portal of St Lawrence cathedral. Reach it cheaply on Promet city bus 37 from the main bus station or by a scenic summer boat, climb the Kamerlengo fortress for the view, and pair it easily with the airport on an arrival or departure day.",
+    },
+    {
+      slug: "krka-waterfalls",
+      citySlug: "split",
+      name: "Krka Waterfalls Day Trip",
+      lat: 43.8055,
+      lng: 15.9714,
+      kind: "experience",
+      needsBooking: true,
+      tip: "Krka National Park, about an hour north near Skradin, strings a series of travertine waterfalls through a green river canyon, with the wide Skradinski buk falls the showpiece, quieter and closer than Plitvice. Buy the park ticket online for the season, note that swimming below the main falls has been banned since 2021, and either book an organised tour from Split or drive and take the boat in from Skradin to beat the midday coach crowds.",
+    },
+  ],
+  itineraries: [
+    {
+      citySlug: "split",
+      days: 2,
+      summary:
+        "Two full days is enough for the core of Split if you start early and use the palace itself as your open-air museum. The old town is tiny and entirely on foot, so the Peristyle, the cathedral and its bell tower, the cellars, the Riva, the markets and the Golden Gate all fit without a rush, plus a morning climb up Marjan hill and an afternoon swim at Bacvice. What breaks a short trip is the midday crush: walk the marble lanes and climb the bell tower early or late, because the cruise groups pack the Peristyle and the passages from mid-morning. Base yourself inside or right beside the palace so you can be out in the quiet lanes before the crowds and back for the floodlit evenings. Day one takes the palace, the cathedral, the cellars, the markets and the Riva; day two climbs Marjan for the panorama, visits the Mestrovic Gallery and swims at Bacvice with a picigin game. What you give up at this pace is the islands: no Hvar or Krka. For those, take the three-day version.",
+      stayNeighborhoodSlug: "diocletian-palace",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "The palace, the cathedral and the Riva",
+          morning: [
+            {
+              poiSlug: "diocletians-palace-peristyle",
+              text: "Walk the palace lanes early, before the cruise groups land, starting at the colonnaded Peristyle at its heart, where the black Egyptian sphinx still stands by the cathedral steps. The old town is free and always open, so this is when to get your empty photos of the marble passages.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "cathedral-st-domnius",
+              text: "Enter the Cathedral of St Domnius, built as Diocletian's own mausoleum, on the combined ticket that also covers the crypt and treasury, then climb the steep, narrow bell tower for the view over the red rooftops. Go up early while the stairs are quiet, as they are tight and open and jam with two-way traffic later.",
+              durationMin: 75,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "green-fish-markets",
+              text: "Wander out to the Pazar green market along the eastern wall and the covered Peskarija fish market a couple of minutes west for the morning's produce and Adriatic catch, both busiest and best before early afternoon. Pick up fruit, cheese and bread for a picnic.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "diocletian-cellars",
+              text: "Drop into the cool vaulted cellars under the southern palace, walking the free central passage lined with stalls between the Riva and the Peristyle, then paying the few euros for the side chambers where Daenerys kept her dragons in Game of Thrones. A shaded pause in the heat of the day.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "golden-gate-gregory-nin",
+              text: "Walk out the northern Golden Gate to Mestrovic's towering bronze of Gregory of Nin and join the queue to rub the statue's gold, shiny big toe for luck. It is free and takes only a few minutes.",
+              durationMin: 30,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "riva-promenade",
+              text: "Take the palm-lined Riva promenade below the white palace wall for the evening stroll, timing a coffee or an aperitif for late afternoon when the light hits the stone. This seafront is the city's living room and the best spot to watch Split come out for the night.",
+              durationMin: 60,
+            },
+            {
+              text: "Dinner in the old town but off the busiest passages for fairer prices, then walk the palace lanes late when the day-trippers and cruise groups have gone and the marble is floodlit and quiet. This evening calm is the reward for the early start.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "Marjan hill, the Mestrovic Gallery and Bacvice",
+          morning: [
+            {
+              poiSlug: "marjan-hill",
+              text: "Climb the steps up from Varos onto Marjan hill early, before the heat builds, to the Prva vidilica cafe for the classic view over the old town, then push along the ridge toward the Telegrin summit for the full coast-and-islands panorama. Carry water, as shade thins near the top.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "mestrovic-gallery",
+              text: "Come down the Meje seafront to the Ivan Mestrovic Gallery in the sculptor's own seaside villa, filled with his figures and bronzes in a garden of statues above the water. It closes on Mondays, so plan around that, and the ticket also covers the nearby Kastelet chapel.",
+              durationMin: 90,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Lunch back toward the centre at a family konoba in Varos or on the seafront, keeping it light before the afternoon at the beach. A plate of grilled fish and a glass of Dalmatian white does it.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "bacvice-beach-picigin",
+              text: "Walk east of the harbour to Bacvice, Split's rare sandy beach, for a swim in the shallow water and a chance to watch the local picigin ball game played in a ring near the shore. It is free, so come before the afternoon fills and stay for the sun off the sand.",
+              durationMin: 120,
+            },
+          ],
+          evening: [
+            {
+              text: "Head back into the palace for a final dinner on a quiet stepped lane off the main passages, then a last floodlit loop of the old town after the crowds have gone. If you have energy, Bacvice above the beach is where the night carries on.",
+              durationMin: 120,
+            },
+            {
+              text: "If tomorrow is an early flight, remember the airport is about 25km west near Kastela: allow for the airport shuttle bus, roughly 30 to 40 minutes for around 8 EUR, or a taxi at about 30 to 40 EUR.",
+              durationMin: 30,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      citySlug: "split",
+      days: 3,
+      summary:
+        "Three days is the comfortable amount for Split: enough for the palace old town and Marjan plus a full day out to the islands or the coast that a rushed two-day dash cannot fit. The extra day buys you a catamaran to chic Hvar, the UNESCO old town of Trogir and the Krka waterfalls, or the hilltop Klis fortress above town, none of which you can cram into forty-eight hours. Stay inside or right beside the palace so you can be out in the quiet marble lanes each morning before the cruise groups, then back for the floodlit evenings. The plan still hinges on timing: walk the passages and climb the bell tower early or late, because the Peristyle jams solid when the day crowds arrive by mid-morning. Day one takes the palace, the cathedral, the cellars, the markets and the Riva; day two climbs Marjan, visits the Mestrovic Gallery and swims at Bacvice; day three heads out to Hvar by catamaran, or pairs Trogir and Krka, or rides bus 22 up to Klis for the Meereen view. In July and August book the catamarans and Ultra-week rooms far ahead and plan around the midday heat and cruise crush.",
+      stayNeighborhoodSlug: "diocletian-palace",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "The palace, the cathedral and the Riva",
+          morning: [
+            {
+              poiSlug: "diocletians-palace-peristyle",
+              text: "Walk the palace lanes early, before the cruise groups land, starting at the colonnaded Peristyle where the black Egyptian sphinx still stands by the cathedral steps. Free and always open, so this is the moment for empty photos of the marble passages.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "cathedral-st-domnius",
+              text: "Enter the Cathedral of St Domnius, built as Diocletian's mausoleum, on the combined ticket covering the crypt and treasury, then climb the steep, narrow bell tower for the rooftop-and-harbour view. Go up early while the tight open stairs are quiet.",
+              durationMin: 75,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "green-fish-markets",
+              text: "Browse the Pazar green market along the eastern wall and the covered Peskarija fish market a couple of minutes west, both at their best in the morning before they wind down by early afternoon. Pick up Dalmatian fruit, cheese and bread for later.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "diocletian-cellars",
+              text: "Cool off in the vaulted cellars under the southern palace, walking the free central passage of craft stalls between the Riva and the Peristyle, then paying a few euros for the side chambers that were Daenerys's dragon vault in Game of Thrones. A welcome shaded stop in the heat.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "golden-gate-gregory-nin",
+              text: "Step out the northern Golden Gate to Mestrovic's giant bronze of Gregory of Nin and rub the statue's polished big toe for luck, as everyone does. Free and quick, with the old imperial gate behind it.",
+              durationMin: 30,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "riva-promenade",
+              text: "Take the palm-lined Riva along the harbour below the palace wall for the evening stroll, timing a drink for the late light on the stone. The seafront is where the whole city comes out, so people-watch as Split fills up for the night.",
+              durationMin: 60,
+            },
+            {
+              text: "Dinner off the busiest passages for fairer prices, then the marble lanes late once the day crowds have gone and the palace is floodlit and quiet. Turn in reasonably early if tomorrow is an island day with a morning catamaran.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "Marjan hill, the Mestrovic Gallery and Bacvice",
+          morning: [
+            {
+              poiSlug: "marjan-hill",
+              text: "Climb from Varos up onto Marjan hill early, before the heat, to the Prva vidilica cafe for the view over the old town, then along the ridge to the Telegrin summit for the coast-and-islands panorama. Carry water, as shade thins near the top.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "mestrovic-gallery",
+              text: "Descend the Meje seafront to the Ivan Mestrovic Gallery in the sculptor's own villa, full of his figures and bronzes in a garden above the sea, with the Kastelet chapel included on the ticket. It shuts on Mondays, so plan around that.",
+              durationMin: 90,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Lunch at a family konoba in Varos or on the seafront, keeping it light before the beach. Grilled Adriatic fish and a Dalmatian white is the local order.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "bacvice-beach-picigin",
+              text: "Walk east of the harbour to sandy Bacvice for a swim in the shallow water and to watch a picigin game played in a ring near the shore, Split's summer ritual. It is free, so grab a spot before the afternoon fills.",
+              durationMin: 120,
+            },
+          ],
+          evening: [
+            {
+              text: "Dinner back in the palace on a quiet lane off the main passages, then a floodlit loop of the old town once the crowds thin. Bacvice above the beach is where the night runs late if you want it.",
+              durationMin: 120,
+            },
+            {
+              text: "Sort out tomorrow's day trip tonight: book and print the Hvar catamaran ticket, check the Krka park and boat times, or note that Promet bus 22 for Klis and bus 37 for Trogir leave from the market and the main bus station. An early start beats the midday heat and crowds.",
+              durationMin: 30,
+            },
+          ],
+        },
+        {
+          dayNumber: 3,
+          theme: "The islands and the coast: Hvar, Trogir, Krka or Klis",
+          morning: [
+            {
+              poiSlug: "hvar-day-trip",
+              text: "Take an early catamaran from the harbour to chic Hvar town in about an hour, arriving below its hilltop Spanish fortress and marble square before the day boats crowd in. Climb the fortress for the view over the Pakleni islands, then wander the marina and old lanes; book the boat ahead in summer and aim for a late return.",
+              durationMin: 300,
+            },
+            {
+              poiSlug: "trogir-day-trip",
+              text: "Prefer the mainland? Ride Promet bus 37 about 30 minutes west to Trogir, the tiny UNESCO old town on its own islet, for the carved portal of St Lawrence cathedral and the view from the Kamerlengo fortress. It pairs neatly with the airport and, with an early start, with Krka too.",
+              durationMin: 180,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "krka-waterfalls",
+              text: "For a nature day, join a tour or drive about an hour north to Krka National Park near Skradin for its travertine waterfalls in a green canyon, quieter and closer than Plitvice. Take the boat in from Skradin to the main Skradinski buk falls, and note swimming below them has been banned since 2021.",
+              durationMin: 240,
+            },
+            {
+              poiSlug: "klis-fortress",
+              text: "If you would rather stay close, take Promet bus 22 from the market about 30 minutes up to Klis fortress, strung along its ridge above the city, for the sweep back over Split and the sea. Game of Thrones fans will know it as Meereen, freed by Daenerys.",
+              durationMin: 180,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "riva-promenade",
+              text: "Back in town, take a final evening on the Riva with a drink as the light drops and the promenade fills, then a last floodlit loop of the palace lanes. This seafront send-off is the classic Split farewell.",
+              durationMin: 90,
+            },
+            {
+              text: "Last dinner in the old town off the busy passages, and if tomorrow is an early flight, allow for the airport shuttle bus out to Kastela, about 30 to 40 minutes for around 8 EUR, or a taxi at roughly 30 to 40 EUR.",
+              durationMin: 120,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export default split;

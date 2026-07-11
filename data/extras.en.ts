@@ -479,6 +479,22 @@ const extrasEn: Record<string, CityExtras> = {
       "The Veiled Christ",
     ],
   },
+  split: {
+    citySlug: "split",
+    image: hero(6701514),
+    imageAlt:
+      "The Split waterfront and old town with the cathedral bell tower and the Mosor mountains behind, seen from the sea",
+    history:
+      "Split grew, uniquely, inside a Roman palace: the emperor Diocletian, the only Roman ruler to give up the throne voluntarily, built a vast fortified retirement palace here around AD 305, and when nearby Salona fell to invaders the refugees simply moved into its walls and never left. Seventeen centuries later people still live and trade inside the palace, its cathedral is Diocletian's own mausoleum, and its cellars survive almost intact. The city passed through Byzantine, Venetian, Habsburg and briefly Napoleonic hands, spent the 20th century in Yugoslavia, and became Croatian in 1991. Today Split is Dalmatia's boisterous capital, a port and the gateway to the islands, as known for its fervent Hajduk football and its picigin beach game as for its Roman stones.",
+    knownFor: [
+      "Diocletian's Palace",
+      "The Riva",
+      "St Domnius bell tower",
+      "Marjan hill",
+      "Dalmatian islands",
+      "Game of Thrones sites",
+    ],
+  },
 };
 
 export default extrasEn;

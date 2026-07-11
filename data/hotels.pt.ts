@@ -1733,6 +1733,63 @@ const hotelsPt: Hotel[] = [
     image: px(271624),
     imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
   },
+  // ---- Split ----
+  {
+    slug: "vestibul-palace-split",
+    citySlug: "split",
+    name: "Vestibul Palace Hotel",
+    neighborhoodSlug: "diocletian-palace",
+    band: "€€€",
+    priceFrom: 260,
+    style: "Dentro do palácio romano",
+    bestFor: "Ocasiões especiais",
+    blurb:
+      "Um pequeno hotel de design construído na pedra antiga do Palácio de Diocleciano, a poucos passos do Vestíbulo e do Peristilo, no coração da cidade velha. Paredes romanas e medievais à vista encontram-se com quartos modernos e limpos, e dorme-se dentro do próprio monumento.",
+    image: px(262048),
+    imageAlt: "Quarto de hotel de design com paredes de pedra antiga à vista",
+  },
+  {
+    slug: "hotel-park-split",
+    citySlug: "split",
+    name: "Hotel Park Split",
+    neighborhoodSlug: "bacvice",
+    band: "€€",
+    priceFrom: 165,
+    style: "Belle Époque junto à praia",
+    bestFor: "Casais",
+    blurb:
+      "Um grande hotel de 1921 restaurado por cima da praia de Bacvice, com um terraço à sombra das palmeiras e uma curta caminhada junto à água até à cidade velha. É a escolha elegante e mais calma, perto da areia mas fora do aperto do palácio.",
+    image: px(2507010),
+    imageAlt: "Terraço de hotel elegante com palmeiras virado para o mar",
+  },
+  {
+    slug: "hotel-ambasador-split",
+    citySlug: "split",
+    name: "Hotel Ambasador",
+    neighborhoodSlug: "riva-meje",
+    band: "€€",
+    priceFrom: 140,
+    style: "Moderno à beira-mar",
+    bestFor: "Primeira visita",
+    blurb:
+      "Um moderno quatro estrelas na frente de mar ocidental em direção a Meje, com quartos de vista de mar e um rooftop virado para o porto. Fica a dez minutos a pé planos ao longo da costa da Riva e do palácio, longe do barulho da noite.",
+    image: px(1267438),
+    imageAlt: "Quarto de hotel moderno e luminoso com vista de mar",
+  },
+  {
+    slug: "croparadise-green-hostel-split",
+    citySlug: "split",
+    name: "CroParadise Green Hostel",
+    neighborhoodSlug: "varos",
+    band: "€",
+    priceFrom: 25,
+    style: "Hostel em Varos",
+    bestFor: "Económico",
+    blurb:
+      "Um hostel simpático e bem gerido numa casa de pedra no antigo bairro de Varos, mesmo a oeste do centro, com dormitórios e alguns quartos e apartamentos privados. Fica a cinco minutos a pé da Riva e é uma das camas com melhor relação qualidade-preço de Split.",
+    image: px(271624),
+    imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
+  },
 ];
 
 export default hotelsPt;

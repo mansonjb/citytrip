@@ -1,0 +1,516 @@
+import type { CityData } from "../types";
+
+const splitIt: CityData = {
+  city: {
+    slug: "split",
+    name: "Spalato",
+    country: "Croazia",
+    countrySlug: "croatia",
+    lat: 43.5081,
+    lng: 16.4402,
+    tier: 3,
+    idealDays: 2,
+    durations: [2, 3],
+    airportCode: "SPU",
+    airportToCenter:
+      "L'aeroporto di Spalato si trova a circa 25 km a ovest del centro, vicino a Kastela e Traù, quindi ogni tragitto verso la città richiede un po' di tempo. La navetta aeroportuale dedicata raggiunge il centro e il porto in circa 30-40 minuti per circa 8 EUR, con i biglietti in vendita a bordo, ed è l'opzione più semplice per la maggior parte degli arrivi. Più economica ma più lenta è la linea urbana 37 della Promet, che arriva alla stazione centrale degli autobus passando per Traù per un paio di euro ma arranca tra i sobborghi in circa 50 minuti. Un taxi verso il centro costa circa 30-40 EUR e conviene dividerlo in gruppo. Non c'è metro né treno per l'aeroporto.",
+    centerWalkable: true,
+    bestMonths: [5, 6, 9, 10],
+    avoidMonths: [7, 8],
+    monthlyNotes: {
+      1: "Freddo e umido per l'Adriatico con massime vicine ai 12C, la folla più rada dell'anno e le tariffe delle camere più basse dentro il palazzo. Molti traghetti per le isole seguono un orario invernale ridotto e alcuni ristoranti della città vecchia chiudono, ma le vie di marmo sono tranquille e facili da fotografare.",
+      2: "Ancora mite-fresco intorno ai 12C con pioggia regolare e giornate corte, anche se il carnevale porta costumi e una sfilata in centro nel periodo che precede la Quaresima. I prezzi restano bassi e la Riva è poco affollata, ma conviene verificare le aperture di traghetti e ristoranti prima di costruire una giornata attorno alle isole.",
+      3: "La primavera si risveglia con pomeriggi vicini ai 15C, luce più lunga e i giardini della collina di Marjan che rinverdiscono, mentre la pioggia invernale comincia ad attenuarsi. Le tariffe sono ancora basse e il palazzo è tranquillo prima della stagione, anche se un fronte freddo e piovoso può ancora arrivare e alcuni locali stagionali riaprono solo a fine mese.",
+      4: "Piacevole e verde con massime intorno ai 18C, con la Pasqua come principale picco di folla e il ritorno dell'orario completo dei traghetti. È un buon mese per Marjan, Klis e le gite a Traù prima che arrivino il caldo estivo e il flusso delle crociere, quindi conviene prenotare con qualche giorno di anticipo anziché con mesi.",
+      5: "Uno dei mesi migliori: giornate calde vicine ai 23C, lunghe serate sulla Riva e il mare che si scalda per un primo bagno, senza la folla e i prezzi del pieno picco. I catamarani per Hvar, Brac e Vis sono tutti in servizio e il palazzo è comodo da esplorare prima del sole di mezzogiorno.",
+      6: "Caldo e luminoso intorno ai 28C con la stagione che accelera, con la folla delle crociere che si infittisce attorno al Peristilio verso mezzogiorno e le tariffe in costante salita. Il gioco della palla picigin è in pieno svolgimento sulla spiaggia di Bacvice e i traghetti sono frequenti, quindi conviene iniziare le visite presto e riservare il mare per il pomeriggio.",
+      7: "Il culmine di caldo, prezzi e folla coincide con massime vicine ai 30C, con l'enorme festival di musica elettronica Ultra Europe che occupa lo stadio Poljud a metà luglio e le camere che si esauriscono per l'occasione. Anche lo Split Summer Festival propone teatro e opera all'aperto dentro e attorno al palazzo per tutto luglio e agosto, quindi conviene prenotare con largo anticipo e aspettarsi le vie e le code dei traghetti gremite a mezzogiorno.",
+      8: "Il mese più caldo, affollato e caro, secco e vicino ai 30C, con il Summer Festival che prosegue e spiagge, catamarani e città vecchia tutti al massimo. Conviene venire solo se si programma attorno alle prime ore del mattino e alle sere tarde, quando il palazzo si rinfresca e la folla diurna e i crocieristi se ne sono andati.",
+      9: "Il caldo si attenua verso comodi pomeriggi a 26C e il mare è al suo più caldo, mentre i numeri delle crociere e i prezzi calano dopo la prima settimana. L'inizio-metà settembre è una delle finestre più intelligenti dell'anno per il palazzo, Marjan e le isole, con una luce che si fa dorata sulla pietra.",
+      10: "Le massime si assestano vicino ai 21C, la folla si dirada nettamente e le code si accorciano, il che rende questo un mese affidabilmente comodo per il palazzo e le gite a Krka o Traù. La pioggia aumenta a fine mese e i traghetti per le isole iniziano a ridurre l'orario, quindi conviene controllare gli orari dei catamarani prima di programmare una giornata a Hvar o a Vis.",
+      11: "Fresco e piovoso intorno ai 17C con la stagione che si spegne, folla rada, tariffe basse e l'Adriatico ancora mite per una passeggiata sulla costa di Marjan. Molti traghetti per le isole passano all'orario invernale e alcune cucine della città vecchia chiudono, quindi conviene verificare le aperture prima di programmare attorno a esse.",
+      12: "Giornate mite-fredde sui 13C, pioggia regolare e le luci festose dell'Avvento lungo la Riva e attraverso il palazzo, con i mercatini di Natale e una calma di bassa stagione. La folla resta rada fino alle festività e i prezzi sono tra i più bassi dell'anno, ma conviene aspettarsi chiusure fuori stagione nei ristoranti e traghetti ridotti per le isole.",
+    },
+    climate: {
+      1: { highC: 12, lowC: 5, rainyDays: 11 },
+      2: { highC: 12, lowC: 5, rainyDays: 10 },
+      3: { highC: 15, lowC: 7, rainyDays: 10 },
+      4: { highC: 18, lowC: 10, rainyDays: 10 },
+      5: { highC: 23, lowC: 14, rainyDays: 8 },
+      6: { highC: 28, lowC: 18, rainyDays: 6 },
+      7: { highC: 30, lowC: 21, rainyDays: 4 },
+      8: { highC: 30, lowC: 21, rainyDays: 4 },
+      9: { highC: 26, lowC: 17, rainyDays: 6 },
+      10: { highC: 21, lowC: 13, rainyDays: 9 },
+      11: { highC: 17, lowC: 10, rainyDays: 11 },
+      12: { highC: 13, lowC: 7, rainyDays: 11 },
+    },
+    budgetLevel: "mid",
+    budgetPerDay: { budget: 60, mid: 120, high: 240 },
+    tagline:
+      "Un palazzo romano vivo sulla costa dalmata, con vie di marmo, il lungomare della Riva e la porta d'accesso alle isole.",
+    heroIntro:
+      "La città vecchia di Spalato non sorge accanto a una rovina romana, ci sta dentro: l'intero centro si trova entro le mura del palazzo che l'imperatore Diocleziano fece costruire nel IV secolo, ancora abitato, con caffè e appartamenti ricavati nella pietra imperiale. Lo si percorre interamente a piedi, dal lungomare di marmo della Riva lungo il porto fino alla piazza del Peristilio nel suo cuore. È anche la migliore base sulla costa per le isole dalmate di Hvar, Brac e Vis, oltre a Traù e alle cascate di Krka, tutte raggiungibili in giornata. Fa caldo ed è gremita in piena estate, più tranquilla in primavera e in autunno, e i fan del Trono di Spade ritroveranno sullo schermo i suoi sotterranei e la vicina fortezza di Klis. Questa guida suddivide due o tre giorni così da vedere il nucleo senza sciogliersi nelle code.",
+    accent: { from: "#E0A23C", to: "#1C8AA0", ink: "#0E3E48" },
+    neighborhoodSlugs: [
+      "diocletian-palace",
+      "varos",
+      "bacvice",
+      "riva-meje",
+      "manus-lucac",
+    ],
+    nearbyCitySlugs: ["dubrovnik"],
+  },
+  neighborhoods: [
+    {
+      slug: "diocletian-palace",
+      citySlug: "split",
+      name: "Palazzo di Diocleziano (Città Vecchia)",
+      lat: 43.5082,
+      lng: 16.4402,
+      bestFor: ["first-time", "romantic"],
+      vibe: "Dormire dentro le mura del palazzo ti mette sulle suggestive vie di marmo con il Peristilio, la cattedrale e la Riva sull'uscio di casa, e la città vecchia diventa tranquilla e illuminata una volta diradata la folla diurna. È la base più centrale e suggestiva, anche se le stesse vie che incantano di giorno possono essere rumorose di bar e ristoranti fino a tarda notte. Da scegliere quando è la prima visita, il tempo è poco e vuoi svegliarti in mezzo alla storia.",
+      pros: [
+        "Il Peristilio, la cattedrale, i sotterranei e la Riva tutti a un paio di minuti a piedi",
+        "La base più suggestiva, con le vie di marmo illuminate e tranquille a tarda sera",
+        "La migliore per un viaggio breve in cui contare di più stare in mezzo alla città vecchia",
+      ],
+      cons: [
+        "Il rumore della vita notturna si propaga nelle vie di pietra, quindi una camera centrale può essere rumorosa d'estate",
+        "Affollata e gremita di giorno quando i gruppi delle crociere e le comitive riempiono i passaggi",
+        "Le camere sono per lo più piccoli appartamenti lungo vie a gradini senza ascensore e con parcheggio limitato",
+      ],
+    },
+    {
+      slug: "varos",
+      citySlug: "split",
+      name: "Varos",
+      lat: 43.5095,
+      lng: 16.4350,
+      bestFor: ["local", "romantic"],
+      vibe: "Varos è l'antico quartiere dei pescatori fatto di basse case di pietra che si arrampicano sulla collina appena a ovest del centro, un dedalo di vicoli ripidi e stretti tra il palazzo e la collina di Marjan. È tranquillo, caratteristico e genuinamente residenziale, e baratta la folla del palazzo con i fili del bucato, i gatti e le taverne di famiglia. Da scegliere come base per un soggiorno più calmo e romantico, comunque a cinque minuti a piedi dalla Riva e dalle attrazioni.",
+      pros: [
+        "Vie di pietra tranquille e caratteristiche a soli cinque minuti a piedi dal palazzo e dalla Riva",
+        "Genuinamente residenziale, con vecchie taverne di famiglia (konobe) a prezzi giusti",
+        "Ai piedi del sentiero che sale sulla collina di Marjan per la passeggiata mattutina fino ai belvedere",
+      ],
+      cons: [
+        "Le ripide vie a gradini rendono faticoso muoversi con i bagagli e c'è poco parcheggio",
+        "Poche attrazioni proprie, quindi si cammina fino al palazzo per le attrazioni di richiamo",
+        "Tranquillo la sera, cosa che va bene per alcuni viaggiatori più che per altri",
+      ],
+    },
+    {
+      slug: "bacvice",
+      citySlug: "split",
+      name: "Bacvice",
+      lat: 43.5030,
+      lng: 16.4470,
+      bestFor: ["nightlife", "budget"],
+      vibe: "Bacvice è la zona attorno alla spiaggia sabbiosa cittadina appena a est del porto, la rara spiaggia di sabbia bassa in una costa di ciottoli e la patria del gioco locale della palla picigin. Sopra la spiaggia stanno i bar e i locali che ne fanno il centro della vita notturna estiva di Spalato, vivace e giovane fino alle prime ore. Da scegliere come base con un budget contenuto quando vuoi la spiaggia sull'uscio e la serata a due passi.",
+      pros: [
+        "La rara spiaggia di sabbia di Spalato e il gioco della palla picigin proprio sull'uscio di casa",
+        "Il cuore della vita notturna estiva, con beach bar e locali sopra la sabbia",
+        "Camere più economiche del palazzo, a dieci minuti di camminata in piano dalla città vecchia",
+      ],
+      cons: [
+        "I locali vanno avanti rumorosi e fino a tardi d'estate, quindi chi ha il sonno leggero cerchi altrove",
+        "La piccola spiaggia si affolla e i suoi bar sono cari in alta stagione",
+        "Un pubblico giovane e festaiolo che non fa per tutti",
+      ],
+    },
+    {
+      slug: "riva-meje",
+      citySlug: "split",
+      name: "Riva e Meje",
+      lat: 43.5075,
+      lng: 16.4300,
+      bestFor: ["romantic", "family"],
+      vibe: "Questo è il lungomare a ovest del centro, che va dalla passeggiata della Riva orlata di palme verso le ville frondose di Meje e le pendici della collina di Marjan. È il lato elegante e verde di Spalato, con grandi case, viste sul mare e strade tranquille a breve distanza a piedi sia dalla città vecchia sia dalla Galleria Mestrovic. Da scegliere come base per un soggiorno romantico o in famiglia che voglia spazio, verde e l'acqua a portata di mano.",
+      pros: [
+        "Il lungomare della Riva e le verdi pendici di Meje, eleganti e tranquilli con viste sul mare",
+        "Una breve camminata in piano fino al palazzo da un lato e alla collina di Marjan e alla Galleria Mestrovic dall'altro",
+        "Più tranquillo e più verde della città vecchia, ottimo per coppie e famiglie",
+      ],
+      cons: [
+        "Le tariffe delle camere salgono nelle strade delle ville con vista mare",
+        "Meno bar e ristoranti del palazzo, quindi si cammina fino al centro per il fermento",
+        "I soggiorni migliori sono piccole guesthouse e ville anziché grandi hotel",
+      ],
+    },
+    {
+      slug: "manus-lucac",
+      citySlug: "split",
+      name: "Manus e Lucac",
+      lat: 43.5105,
+      lng: 16.4445,
+      bestFor: ["family", "budget"],
+      vibe: "Manus e Lucac sono le strade residenziali di tutti i giorni appena a nord e a est delle mura del palazzo, abbastanza vicine da raggiungere la città vecchia a piedi in pochi minuti ma con prezzi pensati per la gente del posto anziché per i turisti. È una base senza glamour ma pratica, fatta di palazzi di appartamenti, panetterie d'angolo e il mercato verde ai suoi margini. Da scegliere con la famiglia o con un budget contenuto quando vuoi prezzi più comodi e una camminata facile fino alle attrazioni.",
+      pros: [
+        "Prezzi locali più comodi su camere e cibo, a pochi minuti a piedi dal palazzo",
+        "Il mercato ortofrutticolo e il mercato del pesce proprio ai margini del quartiere",
+        "Un normale quartiere feriale lontano dalla vita notturna e dalla folla delle crociere",
+      ],
+      cons: [
+        "Strade residenziali anonime con poco dell'atmosfera del palazzo",
+        "Si cammina fino alla città vecchia per attrazioni, bar e ristoranti",
+        "Alcuni tratti vicini alle strade trafficate sono più rumorosi di quanto suggeriscano le vie tranquille",
+      ],
+    },
+  ],
+  pois: [
+    {
+      slug: "diocletians-palace-peristyle",
+      citySlug: "split",
+      name: "Il Palazzo di Diocleziano e il Peristilio",
+      lat: 43.5082,
+      lng: 16.4402,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Il palazzo non è un sito a biglietto ma la città vecchia viva in sé, gratuito da percorrere a qualsiasi ora, quindi conviene camminare le vie di marmo alle 7 del mattino o dopo cena per foto vuote prima e dopo che i gruppi delle crociere le riempiano. Punta al Peristilio, il cortile imperiale colonnato nel suo cuore, dove una guardia romana in costume posa accanto alla sfinge egizia nera portata qui ai tempi di Diocleziano e i cuscini dei caffè si riversano lungo gli antichi gradini.",
+    },
+    {
+      slug: "cathedral-st-domnius",
+      citySlug: "split",
+      name: "Cattedrale di San Doimo e il campanile",
+      lat: 43.5085,
+      lng: 16.4407,
+      kind: "sight",
+      needsBooking: false,
+      tip: "La cattedrale fu costruita come mausoleo dello stesso Diocleziano, il che la rende uno degli edifici più antichi usati come chiesa al mondo, e l'imperatore che perseguitò i cristiani ora giace sostituito dalle reliquie del martire che uccise. Un biglietto combinato di pochi euro copre la chiesa, la cripta e il tesoro; conviene pagare il supplemento per salire lo stretto e ripido campanile romanico per la vista più bella sui tetti rossi e sul porto, ma non è adatto a chi è incerto sulle scale aperte.",
+    },
+    {
+      slug: "diocletian-cellars",
+      citySlug: "split",
+      name: "I sotterranei di Diocleziano (Sostruzioni)",
+      lat: 43.5078,
+      lng: 16.4404,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Queste vaste sale a volta sotto la metà meridionale del palazzo custodivano i magazzini dell'imperatore e ora rispecchiano la forma degli appartamenti imperiali che stavano sopra, mantenute fresche e suggestive tutto l'anno. Il passaggio centrale che collega la Riva al Peristilio è gratuito da percorrere ed è orlato di bancarelle artigianali, mentre le sale laterali a biglietto di pochi euro sono quelle dove Daenerys teneva i suoi draghi nel Trono di Spade.",
+    },
+    {
+      slug: "riva-promenade",
+      citySlug: "split",
+      name: "Il lungomare della Riva",
+      lat: 43.5074,
+      lng: 16.4390,
+      kind: "sight",
+      needsBooking: false,
+      tip: "La Riva è il lungomare di marmo di Spalato orlato di palme, che corre lungo il porto sotto la bianca parete meridionale del palazzo, ed è il salotto della città dove la gente del posto fa la passeggiata serale e il caffè del mattino. È gratuito e sempre aperto, quindi conviene concedersi un caffè qui nel tardo pomeriggio quando la luce colpisce la parete del palazzo, ed è la prima fila per le luci dell'Avvento in dicembre e per i palchi dei festival d'estate.",
+    },
+    {
+      slug: "marjan-hill",
+      citySlug: "split",
+      name: "La collina di Marjan",
+      lat: 43.5140,
+      lng: 16.4200,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Marjan è la penisola boscosa di pini e roccia che si erge appena a ovest del centro, un parco naturale intrecciato di sentieri per camminare e pedalare e di vecchie cappelle di eremiti annidate nelle scogliere. Sali i gradini da Varos fino al caffè Prva vidilica per la vista classica sulla città vecchia, poi prosegui lungo il crinale fino alla cima del Telegrin a 178 metri per il panorama completo sulla costa e sulle isole; conviene andare presto o verso il tramonto per schivare il caldo di mezzogiorno, e portare acqua perché l'ombra si dirada vicino alla cima.",
+    },
+    {
+      slug: "bacvice-beach-picigin",
+      citySlug: "split",
+      name: "La spiaggia di Bacvice e il picigin",
+      lat: 43.5028,
+      lng: 16.4463,
+      kind: "experience",
+      needsBooking: false,
+      tip: "Bacvice è la rara spiaggia di sabbia su questa costa di ciottoli, a breve distanza a piedi a est del porto, e la sua acqua bassa è la patria del picigin, il gioco locale in cui i giocatori in cerchio impediscono a una pallina di toccare l'acqua con tuffi acrobatici. È gratuita e praticabile tutto l'anno, con la gente del posto che si tuffa anche a Capodanno, quindi conviene arrivare presto per avere spazio d'estate e osservare una partita di picigin vicino alle secche per il vero rituale di Spalato.",
+    },
+    {
+      slug: "klis-fortress",
+      citySlug: "split",
+      name: "La fortezza di Klis",
+      lat: 43.5601,
+      lng: 16.5222,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Klis è la lunga fortezza di pietra distesa lungo un crinale roccioso sopra Spalato, a guardia del passo verso l'interno, e i suoi bastioni offrono un'ampia vista indietro sulla città e sul mare fino alle isole. Prendi l'autobus 22 della Promet dal mercato accanto al palazzo fino al villaggio in circa 30 minuti, l'ingresso è di pochi euro, e i fan del Trono di Spade la riconosceranno come Meereen, la città che Daenerys liberò dai suoi schiavisti.",
+    },
+    {
+      slug: "green-fish-markets",
+      citySlug: "split",
+      name: "Il mercato ortofrutticolo (Pazar) e il mercato del pesce (Peskarija)",
+      lat: 43.5090,
+      lng: 16.4420,
+      kind: "experience",
+      needsBooking: false,
+      tip: "Il mercato ortofrutticolo Pazar all'aperto si estende lungo la parete orientale del palazzo con bancarelle di frutta, verdura, olio d'oliva, lavanda e formaggio dalmati, più vivace e fornito la mattina prima di spegnersi entro il primo pomeriggio. Un paio di minuti a ovest, il mercato del pesce coperto Peskarija vende il pescato adriatico del mattino e notoriamente non ha mosche, grazie alla sorgente sulfurea accanto, quindi conviene arrivare presto per entrambi e procurarsi un picnic per Marjan.",
+    },
+    {
+      slug: "mestrovic-gallery",
+      citySlug: "split",
+      name: "Galleria Ivan Mestrovic",
+      lat: 43.5090,
+      lng: 16.4155,
+      kind: "museum",
+      needsBooking: false,
+      tip: "Questa galleria a ovest del centro sulla via per Marjan riempie la villa sul mare che il più grande scultore moderno della Croazia costruì per sé con le proprie opere, da figure monumentali a bronzi intimi, in un giardino di statue affacciato sul mare. L'ingresso è di pochi euro e il biglietto copre anche la vicina cappella Kastelet con il suo ciclo di rilievi in legno; chiude il lunedì, quindi conviene organizzarsi di conseguenza, e la si raggiunge a piedi lungo il lungomare di Meje o con l'autobus 12.",
+    },
+    {
+      slug: "golden-gate-gregory-nin",
+      citySlug: "split",
+      name: "La Porta Aurea e la statua di Gregorio di Nona",
+      lat: 43.5093,
+      lng: 16.4405,
+      kind: "sight",
+      needsBooking: false,
+      tip: "La Porta Aurea era il grande ingresso settentrionale del palazzo di Diocleziano, rivolto verso la strada imperiale per Salona, e appena fuori si erge il torreggiante bronzo di Ivan Mestrovic di Gregorio di Nona, il vescovo medievale che si battè per le funzioni nella lingua croata. È gratuita, e la tradizione vuole che si sfreghi l'alluce della statua, reso d'oro e lucido da milioni di mani, per buona fortuna, quindi conviene mettersi in coda per lo sfregamento e la foto.",
+    },
+    {
+      slug: "hvar-day-trip",
+      citySlug: "split",
+      name: "Gita all'isola di Hvar",
+      lat: 43.1729,
+      lng: 16.4413,
+      kind: "experience",
+      needsBooking: true,
+      tip: "Il veloce catamarano Krilo o Jadrolinija raggiunge la chic Hvar in circa un'ora dal porto di Spalato, lasciandoti sotto la sua fortezza spagnola sulla collina, la piazza di marmo e il vivace porto turistico, ed è la classica gita di una giornata sull'isola. Conviene prenotare il catamarano in anticipo online d'estate perché i posti si esauriscono, puntare a una barca del mattino e a un ritorno tardo per sfruttare l'intera giornata, e controllare l'orario esatto, dato che le corse si diradano nettamente fuori stagione.",
+    },
+    {
+      slug: "trogir-day-trip",
+      citySlug: "split",
+      name: "Gita alla città vecchia di Traù",
+      lat: 43.5125,
+      lng: 16.2517,
+      kind: "experience",
+      needsBooking: false,
+      tip: "Traù è una minuscola città vecchia iscritta all'UNESCO adagiata su un proprio isolotto a circa 30 minuti a ovest verso l'aeroporto, un denso groviglio di pietra romanica e rinascimentale coronato dal portale scolpito della cattedrale di San Lorenzo. La si raggiunge a poco prezzo con l'autobus urbano 37 della Promet dalla stazione centrale o con una barca panoramica d'estate, sali sulla fortezza Kamerlengo per la vista, e la si abbina facilmente all'aeroporto in un giorno di arrivo o partenza.",
+    },
+    {
+      slug: "krka-waterfalls",
+      citySlug: "split",
+      name: "Gita alle cascate di Krka",
+      lat: 43.8055,
+      lng: 15.9714,
+      kind: "experience",
+      needsBooking: true,
+      tip: "Il Parco Nazionale di Krka, a circa un'ora a nord vicino a Skradin, dispone una serie di cascate di travertino lungo un verde canyon fluviale, con l'ampia cascata di Skradinski buk come pezzo forte, più tranquilla e più vicina di Plitvice. Compra il biglietto del parco online per la stagione, tieni presente che nuotare sotto la cascata principale è vietato dal 2021, e o prenota un tour organizzato da Spalato o guida e prendi la barca da Skradin per battere la folla dei pullman di mezzogiorno.",
+    },
+  ],
+  itineraries: [
+    {
+      citySlug: "split",
+      days: 2,
+      summary:
+        "Due giornate piene bastano per il nucleo di Spalato se si comincia presto e si usa il palazzo stesso come museo a cielo aperto. La città vecchia è piccola e interamente a piedi, quindi il Peristilio, la cattedrale e il suo campanile, i sotterranei, la Riva, i mercati e la Porta Aurea ci stanno tutti senza fretta, più una salita mattutina sulla collina di Marjan e un bagno pomeridiano a Bacvice. Ciò che manda in rovina un viaggio breve è la calca di mezzogiorno: conviene camminare le vie di marmo e salire il campanile presto o tardi, perché i gruppi delle crociere riempiono il Peristilio e i passaggi da metà mattina. Fai base dentro o proprio accanto al palazzo così da poter essere fuori nelle vie tranquille prima della folla e di ritorno per le serate illuminate. Il primo giorno prende il palazzo, la cattedrale, i sotterranei, i mercati e la Riva; il secondo sale su Marjan per il panorama, visita la Galleria Mestrovic e fa il bagno a Bacvice con una partita di picigin. Ciò a cui si rinuncia a questo ritmo sono le isole: niente Hvar né Krka. Per quelle, si prenda la versione da tre giorni.",
+      stayNeighborhoodSlug: "diocletian-palace",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "Il palazzo, la cattedrale e la Riva",
+          morning: [
+            {
+              poiSlug: "diocletians-palace-peristyle",
+              text: "Cammina le vie del palazzo presto, prima che sbarchino i gruppi delle crociere, cominciando dal Peristilio colonnato nel suo cuore, dove la sfinge egizia nera è ancora accanto ai gradini della cattedrale. La città vecchia è gratuita e sempre aperta, quindi è questo il momento per ottenere le tue foto vuote dei passaggi di marmo.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "cathedral-st-domnius",
+              text: "Entra nella Cattedrale di San Doimo, costruita come mausoleo dello stesso Diocleziano, con il biglietto combinato che copre anche la cripta e il tesoro, poi sali lo stretto e ripido campanile per la vista sui tetti rossi. Sali presto mentre le scale sono tranquille, dato che sono strette e aperte e si ingorgano con il traffico nei due sensi più tardi.",
+              durationMin: 75,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "green-fish-markets",
+              text: "Fai un giro fino al mercato ortofrutticolo Pazar lungo la parete orientale e al mercato del pesce coperto Peskarija un paio di minuti a ovest per i prodotti del mattino e il pescato adriatico, entrambi al loro massimo prima del primo pomeriggio. Procurati frutta, formaggio e pane per un picnic.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "diocletian-cellars",
+              text: "Passa dai freschi sotterranei a volta sotto il palazzo meridionale, percorrendo il passaggio centrale gratuito orlato di bancarelle tra la Riva e il Peristilio, poi pagando i pochi euro per le sale laterali dove Daenerys teneva i suoi draghi nel Trono di Spade. Una pausa all'ombra nel caldo della giornata.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "golden-gate-gregory-nin",
+              text: "Esci dalla Porta Aurea settentrionale fino al torreggiante bronzo di Mestrovic di Gregorio di Nona e mettiti in coda per sfregare l'alluce d'oro e lucido della statua per fortuna. È gratuito e richiede solo pochi minuti.",
+              durationMin: 30,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "riva-promenade",
+              text: "Percorri la passeggiata della Riva orlata di palme sotto la bianca parete del palazzo per la camminata serale, concedendoti un caffè o un aperitivo nel tardo pomeriggio quando la luce colpisce la pietra. Questo lungomare è il salotto della città e il posto migliore per guardare Spalato uscire per la notte.",
+              durationMin: 60,
+            },
+            {
+              text: "Cena nella città vecchia ma fuori dai passaggi più affollati per prezzi più giusti, poi cammina le vie del palazzo a tarda ora quando i visitatori giornalieri e i gruppi delle crociere se ne sono andati e il marmo è illuminato e tranquillo. Questa calma serale è la ricompensa per la partenza mattiniera.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "La collina di Marjan, la Galleria Mestrovic e Bacvice",
+          morning: [
+            {
+              poiSlug: "marjan-hill",
+              text: "Sali i gradini da Varos sulla collina di Marjan presto, prima che il caldo cresca, fino al caffè Prva vidilica per la vista classica sulla città vecchia, poi prosegui lungo il crinale verso la cima del Telegrin per il panorama completo su costa e isole. Porta acqua, dato che l'ombra si dirada vicino alla cima.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "mestrovic-gallery",
+              text: "Scendi lungo il lungomare di Meje fino alla Galleria Ivan Mestrovic nella villa sul mare dello stesso scultore, piena delle sue figure e dei suoi bronzi in un giardino di statue affacciato sull'acqua. Chiude il lunedì, quindi conviene organizzarsi di conseguenza, e il biglietto copre anche la vicina cappella Kastelet.",
+              durationMin: 90,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Pranzo di ritorno verso il centro in una konoba di famiglia a Varos o sul lungomare, tenendolo leggero prima del pomeriggio in spiaggia. Un piatto di pesce alla griglia e un bicchiere di bianco dalmata bastano.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "bacvice-beach-picigin",
+              text: "Cammina a est del porto fino a Bacvice, la rara spiaggia di sabbia di Spalato, per un bagno nell'acqua bassa e la possibilità di osservare il gioco locale della palla picigin praticato in cerchio vicino alla riva. È gratuita, quindi arriva prima che il pomeriggio si riempia e fermati per il sole sulla sabbia.",
+              durationMin: 120,
+            },
+          ],
+          evening: [
+            {
+              text: "Torna nel palazzo per un'ultima cena in una tranquilla via a gradini fuori dai passaggi principali, poi un ultimo giro illuminato della città vecchia dopo che la folla se ne è andata. Se hai energie, Bacvice sopra la spiaggia è dove la notte continua.",
+              durationMin: 120,
+            },
+            {
+              text: "Se domani c'è un volo presto, ricorda che l'aeroporto è a circa 25 km a ovest vicino a Kastela: calcola la navetta aeroportuale, circa 30-40 minuti per circa 8 EUR, o un taxi a circa 30-40 EUR.",
+              durationMin: 30,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      citySlug: "split",
+      days: 3,
+      summary:
+        "Tre giorni sono la misura comoda per Spalato: bastano per la città vecchia del palazzo e Marjan più un'intera giornata verso le isole o la costa che una corsa affrettata di due giorni non riesce a far entrare. Il giorno in più ti regala un catamarano per la chic Hvar, la città vecchia UNESCO di Traù e le cascate di Krka, oppure la fortezza di Klis sulla collina sopra la città, nessuna delle quali si può stipare in quarantotto ore. Alloggia dentro o proprio accanto al palazzo così da poter essere fuori nelle tranquille vie di marmo ogni mattina prima dei gruppi delle crociere, poi di ritorno per le serate illuminate. Il piano dipende comunque dal tempismo: cammina i passaggi e sali il campanile presto o tardi, perché il Peristilio si ingorga del tutto quando la folla diurna arriva a metà mattina. Il primo giorno prende il palazzo, la cattedrale, i sotterranei, i mercati e la Riva; il secondo sale su Marjan, visita la Galleria Mestrovic e fa il bagno a Bacvice; il terzo esce verso Hvar in catamarano, o abbina Traù e Krka, o prende l'autobus 22 fino a Klis per la vista di Meereen. In luglio e agosto conviene prenotare i catamarani e le camere della settimana di Ultra con largo anticipo e programmare attorno al caldo e alla calca delle crociere di mezzogiorno.",
+      stayNeighborhoodSlug: "diocletian-palace",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "Il palazzo, la cattedrale e la Riva",
+          morning: [
+            {
+              poiSlug: "diocletians-palace-peristyle",
+              text: "Cammina le vie del palazzo presto, prima che sbarchino i gruppi delle crociere, cominciando dal Peristilio colonnato dove la sfinge egizia nera è ancora accanto ai gradini della cattedrale. Gratuito e sempre aperto, quindi è questo il momento per foto vuote dei passaggi di marmo.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "cathedral-st-domnius",
+              text: "Entra nella Cattedrale di San Doimo, costruita come mausoleo di Diocleziano, con il biglietto combinato che copre la cripta e il tesoro, poi sali lo stretto e ripido campanile per la vista su tetti e porto. Sali presto mentre le strette scale aperte sono tranquille.",
+              durationMin: 75,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "green-fish-markets",
+              text: "Gira tra il mercato ortofrutticolo Pazar lungo la parete orientale e il mercato del pesce coperto Peskarija un paio di minuti a ovest, entrambi al loro meglio la mattina prima di spegnersi entro il primo pomeriggio. Procurati frutta, formaggio e pane dalmati per dopo.",
+              durationMin: 45,
+            },
+            {
+              poiSlug: "diocletian-cellars",
+              text: "Rinfrescati nei sotterranei a volta sotto il palazzo meridionale, percorrendo il passaggio centrale gratuito di bancarelle artigianali tra la Riva e il Peristilio, poi pagando pochi euro per le sale laterali che erano la stanza dei draghi di Daenerys nel Trono di Spade. Una gradita tappa all'ombra nel caldo.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "golden-gate-gregory-nin",
+              text: "Esci dalla Porta Aurea settentrionale fino al gigantesco bronzo di Mestrovic di Gregorio di Nona e sfrega l'alluce lucido della statua per fortuna, come fanno tutti. Gratuito e veloce, con l'antica porta imperiale alle spalle.",
+              durationMin: 30,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "riva-promenade",
+              text: "Percorri la Riva orlata di palme lungo il porto sotto la parete del palazzo per la camminata serale, concedendoti un drink per la luce tarda sulla pietra. Il lungomare è dove esce tutta la città, quindi osserva la gente mentre Spalato si riempie per la notte.",
+              durationMin: 60,
+            },
+            {
+              text: "Cena fuori dai passaggi più affollati per prezzi più giusti, poi le vie di marmo a tarda ora una volta che la folla diurna se ne è andata e il palazzo è illuminato e tranquillo. Vai a dormire abbastanza presto se domani è un giorno d'isola con un catamarano mattutino.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "La collina di Marjan, la Galleria Mestrovic e Bacvice",
+          morning: [
+            {
+              poiSlug: "marjan-hill",
+              text: "Sali da Varos sulla collina di Marjan presto, prima del caldo, fino al caffè Prva vidilica per la vista sulla città vecchia, poi lungo il crinale fino alla cima del Telegrin per il panorama su costa e isole. Porta acqua, dato che l'ombra si dirada vicino alla cima.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "mestrovic-gallery",
+              text: "Scendi il lungomare di Meje fino alla Galleria Ivan Mestrovic nella villa dello stesso scultore, piena delle sue figure e dei suoi bronzi in un giardino affacciato sul mare, con la cappella Kastelet inclusa nel biglietto. Chiude il lunedì, quindi conviene organizzarsi di conseguenza.",
+              durationMin: 90,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Pranzo in una konoba di famiglia a Varos o sul lungomare, tenendolo leggero prima della spiaggia. Pesce adriatico alla griglia e un bianco dalmata è l'ordinazione locale.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "bacvice-beach-picigin",
+              text: "Cammina a est del porto fino alla sabbiosa Bacvice per un bagno nell'acqua bassa e per osservare una partita di picigin praticata in cerchio vicino alla riva, il rituale estivo di Spalato. È gratuita, quindi accaparrati un posto prima che il pomeriggio si riempia.",
+              durationMin: 120,
+            },
+          ],
+          evening: [
+            {
+              text: "Cena di ritorno nel palazzo in una via tranquilla fuori dai passaggi principali, poi un giro illuminato della città vecchia una volta diradata la folla. Bacvice sopra la spiaggia è dove la notte va avanti fino a tardi se la vuoi.",
+              durationMin: 120,
+            },
+            {
+              text: "Organizza stasera la gita di domani: prenota e stampa il biglietto del catamarano per Hvar, controlla gli orari del parco e della barca di Krka, o annota che l'autobus 22 della Promet per Klis e il 37 per Traù partono dal mercato e dalla stazione centrale. Una partenza mattiniera batte il caldo e la folla di mezzogiorno.",
+              durationMin: 30,
+            },
+          ],
+        },
+        {
+          dayNumber: 3,
+          theme: "Le isole e la costa: Hvar, Traù, Krka o Klis",
+          morning: [
+            {
+              poiSlug: "hvar-day-trip",
+              text: "Prendi un catamarano mattutino dal porto per la chic Hvar in circa un'ora, arrivando sotto la sua fortezza spagnola sulla collina e la piazza di marmo prima che le barche del giorno affollino tutto. Sali sulla fortezza per la vista sulle isole Pakleni, poi gira tra il porto turistico e le vie vecchie; prenota la barca in anticipo d'estate e punta a un ritorno tardo.",
+              durationMin: 300,
+            },
+            {
+              poiSlug: "trogir-day-trip",
+              text: "Preferisci la terraferma? Prendi l'autobus 37 della Promet per circa 30 minuti a ovest fino a Traù, la minuscola città vecchia UNESCO sul suo isolotto, per il portale scolpito della cattedrale di San Lorenzo e la vista dalla fortezza Kamerlengo. Si abbina bene all'aeroporto e, con una partenza mattiniera, anche a Krka.",
+              durationMin: 180,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "krka-waterfalls",
+              text: "Per una giornata nella natura, unisciti a un tour o guida per circa un'ora a nord fino al Parco Nazionale di Krka vicino a Skradin per le sue cascate di travertino in un verde canyon, più tranquille e più vicine di Plitvice. Prendi la barca da Skradin fino alle principali cascate di Skradinski buk, e tieni presente che nuotare sotto di esse è vietato dal 2021.",
+              durationMin: 240,
+            },
+            {
+              poiSlug: "klis-fortress",
+              text: "Se preferisci restare vicino, prendi l'autobus 22 della Promet dal mercato per circa 30 minuti su fino alla fortezza di Klis, distesa lungo il suo crinale sopra la città, per l'ampia vista indietro su Spalato e sul mare. I fan del Trono di Spade la conosceranno come Meereen, liberata da Daenerys.",
+              durationMin: 180,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "riva-promenade",
+              text: "Di ritorno in città, concediti un'ultima serata sulla Riva con un drink mentre la luce cala e la passeggiata si riempie, poi un ultimo giro illuminato delle vie del palazzo. Questo congedo sul lungomare è il classico addio a Spalato.",
+              durationMin: 90,
+            },
+            {
+              text: "Ultima cena nella città vecchia fuori dai passaggi affollati, e se domani c'è un volo presto, calcola la navetta aeroportuale fino a Kastela, circa 30-40 minuti per circa 8 EUR, o un taxi a circa 30-40 EUR.",
+              durationMin: 120,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export default splitIt;

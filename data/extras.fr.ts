@@ -480,6 +480,22 @@ const extrasFr: Record<string, CityExtras> = {
       "Le Christ voilé",
     ],
   },
+  split: {
+    citySlug: "split",
+    image: hero(6701514),
+    imageAlt:
+      "Le front de mer et la vieille ville de Split avec le campanile de la cathédrale et les montagnes du Mosor derrière, vus depuis la mer",
+    history:
+      "Split a grandi, fait unique, à l'intérieur d'un palais romain : l'empereur Dioclétien, le seul souverain romain à avoir renoncé volontairement au trône, y bâtit un vaste palais de retraite fortifié vers 305 apr. J.-C., et quand la Salone voisine tomba aux mains des envahisseurs, les réfugiés s'installèrent tout simplement dans ses murs et n'en partirent jamais. Dix-sept siècles plus tard, on vit et on commerce encore dans le palais, sa cathédrale est le propre mausolée de Dioclétien et ses caves subsistent presque intactes. La ville passa entre des mains byzantines, vénitiennes, habsbourgeoises et brièvement napoléoniennes, traversa le 20e siècle dans la Yougoslavie et devint croate en 1991. Aujourd'hui, Split est la turbulente capitale de la Dalmatie, un port et la porte d'entrée des îles, aussi connue pour son football fervent du Hajduk et son jeu de plage picigin que pour ses pierres romaines.",
+    knownFor: [
+      "Le palais de Dioclétien",
+      "La Riva",
+      "Le campanile Saint-Domnius",
+      "La colline de Marjan",
+      "Les îles dalmates",
+      "Les lieux de tournage de Game of Thrones",
+    ],
+  },
 };
 
 export default extrasFr;

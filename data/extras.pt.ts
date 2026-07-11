@@ -478,6 +478,22 @@ const extrasPt: Record<string, CityExtras> = {
       "O Cristo Velado",
     ],
   },
+  split: {
+    citySlug: "split",
+    image: hero(6701514),
+    imageAlt:
+      "A frente de mar e a cidade velha de Split com o campanario da catedral e as montanhas de Mosor por tras, vistas do mar",
+    history:
+      "Split cresceu, de forma unica, dentro de um palacio romano: o imperador Diocleciano, o unico governante romano a abdicar do trono voluntariamente, mandou construir aqui um vasto palacio de reforma fortificado por volta do ano 305 d.C., e quando a proxima Salona caiu perante invasores, os refugiados simplesmente se mudaram para dentro das suas muralhas e nunca mais sairam. Dezassete seculos depois, ainda ha quem viva e negoceie dentro do palacio, a sua catedral e o proprio mausoleu de Diocleciano e as suas caves sobrevivem quase intactas. A cidade passou por maos bizantinas, venezianas, habsburgas e brevemente napoleonicas, atravessou o seculo XX na Jugoslavia e tornou-se croata em 1991. Hoje Split e a barulhenta capital da Dalmacia, um porto e a porta de entrada para as ilhas, tao conhecida pelo seu fervoroso futebol do Hajduk e pelo seu jogo de praia picigin como pelas suas pedras romanas.",
+    knownFor: [
+      "Palacio de Diocleciano",
+      "A Riva",
+      "Campanario de Sao Domnio",
+      "Colina de Marjan",
+      "Ilhas dalmatas",
+      "Locais de A Guerra dos Tronos",
+    ],
+  },
 };
 
 export default extrasPt;

@@ -478,6 +478,22 @@ const extrasIt: Record<string, CityExtras> = {
       "Il Cristo velato",
     ],
   },
+  split: {
+    citySlug: "split",
+    image: hero(6701514),
+    imageAlt:
+      "Il lungomare e la città vecchia di Spalato con il campanile della cattedrale e i monti Mosor sullo sfondo, visti dal mare",
+    history:
+      "Spalato è cresciuta, in modo unico, dentro un palazzo romano: l'imperatore Diocleziano, l'unico sovrano romano a rinunciare al trono volontariamente, vi fece costruire un vasto palazzo fortificato per il ritiro attorno al 305 d.C., e quando la vicina Salona cadde in mano agli invasori i profughi si trasferirono semplicemente tra le sue mura e non se ne andarono più. Diciassette secoli dopo la gente vive e commercia ancora dentro il palazzo, la sua cattedrale è il mausoleo dello stesso Diocleziano e i suoi sotterranei sopravvivono quasi intatti. La città passò per mani bizantine, veneziane, asburgiche e brevemente napoleoniche, trascorse il XX secolo nella Jugoslavia e divenne croata nel 1991. Oggi Spalato è la turbolenta capitale della Dalmazia, un porto e la porta d'accesso alle isole, nota tanto per il suo fervente calcio dell'Hajduk e per il suo gioco da spiaggia picigin quanto per le sue pietre romane.",
+    knownFor: [
+      "Il Palazzo di Diocleziano",
+      "La Riva",
+      "Il campanile di San Doimo",
+      "La collina di Marjan",
+      "Le isole dalmate",
+      "I luoghi del Trono di Spade",
+    ],
+  },
 };
 
 export default extrasIt;

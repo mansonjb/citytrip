@@ -1735,6 +1735,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+  // ---- Split ----
+  {
+    slug: "vestibul-palace-split",
+    citySlug: "split",
+    name: "Vestibul Palace Hotel",
+    neighborhoodSlug: "diocletian-palace",
+    band: "€€€",
+    priceFrom: 260,
+    style: "Inside the Roman palace",
+    bestFor: "Special occasions",
+    blurb:
+      "A small design hotel built into the ancient stone of Diocletian's Palace, steps from the Vestibule and the Peristyle at the very heart of the old town. Exposed Roman and medieval walls meet clean modern rooms, and you sleep inside the monument itself.",
+    image: px(262048),
+    imageAlt: "Design hotel room with exposed ancient stone walls",
+  },
+  {
+    slug: "hotel-park-split",
+    citySlug: "split",
+    name: "Hotel Park Split",
+    neighborhoodSlug: "bacvice",
+    band: "€€",
+    priceFrom: 165,
+    style: "Belle Epoque by the beach",
+    bestFor: "Couples",
+    blurb:
+      "A restored 1921 grand hotel above Bacvice beach, with a palm-shaded terrace and a short walk along the water to the old town. It is the elegant, calmer choice, close to the sand but out of the palace crush.",
+    image: px(2507010),
+    imageAlt: "Elegant hotel terrace with palms overlooking the sea",
+  },
+  {
+    slug: "hotel-ambasador-split",
+    citySlug: "split",
+    name: "Hotel Ambasador",
+    neighborhoodSlug: "riva-meje",
+    band: "€€",
+    priceFrom: 140,
+    style: "Seafront modern",
+    bestFor: "First visit",
+    blurb:
+      "A modern four-star on the western waterfront toward Meje, with sea-view rooms and a rooftop looking back to the harbour. It is a flat ten-minute walk along the coast to the Riva and the palace, away from the night noise.",
+    image: px(1267438),
+    imageAlt: "Bright modern hotel room with a sea view",
+  },
+  {
+    slug: "croparadise-green-hostel-split",
+    citySlug: "split",
+    name: "CroParadise Green Hostel",
+    neighborhoodSlug: "varos",
+    band: "€",
+    priceFrom: 25,
+    style: "Varos hostel",
+    bestFor: "Budget",
+    blurb:
+      "A friendly, well-run hostel in a stone house in the old Varos quarter just west of the centre, with dorms and a couple of private rooms and apartments. It is a five-minute walk to the Riva and one of the best-value beds in Split.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;

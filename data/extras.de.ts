@@ -480,6 +480,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Der Verschleierte Christus",
     ],
   },
+  split: {
+    citySlug: "split",
+    image: hero(6701514),
+    imageAlt:
+      "Die Uferfront und Altstadt von Split mit dem Glockenturm der Kathedrale und den Mosor-Bergen dahinter, vom Meer aus gesehen",
+    history:
+      "Split wuchs, einzigartig, in einem römischen Palast heran: Kaiser Diokletian, der einzige römische Herrscher, der den Thron freiwillig aufgab, errichtete hier um 305 n. Chr. einen weiten befestigten Ruhesitz, und als das nahe Salona an Eindringlinge fiel, zogen die Flüchtlinge einfach in seine Mauern und gingen nie wieder. Siebzehn Jahrhunderte später leben und handeln die Menschen noch immer innerhalb des Palasts, seine Kathedrale ist Diokletians eigenes Mausoleum und seine Keller sind fast unversehrt erhalten. Die Stadt ging durch byzantinische, venezianische, habsburgische und kurz napoleonische Hände, verbrachte das 20. Jahrhundert in Jugoslawien und wurde 1991 kroatisch. Heute ist Split die ausgelassene Hauptstadt Dalmatiens, ein Hafen und das Tor zu den Inseln, ebenso bekannt für seinen leidenschaftlichen Hajduk-Fußball und sein Picigin-Strandspiel wie für seine römischen Steine.",
+    knownFor: [
+      "Der Diokletianpalast",
+      "Die Riva",
+      "Der Glockenturm des Heiligen Domnius",
+      "Der Marjan-Hügel",
+      "Die dalmatinischen Inseln",
+      "Game-of-Thrones-Drehorte",
+    ],
+  },
 };
 
 export default extrasDe;

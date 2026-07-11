@@ -49,6 +49,7 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /oslo (Oslo, Norway): ideal 2 days
 - /helsinki (Helsinki, Finland): ideal 2 days
 - /naples (Naples, Italy): ideal 3 days
+- /split (Split, Croatia): ideal 2 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,
