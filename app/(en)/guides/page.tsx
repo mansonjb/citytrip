@@ -26,6 +26,7 @@ export default function GuidesPage() {
         data={[
           itemListSchema([
             { name: "How many days in each European city", path: "/guides/how-many-days" },
+            { name: "The cheapest city breaks in Europe", path: "/guides/cheapest-city-breaks" },
             ...guides.map((g) => ({ name: g.title, path: `/guides/${g.slug}` })),
           ]),
           breadcrumbSchema([{ name: "Guides", path: "/guides" }]),
@@ -51,6 +52,19 @@ export default function GuidesPage() {
           <p className="mt-3 text-sm leading-relaxed text-cream/75">
             Every city on the site, its ideal duration and the reasoning, in
             one sortable answer.
+          </p>
+        </Link>
+        <Link
+          href="/guides/cheapest-city-breaks"
+          className="rounded-2xl bg-paper p-7 hard-shadow transition-transform hover:-translate-y-1"
+        >
+          <span className="label-mono text-viridian">Value</span>
+          <p className="font-display mt-2 text-2xl font-semibold tracking-tight">
+            The cheapest city breaks in Europe
+          </p>
+          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+            Every city ranked from cheapest to priciest by what a day really
+            costs on a budget, with each city&apos;s full budget guide.
           </p>
         </Link>
         {guides.map((g) => (

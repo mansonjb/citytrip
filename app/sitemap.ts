@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // EN-only editorial section
     { url: absoluteUrl("/guides"), lastModified: now, priority: 0.7 },
     { url: absoluteUrl("/guides/how-many-days"), lastModified: now, priority: 0.8 },
+    { url: absoluteUrl("/guides/cheapest-city-breaks"), lastModified: now, priority: 0.8 },
     { url: absoluteUrl("/about"), lastModified: now, priority: 0.3 },
   ];
 
