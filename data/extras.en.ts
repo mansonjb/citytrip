@@ -527,6 +527,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Art Nouveau",
     ],
   },
+  vilnius: {
+    citySlug: "vilnius",
+    image: hero(28975990),
+    imageAlt:
+      "The baroque churches and red rooftops of Vilnius old town seen from above",
+    history:
+      "Vilnius was, by legend, founded when Grand Duke Gediminas dreamed of an iron wolf howling on the hill and built his castle there in the 1320s, and it grew into the capital of the Grand Duchy of Lithuania, once the largest state in Europe, reaching from the Baltic almost to the Black Sea. Its university, founded in 1579, and its dense baroque churches made it a great centre of learning, and by the 19th century it was one of the most important Jewish cities in the world, the Jerusalem of the North, until the community was destroyed in the Holocaust. Passed between Poland, Nazi occupation and the Soviet Union, Lithuania was the first republic to declare independence from the USSR, in 1990, and Soviet tanks killed unarmed crowds at the TV tower in January 1991 before it broke free. Today Vilnius is a cheap, green, easygoing capital wrapped around the largest baroque old town in Europe.",
+    knownFor: [
+      "Baroque old town",
+      "The Uzupis republic",
+      "Gediminas Tower",
+      "The Gates of Dawn",
+      "Cepelinai",
+      "Trakai Castle",
+    ],
+  },
 };
 
 export default extrasEn;

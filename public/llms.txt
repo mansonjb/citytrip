@@ -52,6 +52,7 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /split (Split, Croatia): ideal 2 days
 - /riga (Riga, Latvia): ideal 2 days
 - /brussels (Brussels, Belgium): ideal 2 days
+- /vilnius (Vilnius, Lithuania): ideal 2 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,

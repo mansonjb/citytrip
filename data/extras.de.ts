@@ -528,6 +528,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Jugendstil",
     ],
   },
+  vilnius: {
+    citySlug: "vilnius",
+    image: hero(28975990),
+    imageAlt:
+      "Die barocken Kirchen und roten Dächer der Altstadt von Vilnius von oben gesehen",
+    history:
+      "Vilnius wurde der Legende nach gegründet, als Großfürst Gediminas von einem eisernen Wolf träumte, der auf dem Hügel heulte, und dort in den 1320er Jahren seine Burg baute, und es wuchs zur Hauptstadt des Großfürstentums Litauen heran, einst des größten Staates Europas, der von der Ostsee fast bis zum Schwarzen Meer reichte. Seine 1579 gegründete Universität und seine dichten barocken Kirchen machten es zu einem großen Zentrum der Gelehrsamkeit, und im 19. Jahrhundert war es eine der bedeutendsten jüdischen Städte der Welt, das Jerusalem des Nordens, bis die Gemeinschaft im Holocaust vernichtet wurde. Zwischen Polen, nationalsozialistischer Besatzung und der Sowjetunion hin- und hergereicht, war Litauen 1990 die erste Republik, die ihre Unabhängigkeit von der UdSSR erklärte, und sowjetische Panzer töteten im Januar 1991 unbewaffnete Menschenmengen am Fernsehturm, bevor es sich losriss. Heute ist Vilnius eine günstige, grüne, unbeschwerte Hauptstadt, die sich um die größte barocke Altstadt Europas legt.",
+    knownFor: [
+      "Barocke Altstadt",
+      "Die Republik Uzupis",
+      "Gediminas-Turm",
+      "Das Tor der Morgenröte",
+      "Cepelinai",
+      "Die Burg Trakai",
+    ],
+  },
 };
 
 export default extrasDe;

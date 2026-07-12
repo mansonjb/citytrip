@@ -528,6 +528,22 @@ const extrasEs: Record<string, CityExtras> = {
       "El art nouveau",
     ],
   },
+  vilnius: {
+    citySlug: "vilnius",
+    image: hero(28975990),
+    imageAlt:
+      "Las iglesias barrocas y los tejados rojos del casco antiguo de Vilnius vistos desde lo alto",
+    history:
+      "Vilnius fue, según la leyenda, fundada cuando el gran duque Gediminas soñó con un lobo de hierro que aullaba en la colina y construyó allí su castillo en la década de 1320, y creció hasta ser la capital del Gran Ducado de Lituania, en su día el Estado más grande de Europa, que se extendía desde el Báltico casi hasta el mar Negro. Su universidad, fundada en 1579, y sus densas iglesias barrocas la convirtieron en un gran centro de saber, y hacia el siglo XIX era una de las ciudades judías más importantes del mundo, la Jerusalén del Norte, hasta que la comunidad fue aniquilada en el Holocausto. Repartida entre Polonia, la ocupación nazi y la Unión Soviética, Lituania fue la primera república en declarar la independencia de la URSS, en 1990, y los tanques soviéticos mataron a multitudes desarmadas en la torre de televisión en enero de 1991 antes de que se liberara. Hoy Vilnius es una capital barata, verde y sin prisas envuelta en el mayor casco antiguo barroco de Europa.",
+    knownFor: [
+      "El casco antiguo barroco",
+      "La república de Uzupis",
+      "La Torre de Gediminas",
+      "La Puerta de la Aurora",
+      "Los cepelinai",
+      "El castillo de Trakai",
+    ],
+  },
 };
 
 export default extrasEs;

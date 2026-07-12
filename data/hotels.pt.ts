@@ -1904,6 +1904,63 @@ const hotelsPt: Hotel[] = [
     image: px(271624),
     imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
   },
+  // ---- Vilnius ----
+  {
+    slug: "hotel-pacai-vilnius",
+    citySlug: "vilnius",
+    name: "Hotel PACAI",
+    neighborhoodSlug: "old-town",
+    band: "€€€",
+    priceFrom: 220,
+    style: "Design hotel em palacio barroco",
+    bestFor: "Ocasioes especiais",
+    blurb:
+      "Um design hotel num palacio barroco do seculo XVII restaurado, na rua Didzioji, no coracao da cidade velha, com um spa abobadado e um restaurante de patio. E um dos hoteis mais aclamados dos Balticos, a poucos passos da universidade e da Praca da Camara Municipal.",
+    image: px(262048),
+    imageAlt: "Quarto de design hotel num palacio barroco restaurado",
+  },
+  {
+    slug: "uzupis-hotel-vilnius",
+    citySlug: "vilnius",
+    name: "Artagonist Art Hotel",
+    neighborhoodSlug: "old-town",
+    band: "€€",
+    priceFrom: 110,
+    style: "Boutique de tema artistico",
+    bestFor: "Casais",
+    blurb:
+      "Um hotel-boutique de arte na rua Pilies, no coracao da cidade velha, com obras contemporaneas originais em cada quarto e em redor do edificio. Fica a poucos passos da Universidade de Vilnius e da Praca da Catedral, e a uma curta caminhada, atravessando o rio, ate a republica de Uzupis.",
+    image: px(1267438),
+    imageAlt: "Quarto de hotel-boutique repleto de arte contemporanea",
+  },
+  {
+    slug: "radisson-blu-lietuva-vilnius",
+    citySlug: "vilnius",
+    name: "Radisson Blu Hotel Lietuva",
+    neighborhoodSlug: "snipiskes",
+    band: "€€",
+    priceFrom: 95,
+    style: "Vistas sobre os arranha-ceus",
+    bestFor: "Primeira visita",
+    blurb:
+      "Um hotel alto e moderno do outro lado do Neris, no distrito de negocios de Snipiskes, com um bar no ultimo piso a olhar sobre o rio para a cidade velha. Fica a uma caminhada de 15 minutos pela ponte ate ao centro e e um quatro estrelas com boa relacao qualidade-preco de forma fiavel.",
+    image: px(2507010),
+    imageAlt: "Quarto de hotel moderno com vista sobre os arranha-ceus da cidade",
+  },
+  {
+    slug: "downtown-forest-hostel-vilnius",
+    citySlug: "vilnius",
+    name: "Downtown Forest Hostel",
+    neighborhoodSlug: "old-town",
+    band: "€",
+    priceFrom: 20,
+    style: "Hostel com jardim na cidade velha",
+    bestFor: "Económico",
+    blurb:
+      "Um hostel simpatico e bem gerido com um grande jardim na orla sossegada da cidade velha, com dormitorios e alguns quartos privados. Fica a cinco minutos a pe da Praca da Catedral e e uma das camas mais baratas e sociaveis numa cidade ja de si barata.",
+    image: px(271624),
+    imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
+  },
 ];
 
 export default hotelsPt;

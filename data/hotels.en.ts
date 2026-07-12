@@ -1906,6 +1906,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+  // ---- Vilnius ----
+  {
+    slug: "hotel-pacai-vilnius",
+    citySlug: "vilnius",
+    name: "Hotel PACAI",
+    neighborhoodSlug: "old-town",
+    band: "€€€",
+    priceFrom: 220,
+    style: "Baroque palace design hotel",
+    bestFor: "Special occasions",
+    blurb:
+      "A design hotel in a restored 17th-century baroque palace on Didzioji street in the heart of the old town, with a vaulted spa and a courtyard restaurant. It is one of the most acclaimed hotels in the Baltics, steps from the university and Town Hall Square.",
+    image: px(262048),
+    imageAlt: "Design hotel room inside a restored baroque palace",
+  },
+  {
+    slug: "uzupis-hotel-vilnius",
+    citySlug: "vilnius",
+    name: "Artagonist Art Hotel",
+    neighborhoodSlug: "old-town",
+    band: "€€",
+    priceFrom: 110,
+    style: "Art-themed boutique",
+    bestFor: "Couples",
+    blurb:
+      "A boutique art hotel on Pilies street in the heart of the old town, with original contemporary works in every room and around the building. It is steps from Vilnius University and Cathedral Square, and a short walk over the river to the Uzupis republic.",
+    image: px(1267438),
+    imageAlt: "Contemporary art-filled boutique hotel room",
+  },
+  {
+    slug: "radisson-blu-lietuva-vilnius",
+    citySlug: "vilnius",
+    name: "Radisson Blu Hotel Lietuva",
+    neighborhoodSlug: "snipiskes",
+    band: "€€",
+    priceFrom: 95,
+    style: "Skyline tower views",
+    bestFor: "First visit",
+    blurb:
+      "A tall modern hotel across the Neris in the Snipiskes business district, with a top-floor bar looking over the river to the old town. It is a 15-minute walk over the bridge to the centre and reliably good value for a four-star.",
+    image: px(2507010),
+    imageAlt: "Modern hotel room with a city skyline view",
+  },
+  {
+    slug: "downtown-forest-hostel-vilnius",
+    citySlug: "vilnius",
+    name: "Downtown Forest Hostel",
+    neighborhoodSlug: "old-town",
+    band: "€",
+    priceFrom: 20,
+    style: "Old town garden hostel",
+    bestFor: "Budget",
+    blurb:
+      "A friendly, well-run hostel with a big garden on the quiet edge of the old town, with dorms and a few private rooms. It is a five-minute walk to Cathedral Square and one of the cheapest and most social beds in an already cheap city.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;
