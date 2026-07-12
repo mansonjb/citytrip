@@ -13,6 +13,7 @@ function localized(
 ): MetadataRoute.Sitemap {
   const languages: Record<string, string> = {};
   for (const l of LOCALES) languages[l] = absoluteUrl(localePath(l, path));
+  languages["x-default"] = absoluteUrl(localePath("en", path));
   return LOCALES.map((l) => ({
     url: absoluteUrl(localePath(l, path)),
     lastModified: now,
