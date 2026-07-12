@@ -1963,6 +1963,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+  // ---- Bratislava ----
+  {
+    slug: "grand-hotel-river-park-bratislava",
+    citySlug: "bratislava",
+    name: "Grand Hotel River Park, a Luxury Collection Hotel",
+    neighborhoodSlug: "eurovea-riverfront",
+    band: "€€€",
+    priceFrom: 240,
+    style: "Riverfront Luxury Collection",
+    bestFor: "Special occasions",
+    blurb:
+      "The city's smartest hotel, a glass Luxury Collection block on the Danube embankment with a spa and river-view rooms. It is a flat ten-minute walk along the water to the old town, away from the weekend noise.",
+    image: px(262048),
+    imageAlt: "Elegant hotel suite with a chandelier and a river view",
+  },
+  {
+    slug: "marrols-boutique-bratislava",
+    citySlug: "bratislava",
+    name: "Marrol's Boutique Hotel",
+    neighborhoodSlug: "stare-mesto",
+    band: "€€",
+    priceFrom: 150,
+    style: "Old town boutique",
+    bestFor: "Couples",
+    blurb:
+      "A warm, classically styled boutique hotel on a quiet street a few minutes from the Main Square, long rated the best small hotel in the city. The old town sights, statues and cafes are all within a short walk.",
+    image: px(1267438),
+    imageAlt: "Classic boutique hotel room with warm lighting",
+  },
+  {
+    slug: "hotel-devin-bratislava",
+    citySlug: "bratislava",
+    name: "Hotel Devin",
+    neighborhoodSlug: "stary-most-riverfront",
+    band: "€€",
+    priceFrom: 95,
+    style: "Riverside classic",
+    bestFor: "First visit",
+    blurb:
+      "A comfortable four-star on the Danube embankment right by the old town, with river-view rooms looking across to the castle and the UFO bridge. It puts the Main Square and St Martin's Cathedral a two-minute walk away.",
+    image: px(2507010),
+    imageAlt: "Hotel room with a view over the river",
+  },
+  {
+    slug: "hostel-blues-bratislava",
+    citySlug: "bratislava",
+    name: "Hostel Blues",
+    neighborhoodSlug: "stare-mesto",
+    band: "€",
+    priceFrom: 20,
+    style: "Central design hostel",
+    bestFor: "Budget",
+    blurb:
+      "A bright, well-run design hostel a short walk from the old town, with private rooms as well as dorms and a big common room. It is one of the cheapest and most social beds in a capital that is already very cheap.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;

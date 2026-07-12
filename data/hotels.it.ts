@@ -1963,6 +1963,63 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },
+  // ---- Bratislava ----
+  {
+    slug: "grand-hotel-river-park-bratislava",
+    citySlug: "bratislava",
+    name: "Grand Hotel River Park, a Luxury Collection Hotel",
+    neighborhoodSlug: "eurovea-riverfront",
+    band: "€€€",
+    priceFrom: 240,
+    style: "Luxury Collection sul lungofiume",
+    bestFor: "Occasioni speciali",
+    blurb:
+      "L'hotel più elegante della città, un blocco di vetro della Luxury Collection sull'argine del Danubio con una spa e camere vista fiume. È a dieci minuti a piedi in piano lungo l'acqua fino alla città vecchia, lontano dal rumore del weekend.",
+    image: px(262048),
+    imageAlt: "Elegante suite d'hotel con lampadario e vista sul fiume",
+  },
+  {
+    slug: "marrols-boutique-bratislava",
+    citySlug: "bratislava",
+    name: "Marrol's Boutique Hotel",
+    neighborhoodSlug: "stare-mesto",
+    band: "€€",
+    priceFrom: 150,
+    style: "Boutique nella città vecchia",
+    bestFor: "Coppie",
+    blurb:
+      "Un caldo boutique hotel dallo stile classico in una via tranquilla a pochi minuti dalla piazza principale, a lungo valutato il miglior piccolo hotel della città. Le attrazioni, le statue e i caffè della città vecchia sono tutti a breve distanza a piedi.",
+    image: px(1267438),
+    imageAlt: "Classica camera d'hotel boutique con illuminazione calda",
+  },
+  {
+    slug: "hotel-devin-bratislava",
+    citySlug: "bratislava",
+    name: "Hotel Devin",
+    neighborhoodSlug: "stary-most-riverfront",
+    band: "€€",
+    priceFrom: 95,
+    style: "Classico sul fiume",
+    bestFor: "Prima visita",
+    blurb:
+      "Un comodo quattro stelle sull'argine del Danubio proprio accanto alla città vecchia, con camere vista fiume affacciate sul castello e sul ponte UFO. Mette la piazza principale e la Cattedrale di San Martino a due minuti a piedi.",
+    image: px(2507010),
+    imageAlt: "Camera d'hotel con vista sul fiume",
+  },
+  {
+    slug: "hostel-blues-bratislava",
+    citySlug: "bratislava",
+    name: "Hostel Blues",
+    neighborhoodSlug: "stare-mesto",
+    band: "€",
+    priceFrom: 20,
+    style: "Ostello di design centrale",
+    bestFor: "Budget",
+    blurb:
+      "Un ostello di design luminoso e ben gestito a breve distanza a piedi dalla città vecchia, con camere private oltre ai dormitori e un ampio soggiorno comune. È uno dei letti più economici e socievoli in una capitale già molto economica.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
 ];
 
 export default hotelsIt;

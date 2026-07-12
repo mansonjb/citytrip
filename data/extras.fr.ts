@@ -544,6 +544,22 @@ const extrasFr: Record<string, CityExtras> = {
       "Le château de Trakai",
     ],
   },
+  bratislava: {
+    citySlug: "bratislava",
+    image: hero(10137866),
+    imageAlt:
+      "Le château blanc à quatre tours de Bratislava sur la colline dominant le Danube",
+    history:
+      "Bratislava a été slovaque, hongroise, autrichienne et tchécoslovaque de mémoire d'homme, et fut connue pendant des siècles par ses noms allemand et hongrois, Pressburg et Pozsony. Pendant près de trois siècles, tandis que les Ottomans tenaient Buda, elle fut la capitale de la Hongrie royale et la ville de couronnement où 11 rois et reines de Hongrie, Marie-Thérèse parmi eux, furent couronnés dans la cathédrale Saint-Martin. Les Habsbourg, Napoléon et la guerre froide y ont tous laissé leur marque : le château de Devin, au-dessus de la ville, gardait la lisière occidentale du bloc communiste, sa frontière étant une zone de mort jusqu'en 1989. Bratislava n'est devenue la capitale d'une Slovaquie indépendante qu'en 1993, après la séparation pacifique de la Tchécoslovaquie, et c'est aujourd'hui une petite capitale de l'UE, bon marché et en pleine mutation, à une heure en aval de Vienne.",
+    knownFor: [
+      "Le château de Bratislava",
+      "La vieille ville baroque",
+      "Les couronnements de Saint-Martin",
+      "Le pont UFO",
+      "La statue de Cumil",
+      "La bière slovaque bon marché",
+    ],
+  },
 };
 
 export default extrasFr;

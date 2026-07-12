@@ -543,6 +543,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Trakai Castle",
     ],
   },
+  bratislava: {
+    citySlug: "bratislava",
+    image: hero(10137866),
+    imageAlt:
+      "Bratislava's white four-towered castle on the hill above the Danube",
+    history:
+      "Bratislava has been Slovak, Hungarian, Austrian and Czechoslovak within living memory, and was known for centuries by its German and Hungarian names, Pressburg and Pozsony. For nearly three centuries, while the Ottomans held Buda, it was the capital of Royal Hungary and the coronation city where 11 Hungarian kings and queens, Maria Theresa among them, were crowned in St Martin's Cathedral. The Habsburgs, Napoleon and the Cold War all left marks: Devin Castle above the town guarded the western edge of the communist bloc, its border a killing zone until 1989. Bratislava became the capital of an independent Slovakia only in 1993, after Czechoslovakia split peacefully, and it is now a small, cheap, fast-changing EU capital an hour downriver from Vienna.",
+    knownFor: [
+      "Bratislava Castle",
+      "The baroque old town",
+      "St Martin's coronations",
+      "The UFO bridge",
+      "The Cumil statue",
+      "Cheap Slovak beer",
+    ],
+  },
 };
 
 export default extrasEn;

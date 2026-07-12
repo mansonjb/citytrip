@@ -542,6 +542,22 @@ const extrasIt: Record<string, CityExtras> = {
       "Castello di Trakai",
     ],
   },
+  bratislava: {
+    citySlug: "bratislava",
+    image: hero(10137866),
+    imageAlt:
+      "Il castello bianco a quattro torri di Bratislava sulla collina sopra il Danubio",
+    history:
+      "Bratislava è stata slovacca, ungherese, austriaca e cecoslovacca nel giro di poche generazioni, ed è stata nota per secoli con i suoi nomi tedesco e ungherese, Pressburg e Pozsony. Per quasi tre secoli, mentre gli Ottomani tenevano Buda, fu la capitale dell'Ungheria Reale e la città dell'incoronazione dove 11 re e regine d'Ungheria, tra cui Maria Teresa, furono incoronati nella Cattedrale di San Martino. Gli Asburgo, Napoleone e la Guerra fredda lasciarono tutti il segno: il castello di Devin sopra la città sorvegliava il margine occidentale del blocco comunista, con il suo confine trasformato in una zona di morte fino al 1989. Bratislava divenne la capitale di una Slovacchia indipendente solo nel 1993, dopo la separazione pacifica della Cecoslovacchia, ed è oggi una piccola, economica capitale dell'UE in rapido mutamento, a un'ora a valle di Vienna lungo il fiume.",
+    knownFor: [
+      "Castello di Bratislava",
+      "La città vecchia barocca",
+      "Le incoronazioni di San Martino",
+      "Il ponte UFO",
+      "La statua di Cumil",
+      "Birra slovacca a poco prezzo",
+    ],
+  },
 };
 
 export default extrasIt;

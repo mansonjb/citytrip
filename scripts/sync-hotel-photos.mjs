@@ -66,6 +66,7 @@ const CITY_NAME = {
   riga: "Riga Latvia",
   brussels: "Brussels Belgium",
   vilnius: "Vilnius Lithuania",
+  bratislava: "Bratislava Slovakia",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

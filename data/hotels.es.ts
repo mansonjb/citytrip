@@ -1969,6 +1969,63 @@ const hotelsEs: Hotel[] = [
     image: px(271624),
     imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
   },
+  // ---- Bratislava ----
+  {
+    slug: "grand-hotel-river-park-bratislava",
+    citySlug: "bratislava",
+    name: "Grand Hotel River Park, a Luxury Collection Hotel",
+    neighborhoodSlug: "eurovea-riverfront",
+    band: "€€€",
+    priceFrom: 240,
+    style: "Luxury Collection junto al río",
+    bestFor: "Ocasiones especiales",
+    blurb:
+      "El hotel más elegante de la ciudad, un bloque de cristal de la Luxury Collection en el malecón del Danubio, con spa y habitaciones con vistas al río. Está a un llano paseo de diez minutos junto al agua hasta el casco antiguo, lejos del ruido del fin de semana.",
+    image: px(262048),
+    imageAlt: "Elegante suite de hotel con una lámpara de araña y vistas al río",
+  },
+  {
+    slug: "marrols-boutique-bratislava",
+    citySlug: "bratislava",
+    name: "Marrol's Boutique Hotel",
+    neighborhoodSlug: "stare-mesto",
+    band: "€€",
+    priceFrom: 150,
+    style: "Boutique del casco antiguo",
+    bestFor: "Parejas",
+    blurb:
+      "Un hotel boutique cálido y de estilo clásico en una calle tranquila a pocos minutos de la Plaza Mayor, considerado durante mucho tiempo el mejor hotel pequeño de la ciudad. Los sitios, las estatuas y los cafés del casco antiguo quedan todos a un corto paseo.",
+    image: px(1267438),
+    imageAlt: "Clásica habitación de hotel boutique con iluminación cálida",
+  },
+  {
+    slug: "hotel-devin-bratislava",
+    citySlug: "bratislava",
+    name: "Hotel Devin",
+    neighborhoodSlug: "stary-most-riverfront",
+    band: "€€",
+    priceFrom: 95,
+    style: "Clásico junto al río",
+    bestFor: "Primera visita",
+    blurb:
+      "Un cómodo cuatro estrellas en el malecón del Danubio, justo al lado del casco antiguo, con habitaciones con vistas al río que miran hacia el castillo y el puente UFO. Deja la Plaza Mayor y la catedral de San Martín a dos minutos a pie.",
+    image: px(2507010),
+    imageAlt: "Habitación de hotel con vistas al río",
+  },
+  {
+    slug: "hostel-blues-bratislava",
+    citySlug: "bratislava",
+    name: "Hostel Blues",
+    neighborhoodSlug: "stare-mesto",
+    band: "€",
+    priceFrom: 20,
+    style: "Albergue de diseño céntrico",
+    bestFor: "Presupuesto ajustado",
+    blurb:
+      "Un albergue de diseño luminoso y bien llevado a un corto paseo del casco antiguo, con habitaciones privadas además de dormitorios compartidos y una gran sala común. Es una de las camas más baratas y sociables de una capital ya de por sí muy barata.",
+    image: px(271624),
+    imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
+  },
 ];
 
 export default hotelsEs;

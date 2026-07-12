@@ -544,6 +544,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Die Burg Trakai",
     ],
   },
+  bratislava: {
+    citySlug: "bratislava",
+    image: hero(10137866),
+    imageAlt:
+      "Bratislavas weiße viertürmige Burg auf dem Hügel über der Donau",
+    history:
+      "Bratislava war innerhalb eines Menschenlebens slowakisch, ungarisch, österreichisch und tschechoslowakisch und war jahrhundertelang unter seinen deutschen und ungarischen Namen bekannt, Pressburg und Pozsony. Fast drei Jahrhunderte lang, während die Osmanen Buda hielten, war es die Hauptstadt des königlichen Ungarn und die Krönungsstadt, in der 11 ungarische Könige und Königinnen, Maria Theresia unter ihnen, im Martinsdom gekrönt wurden. Die Habsburger, Napoleon und der Kalte Krieg hinterließen alle Spuren: Die Burg Devin über der Stadt bewachte den Westrand des kommunistischen Blocks, ihre Grenze bis 1989 eine Todeszone. Bratislava wurde erst 1993 die Hauptstadt einer unabhängigen Slowakei, nachdem sich die Tschechoslowakei friedlich getrennt hatte, und ist heute eine kleine, günstige, sich schnell wandelnde EU-Hauptstadt eine Stunde flussabwärts von Wien.",
+    knownFor: [
+      "Die Burg Bratislava",
+      "Die barocke Altstadt",
+      "Die Krönungen im Martinsdom",
+      "Die UFO-Brücke",
+      "Die Cumil-Statue",
+      "Günstiges slowakisches Bier",
+    ],
+  },
 };
 
 export default extrasDe;

@@ -1966,6 +1966,63 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes helles Zimmer mit Schreibtisch und Doppelbett",
   },
+  // ---- Bratislava ----
+  {
+    slug: "grand-hotel-river-park-bratislava",
+    citySlug: "bratislava",
+    name: "Grand Hotel River Park, a Luxury Collection Hotel",
+    neighborhoodSlug: "eurovea-riverfront",
+    band: "€€€",
+    priceFrom: 240,
+    style: "Luxury Collection am Fluss",
+    bestFor: "Besondere Anlässe",
+    blurb:
+      "Das eleganteste Hotel der Stadt, ein gläserner Luxury-Collection-Bau am Donauufer mit Spa und Zimmern mit Flussblick. Es ist ein ebener zehnminütiger Fußweg am Wasser entlang in die Altstadt, weg vom Wochenendlärm.",
+    image: px(262048),
+    imageAlt: "Elegante Hotelsuite mit Kronleuchter und Flussblick",
+  },
+  {
+    slug: "marrols-boutique-bratislava",
+    citySlug: "bratislava",
+    name: "Marrol's Boutique Hotel",
+    neighborhoodSlug: "stare-mesto",
+    band: "€€",
+    priceFrom: 150,
+    style: "Altstadt-Boutique",
+    bestFor: "Paare",
+    blurb:
+      "Ein warmes, klassisch gestaltetes Boutiquehotel in einer ruhigen Straße wenige Minuten vom Hauptplatz, lange als bestes kleines Hotel der Stadt bewertet. Die Sehenswürdigkeiten, Statuen und Cafés der Altstadt sind alle einen kurzen Fußweg entfernt.",
+    image: px(1267438),
+    imageAlt: "Klassisches Boutiquehotel-Zimmer mit warmer Beleuchtung",
+  },
+  {
+    slug: "hotel-devin-bratislava",
+    citySlug: "bratislava",
+    name: "Hotel Devin",
+    neighborhoodSlug: "stary-most-riverfront",
+    band: "€€",
+    priceFrom: 95,
+    style: "Klassiker am Fluss",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein komfortables Vier-Sterne-Haus am Donauufer direkt bei der Altstadt, mit Zimmern mit Flussblick hinüber zur Burg und zur UFO-Brücke. Es legt den Hauptplatz und den Martinsdom einen zweiminütigen Fußweg entfernt.",
+    image: px(2507010),
+    imageAlt: "Hotelzimmer mit Blick über den Fluss",
+  },
+  {
+    slug: "hostel-blues-bratislava",
+    citySlug: "bratislava",
+    name: "Hostel Blues",
+    neighborhoodSlug: "stare-mesto",
+    band: "€",
+    priceFrom: 20,
+    style: "Zentrales Design-Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein helles, gut geführtes Design-Hostel einen kurzen Fußweg von der Altstadt, mit Privatzimmern sowie Schlafsälen und einem großen Gemeinschaftsraum. Es ist eines der günstigsten und geselligsten Betten in einer ohnehin sehr günstigen Hauptstadt.",
+    image: px(271624),
+    imageAlt: "Schlichtes helles Zimmer mit Schreibtisch und Doppelbett",
+  },
 ];
 
 export default hotelsDe;
