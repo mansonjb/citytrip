@@ -559,6 +559,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Cheap Slovak beer",
     ],
   },
+  ljubljana: {
+    citySlug: "ljubljana",
+    image: hero(25053927),
+    imageAlt:
+      "The pink Franciscan church and Plecnik's Triple Bridge over the Ljubljanica river in Ljubljana",
+    history:
+      "Ljubljana began as the Roman colony of Emona, laid out around AD 14 where the road from Italy crossed the Ljubljanica, and fragments of its walls still surface in the city. It spent six centuries under the Habsburgs as Laibach, capital of the province of Carniola, and hosted the Congress of Laibach in 1821. An earthquake flattened much of it in 1895, and the rebuilding gave the centre its Vienna Secession facades; then, between the wars, the architect Joze Plecnik redrew the city almost single-handedly, adding the Triple Bridge, the riverside market colonnade and the National Library, work now UNESCO-listed. Slovenia broke from Yugoslavia in 1991 after a ten-day war, the shortest of those conflicts, and Ljubljana has since turned its car-free centre and its riverbanks into one of the greenest capitals in Europe.",
+    knownFor: [
+      "The Triple Bridge",
+      "Ljubljana Castle",
+      "Plecnik architecture",
+      "The dragon symbol",
+      "Riverside cafes",
+      "Lake Bled day trip",
+    ],
+  },
 };
 
 export default extrasEn;

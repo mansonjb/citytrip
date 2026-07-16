@@ -560,6 +560,22 @@ const extrasEs: Record<string, CityExtras> = {
       "La cerveza eslovaca barata",
     ],
   },
+  ljubljana: {
+    citySlug: "ljubljana",
+    image: hero(25053927),
+    imageAlt:
+      "La rosada iglesia franciscana y el Puente Triple de Plecnik sobre el río Ljubljanica en Ljubljana",
+    history:
+      "Ljubljana empezó como la colonia romana de Emona, trazada hacia el año 14 d. C. donde la calzada procedente de Italia cruzaba el Ljubljanica, y fragmentos de sus murallas todavía asoman en la ciudad. Pasó seis siglos bajo los Habsburgo como Laibach, capital de la provincia de Carniola, y acogió el Congreso de Laibach en 1821. Un terremoto arrasó buena parte de ella en 1895, y la reconstrucción dio al centro sus fachadas de la Secesión vienesa; luego, entre las guerras, el arquitecto Joze Plecnik rediseñó la ciudad casi sin ayuda, añadiendo el Puente Triple, la columnata del mercado junto al río y la Biblioteca Nacional, una obra hoy declarada Patrimonio de la Humanidad por la UNESCO. Eslovenia se separó de Yugoslavia en 1991 tras una guerra de diez días, la más corta de aquellos conflictos, y Ljubljana ha convertido desde entonces su centro peatonal y sus orillas del río en una de las capitales más verdes de Europa.",
+    knownFor: [
+      "El Puente Triple",
+      "El castillo de Ljubljana",
+      "La arquitectura de Plecnik",
+      "El símbolo del dragón",
+      "Las terrazas junto al río",
+      "La excursión al lago Bled",
+    ],
+  },
 };
 
 export default extrasEs;

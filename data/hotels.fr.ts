@@ -2021,6 +2021,63 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
   },
+  // ---- Ljubljana ----
+  {
+    slug: "grand-hotel-union-ljubljana",
+    citySlug: "ljubljana",
+    name: "Grand Hotel Union",
+    neighborhoodSlug: "center-preseren",
+    band: "€€€",
+    priceFrom: 200,
+    style: "Grande dame Belle Époque",
+    bestFor: "Grandes occasions",
+    blurb:
+      "Le grand hôtel historique de la ville, un monument Sécession viennoise de 1905 sur Miklosiceva, à une minute de la place Preseren et du Triple Pont, avec une piscine sur le toit dominant la vieille ville. C'est l'adresse centrale la plus chic, à deux pas du fleuve et du funiculaire du château.",
+    image: px(262048),
+    imageAlt: "Élégante suite d'hôtel avec un lustre et un grand lit",
+  },
+  {
+    slug: "vander-urbani-ljubljana",
+    citySlug: "ljubljana",
+    name: "Vander Urbani Resort",
+    neighborhoodSlug: "old-town",
+    band: "€€",
+    priceFrom: 160,
+    style: "Design dans la vieille ville avec piscine sur le toit",
+    bestFor: "Couples",
+    blurb:
+      "Un petit hôtel design niché dans les ruelles de la vieille ville, juste au bord de la Ljubljanica, avec une minuscule piscine plongeoir sur le toit donnant sur le fleuve et le château. Les chambres sont compactes et modernes, et les terrasses de café et le marché sont au pied de la porte.",
+    image: px(1267438),
+    imageAlt: "Chambre d'hôtel design contemporaine aux tons chauds",
+  },
+  {
+    slug: "hotel-park-ljubljana",
+    citySlug: "ljubljana",
+    name: "Hotel Park Ljubljana",
+    neighborhoodSlug: "tabor-station",
+    band: "€€",
+    priceFrom: 90,
+    style: "Hôtel écolo près du centre",
+    bestFor: "Première visite",
+    blurb:
+      "Un hôtel élevé et certifié pour son engagement environnemental dans le quartier de Tabor, à cinq minutes à pied de la vieille ville et pratique pour la gare routière et ferroviaire. Il est fiable, bien tarifé et proche des musées et de la vie nocturne de Metelkova.",
+    image: px(2507010),
+    imageAlt: "Chambre d'hôtel moderne et lumineuse aux lignes épurées",
+  },
+  {
+    slug: "hostel-celica-ljubljana",
+    citySlug: "ljubljana",
+    name: "Hostel Celica",
+    neighborhoodSlug: "metelkova",
+    band: "€",
+    priceFrom: 30,
+    style: "Auberge artistique dans une ancienne prison",
+    bestFor: "Petit budget",
+    blurb:
+      "Une célèbre auberge design installée dans une ancienne prison militaire du quartier artistique de Metelkova, où 20 anciennes cellules ont chacune été réaménagées par un artiste différent derrière les barreaux d'origine. Elle propose des dortoirs et des cellules privées, et le centre est à dix minutes à pied.",
+    image: px(271624),
+    imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
+  },
 ];
 
 export default hotelsFr;

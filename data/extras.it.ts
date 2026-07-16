@@ -558,6 +558,22 @@ const extrasIt: Record<string, CityExtras> = {
       "Birra slovacca a poco prezzo",
     ],
   },
+  ljubljana: {
+    citySlug: "ljubljana",
+    image: hero(25053927),
+    imageAlt:
+      "La chiesa francescana rosa e il Triplo Ponte di Plecnik sul fiume Ljubljanica a Lubiana",
+    history:
+      "Lubiana nacque come colonia romana di Emona, tracciata intorno al 14 d.C. dove la strada dall'Italia attraversava la Ljubljanica, e frammenti delle sue mura riaffiorano ancora in città. Trascorse sei secoli sotto gli Asburgo come Laibach, capitale della provincia della Carniola, e ospitò il Congresso di Lubiana nel 1821. Un terremoto ne rase al suolo gran parte nel 1895, e la ricostruzione diede al centro le sue facciate in stile Secessione viennese; poi, tra le due guerre, l'architetto Joze Plecnik ridisegnò la città quasi da solo, aggiungendo il Triplo Ponte, il colonnato del mercato sul fiume e la Biblioteca Nazionale, opera oggi tutelata dall'UNESCO. La Slovenia si staccò dalla Jugoslavia nel 1991 dopo una guerra di dieci giorni, la più breve di quei conflitti, e da allora Lubiana ha trasformato il suo centro senza auto e le sue rive in una delle capitali più verdi d'Europa.",
+    knownFor: [
+      "Il Triplo Ponte",
+      "Il Castello di Lubiana",
+      "L'architettura di Plecnik",
+      "Il simbolo del drago",
+      "I caffè sul fiume",
+      "La gita al Lago di Bled",
+    ],
+  },
 };
 
 export default extrasIt;

@@ -560,6 +560,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Günstiges slowakisches Bier",
     ],
   },
+  ljubljana: {
+    citySlug: "ljubljana",
+    image: hero(25053927),
+    imageAlt:
+      "Die rosa Franziskanerkirche und Plecniks Dreierbrücke über dem Fluss Ljubljanica in Ljubljana",
+    history:
+      "Ljubljana begann als die römische Kolonie Emona, um 14 n. Chr. dort angelegt, wo die Straße aus Italien die Ljubljanica kreuzte, und Fragmente ihrer Mauern kommen noch immer in der Stadt zum Vorschein. Sechs Jahrhunderte lang war es unter den Habsburgern als Laibach die Hauptstadt der Provinz Krain und beherbergte 1821 den Kongress von Laibach. Ein Erdbeben ebnete 1895 einen Großteil davon ein, und der Wiederaufbau gab dem Zentrum seine Fassaden im Stil der Wiener Secession; dann zeichnete zwischen den Kriegen der Architekt Joze Plecnik die Stadt nahezu im Alleingang neu und fügte die Dreierbrücke, die Marktkolonnade am Fluss und die Nationalbibliothek hinzu, ein Werk, das heute auf der UNESCO-Liste steht. Slowenien löste sich 1991 nach einem zehntägigen Krieg, dem kürzesten dieser Konflikte, von Jugoslawien, und Ljubljana hat sein autofreies Zentrum und seine Flussufer seither in eine der grünsten Hauptstädte Europas verwandelt.",
+    knownFor: [
+      "Die Dreierbrücke",
+      "Die Burg von Ljubljana",
+      "Plecnik-Architektur",
+      "Das Drachensymbol",
+      "Cafes am Fluss",
+      "Tagesausflug zum Bleder See",
+    ],
+  },
 };
 
 export default extrasDe;

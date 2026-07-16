@@ -560,6 +560,22 @@ const extrasFr: Record<string, CityExtras> = {
       "La bière slovaque bon marché",
     ],
   },
+  ljubljana: {
+    citySlug: "ljubljana",
+    image: hero(25053927),
+    imageAlt:
+      "L'église franciscaine rose et le Triple Pont de Plecnik au-dessus de la Ljubljanica à Ljubljana",
+    history:
+      "Ljubljana est née de la colonie romaine d'Emona, tracée vers l'an 14 là où la route venue d'Italie franchissait la Ljubljanica, et des fragments de ses murailles affleurent encore dans la ville. Elle a passé six siècles sous les Habsbourg sous le nom de Laibach, capitale de la province de Carniole, et a accueilli le Congrès de Laibach en 1821. Un tremblement de terre en a rasé une grande partie en 1895, et la reconstruction a donné au centre ses façades Sécession viennoise ; puis, entre les deux guerres, l'architecte Joze Plecnik a redessiné la ville presque à lui seul, ajoutant le Triple Pont, la colonnade du marché au bord de l'eau et la Bibliothèque nationale, une œuvre aujourd'hui classée à l'UNESCO. La Slovénie s'est détachée de la Yougoslavie en 1991 après une guerre de dix jours, la plus courte de ces conflits, et Ljubljana a depuis fait de son centre sans voiture et de ses berges l'une des capitales les plus vertes d'Europe.",
+    knownFor: [
+      "Le Triple Pont",
+      "Le château de Ljubljana",
+      "L'architecture de Plecnik",
+      "Le symbole du dragon",
+      "Les cafés au bord de l'eau",
+      "L'excursion au lac de Bled",
+    ],
+  },
 };
 
 export default extrasFr;
