@@ -574,6 +574,22 @@ const extrasPt: Record<string, CityExtras> = {
       "Passeio de um dia ao Lago Bled",
     ],
   },
+  zurich: {
+    citySlug: "zurich",
+    image: hero(35975317),
+    imageAlt:
+      "As torres gemeas do Grossmunster sobre o rio Limmat e a cidade velha de Zurique",
+    history:
+      "Zurique comecou como o posto aduaneiro romano de Turicum, no Limmat, enriqueceu na Idade Media com a seda e o comercio e, em 1519, tornou-se o berco da Reforma suica quando Huldrych Zwingli comecou a pregar no Grossmunster e mandou despojar as igrejas. Aderiu a Confederacao Suica em 1351 e transformou a sua parcimonia protestante num genio para a banca, razao pela qual uma cidade de dimensao media gere uma fatia do dinheiro do mundo a partir da Bahnhofstrasse e da Paradeplatz. Em 1916, o Cabaret Voltaire, na cidade velha, deu a luz o Dada, o movimento anti-arte, enquanto Lenine tramava a revolucao a poucas ruas de distancia. Hoje, Zurique encabeca ao mesmo tempo os rankings mundiais de qualidade de vida e de custo de vida: impecavel, limpa como o lago e bonita, e de uma carestia de cortar a respiracao.",
+    knownFor: [
+      "O Lago de Zurique",
+      "O Grossmunster",
+      "A Bahnhofstrasse",
+      "A banca suica",
+      "Os vitrais de Chagall",
+      "Precos muito altos",
+    ],
+  },
 };
 
 export default extrasPt;

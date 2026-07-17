@@ -576,6 +576,22 @@ const extrasFr: Record<string, CityExtras> = {
       "L'excursion au lac de Bled",
     ],
   },
+  zurich: {
+    citySlug: "zurich",
+    image: hero(35975317),
+    imageAlt:
+      "Les deux tours du Grossmunster au-dessus de la Limmat et de la vieille ville de Zurich",
+    history:
+      "Zurich est née du poste de douane romain de Turicum sur la Limmat, s'est enrichie au Moyen Âge grâce à la soie et au commerce, et devint en 1519 le berceau de la Réforme suisse quand Huldrych Zwingli se mit à prêcher au Grossmunster et fit dépouiller les églises. Elle rejoignit la Confédération suisse en 1351 et transforma son économie protestante en génie de la banque, ce qui explique qu'une ville de taille moyenne gère une part de l'argent du monde depuis la Bahnhofstrasse et la Paradeplatz. En 1916, le Cabaret Voltaire de la vieille ville donna naissance à Dada, le mouvement anti-art, tandis que Lénine ourdissait la révolution à quelques rues de là. Aujourd'hui, Zurich se hisse en tête des classements mondiaux de qualité de vie et de coût de la vie en même temps : impeccable, aux eaux limpides et magnifique, et d'une cherté à faire pleurer.",
+    knownFor: [
+      "Le lac de Zurich",
+      "Le Grossmunster",
+      "La Bahnhofstrasse",
+      "La banque suisse",
+      "Les vitraux de Chagall",
+      "Des prix très élevés",
+    ],
+  },
 };
 
 export default extrasFr;

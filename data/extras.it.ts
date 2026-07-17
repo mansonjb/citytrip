@@ -574,6 +574,22 @@ const extrasIt: Record<string, CityExtras> = {
       "La gita al Lago di Bled",
     ],
   },
+  zurich: {
+    citySlug: "zurich",
+    image: hero(35975317),
+    imageAlt:
+      "Le torri gemelle del Grossmunster sopra il fiume Limmat e la città vecchia di Zurigo",
+    history:
+      "Zurigo nacque come posto di dogana romano di Turicum sulla Limmat, si arricchì nel Medioevo con la seta e il commercio, e nel 1519 divenne la culla della Riforma svizzera quando Huldrych Zwingli cominciò a predicare al Grossmunster e fece spogliare le chiese di ogni ornamento. Entrò nella Confederazione svizzera nel 1351 e trasformò la sua parsimonia protestante in un genio per le banche, ed è per questo che una città di medie dimensioni gestisce una fetta del denaro del mondo dalla Bahnhofstrasse e da Paradeplatz. Nel 1916 il Cabaret Voltaire nella città vecchia diede i natali al Dada, il movimento anti-arte, mentre Lenin tramava la rivoluzione a poche strade di distanza. Oggi Zurigo è in cima alle classifiche mondiali per qualità della vita e costo della vita allo stesso tempo: immacolata, pulita come il suo lago e bellissima, e cara da far girare la testa.",
+    knownFor: [
+      "Il lago di Zurigo",
+      "Il Grossmunster",
+      "La Bahnhofstrasse",
+      "Le banche svizzere",
+      "Le vetrate di Chagall",
+      "Prezzi altissimi",
+    ],
+  },
 };
 
 export default extrasIt;

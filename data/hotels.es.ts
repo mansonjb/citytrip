@@ -2083,6 +2083,63 @@ const hotelsEs: Hotel[] = [
     image: px(271624),
     imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
   },
+  // ---- Zurich ----
+  {
+    slug: "baur-au-lac-zurich",
+    citySlug: "zurich",
+    name: "Baur au Lac",
+    neighborhoodSlug: "city-bahnhofstrasse",
+    band: "€€€",
+    priceFrom: 600,
+    style: "Gran hotel junto al lago",
+    bestFor: "Ocasiones especiales",
+    blurb:
+      "El legendario gran hotel de Zurich, de gestión familiar desde 1844, en su propio parque privado donde el lago se encuentra con la Bahnhofstrasse. Ha alojado a la realeza y a jefes de Estado durante generaciones, y el precio está a la altura de la dirección.",
+    image: px(262048),
+    imageAlt: "Elegante suite de gran hotel con una lámpara de araña y una cama amplia",
+  },
+  {
+    slug: "25hours-zurich-west",
+    citySlug: "zurich",
+    name: "25hours Hotel Zurich West",
+    neighborhoodSlug: "zurich-west",
+    band: "€€",
+    priceFrom: 180,
+    style: "Hotel de diseño desenfadado",
+    bestFor: "Primera visita",
+    blurb:
+      "Un colorido y desenfadado hotel de diseño en el reconvertido distrito industrial de Zurich Oeste, cerca de los arcos del Viadukt y de la mejor vida nocturna de la ciudad. Un tranvía llega al casco antiguo en unos diez minutos, y es de mejor relación calidad-precio que las grandes damas del lago.",
+    image: px(1267438),
+    imageAlt: "Habitación de hotel de diseño contemporáneo y colorido",
+  },
+  {
+    slug: "hotel-seegarten-zurich",
+    citySlug: "zurich",
+    name: "Hotel Seegarten",
+    neighborhoodSlug: "seefeld",
+    band: "€€",
+    priceFrom: 190,
+    style: "Junto al lago en Seefeld",
+    bestFor: "Parejas",
+    blurb:
+      "Un tranquilo hotel de estilo mediterráneo en el frondoso distrito de Seefeld, a un par de minutos del paseo del lago y de la ópera. Está a un agradable trayecto de tranvía o a 20 minutos a pie del casco antiguo, lejos del bullicio del centro.",
+    image: px(2507010),
+    imageAlt: "Habitación de hotel luminosa con cálidos tonos mediterráneos",
+  },
+  {
+    slug: "city-backpacker-zurich",
+    citySlug: "zurich",
+    name: "Youth Hostel Zurich",
+    neighborhoodSlug: "langstrasse",
+    band: "€",
+    priceFrom: 45,
+    style: "Gran albergue HI",
+    bestFor: "Presupuesto ajustado",
+    blurb:
+      "Un gran albergue HI bien gestionado en Wollishofen junto al lago, con dormitorios compartidos y sencillas habitaciones privadas y un tranvía directo al centro en unos quince minutos. Es una de las poquísimas camas genuinamente baratas en una de las ciudades más caras del mundo.",
+    image: px(271624),
+    imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
+  },
 ];
 
 export default hotelsEs;

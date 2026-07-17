@@ -2080,6 +2080,63 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes helles Zimmer mit Schreibtisch und Doppelbett",
   },
+  // ---- Zurich ----
+  {
+    slug: "baur-au-lac-zurich",
+    citySlug: "zurich",
+    name: "Baur au Lac",
+    neighborhoodSlug: "city-bahnhofstrasse",
+    band: "€€€",
+    priceFrom: 600,
+    style: "Grandhotel am See",
+    bestFor: "Besondere Anlässe",
+    blurb:
+      "Zürichs legendäres Grandhotel, seit 1844 familiengeführt, in einem eigenen privaten Park, wo der See auf die Bahnhofstrasse trifft. Es hat über Generationen Königshäuser und Staatsoberhäupter beherbergt, und der Preis passt zur Adresse.",
+    image: px(262048),
+    imageAlt: "Elegante Grandhotel-Suite mit Kronleuchter und großem Bett",
+  },
+  {
+    slug: "25hours-zurich-west",
+    citySlug: "zurich",
+    name: "25hours Hotel Zurich West",
+    neighborhoodSlug: "zurich-west",
+    band: "€€",
+    priceFrom: 180,
+    style: "Verspieltes Designhotel",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein buntes, verspieltes Designhotel im umgebauten Industrieviertel Zürich West, nahe den Viadukt-Bögen und dem besten Nachtleben der Stadt. Ein Tram fährt in etwa zehn Minuten in die Altstadt, und es bietet ein besseres Preis-Leistungs-Verhältnis als die Grandes Dames am See.",
+    image: px(1267438),
+    imageAlt: "Buntes zeitgenössisches Designhotelzimmer",
+  },
+  {
+    slug: "hotel-seegarten-zurich",
+    citySlug: "zurich",
+    name: "Hotel Seegarten",
+    neighborhoodSlug: "seefeld",
+    band: "€€",
+    priceFrom: 190,
+    style: "Am See im Seefeld",
+    bestFor: "Paare",
+    blurb:
+      "Ein ruhiges, mediterran gestaltetes Hotel im begrünten Seefeld-Viertel, ein paar Minuten von der Seepromenade und der Oper. Es ist eine angenehme Tramfahrt oder ein 20-minütiger Fußweg von der Altstadt, abseits des Trubels des Zentrums.",
+    image: px(2507010),
+    imageAlt: "Helles Hotelzimmer mit warmen mediterranen Tönen",
+  },
+  {
+    slug: "city-backpacker-zurich",
+    citySlug: "zurich",
+    name: "Youth Hostel Zurich",
+    neighborhoodSlug: "langstrasse",
+    band: "€",
+    priceFrom: 45,
+    style: "Große HI-Herberge",
+    bestFor: "Budget",
+    blurb:
+      "Eine große, gut geführte HI-Herberge in Wollishofen am See, mit Schlafsälen und einfachen Privatzimmern und einem Tram direkt ins Zentrum in etwa fünfzehn Minuten. Es ist eines der ganz wenigen wirklich günstigen Betten in einer der teuersten Städte der Welt.",
+    image: px(271624),
+    imageAlt: "Schlichtes helles Zimmer mit Schreibtisch und Doppelbett",
+  },
 ];
 
 export default hotelsDe;

@@ -576,6 +576,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Tagesausflug zum Bleder See",
     ],
   },
+  zurich: {
+    citySlug: "zurich",
+    image: hero(35975317),
+    imageAlt:
+      "Die Zwillingstürme des Grossmünsters über der Limmat und der Zürcher Altstadt",
+    history:
+      "Zürich begann als der römische Zollposten Turicum an der Limmat, wurde im Mittelalter reich mit Seide und Handel und wurde 1519 zur Wiege der Schweizer Reformation, als Huldrych Zwingli am Grossmünster zu predigen begann und die Kirchen kahl räumen ließ. Es trat 1351 der Schweizerischen Eidgenossenschaft bei und verwandelte seine protestantische Sparsamkeit in ein Genie für das Bankwesen, weshalb eine mittelgroße Stadt einen Teil des Geldes der Welt von der Bahnhofstrasse und dem Paradeplatz aus verwaltet. 1916 brachte das Cabaret Voltaire in der Altstadt Dada hervor, die Anti-Kunst-Bewegung, während Lenin ein paar Straßen weiter die Revolution plante. Heute steht Zürich zugleich an der Spitze der weltweiten Ranglisten für Lebensqualität und Lebenshaltungskosten: makellos, seesauber und schön, und zum Weinen teuer.",
+    knownFor: [
+      "Der Zürichsee",
+      "Das Grossmünster",
+      "Die Bahnhofstrasse",
+      "Das Schweizer Bankwesen",
+      "Chagall-Fenster",
+      "Sehr hohe Preise",
+    ],
+  },
 };
 
 export default extrasDe;

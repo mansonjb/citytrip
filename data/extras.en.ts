@@ -575,6 +575,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Lake Bled day trip",
     ],
   },
+  zurich: {
+    citySlug: "zurich",
+    image: hero(35975317),
+    imageAlt:
+      "The twin towers of the Grossmunster over the Limmat river and Zurich's old town",
+    history:
+      "Zurich began as the Roman customs post of Turicum on the Limmat, grew rich in the Middle Ages on silk and trade, and in 1519 became the cradle of the Swiss Reformation when Huldrych Zwingli started preaching at the Grossmunster and had the churches stripped bare. It joined the Swiss Confederation in 1351 and turned its Protestant thrift into a genius for banking, which is why a mid-sized city runs a chunk of the world's money from the Bahnhofstrasse and Paradeplatz. In 1916 the Cabaret Voltaire in the old town gave birth to Dada, the anti-art movement, while Lenin plotted revolution a few streets away. Today Zurich tops the world's quality-of-life and cost-of-living rankings at the same time: spotless, lake-clean and beautiful, and eye-wateringly expensive.",
+    knownFor: [
+      "Lake Zurich",
+      "The Grossmunster",
+      "The Bahnhofstrasse",
+      "Swiss banking",
+      "Chagall windows",
+      "Very high prices",
+    ],
+  },
 };
 
 export default extrasEn;

@@ -2077,6 +2077,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+  // ---- Zurich ----
+  {
+    slug: "baur-au-lac-zurich",
+    citySlug: "zurich",
+    name: "Baur au Lac",
+    neighborhoodSlug: "city-bahnhofstrasse",
+    band: "€€€",
+    priceFrom: 600,
+    style: "Lakeside grand hotel",
+    bestFor: "Special occasions",
+    blurb:
+      "Zurich's legendary grand hotel, family-run since 1844, set in its own private park where the lake meets the Bahnhofstrasse. It has hosted royalty and heads of state for generations, and the price matches the address.",
+    image: px(262048),
+    imageAlt: "Elegant grand hotel suite with a chandelier and a large bed",
+  },
+  {
+    slug: "25hours-zurich-west",
+    citySlug: "zurich",
+    name: "25hours Hotel Zurich West",
+    neighborhoodSlug: "zurich-west",
+    band: "€€",
+    priceFrom: 180,
+    style: "Playful design hotel",
+    bestFor: "First visit",
+    blurb:
+      "A colourful, playful design hotel in the converted-industrial Zurich West district, near the Viadukt arches and the city's best nightlife. A tram runs to the old town in about ten minutes, and it is better value than the lakeside grande dames.",
+    image: px(1267438),
+    imageAlt: "Colourful contemporary design hotel room",
+  },
+  {
+    slug: "hotel-seegarten-zurich",
+    citySlug: "zurich",
+    name: "Hotel Seegarten",
+    neighborhoodSlug: "seefeld",
+    band: "€€",
+    priceFrom: 190,
+    style: "Lakeside Seefeld",
+    bestFor: "Couples",
+    blurb:
+      "A calm, Mediterranean-styled hotel in the leafy Seefeld district a couple of minutes from the lake promenade and the opera. It is a pleasant tram ride or 20-minute walk from the old town, away from the centre's bustle.",
+    image: px(2507010),
+    imageAlt: "Bright hotel room with warm Mediterranean tones",
+  },
+  {
+    slug: "city-backpacker-zurich",
+    citySlug: "zurich",
+    name: "Youth Hostel Zurich",
+    neighborhoodSlug: "langstrasse",
+    band: "€",
+    priceFrom: 45,
+    style: "Big HI hostel",
+    bestFor: "Budget",
+    blurb:
+      "A large, well-run HI hostel in Wollishofen by the lake, with dorms and simple private rooms and a tram straight to the centre in about fifteen minutes. It is one of the very few genuinely cheap beds in one of the world's priciest cities.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;

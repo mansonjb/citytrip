@@ -576,6 +576,22 @@ const extrasEs: Record<string, CityExtras> = {
       "La excursión al lago Bled",
     ],
   },
+  zurich: {
+    citySlug: "zurich",
+    image: hero(35975317),
+    imageAlt:
+      "Las dos torres del Grossmunster sobre el río Limmat y el casco antiguo de Zurich",
+    history:
+      "Zurich empezó como el puesto aduanero romano de Turicum sobre el Limmat, se enriqueció en la Edad Media con la seda y el comercio, y en 1519 se convirtió en la cuna de la Reforma suiza cuando Huldrych Zwingli empezó a predicar en el Grossmunster e hizo despojar las iglesias. Ingresó en la Confederación Suiza en 1351 y transformó su austeridad protestante en un genio para la banca, razón por la que una ciudad de tamaño medio gestiona buena parte del dinero del mundo desde la Bahnhofstrasse y la Paradeplatz. En 1916, el Cabaret Voltaire del casco antiguo dio a luz el dadaísmo, el movimiento antiarte, mientras Lenin tramaba la revolución a unas calles de allí. Hoy Zurich encabeza a la vez los rankings mundiales de calidad de vida y de coste de vida: impecable, con un lago limpio y hermosa, y de una carestía que quita el aliento.",
+    knownFor: [
+      "El lago de Zurich",
+      "El Grossmunster",
+      "La Bahnhofstrasse",
+      "La banca suiza",
+      "Las vidrieras de Chagall",
+      "Los precios muy altos",
+    ],
+  },
 };
 
 export default extrasEs;
