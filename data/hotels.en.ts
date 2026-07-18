@@ -2134,6 +2134,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+  // ---- Warsaw ----
+  {
+    slug: "hotel-bristol-warsaw",
+    citySlug: "warsaw",
+    name: "Hotel Bristol, a Luxury Collection Hotel",
+    neighborhoodSlug: "nowy-swiat-krakowskie",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Belle Epoque grande dame",
+    bestFor: "Special occasions",
+    blurb:
+      "Warsaw's legendary hotel, an Art Nouveau landmark of 1901 on the Royal Route next to the Presidential Palace, once co-owned by the pianist and statesman Paderewski. Its Column Bar and cafe are institutions, and the old town is a ten-minute walk up the boulevard.",
+    image: px(262048),
+    imageAlt: "Elegant Belle Epoque hotel suite with a chandelier and a large bed",
+  },
+  {
+    slug: "hotel-warszawa",
+    citySlug: "warsaw",
+    name: "Hotel Warszawa",
+    neighborhoodSlug: "srodmiescie-centrum",
+    band: "€€",
+    priceFrom: 150,
+    style: "Art Deco tower hotel",
+    bestFor: "Couples",
+    blurb:
+      "A design hotel inside a restored 1930s skyscraper, once the tallest building in Poland, on a quiet square in the modern centre. It has a spa in the old vault and rooms with skyline views, a few minutes from the Palace of Culture and Nowy Swiat.",
+    image: px(1267438),
+    imageAlt: "Contemporary design hotel room in a historic tower",
+  },
+  {
+    slug: "castle-inn-warsaw",
+    citySlug: "warsaw",
+    name: "Castle Inn",
+    neighborhoodSlug: "old-town-stare-miasto",
+    band: "€€",
+    priceFrom: 110,
+    style: "Themed rooms by Castle Square",
+    bestFor: "First visit",
+    blurb:
+      "A cheerful art-hotel in a 17th-century townhouse right on Castle Square in the old town, where each room has its own painted theme and some look straight at the Royal Castle. It puts the Market Square and the Barbican on the doorstep.",
+    image: px(2507010),
+    imageAlt: "Colourful themed hotel room in a historic townhouse",
+  },
+  {
+    slug: "oki-doki-hostel-warsaw",
+    citySlug: "warsaw",
+    name: "Oki Doki Hostel",
+    neighborhoodSlug: "srodmiescie-centrum",
+    band: "€",
+    priceFrom: 25,
+    style: "Central themed hostel",
+    bestFor: "Budget",
+    blurb:
+      "A long-running, sociable hostel on a leafy central square where every room is decorated by a different artist, with dorms and private rooms and a busy bar. It is a cheap, walkable base a few minutes from Nowy Swiat and the Palace of Culture.",
+    image: px(271624),
+    imageAlt: "Simple bright room with a desk and double bed",
+  },
 ];
 
 export default hotelsEn;

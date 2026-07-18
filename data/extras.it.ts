@@ -590,6 +590,22 @@ const extrasIt: Record<string, CityExtras> = {
       "Prezzi altissimi",
     ],
   },
+  warsaw: {
+    citySlug: "warsaw",
+    image: hero(32555031),
+    imageAlt:
+      "Le colorate case borghesi ricostruite e i campanili delle chiese della città vecchia di Varsavia",
+    history:
+      "Varsavia divenne capitale della Polonia intorno al 1596, quando il re trasferì la corte da Cracovia, e crebbe fino a diventare l'elegante sede di una vasta confederazione polacco-lituana. Il XX secolo la cancellò quasi del tutto: sotto l'occupazione nazista la città vide la rivolta del Ghetto del 1943 e poi l'Insurrezione di Varsavia del 1944, dopo la quale i tedeschi demolirono sistematicamente ciò che restava, e nel 1945 circa l'85 per cento della città giaceva in macerie. Ciò che sorge oggi è un atto di sfida, la Città Vecchia ricostruita mattone su mattone da vecchi dipinti e disegni negli anni Cinquanta e ora tutelata dall'UNESCO proprio per questo. I sovietici piantarono poi il Palazzo della Cultura nel centro; dal 1989 attorno a esso si sono levate torri di vetro, e Varsavia è diventata la capitale veloce, verde e alla buona di una Polonia dell'UE.",
+    knownFor: [
+      "La Città Vecchia ricostruita",
+      "Il Museo dell'Insurrezione di Varsavia",
+      "Il Palazzo della Cultura",
+      "I concerti di Chopin",
+      "La Sirena",
+      "I milk bar",
+    ],
+  },
 };
 
 export default extrasIt;

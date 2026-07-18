@@ -2134,6 +2134,63 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },
+  // ---- Warsaw ----
+  {
+    slug: "hotel-bristol-warsaw",
+    citySlug: "warsaw",
+    name: "Hotel Bristol, a Luxury Collection Hotel",
+    neighborhoodSlug: "nowy-swiat-krakowskie",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Grande dame Belle Epoque",
+    bestFor: "Occasioni speciali",
+    blurb:
+      "L'hotel leggendario di Varsavia, un monumento Art Nouveau del 1901 sulla Via Reale accanto al Palazzo Presidenziale, un tempo comproprietà del pianista e statista Paderewski. Il suo Column Bar e il caffè sono istituzioni, e la città vecchia è a dieci minuti a piedi su per il viale.",
+    image: px(262048),
+    imageAlt: "Elegante suite d'hotel Belle Epoque con un lampadario e un grande letto",
+  },
+  {
+    slug: "hotel-warszawa",
+    citySlug: "warsaw",
+    name: "Hotel Warszawa",
+    neighborhoodSlug: "srodmiescie-centrum",
+    band: "€€",
+    priceFrom: 150,
+    style: "Hotel a torre Art Deco",
+    bestFor: "Coppie",
+    blurb:
+      "Un design hotel dentro un grattacielo restaurato degli anni Trenta, un tempo l'edificio più alto della Polonia, su una piazza tranquilla nel centro moderno. Ha una spa nel vecchio caveau e camere con vista sullo skyline, a pochi minuti dal Palazzo della Cultura e da Nowy Swiat.",
+    image: px(1267438),
+    imageAlt: "Camera d'hotel di design contemporaneo in una torre storica",
+  },
+  {
+    slug: "castle-inn-warsaw",
+    citySlug: "warsaw",
+    name: "Castle Inn",
+    neighborhoodSlug: "old-town-stare-miasto",
+    band: "€€",
+    priceFrom: 110,
+    style: "Camere a tema presso la Piazza del Castello",
+    bestFor: "Prima visita",
+    blurb:
+      "Un allegro art-hotel in una casa borghese del XVII secolo proprio sulla Piazza del Castello nella città vecchia, dove ogni camera ha un proprio tema dipinto e alcune guardano dritto sul Castello Reale. Mette la Piazza del Mercato e il Barbacane sull'uscio di casa.",
+    image: px(2507010),
+    imageAlt: "Colorata camera d'hotel a tema in una casa borghese storica",
+  },
+  {
+    slug: "oki-doki-hostel-warsaw",
+    citySlug: "warsaw",
+    name: "Oki Doki Hostel",
+    neighborhoodSlug: "srodmiescie-centrum",
+    band: "€",
+    priceFrom: 25,
+    style: "Ostello a tema centrale",
+    bestFor: "Budget",
+    blurb:
+      "Un ostello socievole e di lunga data su una frondosa piazza centrale, dove ogni camera è decorata da un artista diverso, con dormitori, camere private e un bar animato. È una base economica e percorribile a piedi a pochi minuti da Nowy Swiat e dal Palazzo della Cultura.",
+    image: px(271624),
+    imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
+  },
 ];
 
 export default hotelsIt;

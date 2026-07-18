@@ -591,6 +591,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Very high prices",
     ],
   },
+  warsaw: {
+    citySlug: "warsaw",
+    image: hero(32555031),
+    imageAlt:
+      "The colourful rebuilt townhouses and church spires of Warsaw's old town",
+    history:
+      "Warsaw became the capital of Poland around 1596 when the king moved his court from Krakow, and it grew into the elegant seat of a vast Polish-Lithuanian commonwealth. The 20th century nearly erased it: under Nazi occupation the city saw the 1943 Ghetto Uprising and then the 1944 Warsaw Uprising, after which the Germans systematically demolished what was left, and around 85 percent of the city lay in rubble by 1945. What stands today is an act of defiance, the Old Town rebuilt brick by brick from old paintings and drawings in the 1950s and now UNESCO-listed for exactly that. The Soviets later planted the Palace of Culture in the centre; since 1989 glass towers have risen around it, and Warsaw has become the fast, green and cheap-and-cheerful capital of an EU Poland.",
+    knownFor: [
+      "The rebuilt Old Town",
+      "Warsaw Rising Museum",
+      "Palace of Culture",
+      "Chopin concerts",
+      "The Mermaid",
+      "Milk bars",
+    ],
+  },
 };
 
 export default extrasEn;

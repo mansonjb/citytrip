@@ -590,6 +590,22 @@ const extrasPt: Record<string, CityExtras> = {
       "Precos muito altos",
     ],
   },
+  warsaw: {
+    citySlug: "warsaw",
+    image: hero(32555031),
+    imageAlt:
+      "As coloridas casas reconstruidas e as torres de igreja da cidade velha de Varsovia",
+    history:
+      "Varsovia tornou-se a capital da Polonia por volta de 1596, quando o rei mudou a corte de Cracovia, e cresceu ate ser a sede elegante de uma vasta comunidade polaco-lituana. O seculo XX quase a apagou: sob a ocupacao nazi, a cidade viveu o Levantamento do Gueto de 1943 e depois o Levantamento de Varsovia de 1944, apos o qual os alemaes demoliram sistematicamente o que restava, e por volta de 85 por cento da cidade jazia em escombros em 1945. O que hoje se ergue e um ato de desafio, a Cidade Velha reconstruida tijolo a tijolo a partir de antigas pinturas e desenhos nos anos 1950 e agora classificada pela UNESCO precisamente por isso. Os sovieticos plantaram mais tarde o Palacio da Cultura no centro; desde 1989, torres de vidro subiram a sua volta, e Varsovia tornou-se a capital rapida, verde e barata-e-alegre de uma Polonia na UE.",
+    knownFor: [
+      "A Cidade Velha reconstruida",
+      "Museu do Levantamento de Varsovia",
+      "Palacio da Cultura",
+      "Concertos de Chopin",
+      "A Sereia",
+      "Bares de leite",
+    ],
+  },
 };
 
 export default extrasPt;

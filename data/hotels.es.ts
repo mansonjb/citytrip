@@ -2140,6 +2140,63 @@ const hotelsEs: Hotel[] = [
     image: px(271624),
     imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
   },
+  // ---- Varsovia ----
+  {
+    slug: "hotel-bristol-warsaw",
+    citySlug: "warsaw",
+    name: "Hotel Bristol, a Luxury Collection Hotel",
+    neighborhoodSlug: "nowy-swiat-krakowskie",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Gran dama de la Belle Époque",
+    bestFor: "Ocasiones especiales",
+    blurb:
+      "El hotel legendario de Varsovia, un emblema modernista de 1901 en la Ruta Real, junto al Palacio Presidencial, copropiedad en su día del pianista y estadista Paderewski. Su Column Bar y su café son instituciones, y el casco antiguo queda a diez minutos a pie bulevar arriba.",
+    image: px(262048),
+    imageAlt: "Elegante suite de hotel Belle Époque con una lámpara de araña y una cama grande",
+  },
+  {
+    slug: "hotel-warszawa",
+    citySlug: "warsaw",
+    name: "Hotel Warszawa",
+    neighborhoodSlug: "srodmiescie-centrum",
+    band: "€€",
+    priceFrom: 150,
+    style: "Hotel torre art déco",
+    bestFor: "Parejas",
+    blurb:
+      "Un hotel de diseño dentro de un rascacielos restaurado de los años treinta, en su día el edificio más alto de Polonia, en una plaza tranquila del centro moderno. Tiene un spa en la antigua cámara acorazada y habitaciones con vistas al skyline, a pocos minutos del Palacio de la Cultura y de Nowy Swiat.",
+    image: px(1267438),
+    imageAlt: "Habitación de hotel de diseño contemporáneo en una torre histórica",
+  },
+  {
+    slug: "castle-inn-warsaw",
+    citySlug: "warsaw",
+    name: "Castle Inn",
+    neighborhoodSlug: "old-town-stare-miasto",
+    band: "€€",
+    priceFrom: 110,
+    style: "Habitaciones temáticas junto a la Plaza del Castillo",
+    bestFor: "Primera visita",
+    blurb:
+      "Un alegre hotel de arte en una casa del siglo XVII justo en la Plaza del Castillo, en el casco antiguo, donde cada habitación tiene su propio tema pintado y algunas miran directamente al Castillo Real. Pone la Plaza del Mercado y la Barbacana en la puerta.",
+    image: px(2507010),
+    imageAlt: "Colorida habitación de hotel temática en una casa histórica",
+  },
+  {
+    slug: "oki-doki-hostel-warsaw",
+    citySlug: "warsaw",
+    name: "Oki Doki Hostel",
+    neighborhoodSlug: "srodmiescie-centrum",
+    band: "€",
+    priceFrom: 25,
+    style: "Hostal temático céntrico",
+    bestFor: "Presupuesto ajustado",
+    blurb:
+      "Un hostal sociable y de larga trayectoria en una frondosa plaza céntrica donde cada habitación está decorada por un artista distinto, con dormitorios compartidos, habitaciones privadas y un bar animado. Es una base barata y transitable a pie a pocos minutos de Nowy Swiat y del Palacio de la Cultura.",
+    image: px(271624),
+    imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
+  },
 ];
 
 export default hotelsEs;

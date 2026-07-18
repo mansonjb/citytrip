@@ -592,6 +592,22 @@ const extrasEs: Record<string, CityExtras> = {
       "Los precios muy altos",
     ],
   },
+  warsaw: {
+    citySlug: "warsaw",
+    image: hero(32555031),
+    imageAlt:
+      "Las coloridas casas reconstruidas y los campanarios del casco antiguo de Varsovia",
+    history:
+      "Varsovia se convirtió en la capital de Polonia hacia 1596, cuando el rey trasladó su corte desde Cracovia, y creció hasta ser la elegante sede de una vasta mancomunidad polaco-lituana. El siglo XX estuvo a punto de borrarla: bajo la ocupación nazi la ciudad vivió el Alzamiento del Gueto de 1943 y luego el Alzamiento de Varsovia de 1944, tras el cual los alemanes demolieron sistemáticamente lo que quedaba, y hacia 1945 cerca del 85 por ciento de la ciudad estaba en escombros. Lo que se alza hoy es un acto de desafío, el casco antiguo reconstruido ladrillo a ladrillo a partir de viejas pinturas y dibujos en los años cincuenta y hoy declarado patrimonio de la UNESCO precisamente por ello. Los soviéticos plantaron más tarde el Palacio de la Cultura en el centro; desde 1989 las torres de cristal se han alzado a su alrededor, y Varsovia se ha convertido en la capital rápida, verde y económica de una Polonia de la UE.",
+    knownFor: [
+      "El casco antiguo reconstruido",
+      "El Museo del Alzamiento de Varsovia",
+      "El Palacio de la Cultura",
+      "Los conciertos de Chopin",
+      "La Sirena",
+      "Los bares lácteos",
+    ],
+  },
 };
 
 export default extrasEs;

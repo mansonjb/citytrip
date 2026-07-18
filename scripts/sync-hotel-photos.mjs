@@ -70,6 +70,7 @@ const CITY_NAME = {
   bratislava: "Bratislava Slovakia",
   ljubljana: "Ljubljana Slovenia",
   zurich: "Zurich Switzerland",
+  warsaw: "Warsaw Poland",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

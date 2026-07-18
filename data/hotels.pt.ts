@@ -2132,6 +2132,63 @@ const hotelsPt: Hotel[] = [
     image: px(271624),
     imageAlt: "Quarto simples e luminoso com uma secretária e cama de casal",
   },
+  // ---- Varsovia ----
+  {
+    slug: "hotel-bristol-warsaw",
+    citySlug: "warsaw",
+    name: "Hotel Bristol, a Luxury Collection Hotel",
+    neighborhoodSlug: "nowy-swiat-krakowskie",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Grande dama Belle Epoque",
+    bestFor: "Ocasioes especiais",
+    blurb:
+      "O hotel lendario de Varsovia, um marco Art Nouveau de 1901 na Rota Real ao lado do Palacio Presidencial, outrora coproprietario do pianista e estadista Paderewski. O seu Column Bar e o cafe sao instituicoes, e a cidade velha fica a dez minutos a pe avenida acima.",
+    image: px(262048),
+    imageAlt: "Elegante suite de hotel Belle Epoque com um lustre e uma cama grande",
+  },
+  {
+    slug: "hotel-warszawa",
+    citySlug: "warsaw",
+    name: "Hotel Warszawa",
+    neighborhoodSlug: "srodmiescie-centrum",
+    band: "€€",
+    priceFrom: 150,
+    style: "Hotel-torre Art Deco",
+    bestFor: "Casais",
+    blurb:
+      "Um design hotel dentro de um arranha-ceus restaurado dos anos 1930, outrora o edificio mais alto da Polonia, numa praca sossegada do centro moderno. Tem um spa na antiga camara-forte e quartos com vista sobre a linha do horizonte, a poucos minutos do Palacio da Cultura e da Nowy Swiat.",
+    image: px(1267438),
+    imageAlt: "Quarto de design contemporaneo numa torre historica",
+  },
+  {
+    slug: "castle-inn-warsaw",
+    citySlug: "warsaw",
+    name: "Castle Inn",
+    neighborhoodSlug: "old-town-stare-miasto",
+    band: "€€",
+    priceFrom: 110,
+    style: "Quartos tematicos junto a Praca do Castelo",
+    bestFor: "Primeira visita",
+    blurb:
+      "Um alegre art-hotel numa casa do seculo XVII mesmo na Praca do Castelo, na cidade velha, onde cada quarto tem o seu proprio tema pintado e alguns olham diretamente para o Castelo Real. Poe a Praca do Mercado e a Barbaca a porta.",
+    image: px(2507010),
+    imageAlt: "Quarto de hotel tematico e colorido numa casa historica",
+  },
+  {
+    slug: "oki-doki-hostel-warsaw",
+    citySlug: "warsaw",
+    name: "Oki Doki Hostel",
+    neighborhoodSlug: "srodmiescie-centrum",
+    band: "€",
+    priceFrom: 25,
+    style: "Hostel tematico central",
+    bestFor: "Económico",
+    blurb:
+      "Um hostel sociavel e de longa data numa arborizada praca central onde cada quarto e decorado por um artista diferente, com dormitorios e quartos privados e um bar movimentado. E uma base barata e percorrivel a pe a poucos minutos da Nowy Swiat e do Palacio da Cultura.",
+    image: px(271624),
+    imageAlt: "Quarto simples e luminoso com uma secretária e cama de casal",
+  },
 ];
 
 export default hotelsPt;

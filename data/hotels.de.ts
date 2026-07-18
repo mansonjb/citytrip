@@ -2137,6 +2137,63 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes helles Zimmer mit Schreibtisch und Doppelbett",
   },
+  // ---- Warsaw ----
+  {
+    slug: "hotel-bristol-warsaw",
+    citySlug: "warsaw",
+    name: "Hotel Bristol, a Luxury Collection Hotel",
+    neighborhoodSlug: "nowy-swiat-krakowskie",
+    band: "€€€",
+    priceFrom: 250,
+    style: "Grande Dame der Belle Epoque",
+    bestFor: "Besondere Anlässe",
+    blurb:
+      "Warschaus legendäres Hotel, ein Jugendstil-Wahrzeichen von 1901 an der Königsroute neben dem Präsidentenpalast, einst mit dem Pianisten und Staatsmann Paderewski als Miteigentümer. Seine Column Bar und sein Cafe sind Institutionen, und die Altstadt ist einen Zehn-Minuten-Fußweg den Boulevard hinauf entfernt.",
+    image: px(262048),
+    imageAlt: "Elegante Belle-Epoque-Hotelsuite mit einem Kronleuchter und einem großen Bett",
+  },
+  {
+    slug: "hotel-warszawa",
+    citySlug: "warsaw",
+    name: "Hotel Warszawa",
+    neighborhoodSlug: "srodmiescie-centrum",
+    band: "€€",
+    priceFrom: 150,
+    style: "Art-Deco-Turmhotel",
+    bestFor: "Paare",
+    blurb:
+      "Ein Designhotel in einem restaurierten Wolkenkratzer der 1930er Jahre, einst das höchste Gebäude Polens, an einem ruhigen Platz im modernen Zentrum. Es hat ein Spa im alten Tresorraum und Zimmer mit Blick über die Skyline, wenige Minuten vom Kulturpalast und der Nowy Swiat entfernt.",
+    image: px(1267438),
+    imageAlt: "Modernes Designhotelzimmer in einem historischen Turm",
+  },
+  {
+    slug: "castle-inn-warsaw",
+    citySlug: "warsaw",
+    name: "Castle Inn",
+    neighborhoodSlug: "old-town-stare-miasto",
+    band: "€€",
+    priceFrom: 110,
+    style: "Themenzimmer am Schlossplatz",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein fröhliches Kunsthotel in einem Stadthaus aus dem 17. Jahrhundert direkt am Schlossplatz in der Altstadt, wo jedes Zimmer sein eigenes gemaltes Thema hat und einige direkt auf das Königsschloss blicken. Es legt den Marktplatz und die Barbakane vor die Tür.",
+    image: px(2507010),
+    imageAlt: "Buntes Themenzimmer in einem historischen Stadthaus",
+  },
+  {
+    slug: "oki-doki-hostel-warsaw",
+    citySlug: "warsaw",
+    name: "Oki Doki Hostel",
+    neighborhoodSlug: "srodmiescie-centrum",
+    band: "€",
+    priceFrom: 25,
+    style: "Zentrales Themenhostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein langjähriges, geselliges Hostel an einem begrünten zentralen Platz, wo jedes Zimmer von einem anderen Künstler gestaltet ist, mit Schlafsälen und Privatzimmern und einer belebten Bar. Es ist eine günstige, zu Fuß erschließbare Basis wenige Minuten von der Nowy Swiat und dem Kulturpalast entfernt.",
+    image: px(271624),
+    imageAlt: "Schlichtes helles Zimmer mit einem Schreibtisch und Doppelbett",
+  },
 ];
 
 export default hotelsDe;

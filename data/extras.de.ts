@@ -592,6 +592,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Sehr hohe Preise",
     ],
   },
+  warsaw: {
+    citySlug: "warsaw",
+    image: hero(32555031),
+    imageAlt:
+      "Die bunten wiederaufgebauten Stadthäuser und Kirchtürme der Warschauer Altstadt",
+    history:
+      "Warschau wurde um 1596 zur Hauptstadt Polens, als der König seinen Hof von Krakau verlegte, und wuchs zum eleganten Sitz eines riesigen polnisch-litauischen Staatenbundes heran. Das 20. Jahrhundert löschte sie beinahe aus: Unter deutscher Besatzung erlebte die Stadt 1943 den Ghettoaufstand und dann 1944 den Warschauer Aufstand, nach dem die Deutschen systematisch zerstörten, was übrig war, und bis 1945 lagen rund 85 Prozent der Stadt in Trümmern. Was heute steht, ist ein Akt des Trotzes, die Altstadt in den 1950er Jahren Ziegel für Ziegel nach alten Gemälden und Zeichnungen wiederaufgebaut und heute genau dafür UNESCO-gelistet. Die Sowjets pflanzten später den Kulturpalast ins Zentrum; seit 1989 sind gläserne Türme um ihn herum emporgewachsen, und Warschau ist zur schnellen, grünen und günstig-unkomplizierten Hauptstadt eines EU-Polens geworden.",
+    knownFor: [
+      "Die wiederaufgebaute Altstadt",
+      "Museum des Warschauer Aufstands",
+      "Kulturpalast",
+      "Chopin-Konzerte",
+      "Die Meerjungfrau",
+      "Milchbars",
+    ],
+  },
 };
 
 export default extrasDe;
