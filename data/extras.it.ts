@@ -622,6 +622,22 @@ const extrasIt: Record<string, CityExtras> = {
       "La leggenda di Dracula",
     ],
   },
+  valencia: {
+    citySlug: "valencia",
+    image: hero(33560408),
+    imageAlt:
+      "La Città delle Arti e delle Scienze riflessa nella sua vasca al tramonto a Valencia",
+    history:
+      "Valencia fu fondata dai romani come Valentia nel 138 a.C., una colonia per soldati in congedo sul fiume Turia. Sotto il dominio moresco divenne Balansiya, una prospera città di giardini e canali d'irrigazione, finché Giacomo I d'Aragona la conquistò nel 1238 e la inglobò nei regni cristiani. La sua età dell'oro del Quattrocento fu costruita sul commercio della seta, che pagò la Lonja gotica dove si incontravano i mercanti. La grande alluvione del Turia in ottobre 1957 sommerse gran parte della città e spinse le autorità a deviare il fiume tutt'attorno, trasformando il vecchio alveo nei Giardini del Turia di 9 km; quattro decenni dopo, Santiago Calatrava riempì l'estremità di quell'alveo con la futuristica Città delle Arti e delle Scienze, avviata alla fine degli anni Novanta.",
+    knownFor: [
+      "La paella",
+      "La Città delle Arti e delle Scienze",
+      "Las Fallas",
+      "I Giardini del Turia",
+      "Il Mercato Centrale",
+      "L'horchata",
+    ],
+  },
 };
 
 export default extrasIt;

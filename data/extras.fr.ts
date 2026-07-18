@@ -624,6 +624,22 @@ const extrasFr: Record<string, CityExtras> = {
       "La légende de Dracula",
     ],
   },
+  valencia: {
+    citySlug: "valencia",
+    image: hero(33560408),
+    imageAlt:
+      "La Cité des arts et des sciences se reflétant dans son bassin au coucher du soleil à Valence",
+    history:
+      "Valence fut fondée par les Romains sous le nom de Valentia en 138 av. J.-C., une colonie pour soldats à la retraite au bord du fleuve Turia. Sous la domination maure, elle devint Balansiya, une cité prospère de jardins et de canaux d'irrigation, jusqu'à ce que Jacques Ier d'Aragon la prenne en 1238 et l'intègre aux royaumes chrétiens. Son âge d'or au XVe siècle reposa sur le commerce de la soie, qui paya la Lonja gothique où se réunissaient les marchands. La grande crue du Turia en octobre 1957 noya une bonne partie de la ville et poussa les autorités à détourner entièrement le fleuve autour d'elle, transformant l'ancien lit en le parc du Turia de 9 km ; quatre décennies plus tard, Santiago Calatrava emplit l'extrémité de ce lit de la Cité des arts et des sciences futuriste, entamée à la fin des années 1990.",
+    knownFor: [
+      "La paella",
+      "La Cité des arts et des sciences",
+      "Las Fallas",
+      "Le parc du Turia",
+      "Le Marché central",
+      "L'horchata",
+    ],
+  },
 };
 
 export default extrasFr;

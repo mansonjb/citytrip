@@ -34,6 +34,10 @@ const QUERY_OVERRIDE = {
   "city-backpacker-zurich": "Youth Hostel Zurich Wollishofen",
   "athenee-palace-hilton-bucharest":
     "Grand Hotel Continental Bucharest Calea Victoriei",
+  "caro-hotel-valencia": "Caro Hotel Valencia Calle Almirante",
+  "palacio-vallier-valencia": "Palacio Vallier Hotel Valencia Plaza Manises",
+  "vincci-lys-valencia": "Vincci Lys Valencia Martinez Cubells",
+  "red-nest-hostel-valencia": "Red Nest Hostel Valencia La Purisima",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -74,6 +78,7 @@ const CITY_NAME = {
   zurich: "Zurich Switzerland",
   warsaw: "Warsaw Poland",
   bucharest: "Bucharest Romania",
+  valencia: "Valencia Spain",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

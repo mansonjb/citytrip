@@ -2251,6 +2251,64 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes helles Zimmer mit einem Schreibtisch und Doppelbett",
   },
+
+  // ---- Valencia ----
+  {
+    slug: "caro-hotel-valencia",
+    citySlug: "valencia",
+    name: "Caro Hotel",
+    neighborhoodSlug: "ciutat-vella",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Design-Palasthotel",
+    bestFor: "Besondere Anlässe",
+    blurb:
+      "Ein Designhotel in einem restaurierten Palast des 19. Jahrhunderts in der Altstadt, erbaut über einem Stück römischer Stadtmauer und Überresten aus arabischer Zeit, die in den öffentlichen Bereichen zu sehen sind. Sie sind wenige Schritte von der Kathedrale und der Lonja entfernt und schlafen auf den Schichten der Stadtgeschichte.",
+    image: px(262048),
+    imageAlt: "Elegante Designhotel-Suite mit großem Bett und moderner Beleuchtung",
+  },
+  {
+    slug: "palacio-vallier-valencia",
+    citySlug: "valencia",
+    name: "Palacio Vallier",
+    neighborhoodSlug: "ciutat-vella",
+    band: "€€",
+    priceFrom: 130,
+    style: "Altstadt-Boutiquepalast",
+    bestFor: "Paare",
+    blurb:
+      "Ein intimes Boutiquehotel in einem restaurierten Palast an einem ruhigen Altstadtplatz nahe der Plaça de Manises, sodass der Lärm draußen bleibt. Es ist ein kurzer Fußweg sowohl zur Kathedrale als auch zum Zentralmarkt.",
+    image: px(1267438),
+    imageAlt: "Gemütliches restauriertes Boutiquehotel-Zimmer mit warmem Licht",
+  },
+  {
+    slug: "vincci-lys-valencia",
+    citySlug: "valencia",
+    name: "Vincci Lys",
+    neighborhoodSlug: "eixample",
+    band: "€€",
+    priceFrom: 95,
+    style: "Zentrales Mittelklassehotel",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein bequemes, gut gelegenes Mittelklassehotel im Eixample zwischen dem Rathausplatz und Colón. Es ist ein leichter Fußweg sowohl zur Altstadt als auch zum Modernista-Mercado de Colón, was es zu einer praktischen Basis für den ersten Besuch macht.",
+    image: px(2507010),
+    imageAlt: "Helles modernes Mittelklassehotel-Zimmer",
+  },
+  {
+    slug: "red-nest-hostel-valencia",
+    citySlug: "valencia",
+    name: "Red Nest Hostel",
+    neighborhoodSlug: "ciutat-vella",
+    band: "€",
+    priceFrom: 20,
+    style: "Altstadt-Hostel",
+    bestFor: "Budget",
+    blurb:
+      "Ein freundliches, gut geführtes Hostel im Herzen der Altstadt, mit Schlafsälen und Privatzimmern. Sie sind Minuten vom Zentralmarkt und dem Nachtleben des Carmen entfernt, zu den günstigsten zentralen Preisen der Stadt.",
+    image: px(271624),
+    imageAlt: "Schlichtes helles Schlafsaalzimmer mit Etagenbetten",
+  },
 ];
 
 export default hotelsDe;

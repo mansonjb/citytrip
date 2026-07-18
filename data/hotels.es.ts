@@ -2254,6 +2254,63 @@ const hotelsEs: Hotel[] = [
     image: px(271624),
     imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
   },
+  // ---- Valencia ----
+  {
+    slug: "caro-hotel-valencia",
+    citySlug: "valencia",
+    name: "Caro Hotel",
+    neighborhoodSlug: "ciutat-vella",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Hotel palacio de diseño",
+    bestFor: "Ocasiones especiales",
+    blurb:
+      "Un hotel de diseño dentro de un palacio del siglo XIX restaurado en el casco antiguo, levantado sobre un tramo de muralla romana y restos de época árabe que se muestran en las zonas comunes. Estás a un paso de la catedral y la Lonja, durmiendo sobre las capas de la historia de la ciudad.",
+    image: px(262048),
+    imageAlt: "Elegante suite de hotel de diseño con una gran cama e iluminación moderna",
+  },
+  {
+    slug: "palacio-vallier-valencia",
+    citySlug: "valencia",
+    name: "Palacio Vallier",
+    neighborhoodSlug: "ciutat-vella",
+    band: "€€",
+    priceFrom: 130,
+    style: "Palacio boutique del casco antiguo",
+    bestFor: "Parejas",
+    blurb:
+      "Un hotel boutique íntimo en un palacio restaurado sobre una tranquila plaza del casco antiguo cerca de la plaza de Manises, así que el ruido se queda fuera. Está a un paseo corto tanto de la catedral como del Mercado Central.",
+    image: px(1267438),
+    imageAlt: "Acogedora habitación de hotel boutique restaurada con iluminación cálida",
+  },
+  {
+    slug: "vincci-lys-valencia",
+    citySlug: "valencia",
+    name: "Vincci Lys",
+    neighborhoodSlug: "eixample",
+    band: "€€",
+    priceFrom: 95,
+    style: "Hotel céntrico de gama media",
+    bestFor: "Primera visita",
+    blurb:
+      "Un cómodo hotel de gama media y bien situado en el Eixample, entre la plaza del Ayuntamiento y Colón. Es un paseo fácil tanto al casco antiguo como al modernista Mercado de Colón, lo que lo convierte en una base práctica para una primera visita.",
+    image: px(2507010),
+    imageAlt: "Habitación de hotel de gama media, luminosa y moderna",
+  },
+  {
+    slug: "red-nest-hostel-valencia",
+    citySlug: "valencia",
+    name: "Red Nest Hostel",
+    neighborhoodSlug: "ciutat-vella",
+    band: "€",
+    priceFrom: 20,
+    style: "Hostal del casco antiguo",
+    bestFor: "Presupuesto ajustado",
+    blurb:
+      "Un hostal amable y bien gestionado en pleno corazón del casco antiguo, con dormitorios compartidos y habitaciones privadas. Estás a minutos del Mercado Central y de la vida nocturna del Carmen, a los precios céntricos más baratos de la ciudad.",
+    image: px(271624),
+    imageAlt: "Dormitorio compartido sencillo y luminoso con literas",
+  },
 ];
 
 export default hotelsEs;

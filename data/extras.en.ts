@@ -623,6 +623,22 @@ const extrasEn: Record<string, CityExtras> = {
       "The Dracula legend",
     ],
   },
+  valencia: {
+    citySlug: "valencia",
+    image: hero(33560408),
+    imageAlt:
+      "The City of Arts and Sciences reflected in its pool at sunset in Valencia",
+    history:
+      "Valencia was founded by the Romans as Valentia in 138 BC, a colony for retired soldiers on the river Turia. Under Moorish rule it became Balansiya, a prosperous city of gardens and irrigation channels, until James I of Aragon took it in 1238 and folded it into the Christian kingdoms. Its 15th-century golden age was built on the silk trade, which paid for the Gothic Lonja where the merchants met. The Great Flood of the Turia in October 1957 drowned much of the city and led the authorities to divert the river around it entirely, turning the old bed into the 9km Turia Gardens; four decades later, Santiago Calatrava filled the far end of that riverbed with the futuristic City of Arts and Sciences, begun in the late 1990s.",
+    knownFor: [
+      "Paella",
+      "City of Arts and Sciences",
+      "Las Fallas",
+      "Turia Gardens",
+      "Central Market",
+      "Horchata",
+    ],
+  },
 };
 
 export default extrasEn;

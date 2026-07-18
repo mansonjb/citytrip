@@ -624,6 +624,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Die Dracula-Legende",
     ],
   },
+  valencia: {
+    citySlug: "valencia",
+    image: hero(33560408),
+    imageAlt:
+      "Die Stadt der Künste und Wissenschaften, gespiegelt in ihrem Becken bei Sonnenuntergang in Valencia",
+    history:
+      "Valencia wurde 138 v. Chr. von den Römern als Valentia gegründet, eine Kolonie für ausgediente Soldaten am Fluss Turia. Unter maurischer Herrschaft wurde es zu Balansiya, einer wohlhabenden Stadt der Gärten und Bewässerungskanäle, bis Jakob I. von Aragón es 1238 einnahm und in die christlichen Königreiche eingliederte. Sein goldenes Zeitalter im 15. Jahrhundert baute auf dem Seidenhandel auf, der die gotische Lonja bezahlte, in der sich die Kaufleute trafen. Die große Turia-Flut im Oktober 1957 ertränkte einen Großteil der Stadt und veranlasste die Behörden, den Fluss vollständig um sie herum umzuleiten und das alte Bett in die 9 km langen Turia-Gärten zu verwandeln; vier Jahrzehnte später füllte Santiago Calatrava das ferne Ende dieses Flussbetts mit der futuristischen Stadt der Künste und Wissenschaften, begonnen in den späten 1990er Jahren.",
+    knownFor: [
+      "Paella",
+      "Stadt der Künste und Wissenschaften",
+      "Las Fallas",
+      "Turia-Gärten",
+      "Zentralmarkt",
+      "Horchata",
+    ],
+  },
 };
 
 export default extrasDe;

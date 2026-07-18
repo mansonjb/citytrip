@@ -622,6 +622,22 @@ const extrasPt: Record<string, CityExtras> = {
       "A lenda de Drácula",
     ],
   },
+  valencia: {
+    citySlug: "valencia",
+    image: hero(33560408),
+    imageAlt:
+      "A Cidade das Artes e das Ciências refletida no seu lago ao pôr do sol, em Valência",
+    history:
+      "Valência foi fundada pelos romanos como Valentia em 138 a.C., uma colónia para soldados reformados no rio Turia. Sob domínio mouro tornou-se Balansiya, uma cidade próspera de jardins e canais de rega, até Jaime I de Aragão a tomar em 1238 e a integrar nos reinos cristãos. A sua idade de ouro do século XV assentou no comércio da seda, que pagou a Lonja gótica onde os mercadores se reuniam. A Grande Cheia do Turia, em outubro de 1957, afogou boa parte da cidade e levou as autoridades a desviar o rio inteiramente à sua volta, transformando o antigo leito nos Jardins do Turia de 9 km; quatro décadas mais tarde, Santiago Calatrava preencheu a ponta mais afastada desse leito com a futurista Cidade das Artes e das Ciências, iniciada no final da década de 1990.",
+    knownFor: [
+      "Paelha",
+      "Cidade das Artes e das Ciências",
+      "Las Fallas",
+      "Jardins do Turia",
+      "Mercado Central",
+      "Horchata",
+    ],
+  },
 };
 
 export default extrasPt;

@@ -2248,6 +2248,64 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
+
+  // ---- Valencia ----
+  {
+    slug: "caro-hotel-valencia",
+    citySlug: "valencia",
+    name: "Caro Hotel",
+    neighborhoodSlug: "ciutat-vella",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Design palace hotel",
+    bestFor: "Special occasions",
+    blurb:
+      "A design hotel inside a restored 19th-century palace in the old town, built over a stretch of Roman city wall and Arab-era remains that are on show in the public areas. You are steps from the cathedral and the Lonja, sleeping on layers of the city's history.",
+    image: px(262048),
+    imageAlt: "Elegant design hotel suite with a large bed and modern lighting",
+  },
+  {
+    slug: "palacio-vallier-valencia",
+    citySlug: "valencia",
+    name: "Palacio Vallier",
+    neighborhoodSlug: "ciutat-vella",
+    band: "€€",
+    priceFrom: 130,
+    style: "Old town boutique palace",
+    bestFor: "Couples",
+    blurb:
+      "An intimate boutique hotel in a restored palace on a quiet old-town square near the Plaça de Manises, so the noise stays outside. It is a short walk from both the cathedral and the Central Market.",
+    image: px(1267438),
+    imageAlt: "Cosy restored boutique hotel room with warm lighting",
+  },
+  {
+    slug: "vincci-lys-valencia",
+    citySlug: "valencia",
+    name: "Vincci Lys",
+    neighborhoodSlug: "eixample",
+    band: "€€",
+    priceFrom: 95,
+    style: "Central mid-range hotel",
+    bestFor: "First visit",
+    blurb:
+      "A comfortable, well-located mid-range hotel in the Eixample between the town hall square and Colón. It is an easy walk to both the old town and the Modernista Mercado de Colón, which makes it a practical first-visit base.",
+    image: px(2507010),
+    imageAlt: "Bright modern mid-range hotel room",
+  },
+  {
+    slug: "red-nest-hostel-valencia",
+    citySlug: "valencia",
+    name: "Red Nest Hostel",
+    neighborhoodSlug: "ciutat-vella",
+    band: "€",
+    priceFrom: 20,
+    style: "Old town hostel",
+    bestFor: "Budget",
+    blurb:
+      "A friendly, well-run hostel in the heart of the old town, with both dorms and private rooms. You are minutes from the Central Market and the Carmen nightlife at the cheapest central prices in the city.",
+    image: px(271624),
+    imageAlt: "Simple bright dorm room with bunk beds",
+  },
 ];
 
 export default hotelsEn;
