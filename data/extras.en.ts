@@ -607,6 +607,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Milk bars",
     ],
   },
+  bucharest: {
+    citySlug: "bucharest",
+    image: hero(37944880),
+    imageAlt:
+      "The ornate Belle Epoque dome of the CEC Palace on Calea Victoriei in Bucharest",
+    history:
+      "Bucharest first appears in records in 1459, tied by legend to Vlad the Impaler, the prince who inspired Dracula, and it grew into the capital of Wallachia and then, in 1862, of a united Romania. Around 1900 French-trained architects covered it in Belle Epoque boulevards and palaces, earning it the nickname Little Paris of the East, complete with its own Arc de Triomphe. That elegance was gutted twice: by a huge earthquake in 1977, and then by the dictator Nicolae Ceausescu, who in the 1980s bulldozed a fifth of the old centre to raise his monstrous Palace of the Parliament and the Stalinist boulevards around it. Ceausescu was overthrown and executed in the December 1989 revolution, which boiled over in what is now Revolution Square, and Bucharest is today the fast, cheap and contradictory capital of an EU Romania.",
+    knownFor: [
+      "Palace of the Parliament",
+      "Belle Epoque boulevards",
+      "Lipscani old town",
+      "The Athenaeum",
+      "Very cheap prices",
+      "The Dracula legend",
+    ],
+  },
 };
 
 export default extrasEn;

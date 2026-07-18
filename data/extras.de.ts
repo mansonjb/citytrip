@@ -608,6 +608,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Milchbars",
     ],
   },
+  bucharest: {
+    citySlug: "bucharest",
+    image: hero(37944880),
+    imageAlt:
+      "Die verzierte Belle-Epoque-Kuppel des CEC-Palasts an der Calea Victoriei in Bukarest",
+    history:
+      "Bukarest taucht 1459 erstmals in den Aufzeichnungen auf, der Legende nach verknüpft mit Vlad dem Pfähler, dem Fürsten, der Dracula inspirierte, und wuchs zur Hauptstadt der Walachei und dann, 1862, eines vereinten Rumäniens heran. Um 1900 überzogen es französisch geschulte Architekten mit Belle-Epoque-Boulevards und Palästen, was ihm den Beinamen Klein-Paris des Ostens einbrachte, samt eigenem Triumphbogen. Diese Eleganz wurde zweimal ausgeweidet: durch ein schweres Erdbeben 1977 und dann durch den Diktator Nicolae Ceausescu, der in den 1980er Jahren ein Fünftel des alten Zentrums niederriss, um seinen monströsen Parlamentspalast und die stalinistischen Boulevards ringsum zu errichten. Ceausescu wurde in der Revolution vom Dezember 1989 gestürzt und hingerichtet, die auf dem heutigen Revolutionsplatz überkochte, und Bukarest ist heute die schnelle, günstige und widersprüchliche Hauptstadt eines EU-Rumäniens.",
+    knownFor: [
+      "Parlamentspalast",
+      "Belle-Epoque-Boulevards",
+      "Altstadt Lipscani",
+      "Das Athenäum",
+      "Sehr günstige Preise",
+      "Die Dracula-Legende",
+    ],
+  },
 };
 
 export default extrasDe;

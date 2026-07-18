@@ -57,6 +57,7 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /ljubljana (Ljubljana, Slovenia): ideal 2 days
 - /zurich (Zurich, Switzerland): ideal 2 days
 - /warsaw (Warsaw, Poland): ideal 2 days
+- /bucharest (Bucharest, Romania): ideal 2 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,

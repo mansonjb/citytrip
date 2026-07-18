@@ -608,6 +608,22 @@ const extrasFr: Record<string, CityExtras> = {
       "Les bars à lait",
     ],
   },
+  bucharest: {
+    citySlug: "bucharest",
+    image: hero(37944880),
+    imageAlt:
+      "La coupole Belle Epoque ornée du Palais CEC sur la Calea Victoriei à Bucarest",
+    history:
+      "Bucarest apparaît pour la première fois dans les registres en 1459, liée par la légende à Vlad l'Empaleur, le prince qui inspira Dracula, et elle devint la capitale de la Valachie puis, en 1862, d'une Roumanie unifiée. Vers 1900, des architectes formés en France la couvrirent de boulevards et de palais Belle Epoque, ce qui lui valut le surnom de Petit Paris de l'Est, avec jusqu'à son propre Arc de triomphe. Cette élégance fut éventrée deux fois : par un énorme tremblement de terre en 1977, puis par le dictateur Nicolae Ceausescu, qui dans les années 1980 rasa un cinquième du vieux centre pour dresser son monstrueux Palais du Parlement et les boulevards staliniens alentour. Ceausescu fut renversé et exécuté lors de la révolution de décembre 1989, qui déborda sur ce qui est aujourd'hui la place de la Révolution, et Bucarest est de nos jours la capitale rapide, bon marché et contradictoire d'une Roumanie membre de l'UE.",
+    knownFor: [
+      "Le Palais du Parlement",
+      "Les boulevards Belle Epoque",
+      "La vieille ville de Lipscani",
+      "L'Athénée",
+      "Des prix très bas",
+      "La légende de Dracula",
+    ],
+  },
 };
 
 export default extrasFr;

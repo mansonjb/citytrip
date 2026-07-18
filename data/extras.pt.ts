@@ -606,6 +606,22 @@ const extrasPt: Record<string, CityExtras> = {
       "Bares de leite",
     ],
   },
+  bucharest: {
+    citySlug: "bucharest",
+    image: hero(37944880),
+    imageAlt:
+      "A ornamentada cúpula Belle Epoque do Palácio CEC na Calea Victoriei, em Bucareste",
+    history:
+      "Bucareste surge pela primeira vez em registos em 1459, ligada pela lenda a Vlad, o Empalador, o príncipe que inspirou Drácula, e cresceu até ser a capital da Valáquia e depois, em 1862, de uma Roménia unida. Por volta de 1900, arquitetos formados em França cobriram-na de bulevares e palácios Belle Epoque, valendo-lhe a alcunha de Pequena Paris do Oriente, com o seu próprio Arco do Triunfo. Essa elegância foi destruída duas vezes: por um grande terramoto em 1977 e depois pelo ditador Nicolae Ceausescu, que nos anos 1980 arrasou um quinto do centro antigo para erguer o seu monstruoso Palácio do Parlamento e os bulevares estalinistas à sua volta. Ceausescu foi derrubado e executado na revolução de dezembro de 1989, que rebentou no que é hoje a Praça da Revolução, e Bucareste é hoje a capital rápida, barata e contraditória de uma Roménia na UE.",
+    knownFor: [
+      "Palácio do Parlamento",
+      "Bulevares Belle Epoque",
+      "Cidade velha de Lipscani",
+      "O Ateneu",
+      "Preços muito baixos",
+      "A lenda de Drácula",
+    ],
+  },
 };
 
 export default extrasPt;

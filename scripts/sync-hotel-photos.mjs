@@ -32,6 +32,8 @@ const QUERY_OVERRIDE = {
     "Reykjavik City HI Hostel Sundlaugavegur Laugardalur Iceland",
   "fabrika-hostel-tallinn": "Fabrika Telliskivi Tallinn",
   "city-backpacker-zurich": "Youth Hostel Zurich Wollishofen",
+  "athenee-palace-hilton-bucharest":
+    "Grand Hotel Continental Bucharest Calea Victoriei",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -71,6 +73,7 @@ const CITY_NAME = {
   ljubljana: "Ljubljana Slovenia",
   zurich: "Zurich Switzerland",
   warsaw: "Warsaw Poland",
+  bucharest: "Bucharest Romania",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

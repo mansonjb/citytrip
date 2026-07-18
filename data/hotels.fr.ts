@@ -2192,6 +2192,63 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
   },
+  // ---- Bucarest ----
+  {
+    slug: "athenee-palace-hilton-bucharest",
+    citySlug: "bucharest",
+    name: "Grand Hotel Continental Bucharest",
+    neighborhoodSlug: "calea-victoriei",
+    band: "€€€",
+    priceFrom: 180,
+    style: "Grand hôtel Belle Epoque",
+    bestFor: "Grandes occasions",
+    blurb:
+      "Un grand hôtel de 1886 restauré sur la Calea Victoriei, le plus ancien de la ville, avec des chambres d'époque derrière une façade ornée sur le grand boulevard de Bucarest. L'Athénée, le Musée national d'art et la vieille ville sont tous à une courte marche.",
+    image: px(262048),
+    imageAlt: "Élégante suite de grand hôtel avec un lustre et un grand lit",
+  },
+  {
+    slug: "rembrandt-hotel-bucharest",
+    citySlug: "bucharest",
+    name: "Rembrandt Hotel",
+    neighborhoodSlug: "old-town-lipscani",
+    band: "€€",
+    priceFrom: 80,
+    style: "Boutique de la vieille ville",
+    bestFor: "Première visite",
+    blurb:
+      "Un petit hôtel chaleureux, lambrissé de bois, dans une rue piétonne au coeur de Lipscani, longtemps un favori des voyageurs pour son rapport qualité-prix et son emplacement. L'église Stavropoleos, le Caru cu Bere et les bars de la vieille ville sont tous à une minute de la porte.",
+    image: px(1267438),
+    imageAlt: "Chambre de boutique-hôtel douillette et lambrissée de bois",
+  },
+  {
+    slug: "hotel-moxa-bucharest",
+    citySlug: "bucharest",
+    name: "Le Boutique Hotel Moxa",
+    neighborhoodSlug: "dorobanti-floreasca",
+    band: "€€",
+    priceFrom: 90,
+    style: "Refuge boutique verdoyant",
+    bestFor: "Couples",
+    blurb:
+      "Un boutique-hôtel calme et élégant dans une rue tranquille juste à l'écart des boulevards du nord, à une courte marche de l'Athénée et des jardins Cismigiu. C'est une alternative reposante et de meilleur rapport qualité-prix aux grands hôtels centraux.",
+    image: px(2507010),
+    imageAlt: "Élégante chambre de boutique-hôtel à l'éclairage chaleureux",
+  },
+  {
+    slug: "little-bucharest-hostel",
+    citySlug: "bucharest",
+    name: "Little Bucharest Old Town Hostel",
+    neighborhoodSlug: "old-town-lipscani",
+    band: "€",
+    priceFrom: 15,
+    style: "Auberge festive de la vieille ville",
+    bestFor: "Petit budget",
+    blurb:
+      "Une auberge animée et bien tenue en plein dans la vieille ville de Lipscani, avec dortoirs et chambres privées au-dessus des bars et des terrasses. C'est à peu près aussi bon marché et central qu'un lit puisse l'être dans l'une des capitales les plus abordables d'Europe.",
+    image: px(271624),
+    imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
+  },
 ];
 
 export default hotelsFr;
