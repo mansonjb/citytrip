@@ -38,6 +38,10 @@ const QUERY_OVERRIDE = {
   "palacio-vallier-valencia": "Palacio Vallier Hotel Valencia Plaza Manises",
   "vincci-lys-valencia": "Vincci Lys Valencia Martinez Cubells",
   "red-nest-hostel-valencia": "Red Nest Hostel Valencia La Purisima",
+  "the-phoenicia-malta": "The Phoenicia Malta Floriana Valletta",
+  "the-saint-john-valletta": "The Saint John Hotel Valletta",
+  "the-victoria-hotel-sliema": "The Victoria Hotel Sliema AX Hotels",
+  "two-pillows-hostel-sliema": "Two Pillows Boutique Hostel Sliema",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -79,6 +83,7 @@ const CITY_NAME = {
   warsaw: "Warsaw Poland",
   bucharest: "Bucharest Romania",
   valencia: "Valencia Spain",
+  valletta: "Valletta Malta",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

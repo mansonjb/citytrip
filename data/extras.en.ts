@@ -639,6 +639,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Horchata",
     ],
   },
+  valletta: {
+    citySlug: "valletta",
+    image: hero(17404652),
+    imageAlt:
+      "The honey-coloured dome of the Carmelite basilica rising over Valletta's limestone townhouses",
+    history:
+      "Valletta was founded in 1566 by Grand Master Jean de Valette and the Knights of St John, the year after their outnumbered forces repelled the Ottoman fleet in the Great Siege of 1565. The engineer Francesco Laparelli laid it out as a planned Renaissance fortress city on a regular grid across the whole peninsula, filled with the Knights' national auberges and the great church of St John's. Napoleon seized the island in 1798 on his way to Egypt, but British rule followed from 1800 and lasted until independence in 1964. Heavily bombed in the Second World War, Malta was awarded the George Cross for its endurance in 1942, and Valletta has been a UNESCO World Heritage Site since 1980 and a European Capital of Culture in 2018.",
+    knownFor: [
+      "St John's Co-Cathedral",
+      "Grand Harbour",
+      "Knights of St John",
+      "Honey limestone",
+      "Pastizzi",
+      "Mdina day trips",
+    ],
+  },
 };
 
 export default extrasEn;

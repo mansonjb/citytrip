@@ -2303,6 +2303,63 @@ const hotelsPt: Hotel[] = [
     image: px(271624),
     imageAlt: "Dormitório simples e luminoso com beliches",
   },
+  // ---- Valletta ----
+  {
+    slug: "the-phoenicia-malta",
+    citySlug: "valletta",
+    name: "The Phoenicia Malta",
+    neighborhoodSlug: "valletta",
+    band: "€€€",
+    priceFrom: 230,
+    style: "Grande hotel dos anos 1930",
+    bestFor: "Ocasiões especiais",
+    blurb:
+      "O emblemático grande hotel dos anos 1930 mesmo à saída da City Gate, com jardins formais a descer pelas muralhas até ao Marsamxett Harbour e uma piscina lá em baixo. É a morada clássica de Valeta, a distância de caminhada de todas as atracções e ainda assim afastada da multidão.",
+    image: px(262048),
+    imageAlt: "Quarto elegante de grande hotel com vistas do porto",
+  },
+  {
+    slug: "the-saint-john-valletta",
+    citySlug: "valletta",
+    name: "The Saint John",
+    neighborhoodSlug: "valletta",
+    band: "€€",
+    priceFrom: 150,
+    style: "Boutique de design em Valeta",
+    bestFor: "Casais",
+    blurb:
+      "Um pequeno hotel de design numa casa senhorial restaurada, numa rua sossegada de Valeta, a poucos passos da concatedral de São João. O seu terraço no topo dá para as cúpulas e os telhados de pedra cor de mel, melhor ao pôr do sol com uma bebida.",
+    image: px(1267438),
+    imageAlt: "Quarto elegante de hotel boutique numa casa senhorial restaurada",
+  },
+  {
+    slug: "the-victoria-hotel-sliema",
+    citySlug: "valletta",
+    name: "The Victoria Hotel",
+    neighborhoodSlug: "sliema",
+    band: "€€",
+    priceFrom: 110,
+    style: "Hotel clássico de Sliema",
+    bestFor: "Primeira visita",
+    blurb:
+      "Um hotel tradicional e confortável no centro de Sliema, a curta caminhada da marginal e do ferry de cinco minutos que atravessa para Valeta. Tem boa relação qualidade-preço pela localização, com uma piscina no topo para as tardes quentes.",
+    image: px(2507010),
+    imageAlt: "Quarto de hotel clássico e confortável",
+  },
+  {
+    slug: "two-pillows-hostel-sliema",
+    citySlug: "valletta",
+    name: "Two Pillows Boutique Hostel",
+    neighborhoodSlug: "sliema",
+    band: "€",
+    priceFrom: 28,
+    style: "Hostel boutique de Sliema",
+    bestFor: "Económico",
+    blurb:
+      "Um hostel boutique simpático em Sliema, com dormitórios e quartos privados, perto da marginal e do ferry de Valeta. É uma base sociável e barata para explorar toda a ilha de autocarro e de barco.",
+    image: px(271624),
+    imageAlt: "Dormitório simples e luminoso com beliches",
+  },
 ];
 
 export default hotelsPt;

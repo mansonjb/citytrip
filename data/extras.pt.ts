@@ -638,6 +638,22 @@ const extrasPt: Record<string, CityExtras> = {
       "Horchata",
     ],
   },
+  valletta: {
+    citySlug: "valletta",
+    image: hero(17404652),
+    imageAlt:
+      "A cúpula cor de mel da basílica dos Carmelitas a erguer-se sobre as casas de calcário de Valeta",
+    history:
+      "Valeta foi fundada em 1566 pelo Grão-Mestre Jean de Valette e pelos Cavaleiros de São João, no ano seguinte a as suas forças, em inferioridade numérica, repelirem a frota otomana no Grande Cerco de 1565. O engenheiro Francesco Laparelli traçou-a como uma cidade-fortaleza renascentista planeada, numa grelha regular por toda a península, preenchida com os albergues nacionais dos Cavaleiros e a grande igreja de São João. Napoleão apoderou-se da ilha em 1798, a caminho do Egito, mas seguiu-se o domínio britânico a partir de 1800, que durou até à independência em 1964. Muito bombardeada na Segunda Guerra Mundial, Malta recebeu a Cruz de Jorge pela sua resistência em 1942, e Valeta é Património Mundial da UNESCO desde 1980 e foi Capital Europeia da Cultura em 2018.",
+    knownFor: [
+      "Concatedral de São João",
+      "Grande Porto",
+      "Cavaleiros de São João",
+      "Calcário cor de mel",
+      "Pastizzi",
+      "Excursões a Mdina",
+    ],
+  },
 };
 
 export default extrasPt;

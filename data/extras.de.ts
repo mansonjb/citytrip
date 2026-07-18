@@ -640,6 +640,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Horchata",
     ],
   },
+  valletta: {
+    citySlug: "valletta",
+    image: hero(17404652),
+    imageAlt:
+      "Die honigfarbene Kuppel der Karmeliterbasilika, die sich über Vallettas Kalksteinstadthäuser erhebt",
+    history:
+      "Valletta wurde 1566 von Großmeister Jean de Valette und dem Johanniterorden gegründet, im Jahr nachdem ihre zahlenmäßig unterlegenen Kräfte die osmanische Flotte in der Großen Belagerung von 1565 abgewehrt hatten. Der Ingenieur Francesco Laparelli legte es als geplante Renaissance-Festungsstadt auf einem regelmäßigen Raster über die ganze Halbinsel an, gefüllt mit den nationalen Herbergen der Ritter und der großen Kirche St. Johannes. Napoleon nahm die Insel 1798 auf seinem Weg nach Ägypten ein, doch von 1800 an folgte die britische Herrschaft und dauerte bis zur Unabhängigkeit 1964. Im Zweiten Weltkrieg schwer bombardiert, wurde Malta 1942 für sein Durchhalten das Georgskreuz verliehen, und Valletta ist seit 1980 UNESCO-Weltkulturerbe und war 2018 Kulturhauptstadt Europas.",
+    knownFor: [
+      "St.-Johannes-Konkathedrale",
+      "Grand Harbour / Großer Hafen",
+      "Johanniterorden",
+      "Honigkalkstein",
+      "Pastizzi",
+      "Tagesausflüge nach Mdina",
+    ],
+  },
 };
 
 export default extrasDe;

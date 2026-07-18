@@ -59,6 +59,7 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /warsaw (Warsaw, Poland): ideal 2 days
 - /bucharest (Bucharest, Romania): ideal 2 days
 - /valencia (Valencia, Spain): ideal 3 days
+- /valletta (Valletta, Malta): ideal 3 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,

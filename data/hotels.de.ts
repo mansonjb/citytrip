@@ -2309,6 +2309,63 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes helles Schlafsaalzimmer mit Etagenbetten",
   },
+  // ---- Valletta ----
+  {
+    slug: "the-phoenicia-malta",
+    citySlug: "valletta",
+    name: "The Phoenicia Malta",
+    neighborhoodSlug: "valletta",
+    band: "€€€",
+    priceFrom: 230,
+    style: "Grandhotel der 1930er",
+    bestFor: "Besondere Anlässe",
+    blurb:
+      "Das wahrzeichenhafte Grandhotel der 1930er gleich außerhalb des City Gate, mit formalen Gärten, die über die Bastionen zum Marsamxett-Hafen abfallen, und einem Pool ganz unten. Es ist die klassische Adresse Vallettas, zu jeder Sehenswürdigkeit zu Fuß und doch abseits der Mengen gelegen.",
+    image: px(262048),
+    imageAlt: "Elegantes Grandhotel-Zimmer mit Hafenblick",
+  },
+  {
+    slug: "the-saint-john-valletta",
+    citySlug: "valletta",
+    name: "The Saint John",
+    neighborhoodSlug: "valletta",
+    band: "€€",
+    priceFrom: 150,
+    style: "Designboutique in Valletta",
+    bestFor: "Paare",
+    blurb:
+      "Ein kleines Designhotel in einem restaurierten Stadthaus an einer ruhigen Straße Vallettas, wenige Schritte von der St.-Johannes-Konkathedrale. Seine Dachterrasse blickt über die Kuppeln und die Honigsteindächer, am schönsten bei Sonnenuntergang mit einem Drink.",
+    image: px(1267438),
+    imageAlt: "Stilvolles Boutiquehotel-Zimmer in einem restaurierten Stadthaus",
+  },
+  {
+    slug: "the-victoria-hotel-sliema",
+    citySlug: "valletta",
+    name: "The Victoria Hotel",
+    neighborhoodSlug: "sliema",
+    band: "€€",
+    priceFrom: 110,
+    style: "Klassisches Hotel in Sliema",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein komfortables traditionelles Hotel im Zentrum von Sliema, einen kurzen Fußweg von der Strandpromenade und der fünfminütigen Fähre hinüber nach Valletta. Es bietet ein gutes Preis-Leistungs-Verhältnis für die Lage, mit einem Dachpool für die heißen Nachmittage.",
+    image: px(2507010),
+    imageAlt: "Komfortables klassisches Hotelzimmer",
+  },
+  {
+    slug: "two-pillows-hostel-sliema",
+    citySlug: "valletta",
+    name: "Two Pillows Boutique Hostel",
+    neighborhoodSlug: "sliema",
+    band: "€",
+    priceFrom: 28,
+    style: "Boutique-Hostel in Sliema",
+    bestFor: "Budget",
+    blurb:
+      "Ein freundliches Boutique-Hostel in Sliema mit Schlafsälen und Privatzimmern, nahe der Strandpromenade und der Valletta-Fähre. Es ist eine gesellige, günstige Basis, um die ganze Insel per Bus und Boot zu erkunden.",
+    image: px(271624),
+    imageAlt: "Schlichtes helles Schlafsaalzimmer mit Etagenbetten",
+  },
 ];
 
 export default hotelsDe;

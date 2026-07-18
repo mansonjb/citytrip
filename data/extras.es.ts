@@ -640,6 +640,22 @@ const extrasEs: Record<string, CityExtras> = {
       "La horchata",
     ],
   },
+  valletta: {
+    citySlug: "valletta",
+    image: hero(17404652),
+    imageAlt:
+      "La cúpula color miel de la basílica carmelita alzándose sobre las casas de piedra caliza de La Valeta",
+    history:
+      "La Valeta fue fundada en 1566 por el Gran Maestre Jean de Valette y los Caballeros de San Juan, el año después de que sus fuerzas, en inferioridad numérica, repelieran a la flota otomana en el Gran Asedio de 1565. El ingeniero Francesco Laparelli la trazó como una ciudad-fortaleza renacentista planificada, sobre una retícula regular que abarca toda la península, llena de los auberges nacionales de los Caballeros y de la gran iglesia de San Juan. Napoleón se apoderó de la isla en 1798 de camino a Egipto, pero el dominio británico llegó a partir de 1800 y duró hasta la independencia en 1964. Muy bombardeada en la Segunda Guerra Mundial, Malta recibió la Cruz de San Jorge por su resistencia en 1942, y La Valeta es Patrimonio de la Humanidad de la UNESCO desde 1980 y fue Capital Europea de la Cultura en 2018.",
+    knownFor: [
+      "La concatedral de San Juan",
+      "El Gran Puerto",
+      "Los Caballeros de San Juan",
+      "La piedra caliza melada",
+      "Los pastizzi",
+      "Las excursiones a Mdina",
+    ],
+  },
 };
 
 export default extrasEs;

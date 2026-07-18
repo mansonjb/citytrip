@@ -640,6 +640,22 @@ const extrasFr: Record<string, CityExtras> = {
       "L'horchata",
     ],
   },
+  valletta: {
+    citySlug: "valletta",
+    image: hero(17404652),
+    imageAlt:
+      "Le dôme couleur miel de la basilique des Carmes dominant les maisons de calcaire de La Valette",
+    history:
+      "La Valette fut fondée en 1566 par le Grand Maître Jean de Valette et les Chevaliers de Saint-Jean, l'année qui suivit le refoulement de la flotte ottomane par leurs forces en infériorité numérique lors du Grand Siège de 1565. L'ingénieur Francesco Laparelli la dessina comme une cité-forteresse Renaissance planifiée, sur une trame régulière couvrant toute la péninsule, emplie des auberges nationales des Chevaliers et de la grande église Saint-Jean. Napoléon s'empara de l'île en 1798 sur sa route vers l'Égypte, mais la domination britannique suivit à partir de 1800 et dura jusqu'à l'indépendance en 1964. Lourdement bombardée pendant la Seconde Guerre mondiale, Malte reçut la George Cross pour son endurance en 1942, et La Valette est inscrite au patrimoine mondial de l'UNESCO depuis 1980 et fut capitale européenne de la culture en 2018.",
+    knownFor: [
+      "La co-cathédrale Saint-Jean",
+      "Le Grand Port",
+      "Les Chevaliers de Saint-Jean",
+      "Le calcaire couleur miel",
+      "Les pastizzi",
+      "Les excursions à Mdina",
+    ],
+  },
 };
 
 export default extrasFr;

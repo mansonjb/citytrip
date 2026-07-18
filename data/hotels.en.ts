@@ -2306,6 +2306,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright dorm room with bunk beds",
   },
+  // ---- Valletta ----
+  {
+    slug: "the-phoenicia-malta",
+    citySlug: "valletta",
+    name: "The Phoenicia Malta",
+    neighborhoodSlug: "valletta",
+    band: "€€€",
+    priceFrom: 230,
+    style: "1930s grand hotel",
+    bestFor: "Special occasions",
+    blurb:
+      "The landmark 1930s grand hotel just outside the City Gate, with formal gardens dropping down the bastions to Marsamxett Harbour and a pool at the bottom. It is the classic Valletta address, walkable to every sight yet set apart from the crowds.",
+    image: px(262048),
+    imageAlt: "Elegant grand hotel room with harbour views",
+  },
+  {
+    slug: "the-saint-john-valletta",
+    citySlug: "valletta",
+    name: "The Saint John",
+    neighborhoodSlug: "valletta",
+    band: "€€",
+    priceFrom: 150,
+    style: "Valletta design boutique",
+    bestFor: "Couples",
+    blurb:
+      "A small design hotel in a restored townhouse on a quiet Valletta street, steps from St John's Co-Cathedral. Its rooftop terrace looks out over the domes and honey-stone rooftops, best at sunset with a drink.",
+    image: px(1267438),
+    imageAlt: "Stylish boutique hotel room in a restored townhouse",
+  },
+  {
+    slug: "the-victoria-hotel-sliema",
+    citySlug: "valletta",
+    name: "The Victoria Hotel",
+    neighborhoodSlug: "sliema",
+    band: "€€",
+    priceFrom: 110,
+    style: "Classic Sliema hotel",
+    bestFor: "First visit",
+    blurb:
+      "A comfortable traditional hotel in central Sliema, a short walk from the seafront and the five-minute ferry over to Valletta. It is good value for the location, with a rooftop pool for the hot afternoons.",
+    image: px(2507010),
+    imageAlt: "Comfortable classic hotel room",
+  },
+  {
+    slug: "two-pillows-hostel-sliema",
+    citySlug: "valletta",
+    name: "Two Pillows Boutique Hostel",
+    neighborhoodSlug: "sliema",
+    band: "€",
+    priceFrom: 28,
+    style: "Sliema boutique hostel",
+    bestFor: "Budget",
+    blurb:
+      "A friendly boutique hostel in Sliema with both dorms and private rooms, near the seafront and the Valletta ferry. It is a sociable, cheap base for exploring the whole island by bus and boat.",
+    image: px(271624),
+    imageAlt: "Simple bright dorm room with bunk beds",
+  },
 ];
 
 export default hotelsEn;

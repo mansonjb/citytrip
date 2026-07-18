@@ -638,6 +638,22 @@ const extrasIt: Record<string, CityExtras> = {
       "L'horchata",
     ],
   },
+  valletta: {
+    citySlug: "valletta",
+    image: hero(17404652),
+    imageAlt:
+      "La cupola color miele della basilica dei Carmelitani che si erge sulle case in pietra calcarea della Valletta",
+    history:
+      "La Valletta fu fondata nel 1566 dal Gran Maestro Jean de Valette e dai Cavalieri di San Giovanni, l'anno dopo che le loro forze in inferiorità numerica respinsero la flotta ottomana nel Grande Assedio del 1565. L'ingegnere Francesco Laparelli la progettò come città-fortezza rinascimentale su una griglia regolare estesa a tutta la penisola, riempita dalle auberge nazionali dei Cavalieri e dalla grande chiesa di San Giovanni. Napoleone si impadronì dell'isola nel 1798 diretto in Egitto, ma dal 1800 seguì il dominio britannico, che durò fino all'indipendenza nel 1964. Pesantemente bombardata nella Seconda guerra mondiale, Malta ricevette la George Cross per la sua tenacia nel 1942, e la Valletta è patrimonio mondiale dell'UNESCO dal 1980 e capitale europea della cultura nel 2018.",
+    knownFor: [
+      "La concattedrale di San Giovanni",
+      "Il Grande Porto",
+      "I Cavalieri di San Giovanni",
+      "La pietra calcarea color miele",
+      "I pastizzi",
+      "Le gite a Mdina",
+    ],
+  },
 };
 
 export default extrasIt;

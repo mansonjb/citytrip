@@ -2306,6 +2306,63 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Dortoir simple et lumineux avec des lits superposés",
   },
+  // ---- Valletta ----
+  {
+    slug: "the-phoenicia-malta",
+    citySlug: "valletta",
+    name: "The Phoenicia Malta",
+    neighborhoodSlug: "valletta",
+    band: "€€€",
+    priceFrom: 230,
+    style: "Grand hôtel des années 1930",
+    bestFor: "Grandes occasions",
+    blurb:
+      "Le grand hôtel emblématique des années 1930, juste à l'extérieur de la City Gate, avec des jardins à la française qui dévalent les bastions jusqu'au port de Marsamxett et une piscine tout en bas. C'est l'adresse classique de La Valette, à pied de chaque site tout en restant à l'écart de la foule.",
+    image: px(262048),
+    imageAlt: "Élégante chambre de grand hôtel avec vue sur le port",
+  },
+  {
+    slug: "the-saint-john-valletta",
+    citySlug: "valletta",
+    name: "The Saint John",
+    neighborhoodSlug: "valletta",
+    band: "€€",
+    priceFrom: 150,
+    style: "Boutique design de La Valette",
+    bestFor: "Couples",
+    blurb:
+      "Un petit hôtel design dans une maison de ville restaurée, sur une rue tranquille de La Valette, à quelques pas de la co-cathédrale Saint-Jean. Sa terrasse sur le toit donne sur les dômes et les toits en pierre de miel, au mieux au coucher du soleil, un verre à la main.",
+    image: px(1267438),
+    imageAlt: "Chambre de boutique-hôtel élégante dans une maison de ville restaurée",
+  },
+  {
+    slug: "the-victoria-hotel-sliema",
+    citySlug: "valletta",
+    name: "The Victoria Hotel",
+    neighborhoodSlug: "sliema",
+    band: "€€",
+    priceFrom: 110,
+    style: "Hôtel classique de Sliema",
+    bestFor: "Première visite",
+    blurb:
+      "Un hôtel traditionnel confortable au centre de Sliema, à une courte marche du front de mer et du ferry de cinq minutes vers La Valette. C'est un bon rapport qualité-prix pour l'emplacement, avec une piscine sur le toit pour les après-midis de chaleur.",
+    image: px(2507010),
+    imageAlt: "Chambre d'hôtel classique et confortable",
+  },
+  {
+    slug: "two-pillows-hostel-sliema",
+    citySlug: "valletta",
+    name: "Two Pillows Boutique Hostel",
+    neighborhoodSlug: "sliema",
+    band: "€",
+    priceFrom: 28,
+    style: "Auberge de charme de Sliema",
+    bestFor: "Petit budget",
+    blurb:
+      "Une auberge de charme sympathique à Sliema, avec dortoirs et chambres privées, près du front de mer et du ferry pour La Valette. C'est une base conviviale et bon marché pour explorer toute l'île en bus et en bateau.",
+    image: px(271624),
+    imageAlt: "Dortoir simple et lumineux avec des lits superposés",
+  },
 ];
 
 export default hotelsFr;
