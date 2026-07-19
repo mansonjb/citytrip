@@ -2419,6 +2419,63 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Semplice dormitorio luminoso con letti a castello",
   },
+  // ---- Bologna ----
+  {
+    slug: "grand-hotel-majestic-bologna",
+    citySlug: "bologna",
+    name: "Grand Hotel Majestic gia Baglioni",
+    neighborhoodSlug: "centro-storico",
+    band: "€€€",
+    priceFrom: 300,
+    style: "Cinque stelle storico",
+    bestFor: "Occasioni speciali",
+    blurb:
+      "Il grande e storico cinque stelle della città a due passi da Via dell'Indipendenza, con opulente camere affrescate e un ristorante formale. È a due minuti a piedi da Piazza Maggiore e dalle torri, quindi si paga sia per l'indirizzo sia per la raffinatezza d'altri tempi.",
+    image: px(262048),
+    imageAlt: "Opulenta suite classica di hotel cinque stelle",
+  },
+  {
+    slug: "art-hotel-novecento-bologna",
+    citySlug: "bologna",
+    name: "Art Hotel Novecento",
+    neighborhoodSlug: "centro-storico",
+    band: "€€",
+    priceFrom: 150,
+    style: "Design boutique centrale",
+    bestFor: "Coppie",
+    blurb:
+      "Un elegante boutique hotel in un edificio in stile Secessione viennese degli anni Trenta sulla tranquilla Piazza Galileo, a pochi passi da Piazza Maggiore. Le camere sono quiete e curate nel design, e la posizione centrale ma appartata tiene basso il rumore notturno.",
+    image: px(1267438),
+    imageAlt: "Elegante camera di boutique hotel",
+  },
+  {
+    slug: "hotel-touring-bologna",
+    citySlug: "bologna",
+    name: "Hotel Touring",
+    neighborhoodSlug: "santo-stefano",
+    band: "€€",
+    priceFrom: 120,
+    style: "Hotel con terrazza panoramica",
+    bestFor: "Prima visita",
+    blurb:
+      "Un cordiale hotel di fascia media appena a sud di Piazza Maggiore nel quieto quartiere di Santo Stefano. La sua terrazza panoramica ha una piccola vasca idromassaggio affacciata sui tetti rossi, un tocco raro a questo prezzo.",
+    image: px(2507010),
+    imageAlt: "Comoda camera d'hotel con terrazza panoramica",
+  },
+  {
+    slug: "dopa-hostel-bologna",
+    citySlug: "bologna",
+    name: "Dopa Hostel",
+    neighborhoodSlug: "bolognina-centrale",
+    band: "€",
+    priceFrom: 30,
+    style: "Ostello di design",
+    bestFor: "Budget",
+    blurb:
+      "Un ostello luminoso e curato nel design vicino alla stazione, con dormitori e camere private. È una base conviviale ed economica a breve distanza a piedi o una corsa di monorotaia dal centro, comoda per i treni presto e l'aeroporto.",
+    image: px(271624),
+    imageAlt: "Luminoso dormitorio moderno di ostello",
+  },
 ];
 
 export default hotelsIt;

@@ -671,6 +671,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Sopot beach",
     ],
   },
+  bologna: {
+    citySlug: "bologna",
+    image: hero(38478884),
+    imageAlt:
+      "Bologna's sea of terracotta rooftops and medieval towers seen from above, with the hills beyond",
+    history:
+      "Bologna began as Etruscan Felsina and then Roman Bononia, a road town on the Via Aemilia, and grew into one of the wealthiest and most independent communes of medieval Italy. In 1088 it founded the oldest university in the Western world, drawing law students from across Europe and giving the city its enduring student character. Rival families raised dozens of tall defensive towers, of which the leaning Asinelli and Garisenda still stand, and the city lined its streets with the porticoes, now nearly 40km of them, that shelter walkers to this day. Long a papal city and later, after unification, a stronghold of the Italian left, Bologna kept its red-brick medieval core largely intact through the centuries and the wars.",
+    knownFor: [
+      "Tagliatelle al ragu",
+      "The Two Towers",
+      "Porticoes",
+      "Oldest university",
+      "Mortadella",
+      "Piazza Maggiore",
+    ],
+  },
 };
 
 export default extrasEn;

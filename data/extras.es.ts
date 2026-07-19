@@ -624,6 +624,22 @@ const extrasEs: Record<string, CityExtras> = {
       "La leyenda de Drácula",
     ],
   },
+  bologna: {
+    citySlug: "bologna",
+    image: hero(38478884),
+    imageAlt:
+      "El mar de tejados de terracota y las torres medievales de Bolonia vistos desde arriba, con las colinas al fondo",
+    history:
+      "Bolonia empezó como la etrusca Felsina y luego como la romana Bononia, una ciudad de calzada sobre la Via Aemilia, y creció hasta ser una de las comunas más ricas e independientes de la Italia medieval. En 1088 fundó la universidad más antigua del mundo occidental, atrayendo a estudiantes de derecho de toda Europa y dando a la ciudad su carácter estudiantil duradero. Las familias rivales levantaron decenas de altas torres defensivas, de las que aún se alzan las inclinadas Asinelli y Garisenda, y la ciudad jalonó sus calles con los pórticos, hoy casi 40 km de ellos, que resguardan a los caminantes hasta el día de hoy. Ciudad papal durante mucho tiempo y más tarde, tras la unificación, bastión de la izquierda italiana, Bolonia conservó su núcleo medieval de ladrillo rojo en gran parte intacto a lo largo de los siglos y las guerras.",
+    knownFor: [
+      "Tagliatelle al ragu",
+      "Las Dos Torres",
+      "Los pórticos",
+      "La universidad más antigua",
+      "Mortadella",
+      "Piazza Maggiore",
+    ],
+  },
   valencia: {
     citySlug: "valencia",
     image: hero(33560408),

@@ -672,6 +672,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Strand von Sopot",
     ],
   },
+  bologna: {
+    citySlug: "bologna",
+    image: hero(38478884),
+    imageAlt:
+      "Bolognas Meer aus Terrakottadächern und mittelalterlichen Türmen von oben, mit den Hügeln dahinter",
+    history:
+      "Bologna begann als etruskisches Felsina und dann als römisches Bononia, eine Straßenstadt an der Via Aemilia, und wuchs zu einer der wohlhabendsten und unabhängigsten Kommunen des mittelalterlichen Italien heran. 1088 gründete es die älteste Universität der westlichen Welt, die Jurastudenten aus ganz Europa anzog und der Stadt ihren bleibenden studentischen Charakter gab. Rivalisierende Familien errichteten Dutzende hoher Wehrtürme, von denen die schiefen Asinelli und Garisenda noch stehen, und die Stadt säumte ihre Straßen mit den Arkaden, inzwischen fast 40 km davon, die Fußgänger bis heute beschützen. Lange eine päpstliche Stadt und später, nach der Einigung, eine Hochburg der italienischen Linken, bewahrte Bologna seinen mittelalterlichen Kern aus rotem Backstein über die Jahrhunderte und die Kriege hinweg weitgehend unversehrt.",
+    knownFor: [
+      "Tagliatelle al ragu",
+      "Die zwei Türme",
+      "Arkaden",
+      "Älteste Universität",
+      "Mortadella",
+      "Piazza Maggiore",
+    ],
+  },
 };
 
 export default extrasDe;

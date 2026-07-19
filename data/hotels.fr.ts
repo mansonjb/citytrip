@@ -2420,6 +2420,63 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Dortoir simple et lumineux avec des lits superposés",
   },
+  // ---- Bologna ----
+  {
+    slug: "grand-hotel-majestic-bologna",
+    citySlug: "bologna",
+    name: "Grand Hotel Majestic gia Baglioni",
+    neighborhoodSlug: "centro-storico",
+    band: "€€€",
+    priceFrom: 300,
+    style: "Cinq étoiles historique",
+    bestFor: "Grandes occasions",
+    blurb:
+      "Le grand cinq étoiles historique de la ville, juste à côté de la Via dell'Indipendenza, avec des chambres opulentes à fresques et un restaurant gastronomique. Il est à deux minutes à pied de la Piazza Maggiore et des tours, alors vous payez à la fois l'adresse et le vernis d'antan.",
+    image: px(262048),
+    imageAlt: "Suite opulente d'hôtel cinq étoiles classique",
+  },
+  {
+    slug: "art-hotel-novecento-bologna",
+    citySlug: "bologna",
+    name: "Art Hotel Novecento",
+    neighborhoodSlug: "centro-storico",
+    band: "€€",
+    priceFrom: 150,
+    style: "Boutique design central",
+    bestFor: "Couples",
+    blurb:
+      "Un élégant boutique-hôtel dans un bâtiment Sécession viennoise des années 1930 sur la tranquille Piazza Galileo, à quelques pas de la Piazza Maggiore. Les chambres sont calmes et à l'esprit design, et l'emplacement central mais en retrait tient à distance le bruit de la nuit.",
+    image: px(1267438),
+    imageAlt: "Chambre élégante de boutique-hôtel",
+  },
+  {
+    slug: "hotel-touring-bologna",
+    citySlug: "bologna",
+    name: "Hotel Touring",
+    neighborhoodSlug: "santo-stefano",
+    band: "€€",
+    priceFrom: 120,
+    style: "Hôtel à terrasse sur le toit",
+    bestFor: "Première visite",
+    blurb:
+      "Un hôtel de milieu de gamme accueillant juste au sud de la Piazza Maggiore, dans le calme quartier de Santo Stefano. Sa terrasse sur le toit dispose d'un petit bain à remous donnant sur les toits rouges, une touche rare à ce prix.",
+    image: px(2507010),
+    imageAlt: "Chambre d'hôtel confortable avec une terrasse sur le toit",
+  },
+  {
+    slug: "dopa-hostel-bologna",
+    citySlug: "bologna",
+    name: "Dopa Hostel",
+    neighborhoodSlug: "bolognina-centrale",
+    band: "€",
+    priceFrom: 30,
+    style: "Auberge design",
+    bestFor: "Petit budget",
+    blurb:
+      "Une auberge lumineuse et à l'esprit design près de la gare, avec des dortoirs et des chambres privées. C'est une base conviviale et bon marché, à une courte marche ou un trajet de monorail du centre, pratique pour les trains matinaux et l'aéroport.",
+    image: px(271624),
+    imageAlt: "Dortoir d'auberge moderne et lumineux",
+  },
 ];
 
 export default hotelsFr;

@@ -670,6 +670,22 @@ const extrasPt: Record<string, CityExtras> = {
       "Praia de Sopot",
     ],
   },
+  bologna: {
+    citySlug: "bologna",
+    image: hero(38478884),
+    imageAlt:
+      "O mar de telhados de terracota e as torres medievais de Bolonha vistos do alto, com as colinas ao fundo",
+    history:
+      "Bolonha começou como a etrusca Felsina e depois a romana Bononia, uma cidade de estrada na Via Aemilia, e cresceu até ser uma das comunas mais ricas e independentes da Itália medieval. Em 1088 fundou a universidade mais antiga do mundo ocidental, atraindo estudantes de direito de toda a Europa e dando à cidade o seu caráter estudantil duradouro. Famílias rivais ergueram dezenas de altas torres defensivas, das quais as inclinadas Asinelli e Garisenda ainda se mantêm de pé, e a cidade ladeou as suas ruas com os pórticos, hoje quase 40 km deles, que abrigam os caminhantes até aos dias de hoje. Durante muito tempo cidade papal e mais tarde, após a unificação, um bastião da esquerda italiana, Bolonha manteve o seu núcleo medieval de tijolo vermelho em grande parte intacto ao longo dos séculos e das guerras.",
+    knownFor: [
+      "Tagliatelle al ragu",
+      "As Duas Torres",
+      "Pórticos",
+      "Universidade mais antiga",
+      "Mortadela",
+      "Piazza Maggiore",
+    ],
+  },
 };
 
 export default extrasPt;

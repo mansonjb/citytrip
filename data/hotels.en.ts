@@ -2420,6 +2420,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright dorm room with bunk beds",
   },
+  // ---- Bologna ----
+  {
+    slug: "grand-hotel-majestic-bologna",
+    citySlug: "bologna",
+    name: "Grand Hotel Majestic gia Baglioni",
+    neighborhoodSlug: "centro-storico",
+    band: "€€€",
+    priceFrom: 300,
+    style: "Historic five-star",
+    bestFor: "Special occasions",
+    blurb:
+      "The city's grand old five-star just off Via dell'Indipendenza, with opulent frescoed rooms and a formal restaurant. It is a two-minute walk from Piazza Maggiore and the towers, so you pay for both the address and the old-world polish.",
+    image: px(262048),
+    imageAlt: "Opulent classic five-star hotel suite",
+  },
+  {
+    slug: "art-hotel-novecento-bologna",
+    citySlug: "bologna",
+    name: "Art Hotel Novecento",
+    neighborhoodSlug: "centro-storico",
+    band: "€€",
+    priceFrom: 150,
+    style: "Central design boutique",
+    bestFor: "Couples",
+    blurb:
+      "A stylish boutique hotel in a 1930s Viennese-Secession building on quiet Piazza Galileo, steps from Piazza Maggiore. Rooms are calm and design-led, and the central-yet-tucked-away location keeps the night noise down.",
+    image: px(1267438),
+    imageAlt: "Stylish boutique hotel room",
+  },
+  {
+    slug: "hotel-touring-bologna",
+    citySlug: "bologna",
+    name: "Hotel Touring",
+    neighborhoodSlug: "santo-stefano",
+    band: "€€",
+    priceFrom: 120,
+    style: "Rooftop-terrace hotel",
+    bestFor: "First visit",
+    blurb:
+      "A friendly mid-range hotel just south of Piazza Maggiore in the calm Santo Stefano quarter. Its rooftop terrace has a small hot tub looking out over the red rooftops, a rare touch at this price.",
+    image: px(2507010),
+    imageAlt: "Comfortable hotel room with a rooftop terrace",
+  },
+  {
+    slug: "dopa-hostel-bologna",
+    citySlug: "bologna",
+    name: "Dopa Hostel",
+    neighborhoodSlug: "bolognina-centrale",
+    band: "€",
+    priceFrom: 30,
+    style: "Design hostel",
+    bestFor: "Budget",
+    blurb:
+      "A bright, design-led hostel near the station with both dorms and private rooms. It is a sociable and cheap base a short walk or monorail ride from the centre, handy for early trains and the airport.",
+    image: px(271624),
+    imageAlt: "Bright modern hostel dorm room",
+  },
 ];
 
 export default hotelsEn;

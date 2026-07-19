@@ -672,6 +672,22 @@ const extrasFr: Record<string, CityExtras> = {
       "La plage de Sopot",
     ],
   },
+  bologna: {
+    citySlug: "bologna",
+    image: hero(38478884),
+    imageAlt:
+      "La mer de toits en terre cuite et les tours médiévales de Bologne vues d'en haut, les collines au loin",
+    history:
+      "Bologne commença comme la Felsina étrusque, puis la Bononia romaine, une ville-étape sur la Via Aemilia, et devint l'une des communes les plus riches et les plus indépendantes de l'Italie médiévale. En 1088, elle fonda la plus ancienne université du monde occidental, attirant des étudiants en droit de toute l'Europe et donnant à la ville son caractère estudiantin durable. Des familles rivales dressèrent des dizaines de hautes tours défensives, dont les tours penchées Asinelli et Garisenda tiennent encore debout, et la ville borda ses rues de portiques, aujourd'hui près de 40 km, qui abritent les promeneurs jusqu'à ce jour. Longtemps ville papale, puis, après l'unification, un bastion de la gauche italienne, Bologne conserva son coeur médiéval en brique rouge largement intact à travers les siècles et les guerres.",
+    knownFor: [
+      "Les tagliatelle al ragu",
+      "Les Deux Tours",
+      "Les portiques",
+      "La plus ancienne université",
+      "La mortadella",
+      "La Piazza Maggiore",
+    ],
+  },
 };
 
 export default extrasFr;

@@ -670,6 +670,22 @@ const extrasIt: Record<string, CityExtras> = {
       "La spiaggia di Sopot",
     ],
   },
+  bologna: {
+    citySlug: "bologna",
+    image: hero(38478884),
+    imageAlt:
+      "Il mare di tetti in cotto e le torri medievali di Bologna visti dall'alto, con le colline sullo sfondo",
+    history:
+      "Bologna nacque come l'etrusca Felsina e poi la romana Bononia, una città di strada sulla Via Emilia, e crebbe fino a diventare uno dei comuni più ricchi e indipendenti dell'Italia medievale. Nel 1088 fondò la più antica università del mondo occidentale, attirando studenti di diritto da tutta Europa e dando alla città il suo duraturo carattere studentesco. Le famiglie rivali eressero decine di alte torri difensive, delle quali le pendenti Asinelli e Garisenda sono ancora in piedi, e la città costeggiò le sue strade con i portici, ormai quasi 40 km, che riparano chi cammina ancora oggi. A lungo città papale e poi, dopo l'unità, roccaforte della sinistra italiana, Bologna mantenne il suo nucleo medievale in mattoni rossi in gran parte intatto attraverso i secoli e le guerre.",
+    knownFor: [
+      "Le tagliatelle al ragu",
+      "Le Due Torri",
+      "I portici",
+      "La più antica università",
+      "La mortadella",
+      "Piazza Maggiore",
+    ],
+  },
 };
 
 export default extrasIt;

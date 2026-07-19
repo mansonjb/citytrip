@@ -61,6 +61,7 @@ English at the root, plus /fr /pt /it /de. Every city page is translated; hrefla
 - /valencia (Valencia, Spain): ideal 3 days
 - /valletta (Valletta, Malta): ideal 3 days
 - /gdansk (Gdansk, Poland): ideal 2 days
+- /bologna (Bologna, Italy): ideal 2 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,
