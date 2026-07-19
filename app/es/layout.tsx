@@ -1,7 +1,19 @@
 import { LocaleChrome } from "@/app/_shared/chrome";
+import {
+  RootDocument,
+  baseMetadata,
+  baseViewport,
+} from "@/app/_shared/root-document";
+
+export const metadata = baseMetadata;
+export const viewport = baseViewport;
 
 export default function LocaleLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  return <LocaleChrome locale="es">{children}</LocaleChrome>;
+  return (
+    <RootDocument locale="es">
+      <LocaleChrome locale="es">{children}</LocaleChrome>
+    </RootDocument>
+  );
 }

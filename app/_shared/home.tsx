@@ -3,7 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { cities } from "@/data";
 import { getCityExtras } from "@/data/extras";
-import { CityFinder, type CityCardData } from "@/components/CityFinder";
+import { CityFinder } from "@/components/CityFinder";
+import { CityGrid, type CityCardData } from "@/components/CityGrid";
 import { FaqSection } from "@/components/FaqSection";
 import { JsonLd } from "@/components/JsonLd";
 import { faqSchema, itemListSchema } from "@/lib/seo";
@@ -22,7 +23,9 @@ const BUDGET_LABEL = { low: "€", mid: "€€", high: "€€€" } as const;
 export function makeHomeMetadata(locale: Locale): Metadata {
   const t = STR[locale].home;
   return {
-    title: t.metaTitle,
+    // absolute bypasses the "%s | Perfect City Break" template: t.metaTitle
+    // already carries the brand, so the template would duplicate it.
+    title: { absolute: t.metaTitle },
     description: t.metaDesc,
     alternates: {
       canonical: localePath(locale, "/"),
@@ -142,15 +145,20 @@ export function makeHomePage(locale: Locale) {
             </Link>
           </div>
           <CityFinder
-            cities={cardData}
             labels={{
               placeholder: t.home.searchPlaceholder,
               noResult: t.home.searchNoResult,
-              days: t.cityCard.days,
-              best: t.cityCard.best,
-              budget: t.cityCard.budget,
             }}
-          />
+          >
+            <CityGrid
+              cities={cardData}
+              labels={{
+                days: t.cityCard.days,
+                best: t.cityCard.best,
+                budget: t.cityCard.budget,
+              }}
+            />
+          </CityFinder>
         </section>
 
         {/* Departure board */}

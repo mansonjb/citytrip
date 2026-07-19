@@ -109,7 +109,8 @@ function ItineraryPage({
   const { city, pois, itineraries } = data;
   const t = STR[locale];
   const lp = (p: string) => localePath(locale, p);
-  const itinerary = itineraries.find((i) => i.days === days)!;
+  const itinerary = itineraries.find((i) => i.days === days);
+  if (!itinerary) notFound();
   const stay = getNeighborhood(city.slug, itinerary.stayNeighborhoodSlug, locale);
   const otherDurations = city.durations.filter((d) => d !== days);
   const path = `/${city.slug}/${days}-days`;
@@ -314,7 +315,8 @@ function MonthPage({
   const { city, pois } = data;
   const t = STR[locale];
   const lp = (p: string) => localePath(locale, p);
-  const m = monthByNum(month)!;
+  const m = monthByNum(month);
+  if (!m) notFound();
   const mName = monthName(locale, month);
   const climate = city.climate[month];
   const note = city.monthlyNotes[month];

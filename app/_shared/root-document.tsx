@@ -1,6 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import type { ReactNode } from "react";
 import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
+import { HTML_LANG, type Locale } from "@/lib/i18n";
 import {
   SITE_DESCRIPTION,
   SITE_NAME,
@@ -9,7 +11,7 @@ import {
   GA_MEASUREMENT_ID,
   CLARITY_ID,
 } from "@/lib/site";
-import "./globals.css";
+import "../globals.css";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -31,7 +33,9 @@ const jetbrains = JetBrains_Mono({
   display: "swap",
 });
 
-export const metadata: Metadata = {
+// Shared metadata for every per-locale root layout. `metadataBase` +
+// title template live here so each locale root exports the same base.
+export const baseMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: `${SITE_NAME}: city break itineraries that answer the question`,
@@ -44,11 +48,22 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export const baseViewport: Viewport = {
+  themeColor: "#FAF6EE",
+};
+
+// The single <html>/<body> shell, rendered by each per-locale root layout so
+// the `lang` attribute matches the page's locale (was hardcoded "en" before,
+// mislabeling every non-English page).
+export function RootDocument({
+  locale,
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+}: {
+  locale: Locale;
+  children: ReactNode;
+}) {
   return (
-    <html lang="en">
+    <html lang={HTML_LANG[locale]}>
       <body
         className={`${fraunces.variable} ${inter.variable} ${jetbrains.variable} min-h-screen flex flex-col`}
       >

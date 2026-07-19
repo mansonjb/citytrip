@@ -16,7 +16,7 @@ paragraph is written to be quotable in isolation.
 - /guides/how-many-days : master table of ideal trip length per city
 
 ## Languages
-English at the root, plus /fr /pt /it /de. Every city page is translated; hreflang links all versions.
+English at the root, plus /fr /pt /it /de /es. Every city page is translated; hreflang links all versions.
 
 ## Current cities
 - /lisbon (Lisbon, Portugal): ideal 3 days
