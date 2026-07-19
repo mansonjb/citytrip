@@ -656,6 +656,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Tagesausflüge nach Mdina",
     ],
   },
+  gdansk: {
+    citySlug: "gdansk",
+    image: hero(5273641),
+    imageAlt:
+      "Historische Giebelhäuser und eine vertäute Galeone am Motlawa-Ufer in Danzig",
+    history:
+      "Danzig wurde als hanseatischer Getreide- und Bernsteinhafen reich, Polens Tor zur Ostsee und über Jahrhunderte eine wohlhabende, halb unabhängige Stadt, die eifersüchtig über ihre eigenen Privilegien wachte, und zwischen den Kriegen wurde es zur Freien Stadt Danzig, weder ganz deutsch noch polnisch. Der Zweite Weltkrieg begann hier am 1. September 1939, als das deutsche Schlachtschiff Schleswig-Holstein das Feuer auf die polnische Garnison auf Westerplatte eröffnete und die Kämpfe sich über die Halbinsel ausbreiteten. Bis 1945 war die Stadt zu über 90 Prozent zerstört, und die hohen Giebelkaufmannshäuser des Langen Markts und der Mariacka, die Sie heute sehen, wurden mühevoll aus alten Zeichnungen und Fotografien wiederaufgebaut. 1980 lösten die Streiks in der Leninwerft, angeführt von einem Elektriker namens Lech Walesa, die Gewerkschaft Solidarnosc aus, die Bewegung, die den Kommunismus im ganzen Ostblock zu Fall bringen sollte.",
+    knownFor: [
+      "Langer Markt",
+      "Ostseebernstein",
+      "Marienkirche",
+      "Solidarnosc",
+      "Das Krantor",
+      "Strand von Sopot",
+    ],
+  },
 };
 
 export default extrasDe;

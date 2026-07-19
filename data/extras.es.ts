@@ -656,6 +656,22 @@ const extrasEs: Record<string, CityExtras> = {
       "Las excursiones a Mdina",
     ],
   },
+  gdansk: {
+    citySlug: "gdansk",
+    image: hero(5273641),
+    imageAlt:
+      "Casas de mercaderes con hastial histórico y un galeón amarrado en la ribera del Motlawa, en Gdansk",
+    history:
+      "Gdansk se enriqueció como puerto hanseático de grano y ámbar, la puerta de Polonia al Báltico y durante siglos una ciudad próspera y semiindependiente que guardaba con celo sus propios privilegios, y entre las guerras se convirtió en la Ciudad Libre de Danzig, ni del todo alemana ni del todo polaca. La Segunda Guerra Mundial empezó aquí el 1 de septiembre de 1939, cuando el acorazado alemán Schleswig-Holstein abrió fuego contra la guarnición polaca de Westerplatte y los combates se extendieron por la península. Hacia 1945 la ciudad estaba destruida en más de un 90 por ciento, y las altas casas de mercaderes con hastial del Mercado Largo y de Mariacka que ves hoy fueron reconstruidas con esmero a partir de dibujos y fotografías antiguas. En 1980, las huelgas del Astillero Lenin, lideradas por un electricista llamado Lech Walesa, dieron origen al sindicato Solidaridad, el movimiento que ayudaría a derribar el comunismo en todo el bloque del Este.",
+    knownFor: [
+      "El Mercado Largo",
+      "El ámbar báltico",
+      "La basílica de Santa Maria",
+      "Solidaridad",
+      "La Grúa",
+      "La playa de Sopot",
+    ],
+  },
 };
 
 export default extrasEs;

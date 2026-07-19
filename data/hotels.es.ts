@@ -2368,6 +2368,63 @@ const hotelsEs: Hotel[] = [
     image: px(271624),
     imageAlt: "Habitación de dormitorio compartido, sencilla y luminosa, con literas",
   },
+  // ---- Gdansk ----
+  {
+    slug: "hotel-podewils-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Podewils Old Town",
+    neighborhoodSlug: "granary-island",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Mansión barroca del puerto deportivo",
+    bestFor: "Ocasiones especiales",
+    blurb:
+      "Un pequeño hotel de lujo en una mansión barroca de 1728 en el puerto deportivo del Motlawa, con habitaciones amuebladas con antigüedades y suelos de parqué. Las mejores habitaciones miran directamente al otro lado del agua, hacia la grúa y la ribera del casco antiguo.",
+    image: px(262048),
+    imageAlt: "Elegante habitación de hotel clásica con mobiliario de anticuario",
+  },
+  {
+    slug: "hotel-gdansk-boutique",
+    citySlug: "gdansk",
+    name: "Hotel Gdansk Boutique",
+    neighborhoodSlug: "granary-island",
+    band: "€€",
+    priceFrom: 130,
+    style: "Boutique de ladrillo junto al agua",
+    bestFor: "Parejas",
+    blurb:
+      "Un hotel de diseño en un granero de ladrillo rojo reconvertido a orillas del Motlawa, con su propia fábrica de cerveza artesanal y vistas al puerto deportivo. Está a un paseo corto cruzando el puente hasta el Mercado Largo y las callejuelas del ámbar.",
+    image: px(1267438),
+    imageAlt: "Habitación con estilo en un granero de ladrillo reconvertido",
+  },
+  {
+    slug: "hotel-wolne-miasto-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Wolne Miasto",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€€",
+    priceFrom: 90,
+    style: "Hotel con historia del Glowne Miasto",
+    bestFor: "Primera visita",
+    blurb:
+      "Un hotel con carácter, ambientado para evocar la vieja Ciudad Libre de Danzig, justo en el Glowne Miasto. Está a un paso del Mercado Largo y de la nave del mercado cubierto, así que todo queda a pie.",
+    image: px(2507010),
+    imageAlt: "Cómoda habitación de hotel de estilo histórico",
+  },
+  {
+    slug: "stay-inn-hostel-gdansk",
+    citySlug: "gdansk",
+    name: "Stay Inn Hostel",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€",
+    priceFrom: 18,
+    style: "Hostal del Glowne Miasto",
+    bestFor: "Presupuesto ajustado",
+    blurb:
+      "Un hostal cordial y bien gestionado en el corazón del Glowne Miasto, con dormitorios compartidos y habitaciones privadas. Está a minutos de Santa Maria y de la ribera, una base barata y céntrica para los sitios.",
+    image: px(271624),
+    imageAlt: "Habitación de dormitorio compartido, sencilla y luminosa, con literas",
+  },
 ];
 
 export default hotelsEs;

@@ -2363,6 +2363,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright dorm room with bunk beds",
   },
+  // ---- Gdansk ----
+  {
+    slug: "hotel-podewils-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Podewils Old Town",
+    neighborhoodSlug: "granary-island",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Baroque marina mansion",
+    bestFor: "Special occasions",
+    blurb:
+      "A small luxury hotel in a 1728 Baroque mansion on the Motlawa marina, with antique-furnished rooms and parquet floors. The best rooms look straight across the water to the crane and the Old Town waterfront.",
+    image: px(262048),
+    imageAlt: "Elegant classic hotel room with antique furniture",
+  },
+  {
+    slug: "hotel-gdansk-boutique",
+    citySlug: "gdansk",
+    name: "Hotel Gdansk Boutique",
+    neighborhoodSlug: "granary-island",
+    band: "€€",
+    priceFrom: 130,
+    style: "Brick waterfront boutique",
+    bestFor: "Couples",
+    blurb:
+      "A design hotel in a converted red-brick granary on the Motlawa, with its own craft brewery and marina views. It is a short walk over the bridge to the Long Market and the amber lanes.",
+    image: px(1267438),
+    imageAlt: "Stylish room in a converted brick granary",
+  },
+  {
+    slug: "hotel-wolne-miasto-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Wolne Miasto",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€€",
+    priceFrom: 90,
+    style: "Main Town heritage hotel",
+    bestFor: "First visit",
+    blurb:
+      "A characterful hotel styled to evoke the old Free City of Danzig, right in the Main Town. It is steps from the Long Market and the covered market hall, so everything is on foot.",
+    image: px(2507010),
+    imageAlt: "Comfortable heritage-style hotel room",
+  },
+  {
+    slug: "stay-inn-hostel-gdansk",
+    citySlug: "gdansk",
+    name: "Stay Inn Hostel",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€",
+    priceFrom: 18,
+    style: "Main Town hostel",
+    bestFor: "Budget",
+    blurb:
+      "A friendly, well-run hostel in the heart of the Main Town with both dorms and private rooms. It is minutes from St Mary's and the riverfront, a cheap and central base for the sights.",
+    image: px(271624),
+    imageAlt: "Simple bright dorm room with bunk beds",
+  },
 ];
 
 export default hotelsEn;

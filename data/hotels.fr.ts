@@ -2363,6 +2363,63 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Dortoir simple et lumineux avec des lits superposés",
   },
+  // ---- Gdansk ----
+  {
+    slug: "hotel-podewils-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Podewils Old Town",
+    neighborhoodSlug: "granary-island",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Manoir baroque de la marina",
+    bestFor: "Grandes occasions",
+    blurb:
+      "Un petit hôtel de luxe dans un manoir baroque de 1728 sur la marina de la Motlawa, avec des chambres meublées d'antiquités et des parquets. Les plus belles chambres donnent droit sur l'eau vers la Grue et le front de la vieille ville.",
+    image: px(262048),
+    imageAlt: "Élégante chambre d'hôtel classique au mobilier ancien",
+  },
+  {
+    slug: "hotel-gdansk-boutique",
+    citySlug: "gdansk",
+    name: "Hotel Gdansk Boutique",
+    neighborhoodSlug: "granary-island",
+    band: "€€",
+    priceFrom: 130,
+    style: "Boutique de brique au bord de l'eau",
+    bestFor: "Couples",
+    blurb:
+      "Un hôtel de design dans un grenier de brique rouge réhabilité sur la Motlawa, avec sa propre brasserie artisanale et vue sur la marina. C'est une courte marche par le pont jusqu'au Long Marché et aux ruelles d'ambre.",
+    image: px(1267438),
+    imageAlt: "Chambre élégante dans un grenier de brique réhabilité",
+  },
+  {
+    slug: "hotel-wolne-miasto-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Wolne Miasto",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€€",
+    priceFrom: 90,
+    style: "Hôtel de caractère de la vieille ville marchande",
+    bestFor: "Première visite",
+    blurb:
+      "Un hôtel de caractère décoré pour évoquer l'ancienne ville libre de Danzig, en plein dans la vieille ville marchande. Il est à deux pas du Long Marché et de la halle couverte, alors tout est à pied.",
+    image: px(2507010),
+    imageAlt: "Chambre d'hôtel confortable au style patrimonial",
+  },
+  {
+    slug: "stay-inn-hostel-gdansk",
+    citySlug: "gdansk",
+    name: "Stay Inn Hostel",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€",
+    priceFrom: 18,
+    style: "Auberge de la vieille ville marchande",
+    bestFor: "Petit budget",
+    blurb:
+      "Une auberge sympathique et bien tenue au coeur de la vieille ville marchande, avec des dortoirs et des chambres privées. Elle est à quelques minutes de la basilique Sainte-Marie et du front de l'eau, une base bon marché et centrale pour les sites.",
+    image: px(271624),
+    imageAlt: "Dortoir simple et lumineux avec des lits superposés",
+  },
 ];
 
 export default hotelsFr;

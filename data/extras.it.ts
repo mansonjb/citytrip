@@ -654,6 +654,22 @@ const extrasIt: Record<string, CityExtras> = {
       "Le gite a Mdina",
     ],
   },
+  gdansk: {
+    citySlug: "gdansk",
+    image: hero(5273641),
+    imageAlt:
+      "Storiche case borghesi dai frontoni e un galeone ormeggiato sul lungofiume della Motlawa a Danzica",
+    history:
+      "Danzica si arricchì come porto anseatico del grano e dell'ambra, la porta della Polonia sul Baltico e per secoli una città ricca e semi-indipendente che custodiva gelosamente i propri privilegi, e tra le due guerre divenne la libera città di Danzig, né del tutto tedesca né polacca. La Seconda guerra mondiale cominciò qui il 1 settembre 1939, quando la corazzata tedesca Schleswig-Holstein aprì il fuoco sulla guarnigione polacca di Westerplatte e i combattimenti si estesero a tutta la penisola. Entro il 1945 la città era distrutta per oltre il 90 per cento, e le alte case di mercanti dai frontoni del Lungo Mercato e di Mariacka che si vedono oggi furono ricostruite con cura da vecchi disegni e fotografie. Nel 1980 gli scioperi al Cantiere Lenin, guidati da un elettricista di nome Lech Walesa, diedero vita al sindacato Solidarnosc, il movimento che avrebbe contribuito a far cadere il comunismo in tutto il blocco orientale.",
+    knownFor: [
+      "Il Lungo Mercato",
+      "L'ambra baltica",
+      "La basilica di Santa Maria",
+      "Solidarnosc",
+      "La Gru",
+      "La spiaggia di Sopot",
+    ],
+  },
 };
 
 export default extrasIt;

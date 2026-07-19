@@ -2360,6 +2360,63 @@ const hotelsPt: Hotel[] = [
     image: px(271624),
     imageAlt: "Dormitório simples e luminoso com beliches",
   },
+  // ---- Gdansk ----
+  {
+    slug: "hotel-podewils-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Podewils Old Town",
+    neighborhoodSlug: "granary-island",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Mansão barroca da marina",
+    bestFor: "Ocasiões especiais",
+    blurb:
+      "Um pequeno hotel de luxo numa mansão barroca de 1728 na marina do Motlawa, com quartos mobilados com antiguidades e pavimentos em parquet. Os melhores quartos dão diretamente para a água, para o guindaste e para a frente ribeirinha da Cidade Velha.",
+    image: px(262048),
+    imageAlt: "Quarto de hotel clássico e elegante com mobiliário antigo",
+  },
+  {
+    slug: "hotel-gdansk-boutique",
+    citySlug: "gdansk",
+    name: "Hotel Gdansk Boutique",
+    neighborhoodSlug: "granary-island",
+    band: "€€",
+    priceFrom: 130,
+    style: "Boutique de tijolo à beira-rio",
+    bestFor: "Casais",
+    blurb:
+      "Um hotel de design num celeiro de tijolo vermelho reconvertido no Motlawa, com a sua própria cervejaria artesanal e vistas para a marina. Fica a uma curta caminhada, atravessando a ponte, do Mercado Longo e das vielas do âmbar.",
+    image: px(1267438),
+    imageAlt: "Quarto elegante num celeiro de tijolo reconvertido",
+  },
+  {
+    slug: "hotel-wolne-miasto-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Wolne Miasto",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€€",
+    priceFrom: 90,
+    style: "Hotel de época na Cidade Principal",
+    bestFor: "Primeira visita",
+    blurb:
+      "Um hotel cheio de carácter, decorado para evocar a antiga Cidade Livre de Danzig, mesmo na Cidade Principal. Fica a poucos passos do Mercado Longo e do mercado coberto, por isso tudo se faz a pé.",
+    image: px(2507010),
+    imageAlt: "Quarto de hotel confortável de estilo de época",
+  },
+  {
+    slug: "stay-inn-hostel-gdansk",
+    citySlug: "gdansk",
+    name: "Stay Inn Hostel",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€",
+    priceFrom: 18,
+    style: "Hostel da Cidade Principal",
+    bestFor: "Económico",
+    blurb:
+      "Um hostel simpático e bem gerido no coração da Cidade Principal, com dormitórios e quartos privados. Fica a minutos da basílica de Santa Maria e da frente ribeirinha, uma base barata e central para as atracções.",
+    image: px(271624),
+    imageAlt: "Dormitório simples e luminoso com beliches",
+  },
 ];
 
 export default hotelsPt;

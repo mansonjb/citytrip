@@ -656,6 +656,22 @@ const extrasFr: Record<string, CityExtras> = {
       "Les excursions à Mdina",
     ],
   },
+  gdansk: {
+    citySlug: "gdansk",
+    image: hero(5273641),
+    imageAlt:
+      "Maisons de marchands à pignons historiques et un galion amarré sur le front de la Motlawa à Gdansk",
+    history:
+      "Gdansk s'enrichit comme port hanséatique de grain et d'ambre, la porte de la Pologne sur la Baltique et, pendant des siècles, une ville prospère et semi-indépendante qui gardait jalousement ses propres privilèges ; entre les deux guerres, elle devint la ville libre de Danzig, ni tout à fait allemande ni tout à fait polonaise. La Seconde Guerre mondiale commença ici le 1er septembre 1939, quand le cuirassé allemand Schleswig-Holstein ouvrit le feu sur la garnison polonaise de Westerplatte et que les combats se répandirent sur la péninsule. En 1945, la ville était détruite à plus de 90 pour cent, et les hautes maisons de marchands à pignons du Long Marché et de Mariacka que l'on voit aujourd'hui furent minutieusement reconstruites d'après de vieux dessins et photographies. En 1980, les grèves au chantier naval Lénine, menées par un électricien nommé Lech Walesa, lancèrent le syndicat Solidarité, le mouvement qui contribuerait à faire tomber le communisme dans tout le bloc de l'Est.",
+    knownFor: [
+      "Le Long Marché",
+      "L'ambre de la Baltique",
+      "La basilique Sainte-Marie",
+      "Solidarité",
+      "La Grue",
+      "La plage de Sopot",
+    ],
+  },
 };
 
 export default extrasFr;

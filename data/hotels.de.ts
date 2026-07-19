@@ -2366,6 +2366,64 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes helles Schlafsaalzimmer mit Etagenbetten",
   },
+
+  // ---- Gdansk ----
+  {
+    slug: "hotel-podewils-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Podewils Old Town",
+    neighborhoodSlug: "granary-island",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Barocke Marina-Villa",
+    bestFor: "Besondere Anlässe",
+    blurb:
+      "Ein kleines Luxushotel in einer barocken Villa von 1728 an der Motlawa-Marina, mit antik möblierten Zimmern und Parkettböden. Die besten Zimmer blicken geradewegs übers Wasser zum Krantor und zum Flussufer der Altstadt.",
+    image: px(262048),
+    imageAlt: "Elegantes klassisches Hotelzimmer mit antiken Möbeln",
+  },
+  {
+    slug: "hotel-gdansk-boutique",
+    citySlug: "gdansk",
+    name: "Hotel Gdansk Boutique",
+    neighborhoodSlug: "granary-island",
+    band: "€€",
+    priceFrom: 130,
+    style: "Backstein-Boutique am Flussufer",
+    bestFor: "Paare",
+    blurb:
+      "Ein Designhotel in einem umgebauten roten Backsteinspeicher an der Motlawa, mit eigener Handwerksbrauerei und Marinablick. Es ist ein kurzer Fußweg über die Brücke zum Langen Markt und zu den Bernsteingassen.",
+    image: px(1267438),
+    imageAlt: "Stilvolles Zimmer in einem umgebauten Backsteinspeicher",
+  },
+  {
+    slug: "hotel-wolne-miasto-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Wolne Miasto",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€€",
+    priceFrom: 90,
+    style: "Traditionshotel im Glowne Miasto",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein charaktervolles Hotel, gestaltet, um die alte Freie Stadt Danzig heraufzubeschwören, mitten im Glowne Miasto. Es liegt wenige Schritte vom Langen Markt und der überdachten Markthalle, sodass alles zu Fuß erreichbar ist.",
+    image: px(2507010),
+    imageAlt: "Komfortables Hotelzimmer im Traditionsstil",
+  },
+  {
+    slug: "stay-inn-hostel-gdansk",
+    citySlug: "gdansk",
+    name: "Stay Inn Hostel",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€",
+    priceFrom: 18,
+    style: "Hostel im Glowne Miasto",
+    bestFor: "Budget",
+    blurb:
+      "Ein freundliches, gut geführtes Hostel im Herzen des Glowne Miasto mit Schlafsälen und Privatzimmern. Es liegt Minuten von der Marienkirche und dem Flussufer entfernt, eine günstige und zentrale Basis für die Sehenswürdigkeiten.",
+    image: px(271624),
+    imageAlt: "Schlichtes helles Schlafsaalzimmer mit Etagenbetten",
+  },
 ];
 
 export default hotelsDe;

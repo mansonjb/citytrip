@@ -2362,6 +2362,63 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con letti a castello",
   },
+  // ---- Gdansk ----
+  {
+    slug: "hotel-podewils-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Podewils Old Town",
+    neighborhoodSlug: "granary-island",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Dimora barocca sul porticciolo",
+    bestFor: "Occasioni speciali",
+    blurb:
+      "Un piccolo hotel di lusso in una dimora barocca del 1728 sul porticciolo della Motlawa, con camere arredate d'antiquariato e pavimenti in parquet. Le camere migliori guardano dritte al di là dell'acqua verso la Gru e il lungofiume della Città Vecchia.",
+    image: px(262048),
+    imageAlt: "Elegante camera d'hotel classica con mobili d'antiquariato",
+  },
+  {
+    slug: "hotel-gdansk-boutique",
+    citySlug: "gdansk",
+    name: "Hotel Gdansk Boutique",
+    neighborhoodSlug: "granary-island",
+    band: "€€",
+    priceFrom: 130,
+    style: "Boutique in mattoni sul lungofiume",
+    bestFor: "Coppie",
+    blurb:
+      "Un design hotel in un granaio in mattoni rossi riconvertito sulla Motlawa, con un proprio birrificio artigianale e vista sul porticciolo. È a breve distanza a piedi oltre il ponte dal Lungo Mercato e dai vicoli dell'ambra.",
+    image: px(1267438),
+    imageAlt: "Camera di design in un granaio in mattoni riconvertito",
+  },
+  {
+    slug: "hotel-wolne-miasto-gdansk",
+    citySlug: "gdansk",
+    name: "Hotel Wolne Miasto",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€€",
+    priceFrom: 90,
+    style: "Hotel storico nel Glowne Miasto",
+    bestFor: "Prima visita",
+    blurb:
+      "Un hotel di carattere arredato per evocare la vecchia libera città di Danzig, proprio nel Glowne Miasto. È a pochi passi dal Lungo Mercato e dal mercato coperto, quindi tutto è raggiungibile a piedi.",
+    image: px(2507010),
+    imageAlt: "Comoda camera d'hotel in stile storico",
+  },
+  {
+    slug: "stay-inn-hostel-gdansk",
+    citySlug: "gdansk",
+    name: "Stay Inn Hostel",
+    neighborhoodSlug: "glowne-miasto",
+    band: "€",
+    priceFrom: 18,
+    style: "Ostello nel Glowne Miasto",
+    bestFor: "Budget",
+    blurb:
+      "Un ostello accogliente e ben gestito nel cuore del Glowne Miasto con dormitori e camere private. È a pochi minuti dalla basilica di Santa Maria e dal lungofiume, una base economica e centrale per le attrazioni.",
+    image: px(271624),
+    imageAlt: "Semplice dormitorio luminoso con letti a castello",
+  },
 ];
 
 export default hotelsIt;

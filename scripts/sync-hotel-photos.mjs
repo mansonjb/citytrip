@@ -42,6 +42,10 @@ const QUERY_OVERRIDE = {
   "the-saint-john-valletta": "The Saint John Hotel Valletta",
   "the-victoria-hotel-sliema": "The Victoria Hotel Sliema AX Hotels",
   "two-pillows-hostel-sliema": "Two Pillows Boutique Hostel Sliema",
+  "hotel-podewils-gdansk": "Hotel Podewils Old Town Gdansk Szafarnia",
+  "hotel-gdansk-boutique": "Hotel Gdansk Boutique Szafarnia",
+  "hotel-wolne-miasto-gdansk": "Hotel Wolne Miasto Old Town Gdansk",
+  "stay-inn-hostel-gdansk": "Stay Inn Hostel Gdansk Kaletnicza 6",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -84,6 +88,7 @@ const CITY_NAME = {
   bucharest: "Bucharest Romania",
   valencia: "Valencia Spain",
   valletta: "Valletta Malta",
+  gdansk: "Gdansk Poland",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

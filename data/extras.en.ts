@@ -655,6 +655,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Mdina day trips",
     ],
   },
+  gdansk: {
+    citySlug: "gdansk",
+    image: hero(5273641),
+    imageAlt:
+      "Historic gabled tenements and a moored galleon on the Motlawa riverfront in Gdansk",
+    history:
+      "Gdansk grew rich as a Hanseatic grain-and-amber port, Poland's gateway to the Baltic and for centuries a wealthy, semi-independent city that jealously guarded its own privileges, and between the wars it became the Free City of Danzig, neither fully German nor Polish. World War II began here on 1 September 1939, when the German battleship Schleswig-Holstein opened fire on the Polish garrison at Westerplatte and the fighting spread across the peninsula. By 1945 the city was over 90 percent destroyed, and the tall gabled merchant houses of the Long Market and Mariacka you see today were painstakingly rebuilt from old drawings and photographs. In 1980 the strikes at the Lenin Shipyard, led by an electrician named Lech Walesa, launched the Solidarity trade union, the movement that would help bring down communism across the Eastern bloc.",
+    knownFor: [
+      "Long Market",
+      "Baltic amber",
+      "St Mary's Church",
+      "Solidarity",
+      "The Crane",
+      "Sopot beach",
+    ],
+  },
 };
 
 export default extrasEn;
