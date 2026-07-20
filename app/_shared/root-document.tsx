@@ -37,10 +37,12 @@ const jetbrains = JetBrains_Mono({
 // title template live here so each locale root exports the same base.
 export const baseMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: {
-    default: `${SITE_NAME}: city break itineraries that answer the question`,
-    template: `%s | ${SITE_NAME}`,
-  },
+  // Plain-string title (no "%s | Perfect City Break" template): the deep
+  // programmatic titles are already keyword-rich (and long), so appending the
+  // brand only pushed them past the SERP truncation limit. Pages that set their
+  // own title use it verbatim; the home keeps the brand via title.absolute; and
+  // the brand still ships in openGraph.siteName and the domain shown in results.
+  title: `${SITE_NAME}: city break itineraries that answer the question`,
   description: SITE_DESCRIPTION,
   openGraph: {
     siteName: SITE_NAME,
