@@ -687,6 +687,38 @@ const extrasEn: Record<string, CityExtras> = {
       "Piazza Maggiore",
     ],
   },
+  sofia: {
+    citySlug: "sofia",
+    image: hero(28702047),
+    imageAlt:
+      "Gold and green copper domes of Alexander Nevsky Cathedral against a blue sky in Sofia",
+    history:
+      "Sofia sits on one of Europe's oldest inhabited sites, the Thracian and then Roman city of Serdica, whose streets and basilicas now surface between metro stations in the modern centre. Emperor Constantine the Great was fond of the place and is said to have called it 'my Rome', and the little red-brick St George Rotunda from the 4th century still stands in a courtyard behind the presidency. Five centuries of Ottoman rule left a mosque, mineral baths and market lanes, and when Sofia became the capital of newly liberated Bulgaria in 1879 it rebuilt itself with yellow-brick boulevards and the vast gold-domed Alexander Nevsky Cathedral. The Soviet decades added severe white monuments and wide squares, so a short walk today crosses Roman, Ottoman, Habsburg-style and socialist layers, all under the ski slopes of Mount Vitosha.",
+    knownFor: [
+      "Alexander Nevsky Cathedral",
+      "Roman Serdica ruins",
+      "Mount Vitosha",
+      "Free mineral springs",
+      "Yellow brick roads",
+      "Cheapest EU capital",
+    ],
+  },
+  belgrade: {
+    citySlug: "belgrade",
+    image: hero(17853057),
+    imageAlt:
+      "Belgrade Fortress and the Victor Monument above the Sava, with a floating splav at the quay",
+    history:
+      "Belgrade began as Roman Singidunum, a legionary camp guarding the meeting of the Sava and the Danube, and its position on that frontier has been its fortune and its curse ever since. For centuries it was the contested border between the Ottoman and Habsburg empires, besieged, razed and rebuilt dozens of times, which is why so little of the old city survives around the fortress that caused all the fighting. In the 20th century it served as capital of royal Yugoslavia, then of Tito's socialist federation and the Non-Aligned Movement he co-founded, and it was bombed in both world wars and again by NATO in 1999, whose ruined ministry buildings still stand on Kneza Milosa street. Today it is a fast-changing, sociable capital that wears all of those layers openly, from Ottoman relics to Yugoslav concrete to the new towers rising on the Sava.",
+    knownFor: [
+      "Kalemegdan Fortress",
+      "Splavovi nightlife",
+      "Temple of Saint Sava",
+      "Kafanas and rakija",
+      "Sava-Danube confluence",
+      "Cheap nights out",
+    ],
+  },
 };
 
 export default extrasEn;

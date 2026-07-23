@@ -686,6 +686,22 @@ const extrasIt: Record<string, CityExtras> = {
       "Piazza Maggiore",
     ],
   },
+  sofia: {
+    citySlug: "sofia",
+    image: hero(28702047),
+    imageAlt:
+      "Le cupole d'oro e di rame verde della cattedrale Alexander Nevsky contro un cielo azzurro a Sofia",
+    history:
+      "Sofia sorge su uno dei più antichi siti abitati d'Europa, la città tracia e poi romana di Serdica, le cui strade e basiliche riaffiorano oggi tra le stazioni della metropolitana nel centro moderno. L'imperatore Costantino il Grande amava il luogo e si dice lo chiamasse 'la mia Roma', e la piccola rotonda di San Giorgio in mattoni rossi del IV secolo sta ancora in piedi in un cortile dietro la presidenza. Cinque secoli di dominio ottomano lasciarono una moschea, bagni minerali e viuzze di mercato, e quando Sofia divenne la capitale della Bulgaria appena liberata nel 1879 si ricostruì con viali di mattoni gialli e la vasta cattedrale Alexander Nevsky dalle cupole d'oro. I decenni sovietici aggiunsero severi monumenti bianchi e ampie piazze, così oggi una breve passeggiata attraversa strati romani, ottomani, in stile asburgico e socialisti, tutti sotto le piste da sci del monte Vitosha.",
+    knownFor: [
+      "La cattedrale Alexander Nevsky",
+      "Le rovine romane di Serdica",
+      "Il monte Vitosha",
+      "Le sorgenti minerali gratuite",
+      "Le strade di mattoni gialli",
+      "La capitale UE più economica",
+    ],
+  },
 };
 
 export default extrasIt;

@@ -2476,6 +2476,64 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Luminoso dormitorio moderno di ostello",
   },
+
+  // ---- Sofia ----
+  {
+    slug: "intercontinental-sofia",
+    citySlug: "sofia",
+    name: "InterContinental Sofia",
+    neighborhoodSlug: "city-centre",
+    band: "€€€",
+    priceFrom: 220,
+    style: "Grand hotel raffinato",
+    bestFor: "Soggiorno di rappresentanza",
+    blurb:
+      "Il cinque stelle di punta di Sofia sulla piazza Narodno Sabranie, dove le camere d'angolo dei piani alti guardano dritte le cupole d'oro della cattedrale Alexander Nevsky. La spa ha una piscina coperta e il parlamento, il giardino cittadino e le rovine di Serdika sono tutti entro dieci minuti a piedi.",
+    image: px(262048),
+    imageAlt: "Suite d'hotel grandiosa ed elegante con lampadario e grande letto",
+  },
+  {
+    slug: "sense-hotel-sofia",
+    citySlug: "sofia",
+    name: "Sense Hotel Sofia",
+    neighborhoodSlug: "city-centre",
+    band: "€€",
+    priceFrom: 140,
+    style: "Design hotel con rooftop",
+    bestFor: "Amanti del design",
+    blurb:
+      "Un elegante design hotel dalla facciata di vetro sul viale Tsar Osvoboditel, noto soprattutto per il suo rooftop bar con vista frontale sulla cattedrale Alexander Nevsky al tramonto. Le camere sono minimali in bianco e legno scuro, e la posizione mette tutto il quartiere dei musei a portata di piedi.",
+    image: px(1267438),
+    imageAlt: "Camera minimalista di design hotel in toni scuri con luci soffuse",
+  },
+  {
+    slug: "crystal-palace-boutique-sofia",
+    citySlug: "sofia",
+    name: "Crystal Palace Boutique Hotel",
+    neighborhoodSlug: "oborishte",
+    band: "€€",
+    priceFrom: 90,
+    style: "Villa d'inizio Novecento restaurata",
+    bestFor: "Comfort tranquillo",
+    blurb:
+      "Un boutique hotel costruito attorno a una villa d'inizio Novecento restaurata sulla alberata via Shipka, a cinque minuti a piedi dalla cattedrale Alexander Nevsky. L'isolato del quartiere delle ambasciate è calmo di notte, e l'ampliamento in vetro mantiene la facciata d'epoca come proprio fulcro.",
+    image: px(279746),
+    imageAlt: "Camera d'hotel tradizionale con mobili in legno",
+  },
+  {
+    slug: "hostel-mostel-sofia",
+    citySlug: "sofia",
+    name: "Hostel Mostel",
+    neighborhoodSlug: "city-centre",
+    band: "€",
+    priceFrom: 15,
+    style: "Istituzione per backpacker",
+    bestFor: "Budget",
+    blurb:
+      "L'ostello per backpacker più noto di Sofia, in un'ex locanda ottocentesca sul viale Makedonia, a breve distanza a piedi dal viale Vitosha. La tariffa notturna include la colazione e una cena leggera, il che rende ancora più economica una città già a buon mercato.",
+    image: px(271624),
+    imageAlt: "Luminoso dormitorio moderno di ostello",
+  },
 ];
 
 export default hotelsIt;

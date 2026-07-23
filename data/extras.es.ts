@@ -688,6 +688,22 @@ const extrasEs: Record<string, CityExtras> = {
       "La playa de Sopot",
     ],
   },
+  sofia: {
+    citySlug: "sofia",
+    image: hero(28702047),
+    imageAlt:
+      "Cúpulas doradas y de cobre verde de la catedral de Alejandro Nevski contra un cielo azul en Sofía",
+    history:
+      "Sofía se asienta sobre uno de los lugares habitados más antiguos de Europa, la ciudad tracia y luego romana de Serdica, cuyas calles y basílicas afloran hoy entre estaciones de metro en el centro moderno. El emperador Constantino el Grande le tenía cariño al lugar y se dice que la llamaba 'mi Roma', y la pequeña rotonda de San Jorge de ladrillo rojo, del siglo IV, sigue en pie en un patio detrás de la Presidencia. Cinco siglos de dominio otomano dejaron una mezquita, baños minerales y callejas de mercado, y cuando Sofía se convirtió en capital de la Bulgaria recién liberada en 1879 se reconstruyó con bulevares de adoquín amarillo y la vasta catedral de Alejandro Nevski, de cúpulas doradas. Las décadas soviéticas añadieron severos monumentos blancos y plazas anchas, así que un paseo corto cruza hoy capas romanas, otomanas, de estilo habsburgués y socialistas, todo bajo las pistas de esquí del monte Vitosha.",
+    knownFor: [
+      "La catedral de Alejandro Nevski",
+      "Las ruinas romanas de Serdica",
+      "El monte Vitosha",
+      "Las fuentes minerales gratuitas",
+      "Los adoquines amarillos",
+      "La capital más barata de la UE",
+    ],
+  },
 };
 
 export default extrasEs;

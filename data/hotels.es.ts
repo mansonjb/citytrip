@@ -2482,6 +2482,64 @@ const hotelsEs: Hotel[] = [
     image: px(271624),
     imageAlt: "Habitación de dormitorio compartido moderna y luminosa",
   },
+
+  // ---- Sofia ----
+  {
+    slug: "intercontinental-sofia",
+    citySlug: "sofia",
+    name: "InterContinental Sofia",
+    neighborhoodSlug: "city-centre",
+    band: "€€€",
+    priceFrom: 220,
+    style: "Gran hotel refinado",
+    bestFor: "Estancia emblemática",
+    blurb:
+      "El cinco estrellas insignia de Sofía en la plaza Narodno Sabranie, donde las habitaciones altas de esquina miran directamente a las cúpulas doradas de la catedral de Alejandro Nevski. El spa tiene piscina cubierta y el parlamento, el jardín de la ciudad y las ruinas de Serdika quedan a menos de diez minutos a pie.",
+    image: px(262048),
+    imageAlt: "Suite de hotel grandiosa y elegante con una lámpara de araña y una cama grande",
+  },
+  {
+    slug: "sense-hotel-sofia",
+    citySlug: "sofia",
+    name: "Sense Hotel Sofia",
+    neighborhoodSlug: "city-centre",
+    band: "€€",
+    priceFrom: 140,
+    style: "Hotel de diseño con azotea",
+    bestFor: "Amantes del diseño",
+    blurb:
+      "Un elegante hotel de diseño con fachada de cristal en el bulevar Tsar Osvoboditel, conocido sobre todo por su bar en la azotea con vista frontal a la catedral de Alejandro Nevski al atardecer. Las habitaciones son minimalistas en blanco y madera oscura, y la ubicación pone todo el barrio de los museos a pie.",
+    image: px(1267438),
+    imageAlt: "Habitación de hotel de diseño minimalista en tonos oscuros con iluminación tenue",
+  },
+  {
+    slug: "crystal-palace-boutique-sofia",
+    citySlug: "sofia",
+    name: "Crystal Palace Boutique Hotel",
+    neighborhoodSlug: "oborishte",
+    band: "€€",
+    priceFrom: 90,
+    style: "Mansión de 1900 restaurada",
+    bestFor: "Confort tranquilo",
+    blurb:
+      "Un hotel boutique construido en torno a una mansión restaurada de principios del siglo XX en la arbolada calle Shipka, a cinco minutos a pie de la catedral de Alejandro Nevski. La manzana del distrito de las embajadas es tranquila de noche, y la ampliación de cristal conserva la fachada de época como pieza central.",
+    image: px(279746),
+    imageAlt: "Habitación de hotel tradicional con mobiliario de madera",
+  },
+  {
+    slug: "hostel-mostel-sofia",
+    citySlug: "sofia",
+    name: "Hostel Mostel",
+    neighborhoodSlug: "city-centre",
+    band: "€",
+    priceFrom: 15,
+    style: "Institución mochilera",
+    bestFor: "Presupuesto ajustado",
+    blurb:
+      "El hostal mochilero más conocido de Sofía, instalado en una antigua posada del siglo XIX en el bulevar Makedonia, a un corto paseo del bulevar Vitosha. La tarifa por noche incluye desayuno y una cena ligera, lo que hace aún más barata una ciudad ya de por sí barata.",
+    image: px(271624),
+    imageAlt: "Habitación de dormitorio compartido moderna y luminosa",
+  },
 ];
 
 export default hotelsEs;

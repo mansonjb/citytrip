@@ -97,6 +97,7 @@ const CITY_NAME = {
   valletta: "Valletta Malta",
   gdansk: "Gdansk Poland",
   bologna: "Bologna Italy",
+  sofia: "Sofia Bulgaria",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

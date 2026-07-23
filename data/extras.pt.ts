@@ -686,6 +686,22 @@ const extrasPt: Record<string, CityExtras> = {
       "Piazza Maggiore",
     ],
   },
+  sofia: {
+    citySlug: "sofia",
+    image: hero(28702047),
+    imageAlt:
+      "Cúpulas douradas e de cobre verde da Catedral de Alexander Nevsky contra um céu azul em Sófia",
+    history:
+      "Sófia assenta num dos sítios habitados mais antigos da Europa, a cidade trácia e depois romana de Serdica, cujas ruas e basílicas afloram hoje entre as estações de metro do centro moderno. O imperador Constantino, o Grande, tinha um fraco pelo lugar e ter-lhe-á chamado 'a minha Roma', e a pequena Rotunda de São Jorge em tijolo vermelho, do século IV, ainda se mantém de pé num pátio atrás da presidência. Cinco séculos de domínio otomano deixaram uma mesquita, banhos minerais e ruelas de mercado, e quando Sófia se tornou a capital da Bulgária recém-libertada, em 1879, reconstruiu-se com avenidas de tijolo amarelo e a vasta Catedral de Alexander Nevsky de cúpulas douradas. As décadas soviéticas acrescentaram monumentos brancos e austeros e praças largas, por isso uma curta caminhada atravessa hoje camadas romanas, otomanas, de estilo habsburgo e socialistas, tudo sob as pistas de esqui do monte Vitosha.",
+    knownFor: [
+      "Catedral de Alexander Nevsky",
+      "Ruínas romanas de Serdica",
+      "Monte Vitosha",
+      "Nascentes minerais gratuitas",
+      "Ruas de tijolo amarelo",
+      "Capital mais barata da UE",
+    ],
+  },
 };
 
 export default extrasPt;

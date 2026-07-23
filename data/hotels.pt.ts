@@ -2474,6 +2474,64 @@ const hotelsPt: Hotel[] = [
     image: px(271624),
     imageAlt: "Dormitório de hostel moderno e luminoso",
   },
+
+  // ---- Sófia ----
+  {
+    slug: "intercontinental-sofia",
+    citySlug: "sofia",
+    name: "InterContinental Sofia",
+    neighborhoodSlug: "city-centre",
+    band: "€€€",
+    priceFrom: 220,
+    style: "Grande hotel polido",
+    bestFor: "Estadia emblemática",
+    blurb:
+      "O cinco estrelas de referência de Sófia, na praça Narodno Sabranie, onde os quartos de esquina dos pisos superiores olham diretamente para as cúpulas douradas da Catedral de Alexander Nevsky. O spa tem piscina interior e o parlamento, o jardim da cidade e as ruínas de Serdika ficam todos a menos de dez minutos a pé.",
+    image: px(262048),
+    imageAlt: "Suíte de hotel grandiosa e elegante com lustre e cama ampla",
+  },
+  {
+    slug: "sense-hotel-sofia",
+    citySlug: "sofia",
+    name: "Sense Hotel Sofia",
+    neighborhoodSlug: "city-centre",
+    band: "€€",
+    priceFrom: 140,
+    style: "Hotel de design com rooftop",
+    bestFor: "Amantes de design",
+    blurb:
+      "Um elegante hotel de design com fachada de vidro no Boulevard Tsar Osvoboditel, mais conhecido pelo seu bar de rooftop com vista frontal para a Catedral de Alexander Nevsky ao pôr do sol. Os quartos são minimalistas em branco e madeira escura, e a localização põe todo o quarteirão dos museus a pé.",
+    image: px(1267438),
+    imageAlt: "Quarto de hotel de design minimalista em tons escuros com luz baixa",
+  },
+  {
+    slug: "crystal-palace-boutique-sofia",
+    citySlug: "sofia",
+    name: "Crystal Palace Boutique Hotel",
+    neighborhoodSlug: "oborishte",
+    band: "€€",
+    priceFrom: 90,
+    style: "Mansão de 1900 restaurada",
+    bestFor: "Conforto sossegado",
+    blurb:
+      "Um hotel boutique construído à volta de uma mansão restaurada do início de 1900, na arborizada rua Shipka, a cinco minutos a pé da Catedral de Alexander Nevsky. O quarteirão do bairro das embaixadas é calmo à noite, e a extensão de vidro mantém a fachada de época como peça central.",
+    image: px(279746),
+    imageAlt: "Quarto de hotel tradicional com mobiliário de madeira",
+  },
+  {
+    slug: "hostel-mostel-sofia",
+    citySlug: "sofia",
+    name: "Hostel Mostel",
+    neighborhoodSlug: "city-centre",
+    band: "€",
+    priceFrom: 15,
+    style: "Instituição backpacker",
+    bestFor: "Económico",
+    blurb:
+      "O hostel de mochileiros mais conhecido de Sófia, instalado numa antiga estalagem do século XIX no Boulevard Makedonia, a curta caminhada do Boulevard Vitosha. A tarifa por noite inclui pequeno-almoço e uma refeição ligeira ao serão, o que torna uma cidade já barata ainda mais barata.",
+    image: px(271624),
+    imageAlt: "Dormitório de hostel moderno e luminoso",
+  },
 ];
 
 export default hotelsPt;

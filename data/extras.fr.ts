@@ -688,6 +688,22 @@ const extrasFr: Record<string, CityExtras> = {
       "La Piazza Maggiore",
     ],
   },
+  sofia: {
+    citySlug: "sofia",
+    image: hero(28702047),
+    imageAlt:
+      "Les dômes dorés et vert cuivre de la cathédrale Alexandre-Nevski sur fond de ciel bleu à Sofia",
+    history:
+      "Sofia occupe l'un des plus anciens sites habités d'Europe, la ville thrace puis romaine de Serdica, dont les rues et les basiliques affleurent aujourd'hui entre les stations de métro du centre moderne. L'empereur Constantin le Grand affectionnait l'endroit et l'aurait appelé « ma Rome », et la petite rotonde Saint-Georges en brique rouge du 4e siècle tient toujours debout dans une cour derrière la présidence. Cinq siècles de domination ottomane ont laissé une mosquée, des bains minéraux et des ruelles marchandes, et quand Sofia devint la capitale de la Bulgarie fraîchement libérée en 1879, elle se rebâtit avec des boulevards pavés de briques jaunes et l'immense cathédrale Alexandre-Nevski aux dômes dorés. Les décennies soviétiques ont ajouté des monuments blancs austères et de larges places, si bien qu'une courte promenade traverse aujourd'hui des strates romaines, ottomanes, d'inspiration habsbourgeoise et socialistes, le tout sous les pistes de ski du mont Vitosha.",
+    knownFor: [
+      "La cathédrale Alexandre-Nevski",
+      "Les ruines romaines de Serdica",
+      "Le mont Vitosha",
+      "Les sources minérales gratuites",
+      "Les pavés de briques jaunes",
+      "La capitale la moins chère de l'UE",
+    ],
+  },
 };
 
 export default extrasFr;

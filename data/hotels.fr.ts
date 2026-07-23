@@ -2477,6 +2477,63 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Dortoir d'auberge moderne et lumineux",
   },
+  // ---- Sofia ----
+  {
+    slug: "intercontinental-sofia",
+    citySlug: "sofia",
+    name: "InterContinental Sofia",
+    neighborhoodSlug: "city-centre",
+    band: "€€€",
+    priceFrom: 220,
+    style: "Grand hôtel raffiné",
+    bestFor: "Séjour d'exception",
+    blurb:
+      "Le cinq étoiles phare de Sofia sur la place Narodno Sabranie, où les chambres d'angle des étages supérieurs regardent droit vers les dômes dorés de la cathédrale Alexandre-Nevski. Le spa dispose d'une piscine intérieure, et le parlement, le Jardin de la ville et les ruines de Serdica sont tous à moins de dix minutes à pied.",
+    image: px(262048),
+    imageAlt: "Grande suite d'hôtel élégante avec lustre et grand lit",
+  },
+  {
+    slug: "sense-hotel-sofia",
+    citySlug: "sofia",
+    name: "Sense Hotel Sofia",
+    neighborhoodSlug: "city-centre",
+    band: "€€",
+    priceFrom: 140,
+    style: "Hôtel design avec toit-terrasse",
+    bestFor: "Amateurs de design",
+    blurb:
+      "Un élégant hôtel design à la façade de verre sur le boulevard Tsar Osvoboditel, surtout connu pour son bar sur le toit avec une vue frontale sur la cathédrale Alexandre-Nevski au coucher du soleil. Les chambres sont épurées, en blanc et bois sombre, et l'emplacement met tout le quartier des musées à portée de marche.",
+    image: px(1267438),
+    imageAlt: "Chambre d'hôtel design épurée aux tons sombres et à l'éclairage tamisé",
+  },
+  {
+    slug: "crystal-palace-boutique-sofia",
+    citySlug: "sofia",
+    name: "Crystal Palace Boutique Hotel",
+    neighborhoodSlug: "oborishte",
+    band: "€€",
+    priceFrom: 90,
+    style: "Demeure 1900 restaurée",
+    bestFor: "Confort au calme",
+    blurb:
+      "Un boutique-hôtel bâti autour d'une demeure du début des années 1900 restaurée, sur la verdoyante rue Shipka, à cinq minutes à pied de la cathédrale Alexandre-Nevski. Le pâté de maisons du quartier des ambassades est calme la nuit, et l'extension de verre garde la façade d'époque comme pièce maîtresse.",
+    image: px(279746),
+    imageAlt: "Chambre d'hôtel traditionnelle avec mobilier en bois",
+  },
+  {
+    slug: "hostel-mostel-sofia",
+    citySlug: "sofia",
+    name: "Hostel Mostel",
+    neighborhoodSlug: "city-centre",
+    band: "€",
+    priceFrom: 15,
+    style: "Institution routarde",
+    bestFor: "Petit budget",
+    blurb:
+      "L'auberge de routards la plus connue de Sofia, installée dans un ancien relais du 19e siècle sur le boulevard Makedonia, à une courte marche du boulevard Vitosha. Le tarif de la nuit inclut le petit déjeuner et un repas léger le soir, ce qui rend encore moins chère une ville déjà bon marché.",
+    image: px(271624),
+    imageAlt: "Dortoir d'auberge moderne et lumineux",
+  },
 ];
 
 export default hotelsFr;

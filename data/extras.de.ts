@@ -688,6 +688,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Piazza Maggiore",
     ],
   },
+  sofia: {
+    citySlug: "sofia",
+    image: hero(28702047),
+    imageAlt:
+      "Goldene und grüne Kupferkuppeln der Alexander-Newski-Kathedrale vor blauem Himmel in Sofia",
+    history:
+      "Sofia liegt auf einem der ältesten bewohnten Orte Europas, der thrakischen und dann römischen Stadt Serdica, deren Straßen und Basiliken heute zwischen den Metrostationen im modernen Zentrum an die Oberfläche treten. Kaiser Konstantin der Große schätzte den Ort und soll ihn 'mein Rom' genannt haben, und die kleine Georgs-Rotunde aus rotem Backstein aus dem 4. Jahrhundert steht noch immer in einem Hof hinter dem Präsidentenamt. Fünf Jahrhunderte osmanischer Herrschaft hinterließen eine Moschee, Mineralbäder und Marktgassen, und als Sofia 1879 Hauptstadt des neu befreiten Bulgariens wurde, baute es sich mit Boulevards aus gelbem Klinker und der gewaltigen goldbekuppelten Alexander-Newski-Kathedrale neu auf. Die sowjetischen Jahrzehnte fügten strenge weiße Monumente und weite Plätze hinzu, ein kurzer Spaziergang durchquert heute also römische, osmanische, habsburgisch geprägte und sozialistische Schichten, alles unter den Skipisten des Witoscha.",
+    knownFor: [
+      "Alexander-Newski-Kathedrale",
+      "Römische Serdica-Ruinen",
+      "Der Witoscha",
+      "Kostenlose Mineralquellen",
+      "Gelbe Klinkerstraßen",
+      "Günstigste EU-Hauptstadt",
+    ],
+  },
 };
 
 export default extrasDe;

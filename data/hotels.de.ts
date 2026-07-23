@@ -2482,6 +2482,64 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Helles modernes Hostel-Schlafsaalzimmer",
   },
+
+  // ---- Sofia ----
+  {
+    slug: "intercontinental-sofia",
+    citySlug: "sofia",
+    name: "InterContinental Sofia",
+    neighborhoodSlug: "city-centre",
+    band: "€€€",
+    priceFrom: 220,
+    style: "Poliertes Grandhotel",
+    bestFor: "Aufenthalt mit Aussicht",
+    blurb:
+      "Sofias Fünf-Sterne-Flaggschiff am Narodno-Sabranie-Platz, dessen obere Eckzimmer direkt auf die goldenen Kuppeln der Alexander-Newski-Kathedrale blicken. Das Spa hat einen Innenpool, und das Parlament, der Stadtgarten und die Serdika-Ruinen liegen alle in zehn Gehminuten.",
+    image: px(262048),
+    imageAlt: "Große elegante Hotelsuite mit Kronleuchter und breitem Bett",
+  },
+  {
+    slug: "sense-hotel-sofia",
+    citySlug: "sofia",
+    name: "Sense Hotel Sofia",
+    neighborhoodSlug: "city-centre",
+    band: "€€",
+    priceFrom: 140,
+    style: "Designhotel mit Rooftop",
+    bestFor: "Designliebhaber",
+    blurb:
+      "Ein schnittiges Designhotel mit Glasfront am Zar-Osvoboditel-Boulevard, am bekanntesten für seine Rooftop-Bar mit direktem Blick auf die Alexander-Newski-Kathedrale bei Sonnenuntergang. Die Zimmer sind minimalistisch in Weiß und dunklem Holz, und die Lage bringt das ganze Museumsviertel in Gehweite.",
+    image: px(1267438),
+    imageAlt: "Minimalistisches Designhotelzimmer in dunklen Tönen mit gedämpftem Licht",
+  },
+  {
+    slug: "crystal-palace-boutique-sofia",
+    citySlug: "sofia",
+    name: "Crystal Palace Boutique Hotel",
+    neighborhoodSlug: "oborishte",
+    band: "€€",
+    priceFrom: 90,
+    style: "Restaurierte Villa von 1900",
+    bestFor: "Ruhiger Komfort",
+    blurb:
+      "Ein Boutiquehotel, gebaut um eine restaurierte Villa aus den frühen 1900er Jahren an der begrünten Shipka-Straße, fünf Gehminuten von der Alexander-Newski-Kathedrale. Der Block im Botschaftsviertel ist nachts ruhig, und der Glasanbau lässt die historische Fassade das Herzstück bleiben.",
+    image: px(279746),
+    imageAlt: "Traditionelles Hotelzimmer mit Holzmöbeln",
+  },
+  {
+    slug: "hostel-mostel-sofia",
+    citySlug: "sofia",
+    name: "Hostel Mostel",
+    neighborhoodSlug: "city-centre",
+    band: "€",
+    priceFrom: 15,
+    style: "Backpacker-Institution",
+    bestFor: "Budget",
+    blurb:
+      "Sofias bekanntestes Backpacker-Hostel in einem ehemaligen Gasthof aus dem 19. Jahrhundert am Makedonia-Boulevard, einen kurzen Fußweg vom Witoscha-Boulevard. Der Übernachtungspreis schließt Frühstück und eine leichte Abendmahlzeit ein, was eine ohnehin günstige Stadt noch günstiger macht.",
+    image: px(271624),
+    imageAlt: "Helles modernes Hostel-Schlafsaalzimmer",
+  },
 ];
 
 export default hotelsDe;
