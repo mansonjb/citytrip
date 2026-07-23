@@ -704,6 +704,22 @@ const extrasFr: Record<string, CityExtras> = {
       "La capitale la moins chère de l'UE",
     ],
   },
+  belgrade: {
+    citySlug: "belgrade",
+    image: hero(17853057),
+    imageAlt:
+      "La forteresse de Belgrade et le monument Pobednik au-dessus de la Sava, avec un splav amarré au quai",
+    history:
+      "Belgrade débuta comme la Singidunum romaine, un camp de légionnaires gardant la rencontre de la Sava et du Danube, et sa position sur cette frontière fait sa fortune et sa malédiction depuis lors. Pendant des siècles, elle fut la frontière disputée entre les empires ottoman et habsbourgeois, assiégée, rasée et reconstruite des dizaines de fois, ce qui explique qu'il subsiste si peu de la vieille ville autour de la forteresse qui causa tous ces combats. Au XXe siècle, elle fut la capitale de la Yougoslavie royale, puis de la fédération socialiste de Tito et du Mouvement des non-alignés qu'il cofonda, et elle fut bombardée lors des deux guerres mondiales puis de nouveau par l'OTAN en 1999, dont les ministères en ruine tiennent toujours debout rue Kneza Milosa. Aujourd'hui, c'est une capitale conviviale en pleine mutation qui porte ouvertement toutes ces strates, des reliques ottomanes au béton yougoslave jusqu'aux nouvelles tours qui s'élèvent sur la Sava.",
+    knownFor: [
+      "La forteresse de Kalemegdan",
+      "La vie nocturne des splavovi",
+      "Le temple Saint-Sava",
+      "Les kafanas et la rakija",
+      "Le confluent Sava-Danube",
+      "Les sorties bon marché",
+    ],
+  },
 };
 
 export default extrasFr;

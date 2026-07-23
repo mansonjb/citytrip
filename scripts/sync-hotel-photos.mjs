@@ -50,6 +50,10 @@ const QUERY_OVERRIDE = {
   "art-hotel-novecento-bologna": "Art Hotel Novecento Piazza Galilei 4 Bologna",
   "hotel-touring-bologna": "Hotel Touring Bologna Via de Mattuiani",
   "dopa-hostel-bologna": "Dopa Hostel Bologna Via Irnerio",
+  "square-nine-belgrade": "Square Nine Hotel Belgrade Studentski Trg",
+  "hotel-moskva-belgrade": "Hotel Moskva Belgrade Terazije",
+  "mama-shelter-belgrade": "Mama Shelter Belgrade Knez Mihailova",
+  "hostel-bongo-belgrade": "Hostel Bongo Belgrade",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -60,7 +64,13 @@ const QUERY_OVERRIDE = {
 // art-hotel-novecento-bologna: Google Places keeps returning its sister property
 // "Art Hotel Commercianti" (same Bologna Art Hotels group), so it stays on the
 // stock fallback rather than show the wrong building.
-const SKIP = new Set(["la-maison-hotel-munich", "art-hotel-novecento-bologna"]);
+// hostel-bongo-belgrade: Google's first image is an aerial cityscape of a large
+// building, not the hostel, so it stays on the stock dorm fallback.
+const SKIP = new Set([
+  "la-maison-hotel-munich",
+  "art-hotel-novecento-bologna",
+  "hostel-bongo-belgrade",
+]);
 
 const CITY_NAME = {
   lisbon: "Lisbon",
@@ -98,6 +108,7 @@ const CITY_NAME = {
   gdansk: "Gdansk Poland",
   bologna: "Bologna Italy",
   sofia: "Sofia Bulgaria",
+  belgrade: "Belgrade Serbia",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

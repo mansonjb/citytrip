@@ -704,6 +704,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Günstigste EU-Hauptstadt",
     ],
   },
+  belgrade: {
+    citySlug: "belgrade",
+    image: hero(17853057),
+    imageAlt:
+      "Belgrader Festung und das Pobednik-Denkmal über der Sava, mit einem schwimmenden splav am Kai",
+    history:
+      "Belgrad begann als römisches Singidunum, ein Legionslager, das den Treffpunkt von Sava und Donau bewachte, und seine Lage an dieser Grenze war seither sein Glück und sein Fluch. Jahrhundertelang war es die umkämpfte Grenze zwischen dem Osmanischen und dem Habsburger Reich, belagert, geschleift und Dutzende Male wiederaufgebaut, weshalb rund um die Festung, die all die Kämpfe auslöste, so wenig von der alten Stadt überlebt. Im 20. Jahrhundert diente es als Hauptstadt des königlichen Jugoslawien, dann von Titos sozialistischer Föderation und der von ihm mitbegründeten Bewegung der Blockfreien, und es wurde in beiden Weltkriegen bombardiert und 1999 erneut von der NATO, deren zerstörte Ministeriumsgebäude noch immer an der Straße Kneza Milosa stehen. Heute ist es eine sich schnell wandelnde, gesellige Hauptstadt, die all diese Schichten offen trägt, von osmanischen Relikten über jugoslawischen Beton bis zu den neuen Türmen, die an der Sava emporwachsen.",
+    knownFor: [
+      "Kalemegdan-Festung",
+      "Splavovi-Nachtleben",
+      "Sava-Tempel",
+      "Kafanas und rakija",
+      "Sava-Donau-Zusammenfluss",
+      "Günstige Ausgehnächte",
+    ],
+  },
 };
 
 export default extrasDe;

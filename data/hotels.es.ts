@@ -2540,6 +2540,63 @@ const hotelsEs: Hotel[] = [
     image: px(271624),
     imageAlt: "Habitación de dormitorio compartido moderna y luminosa",
   },
+  // ---- Belgrade ----
+  {
+    slug: "square-nine-belgrade",
+    citySlug: "belgrade",
+    name: "Square Nine",
+    neighborhoodSlug: "stari-grad",
+    band: "€€€",
+    priceFrom: 220,
+    style: "Hotel de diseño de cinco estrellas",
+    bestFor: "Ocasiones especiales",
+    blurb:
+      "El hotel de diseño de referencia de la ciudad, en Studentski Trg, todo nogal cálido y latón, con un spa serio y piscina abajo y un restaurante japonés en la azotea. Knez Mihailova y la fortaleza de Kalemegdan quedan a dos minutos a pie de la puerta.",
+    image: px(262048),
+    imageAlt: "Habitación de hotel de diseño revestida de cálido nogal",
+  },
+  {
+    slug: "hotel-moskva-belgrade",
+    citySlug: "belgrade",
+    name: "Hotel Moskva",
+    neighborhoodSlug: "stari-grad",
+    band: "€€",
+    priceFrom: 120,
+    style: "Gran dama de 1908",
+    bestFor: "Primera visita",
+    blurb:
+      "El emblema Art Nouveau de azulejos verdes de la plaza Terazije lleva sirviendo café y porciones de su famosa tarta Moskva schnitt desde 1908. Las habitaciones son clásicas más que vanguardistas, y todo el centro queda a pie desde la escalinata de entrada.",
+    image: px(1267438),
+    imageAlt: "Habitación clásica de gran hotel con mobiliario de época",
+  },
+  {
+    slug: "mama-shelter-belgrade",
+    citySlug: "belgrade",
+    name: "Mama Shelter Belgrade",
+    neighborhoodSlug: "stari-grad",
+    band: "€€",
+    priceFrom: 90,
+    style: "Hotel de diseño desenfadado",
+    bestFor: "Parejas",
+    blurb:
+      "La desenfadada marca de diseño se asienta justo en Knez Mihailova, con una gran terraza en la azotea que mira por encima de los tejados hacia la fortaleza y un bar que sigue animado hasta tarde. Las habitaciones son compactas, coloridas y de buen precio para la ubicación.",
+    image: px(2507010),
+    imageAlt: "Habitación de hotel de diseño moderna y colorida",
+  },
+  {
+    slug: "hostel-bongo-belgrade",
+    citySlug: "belgrade",
+    name: "Hostel Bongo",
+    neighborhoodSlug: "savamala-waterfront",
+    band: "€",
+    priceFrom: 15,
+    style: "Hostal céntrico y acogedor",
+    bestFor: "Presupuesto ajustado",
+    blurb:
+      "Un hostal sociable y bien gestionado entre el casco antiguo y la ribera del Sava, con dormitorios compartidos y habitaciones privadas a algunas de las tarifas más bajas del centro. Knez Mihailova y el paseo del Sava quedan cada uno a pocos minutos a pie.",
+    image: px(271624),
+    imageAlt: "Habitación de dormitorio compartido sencilla y luminosa con literas",
+  },
 ];
 
 export default hotelsEs;

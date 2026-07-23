@@ -704,6 +704,22 @@ const extrasEs: Record<string, CityExtras> = {
       "La capital más barata de la UE",
     ],
   },
+  belgrade: {
+    citySlug: "belgrade",
+    image: hero(17853057),
+    imageAlt:
+      "La fortaleza de Belgrado y el monumento al Vencedor sobre el Sava, con un splav flotante en el muelle",
+    history:
+      "Belgrado empezó como la romana Singidunum, un campamento legionario que guardaba el encuentro del Sava y el Danubio, y su posición en esa frontera ha sido su fortuna y su maldición desde entonces. Durante siglos fue la disputada frontera entre los imperios otomano y habsbúrguico, asediada, arrasada y reconstruida decenas de veces, y por eso sobrevive tan poco de la vieja ciudad en torno a la fortaleza que causó todos los combates. En el siglo XX sirvió como capital de la Yugoslavia real, luego de la federación socialista de Tito y del Movimiento de Países No Alineados que él cofundó, y fue bombardeada en ambas guerras mundiales y de nuevo por la OTAN en 1999, cuyos edificios ministeriales en ruinas siguen en pie en la calle Kneza Milosa. Hoy es una capital sociable y en rápida transformación que luce todas esas capas abiertamente, desde reliquias otomanas hasta hormigón yugoslavo y las nuevas torres que se alzan sobre el Sava.",
+    knownFor: [
+      "La fortaleza de Kalemegdan",
+      "La vida nocturna de los splavovi",
+      "El templo de San Sava",
+      "Las kafanas y la rakija",
+      "La confluencia del Sava y el Danubio",
+      "Las noches de fiesta baratas",
+    ],
+  },
 };
 
 export default extrasEs;

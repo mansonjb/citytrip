@@ -1,0 +1,508 @@
+import type { CityData } from "../types";
+
+const belgradeIt: CityData = {
+  city: {
+    slug: "belgrade",
+    name: "Belgrado",
+    country: "Serbia",
+    countrySlug: "serbia",
+    lat: 44.7866,
+    lng: 20.4489,
+    tier: 2,
+    idealDays: 2,
+    durations: [2, 3],
+    airportCode: "BEG",
+    airportToCenter:
+      "L'aeroporto Nikola Tesla si trova circa 18 km a ovest del centro, e il tragitto per raggiungerlo è semplice. La navetta minibus A1 collega gli arrivi a Piazza Slavija in circa 30 minuti per circa 400 dinari, all'incirca 3,50 EUR, mentre l'autobus urbano 72 arranca fino a Zeleni Venac per ancora meno se non si ha fretta. Al banco taxi ufficiale all'interno degli arrivi si ottiene un voucher a prezzo fisso per il centro, all'incirca da 2.300 a 3.000 dinari, circa 20-26 EUR; meglio ignorare gli autisti che ti avvicinano dentro il terminal, perché sono quelli che gonfiano il prezzo. Bolt e l'app locale CarGo funzionano bene entrambe e di solito costano meno del banco taxi.",
+    centerWalkable: true,
+    bestMonths: [5, 6, 9],
+    avoidMonths: [1, 2],
+    monthlyNotes: {
+      1: "Freddo, grigio e spesso nevoso con massime vicine ai 4C, e il vento kosava che scende dal Danubio lo fa sembrare ancora più rigido. Il Natale ortodosso il 7 gennaio e il Capodanno serbo il 13 e 14 gennaio portano banchetti e concerti di mezzanotte, e le camere sono al prezzo più basso, quindi si presta a un viaggio economico tra musei e kafana.",
+      2: "Ancora pieno inverno attorno ai 7C, con cieli grigi, marciapiedi fangosi e la fumosa stagione delle kafana in pieno fermento. Le file alle attrazioni sono inesistenti e i prezzi restano ai minimi, ma le giornate sono corte e le terrazze sul fiume sono chiuse, quindi conviene programmare un viaggio orientato agli interni.",
+      3: "L'inverno allenta la presa con pomeriggi vicini ai 12C, anche se le mattine pungono ancora e la kosava può soffiare forte per giorni. Le sedie dei caffè ricompaiono su Knez Mihailova nelle giornate più calde, e le tariffe restano ben al di sotto del livello estivo.",
+      4: "Primavera vera attorno ai 18C, con il parco Kalemegdan in fiore e le prime lunghe serate sulle terrazze. La maratona di Belgrado chiude le strade in tutto il centro per un weekend in aprile, quindi conviene controllare la data prima di prenotare quel weekend.",
+      5: "Uno dei mesi migliori, caldo e luminoso attorno ai 23C, con il parco della fortezza affollato e i primi splavovi che aprono lungo i fiumi. Meglio prenotare in anticipo per i weekend, perché la città si riempie di visitatori della regione una volta che comincia la stagione delle terrazze.",
+      6: "Inizio estate attorno ai 27C con lunghe serate luminose, la stagione degli splav in crescita e la spiaggia sul lago di Ada Ciganlija che prende vita. Occasionali temporali rinfrescano l'aria, e i prezzi sono ancora equi per una capitale europea in giugno.",
+      7: "Caldo attorno ai 29C e umido lungo i fiumi, ma questa è l'alta stagione degli splavovi, che vanno avanti fino all'alba per tutta l'estate. Meglio fare la fortezza e i musei al mattino, passare il pomeriggio ad Ada Ciganlija e tenere le notti per l'acqua.",
+      8: "Il mese più caldo attorno ai 30C, con la gente del posto divisa tra il lago e i club sul fiume. Il Belgrade Beer Fest porta grandi concerti gratuiti in agosto, e gli splavovi sono al massimo del volume, quindi chi ha il sonno leggero dovrebbe scegliere una camera lontana dall'acqua.",
+      9: "Giornate calde che scivolano verso i 25C e il mese migliore in assoluto: i fiumi sono ancora vivaci, la folla si dirada dopo la prima settimana e il festival teatrale BITEF riempie i palcoscenici della città. Meglio prenotare concerti e camere in anticipo se le date coincidono con il festival.",
+      10: "Frizzante e dorato attorno ai 18C, con i platani che cambiano colore a Kalemegdan e la luce perfetta per fotografare la confluenza. Gli splav della movida chiudono la stagione, e le kafana prendono il sopravvento man mano che le serate si rinfrescano.",
+      11: "Fresco e spesso grigio attorno agli 11C con pioggia regolare e il primo vero morso del vento kosava. La stagione delle terrazze è finita, i prezzi calano e le fumose serate in kafana entrano nel loro, che è metà del senso di Belgrado in inverno.",
+      12: "Freddo attorno ai 5C con luci festive lungo Knez Mihailova e rakija calda ai banchetti invernali. Il Capodanno qui è enorme, con concerti all'aperto nelle piazze principali, e gli hotel adeguano i prezzi per quell'unica settimana.",
+    },
+    climate: {
+      1: { highC: 4, lowC: -2, rainyDays: 8 },
+      2: { highC: 7, lowC: 0, rainyDays: 7 },
+      3: { highC: 12, lowC: 4, rainyDays: 8 },
+      4: { highC: 18, lowC: 8, rainyDays: 8 },
+      5: { highC: 23, lowC: 13, rainyDays: 9 },
+      6: { highC: 27, lowC: 16, rainyDays: 9 },
+      7: { highC: 29, lowC: 18, rainyDays: 7 },
+      8: { highC: 30, lowC: 18, rainyDays: 6 },
+      9: { highC: 25, lowC: 14, rainyDays: 6 },
+      10: { highC: 18, lowC: 9, rainyDays: 6 },
+      11: { highC: 11, lowC: 4, rainyDays: 8 },
+      12: { highC: 5, lowC: 0, rainyDays: 8 },
+    },
+    budgetLevel: "low",
+    budgetPerDay: { budget: 40, mid: 80, high: 160 },
+    tagline:
+      "Una capitale ruvida e socievole dove la Sava incontra il Danubio, con una possente fortezza, club galleggianti sul fiume e serate fuori celebri per il prezzo basso.",
+    heroIntro:
+      "Belgrado, la Città Bianca all'incontro della Sava e del Danubio, è stata contesa e ricostruita decine di volte, così reliquie ottomane, facciate asburgiche e cemento jugoslavo stanno fianco a fianco nelle stesse strade. La grande fortezza di Kalemegdan osserva i due fiumi fondersi sotto i suoi bastioni, la più bella vista gratuita della città. Giù a Skadarlija le vecchie kafana versano rakija al suono di orchestre dal vivo di tamburica, mentre gli splavovi, i club galleggianti ormeggiati lungo entrambi i fiumi, vanno avanti fino all'alba per tutta l'estate. È grezza, economica e una delle capitali più socievoli d'Europa, un luogo che premia l'appetito più di una lista di cose da vedere. Questa guida suddivide due o tre giorni così da vedere la fortezza e la città vecchia, San Sava e i musei, e Zemun e i fiumi senza perdere tempo nel traffico.",
+    accent: { from: "#35708E", to: "#D95B43", ink: "#1C232A" },
+    neighborhoodSlugs: [
+      "stari-grad",
+      "dorcol",
+      "vracar",
+      "savamala-waterfront",
+      "zemun",
+    ],
+    nearbyCitySlugs: ["budapest", "vienna"],
+  },
+  neighborhoods: [
+    {
+      slug: "stari-grad",
+      citySlug: "belgrade",
+      name: "Stari Grad (Città Vecchia)",
+      lat: 44.818,
+      lng: 20.458,
+      bestFor: ["first-time", "romantic"],
+      vibe: "Il nucleo storico si avvolge attorno alla pedonale Knez Mihailova, alla Piazza della Repubblica e alla verde distesa del parco Kalemegdan, tutto grandiose facciate ottocentesche, librerie e caffè sul marciapiede. Tutto ciò che serve a una prima visita sta entro dieci minuti a piedi, dai bastioni della fortezza al Museo Nazionale e al teatro. Da scegliere come base quando si vuole Belgrado sull'uscio di casa e non si teme di pagare le tariffe più alte della città, comunque molto ragionevoli.",
+      pros: [
+        "Knez Mihailova, la Piazza della Repubblica e Kalemegdan tutti a breve distanza a piedi",
+        "La base migliore per un primo viaggio di due giorni senza bisogno di trasporti",
+        "Caffè, panetterie e ristoranti a ogni angolo a prezzi equi",
+      ],
+      cons: [
+        "Le camere più trafficate e care della città, soprattutto nei weekend",
+        "Un po' di rumore notturno sale dai bar e dalla piazza",
+        "Traffico intenso circonda la zona pedonale su tutti i lati",
+      ],
+    },
+    {
+      slug: "dorcol",
+      citySlug: "belgrade",
+      name: "Dorcol",
+      lat: 44.8235,
+      lng: 20.465,
+      bestFor: ["local", "nightlife"],
+      vibe: "Il vecchio quartiere digrada dalla fortezza verso il Danubio, con la via acciottolata delle kafana di Skadarlija sul suo margine e una fitta sequenza di caffè, panetterie e bar alla moda lungo Strahinjica Bana. È qui che la Belgrado giovane mangia, beve e discute, in una griglia di case basse, platani e bar con cortile. Da scegliere come base per l'atmosfera e la vita notturna a portata di passo incerto, a breve distanza a piedi dalle attrazioni della città vecchia.",
+      pros: [
+        "Le kafana di Skadarlija e la fila di bar di Strahinjica Bana sull'uscio di casa",
+        "Il quartiere centrale dall'aria più autentica, pieno di caffè e panetterie",
+        "Dieci minuti a piedi da Kalemegdan e Knez Mihailova",
+      ],
+      cons: [
+        "Genuinamente rumoroso nelle sere del weekend attorno alle vie dei bar",
+        "Marciapiedi sconnessi e caos perenne dei parcheggi nelle vie laterali",
+        "Poche attrazioni di richiamo proprie oltre all'atmosfera",
+      ],
+    },
+    {
+      slug: "vracar",
+      citySlug: "belgrade",
+      name: "Vracar",
+      lat: 44.798,
+      lng: 20.472,
+      bestFor: ["romantic", "local"],
+      vibe: "L'elegante collina residenziale a sud del centro si raccoglie attorno al vasto tempio di San Sava e al fermento mattutino del mercato Kalenic, con strade alberate di edifici prebellici, wine bar e ristoranti di quartiere nel mezzo. È più tranquilla e più adulta della città vecchia, dove i benestanti del luogo vivono davvero. Da scegliere come base per un viaggio più quieto, con il miglior mercato della città e la sua chiesa più grande sull'uscio di casa.",
+      pros: [
+        "Il tempio di San Sava e il mercato Kalenic nel quartiere",
+        "Strade verdi e tranquille con buoni wine bar e ristoranti locali",
+        "Più camere in stile appartamento per il prezzo rispetto alla città vecchia",
+      ],
+      cons: [
+        "Una camminata di 20-25 minuti o un breve taxi fino alla fortezza e alla città vecchia",
+        "Tranquilla di sera, cosa che va bene per alcuni viaggiatori e annoia altri",
+        "Meno letti economici del centro, più appartamenti di fascia media",
+      ],
+    },
+    {
+      slug: "savamala-waterfront",
+      citySlug: "belgrade",
+      name: "Savamala e il Lungofiume",
+      lat: 44.8065,
+      lng: 20.452,
+      bestFor: ["nightlife", "first-time"],
+      vibe: "La striscia lungo il fiume sotto la città vecchia va dai magazzini sbiaditi di Savamala lungo la nuova passeggiata sulla Sava fino alle torri di vetro del complesso Belgrade Waterfront. Ti mette il più vicino possibile agli splavovi ormeggiati e ai bar sul fiume, con l'orologio della vecchia stazione ferroviaria e il palazzo Geozavod come punti di riferimento. Da scegliere come base per le notti sul fiume e il comfort delle nuove costruzioni, accettando che alcune parti sono ancora un cantiere.",
+      pros: [
+        "La base più vicina alla passeggiata sulla Sava, ai bar sul fiume e agli splavovi",
+        "Camere e appartamenti moderni a prezzi equi nelle nuove torri",
+        "Camminate pianeggianti lungo il fiume e accesso rapido in taxi fuori dal centro",
+      ],
+      cons: [
+        "Alcune zone del quartiere sono ancora un cantiere attivo",
+        "Il nuovo quartiere Waterfront sa di corporate e un po' asettico",
+        "Una ripida salita a piedi fino a Knez Mihailova e alla città vecchia",
+      ],
+    },
+    {
+      slug: "zemun",
+      citySlug: "belgrade",
+      name: "Zemun",
+      lat: 44.843,
+      lng: 20.411,
+      bestFor: ["family", "local"],
+      vibe: "Zemun fu una città di confine asburgica a sé fino al XX secolo e lo sembra ancora, con un lungo molo sul Danubio di ristoranti di pesce, cigni e chioschi di gelato sotto la torre di Gardos e le sue viuzze dai tetti rossi. Il ritmo è da paese, le serate finiscono presto e il lungofiume è fatto per lenti pomeriggi in famiglia. Da scegliere come base per lo spazio, la calma e il Danubio fuori dalla finestra, con il centro a 20-30 minuti in autobus.",
+      pros: [
+        "Il molo sul Danubio, i ristoranti di pesce e la torre di Gardos sull'uscio di casa",
+        "Un ritmo calmo e da paese che si addice a famiglie e viaggiatori lenti",
+        "Camere e pasti nettamente più economici del centro città",
+      ],
+      cons: [
+        "20-30 minuti con l'autobus 15 o 84 fino al centro, di più nel traffico",
+        "Sonnolenta dopo il tramonto, con poca vita notturna oltre ai ristoranti del molo",
+        "Tutte le attrazioni di punta sono dall'altra parte del fiume, in città",
+      ],
+    },
+  ],
+  pois: [
+    {
+      slug: "kalemegdan-fortress",
+      citySlug: "belgrade",
+      name: "Fortezza di Belgrado e Kalemegdan",
+      lat: 44.8225,
+      lng: 20.45,
+      kind: "sight",
+      needsBooking: false,
+      tip: "Il parco della fortezza sopra la confluenza è gratuito e aperto tutto il giorno, quindi conviene programmarlo per un'ora prima del tramonto, quando la luce colpisce il monumento Pobednik e i fiumi sotto. I bastioni, le porte e i prati non costano nulla; solo le attrazioni interne come il pozzo romano e la torre dell'orologio fanno pagare piccole cifre, e il museo militare ha i suoi orari, quindi conviene trattarle come extra facoltativi.",
+    },
+    {
+      slug: "knez-mihailova",
+      citySlug: "belgrade",
+      name: "Via Knez Mihailova",
+      lat: 44.817,
+      lng: 20.457,
+      kind: "experience",
+      needsBooking: false,
+      tip: "La spina pedonale corre dalla Piazza della Repubblica dritta alle porte della fortezza, fiancheggiata da facciate ottocentesche, librerie e artisti di strada. Meglio percorrerla di prima mattina per foto vuote delle facciate, poi di nuovo la sera quando tutta la città sembra passeggiare; le vie laterali nascondono caffè più economici della via stessa.",
+    },
+    {
+      slug: "skadarlija",
+      citySlug: "belgrade",
+      name: "Skadarlija",
+      lat: 44.8175,
+      lng: 20.4655,
+      kind: "experience",
+      needsBooking: false,
+      tip: "Meglio prenotare un tavolo per cena in una delle kafana storiche come Tri Sesira o Dva Jelena, e aspettarsi orchestre di tamburica dal vivo e un coperto nei weekend. In alternativa conviene andarci a pranzo per lo stesso cibo alla griglia nettamente più economico e con spazio per respirare; la via acciottolata in sé è gratuita da percorrere e più bella nella luce della prima sera.",
+    },
+    {
+      slug: "temple-saint-sava",
+      citySlug: "belgrade",
+      name: "Tempio di San Sava",
+      lat: 44.798,
+      lng: 20.469,
+      kind: "sight",
+      needsBooking: false,
+      tip: "L'ingresso è gratuito e il codice di abbigliamento richiede spalle e ginocchia coperte, dato che è una chiesa attiva e uno dei più grandi edifici ortodossi del mondo. Da non perdere la cripta con i mosaici dorati al piano di sotto, raggiungibile da un ingresso separato sul lato, e conviene tornarci all'imbrunire quando la grande cupola è illuminata, per le foto migliori dallo spiazzo.",
+    },
+    {
+      slug: "splavovi-river-clubs",
+      citySlug: "belgrade",
+      name: "Splavovi (Club Galleggianti sul Fiume)",
+      lat: 44.81,
+      lng: 20.44,
+      kind: "experience",
+      needsBooking: false,
+      tip: "Gli splavovi della movida vanno grosso modo solo da maggio a settembre, quindi fuori da quei mesi si trovano chiatte-caffè ormeggiate anziché club. Meglio riservare un tavolo online o tramite l'hotel per le zattere più note, perché chi si presenta senza prenotazione viene respinto nei weekend, e conviene concordare la tariffa del taxi per tornare in centro prima di salire, oppure usare Bolt o CarGo per evitare la contrattazione.",
+    },
+    {
+      slug: "museum-of-yugoslavia",
+      citySlug: "belgrade",
+      name: "Museo della Jugoslavia e Mausoleo di Tito",
+      lat: 44.7865,
+      lng: 20.453,
+      kind: "museum",
+      needsBooking: false,
+      tip: "Il museo chiude il lunedì, quindi conviene organizzarsi di conseguenza, e prendere il filobus 40 o 41 dal centro fino alla collina di Dedinje. Meglio concedere circa 90 minuti per le mostre di epoca socialista, la collezione di staffette portate per il compleanno di Tito e la Casa dei Fiori dove è sepolto, che è la parte che la maggior parte dei visitatori ricorda.",
+    },
+    {
+      slug: "nikola-tesla-museum",
+      citySlug: "belgrade",
+      name: "Museo Nikola Tesla",
+      lat: 44.805,
+      lng: 20.47,
+      kind: "museum",
+      needsBooking: true,
+      tip: "L'ingresso avviene con visite dimostrative guidate che partono ogni ora tonda, con turni in inglese, e le dimostrazioni della bobina di Tesla funzionante sono il motivo per venirci. I gruppi sono piccoli e si esauriscono, quindi conviene prenotare in anticipo o arrivare presto in giornata, tenere presente che chiude il lunedì, e concedere circa un'ora per la visita e l'archivio personale di Tesla.",
+    },
+    {
+      slug: "zemun-gardos",
+      citySlug: "belgrade",
+      name: "Molo di Zemun e Torre di Gardos",
+      lat: 44.8455,
+      lng: 20.409,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "Meglio prendere l'autobus 15 o 84 da Zeleni Venac, circa 25 minuti, poi salire le viuzze acciottolate sopra il molo fino alla torre di Gardos, che fa pagare una piccola cifra per la vista sui tetti rossi e sul Danubio. Poi si scende di nuovo al molo per la riblja corba, la zuppa di pesce alla paprika, in uno dei ristoranti sul fiume; i giorni feriali sono molto più tranquilli del pranzo domenicale.",
+    },
+    {
+      slug: "kafana-food",
+      citySlug: "belgrade",
+      name: "Classici da kafana: cevapi, pljeskavica, rakija",
+      lat: 44.817,
+      lng: 20.46,
+      kind: "food",
+      needsBooking: false,
+      tip: "Ordina i cevapi al pezzo, dieci sono un pasto completo, con il kajmak a parte e il pane lepinja caldo, e comincia con una rakija di frutta come fa la gente del posto prima di mangiare anziché dopo. Una cena completa in kafana con bevande raramente supera i 15-20 EUR a testa, e la pljeskavica, l'enorme polpetta grigliata, è il pranzo economico che ti tiene su tutto il pomeriggio.",
+    },
+    {
+      slug: "ada-ciganlija",
+      citySlug: "belgrade",
+      name: "Ada Ciganlija",
+      lat: 44.79,
+      lng: 20.405,
+      kind: "park",
+      needsBooking: false,
+      tip: "L'ingresso all'isola sul lago è gratuito, ed è a circa 15 minuti dal centro in autobus o taxi. Meglio nuotare solo nel lago, mai nei fiumi, noleggiare un pedalò o una bici sulla riva, e andarci in una mattina feriale d'estate, perché le spiagge e i caffè sono pieni zeppi nei weekend estivi.",
+    },
+    {
+      slug: "sava-promenada",
+      citySlug: "belgrade",
+      name: "Passeggiata sulla Sava e Belgrade Waterfront",
+      lat: 44.8055,
+      lng: 20.45,
+      kind: "experience",
+      needsBooking: false,
+      tip: "Meglio percorrere la passeggiata lungo il fiume all'ora d'oro, partendo dal ponte di Branko e dirigendosi verso la torre dell'orologio della vecchia stazione ferroviaria e il restaurato palazzo Geozavod. Non costa nulla, la luce sulla Sava è il richiamo, e si può concludere con un drink su uno degli splav-caffè ormeggiati lungo la riva anziché nei più cari bar delle nuove costruzioni.",
+    },
+    {
+      slug: "kalenic-market",
+      citySlug: "belgrade",
+      name: "Mercato Kalenic",
+      lat: 44.7965,
+      lng: 20.477,
+      kind: "food",
+      needsBooking: false,
+      tip: "Meglio venirci al mattino, perché i banchi si smontano entro metà pomeriggio, e portare contanti in dinari in banconote piccole perché nessuno prende le carte. Dirigiti dalle signore dei latticini per assaggiare il kajmak e la proja, il pane di mais, compra frutta e carni affumicate per un picnic, e abbina la visita al tempio di San Sava a dieci minuti a piedi.",
+    },
+    {
+      slug: "novi-sad-day-trip",
+      citySlug: "belgrade",
+      name: "Novi Sad e Petrovaradin",
+      lat: 45.2551,
+      lng: 19.8451,
+      kind: "experience",
+      needsBooking: false,
+      tip: "Il treno veloce Soko dalla stazione Belgrado Centar raggiunge Novi Sad in circa 40 minuti, e conviene comprare i posti con un giorno di anticipo d'estate. Sali alla fortezza di Petrovaradin e alla sua famosa torre dell'orologio, le cui lancette sono invertite, percorri la rilassata città vecchia sotto, e controlla gli ultimi treni di ritorno, che vanno fino a sera ma non a tarda notte.",
+    },
+  ],
+  itineraries: [
+    {
+      citySlug: "belgrade",
+      days: 2,
+      summary:
+        "Due giornate piene coprono bene il cuore di Belgrado. Il centro è compatto e percorribile a piedi, quindi Knez Mihailova, la fortezza di Kalemegdan sopra l'incontro della Sava e del Danubio, le kafana di Skadarlija, il tempio di San Sava e il Museo Nikola Tesla ci stanno tutti senza fretta. L'unica cosa da prenotare è il museo Tesla, dove si entra solo con piccole visite dimostrative guidate a ore tonde, quindi conviene riservare un turno in anticipo e tenere presente che chiude il lunedì. Meglio alloggiare a Stari Grad, la città vecchia, così che la fortezza, le vie pedonali e la vita notturna siano tutte a pochi minuti dalla porta. Il primo giorno prende la città vecchia, la fortezza al tramonto e una cena in kafana a base di cevapi a Skadarlija; il secondo sale a San Sava e alla sua cripta a mosaico, al mercato Kalenic e alle dimostrazioni di Tesla, poi torna giù per una serata sulla passeggiata della Sava e, in stagione, un drink su uno splav. Ciò a cui si rinuncia a questo ritmo sono Zemun, il Museo della Jugoslavia e qualsiasi gita fuori porta; per quelli, si prenda la versione da tre giorni.",
+      stayNeighborhoodSlug: "stari-grad",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "La città vecchia, la fortezza e una serata a Skadarlija",
+          morning: [
+            {
+              poiSlug: "knez-mihailova",
+              text: "Si comincia con una lenta passeggiata giù per Knez Mihailova dalla Piazza della Repubblica verso la fortezza, mentre la via pedonale è ancora abbastanza tranquilla da fotografare le facciate ottocentesche. Ci si infila in una panetteria di una via laterale per burek e yogurt, la classica colazione di Belgrado, che costa pochi spiccioli.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "kalemegdan-fortress",
+              text: "Si passa il resto della mattina nel parco della fortezza di Kalemegdan, percorrendo le porte e i bastioni sopra il punto dove la Sava incontra il Danubio. Il parco è gratuito e aperto tutto il giorno; il pozzo romano e la torre dell'orologio fanno pagare piccole cifre se si vogliono gli extra.",
+              durationMin: 90,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "kafana-food",
+              text: "Pranzo a base di pljeskavica o cevapi a una griglia della città vecchia, ordinati al pezzo con kajmak e pane lepinja. Un piatto pieno con una bevanda raramente costa più di qualche euro, il che dà il tono ai prezzi di Belgrado.",
+              durationMin: 60,
+            },
+            {
+              text: "Si passa il pomeriggio nella città vecchia a ritmo tranquillo: il Museo Nazionale sulla Piazza della Repubblica se si vuole arte, o le strade di Dorcol che digradano verso il Danubio se si preferisce camminare, con una sosta caffè su Strahinjica Bana tra la gente del posto.",
+              durationMin: 120,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "kalemegdan-fortress",
+              text: "Si risale alla fortezza circa un'ora prima del tramonto, quando la luce cade sul monumento Pobednik e sui due fiumi sotto. È la vista che definisce la città e non costa nulla.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "skadarlija",
+              text: "Si cammina dieci minuti fino a Skadarlija per una cena in kafana in una delle case storiche come Tri Sesira, prenotata in anticipo se è un weekend. Aspettati musica di tamburica dal vivo, una rakija per cominciare e una serata lunga, rumorosa e socievole.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "San Sava, il mercato, Tesla e il fiume",
+          morning: [
+            {
+              poiSlug: "temple-saint-sava",
+              text: "Si sale a Vracar e al tempio di San Sava, una delle più grandi chiese ortodosse del mondo. L'ingresso è gratuito, meglio vestirsi in modo sobrio, e prendere l'ingresso laterale separato che scende alla cripta con i mosaici dorati, che è il vero pezzo forte.",
+              durationMin: 75,
+            },
+            {
+              poiSlug: "kalenic-market",
+              text: "Si cammina dieci minuti fino al mercato Kalenic mentre i banchi sono ancora pieni, con contanti in dinari in banconote piccole. Assaggia il kajmak e la proja dalle signore dei latticini e prendi della frutta per il pomeriggio; il mercato si smonta entro metà pomeriggio, quindi il mattino è l'unica vera finestra.",
+              durationMin: 60,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Pranzo nelle strade alberate di Vracar, dove i ristoranti di quartiere sono più tranquilli e leggermente più economici della città vecchia. Meglio tenersi leggeri prima del turno al museo.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "nikola-tesla-museum",
+              text: "Si fa la visita dimostrativa prenotata al Museo Nikola Tesla, dove le guide accendono le bobine funzionanti e ti accompagnano attraverso l'archivio personale di Tesla. Le visite partono a ore tonde, turni in inglese inclusi, e l'intera visita dura circa un'ora.",
+              durationMin: 75,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "sava-promenada",
+              text: "Si percorre la passeggiata sulla Sava all'ora d'oro, dal ponte di Branko lungo l'acqua verso l'orologio della vecchia stazione ferroviaria e il palazzo Geozavod. La luce sul fiume è il richiamo e la passeggiata è gratuita.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "splavovi-river-clubs",
+              text: "In stagione, grosso modo da maggio a settembre, si conclude su uno splav: una chiatta-caffè ormeggiata per un drink tranquillo sull'acqua, o una delle zattere della movida se si è prenotato un tavolo. Concorda la tariffa del taxi per tornare prima di salire, oppure usa Bolt per evitare la contrattazione.",
+              durationMin: 120,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      citySlug: "belgrade",
+      days: 3,
+      summary:
+        "Tre giorni sono la misura comoda per Belgrado: lo stesso nucleo percorribile a piedi del viaggio di due giorni, preso a ritmo più rilassato, più una giornata intera per i fiumi o una gita fuori. I primi due giorni coprono Knez Mihailova, la fortezza di Kalemegdan sopra la confluenza, le kafana di Skadarlija, il tempio di San Sava con la sua cripta a mosaico, il mercato Kalenic e la visita dimostrativa prenotata al Museo Nikola Tesla. Il terzo giorno è una scelta: il molo sul Danubio di Zemun e la torre di Gardos abbinati al Museo della Jugoslavia e al mausoleo di Tito, oppure il treno veloce Soko fino a Novi Sad e alla fortezza di Petrovaradin in circa 40 minuti a tratta, oppure una giornata di nuoto ad Ada Ciganlija in piena estate. Da ricordare che gli splavovi, i club galleggianti sul fiume, vanno grosso modo da maggio a settembre, quindi una visita estiva dovrebbe tenere almeno una notte per l'acqua. Meglio alloggiare a Stari Grad per tutte e tre le notti. Belgrado è una delle capitali più economiche d'Europa, quindi il terzo giorno più lento costa pochissimo comunque lo si spenda.",
+      stayNeighborhoodSlug: "stari-grad",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "La città vecchia, la fortezza e una serata a Skadarlija",
+          morning: [
+            {
+              poiSlug: "knez-mihailova",
+              text: "Si entra in scena con una passeggiata giù per Knez Mihailova dalla Piazza della Repubblica verso le porte della fortezza, fermandosi in una panetteria per burek e yogurt. La via pedonale è al suo più tranquillo e fotogenico prima di metà mattina.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "kalemegdan-fortress",
+              text: "Si prosegue dentro Kalemegdan e si passa la tarda mattina sui bastioni sopra l'incontro dei fiumi. Il parco e le mura sono gratuiti; aggiungi il pozzo romano o la torre dell'orologio per piccole cifre se la storia ti prende.",
+              durationMin: 90,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "kafana-food",
+              text: "Pranzo a base di cevapi con kajmak a una griglia della città vecchia, ordinati al pezzo. Dieci pezzi con pane e una bevanda sono un pasto completo per qualche euro.",
+              durationMin: 60,
+            },
+            {
+              text: "Si vaga per Dorcol nel pomeriggio, giù per le strade in pendenza verso il Danubio, con un caffè su Strahinjica Bana dove siede la gente del posto. Qui non c'è una lista da spuntare; le case basse, i cortili e le facciate dei bar sono l'attrazione.",
+              durationMin: 120,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "kalemegdan-fortress",
+              text: "Si torna alla fortezza un'ora prima del tramonto per la vista sulla confluenza e sul monumento Pobednik nella luce migliore della giornata.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "skadarlija",
+              text: "Si cena a Skadarlija in una delle kafana storiche, prenotata in anticipo nei weekend, con musica di tamburica dal vivo e una rakija per cominciare. Accomodati; nessuno mette fretta a una serata in kafana.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "San Sava, il mercato, Tesla e il fiume",
+          morning: [
+            {
+              poiSlug: "temple-saint-sava",
+              text: "Si comincia a Vracar al tempio di San Sava, gratuito da visitare con abbigliamento sobrio, e si prende l'ingresso laterale separato che scende alla cripta con i mosaici dorati. Le foto vengono meglio all'esterno all'imbrunire, ma le mattine sono le più tranquille all'interno.",
+              durationMin: 75,
+            },
+            {
+              poiSlug: "kalenic-market",
+              text: "Si cammina fino al mercato Kalenic con banconote piccole in dinari e si pascola tra i banchi mentre sono pieni: kajmak e proja dalle signore dei latticini, frutta, carni affumicate. Si dirada entro metà pomeriggio, quindi il mattino è la finestra.",
+              durationMin: 60,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Un pranzo senza fretta nelle strade alberate di Vracar tra i wine bar e i ristoranti di quartiere, più tranquilli e un filo più economici del centro.",
+              durationMin: 75,
+            },
+            {
+              poiSlug: "nikola-tesla-museum",
+              text: "Si rispetta il turno prenotato al Museo Nikola Tesla per la visita dimostrativa oraria, bobine scintillanti, con l'archivio e l'urna di Tesla lì accanto. Chiude il lunedì, e i piccoli gruppi sono il motivo per cui prenotare conta.",
+              durationMin: 75,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "sava-promenada",
+              text: "Si percorre la passeggiata sulla Sava all'ora d'oro dal ponte di Branko verso il palazzo Geozavod e l'orologio della vecchia stazione, poi si sceglie uno splav-caffè ormeggiato per un drink sull'acqua.",
+              durationMin: 90,
+            },
+            {
+              poiSlug: "splavovi-river-clubs",
+              text: "Se è estate e si vuole la piena notte di Belgrado, si prosegue verso uno degli splavovi della movida con un tavolo prenotato in anticipo. Vanno avanti fino all'alba in stagione; dosa la rakija di conseguenza.",
+              durationMin: 120,
+            },
+          ],
+        },
+        {
+          dayNumber: 3,
+          theme: "Zemun e Tito, o il treno veloce per Novi Sad",
+          morning: [
+            {
+              poiSlug: "zemun-gardos",
+              text: "Si prende l'autobus 15 o 84 fino a Zemun, circa 25 minuti, e si salgono le viuzze acciottolate fino alla torre di Gardos per la vista sui tetti rossi e sul Danubio. La piccola cifra della torre vale la pena in una giornata limpida.",
+              durationMin: 120,
+            },
+            {
+              text: "In alternativa, si scambia l'intera giornata con Novi Sad: il treno veloce Soko da Belgrado Centar impiega circa 40 minuti a tratta, e la fortezza di Petrovaradin con le lancette dell'orologio invertite corona la città vecchia. Compra i posti con un giorno di anticipo d'estate e controlla gli ultimi treni di ritorno.",
+              durationMin: 30,
+            },
+          ],
+          afternoon: [
+            {
+              text: "Pranzo a base di riblja corba, la zuppa di pesce alla paprika, in uno dei ristoranti di pesce lungo il molo di Zemun, guardando il traffico del fiume e i cigni. I giorni feriali sono molto più tranquilli della domenica, quando le famiglie del posto riempiono ogni tavolo.",
+              durationMin: 90,
+            },
+            {
+              poiSlug: "museum-of-yugoslavia",
+              text: "Si torna verso Dedinje per il Museo della Jugoslavia e la Casa dei Fiori, dove Tito è sepolto tra le staffette e i doni di Stato. Chiude il lunedì; il filobus 40 o 41 ti ci porta dal centro, e 90 minuti bastano a coprirlo.",
+              durationMin: 100,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "ada-ciganlija",
+              text: "In piena estate, si può pensare di passare quest'ultimo tratto ad Ada Ciganlija: l'isola sul lago è gratuita, a 15 minuti dal centro, con nuoto, pedalò e caffè sulla riva. Nuota solo nel lago, mai nei fiumi, e aspettati folla nei weekend.",
+              durationMin: 120,
+            },
+            {
+              text: "Per l'ultima notte, meglio tenerla semplice: una kafana che non hai ancora provato, un'ultima rakija, e un controllo in anticipo sul tragitto verso l'aeroporto, dove la navetta A1 da Piazza Slavija impiega circa 30 minuti e Bolt o CarGo copre la stessa corsa porta a porta.",
+              durationMin: 90,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export default belgradeIt;
