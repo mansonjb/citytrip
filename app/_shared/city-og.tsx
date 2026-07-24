@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { cities, getPublishedCity } from "@/data";
+import { getPublishedCity } from "@/data";
 import { STR, fmt, type Locale } from "@/lib/i18n";
 
 // Shared per-city OG image. Rendered by each locale's [city]/opengraph-image
@@ -8,9 +8,11 @@ import { STR, fmt, type Locale } from "@/lib/i18n";
 export const OG_SIZE = { width: 1200, height: 630 };
 export const OG_CONTENT_TYPE = "image/png";
 
+// Empty seed: OG images render on first request instead of all 270 (45 cities
+// x 6 locales) being generated eagerly on every deploy. dynamicParams defaults
+// to true for this route (never overridden), so unlisted slugs still render.
 export function ogStaticParams() {
-  // URL slugs are identical across locales, so the EN slug set covers all.
-  return cities("en").map((c) => ({ city: c.slug }));
+  return [];
 }
 
 export async function renderCityOg(slug: string, locale: Locale) {

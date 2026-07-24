@@ -5,7 +5,7 @@ import {
 } from "@/app/_shared/destinations";
 
 export const revalidate = 86400;
-export const dynamicParams = false;
+export const dynamicParams = true;
 export const generateStaticParams = countryStaticParams;
 export const generateMetadata = makeCountryMetadata("fr");
 export default makeCountryPage("fr");

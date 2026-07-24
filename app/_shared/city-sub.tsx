@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { cityBundles, getCityData, getNeighborhood } from "@/data";
+import { getCityData, getNeighborhood } from "@/data";
 import { getHotels } from "@/data/hotels";
 import type { CityData, Month } from "@/data/types";
 import { cityVars } from "@/lib/style";
-import { MONTHS, monthByNum, parseSub } from "@/lib/months";
+import { monthByNum, parseSub } from "@/lib/months";
 import {
   STR,
   fmt,
@@ -28,19 +28,11 @@ import { Stamp } from "@/components/Stamp";
 import { Stay22Map } from "@/components/Stay22Map";
 import { TripToolbar } from "@/components/TripToolbar";
 
-// One dynamic segment serves the two long-tail page types:
-// "/lisbon/3-days" (itineraries) and "/lisbon/in-february" (months).
+// Empty seed: pages render on first request (ISR, dynamicParams=true) and get
+// cached for `revalidate` seconds, instead of every city/duration/month combo
+// being rebuilt eagerly on every deploy.
 export function citySubStaticParams() {
-  const params: { city: string; sub: string }[] = [];
-  for (const { city } of cityBundles("en")) {
-    for (const d of city.durations) {
-      params.push({ city: city.slug, sub: `${d}-days` });
-    }
-    for (const m of MONTHS) {
-      params.push({ city: city.slug, sub: m.slug });
-    }
-  }
-  return params;
+  return [];
 }
 
 type Params = Promise<{ city: string; sub: string }>;

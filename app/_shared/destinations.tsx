@@ -75,8 +75,11 @@ export function makeDestinationsPage(locale: Locale) {
   };
 }
 
+// Empty seed: pages render on first request (ISR, dynamicParams=true) and get
+// cached for `revalidate` seconds, instead of every country being rebuilt
+// eagerly on every deploy.
 export function countryStaticParams() {
-  return countries("en").map((c) => ({ country: c.slug }));
+  return [];
 }
 
 type CountryParams = Promise<{ country: string }>;

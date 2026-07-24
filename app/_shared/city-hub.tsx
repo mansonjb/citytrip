@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { cities, getCityData, getPublishedCity } from "@/data";
+import { getCityData, getPublishedCity } from "@/data";
 import { getCityExtras } from "@/data/extras";
 import { getHotels } from "@/data/hotels";
 import { cityVars } from "@/lib/style";
@@ -27,8 +27,12 @@ import { Stamp } from "@/components/Stamp";
 import { Stay22Map } from "@/components/Stay22Map";
 import { TripToolbar } from "@/components/TripToolbar";
 
+// Empty seed: pages render on first request (ISR, dynamicParams=true) and get
+// cached for `revalidate` seconds, instead of every city being rebuilt eagerly
+// on every deploy (was ~4,862 pages rebuilt per commit for the daily cron that
+// adds a single city).
 export function cityStaticParams() {
-  return cities("en").map((c) => ({ city: c.slug }));
+  return [];
 }
 
 type Params = Promise<{ city: string }>;
