@@ -2598,6 +2598,63 @@ const hotelsDe: Hotel[] = [
     image: px(271624),
     imageAlt: "Schlichtes helles Schlafsaalzimmer mit Etagenbetten",
   },
+  // ---- Luxemburg-Stadt ----
+  {
+    slug: "le-place-darmes-luxembourg",
+    citySlug: "luxembourg",
+    name: "Hotel Le Place d'Armes",
+    neighborhoodSlug: "ville-haute",
+    band: "€€€",
+    priceFrom: 300,
+    style: "Stadtpalais am Platz",
+    bestFor: "Aufenthalt am Wahrzeichen",
+    blurb:
+      "Ein Fünf-Sterne-Hotel, verteilt über eine Reihe restaurierter Stadthäuser aus dem 18. Jahrhundert direkt am Place d'Armes, dem lebhaftesten Platz der Oberstadt. Sein Gourmetrestaurant La Cristallerie trägt einen Michelin-Stern, und jede große Sehenswürdigkeit ist wenige Gehminuten entfernt.",
+    image: px(262048),
+    imageAlt: "Elegante klassische Hotelsuite mit Kronleuchter und großem Bett",
+  },
+  {
+    slug: "hotel-parc-beaux-arts-luxembourg",
+    citySlug: "luxembourg",
+    name: "Hotel Parc Beaux-Arts",
+    neighborhoodSlug: "ville-haute",
+    band: "€€",
+    priceFrom: 190,
+    style: "Suiten-Boutique nahe dem Palast",
+    bestFor: "Paare",
+    blurb:
+      "Ein Boutiquehotel mit ausschließlich Suiten in drei Häusern aus dem 18. Jahrhundert wenige Schritte vom Großherzoglichen Palast, durchgängig mit zeitgenössischer Kunst behängt. Die großzügigen Suiten und die ruhigen Gassen der Oberstadt machen es zu einer gelassenen Basis mitten im Geschehen.",
+    image: px(1267438),
+    imageAlt: "Minimalistische Designhotelsuite in warmen Tönen mit Kunst an den Wänden",
+  },
+  {
+    slug: "grand-hotel-alfa-luxembourg",
+    citySlug: "luxembourg",
+    name: "Mercure Grand Hotel Alfa Luxembourg",
+    neighborhoodSlug: "gare",
+    band: "€€",
+    priceFrom: 140,
+    style: "Art-déco-Wahrzeichen am Bahnhof",
+    bestFor: "Erster Besuch",
+    blurb:
+      "Ein markantes Hotel aus den 1930er Jahren in einem prächtigen Steingebäude direkt gegenüber dem Hauptbahnhof, sodass die kostenlosen Busse zum Flughafen und in die Altstadt vor Ihrer Tür abfahren. Seine holzvertäfelte Brasserie Guillaume ist eine seit Langem bestehende Institution der Stadt für Meeresfrüchte.",
+    image: px(279746),
+    imageAlt: "Klassisches Hotelschlafzimmer mit warmem Licht und Holzmöbeln",
+  },
+  {
+    slug: "youth-hostel-luxembourg",
+    citySlug: "luxembourg",
+    name: "Luxembourg City Youth Hostel",
+    neighborhoodSlug: "grund",
+    band: "€",
+    priceFrom: 30,
+    style: "Modernes Hostel im Tal",
+    bestFor: "Budget",
+    blurb:
+      "Ein modernes HI-Hostel unten im Pfaffenthal-Tal unter den Kasematten-Klippen, mit Schlafsälen und Privatzimmern zu den niedrigsten Preisen der Stadt. Der kostenlose Panoramaaufzug Pfaffenthal trägt Sie in Sekunden direkt hinauf zur Oberstadt.",
+    image: px(271624),
+    imageAlt: "Schlichtes helles Schlafsaalzimmer mit Etagenbetten",
+  },
 ];
 
 export default hotelsDe;

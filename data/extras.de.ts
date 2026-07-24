@@ -720,6 +720,22 @@ const extrasDe: Record<string, CityExtras> = {
       "Günstige Ausgehnächte",
     ],
   },
+  luxembourg: {
+    citySlug: "luxembourg",
+    image: hero(27659285),
+    imageAlt:
+      "Das Grund-Tal in Luxemburg-Stadt mit dem Fluss Alzette, der Abtei Neumunster und den Kasematten-Klippen, von der Corniche aus gesehen",
+    history:
+      "Luxemburg-Stadt begann im Jahr 963, als Graf Siegfried den felsigen Bock-Vorsprung über der Alzette erwarb und eine Burg errichtete, deren Name Lucilinburhuc dem Land seinen eigenen gab. Seine natürlichen Klippen und Flussschluchten machten es zu einer der stärksten Festungen Europas, umkämpft und der Reihe nach von Burgundern, Spaniern, Franzosen, Österreichern und Preußen wieder aufgebaut, was ihm den Beinamen Gibraltar des Nordens einbrachte. Der Londoner Vertrag von 1867 beendete das endlose Tauziehen, indem er Luxemburg dauerhaft neutral machte und den Abriss des Großteils der Festung anordnete, obgleich kilometerlange, in den Fels getriebene Kasemattentunnel überdauerten. Die alten Viertel und diese Befestigungen wurden 1994 in die Liste des UNESCO-Welterbes aufgenommen, und heute ist das Großherzogtum ein Gründungsmitglied der Europäischen Union, mit wichtigen EU-Institutionen auf dem modernen Kirchberg-Plateau gleich jenseits des Tals.",
+    knownFor: [
+      "Bock-Kasematten",
+      "Chemin de la Corniche",
+      "Das Grund-Tal",
+      "Denkmal der Goldenen Frau",
+      "Adolphe-Brücke",
+      "Kostenloser Nahverkehr",
+    ],
+  },
 };
 
 export default extrasDe;

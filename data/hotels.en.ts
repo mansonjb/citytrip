@@ -2592,6 +2592,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright dorm room with bunk beds",
   },
+  // ---- Luxembourg City ----
+  {
+    slug: "le-place-darmes-luxembourg",
+    citySlug: "luxembourg",
+    name: "Hotel Le Place d'Armes",
+    neighborhoodSlug: "ville-haute",
+    band: "€€€",
+    priceFrom: 300,
+    style: "Townhouse palace on the square",
+    bestFor: "Landmark stay",
+    blurb:
+      "A five-star hotel spread across a row of restored 18th-century townhouses right on Place d'Armes, the liveliest square in the Upper Town. Its fine-dining restaurant La Cristallerie holds a Michelin star, and every headline sight is a few minutes on foot.",
+    image: px(262048),
+    imageAlt: "Elegant classic hotel suite with a chandelier and large bed",
+  },
+  {
+    slug: "hotel-parc-beaux-arts-luxembourg",
+    citySlug: "luxembourg",
+    name: "Hotel Parc Beaux-Arts",
+    neighborhoodSlug: "ville-haute",
+    band: "€€",
+    priceFrom: 190,
+    style: "All-suite boutique near the palace",
+    bestFor: "Couples",
+    blurb:
+      "An all-suite boutique hotel set in three 18th-century houses steps from the Grand Ducal Palace, hung throughout with contemporary art. The generous suites and quiet Upper Town lanes make it a calm base in the middle of everything.",
+    image: px(1267438),
+    imageAlt: "Minimalist design hotel suite in warm tones with art on the walls",
+  },
+  {
+    slug: "grand-hotel-alfa-luxembourg",
+    citySlug: "luxembourg",
+    name: "Mercure Grand Hotel Alfa Luxembourg",
+    neighborhoodSlug: "gare",
+    band: "€€",
+    priceFrom: 140,
+    style: "Art Deco landmark by the station",
+    bestFor: "First visit",
+    blurb:
+      "A landmark 1930s hotel in a grand stone building directly across from the central station, so the free buses to the airport and the old town leave from your doorstep. Its wood-panelled Brasserie Guillaume is a long-standing city institution for seafood.",
+    image: px(279746),
+    imageAlt: "Classic hotel bedroom with warm lighting and wooden furniture",
+  },
+  {
+    slug: "youth-hostel-luxembourg",
+    citySlug: "luxembourg",
+    name: "Luxembourg City Youth Hostel",
+    neighborhoodSlug: "grund",
+    band: "€",
+    priceFrom: 30,
+    style: "Modern valley hostel",
+    bestFor: "Budget",
+    blurb:
+      "A modern HI hostel down in the Pfaffenthal valley beneath the casemate cliffs, with dorms and private rooms at the lowest rates in the city. The free Pfaffenthal panoramic lift carries you straight up to the Upper Town in seconds.",
+    image: px(271624),
+    imageAlt: "Simple bright dorm room with bunk beds",
+  },
 ];
 
 export default hotelsEn;

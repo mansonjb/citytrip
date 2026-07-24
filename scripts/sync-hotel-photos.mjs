@@ -54,6 +54,10 @@ const QUERY_OVERRIDE = {
   "hotel-moskva-belgrade": "Hotel Moskva Belgrade Terazije",
   "mama-shelter-belgrade": "Mama Shelter Belgrade Knez Mihailova",
   "hostel-bongo-belgrade": "Hostel Bongo Belgrade",
+  "le-place-darmes-luxembourg": "Hotel Le Place d'Armes Luxembourg City Place d'Armes",
+  "hotel-parc-beaux-arts-luxembourg": "Hotel Parc Beaux-Arts Luxembourg City",
+  "grand-hotel-alfa-luxembourg": "Mercure Grand Hotel Alfa Luxembourg Place de la Gare",
+  "youth-hostel-luxembourg": "Luxembourg City Youth Hostel Auberge de Jeunesse Pfaffenthal",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -109,6 +113,7 @@ const CITY_NAME = {
   bologna: "Bologna Italy",
   sofia: "Sofia Bulgaria",
   belgrade: "Belgrade Serbia",
+  luxembourg: "Luxembourg City",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

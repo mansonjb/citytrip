@@ -2591,6 +2591,63 @@ const hotelsIt: Hotel[] = [
     image: px(271624),
     imageAlt: "Semplice dormitorio luminoso con letti a castello",
   },
+  // ---- Luxembourg ----
+  {
+    slug: "le-place-darmes-luxembourg",
+    citySlug: "luxembourg",
+    name: "Hotel Le Place d'Armes",
+    neighborhoodSlug: "ville-haute",
+    band: "€€€",
+    priceFrom: 300,
+    style: "Palazzo di case a schiera sulla piazza",
+    bestFor: "Soggiorno iconico",
+    blurb:
+      "Un hotel a cinque stelle distribuito su una fila di case a schiera del XVIII secolo restaurate proprio su Place d'Armes, la piazza più vivace della Città Alta. Il suo ristorante gourmet La Cristallerie vanta una stella Michelin, e ogni attrazione di punta è a pochi minuti a piedi.",
+    image: px(262048),
+    imageAlt: "Elegante suite d'albergo classica con lampadario e letto grande",
+  },
+  {
+    slug: "hotel-parc-beaux-arts-luxembourg",
+    citySlug: "luxembourg",
+    name: "Hotel Parc Beaux-Arts",
+    neighborhoodSlug: "ville-haute",
+    band: "€€",
+    priceFrom: 190,
+    style: "Boutique interamente di suite vicino al palazzo",
+    bestFor: "Coppie",
+    blurb:
+      "Un boutique hotel interamente di suite ricavato in tre case del XVIII secolo a pochi passi dal Palazzo Granducale, adornato ovunque di arte contemporanea. Le generose suite e i vicoli tranquilli della Città Alta ne fanno una base serena nel bel mezzo di tutto.",
+    image: px(1267438),
+    imageAlt: "Suite d'albergo dal design minimalista in toni caldi con opere d'arte alle pareti",
+  },
+  {
+    slug: "grand-hotel-alfa-luxembourg",
+    citySlug: "luxembourg",
+    name: "Mercure Grand Hotel Alfa Luxembourg",
+    neighborhoodSlug: "gare",
+    band: "€€",
+    priceFrom: 140,
+    style: "Icona Art Déco vicino alla stazione",
+    bestFor: "Prima visita",
+    blurb:
+      "Un hotel iconico degli anni Trenta in un imponente edificio in pietra proprio di fronte alla stazione centrale, così i bus gratuiti per l'aeroporto e il centro storico partono sull'uscio di casa. La sua Brasserie Guillaume rivestita in legno è un'istituzione cittadina di lunga data per il pesce.",
+    image: px(279746),
+    imageAlt: "Camera d'albergo classica con illuminazione calda e mobili in legno",
+  },
+  {
+    slug: "youth-hostel-luxembourg",
+    citySlug: "luxembourg",
+    name: "Luxembourg City Youth Hostel",
+    neighborhoodSlug: "grund",
+    band: "€",
+    priceFrom: 30,
+    style: "Ostello moderno nella valle",
+    bestFor: "Economico",
+    blurb:
+      "Un moderno ostello HI giù nella valle di Pfaffenthal sotto le rupi delle casematte, con dormitori e camere private alle tariffe più basse della città. L'ascensore panoramico gratuito di Pfaffenthal porta dritti su alla Città Alta in pochi secondi.",
+    image: px(271624),
+    imageAlt: "Semplice dormitorio luminoso con letti a castello",
+  },
 ];
 
 export default hotelsIt;

@@ -2591,6 +2591,64 @@ const hotelsFr: Hotel[] = [
     image: px(271624),
     imageAlt: "Dortoir simple et lumineux avec des lits superposés",
   },
+
+  // ---- Luxembourg-Ville ----
+  {
+    slug: "le-place-darmes-luxembourg",
+    citySlug: "luxembourg",
+    name: "Hotel Le Place d'Armes",
+    neighborhoodSlug: "ville-haute",
+    band: "€€€",
+    priceFrom: 300,
+    style: "Palais de maisons de ville sur la place",
+    bestFor: "Séjour dans un monument",
+    blurb:
+      "Un hôtel cinq étoiles réparti sur une enfilade de maisons de ville du 18e siècle restaurées, en plein sur la place d'Armes, la place la plus animée de la Ville Haute. Son restaurant gastronomique La Cristallerie tient une étoile Michelin, et chaque site phare est à quelques minutes à pied.",
+    image: px(262048),
+    imageAlt: "Suite d'hôtel classique et élégante avec un lustre et un grand lit",
+  },
+  {
+    slug: "hotel-parc-beaux-arts-luxembourg",
+    citySlug: "luxembourg",
+    name: "Hotel Parc Beaux-Arts",
+    neighborhoodSlug: "ville-haute",
+    band: "€€",
+    priceFrom: 190,
+    style: "Boutique tout en suites près du palais",
+    bestFor: "Couples",
+    blurb:
+      "Un hôtel de charme entièrement en suites installé dans trois maisons du 18e siècle à deux pas du Palais grand-ducal, orné d'art contemporain de bout en bout. Les suites généreuses et les ruelles tranquilles de la Ville Haute en font une base calme au milieu de tout.",
+    image: px(1267438),
+    imageAlt: "Suite d'hôtel au design minimaliste dans des tons chauds, avec des œuvres d'art aux murs",
+  },
+  {
+    slug: "grand-hotel-alfa-luxembourg",
+    citySlug: "luxembourg",
+    name: "Mercure Grand Hotel Alfa Luxembourg",
+    neighborhoodSlug: "gare",
+    band: "€€",
+    priceFrom: 140,
+    style: "Repère Art déco près de la gare",
+    bestFor: "Première visite",
+    blurb:
+      "Un hôtel emblématique des années 1930 dans un grand bâtiment de pierre juste en face de la gare centrale, si bien que les bus gratuits pour l'aéroport et la vieille ville partent de votre porte. Sa Brasserie Guillaume aux boiseries est une institution de longue date de la ville pour les fruits de mer.",
+    image: px(279746),
+    imageAlt: "Chambre d'hôtel classique à l'éclairage chaleureux et au mobilier en bois",
+  },
+  {
+    slug: "youth-hostel-luxembourg",
+    citySlug: "luxembourg",
+    name: "Luxembourg City Youth Hostel",
+    neighborhoodSlug: "grund",
+    band: "€",
+    priceFrom: 30,
+    style: "Auberge moderne dans la vallée",
+    bestFor: "Petit budget",
+    blurb:
+      "Une auberge HI moderne en bas dans la vallée du Pfaffenthal, sous les falaises des casemates, avec dortoirs et chambres privées aux tarifs les plus bas de la ville. L'ascenseur panoramique gratuit du Pfaffenthal vous remonte droit à la Ville Haute en quelques secondes.",
+    image: px(271624),
+    imageAlt: "Dortoir simple et lumineux avec des lits superposés",
+  },
 ];
 
 export default hotelsFr;

@@ -718,6 +718,22 @@ const extrasIt: Record<string, CityExtras> = {
       "Serate fuori economiche",
     ],
   },
+  luxembourg: {
+    citySlug: "luxembourg",
+    image: hero(27659285),
+    imageAlt:
+      "La valle del Grund a Lussemburgo con il fiume Alzette, l'Abbazia di Neumunster e le rupi delle casematte viste dalla Corniche",
+    history:
+      "Lussemburgo nacque nel 963, quando il conte Siegfried acquisì il roccioso promontorio del Bock sopra l'Alzette e vi costruì un castello il cui nome, Lucilinburhuc, diede al paese il proprio. Le sue rupi naturali e le gole del fiume ne fecero una delle fortezze più forti d'Europa, contesa e ricostruita a turno da borgognoni, spagnoli, francesi, austriaci e prussiani, il che le valse il soprannome di Gibilterra del Nord. Il Trattato di Londra del 1867 pose fine all'infinito tira e molla rendendo il Lussemburgo permanentemente neutrale e ordinando lo smantellamento della maggior parte della fortezza, anche se sopravvissero chilometri di cunicoli delle casematte scavati nella roccia. I quartieri antichi e quelle fortificazioni furono iscritti nella lista del Patrimonio dell'Umanità UNESCO nel 1994, e oggi il Granducato è un membro fondatore dell'Unione Europea, con importanti istituzioni UE sul moderno altopiano di Kirchberg appena al di là della valle.",
+    knownFor: [
+      "Casematte del Bock",
+      "Chemin de la Corniche",
+      "La valle del Grund",
+      "Memoriale della Signora Dorata",
+      "Ponte Adolphe",
+      "Trasporti pubblici gratuiti",
+    ],
+  },
 };
 
 export default extrasIt;

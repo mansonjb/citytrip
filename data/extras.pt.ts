@@ -718,6 +718,22 @@ const extrasPt: Record<string, CityExtras> = {
       "Noitadas baratas",
     ],
   },
+  luxembourg: {
+    citySlug: "luxembourg",
+    image: hero(27659285),
+    imageAlt:
+      "O vale do Grund na Cidade do Luxemburgo com o rio Alzette, a Abadia de Neumunster e as falesias das casemates vistas da Corniche",
+    history:
+      "A Cidade do Luxemburgo comecou em 963, quando o Conde Siegfried adquiriu o promontorio rochoso do Bock por cima do Alzette e construiu um castelo cujo nome, Lucilinburhuc, deu o seu proprio ao pais. As suas falesias naturais e desfiladeiros fluviais fizeram dela uma das fortalezas mais fortes da Europa, disputada e reconstruida a vez por borgonhoes, espanhois, franceses, austriacos e prussianos, o que lhe valeu a alcunha de Gibraltar do Norte. O Tratado de Londres de 1867 resolveu o interminavel cabo-de-guerra ao tornar o Luxemburgo permanentemente neutro e ao ordenar o desmantelamento da maior parte da fortaleza, embora quilometros de tuneis de casemate escavados na rocha tenham sobrevivido. Os bairros antigos e essas fortificacoes foram inscritos na lista do Patrimonio Mundial da UNESCO em 1994, e hoje o Grao-Ducado e membro fundador da Uniao Europeia, com grandes instituicoes da UE no moderno plateau de Kirchberg, mesmo do outro lado do vale.",
+    knownFor: [
+      "Casemates du Bock",
+      "Chemin de la Corniche",
+      "O vale do Grund",
+      "Memorial da Dama Dourada",
+      "Ponte Adolphe",
+      "Transporte publico gratuito",
+    ],
+  },
 };
 
 export default extrasPt;

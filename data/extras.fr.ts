@@ -720,6 +720,22 @@ const extrasFr: Record<string, CityExtras> = {
       "Les sorties bon marché",
     ],
   },
+  luxembourg: {
+    citySlug: "luxembourg",
+    image: hero(27659285),
+    imageAlt:
+      "La vallée du Grund à Luxembourg-Ville avec l'Alzette, l'abbaye de Neumunster et les falaises des casemates vues de la Corniche",
+    history:
+      "Luxembourg-Ville naquit en 963, quand le comte Sigefroi acquit le promontoire rocheux du Bock au-dessus de l'Alzette et y bâtit un château dont le nom, Lucilinburhuc, donna le sien au pays. Ses falaises naturelles et ses gorges fluviales en firent l'une des plus fortes places d'Europe, disputée et rebâtie tour à tour par les Bourguignons, les Espagnols, les Français, les Autrichiens et les Prussiens, ce qui lui valut le surnom de Gibraltar du Nord. Le traité de Londres de 1867 régla cet interminable bras de fer en rendant le Luxembourg neutre à perpétuité et en ordonnant le démantèlement de la majeure partie de la forteresse, même si des kilomètres de tunnels de casemates creusés dans la roche ont survécu. Les vieux quartiers et ces fortifications furent inscrits au patrimoine mondial de l'UNESCO en 1994, et le Grand-Duché est aujourd'hui un membre fondateur de l'Union européenne, avec de grandes institutions de l'UE sur le plateau moderne du Kirchberg, juste de l'autre côté de la vallée.",
+    knownFor: [
+      "Les casemates du Bock",
+      "Le Chemin de la Corniche",
+      "La vallée du Grund",
+      "Le mémorial de la Dame d'or",
+      "Le pont Adolphe",
+      "Les transports publics gratuits",
+    ],
+  },
 };
 
 export default extrasFr;

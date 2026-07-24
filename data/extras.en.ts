@@ -719,6 +719,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Cheap nights out",
     ],
   },
+  luxembourg: {
+    citySlug: "luxembourg",
+    image: hero(27659285),
+    imageAlt:
+      "The Grund valley in Luxembourg City with the Alzette river, Neumunster Abbey and the casemate cliffs seen from the Corniche",
+    history:
+      "Luxembourg City began in 963, when Count Siegfried acquired the rocky Bock promontory above the Alzette and built a castle whose name, Lucilinburhuc, gave the country its own. Its natural cliffs and river gorges made it one of the strongest fortresses in Europe, fought over and rebuilt in turn by Burgundians, Spanish, French, Austrians and Prussians, which earned it the nickname the Gibraltar of the North. The 1867 Treaty of London settled the endless tug of war by making Luxembourg permanently neutral and ordering most of the fortress dismantled, though miles of casemate tunnels bored into the rock survived. The old quarters and those fortifications were inscribed on the UNESCO World Heritage list in 1994, and today the Grand Duchy is a founding member of the European Union, with major EU institutions on the modern Kirchberg plateau just across the valley.",
+    knownFor: [
+      "Bock Casemates",
+      "Chemin de la Corniche",
+      "The Grund valley",
+      "Golden Lady memorial",
+      "Adolphe Bridge",
+      "Free public transport",
+    ],
+  },
 };
 
 export default extrasEn;

@@ -320,6 +320,22 @@ const extrasEs: Record<string, CityExtras> = {
       "El cristal de Murano",
     ],
   },
+  luxembourg: {
+    citySlug: "luxembourg",
+    image: hero(27659285),
+    imageAlt:
+      "El valle del Grund en la Ciudad de Luxemburgo con el río Alzette, la abadía de Neumunster y los acantilados de las casamatas vistos desde la Corniche",
+    history:
+      "La Ciudad de Luxemburgo nació en 963, cuando el conde Sigfrido adquirió el rocoso promontorio del Bock sobre el Alzette y levantó un castillo cuyo nombre, Lucilinburhuc, dio nombre al propio país. Sus acantilados naturales y sus gargantas fluviales hicieron de ella una de las fortalezas más sólidas de Europa, disputada y reconstruida por turnos por borgoñones, españoles, franceses, austriacos y prusianos, lo que le valió el apodo de Gibraltar del Norte. El Tratado de Londres de 1867 zanjó el interminable tira y afloja declarando a Luxemburgo permanentemente neutral y ordenando desmantelar la mayor parte de la fortaleza, aunque sobrevivieron kilómetros de túneles de casamatas excavados en la roca. Los barrios antiguos y esas fortificaciones fueron inscritos en la lista del Patrimonio de la Humanidad de la UNESCO en 1994, y hoy el Gran Ducado es miembro fundador de la Unión Europea, con importantes instituciones de la UE en la moderna meseta de Kirchberg, justo al otro lado del valle.",
+    knownFor: [
+      "Las Casamatas del Bock",
+      "El Chemin de la Corniche",
+      "El valle del Grund",
+      "El monumento de la Dama Dorada",
+      "El puente Adolphe",
+      "El transporte público gratuito",
+    ],
+  },
   dublin: {
     citySlug: "dublin",
     image: hero(13157974),
