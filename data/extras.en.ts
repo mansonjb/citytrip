@@ -783,6 +783,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Silk and the canuts",
     ],
   },
+  salzburg: {
+    citySlug: "salzburg",
+    image: hero(37861319),
+    imageAlt:
+      "Hohensalzburg Fortress above Salzburg's baroque old town and church domes",
+    history:
+      "Salzburg began as the Roman town of Juvavum and took its later name from the salt hauled down the Salzach river, as Salz means salt and the trade made the city rich. For centuries it was ruled as an independent state by powerful prince-archbishops, who grew wealthy on that salt, rebuilt the town in Italian Baroque with its cathedral and squares, and held the hilltop Hohensalzburg fortress through every siege. Wolfgang Amadeus Mozart was born here in 1756, and the city has traded on his name ever since. Salzburg lost its church rulers and was joined to Austria in 1816, the Salzburg Festival was founded in 1920, and the baroque old town was made a UNESCO World Heritage Site in 1996.",
+    knownFor: [
+      "Hohensalzburg Fortress",
+      "Mozart",
+      "Baroque old town",
+      "Sound of Music",
+      "Salzburg Festival",
+      "Advent markets",
+    ],
+  },
 };
 
 export default extrasEn;

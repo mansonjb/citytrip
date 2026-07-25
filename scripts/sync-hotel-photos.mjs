@@ -70,6 +70,10 @@ const QUERY_OVERRIDE = {
   "college-hotel-lyon": "College Hotel Lyon Vieux Lyon Place Saint Paul",
   "hotel-le-royal-lyon": "Hotel Le Royal Lyon MGallery Place Bellecour",
   "away-hostel-lyon": "Away Hostel Coffee Lyon Rue Edouard Herriot",
+  "hotel-sacher-salzburg": "Hotel Sacher Salzburg Schwarzstrasse",
+  "arthotel-blaue-gans": "Arthotel Blaue Gans Salzburg Getreidegasse",
+  "hotel-am-mirabellplatz": "Hotel am Mirabellplatz Salzburg",
+  "yoho-hostel-salzburg": "YoHo International Youth Hostel Salzburg Paracelsusstrasse",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -129,6 +133,7 @@ const CITY_NAME = {
   malaga: "Malaga Spain",
   milan: "Milan Italy",
   lyon: "Lyon France",
+  salzburg: "Salzburg Austria",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

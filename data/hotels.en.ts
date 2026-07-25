@@ -2820,6 +2820,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Bright modern hostel dorm room",
   },
+  // ---- Salzburg ----
+  {
+    slug: "hotel-sacher-salzburg",
+    citySlug: "salzburg",
+    name: "Hotel Sacher Salzburg",
+    neighborhoodSlug: "neustadt",
+    band: "€€€",
+    priceFrom: 350,
+    style: "Riverfront grand hotel",
+    bestFor: "Special occasions",
+    blurb:
+      "The legendary Sacher sits right on the Salzach with fortress views from the best rooms and its own Sachertorte served in the cafe. A footbridge takes you straight across to the old town.",
+    image: px(262048),
+    imageAlt: "Elegant grand hotel room with river views",
+  },
+  {
+    slug: "arthotel-blaue-gans",
+    citySlug: "salzburg",
+    name: "Arthotel Blaue Gans",
+    neighborhoodSlug: "altstadt",
+    band: "€€",
+    priceFrom: 160,
+    style: "Old town design hotel",
+    bestFor: "Couples",
+    blurb:
+      "The Blue Goose is Salzburg's oldest inn turned contemporary art hotel, its rooms hung with modern works. It stands right on the Getreidegasse in the heart of the old town.",
+    image: px(1267438),
+    imageAlt: "Stylish design hotel room with artworks",
+  },
+  {
+    slug: "hotel-am-mirabellplatz",
+    citySlug: "salzburg",
+    name: "Hotel am Mirabellplatz",
+    neighborhoodSlug: "neustadt",
+    band: "€€",
+    priceFrom: 130,
+    style: "Right-bank classic",
+    bestFor: "First visit",
+    blurb:
+      "A comfortable classic hotel right by the Mirabell gardens on the right bank. It is an easy walk over the bridge into the old town, with the station close for day trips.",
+    image: px(2507010),
+    imageAlt: "Comfortable classic hotel room",
+  },
+  {
+    slug: "yoho-hostel-salzburg",
+    citySlug: "salzburg",
+    name: "YoHo International Youth Hostel",
+    neighborhoodSlug: "hauptbahnhof",
+    band: "€",
+    priceFrom: 30,
+    style: "Sound-of-Music hostel",
+    bestFor: "Budget",
+    blurb:
+      "The well-known backpacker hostel near the station that screens the Sound of Music every night. It offers both dorms and cheaper private rooms within walking distance of the centre.",
+    image: px(271624),
+    imageAlt: "Simple bright dorm room with bunk beds",
+  },
 ];
 
 export default hotelsEn;
