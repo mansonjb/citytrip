@@ -767,6 +767,22 @@ const extrasEn: Record<string, CityExtras> = {
       "La Scala opera",
     ],
   },
+  lyon: {
+    citySlug: "lyon",
+    image: hero(5773238),
+    imageAlt:
+      "The Basilica of Notre-Dame de Fourviere above the ochre houses of old Lyon in evening light",
+    history:
+      "Lyon began as Roman Lugdunum, founded in 43 BC on the Fourviere hill and made the capital of the Three Gauls, the administrative heart of Roman Gaul. In the Renaissance it grew rich as a banking and printing centre at the crossroads of European trade fairs, and from the 18th century it became the world capital of silk weaving, worked by the canuts of the Croix-Rousse whose revolts marked the 1830s. It was here that the Lumiere brothers shot the first films and gave birth to cinema in 1895, and during the Second World War the city was a stronghold of the French Resistance. Today Lyon is France's gastronomic capital and a UNESCO World Heritage city, its Renaissance old town and traboules preserved intact.",
+    knownFor: [
+      "Bouchon bistros",
+      "Vieux Lyon traboules",
+      "Fourviere basilica",
+      "Fete des Lumieres",
+      "Two rivers",
+      "Silk and the canuts",
+    ],
+  },
 };
 
 export default extrasEn;

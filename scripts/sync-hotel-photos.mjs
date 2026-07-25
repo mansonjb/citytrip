@@ -66,6 +66,10 @@ const QUERY_OVERRIDE = {
   "room-mate-giulia-milan": "Room Mate Giulia Milan Via Silvio Pellico",
   "maison-borella-navigli": "Maison Borella Milano Navigli Alzaia Naviglio Grande",
   "ostello-bello-milano": "Ostello Bello Milano Via Medici",
+  "cour-des-loges-lyon": "Cour des Loges Lyon Rue du Boeuf Vieux Lyon",
+  "college-hotel-lyon": "College Hotel Lyon Vieux Lyon Place Saint Paul",
+  "hotel-le-royal-lyon": "Hotel Le Royal Lyon MGallery Place Bellecour",
+  "away-hostel-lyon": "Away Hostel Coffee Lyon Rue Edouard Herriot",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -124,6 +128,7 @@ const CITY_NAME = {
   luxembourg: "Luxembourg City",
   malaga: "Malaga Spain",
   milan: "Milan Italy",
+  lyon: "Lyon France",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

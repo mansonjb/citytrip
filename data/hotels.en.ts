@@ -2763,6 +2763,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Bright modern hostel dorm room",
   },
+  // ---- Lyon ----
+  {
+    slug: "cour-des-loges-lyon",
+    citySlug: "lyon",
+    name: "Cour des Loges",
+    neighborhoodSlug: "vieux-lyon",
+    band: "€€€",
+    priceFrom: 300,
+    style: "Renaissance courtyard five-star",
+    bestFor: "Special occasions",
+    blurb:
+      "The landmark luxury hotel spans four Renaissance houses around glass-roofed courtyards in the heart of Vieux Lyon, with a spa and a fine restaurant. It is the address for a special-occasion stay in the old town.",
+    image: px(262048),
+    imageAlt: "Elegant hotel room in a Renaissance building",
+  },
+  {
+    slug: "college-hotel-lyon",
+    citySlug: "lyon",
+    name: "College Hotel",
+    neighborhoodSlug: "vieux-lyon",
+    band: "€€",
+    priceFrom: 140,
+    style: "Quirky old-town boutique",
+    bestFor: "Couples",
+    blurb:
+      "A white schoolroom-themed boutique in Vieux Lyon, playful without being gimmicky, with bright minimalist rooms. Its terrace looks over the rooftops to the Fourviere basilica on the hill.",
+    image: px(1267438),
+    imageAlt: "Bright white boutique hotel room",
+  },
+  {
+    slug: "hotel-le-royal-lyon",
+    citySlug: "lyon",
+    name: "Hotel Le Royal Lyon MGallery",
+    neighborhoodSlug: "presquile",
+    band: "€€",
+    priceFrom: 160,
+    style: "Grand hotel on Bellecour",
+    bestFor: "First visit",
+    blurb:
+      "A classic grand hotel right on Place Bellecour in the heart of the Presqu'ile, walkable to both rivers and the old town. It is a comfortable, central base for a first visit to the city.",
+    image: px(2507010),
+    imageAlt: "Classic grand hotel room",
+  },
+  {
+    slug: "away-hostel-lyon",
+    citySlug: "lyon",
+    name: "Away Hostel",
+    neighborhoodSlug: "presquile",
+    band: "€",
+    priceFrom: 30,
+    style: "Central design hostel",
+    bestFor: "Budget",
+    blurb:
+      "A design hostel with its own cafe on the Presqu'ile near Cordeliers, offering both dorms and private rooms. It puts you minutes from the centre on a tight budget.",
+    image: px(271624),
+    imageAlt: "Bright modern hostel dorm room",
+  },
 ];
 
 export default hotelsEn;
