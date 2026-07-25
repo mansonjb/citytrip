@@ -74,6 +74,13 @@ const QUERY_OVERRIDE = {
   "arthotel-blaue-gans": "Arthotel Blaue Gans Salzburg Getreidegasse",
   "hotel-am-mirabellplatz": "Hotel am Mirabellplatz Salzburg",
   "yoho-hostel-salzburg": "YoHo International Youth Hostel Salzburg Paracelsusstrasse",
+  "fairmont-vier-jahreszeiten-hamburg":
+    "Fairmont Hotel Vier Jahreszeiten Hamburg Neuer Jungfernstieg",
+  "25hours-hotel-hamburg-hafencity":
+    "25hours Hotel Hamburg HafenCity Ueberseeallee",
+  "empire-riverside-hotel-hamburg":
+    "Empire Riverside Hotel Hamburg Bernhard-Nocht-Strasse St Pauli",
+  "superbude-st-pauli-hamburg": "Superbude St. Pauli Hamburg Juliusstrasse",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -134,6 +141,7 @@ const CITY_NAME = {
   milan: "Milan Italy",
   lyon: "Lyon France",
   salzburg: "Salzburg Austria",
+  hamburg: "Hamburg Germany",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

@@ -799,6 +799,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Advent markets",
     ],
   },
+  hamburg: {
+    citySlug: "hamburg",
+    image: hero(19736459),
+    imageAlt:
+      "The Elbphilharmonie concert hall and the HafenCity waterfront seen across the Elbe in Hamburg",
+    history:
+      "Hamburg grew from a ninth-century fort on the marshy ground between the Elbe and the Alster into the richest port in northern Germany, and it still calls itself a Free and Hanseatic City after centuries of running its own trade and its own affairs. A charter tradition dating back to 1189 gave its merchants customs privileges on the Elbe, and the city marks that grant every May with the Hafengeburtstag, the harbour birthday. Fire destroyed much of the centre in 1842 and Allied bombing flattened far more in 1943, which is why so much of what you walk through is late nineteenth century red brick or postwar rebuild rather than medieval. The warehouse district of the Speicherstadt, built on oak piles from 1883, and the neighbouring Kontorhaus office quarter with the sharp-prowed Chilehaus were listed together by UNESCO in 2015, and the Elbphilharmonie opened on top of an old cocoa warehouse in January 2017 after a decade of delays and cost overruns.",
+    knownFor: [
+      "Elbphilharmonie",
+      "Speicherstadt warehouses",
+      "Europe's third-largest port",
+      "Reeperbahn nightlife",
+      "Sunday Fischmarkt",
+      "Alster lakes",
+    ],
+  },
 };
 
 export default extrasEn;

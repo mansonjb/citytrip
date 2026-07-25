@@ -2877,6 +2877,64 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Simple bright dorm room with bunk beds",
   },
+
+  // ---- Hamburg ----
+  {
+    slug: "fairmont-vier-jahreszeiten-hamburg",
+    citySlug: "hamburg",
+    name: "Fairmont Hotel Vier Jahreszeiten",
+    neighborhoodSlug: "altstadt-neustadt",
+    band: "€€€",
+    priceFrom: 340,
+    style: "Grand hotel on the Alster",
+    bestFor: "Special occasions",
+    blurb:
+      "Hamburg's grand old address has faced the Binnenalster since 1897, with antique-furnished rooms and afternoon tea in the Wohnhalle lounge. The best rooms look straight across the lake, and the Jungfernstieg shops and the Rathaus are a few minutes on foot.",
+    image: px(262048),
+    imageAlt: "Classic grand hotel room with antique furniture and lake view",
+  },
+  {
+    slug: "25hours-hotel-hamburg-hafencity",
+    citySlug: "hamburg",
+    name: "25hours Hotel Hamburg HafenCity",
+    neighborhoodSlug: "hafencity-speicherstadt",
+    band: "€€",
+    priceFrom: 150,
+    style: "Sailor-themed design hotel",
+    bestFor: "Design lovers",
+    blurb:
+      "Rooms here are built around a seafarers' theme, with bunk-style cabins, a sauna and a record player you can borrow at reception. It stands in HafenCity a short walk from the Maritime Museum, the Speicherstadt and the Elbphilharmonie.",
+    image: px(1267438),
+    imageAlt: "Design hotel room with nautical styling and warm wood",
+  },
+  {
+    slug: "empire-riverside-hotel-hamburg",
+    citySlug: "hamburg",
+    name: "Empire Riverside Hotel",
+    neighborhoodSlug: "st-pauli",
+    band: "€€",
+    priceFrom: 140,
+    style: "Harbour-view tower",
+    bestFor: "Harbour views",
+    blurb:
+      "A David Chipperfield tower above the St Pauli slopes where nearly every room looks over the harbour and the Elbe. The 20up skyline bar on the twentieth floor is open to non-guests from 6pm, so you can scout the view before you book.",
+    image: px(2507010),
+    imageAlt: "Modern hotel room with floor-to-ceiling windows over a harbour",
+  },
+  {
+    slug: "superbude-st-pauli-hamburg",
+    citySlug: "hamburg",
+    name: "Superbude St. Pauli",
+    neighborhoodSlug: "sternschanze",
+    band: "€",
+    priceFrom: 65,
+    style: "Hostel-hotel hybrid",
+    bestFor: "Budget",
+    blurb:
+      "A cheerful design hostel-hotel that mixes dorms with private and family rooms, all sharing a lively lobby cafe. It sits between the Schanzenviertel bars and the Reeperbahn, with the S-Bahn at Sternschanze a few minutes away.",
+    image: px(271624),
+    imageAlt: "Bright budget hotel room with bunk beds and colourful decor",
+  },
 ];
 
 export default hotelsEn;

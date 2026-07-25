@@ -69,6 +69,7 @@ English at the root, plus /fr /pt /it /de /es. Every city page is translated; hr
 - /milan (Milan, Italy): ideal 2 days
 - /salzburg (Salzburg, Austria): ideal 2 days
 - /lyon (Lyon, France): ideal 2 days
+- /hamburg (Hamburg, Germany): ideal 3 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,
