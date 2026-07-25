@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getCityData } from "@/data";
+import { getCityData, publishedLocales } from "@/data";
 import { getHotels } from "@/data/hotels";
 import { cityVars } from "@/lib/style";
 import {
@@ -41,7 +41,7 @@ export function makeWtsMetadata(locale: Locale) {
       description: fmt(t.metaDesc, { city: city.name }),
       alternates: {
         canonical: localePath(locale, path),
-        languages: hreflangs(path),
+        languages: hreflangs(path, publishedLocales(city.slug)),
       },
     };
   };

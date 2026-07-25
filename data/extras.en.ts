@@ -735,6 +735,38 @@ const extrasEn: Record<string, CityExtras> = {
       "Free public transport",
     ],
   },
+  malaga: {
+    citySlug: "malaga",
+    image: hero(37373117),
+    imageAlt:
+      "Malaga at dusk with the Alcazaba fortress and the cathedral, mountains beyond",
+    history:
+      "Malaga is one of the oldest cities in the world, founded by Phoenician traders as Malaka around 770 BC and later a busy Roman port that shipped garum and wine across the empire. From the 8th century it spent nearly 800 years under Moorish rule, which raised the walled Alcazaba and the Gibralfaro castle above the harbour, until the Catholic Monarchs took the city after a long siege in 1487. It is best known worldwide as the birthplace of Pablo Picasso, born on Plaza de la Merced in 1881. For most of the 20th century it was a working port and the gateway to the Costa del Sol resorts, before reinventing itself in the 2010s as an art-and-culture city with the Picasso Museum, the Pompidou and the Carmen Thyssen.",
+    knownFor: [
+      "Alcazaba and Gibralfaro",
+      "Picasso",
+      "Costa del Sol beaches",
+      "Tapas and sweet wine",
+      "Semana Santa",
+      "Espetos",
+    ],
+  },
+  milan: {
+    citySlug: "milan",
+    image: hero(36464757),
+    imageAlt:
+      "Milan's cityscape seen from the Gothic marble spires of the Duomo rooftop",
+    history:
+      "Milan began as a Celtic settlement and became the Roman city of Mediolanum, so central to the late empire that it served for a time as a capital of the Western Roman Empire, and it was here in 313 that the Edict of Milan granted Christians freedom of worship. In the Middle Ages it grew into a powerful duchy under the Visconti and then the Sforza, who raised the great brick castle and drew Leonardo da Vinci into their service. Later centuries passed it between Spanish and Austrian rule before it became a driving force in Italy's 19th-century unification and, in the 20th, in the country's industrial boom. Heavily bombed in the Second World War and rebuilt around a modern skyline, it stands today as Italy's financial, fashion and design capital.",
+    knownFor: [
+      "The Duomo",
+      "The Last Supper",
+      "Fashion and design",
+      "Aperitivo",
+      "Navigli canals",
+      "La Scala opera",
+    ],
+  },
 };
 
 export default extrasEn;

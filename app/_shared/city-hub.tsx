@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getCityData, getPublishedCity } from "@/data";
+import { getCityData, getPublishedCity, publishedLocales } from "@/data";
 import { getCityExtras } from "@/data/extras";
 import { getHotels } from "@/data/hotels";
 import { cityVars } from "@/lib/style";
@@ -53,7 +53,7 @@ export function makeCityHubMetadata(locale: Locale) {
       description: fmt(t.metaDesc, { city: city.name, days: city.idealDays }),
       alternates: {
         canonical: localePath(locale, path),
-        languages: hreflangs(path),
+        languages: hreflangs(path, publishedLocales(city.slug)),
       },
     };
   };

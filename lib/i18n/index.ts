@@ -39,10 +39,16 @@ export function monthShort(locale: Locale, num: number): string {
   return STR[locale].monthsShort[num - 1];
 }
 
-// hreflang map for a path shared by all locales (path WITHOUT locale prefix).
-export function hreflangs(path: string): Record<string, string> {
-  const map: Record<string, string> = { "x-default": localePath("en", path) };
-  for (const l of LOCALES) map[l] = localePath(l, path);
+// hreflang map for a path (path WITHOUT locale prefix). Pass `locales` to limit
+// the alternates to the languages a page is actually published in (a city that
+// only exists in EN must not advertise /fr, /de ... siblings that would 404).
+export function hreflangs(
+  path: string,
+  locales: readonly Locale[] = LOCALES
+): Record<string, string> {
+  const map: Record<string, string> = {};
+  for (const l of locales) map[l] = localePath(l, path);
+  if (locales.includes("en")) map["x-default"] = localePath("en", path);
   return map;
 }
 

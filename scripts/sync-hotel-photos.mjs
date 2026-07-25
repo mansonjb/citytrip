@@ -58,6 +58,14 @@ const QUERY_OVERRIDE = {
   "hotel-parc-beaux-arts-luxembourg": "Hotel Parc Beaux-Arts Luxembourg City",
   "grand-hotel-alfa-luxembourg": "Mercure Grand Hotel Alfa Luxembourg Place de la Gare",
   "youth-hostel-luxembourg": "Luxembourg City Youth Hostel Auberge de Jeunesse Pfaffenthal",
+  "gran-hotel-miramar-malaga": "Gran Hotel Miramar Malaga Paseo de Reding",
+  "molina-lario-malaga": "Hotel Molina Lario Malaga Calle Molina Lario",
+  "hotel-boutique-teatro-romano": "Hotel Boutique Teatro Romano Malaga Alcazabilla",
+  "the-lights-hostel-malaga": "The Lights Hostel Malaga Soho",
+  "park-hyatt-milan": "Park Hyatt Milano Via Tommaso Grossi",
+  "room-mate-giulia-milan": "Room Mate Giulia Milan Via Silvio Pellico",
+  "maison-borella-navigli": "Maison Borella Milano Navigli Alzaia Naviglio Grande",
+  "ostello-bello-milano": "Ostello Bello Milano Via Medici",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -114,6 +122,8 @@ const CITY_NAME = {
   sofia: "Sofia Bulgaria",
   belgrade: "Belgrade Serbia",
   luxembourg: "Luxembourg City",
+  malaga: "Malaga Spain",
+  milan: "Milan Italy",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

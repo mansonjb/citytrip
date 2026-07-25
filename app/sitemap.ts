@@ -1,20 +1,25 @@
 import type { MetadataRoute } from "next";
-import { cityBundles, countries } from "@/data";
+import { cityBundles, countries, publishedLocales } from "@/data";
 import { MONTHS } from "@/lib/months";
 import { listGuides } from "@/lib/guides";
 import { absoluteUrl } from "@/lib/site";
-import { LOCALES, localePath } from "@/lib/i18n";
+import { LOCALES, localePath, type Locale } from "@/lib/i18n";
 
-// One entry per locale per page, with hreflang alternates linking siblings.
+// One entry per published locale per page, with hreflang alternates linking
+// siblings. `locales` defaults to all six; pass a subset for pages that only
+// exist in some languages (EN-first cities) so we never list 404 URLs.
 function localized(
   path: string,
   priority: number,
-  now: Date
+  now: Date,
+  locales: readonly Locale[] = LOCALES
 ): MetadataRoute.Sitemap {
   const languages: Record<string, string> = {};
-  for (const l of LOCALES) languages[l] = absoluteUrl(localePath(l, path));
-  languages["x-default"] = absoluteUrl(localePath("en", path));
-  return LOCALES.map((l) => ({
+  for (const l of locales) languages[l] = absoluteUrl(localePath(l, path));
+  if (locales.includes("en")) {
+    languages["x-default"] = absoluteUrl(localePath("en", path));
+  }
+  return locales.map((l) => ({
     url: absoluteUrl(localePath(l, path)),
     lastModified: now,
     priority: l === "en" ? priority : Math.max(0.1, priority - 0.1),
@@ -39,14 +44,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   for (const { city } of cityBundles("en")) {
-    entries.push(...localized(`/${city.slug}`, 0.9, now));
-    entries.push(...localized(`/${city.slug}/where-to-stay`, 0.9, now));
-    entries.push(...localized(`/${city.slug}/on-a-budget`, 0.7, now));
+    const locs = publishedLocales(city.slug);
+    entries.push(...localized(`/${city.slug}`, 0.9, now, locs));
+    entries.push(...localized(`/${city.slug}/where-to-stay`, 0.9, now, locs));
+    entries.push(...localized(`/${city.slug}/on-a-budget`, 0.7, now, locs));
     for (const d of city.durations) {
-      entries.push(...localized(`/${city.slug}/${d}-days`, 0.9, now));
+      entries.push(...localized(`/${city.slug}/${d}-days`, 0.9, now, locs));
     }
     for (const m of MONTHS) {
-      entries.push(...localized(`/${city.slug}/${m.slug}`, 0.6, now));
+      entries.push(...localized(`/${city.slug}/${m.slug}`, 0.6, now, locs));
     }
   }
 

@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Hotel photos are served from Cloudflare R2, not shipped in the deploy.
+public/hotels/

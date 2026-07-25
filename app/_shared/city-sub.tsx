@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getCityData, getNeighborhood } from "@/data";
+import { getCityData, getNeighborhood, publishedLocales } from "@/data";
 import { getHotels } from "@/data/hotels";
 import type { CityData, Month } from "@/data/types";
 import { cityVars } from "@/lib/style";
@@ -52,7 +52,7 @@ export function makeCitySubMetadata(locale: Locale) {
     const path = `/${city.slug}/${sub}`;
     const alternates = {
       canonical: localePath(locale, path),
-      languages: hreflangs(path),
+      languages: hreflangs(path, publishedLocales(city.slug)),
     };
     if (route.type === "days") {
       return {
