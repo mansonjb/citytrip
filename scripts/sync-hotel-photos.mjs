@@ -85,6 +85,10 @@ const QUERY_OVERRIDE = {
   "hotel-carlton-bilbao": "Hotel Carlton Bilbao Plaza Moyua",
   "hotel-tayko-bilbao": "Tayko Bilbao Calle Ribera",
   "quartier-bilbao-hostel": "Quartier Bilbao Hostel Bilbao la Vieja",
+  "opus-xvi-bergen": "Opus XVI Bergen Vagsallmenningen",
+  "hotel-park-bergen": "Hotel Park Bergen Harald Harfagres gate",
+  "thon-hotel-bryggen": "Thon Hotel Orion Bergen Bradbenken",
+  "citybox-bergen": "Citybox Bergen City",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -147,6 +151,7 @@ const CITY_NAME = {
   salzburg: "Salzburg Austria",
   hamburg: "Hamburg Germany",
   bilbao: "Bilbao Spain",
+  bergen: "Bergen Norway",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

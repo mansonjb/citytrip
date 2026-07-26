@@ -831,6 +831,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Athletic Bilbao",
     ],
   },
+  bergen: {
+    citySlug: "bergen",
+    image: hero(29755390),
+    imageAlt:
+      "The colourful Hanseatic wooden houses of Bryggen wharf in Bergen, boats and the green Floyen mountain behind",
+    history:
+      "Bergen was founded around 1070 by King Olav Kyrre and served as Norway's capital and biggest town for much of the Middle Ages. From the 14th century it was a key trading post of the German Hanseatic League, whose merchants ran the Bryggen wharf and grew rich on the stockfish shipped down from the north. Fire repeatedly gutted the tightly packed wooden town, so Bryggen was rebuilt time and again on its old lines and finally UNESCO-listed in 1979. A rainy fishing and shipping port and the birthplace of composer Edvard Grieg, Bergen is today the cruise-and-fjord gateway of western Norway.",
+    knownFor: [
+      "Bryggen wharf",
+      "The fjords",
+      "Floibanen funicular",
+      "Fish Market",
+      "Rain",
+      "Edvard Grieg",
+    ],
+  },
 };
 
 export default extrasEn;

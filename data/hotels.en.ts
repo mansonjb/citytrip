@@ -2992,6 +2992,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Bright modern hostel dorm room",
   },
+  // ---- Bergen ----
+  {
+    slug: "opus-xvi-bergen",
+    citySlug: "bergen",
+    name: "Opus XVI",
+    neighborhoodSlug: "sentrum-bryggen",
+    band: "€€€",
+    priceFrom: 280,
+    style: "Grieg-family design hotel",
+    bestFor: "Special occasions",
+    blurb:
+      "A design five-star in a historic former bank building in the centre, run by descendants of composer Edvard Grieg's family. It is a short walk from Bryggen and the funicular, with a quiet, refined feel.",
+    image: px(262048),
+    imageAlt: "Elegant design hotel room",
+  },
+  {
+    slug: "hotel-park-bergen",
+    citySlug: "bergen",
+    name: "Hotel Park Bergen",
+    neighborhoodSlug: "mohlenpris",
+    band: "€€",
+    priceFrom: 170,
+    style: "Antique-filled townhouse hotel",
+    bestFor: "Couples",
+    blurb:
+      "A charming family-run hotel spread across 19th-century wooden townhouses near the university, full of antiques and old paintings. It is a 15-minute walk to Bryggen and one of the more characterful mid-range picks in a pricey city.",
+    image: px(1267438),
+    imageAlt: "Cosy antique-furnished hotel room",
+  },
+  {
+    slug: "thon-hotel-bryggen",
+    citySlug: "bergen",
+    name: "Thon Hotel Orion",
+    neighborhoodSlug: "sentrum-bryggen",
+    band: "€€",
+    priceFrom: 150,
+    style: "Harbourside by Bryggen",
+    bestFor: "First visit",
+    blurb:
+      "A comfortable, well-located hotel right by the Bryggen wharf and the harbour, walkable to the Fish Market, the funicular and the museums. Rooms are practical rather than plush, but the position is hard to beat for a first trip.",
+    image: px(2507010),
+    imageAlt: "Comfortable modern hotel room",
+  },
+  {
+    slug: "citybox-bergen",
+    citySlug: "bergen",
+    name: "Citybox Bergen City",
+    neighborhoodSlug: "sentrum-bryggen",
+    band: "€",
+    priceFrom: 70,
+    style: "Smart budget hotel",
+    bestFor: "Budget",
+    blurb:
+      "A self-service smart budget hotel in the centre, with bright simple rooms and self check-in that keeps the price down. It is cheap only by Norwegian standards, but it is a reliable, central base for a costly city.",
+    image: px(271624),
+    imageAlt: "Bright simple budget hotel room",
+  },
 ];
 
 export default hotelsEn;

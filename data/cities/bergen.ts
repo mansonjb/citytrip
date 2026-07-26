@@ -1,0 +1,508 @@
+import type { CityData } from "../types";
+
+const bergen: CityData = {
+  city: {
+    slug: "bergen",
+    name: "Bergen",
+    country: "Norway",
+    countrySlug: "norway",
+    lat: 60.3913,
+    lng: 5.3221,
+    tier: 2,
+    idealDays: 2,
+    durations: [2, 3],
+    airportCode: "BGO",
+    airportToCenter:
+      "Bergen airport at Flesland sits about 12km south of the centre, and there are three sensible ways in. The Bybanen light rail, Line 1, runs from a stop right outside the terminal to Byparken in the centre in about 45 minutes for around 40 NOK, bought from the machine or the app before you board. The Flybussen airport coach is a touch quicker at roughly 30 minutes and drops at the bus station and a few central hotels. A taxi is the pricey option at around 400 to 500 NOK, so it only makes sense if you are in a group or arriving very late.",
+    centerWalkable: true,
+    bestMonths: [6, 7, 8],
+    avoidMonths: [1, 11],
+    monthlyNotes: {
+      1: "Deep winter with highs near 4C, though the Gulf Stream keeps it mild and wet rather than truly cold, so expect rain as much as snow. Daylight is short, many fjord tours pause for the season, and rooms are at their cheapest; pack proper waterproofs, as the local saying goes that there is no bad weather, only bad clothing.",
+      2: "Still dark and wet at around 5C with frequent rain and the occasional snowfall on the seven mountains. It is one of the quietest months, good for the museums, the aquarium and the funicular on a clear break in the weather, and prices stay low before the spring.",
+      3: "Slowly lightening at around 7C, damp and changeable, with longer evenings and the first hints of spring on the hillsides. The cruise ships have not yet arrived in force, so Bryggen is calm, but pack for rain in any month here.",
+      4: "Cool and showery at around 10C, with greener slopes and lengthening days making the Floyen and Ulriken trails pleasant between downpours. Crowds are thin and rates fair, a good shoulder window before the summer rush and the cruise season build.",
+      5: "Mild at around 14C and one of the brighter months, though rain is never far off. Late May brings the Bergen International Festival of music and theatre, so the city fills and rooms book up; the fjord and railway season is opening up nicely.",
+      6: "Early summer at around 17C with very long daylight that stretches well into the evening, the finest stretch to visit. The Bergen International Festival runs into June, the fjord cruises and the Flam railway are in full swing, and terraces line the harbour, so book ahead.",
+      7: "The peak month at around 18C, busy with cruise passengers and fjord-bound visitors, and still often wet despite the warmth. Long light evenings are the reward; do the Floibanen and the fjord day trips now, but expect Bryggen and the Fish Market to be crowded at midday.",
+      8: "Warm for Bergen at around 18C and the wettest end of summer, with lush green mountains and full fjord and railway timetables. Cruise crowds remain heavy in the mornings, so start early at Bryggen and keep the funicular for the late afternoon.",
+      9: "Cooling toward 15C with shortening days, the cruise season easing and the autumn colours creeping onto the seven mountains. Rain picks up, but so does the value, and the trails and museums are far quieter than in July and August.",
+      10: "Wet and cool at around 11C, one of the rainiest months in a very rainy city, with short grey days and the fjord tours winding down. It suits an indoor-leaning trip built around the KODE galleries, the museums and the aquarium, with waterproofs for the Bryggen alleys.",
+      11: "Dark, mild and soaking at around 7C, among the leanest months for visitors as the light fades fast and many boat trips stop. Prices are at their lowest and the museums are empty; come only if you do not mind constant rain and short days.",
+      12: "Wet and mild at around 5C rather than snowy, with the shortest daylight of the year and Christmas lights along the harbour. A Christmas market sets up on the main square in the run-up to the holidays, and the Floibanen runs year-round for a dark-afternoon view over the lit city.",
+    },
+    climate: {
+      1: { highC: 4, lowC: 0, rainyDays: 19 },
+      2: { highC: 5, lowC: 0, rainyDays: 15 },
+      3: { highC: 7, lowC: 1, rainyDays: 17 },
+      4: { highC: 10, lowC: 3, rainyDays: 15 },
+      5: { highC: 14, lowC: 7, rainyDays: 15 },
+      6: { highC: 17, lowC: 10, rainyDays: 14 },
+      7: { highC: 18, lowC: 12, rainyDays: 16 },
+      8: { highC: 18, lowC: 12, rainyDays: 18 },
+      9: { highC: 15, lowC: 9, rainyDays: 20 },
+      10: { highC: 11, lowC: 6, rainyDays: 21 },
+      11: { highC: 7, lowC: 3, rainyDays: 20 },
+      12: { highC: 5, lowC: 1, rainyDays: 19 },
+    },
+    budgetLevel: "high",
+    budgetPerDay: { budget: 80, mid: 150, high: 280 },
+    tagline:
+      "The colourful Hanseatic wharf and rainy fjord gateway between seven mountains.",
+    heroIntro:
+      "Bergen is Norway's second city and the gateway to the western fjords, a rainy port strung along a sheltered harbour between seven green mountains. Its heart is the UNESCO-listed Bryggen wharf, a row of crooked coloured wooden Hanseatic houses laced with creaking alleys, with the open-air Fish Market on the water just across the harbour. From the centre the Floibanen funicular hauls you up Mount Floyen for the classic view over the rooftops, the fjords and the peaks. This is a mild but famously wet place, the birthplace of composer Edvard Grieg and the departure point for Naeroyfjord cruises and the scenic Bergen Railway down from Oslo. This guide splits two or three days so you get Bryggen and the harbour, Floyen and the museums, and, with a third day, a fjord trip.",
+    accent: { from: "#2E5E7A", to: "#C25B3A", ink: "#1E2A30" },
+    neighborhoodSlugs: [
+      "sentrum-bryggen",
+      "nordnes",
+      "sandviken",
+      "fjellveien-floyen",
+      "mohlenpris",
+    ],
+    nearbyCitySlugs: ["oslo"],
+  },
+  neighborhoods: [
+    {
+      slug: "sentrum-bryggen",
+      citySlug: "bergen",
+      name: "Sentrum and Bryggen",
+      lat: 60.3950,
+      lng: 5.3240,
+      bestFor: ["first-time", "romantic"],
+      vibe: "The centre gathers around the Bryggen wharf, the harbour known as Vagen and the Fish Market, with the Floibanen station, the museums and the shops all a short flat walk apart. It is the obvious base on a first, short trip, atmospheric by the water and lively when the cruise ships are in. Stay here to have everything on your doorstep and the funicular minutes away.",
+      pros: [
+        "Every headline sight, from Bryggen to the Fish Market and the funicular, on foot",
+        "The best base for a tight two-day trip with no transport needed",
+        "Harbourside setting with the ferries, the shops and the restaurants close by",
+      ],
+      cons: [
+        "Cruise crowds swamp Bryggen and the Fish Market on summer mornings",
+        "The priciest rooms in an already expensive city",
+        "Some central streets fall quiet out of season and after the day trippers leave",
+      ],
+    },
+    {
+      slug: "nordnes",
+      citySlug: "bergen",
+      name: "Nordnes",
+      lat: 60.3990,
+      lng: 5.3080,
+      bestFor: ["local", "romantic"],
+      vibe: "Nordnes is the leafy peninsula that reaches out west of the centre, a quiet grid of old white wooden houses ending at the sea baths and the aquarium at its tip. It is residential and calm, a pleasant 15-minute walk from Bryggen along the harbour. Base here for a more local, romantic stay within easy reach of the centre.",
+      pros: [
+        "Quiet streets of pretty white wooden houses away from the crowds",
+        "The sea baths and the Bergen Aquarium at the end of the peninsula",
+        "An easy, scenic 15-minute walk into the centre along the water",
+      ],
+      cons: [
+        "Residential, with few sights or restaurants of its own",
+        "Uphill in parts, so wheeled luggage is a chore",
+        "Spread out, so you walk a fair way to reach the centre and back",
+      ],
+    },
+    {
+      slug: "sandviken",
+      citySlug: "bergen",
+      name: "Sandviken",
+      lat: 60.4080,
+      lng: 5.3170,
+      bestFor: ["local", "family"],
+      vibe: "Sandviken is the old wooden harbourside district just north of Bryggen, a string of white timber warehouses and homes above little boat-lined coves, with the open-air Gamle Bergen museum at its far end. It is quiet, characterful and genuinely lived-in, a calmer alternative to the centre. Base here for a local, family-friendly stay with the water and the old houses on the doorstep.",
+      pros: [
+        "Handsome old wooden harbour district with Gamle Bergen at its edge",
+        "Quiet, residential and good for families away from the cruise crowds",
+        "Pretty coves and boat harbours for an evening stroll",
+      ],
+      cons: [
+        "About 20 minutes from the centre on foot or a short bus ride",
+        "Quiet at night, with little in the way of restaurants or bars",
+        "Hilly streets that make getting around on foot harder work",
+      ],
+    },
+    {
+      slug: "fjellveien-floyen",
+      citySlug: "bergen",
+      name: "Fjellveien and the Floyen slopes",
+      lat: 60.3980,
+      lng: 5.3350,
+      bestFor: ["romantic", "local"],
+      vibe: "The hillside lanes below Mount Floyen climb steeply above the centre, with the Fjellveien walking path traversing the slope and the best rooftop views in the city. It is residential and green, threaded with trails up into the forest. Base here for the views and the walking, accepting that you will climb to reach it.",
+      pros: [
+        "The finest views over the harbour and the seven mountains",
+        "Walking trails and the Fjellveien path straight from the door",
+        "Quiet, green and residential, minutes above the centre",
+      ],
+      cons: [
+        "A steep climb up from the centre every time you return",
+        "Almost no shops or restaurants on the slope itself",
+        "Purely residential, so you head down for anything to eat or drink",
+      ],
+    },
+    {
+      slug: "mohlenpris",
+      citySlug: "bergen",
+      name: "Mohlenpris and Nygard",
+      lat: 60.3870,
+      lng: 5.3200,
+      bestFor: ["budget", "local"],
+      vibe: "Mohlenpris and neighbouring Nygard make up the student and arty quarter around the university, west of the centre, with cheaper cafes, bars and a young crowd. It is a workaday, unpolished part of town rather than a pretty one, but it is the best bet for value. Base here to save money and eat where the students do.",
+      pros: [
+        "The cheaper eats and bars near the university, a rare thing in Bergen",
+        "A young, local, arty feel with a student crowd",
+        "Walkable to the centre and the KODE museums by the lake",
+      ],
+      cons: [
+        "A 15-minute walk to Bryggen and the harbour sights",
+        "Workaday and plain rather than scenic",
+        "Thin on actual sights, so it is a base rather than a destination",
+      ],
+    },
+  ],
+  pois: [
+    {
+      slug: "bryggen-wharf",
+      citySlug: "bergen",
+      name: "Bryggen Wharf",
+      lat: 60.3975,
+      lng: 5.3240,
+      kind: "sight",
+      needsBooking: false,
+      tip: "The UNESCO Hanseatic wharf of leaning coloured wooden houses is free and always open, and the real find is the warren of narrow wooden passages behind the harbour facade, easy to miss from the front. Walk it early, before the mid-morning cruise crowds arrive, both for photos and to have the creaking alleys to yourself; the timber is a fire and weather survivor rebuilt many times, so tread gently and mind the uneven boards.",
+    },
+    {
+      slug: "floibanen-floyen",
+      citySlug: "bergen",
+      name: "Floibanen Funicular and Mount Floyen",
+      lat: 60.3970,
+      lng: 5.3300,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "The Floibanen funicular climbs from a station a couple of minutes behind the Fish Market up Mount Floyen in about eight minutes for the panorama over the seven mountains, plus trails and a children's troll forest at the top. Buy a return online or at the lower station to skip the peak-hour queue, and go late in the afternoon when the cruise crowds have thinned; walking back down the marked path is free and takes about 45 minutes.",
+    },
+    {
+      slug: "fish-market-torget",
+      citySlug: "bergen",
+      name: "The Fish Market (Torget)",
+      lat: 60.3945,
+      lng: 5.3255,
+      kind: "food",
+      needsBooking: false,
+      tip: "The harbourside Fish Market, or Torget, sells seafood, fish soup, salmon and the odd whale or reindeer sample from a row of stalls, with an indoor hall alongside for wet-weather days. It is squarely aimed at visitors and prices are steep even by Bergen standards, so treat it as a lunch splurge rather than a bargain; ask the price per portion before you order, as the eye-watering totals come from buying by weight.",
+    },
+    {
+      slug: "hanseatic-bryggens-museum",
+      citySlug: "bergen",
+      name: "Hanseatic Museum and Bryggens Museum",
+      lat: 60.3980,
+      lng: 5.3230,
+      kind: "museum",
+      needsBooking: false,
+      tip: "These two museums tell the Bryggen story: the Hanseatic Museum is a preserved German merchants' trading house of dim wooden rooms, while Bryggens Museum sits over the medieval foundations dug up after a fire. Check the opening hours before you go, as the historic Hanseatic house has had spells closed for restoration and sometimes shows in temporary quarters; a combined ticket covers both, and an hour each is plenty.",
+    },
+    {
+      slug: "mount-ulriken",
+      citySlug: "bergen",
+      name: "Mount Ulriken Cable Car",
+      lat: 60.3760,
+      lng: 5.3820,
+      kind: "viewpoint",
+      needsBooking: false,
+      tip: "The Ulriken cable car rises to the highest of the seven mountains at 643m, a bigger, wilder view than Floyen and the start of the classic ridge hike across to it. It sits a few kilometres from the centre, so take the local bus or the seasonal shuttle bus that runs from the Fish Market with a combined ticket; check the wind, as the cable car closes in strong gusts, and allow four to five hours if you plan to walk the Vidden ridge to Floyen.",
+    },
+    {
+      slug: "fjord-cruise-nutshell",
+      citySlug: "bergen",
+      name: "Fjord Cruise and Norway in a Nutshell",
+      lat: 60.3945,
+      lng: 5.3220,
+      kind: "experience",
+      needsBooking: true,
+      tip: "The headline day trip is a cruise into the narrow UNESCO Naeroyfjord, often combined with the steep Flam railway as the Norway in a Nutshell route out and back from Bergen in a long day. Book the fjord cruise or the Nutshell package online well ahead in summer, as boats and trains sell out; the classic loop leaves early from Bergen station and returns in the evening, so it eats a whole day and costs a fair amount, but it is the reason many people come.",
+    },
+    {
+      slug: "fantoft-stave-church",
+      citySlug: "bergen",
+      name: "Fantoft Stave Church",
+      lat: 60.3320,
+      lng: 5.3400,
+      kind: "sight",
+      needsBooking: false,
+      tip: "This dark, dragon-gabled wooden stave church stands in trees south of the centre, a faithful reconstruction after the medieval original was burned down by an arsonist in 1992. Take the Bybanen light rail toward the airport and get off at Fantoft, then walk about ten minutes uphill through the woods; it only opens to visitors from around mid-May to mid-September and charges a small cash entry, so check the season before making the trip.",
+    },
+    {
+      slug: "kode-art-museums",
+      citySlug: "bergen",
+      name: "KODE Art Museums",
+      lat: 60.3920,
+      lng: 5.3320,
+      kind: "museum",
+      needsBooking: false,
+      tip: "KODE spreads Norwegian art, design and a strong showing of Edvard Munch across four buildings lined up along the city lake, Lille Lungegardsvann, a couple of minutes from the centre. One ticket covers all four houses for two days, so it is easy to dip in around the rain; check which buildings are open on the day, as they rotate, and do not miss the Grieg-linked composers' villas that KODE also runs outside town.",
+    },
+    {
+      slug: "gamle-bergen",
+      citySlug: "bergen",
+      name: "Gamle Bergen (Old Bergen)",
+      lat: 60.4130,
+      lng: 5.3120,
+      kind: "museum",
+      needsBooking: false,
+      tip: "Gamle Bergen is an open-air museum in Sandviken made of around 50 old wooden Bergen houses moved here and laid out as period streets, with costumed guides in summer. It only opens for the summer season, roughly mid-May to early September, and you see the interiors on a guided tour included with the ticket; take the bus north from the centre or walk the harbour, and go on a dry day as it is all outdoors.",
+    },
+    {
+      slug: "nordnes-aquarium",
+      citySlug: "bergen",
+      name: "Nordnes and the Aquarium",
+      lat: 60.3990,
+      lng: 5.3040,
+      kind: "experience",
+      needsBooking: false,
+      tip: "The leafy Nordnes peninsula ends in a park with open-air sea baths and the Bergen Aquarium, one of the better wet-weather options with penguins, seals and cold-water tanks. Walk out along the harbour from the centre in about 15 minutes, or take the little harbour ferry across from the Fish Market in summer for a cheap mini-cruise; the aquarium charges a full entry fee, so it is best value with children or on a washout day.",
+    },
+    {
+      slug: "norwegian-seafood-food",
+      citySlug: "bergen",
+      name: "Norwegian Seafood and Skillingsboller",
+      lat: 60.3945,
+      lng: 5.3245,
+      kind: "food",
+      needsBooking: false,
+      tip: "Bergen's food to seek out is fresh seafood, fishcakes from the delis and the skillingsbolle, the big local cinnamon bun that is the city's own sweet. Buy fishcakes by weight at a fish shop or deli for a cheap lunch, and get a warm skillingsbolle from a bakery mid-afternoon; eating out at restaurants is genuinely expensive here, so self-catering a picnic from a supermarket is how locals keep the cost down.",
+    },
+    {
+      slug: "bergen-railway-flam",
+      citySlug: "bergen",
+      name: "The Bergen Railway",
+      lat: 60.3900,
+      lng: 5.3330,
+      kind: "experience",
+      needsBooking: true,
+      tip: "The Bergen Railway from Bergen to Oslo is one of the great scenic train rides, climbing over the bare Hardangervidda plateau, with the steep Flam branch line dropping down toward the fjords partway along. Book seats in advance on the national rail site for the cheapest fares, and sit on the correct side for the best of the scenery; even a return as far as Voss or Myrdal makes a rewarding half or full day out of Bergen if you do not go all the way to Oslo.",
+    },
+    {
+      slug: "floyen-troll-forest",
+      citySlug: "bergen",
+      name: "Floyen Forest and Trails",
+      lat: 60.4010,
+      lng: 5.3400,
+      kind: "park",
+      needsBooking: false,
+      tip: "At the top of the funicular, Mount Floyen opens into free forest, a small lake and a network of marked walking trails, plus wooden trolls hidden along a children's path in the woods. Bring proper footwear and a waterproof, as the paths turn muddy fast after the frequent rain; the loop around the lake takes under an hour, and you can walk all the way back down to the centre rather than riding the funicular twice.",
+    },
+  ],
+  itineraries: [
+    {
+      citySlug: "bergen",
+      days: 2,
+      summary:
+        "Two full days covers the core of Bergen comfortably. The centre is compact and flat, so the Bryggen wharf and its museums, the Fish Market, the Floibanen funicular up Mount Floyen, the KODE galleries by the lake and the aquarium out on Nordnes all fit without a rush. Base yourself in the centre around Bryggen so everything is a short walk and the funicular is minutes away. Day one takes Bryggen and the Hanseatic Museum first thing before the cruise crowds, the Fish Market for lunch, then the funicular up Floyen for the view. Day two does the KODE museums, a walk out to Nordnes and the aquarium, and an evening of Norwegian seafood. The one thing to remember is that it rains in any month here, so pack a proper waterproof and keep the museums and the aquarium as wet-weather fallbacks. Norway is expensive, so a picnic of fishcakes and a skillingsbolle bun keeps lunch cheap. For a fjord cruise or Mount Ulriken, add the third day.",
+      stayNeighborhoodSlug: "sentrum-bryggen",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "Bryggen, the Fish Market and Mount Floyen",
+          morning: [
+            {
+              poiSlug: "bryggen-wharf",
+              text: "Start early on the Bryggen wharf while it is quiet, walking the coloured house fronts and then slipping into the narrow wooden passages behind them before the cruise crowds arrive. The alleys are the real find and the light is best now for photos.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "hanseatic-bryggens-museum",
+              text: "Duck into the Hanseatic Museum and Bryggens Museum to fill in the story of the German merchants and the medieval wharf beneath your feet. Check the hours first, as the historic trading house has had restoration closures, and an hour each is plenty.",
+              durationMin: 90,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "fish-market-torget",
+              text: "Cross the harbour to the Fish Market for lunch of fish soup or salmon, treating it as a visitor splurge rather than a bargain. Ask the price per portion before ordering, as the big totals come from buying by weight.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "floibanen-floyen",
+              text: "Take the Floibanen funicular up Mount Floyen for the panorama over the seven mountains and the fjords. Buy the return at the station or online to skip the queue, and go now in the afternoon once the cruise crowds have thinned.",
+              durationMin: 120,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "norwegian-seafood-food",
+              text: "Come back down for an evening of Bergen food, seeking out fresh seafood and fishcakes from a deli or a harbour restaurant. Eating out is genuinely expensive here, so a picnic bought from a supermarket is how locals keep it affordable.",
+              durationMin: 90,
+            },
+            {
+              text: "Round off the night with a stroll along the lit harbour and the Bryggen front, quiet and atmospheric once the day trippers have gone. Bring the waterproof, as a shower is never far away whatever the month.",
+              durationMin: 45,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "The KODE museums, Nordnes and seafood",
+          morning: [
+            {
+              poiSlug: "kode-art-museums",
+              text: "Spend the morning at the KODE art museums strung along the city lake, taking in Norwegian art and the strong room of Edvard Munch. One ticket covers all four houses for two days, so it is an easy place to shelter if the rain sets in; check which buildings are open today.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "norwegian-seafood-food",
+              text: "Pick up a warm skillingsbolle, the local cinnamon bun, from a bakery as a mid-morning snack on the way west. It is Bergen's own sweet and a cheap treat in a pricey city.",
+              durationMin: 30,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "nordnes-aquarium",
+              text: "Walk out along the harbour to the leafy Nordnes peninsula and the Bergen Aquarium at its tip, a solid wet-weather stop with penguins, seals and cold-water tanks. In summer you can take the little harbour ferry across from the Fish Market instead for a cheap mini-cruise.",
+              durationMin: 120,
+            },
+            {
+              text: "Wander back through the quiet white wooden streets of Nordnes, past the sea baths and the small parks, at an easy pace. It is a calm, local corner a world away from the cruise crowds at Bryggen.",
+              durationMin: 60,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "fish-market-torget",
+              text: "Head back toward the centre for a last seafood dinner near the harbour, the indoor Fish Market hall a good bet if the weather has turned. Order carefully, as prices climb fast, and treat it as the trip's splurge.",
+              durationMin: 90,
+            },
+            {
+              text: "Finish with a short walk back along Bryggen, catching the wharf lit up after dark. If tomorrow is an early flight, remember the Bybanen light rail runs from Byparken out to Flesland airport in about 45 minutes for around 40 NOK.",
+              durationMin: 45,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      citySlug: "bergen",
+      days: 3,
+      summary:
+        "Three days is the relaxed amount for Bergen: the same walkable centre as the two-day trip, plus a full day for a fjord cruise or the mountains. The first two days take Bryggen and its museums, the Fish Market, the Floibanen up Mount Floyen, the KODE galleries and Nordnes with its aquarium, all on foot from a central base around Bryggen. The third day buys you the big day out, either a fjord cruise into the narrow Naeroyfjord and the Flam railway on the Norway in a Nutshell route, or the Ulriken cable car and a ridge walk paired with the open-air Gamle Bergen museum in Sandviken. Book the fjord cruise or the Nutshell package online well ahead in summer, as boats and trains sell out. Remember it rains in any month, so pack a proper waterproof and keep indoor options in reserve, and that Norway is expensive, so picnics of fishcakes and skillingsbolle buns keep the daily cost down.",
+      stayNeighborhoodSlug: "sentrum-bryggen",
+      dayPlans: [
+        {
+          dayNumber: 1,
+          theme: "Bryggen, the Fish Market and Mount Floyen",
+          morning: [
+            {
+              poiSlug: "bryggen-wharf",
+              text: "Begin on the Bryggen wharf early, before the cruise ships disgorge, walking the coloured facades and then the hidden wooden passages behind them. The morning light and the empty alleys are the best of it.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "hanseatic-bryggens-museum",
+              text: "Visit the Hanseatic Museum and Bryggens Museum to understand the German merchants and the medieval wharf beneath. Check the opening hours first, as the historic trading house has closed for restoration in the past.",
+              durationMin: 90,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "fish-market-torget",
+              text: "Have lunch at the harbourside Fish Market, a visitor splurge of fish soup or salmon rather than a bargain. Ask the price per portion first, as buying by weight is where the big bills come from.",
+              durationMin: 60,
+            },
+            {
+              poiSlug: "floibanen-floyen",
+              text: "Ride the Floibanen funicular up Mount Floyen for the view over the seven mountains, buying the return at the station to skip the queue. Go in the afternoon once the crowds thin, and you can walk the free path back down in about 45 minutes.",
+              durationMin: 120,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "norwegian-seafood-food",
+              text: "Track down fresh seafood and fishcakes for dinner from a deli or a harbour spot. Restaurants are dear here, so a supermarket picnic is the local way to keep the evening cheap.",
+              durationMin: 90,
+            },
+            {
+              text: "Take a slow stroll along the floodlit harbour and Bryggen front once the day trippers have left. Keep the waterproof on you, as a shower can arrive in any month.",
+              durationMin: 45,
+            },
+          ],
+        },
+        {
+          dayNumber: 2,
+          theme: "The KODE museums, Nordnes and the aquarium",
+          morning: [
+            {
+              poiSlug: "kode-art-museums",
+              text: "Work through the KODE art museums along the city lake, from Norwegian painting to the room of Edvard Munch. The single ticket covers all four houses over two days, handy shelter if the rain comes in; check which are open today.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "norwegian-seafood-food",
+              text: "Grab a warm skillingsbolle, the Bergen cinnamon bun, from a bakery as you move on, a cheap treat that is the city's own sweet.",
+              durationMin: 30,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "nordnes-aquarium",
+              text: "Walk out to the Nordnes peninsula and the Bergen Aquarium, a reliable wet-weather stop with penguins, seals and cold-water tanks. In summer the little harbour ferry from the Fish Market makes a cheap way across.",
+              durationMin: 120,
+            },
+            {
+              text: "Amble back through the quiet white wooden lanes of Nordnes, past the sea baths and the harbour. It is a calm, local counterpoint to the crowds around Bryggen.",
+              durationMin: 60,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "norwegian-seafood-food",
+              text: "Eat seafood again near the harbour for the last centre night, choosing carefully as prices climb fast. Treat one restaurant meal as the trip's splurge and picnic the rest.",
+              durationMin: 90,
+            },
+            {
+              text: "Turn in early if you are taking a fjord cruise or the Norway in a Nutshell loop tomorrow, as both leave from Bergen station first thing. Have your booking and the departure time ready.",
+              durationMin: 30,
+            },
+          ],
+        },
+        {
+          dayNumber: 3,
+          theme: "A fjord cruise, or Ulriken and Gamle Bergen",
+          morning: [
+            {
+              poiSlug: "fjord-cruise-nutshell",
+              text: "Take the day out to the fjords: a cruise into the narrow UNESCO Naeroyfjord, often paired with the steep Flam railway on the Norway in a Nutshell loop from Bergen station. Book online well ahead in summer, as boats and trains sell out, and expect it to fill the whole day.",
+              durationMin: 240,
+            },
+            {
+              poiSlug: "mount-ulriken",
+              text: "Alternatively, ride the Ulriken cable car up the highest of the seven mountains for the biggest view, and start the Vidden ridge walk across toward Floyen if the weather holds. Take the shuttle bus from the Fish Market, and check the wind, as the cable car closes in strong gusts.",
+              durationMin: 180,
+            },
+          ],
+          afternoon: [
+            {
+              poiSlug: "gamle-bergen",
+              text: "If you stayed in town, spend the afternoon at Gamle Bergen in Sandviken, an open-air museum of old wooden houses laid out as period streets with costumed guides. It only opens in summer, and you see the interiors on a guided tour, so check the season and go on a dry day.",
+              durationMin: 120,
+            },
+            {
+              poiSlug: "floyen-troll-forest",
+              text: "Otherwise, if the fjord trip returns early, walk the free forest, lake and troll trail at the top of Floyen. Bring proper footwear, as the paths turn muddy fast after the frequent rain, and walk back down to the centre instead of riding twice.",
+              durationMin: 90,
+            },
+          ],
+          evening: [
+            {
+              poiSlug: "norwegian-seafood-food",
+              text: "Round off the trip with a final seafood dinner or a picnic of fishcakes by the harbour, watching the boats and the light. Norway is expensive, so keeping one meal a splurge and the rest self-catered is the way to end without a shock.",
+              durationMin: 90,
+            },
+            {
+              text: "If tomorrow is an early flight, remember Flesland airport is about 12km south: the Bybanen light rail from Byparken takes about 45 minutes for around 40 NOK, or the Flybussen coach about 30 minutes.",
+              durationMin: 30,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export default bergen;
