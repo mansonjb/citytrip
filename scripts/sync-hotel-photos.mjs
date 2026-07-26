@@ -81,6 +81,10 @@ const QUERY_OVERRIDE = {
   "empire-riverside-hotel-hamburg":
     "Empire Riverside Hotel Hamburg Bernhard-Nocht-Strasse St Pauli",
   "superbude-st-pauli-hamburg": "Superbude St. Pauli Hamburg Juliusstrasse",
+  "gran-hotel-domine-bilbao": "Gran Hotel Domine Bilbao Alameda Mazarredo",
+  "hotel-carlton-bilbao": "Hotel Carlton Bilbao Plaza Moyua",
+  "hotel-tayko-bilbao": "Tayko Bilbao Calle Ribera",
+  "quartier-bilbao-hostel": "Quartier Bilbao Hostel Bilbao la Vieja",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -142,6 +146,7 @@ const CITY_NAME = {
   lyon: "Lyon France",
   salzburg: "Salzburg Austria",
   hamburg: "Hamburg Germany",
+  bilbao: "Bilbao Spain",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

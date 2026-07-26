@@ -815,6 +815,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Alster lakes",
     ],
   },
+  bilbao: {
+    citySlug: "bilbao",
+    image: hero(38001762),
+    imageAlt:
+      "The Guggenheim Museum's titanium curves on the Nervion river in Bilbao, the Iberdrola Tower behind",
+    history:
+      "Bilbao grew rich in the 19th century on the iron ore of its Biscay hills, becoming one of Spain's great shipbuilding and steel powerhouses, its river packed with foundries, cranes and blast furnaces. When heavy industry collapsed in the 1980s the city was left grey, polluted and jobless, its port in ruins and the Nervion an open sewer. The 1997 opening of Frank Gehry's Guggenheim sparked what planners now call the Bilbao effect, a wholesale regeneration that cleaned the river, tore out the old docks and added Norman Foster's sleek metro and a Santiago Calatrava airport, turning a rust-belt city into a design pilgrimage. Today it is the proud Basque capital of the province of Biscay, defined as much by its cooking and its Athletic Bilbao football club as by the museum that saved it.",
+    knownFor: [
+      "Guggenheim Museum",
+      "Pintxos",
+      "Casco Viejo",
+      "Basque cuisine",
+      "Nervion riverfront",
+      "Athletic Bilbao",
+    ],
+  },
 };
 
 export default extrasEn;

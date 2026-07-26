@@ -2935,6 +2935,63 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Bright budget hotel room with bunk beds and colourful decor",
   },
+  // ---- Bilbao ----
+  {
+    slug: "gran-hotel-domine-bilbao",
+    citySlug: "bilbao",
+    name: "The Artist Grand Hotel of Art",
+    neighborhoodSlug: "abando-ensanche",
+    band: "€€€",
+    priceFrom: 220,
+    style: "Design hotel facing the Guggenheim",
+    bestFor: "Special occasions",
+    blurb:
+      "A playful design hotel by Javier Mariscal set directly opposite the Guggenheim, its atrium built around a tall column of stacked pebbles. The rooftop terrace and many of the front rooms look straight across at Gehry's titanium museum.",
+    image: px(262048),
+    imageAlt: "Stylish design hotel room with museum views",
+  },
+  {
+    slug: "hotel-carlton-bilbao",
+    citySlug: "bilbao",
+    name: "Hotel Carlton",
+    neighborhoodSlug: "abando-ensanche",
+    band: "€€",
+    priceFrom: 150,
+    style: "Grand belle-epoque hotel",
+    bestFor: "First visit",
+    blurb:
+      "The historic 1926 grand hotel on the circular Plaza Moyua, crowned by a stained-glass domed lobby and once home to visiting artists and heads of state. It sits central to everything, a flat walk from both the Guggenheim and the old town.",
+    image: px(1267438),
+    imageAlt: "Classic grand hotel room with period detail",
+  },
+  {
+    slug: "hotel-tayko-bilbao",
+    citySlug: "bilbao",
+    name: "Tayko Bilbao",
+    neighborhoodSlug: "casco-viejo",
+    band: "€€",
+    priceFrom: 130,
+    style: "Old town design hotel",
+    bestFor: "Couples",
+    blurb:
+      "A design hotel carved out of a restored heritage building in the Casco Viejo, near the cathedral and the Ribera market. Exposed old stone and beams meet contemporary rooms, with the pintxos bars a step from the door.",
+    image: px(2507010),
+    imageAlt: "Warm design hotel room in a restored building",
+  },
+  {
+    slug: "quartier-bilbao-hostel",
+    citySlug: "bilbao",
+    name: "Quartier Bilbao Hostel",
+    neighborhoodSlug: "bilbao-la-vieja",
+    band: "€",
+    priceFrom: 24,
+    style: "Riverside design hostel",
+    bestFor: "Budget",
+    blurb:
+      "A bright, design-led hostel in the arty Bilbao la Vieja district by the river, mixing dorms with private rooms. The location puts the cheap ethnic restaurants and music bars of San Francisco on the doorstep and the old town over the bridge.",
+    image: px(271624),
+    imageAlt: "Bright modern hostel dorm room",
+  },
 ];
 
 export default hotelsEn;
