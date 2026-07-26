@@ -50,6 +50,10 @@ const QUERY_OVERRIDE = {
   "art-hotel-novecento-bologna": "Art Hotel Novecento Piazza Galilei 4 Bologna",
   "hotel-touring-bologna": "Hotel Touring Bologna Via de Mattuiani",
   "dopa-hostel-bologna": "Dopa Hostel Bologna Via Irnerio",
+  "esplanade-zagreb": "Esplanade Zagreb Hotel Mihanoviceva 1 Zagreb",
+  "hotel-jagerhorn-zagreb": "Hotel Jagerhorn Ilica 14 Zagreb",
+  "canopy-hilton-zagreb": "Canopy by Hilton Zagreb City Centre Branimirova",
+  "swanky-mint-hostel-zagreb": "Swanky Mint Hostel Ilica 50 Zagreb",
   "square-nine-belgrade": "Square Nine Hotel Belgrade Studentski Trg",
   "hotel-moskva-belgrade": "Hotel Moskva Belgrade Terazije",
   "mama-shelter-belgrade": "Mama Shelter Belgrade Knez Mihailova",
@@ -152,6 +156,7 @@ const CITY_NAME = {
   hamburg: "Hamburg Germany",
   bilbao: "Bilbao Spain",
   bergen: "Bergen Norway",
+  zagreb: "Zagreb Croatia",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---

@@ -3049,6 +3049,64 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Bright simple budget hotel room",
   },
+
+  // ---- Zagreb ----
+  {
+    slug: "esplanade-zagreb",
+    citySlug: "zagreb",
+    name: "Esplanade Zagreb Hotel",
+    neighborhoodSlug: "donji-grad",
+    band: "€€€",
+    priceFrom: 190,
+    style: "Art deco grand hotel",
+    bestFor: "Couples",
+    blurb:
+      "Opened in 1925 to put up Orient Express passengers breaking their journey between Paris and Istanbul, and still the address every Zagreb local names first. It sits directly across from the main train station, so the Lower Town museums and Ban Jelacic square are a flat ten-minute walk.",
+    image: px(262048),
+    imageAlt: "Elegant art deco hotel interior with marble and chandeliers",
+  },
+  {
+    slug: "hotel-jagerhorn-zagreb",
+    citySlug: "zagreb",
+    name: "Hotel Jagerhorn",
+    neighborhoodSlug: "gornji-grad",
+    band: "€€",
+    priceFrom: 120,
+    style: "Oldest hotel in town",
+    bestFor: "First visit",
+    blurb:
+      "Zagreb's oldest hotel, trading since 1827, hidden up a passage off Ilica with a terrace backing straight onto the wooded Gradec slope. Rooms are small and plain, but you step out of the door onto the main street and are under the Upper Town in two minutes.",
+    image: px(1267438),
+    imageAlt: "Small traditional hotel room with wooden furniture",
+  },
+  {
+    slug: "canopy-hilton-zagreb",
+    citySlug: "zagreb",
+    name: "Canopy by Hilton Zagreb City Centre",
+    neighborhoodSlug: "donji-grad",
+    band: "€€",
+    priceFrom: 140,
+    style: "Design hotel with a garden",
+    bestFor: "Design lovers",
+    blurb:
+      "A bright contemporary hotel built around a planted interior courtyard on Branimirova, a few minutes east of the train station. The ground-floor bar and bakery pull in as many Zagreb residents as guests, which is a fair test of a city-centre hotel.",
+    image: px(2507010),
+    imageAlt: "Modern hotel room with large windows and warm wood tones",
+  },
+  {
+    slug: "swanky-mint-hostel-zagreb",
+    citySlug: "zagreb",
+    name: "Swanky Mint Hostel",
+    neighborhoodSlug: "britanski-trg",
+    band: "€",
+    priceFrom: 35,
+    style: "Converted dye factory",
+    bestFor: "Budget",
+    blurb:
+      "Set in a 19th-century textile dyeing and mint factory on Ilica, with the old machinery left in place around a courtyard bar and a small plunge pool. Dorms and private rooms sit above one of the livelier hostel bars in the city, so ask for a courtyard-facing room if you want quiet.",
+    image: px(271624),
+    imageAlt: "Bright hostel dorm room with bunk beds",
+  },
 ];
 
 export default hotelsEn;

@@ -847,6 +847,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Edvard Grieg",
     ],
   },
+  zagreb: {
+    citySlug: "zagreb",
+    image: hero(14133543),
+    imageAlt:
+      "St Mark's Church in Zagreb's Upper Town, its tiled roof showing the coats of arms of Croatia and the city",
+    history:
+      "Zagreb began as two rival hilltop settlements, the bishop's town of Kaptol and the free royal town of Gradec, separated by a stream that the locals nicknamed the Bloody Bridge after the fights that crossed it. The two were only merged into a single city in 1850, which is why the compact Upper Town still reads as two distinct quarters today. An earthquake in 1880 wrecked much of the centre and triggered the great rebuilding that produced the Lower Town's museums, parks and Austro-Hungarian facades, laid out in the U-shaped chain of squares known as Lenuci's Green Horseshoe. Capital of independent Croatia since 1991, the city was shaken again in March 2020 by a 5.5-magnitude quake that toppled one of the cathedral's spires, and restoration scaffolding has been part of the skyline ever since.",
+    knownFor: [
+      "St Mark's tiled roof",
+      "Museum of Broken Relationships",
+      "Dolac market",
+      "Advent Christmas market",
+      "Blue trams",
+      "Gric cannon at noon",
+    ],
+  },
 };
 
 export default extrasEn;
