@@ -3107,6 +3107,64 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Bright hostel dorm room with bunk beds",
   },
+
+  // ---- Antwerp ----
+  {
+    slug: "botanic-sanctuary-antwerp",
+    citySlug: "antwerp",
+    name: "Botanic Sanctuary Antwerp",
+    neighborhoodSlug: "het-zuid",
+    band: "€€€",
+    priceFrom: 320,
+    style: "Monastery turned five-star",
+    bestFor: "Couples",
+    blurb:
+      "A walled complex of former convent and hospital buildings on Leopoldstraat, converted in 2022 into the city's only five-star hotel with its own herb garden and four restaurants. The botanical garden next door is public and free, and the cathedral is a twelve-minute walk north.",
+    image: px(262048),
+    imageAlt: "Elegant hotel suite with high ceilings and period detailing",
+  },
+  {
+    slug: "hotel-julien-antwerp",
+    citySlug: "antwerp",
+    name: "Hotel Julien",
+    neighborhoodSlug: "historic-centre",
+    band: "€€",
+    priceFrom: 195,
+    style: "Quiet townhouse boutique",
+    bestFor: "Couples",
+    blurb:
+      "Two linked 16th-century houses on Korte Nieuwstraat with a courtyard, an honesty bar and a rooftop terrace that looks straight at the cathedral tower. There is no sign on the door beyond the house number, which tells you how much the owners care about keeping the place quiet.",
+    image: px(1267438),
+    imageAlt: "Calm boutique hotel room with neutral linen and wooden floor",
+  },
+  {
+    slug: "radisson-blu-astrid-antwerp",
+    citySlug: "antwerp",
+    name: "Radisson Blu Hotel, Antwerp City Centre",
+    neighborhoodSlug: "diamond-quarter-centraal",
+    band: "€€",
+    priceFrom: 130,
+    style: "Big reliable station hotel",
+    bestFor: "First visit",
+    blurb:
+      "Long known as the Radisson Blu Astrid, it stands on Koningin Astridplein facing the domed front of Antwerpen-Centraal, so you can be off a Brussels or Amsterdam train and in your room in five minutes. The indoor pool, sauna and gym come with the room and look out over the station roof, with the pool open 7am to 10pm.",
+    image: px(2507010),
+    imageAlt: "Spacious modern hotel room with a city view",
+  },
+  {
+    slug: "pulcinella-hostel-antwerp",
+    citySlug: "antwerp",
+    name: "Youth Hostel Pulcinella",
+    neighborhoodSlug: "historic-centre",
+    band: "€",
+    priceFrom: 32,
+    style: "Official Flemish youth hostel",
+    bestFor: "Budget",
+    blurb:
+      "A purpose-built hostel on Bogaardeplein in the Sint-Andries quarter, two streets from the Plantin-Moretus printing museum and the fashion shops of Nationalestraat. Breakfast is included in the dorm rate, which is rare at this price in Belgium, and there is a bike shed for arrivals on two wheels.",
+    image: px(271624),
+    imageAlt: "Bright hostel dorm room with bunk beds",
+  },
 ];
 
 export default hotelsEn;

@@ -863,6 +863,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Gric cannon at noon",
     ],
   },
+  antwerp: {
+    citySlug: "antwerp",
+    image: hero(34855097),
+    imageAlt:
+      "The single Gothic tower of Antwerp's Cathedral of Our Lady rising above the Scheldt waterfront",
+    history:
+      "Antwerp grew rich because ships could sail deep inland up the Scheldt, and by the middle of the 16th century it was the busiest port and money market in Europe, printing books, cutting diamonds and paying for the paintings of Peter Paul Rubens. That golden century ended in 1585, when Spanish troops took the city and the Dutch republic closed the mouth of the river, cutting the port off from the sea for more than two hundred years and sending its merchants north to Amsterdam. Napoleon reopened the story in 1803 by ordering the first stone docks north of the old centre, the basins you now walk around at Het Eilandje, because he wanted a naval base facing England. The river trade came back in the 19th century along with the diamond trade around Centraal station, and Antwerp today runs the second largest port in Europe while its fashion academy keeps the city's name on shop fronts far from Belgium.",
+    knownFor: [
+      "Peter Paul Rubens",
+      "The diamond district",
+      "Antwerpen-Centraal station",
+      "The Antwerp Six",
+      "Scheldt river port",
+      "Bolleke De Koninck",
+    ],
+  },
 };
 
 export default extrasEn;

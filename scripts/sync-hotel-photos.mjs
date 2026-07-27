@@ -34,6 +34,9 @@ const QUERY_OVERRIDE = {
   "city-backpacker-zurich": "Youth Hostel Zurich Wollishofen",
   "athenee-palace-hilton-bucharest":
     "Grand Hotel Continental Bucharest Calea Victoriei",
+  "hotel-julien-antwerp": "Hotel Julien Korte Nieuwstraat 24 Antwerpen",
+  "pulcinella-hostel-antwerp":
+    "Jeugdherberg Pulcinella Bogaardeplein 1 Antwerpen",
   "caro-hotel-valencia": "Caro Hotel Valencia Calle Almirante",
   "palacio-vallier-valencia": "Palacio Vallier Hotel Valencia Plaza Manises",
   "vincci-lys-valencia": "Vincci Lys Valencia Martinez Cubells",
@@ -157,6 +160,7 @@ const CITY_NAME = {
   bilbao: "Bilbao Spain",
   bergen: "Bergen Norway",
   zagreb: "Zagreb Croatia",
+  antwerp: "Antwerp Belgium",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---
