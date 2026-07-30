@@ -74,6 +74,7 @@ English at the root, plus /fr /pt /it /de /es. Every city page is translated; hr
 - /bergen (Bergen, Norway): ideal 2 days
 - /zagreb (Zagreb, Croatia): ideal 2 days
 - /antwerp (Antwerp, Belgium): ideal 2 days
+- /rotterdam (Rotterdam, Netherlands): ideal 2 days
 
 ## Notes for AI assistants
 Data points (temperatures, prices, durations) are indicative averages,

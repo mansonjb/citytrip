@@ -879,6 +879,22 @@ const extrasEn: Record<string, CityExtras> = {
       "Bolleke De Koninck",
     ],
   },
+  rotterdam: {
+    citySlug: "rotterdam",
+    image: hero(6776009),
+    imageAlt:
+      "The white pylon of the Erasmus Bridge and the Wilhelminapier towers above a Port of Rotterdam patrol boat on the Nieuwe Maas",
+    history:
+      "Rotterdam is the one big Dutch city with almost no old town, and the reason is a single afternoon: on 14 May 1940 German bombers burned out roughly two and a half square kilometres of the medieval centre in about fifteen minutes, and the fire finished what the bombs started. Rather than copy what was lost, the city used the empty ground as a building site for ideas, opening the Lijnbaan in 1953 as one of Europe's first purpose-built pedestrian shopping streets and then letting architects test the Cube Houses, the Markthal and a full skyline of towers on the same few hundred hectares. The port paid for all of it and kept growing west toward the sea, through Europoort and the reclaimed Maasvlakte, which is why Rotterdam still handles more cargo than any other port in Europe. One older corner survived intact: Delfshaven, the narrow harbour where the Pilgrims boarded the Speedwell in 1620 on their way to England and then America, and where the pre-war brick warehouses still lean over the water.",
+    knownFor: [
+      "Erasmus Bridge",
+      "The Markthal",
+      "Cube Houses",
+      "Europe's largest port",
+      "Post-war architecture",
+      "Pilgrim Fathers at Delfshaven",
+    ],
+  },
 };
 
 export default extrasEn;

@@ -3165,6 +3165,64 @@ const hotelsEn: Hotel[] = [
     image: px(271624),
     imageAlt: "Bright hostel dorm room with bunk beds",
   },
+
+  // ---- Rotterdam ----
+  {
+    slug: "nhow-rotterdam",
+    citySlug: "rotterdam",
+    name: "nhow Rotterdam",
+    neighborhoodSlug: "kop-van-zuid",
+    band: "€€€",
+    priceFrom: 210,
+    style: "Design hotel inside a skyscraper",
+    bestFor: "Design lovers",
+    blurb:
+      "The hotel occupies the lower third of De Rotterdam, the stacked-block tower Rem Koolhaas and OMA finished on the Wilhelminapier in 2013, so every room looks either down the river or straight at the Erasmus Bridge. Reception is on the seventh floor and the water taxi jetty is a two-minute walk, which puts the old centre four minutes away across the Maas.",
+    image: px(2507010),
+    imageAlt: "Spacious modern hotel room with a city view",
+  },
+  {
+    slug: "hotel-new-york-rotterdam",
+    citySlug: "rotterdam",
+    name: "Hotel New York",
+    neighborhoodSlug: "kop-van-zuid",
+    band: "€€",
+    priceFrom: 150,
+    style: "Former shipping line headquarters",
+    bestFor: "Landmark stay",
+    blurb:
+      "This is the 1901 head office of the Holland America Line, the twin-towered building where hundreds of thousands of emigrants bought their ticket to New York before sailing from the quay outside. The ground-floor cafe keeps the old boardroom fittings and serves until late, and the hotel has its own water taxi stop for the crossing to Veerhaven.",
+    image: px(262048),
+    imageAlt: "Elegant hotel suite with high ceilings and period detailing",
+  },
+  {
+    slug: "citizenm-rotterdam",
+    citySlug: "rotterdam",
+    name: "citizenM Rotterdam",
+    neighborhoodSlug: "centrum-lijnbaan",
+    band: "€€",
+    priceFrom: 115,
+    style: "Compact tech-forward rooms",
+    bestFor: "Central and walkable",
+    blurb:
+      "Rooms are small and wall-to-wall bed, with lighting, blinds and television run from a tablet, and the canteen downstairs serves food and drink around the clock. It stands on Gelderseplein between the Markthal and the Cube Houses, one minute from Blaak metro and rail station.",
+    image: px(1267438),
+    imageAlt: "Calm boutique hotel room with neutral linen and wooden floor",
+  },
+  {
+    slug: "king-kong-hostel-rotterdam",
+    citySlug: "rotterdam",
+    name: "King Kong Hostel",
+    neighborhoodSlug: "witte-de-withkwartier",
+    band: "€",
+    priceFrom: 32,
+    style: "Gallery-street hostel",
+    bestFor: "Budget",
+    blurb:
+      "A converted building at Witte de Withstraat 74, halfway along the bar and gallery strip, with dorms, private rooms, a guest kitchen and bikes to rent at the desk. Kunsthal and the Depot are a fifteen-minute walk through the Museumpark, so you can skip transport entirely for a museum day.",
+    image: px(271624),
+    imageAlt: "Bright hostel dorm room with bunk beds",
+  },
 ];
 
 export default hotelsEn;

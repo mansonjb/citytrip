@@ -96,6 +96,11 @@ const QUERY_OVERRIDE = {
   "hotel-park-bergen": "Hotel Park Bergen Harald Harfagres gate",
   "thon-hotel-bryggen": "Thon Hotel Orion Bergen Bradbenken",
   "citybox-bergen": "Citybox Bergen City",
+  "nhow-rotterdam": "nhow Rotterdam Hotel Wilhelminakade 137",
+  "hotel-new-york-rotterdam": "Hotel New York Rotterdam Koninginnenhoofd 1",
+  "citizenm-rotterdam": "citizenM Rotterdam Gelderseplein 50",
+  "king-kong-hostel-rotterdam":
+    "King Kong Hostel Rotterdam Witte de Withstraat 74",
 };
 
 // Hotels whose Google Places match is unreliable and always resolves to the
@@ -161,6 +166,7 @@ const CITY_NAME = {
   bergen: "Bergen Norway",
   zagreb: "Zagreb Croatia",
   antwerp: "Antwerp Belgium",
+  rotterdam: "Rotterdam Netherlands",
 };
 
 // --- parse hotels.en.ts for slug / citySlug / name ---
