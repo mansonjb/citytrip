@@ -312,6 +312,43 @@ export function publishedLocales(citySlug: string): Locale[] {
   );
 }
 
+// Data-driven internal linking: the N most-related published cities to a given
+// city, so every hub links out to a dense set (not just the 2-4 hand-picked
+// nearbyCitySlugs) and every city, including EN-first ones, earns inbound links
+// instead of being orphaned. Deterministic: curated-nearby first, then same
+// country, then similar length/budget/tier, alphabetical as the final tiebreak.
+export function relatedCities(
+  citySlug: string,
+  locale: Locale = "en",
+  n = 6
+): City[] {
+  const all = cities(locale);
+  const selfIdx = all.findIndex((c) => c.slug === citySlug);
+  if (selfIdx < 0) return [];
+  const self = all[selfIdx];
+  const len = all.length;
+  const score = (c: City) => {
+    let s = 0;
+    if (self.nearbyCitySlugs.includes(c.slug)) s += 100;
+    if (c.countrySlug === self.countrySlug) s += 40;
+    if (c.idealDays === self.idealDays) s += 8;
+    if (c.budgetLevel === self.budgetLevel) s += 6;
+    if (c.tier === self.tier) s += 3;
+    return s;
+  };
+  // Break score ties by rotation distance from this city (not alphabetically),
+  // so each city fills its low-score slots from a different starting point.
+  // That spreads inbound links evenly and stops late-alphabet, lonely-country
+  // cities from being starved of hub-to-hub links.
+  const rot = (i: number) => (((i - selfIdx) % len) + len) % len;
+  return all
+    .map((c, i) => ({ c, i }))
+    .filter((x) => x.c.slug !== citySlug)
+    .sort((a, b) => score(b.c) - score(a.c) || rot(a.i) - rot(b.i))
+    .slice(0, n)
+    .map((x) => x.c);
+}
+
 export function cities(locale: Locale = "en"): City[] {
   return bundlesByLocale[locale].map((b) => b.city);
 }

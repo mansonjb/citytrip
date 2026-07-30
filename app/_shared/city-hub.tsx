@@ -2,7 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getCityData, getPublishedCity, publishedLocales } from "@/data";
+import {
+  getCityData,
+  getPublishedCity,
+  publishedLocales,
+  relatedCities,
+} from "@/data";
 import { getCityExtras } from "@/data/extras";
 import { getHotels } from "@/data/hotels";
 import { cityVars } from "@/lib/style";
@@ -409,26 +414,16 @@ export function makeCityHubPage(locale: Locale) {
             <div className="rounded-2xl border-2 border-ink bg-paper p-7">
               <p className="label-mono mb-3 text-ink/50">{t.hub.pairsWell}</p>
               <ul className="space-y-2">
-                {city.nearbyCitySlugs.map((s) => {
-                  const nearby = getPublishedCity(s, locale);
-                  return (
-                    <li key={s}>
-                      {nearby ? (
-                        <Link
-                          href={lp(`/${nearby.slug}`)}
-                          className="font-display text-xl font-semibold underline-offset-4 hover:underline"
-                        >
-                          {nearby.name} →
-                        </Link>
-                      ) : (
-                        <span className="font-display text-xl font-semibold text-ink/40">
-                          {s.charAt(0).toUpperCase() + s.slice(1)}{" "}
-                          {t.common.comingSoon}
-                        </span>
-                      )}
-                    </li>
-                  );
-                })}
+                {relatedCities(city.slug, locale, 6).map((rc) => (
+                  <li key={rc.slug}>
+                    <Link
+                      href={lp(`/${rc.slug}`)}
+                      className="font-display text-xl font-semibold underline-offset-4 hover:underline"
+                    >
+                      {rc.name} →
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </section>
