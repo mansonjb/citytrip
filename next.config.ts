@@ -5,8 +5,10 @@ const nextConfig: NextConfig = {
   // links) 301s to the R2 CDN now that the files no longer ship in the
   // deploy. next/image goes through lib/image-loader.js and never hits this.
   async redirects() {
-    const CDN = process.env.NEXT_PUBLIC_IMAGE_CDN;
-    if (!CDN) return [];
+    // Same prod fallback as lib/image-loader.js so straggling /hotels/... URLs
+    // 301 to the R2 CDN even when NEXT_PUBLIC_IMAGE_CDN is unset on the host.
+    const CDN =
+      process.env.NEXT_PUBLIC_IMAGE_CDN || "https://citybreak.samnogroup.com";
     return [{ source: "/hotels/:path*", destination: `${CDN}/hotels/:path*`, permanent: true }];
   },
   images: {
